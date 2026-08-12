@@ -1,6 +1,6 @@
 // ============================================
 // CFA Level I Preparation System — Script
-// v3.0 — JSON-first question renderer
+// v4.0 — JSON-first renderer, no inline-script conflict
 // ============================================
 
 // =========== STATE ===========

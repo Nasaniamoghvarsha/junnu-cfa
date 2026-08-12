@@ -6,10 +6,186 @@
   <title>CFA Level I — Complete Preparation System</title>
   <meta name="description" content="CFA Level I complete preparation system with 729+ interactive questions, mock exams, formula bank, and 222 Learning Outcomes coverage.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=4">
   <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <style>
+    /* Critical inline CSS — always fresh with this HTML */
+    :root {
+      --bg:#0f1117; --bg-secondary:#161822; --bg-tertiary:#1c1f2e;
+      --sidebar-bg:#12141d; --text:#e1e4e8; --text-muted:#8b949e;
+      --text-dim:#6e7681; --accent:#58a6ff; --accent-dim:#1f6feb;
+      --green:#3fb950; --orange:#d2991d; --red:#f85149;
+      --border:#21262d; --border-light:#30363d; --hover:#1c2128;
+      --code-bg:#1a1d2b; --table-stripe:#161822; --shadow:0 4px 24px rgba(0,0,0,0.4);
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif; background:var(--bg); color:var(--text); display:flex; min-height:100vh; line-height:1.6; }
+
+    /* ── SIDEBAR ── */
+    .sidebar { width:300px; min-width:300px; background:var(--sidebar-bg); border-right:1px solid var(--border); display:flex; flex-direction:column; height:100vh; position:sticky; top:0; overflow-y:auto; overflow-x:hidden; z-index:100; transition:transform .3s; }
+    .sidebar-header { padding:20px 18px 12px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; }
+    .sidebar-header h1 { font-size:1.15rem; font-weight:700; color:var(--text); line-height:1.2; }
+    .sidebar-header h1 span { display:block; font-size:.7rem; font-weight:400; color:var(--accent); letter-spacing:.05em; text-transform:uppercase; }
+    .sidebar-toggle, .mobile-menu-btn { display:none; }
+    .sidebar-search { padding:10px 16px; border-bottom:1px solid var(--border); }
+    .sidebar-search input { width:100%; padding:8px 12px; border-radius:6px; border:1px solid var(--border-light); background:var(--bg-tertiary); color:var(--text); font-size:.85rem; outline:none; transition:border-color .2s; }
+    .sidebar-search input:focus { border-color:var(--accent); }
+    .sidebar-search input::placeholder { color:var(--text-dim); }
+    .nav-tree { list-style:none; padding:8px 0; flex:1; overflow-y:auto; }
+    .nav-link { display:flex; align-items:center; gap:8px; padding:7px 18px; color:var(--text-muted); text-decoration:none; font-size:.875rem; transition:all .15s; border-left:3px solid transparent; cursor:pointer; }
+    .nav-link:hover { background:var(--hover); color:var(--text); }
+    .nav-link.active { color:var(--accent); background:rgba(88,166,255,.08); border-left-color:var(--accent); font-weight:500; }
+    .nav-icon { font-size:.9rem; width:20px; text-align:center; }
+    .nav-category { display:flex; align-items:center; gap:8px; padding:8px 18px; color:var(--text); font-size:.85rem; font-weight:600; cursor:pointer; user-select:none; transition:background .15s; letter-spacing:.02em; }
+    .nav-category:hover { background:var(--hover); }
+    .nav-category .arrow { margin-left:auto; font-size:.7rem; transition:transform .2s; color:var(--text-dim); }
+    .nav-category.open .arrow { transform:rotate(-180deg); }
+    .nav-sub { list-style:none; max-height:0; overflow:hidden; transition:max-height .4s ease; }
+    .nav-sub.open { max-height:1000px; }
+    .nav-sub .nav-link { padding-left:44px; font-size:.82rem; }
+    .sidebar-footer { padding:12px 18px; border-top:1px solid var(--border); font-size:.7rem; color:var(--text-dim); display:flex; flex-direction:column; gap:2px; }
+    .sidebar-overlay { display:none; }
+
+    /* ── CONTENT ── */
+    .content { flex:1; display:flex; flex-direction:column; min-width:0; height:100vh; overflow-y:auto; }
+    .content-header { padding:14px 28px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:16px; position:sticky; top:0; background:rgba(15,17,23,0.95); z-index:50; backdrop-filter:blur(12px); }
+    .breadcrumb { font-size:.85rem; color:var(--text-muted); flex:1; }
+    .content-actions { display:flex; gap:8px; }
+    .action-btn { background:var(--bg-tertiary); border:1px solid var(--border-light); color:var(--text-muted); padding:6px 10px; border-radius:6px; cursor:pointer; font-size:.9rem; transition:all .15s; }
+    .action-btn:hover { background:var(--hover); color:var(--text); border-color:var(--text-dim); }
+    .content-body { padding:28px 36px 60px; max-width:900px; counter-reset:q-counter; animation:fadeIn .25s; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+    /* ── CONTENT TYPOGRAPHY ── */
+    .content-body h1 { font-size:1.8rem; font-weight:700; margin:0 0 8px; color:var(--text); padding-bottom:10px; border-bottom:2px solid var(--border); }
+    .content-body h2 { font-size:1.35rem; font-weight:600; margin:36px 0 12px; color:var(--text); padding-bottom:4px; border-bottom:1px solid var(--border); }
+    .content-body h3 { font-size:1.1rem; font-weight:600; margin:24px 0 8px; color:var(--accent); }
+    .content-body h4 { font-size:.95rem; font-weight:600; margin:16px 0 6px; color:var(--text); }
+    .content-body p { margin:8px 0 14px; font-size:.93rem; }
+    .content-body strong { color:var(--text); font-weight:600; }
+    .content-body em { color:var(--text-muted); }
+    .content-body a { color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:border-color .15s; }
+    .content-body a:hover { border-bottom-color:var(--accent); }
+    .content-body code { background:var(--code-bg); padding:2px 6px; border-radius:4px; font-size:.85em; color:var(--green); font-family:'SF Mono','Fira Code','Consolas',monospace; }
+    .content-body pre { background:var(--code-bg); padding:16px 20px; border-radius:8px; overflow-x:auto; margin:12px 0 20px; border:1px solid var(--border); font-size:.85rem; }
+    .content-body pre code { background:0 0; padding:0; color:var(--text); }
+    .content-body table { width:100%; border-collapse:collapse; margin:16px 0 24px; font-size:.875rem; border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+    .content-body th { background:var(--bg-tertiary); padding:10px 14px; text-align:left; font-weight:600; color:var(--text); border-bottom:2px solid var(--border); font-size:.8rem; letter-spacing:.03em; }
+    .content-body td { padding:8px 14px; border-bottom:1px solid var(--border); color:var(--text-muted); }
+    .content-body tr:nth-child(even) td { background:var(--table-stripe); }
+    .content-body tr:hover td { background:var(--hover); }
+    .content-body ul, .content-body ol { margin:8px 0 16px 20px; font-size:.93rem; }
+    .content-body li { margin:4px 0; }
+    .content-body blockquote { border-left:3px solid var(--accent); padding:12px 16px; margin:16px 0; background:rgba(88,166,255,.05); border-radius:0 6px 6px 0; color:var(--text-muted); font-style:italic; }
+    .content-body hr { border:none; border-top:1px solid var(--border); margin:32px 0; }
+
+    /* ── HOME DASHBOARD ── */
+    .home-dashboard { display:grid; gap:20px; }
+    .home-hero { text-align:center; padding:40px 20px; background:linear-gradient(135deg,rgba(88,166,255,.08),rgba(63,185,80,.06)); border-radius:12px; border:1px solid var(--border); }
+    .home-hero h1 { font-size:2rem; border:none; margin-bottom:8px; }
+    .home-hero .subtitle { color:var(--text-muted); font-size:1rem; margin-bottom:20px; }
+    .home-hero .target { display:inline-block; background:rgba(63,185,80,.15); color:var(--green); padding:6px 16px; border-radius:20px; font-weight:600; font-size:.9rem; }
+    .stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; }
+    .stat-card { background:var(--bg-tertiary); border:1px solid var(--border); border-radius:10px; padding:18px; text-align:center; transition:border-color .2s,transform .15s; }
+    .stat-card:hover { border-color:var(--accent-dim); transform:translateY(-2px); }
+    .stat-card .stat-number { font-size:2rem; font-weight:700; color:var(--accent); }
+    .stat-card .stat-label { font-size:.8rem; color:var(--text-muted); margin-top:4px; }
+    .pillar-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+    .pillar-card { background:var(--bg-tertiary); border:1px solid var(--border); border-radius:10px; padding:20px; transition:border-color .2s; }
+    .pillar-card:hover { border-color:var(--accent-dim); }
+    .pillar-card h3 { margin-top:0; font-size:1rem; }
+    .pillar-card p { font-size:.85rem; color:var(--text-muted); margin-bottom:0; }
+    .quick-links { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; }
+    .quick-link { display:block; padding:14px 16px; background:var(--bg-tertiary); border:1px solid var(--border); border-radius:8px; color:var(--text); text-decoration:none; font-size:.9rem; transition:all .15s; cursor:pointer; }
+    .quick-link:hover { border-color:var(--accent); background:var(--hover); }
+
+    /* ── LOADING ── */
+    .loading { text-align:center; padding:80px 20px; color:var(--text-muted); font-size:1rem; }
+    .loading::after { content:''; display:block; width:32px; height:32px; border:3px solid var(--border-light); border-top-color:var(--accent); border-radius:50%; animation:spin .8s linear infinite; margin:16px auto 0; }
+    @keyframes spin { to { transform:rotate(360deg); } }
+
+    /* ── SECTION HEADING ── */
+    .section-heading { font-size:1.1rem; font-weight:700; color:var(--accent); margin:32px 0 12px; padding:10px 16px; background:linear-gradient(90deg,rgba(88,166,255,0.08),transparent); border-left:4px solid var(--accent); border-radius:0 8px 8px 0; }
+
+    /* ── EXAM PROGRESS BAR ── */
+    .exam-progress-bar { position:sticky; top:0; z-index:50; display:flex; align-items:center; justify-content:space-between; padding:10px 20px; background:rgba(15,17,23,0.97); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); margin-bottom:24px; gap:12px; flex-wrap:wrap; }
+    .exam-progress-info { display:flex; align-items:center; gap:10px; flex-wrap:wrap; font-size:.85rem; color:var(--text-muted); font-weight:600; }
+    .exam-progress-badge { background:rgba(88,166,255,0.1); color:var(--accent); border:1px solid rgba(88,166,255,0.3); padding:4px 12px; border-radius:20px; font-weight:700; font-size:.8rem; }
+    .exam-score-badge { background:rgba(63,185,80,0.1); color:var(--green); border:1px solid rgba(63,185,80,0.3); padding:4px 12px; border-radius:20px; font-weight:700; font-size:.8rem; }
+    .exam-reset-all-btn { background:var(--bg-tertiary); border:1px solid var(--border-light); color:var(--text-muted); padding:6px 14px; border-radius:8px; cursor:pointer; font-size:.82rem; transition:all .2s; white-space:nowrap; }
+    .exam-reset-all-btn:hover { background:var(--hover); color:var(--text); border-color:var(--accent); }
+
+    /* ── INTERACTIVE QUESTION CARD ── */
+    .interactive-question-card { background:var(--bg-secondary); border:1px solid var(--border); border-radius:14px; padding:24px; margin:20px 0; box-shadow:0 2px 12px rgba(0,0,0,0.25); transition:border-color .2s; position:relative; counter-increment:q-counter; }
+    .interactive-question-card::before { content:counter(q-counter); position:absolute; top:16px; right:20px; font-size:2.8rem; font-weight:900; color:rgba(88,166,255,0.04); pointer-events:none; line-height:1; }
+    .interactive-question-card:hover { border-color:var(--border-light); }
+    .interactive-question-card.answered-correct { border-color:var(--green); background:rgba(63,185,80,0.03); }
+    .interactive-question-card.answered-incorrect { border-color:var(--red); background:rgba(248,81,73,0.03); }
+
+    /* ── CARD HEADER ── */
+    .q-card-header { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:18px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+    .q-id-badge { background:var(--accent-dim); color:#fff; font-weight:700; font-size:.78rem; padding:3px 10px; border-radius:6px; letter-spacing:.03em; font-family:monospace; }
+    .q-meta-badge { background:var(--bg-tertiary); color:var(--text-muted); font-size:.76rem; padding:3px 10px; border-radius:6px; border:1px solid var(--border); }
+    .q-meta-badge.difficulty { color:var(--orange); border-color:rgba(210,153,29,0.3); }
+    .trap-badge { color:#fbbf24 !important; border-color:rgba(251,191,36,0.3) !important; background:rgba(251,191,36,0.06) !important; }
+    .q-status-badge { margin-left:auto; font-size:.75rem; font-weight:700; padding:4px 12px; border-radius:12px; letter-spacing:.03em; text-transform:uppercase; }
+    .status-unanswered { background:var(--bg-tertiary); color:var(--text-dim); border:1px solid var(--border); }
+    .status-correct { background:rgba(63,185,80,0.15); color:var(--green); border:1px solid var(--green); }
+    .status-incorrect { background:rgba(248,81,73,0.15); color:var(--red); border:1px solid var(--red); }
+
+    /* ── QUESTION STEM ── */
+    .q-stem { font-size:1rem; line-height:1.72; color:var(--text); margin-bottom:20px; font-weight:400; }
+
+    /* ── OPTION BUTTONS ── */
+    .q-options-container { display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
+    .q-option-btn { display:flex; align-items:flex-start; gap:14px; width:100%; text-align:left; padding:14px 18px; background:var(--bg-tertiary); border:1.5px solid var(--border-light); border-radius:10px; color:var(--text); font-size:.93rem; line-height:1.55; cursor:pointer; transition:all .2s ease; font-family:inherit; }
+    .q-option-btn:hover:not(:disabled) { background:var(--hover); border-color:var(--accent); transform:translateX(4px); box-shadow:0 0 0 2px rgba(88,166,255,0.2); }
+    .q-option-btn:disabled { cursor:not-allowed; opacity:.85; }
+    .opt-letter { display:inline-flex; align-items:center; justify-content:center; width:28px; height:28px; min-width:28px; background:var(--bg-secondary); border:1.5px solid var(--border-light); border-radius:50%; font-weight:700; font-size:.82rem; color:var(--accent); transition:all .2s ease; flex-shrink:0; }
+    .q-option-btn:hover:not(:disabled) .opt-letter { background:var(--accent-dim); color:#fff; border-color:var(--accent-dim); }
+    .opt-text { flex:1; }
+    .q-option-btn.selected-correct { background:rgba(63,185,80,0.15) !important; border-color:var(--green) !important; }
+    .q-option-btn.selected-correct .opt-letter { background:var(--green) !important; color:#fff !important; border-color:var(--green) !important; }
+    .q-option-btn.selected-incorrect { background:rgba(248,81,73,0.15) !important; border-color:var(--red) !important; }
+    .q-option-btn.selected-incorrect .opt-letter { background:var(--red) !important; color:#fff !important; border-color:var(--red) !important; }
+    .q-option-btn.reveal-correct { border-color:var(--green) !important; background:rgba(63,185,80,0.08) !important; }
+    .q-option-btn.reveal-correct .opt-letter { border-color:var(--green) !important; color:var(--green) !important; }
+
+    /* ── EXPLANATION BOX ── */
+    .q-explanation-box { margin-top:18px; padding:20px; background:var(--bg-tertiary); border-left:4px solid var(--accent); border-radius:10px; animation:slideDown .3s ease; }
+    @keyframes slideDown { from{opacity:0;transform:translateY(-8px)} to{opacity:1;transform:translateY(0)} }
+    .answered-correct .q-explanation-box { border-left-color:var(--green); background:rgba(63,185,80,0.04); }
+    .answered-incorrect .q-explanation-box { border-left-color:var(--red); background:rgba(248,81,73,0.04); }
+    .exp-header { font-size:1.05rem; font-weight:700; margin-bottom:14px; display:flex; align-items:center; gap:8px; }
+    .exp-header.correct-title { color:var(--green); }
+    .exp-header.incorrect-title { color:var(--red); }
+    .exp-section { margin-top:14px; font-size:.9rem; line-height:1.65; color:var(--text-muted); }
+    .exp-section h4 { color:var(--text); font-size:.86rem; font-weight:700; margin-bottom:8px; text-transform:uppercase; letter-spacing:.04em; }
+    .exp-footer { display:flex; align-items:center; justify-content:space-between; margin-top:16px; padding-top:12px; border-top:1px solid var(--border); gap:10px; flex-wrap:wrap; }
+    .lo-tag { font-size:.76rem; font-family:monospace; color:var(--accent); background:rgba(88,166,255,0.1); padding:3px 8px; border-radius:4px; }
+    .q-reset-btn { background:var(--bg-secondary); border:1px solid var(--border-light); color:var(--text-muted); padding:5px 14px; border-radius:6px; cursor:pointer; font-size:.8rem; transition:all .2s; }
+    .q-reset-btn:hover { background:var(--hover); color:var(--text); border-color:var(--accent); }
+
+    /* ── WRONG ANSWER LIST ── */
+    .wrong-list { list-style:none; padding:0; margin:8px 0 0; }
+    .wrong-list li { position:relative; padding:6px 0 6px 22px; border-bottom:1px solid var(--border); color:var(--text-muted); font-size:.88rem; line-height:1.5; }
+    .wrong-list li:last-child { border-bottom:none; }
+    .wrong-list li::before { content:'✗'; position:absolute; left:0; color:var(--red); font-weight:700; }
+
+    /* ── MOBILE ── */
+    @media (max-width:768px) {
+      .sidebar { position:fixed; left:0; transform:translateX(-100%); width:280px; min-width:280px; z-index:200; }
+      .sidebar.open { transform:translateX(0); }
+      .sidebar-overlay { display:block; position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:150; opacity:0; pointer-events:none; transition:opacity .3s; }
+      .sidebar-overlay.active { opacity:1; pointer-events:auto; }
+      .sidebar-toggle { display:block; background:0 0; border:none; color:var(--text); font-size:1.2rem; cursor:pointer; }
+      .mobile-menu-btn { display:block; background:0 0; border:none; color:var(--text); font-size:1.2rem; cursor:pointer; margin-right:8px; }
+      .content-body { padding:16px 16px 40px; }
+      .stat-grid { grid-template-columns:repeat(2,1fr); }
+    }
+  </style>
 </head>
 <body>
   <nav class="sidebar" id="sidebar">
@@ -26,72 +202,72 @@
       <li class="nav-section">
         <div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📋</span> Curriculum<span class="arrow">▾</span></div>
         <ul class="nav-sub">
-          <li><a href="#" data-file="curriculum/coverage-matrix" class="nav-link" onclick="loadContent('curriculum/coverage-matrix',this,event)">Coverage Matrix (222 LOs)</a></li>
-          <li><a href="#" data-file="architecture/master-blueprint" class="nav-link" onclick="loadContent('architecture/master-blueprint',this,event)">Master Blueprint</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('curriculum/coverage-matrix',this,event)">Coverage Matrix (222 LOs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('architecture/master-blueprint',this,event)">Master Blueprint</a></li>
         </ul>
       </li>
 
       <li class="nav-section">
         <div class="nav-category open" onclick="toggleSection(this)"><span class="nav-icon">📝</span> Question Bank<span class="arrow">▾</span></div>
         <ul class="nav-sub open">
-          <li><a href="#" data-file="question-bank/questions/01-ethics/standards-i-vii" class="nav-link" onclick="loadContent('question-bank/questions/01-ethics/standards-i-vii',this,event)">🔴 Ethics (75 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/02-quantitative-methods/quantitative-methods-questions" class="nav-link" onclick="loadContent('question-bank/questions/02-quantitative-methods/quantitative-methods-questions',this,event)">📐 Quant Methods (78 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/03-economics/economics-questions" class="nav-link" onclick="loadContent('question-bank/questions/03-economics/economics-questions',this,event)">🌍 Economics (65 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/04-financial-statement-analysis/fsa-questions" class="nav-link" onclick="loadContent('question-bank/questions/04-financial-statement-analysis/fsa-questions',this,event)">📊 FSA (57 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/05-corporate-issuers/corporate-issuers-questions" class="nav-link" onclick="loadContent('question-bank/questions/05-corporate-issuers/corporate-issuers-questions',this,event)">🏢 Corporate Issuers (43 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/06-equity-investments/equity-questions" class="nav-link" onclick="loadContent('question-bank/questions/06-equity-investments/equity-questions',this,event)">📈 Equity (46 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/07-fixed-income/fixed-income-questions" class="nav-link" onclick="loadContent('question-bank/questions/07-fixed-income/fixed-income-questions',this,event)">💵 Fixed Income (46 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/08-derivatives/derivatives-questions" class="nav-link" onclick="loadContent('question-bank/questions/08-derivatives/derivatives-questions',this,event)">🔀 Derivatives (48 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/09-alternative-investments/alternative-investments-questions" class="nav-link" onclick="loadContent('question-bank/questions/09-alternative-investments/alternative-investments-questions',this,event)">🏗️ Alt Investments (39 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/10-portfolio-management/portfolio-management-questions" class="nav-link" onclick="loadContent('question-bank/questions/10-portfolio-management/portfolio-management-questions',this,event)">📋 Portfolio Mgmt (42 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/01-ethics/standards-i-vii',this,event)">🔴 Ethics (75 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/02-quantitative-methods/quantitative-methods-questions',this,event)">📐 Quant Methods (78 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/03-economics/economics-questions',this,event)">🌍 Economics (65 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/04-financial-statement-analysis/fsa-questions',this,event)">📊 FSA (57 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/05-corporate-issuers/corporate-issuers-questions',this,event)">🏢 Corporate Issuers (43 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/06-equity-investments/equity-questions',this,event)">📈 Equity (46 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/07-fixed-income/fixed-income-questions',this,event)">💵 Fixed Income (46 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/08-derivatives/derivatives-questions',this,event)">🔀 Derivatives (48 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/09-alternative-investments/alternative-investments-questions',this,event)">🏗️ Alt Investments (39 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('question-bank/questions/10-portfolio-management/portfolio-management-questions',this,event)">📋 Portfolio Mgmt (42 Qs)</a></li>
         </ul>
       </li>
 
       <li class="nav-section">
         <div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📄</span> Mock Exams<span class="arrow">▾</span></div>
         <ul class="nav-sub">
-          <li><a href="#" data-file="mock-exams/mock-exam-1-am" class="nav-link" onclick="loadContent('mock-exams/mock-exam-1-am',this,event)">📝 Mock 1 — AM Paper (90 Qs)</a></li>
-          <li><a href="#" data-file="mock-exams/mock-exam-1-pm" class="nav-link" onclick="loadContent('mock-exams/mock-exam-1-pm',this,event)">📝 Mock 1 — PM Paper (90 Qs)</a></li>
-          <li><a href="#" data-file="mock-exams/mock-exam-system" class="nav-link" onclick="loadContent('mock-exams/mock-exam-system',this,event)">📋 Exam System Blueprint</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('mock-exams/mock-exam-1-am',this,event)">📝 Mock 1 — AM Paper (90 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('mock-exams/mock-exam-1-pm',this,event)">📝 Mock 1 — PM Paper (90 Qs)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('mock-exams/mock-exam-system',this,event)">📋 Exam System Blueprint</a></li>
         </ul>
       </li>
 
       <li class="nav-section">
         <div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">🔢</span> Formula Bank<span class="arrow">▾</span></div>
         <ul class="nav-sub">
-          <li><a href="#" data-file="formula-bank/all-formulas" class="nav-link" onclick="loadContent('formula-bank/all-formulas',this,event)">All Formulas (144)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('formula-bank/all-formulas',this,event)">All Formulas (144)</a></li>
         </ul>
       </li>
 
       <li class="nav-section">
         <div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">🧩</span> Pattern Library<span class="arrow">▾</span></div>
         <ul class="nav-sub">
-          <li><a href="#" data-file="pattern-library/pattern-catalog" class="nav-link" onclick="loadContent('pattern-library/pattern-catalog',this,event)">Pattern Catalog</a></li>
-          <li><a href="#" data-file="pattern-library/question-construction-recipes" class="nav-link" onclick="loadContent('pattern-library/question-construction-recipes',this,event)">Construction Recipes</a></li>
-          <li><a href="#" data-file="pattern-library/trap-catalog" class="nav-link" onclick="loadContent('pattern-library/trap-catalog',this,event)">Trap Catalog (70+)</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('pattern-library/pattern-catalog',this,event)">Pattern Catalog</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('pattern-library/question-construction-recipes',this,event)">Construction Recipes</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('pattern-library/trap-catalog',this,event)">Trap Catalog (70+)</a></li>
         </ul>
       </li>
 
       <li class="nav-section">
         <div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📊</span> Dashboard<span class="arrow">▾</span></div>
         <ul class="nav-sub">
-          <li><a href="#" data-file="dashboard/tracking-system" class="nav-link" onclick="loadContent('dashboard/tracking-system',this,event)">Readiness Dashboard</a></li>
-          <li><a href="#" data-file="dashboard/error-bank-system" class="nav-link" onclick="loadContent('dashboard/error-bank-system',this,event)">Error Bank System</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('dashboard/tracking-system',this,event)">Readiness Dashboard</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('dashboard/error-bank-system',this,event)">Error Bank System</a></li>
         </ul>
       </li>
 
       <li class="nav-section">
         <div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📅</span> Final Protocols<span class="arrow">▾</span></div>
         <ul class="nav-sub">
-          <li><a href="#" data-file="protocols/final-protocols" class="nav-link" onclick="loadContent('protocols/final-protocols',this,event)">30-Day &amp; 7-Day Plans</a></li>
+          <li><a href="#" class="nav-link" onclick="loadContent('protocols/final-protocols',this,event)">30-Day &amp; 7-Day Plans</a></li>
         </ul>
       </li>
 
-      <li><a href="#" data-file="README" class="nav-link" onclick="loadContent('README',this,event)"><span class="nav-icon">📖</span> README</a></li>
+      <li><a href="#" class="nav-link" onclick="loadContent('README',this,event)"><span class="nav-icon">📖</span> README</a></li>
     </ul>
     <div class="sidebar-footer">
       <span>729+ questions · 10 subjects · 144 formulas</span>
-      <span>CFA Level I Prep System</span>
+      <span>CFA Level I Prep System v4</span>
     </div>
   </nav>
 
@@ -111,6 +287,6 @@
     </div>
   </main>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
