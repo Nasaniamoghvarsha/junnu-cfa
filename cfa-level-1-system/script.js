@@ -277,18 +277,20 @@ function setupInteractiveQuestions(container) {
   if (headers.length === 0) return;
 
   // Render Exam Progress Header
-  const progressHeader = document.createElement('div');
-  progressHeader.className = 'exam-progress-bar';
-  progressHeader.id = 'examProgressBar';
-  progressHeader.innerHTML = `
-    <div class="exam-progress-info">
-      <span>🎯 Interactive Exam Practice Mode</span>
-      <span class="exam-progress-badge" id="examProgressCount">0 / ${headers.length} Answered</span>
-      <span class="exam-score-badge" id="examScoreCount">Score: 0%</span>
-    </div>
-    <button class="exam-reset-all-btn" onclick="resetAllExamQuestions()">🔄 Reset All</button>
-  `;
-  container.insertBefore(progressHeader, container.firstChild);
+  if (!document.getElementById('examProgressBar')) {
+    const progressHeader = document.createElement('div');
+    progressHeader.className = 'exam-progress-bar';
+    progressHeader.id = 'examProgressBar';
+    progressHeader.innerHTML = `
+      <div class="exam-progress-info">
+        <span>🎯 Interactive Exam Practice Mode</span>
+        <span class="exam-progress-badge" id="examProgressCount">0 / ${headers.length} Answered</span>
+        <span class="exam-score-badge" id="examScoreCount">Score: 0%</span>
+      </div>
+      <button class="exam-reset-all-btn" onclick="resetAllExamQuestions()">🔄 Reset All</button>
+    `;
+    container.insertBefore(progressHeader, container.firstChild);
+  }
 
   let qIndex = 0;
   headers.forEach(header => {
@@ -297,17 +299,15 @@ function setupInteractiveQuestions(container) {
     
     // Collect sibling elements until next H2, H3, or HR
     let sibling = header.nextElementSibling;
-    let rawHtml = '';
-    const siblingsToRemove = [];
+    let elements = [];
 
     while (sibling && !['H2', 'H3', 'HR'].includes(sibling.tagName)) {
-      rawHtml += sibling.outerHTML;
-      siblingsToRemove.push(sibling);
+      elements.push(sibling);
       sibling = sibling.nextElementSibling;
     }
 
-    // Parse Q-ID, Difficulty, Time, Pattern
-    const idMatch = metaText.match(/Q-[A-Z]+-\d+/);
+    // Extract metadata from header
+    const idMatch = metaText.match(/Q-[A-Z0-9-]+/i);
     const qId = idMatch ? idMatch[0] : `Q-${qIndex}`;
 
     const diffMatch = metaText.match(/Difficulty:\s*(\d+)/i);
@@ -319,48 +319,56 @@ function setupInteractiveQuestions(container) {
     const patternMatch = metaText.match(/Pattern:\s*([^|]+)/i);
     const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
 
-    // Parse Stem, Options, Correct Answer, Explanation, Wrong Analysis, LO Reference
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = rawHtml;
+    let stemHtml = '';
+    const options = [];
+    let correctLetter = 'A';
+    let expHtml = '';
+    let wrongHtml = '';
+    let loRef = 'CFA Curriculum';
 
-    // Find Question Stem
-    let stemText = '';
-    const stemPara = Array.from(tempDiv.querySelectorAll('p')).find(p => p.textContent.includes('Question:'));
-    if (stemPara) {
-      stemText = stemPara.innerHTML.replace(/<strong>Question:<\/strong>/i, '').trim();
+    elements.forEach(el => {
+      const text = el.innerText || el.textContent;
+      const html = el.innerHTML;
+
+      if (text.includes('Question:')) {
+        stemHtml = html.replace(/<strong>Question:<\/strong>/i, '').trim();
+      } else if (text.match(/^[A-C]\)/m)) {
+        const lines = text.split('\n');
+        lines.forEach(line => {
+          const m = line.trim().match(/^([A-C])\)\s*(.*)/);
+          if (m) {
+            options.push({ letter: m[1], text: m[2] });
+          }
+        });
+      } else if (text.includes('Correct Answer:')) {
+        const m = text.match(/Correct Answer:\s*([A-C])/i);
+        if (m) correctLetter = m[1].toUpperCase();
+      } else if (text.includes('Explanation:')) {
+        expHtml = html.replace(/<strong>Explanation:<\/strong>/i, '').trim();
+      } else if (text.includes('Wrong Answer Analysis:')) {
+        wrongHtml = html.replace(/<strong>Wrong Answer Analysis:<\/strong>/i, '').trim();
+      } else if (text.includes('LO Reference:')) {
+        const m = text.match(/LO Reference:\s*([^\n]+)/i);
+        if (m) loRef = m[1].trim();
+      }
+    });
+
+    // Fallback line option extraction
+    if (options.length < 3) {
+      elements.forEach(el => {
+        const text = el.innerText || el.textContent;
+        ['A', 'B', 'C'].forEach(let => {
+          if (!options.some(o => o.letter === let)) {
+            const reg = new RegExp('^' + let + '\\)\\s*(.*)', 'm');
+            const m = text.match(reg);
+            if (m) options.push({ letter: let, text: m[1].trim() });
+          }
+        });
+      });
     }
 
-    // Find Options A, B, C
-    const options = [];
-    const fullText = tempDiv.textContent;
-    
-    const optAMatch = fullText.match(/A\)\s*([\s\S]*?)(?=B\)|Correct Answer:|$)/);
-    const optBMatch = fullText.match(/B\)\s*([\s\S]*?)(?=C\)|Correct Answer:|$)/);
-    const optCMatch = fullText.match(/C\)\s*([\s\S]*?)(?=Correct Answer:|Explanation:|$)/);
+    options.sort((a, b) => a.letter.localeCompare(b.letter));
 
-    if (optAMatch) options.push({ letter: 'A', text: optAMatch[1].trim() });
-    if (optBMatch) options.push({ letter: 'B', text: optBMatch[1].trim() });
-    if (optCMatch) options.push({ letter: 'C', text: optCMatch[1].trim() });
-
-    // Find Correct Answer Letter
-    const correctMatch = fullText.match(/Correct Answer:\s*([A-C])/i);
-    const correctLetter = correctMatch ? correctMatch[1].toUpperCase() : 'A';
-
-    // Find Explanation
-    let expText = '';
-    const expMatch = fullText.match(/Explanation:\s*([\s\S]*?)(?=Wrong Answer Analysis:|LO Reference:|$)/i);
-    if (expMatch) expText = expMatch[1].trim();
-
-    // Find Wrong Answer Analysis
-    let wrongText = '';
-    const wrongMatch = fullText.match(/Wrong Answer Analysis:\s*([\s\S]*?)(?=LO Reference:|Related Concepts:|$)/i);
-    if (wrongMatch) wrongText = wrongMatch[1].trim();
-
-    // Find LO Reference
-    const loMatch = fullText.match(/LO Reference:\s*([^\n]+)/i);
-    const loRef = loMatch ? loMatch[1].trim() : 'CFA Curriculum';
-
-    // Create Interactive Question Card element
     const card = document.createElement('div');
     card.className = 'interactive-question-card';
     card.dataset.correct = correctLetter;
@@ -374,7 +382,7 @@ function setupInteractiveQuestions(container) {
         <span class="q-meta-badge">${pattern}</span>
         <span class="q-status-badge status-unanswered">UNANSWERED</span>
       </div>
-      <div class="q-stem">${stemText || 'Question stem loading...'}</div>
+      <div class="q-stem">${stemHtml || 'Question stem loading...'}</div>
       <div class="q-options-container">
         ${options.map(opt => `
           <button class="q-option-btn" onclick="selectQuestionOption(this, '${opt.letter}')">
@@ -387,14 +395,16 @@ function setupInteractiveQuestions(container) {
         <div class="exp-header correct-title">
           <span class="exp-icon">✔</span> Correct Answer: Option ${correctLetter}
         </div>
-        <div class="exp-section">
-          <h4>Detailed Explanation:</h4>
-          <p>${expText}</p>
-        </div>
-        ${wrongText ? `
+        ${expHtml ? `
+          <div class="exp-section">
+            <h4>Detailed Explanation:</h4>
+            <div>${expHtml}</div>
+          </div>
+        ` : ''}
+        ${wrongHtml ? `
           <div class="exp-section">
             <h4>Wrong Answer Analysis:</h4>
-            <p>${wrongText.replace(/\n/g, '<br>')}</p>
+            <div>${wrongHtml}</div>
           </div>
         ` : ''}
         <div class="exp-footer">
@@ -404,8 +414,7 @@ function setupInteractiveQuestions(container) {
       </div>
     `;
 
-    // Remove raw siblings and insert interactive card
-    siblingsToRemove.forEach(el => el.remove());
+    elements.forEach(el => el.remove());
     header.replaceWith(card);
   });
 }
