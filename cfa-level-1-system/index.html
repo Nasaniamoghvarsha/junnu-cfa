@@ -4,147 +4,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CFA Level I — Complete Preparation System</title>
-  <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+  <style>
+    :root{--bg:#0f1117;--bg-secondary:#161822;--bg-tertiary:#1c1f2e;--sidebar-bg:#12141d;--text:#e1e4e8;--text-muted:#8b949e;--text-dim:#6e7681;--accent:#58a6ff;--accent-dim:#1f6feb;--green:#3fb950;--orange:#d2991d;--red:#f85149;--border:#21262d;--border-light:#30363d;--hover:#1c2128;--code-bg:#1a1d2b;--table-stripe:#161822;--shadow:0 4px 24px rgba(0,0,0,0.4)}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;line-height:1.6}
+    .sidebar{width:300px;min-width:300px;background:var(--sidebar-bg);border-right:1px solid var(--border);display:flex;flex-direction:column;height:100vh;position:sticky;top:0;overflow-y:auto;overflow-x:hidden;z-index:100;transition:transform .3s}
+    .sidebar-header{padding:20px 18px 12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+    .sidebar-header h1{font-size:1.15rem;font-weight:700;color:var(--text);line-height:1.2}
+    .sidebar-header h1 span{display:block;font-size:.7rem;font-weight:400;color:var(--accent);letter-spacing:.05em;text-transform:uppercase}
+    .sidebar-toggle,.mobile-menu-btn{display:none}
+    .sidebar-search{padding:10px 16px;border-bottom:1px solid var(--border)}
+    .sidebar-search input{width:100%;padding:8px 12px;border-radius:6px;border:1px solid var(--border-light);background:var(--bg-tertiary);color:var(--text);font-size:.85rem;outline:none;transition:border-color .2s}
+    .sidebar-search input:focus{border-color:var(--accent)}
+    .sidebar-search input::placeholder{color:var(--text-dim)}
+    .nav-tree{list-style:none;padding:8px 0;flex:1;overflow-y:auto}
+    .nav-link{display:flex;align-items:center;gap:8px;padding:7px 18px;color:var(--text-muted);text-decoration:none;font-size:.875rem;transition:all .15s;border-left:3px solid transparent}
+    .nav-link:hover{background:var(--hover);color:var(--text)}
+    .nav-link.active{color:var(--accent);background:rgba(88,166,255,.08);border-left-color:var(--accent);font-weight:500}
+    .nav-icon{font-size:.9rem;width:20px;text-align:center}
+    .nav-category{display:flex;align-items:center;gap:8px;padding:8px 18px;color:var(--text);font-size:.85rem;font-weight:600;cursor:pointer;user-select:none;transition:background .15s;letter-spacing:.02em}
+    .nav-category:hover{background:var(--hover)}
+    .nav-category .arrow{margin-left:auto;font-size:.7rem;transition:transform .2s;color:var(--text-dim)}
+    .nav-category.open .arrow{transform:rotate(-180deg)}
+    .nav-sub{list-style:none;max-height:0;overflow:hidden;transition:max-height .3s}
+    .nav-sub.open{max-height:800px}
+    .nav-sub .nav-link{padding-left:44px;font-size:.82rem}
+    .sidebar-footer{padding:12px 18px;border-top:1px solid var(--border);font-size:.7rem;color:var(--text-dim);display:flex;flex-direction:column;gap:2px}
+    .sidebar-overlay{display:none}
+    .content{flex:1;display:flex;flex-direction:column;min-width:0;height:100vh;overflow-y:auto}
+    .content-header{padding:14px 28px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:16px;position:sticky;top:0;background:var(--bg);z-index:50;backdrop-filter:blur(12px)}
+    .breadcrumb{font-size:.85rem;color:var(--text-muted);flex:1}
+    .content-actions{display:flex;gap:8px}
+    .action-btn{background:var(--bg-tertiary);border:1px solid var(--border-light);color:var(--text-muted);padding:6px 10px;border-radius:6px;cursor:pointer;font-size:.9rem;transition:all .15s}
+    .action-btn:hover{background:var(--hover);color:var(--text);border-color:var(--text-dim)}
+    .content-body{padding:28px 36px 60px;max-width:900px;animation:fadeIn .25s}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    .content-body h1{font-size:1.8rem;font-weight:700;margin:0 0 8px;color:var(--text);padding-bottom:10px;border-bottom:2px solid var(--border)}
+    .content-body h2{font-size:1.35rem;font-weight:600;margin:36px 0 12px;color:var(--text);padding-bottom:4px;border-bottom:1px solid var(--border)}
+    .content-body h3{font-size:1.1rem;font-weight:600;margin:24px 0 8px;color:var(--accent)}
+    .content-body h4{font-size:.95rem;font-weight:600;margin:16px 0 6px;color:var(--text)}
+    .content-body p{margin:8px 0 14px;font-size:.93rem}
+    .content-body strong{color:var(--text);font-weight:600}
+    .content-body em{color:var(--text-muted)}
+    .content-body a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
+    .content-body a:hover{border-bottom-color:var(--accent)}
+    .content-body code{background:var(--code-bg);padding:2px 6px;border-radius:4px;font-size:.85em;color:var(--green);font-family:'SF Mono','Fira Code','Consolas',monospace}
+    .content-body pre{background:var(--code-bg);padding:16px 20px;border-radius:8px;overflow-x:auto;margin:12px 0 20px;border:1px solid var(--border);font-size:.85rem}
+    .content-body pre code{background:0 0;padding:0;color:var(--text)}
+    .content-body table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:.875rem;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+    .content-body th{background:var(--bg-tertiary);padding:10px 14px;text-align:left;font-weight:600;color:var(--text);border-bottom:2px solid var(--border);font-size:.8rem;letter-spacing:.03em}
+    .content-body td{padding:8px 14px;border-bottom:1px solid var(--border);color:var(--text-muted)}
+    .content-body tr:nth-child(even) td{background:var(--table-stripe)}
+    .content-body tr:hover td{background:var(--hover)}
+    .content-body ul,.content-body ol{margin:8px 0 16px 20px;font-size:.93rem}
+    .content-body li{margin:4px 0}
+    .content-body blockquote{border-left:3px solid var(--accent);padding:12px 16px;margin:16px 0;background:rgba(88,166,255,.05);border-radius:0 6px 6px 0;color:var(--text-muted);font-style:italic}
+    .content-body blockquote p{margin:4px 0}
+    .content-body hr{border:none;border-top:1px solid var(--border);margin:32px 0}
+    .content-body input[type=checkbox]{margin-right:6px;accent-color:var(--accent)}
+    .home-dashboard{display:grid;gap:20px}
+    .home-hero{text-align:center;padding:40px 20px;background:linear-gradient(135deg,rgba(88,166,255,.08),rgba(63,185,80,.06));border-radius:12px;border:1px solid var(--border)}
+    .home-hero h1{font-size:2rem;border:none;margin-bottom:8px}
+    .home-hero .subtitle{color:var(--text-muted);font-size:1rem;margin-bottom:20px}
+    .home-hero .target{display:inline-block;background:rgba(63,185,80,.15);color:var(--green);padding:6px 16px;border-radius:20px;font-weight:600;font-size:.9rem}
+    .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+    .stat-card{background:var(--bg-tertiary);border:1px solid var(--border);border-radius:10px;padding:18px;text-align:center;transition:border-color .2s,transform .15s}
+    .stat-card:hover{border-color:var(--accent-dim);transform:translateY(-2px)}
+    .stat-card .stat-number{font-size:2rem;font-weight:700;color:var(--accent)}
+    .stat-card .stat-label{font-size:.8rem;color:var(--text-muted);margin-top:4px}
+    .pillar-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .pillar-card{background:var(--bg-tertiary);border:1px solid var(--border);border-radius:10px;padding:20px;transition:border-color .2s}
+    .pillar-card:hover{border-color:var(--accent-dim)}
+    .pillar-card h3{margin-top:0;font-size:1rem}
+    .pillar-card p{font-size:.85rem;color:var(--text-muted);margin-bottom:0}
+    .quick-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+    .quick-link{display:block;padding:14px 16px;background:var(--bg-tertiary);border:1px solid var(--border);border-radius:8px;color:var(--text);text-decoration:none;font-size:.9rem;transition:all .15s;cursor:pointer}
+    .quick-link:hover{border-color:var(--accent);background:var(--hover)}
+    @media(max-width:768px){
+      .sidebar{position:fixed;left:0;transform:translateX(-100%);width:280px;min-width:280px;z-index:200}
+      .sidebar.open{transform:translateX(0)}
+      .sidebar-overlay{display:block;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:150;opacity:0;pointer-events:none;transition:opacity .3s}
+      .sidebar-overlay.active{opacity:1;pointer-events:auto}
+      .sidebar-toggle{display:block;background:0 0;border:none;color:var(--text);font-size:1.2rem;cursor:pointer}
+      .mobile-menu-btn{display:block;background:0 0;border:none;color:var(--text);font-size:1.2rem;cursor:pointer;margin-right:8px}
+      .content-body{padding:16px 20px 40px}
+      .stat-grid{grid-template-columns:repeat(2,1fr)}
+    }
+  </style>
 </head>
 <body>
-  <!-- Sidebar -->
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-header">
       <h1>CFA Level I<span>Prep System</span></h1>
       <button class="sidebar-toggle" onclick="toggleSidebar()" aria-label="Toggle sidebar">☰</button>
     </div>
-
-    <div class="sidebar-search">
-      <input type="text" id="searchInput" placeholder="Search files..." oninput="filterNav()">
-    </div>
-
+    <div class="sidebar-search"><input type="text" id="searchInput" placeholder="Search files..." oninput="filterNav()"></div>
     <ul class="nav-tree" id="navTree">
-      <!-- HOME -->
-      <li>
-        <a href="#" data-file="home" class="nav-link active" onclick="loadContent('home', this, event)">
-          <span class="nav-icon">🏠</span> Dashboard
-        </a>
-      </li>
-
-      <!-- ARCHITECTURE -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">📐</span> Architecture
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="architecture/master-blueprint" class="nav-link" onclick="loadContent('architecture/master-blueprint', this, event)">Master Blueprint</a></li>
-        </ul>
-      </li>
-
-      <!-- CURRICULUM -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">📋</span> Curriculum
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="curriculum/coverage-matrix" class="nav-link" onclick="loadContent('curriculum/coverage-matrix', this, event)">Coverage Matrix (222 LOs)</a></li>
-        </ul>
-      </li>
-
-      <!-- QUESTION BANK -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">📝</span> Question Bank
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="question-bank/questions/01-ethics/standards-i-vii" class="nav-link" onclick="loadContent('question-bank/questions/01-ethics/standards-i-vii', this, event)">Ethics (20 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/02-quantitative-methods/quantitative-methods-questions" class="nav-link" onclick="loadContent('question-bank/questions/02-quantitative-methods/quantitative-methods-questions', this, event)">Quant Methods (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/03-economics/economics-questions" class="nav-link" onclick="loadContent('question-bank/questions/03-economics/economics-questions', this, event)">Economics (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/04-financial-statement-analysis/fsa-questions" class="nav-link" onclick="loadContent('question-bank/questions/04-financial-statement-analysis/fsa-questions', this, event)">Financial Statement Analysis (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/05-corporate-issuers/corporate-issuers-questions" class="nav-link" onclick="loadContent('question-bank/questions/05-corporate-issuers/corporate-issuers-questions', this, event)">Corporate Issuers (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/06-equity-investments/equity-questions" class="nav-link" onclick="loadContent('question-bank/questions/06-equity-investments/equity-questions', this, event)">Equity Investments (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/07-fixed-income/fixed-income-questions" class="nav-link" onclick="loadContent('question-bank/questions/07-fixed-income/fixed-income-questions', this, event)">Fixed Income (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/08-derivatives/derivatives-questions" class="nav-link" onclick="loadContent('question-bank/questions/08-derivatives/derivatives-questions', this, event)">Derivatives (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/09-alternative-investments/alternative-investments-questions" class="nav-link" onclick="loadContent('question-bank/questions/09-alternative-investments/alternative-investments-questions', this, event)">Alternative Investments (15 Qs)</a></li>
-          <li><a href="#" data-file="question-bank/questions/10-portfolio-management/portfolio-management-questions" class="nav-link" onclick="loadContent('question-bank/questions/10-portfolio-management/portfolio-management-questions', this, event)">Portfolio Management (15 Qs)</a></li>
-        </ul>
-      </li>
-
-      <!-- FORMULA BANK -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">🔢</span> Formula Bank
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="formula-bank/all-formulas" class="nav-link" onclick="loadContent('formula-bank/all-formulas', this, event)">All Formulas (144)</a></li>
-        </ul>
-      </li>
-
-      <!-- PATTERN LIBRARY -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">🧩</span> Pattern Library
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="pattern-library/pattern-catalog" class="nav-link" onclick="loadContent('pattern-library/pattern-catalog', this, event)">Pattern Catalog</a></li>
-          <li><a href="#" data-file="pattern-library/question-construction-recipes" class="nav-link" onclick="loadContent('pattern-library/question-construction-recipes', this, event)">Construction Recipes</a></li>
-          <li><a href="#" data-file="pattern-library/trap-catalog" class="nav-link" onclick="loadContent('pattern-library/trap-catalog', this, event)">Trap Catalog (70+)</a></li>
-        </ul>
-      </li>
-
-      <!-- DASHBOARD -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">📊</span> Dashboard & Error Bank
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="dashboard/tracking-system" class="nav-link" onclick="loadContent('dashboard/tracking-system', this, event)">Readiness Dashboard</a></li>
-          <li><a href="#" data-file="dashboard/error-bank-system" class="nav-link" onclick="loadContent('dashboard/error-bank-system', this, event)">Error Bank System</a></li>
-        </ul>
-      </li>
-
-      <!-- MOCK EXAMS -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">📄</span> Mock Exams
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="mock-exams/mock-exam-system" class="nav-link" onclick="loadContent('mock-exams/mock-exam-system', this, event)">Mock Exam System</a></li>
-        </ul>
-      </li>
-
-      <!-- PROTOCOLS -->
-      <li class="nav-section">
-        <div class="nav-category" onclick="toggleSection(this)">
-          <span class="nav-icon">📅</span> Final Protocols
-          <span class="arrow">▾</span>
-        </div>
-        <ul class="nav-sub">
-          <li><a href="#" data-file="protocols/final-protocols" class="nav-link" onclick="loadContent('protocols/final-protocols', this, event)">30-Day & 7-Day Plans</a></li>
-        </ul>
-      </li>
-
-      <!-- README -->
-      <li>
-        <a href="#" data-file="README" class="nav-link" onclick="loadContent('README', this, event)">
-          <span class="nav-icon">📖</span> README
-        </a>
-      </li>
+      <li><a href="#" data-file="home" class="nav-link active" onclick="loadContent('home',this,event)"><span class="nav-icon">🏠</span> Dashboard</a></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📐</span> Architecture<span class="arrow">▾</span></div><ul class="nav-sub"><li><a href="#" data-file="architecture/master-blueprint" class="nav-link" onclick="loadContent('architecture/master-blueprint',this,event)">Master Blueprint</a></li></ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📋</span> Curriculum<span class="arrow">▾</span></div><ul class="nav-sub"><li><a href="#" data-file="curriculum/coverage-matrix" class="nav-link" onclick="loadContent('curriculum/coverage-matrix',this,event)">Coverage Matrix (222 LOs)</a></li></ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📝</span> Question Bank<span class="arrow">▾</span></div><ul class="nav-sub">
+        <li><a href="#" data-file="question-bank/questions/01-ethics/standards-i-vii" class="nav-link" onclick="loadContent('question-bank/questions/01-ethics/standards-i-vii',this,event)">Ethics (20 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/02-quantitative-methods/quantitative-methods-questions" class="nav-link" onclick="loadContent('question-bank/questions/02-quantitative-methods/quantitative-methods-questions',this,event)">Quant Methods (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/03-economics/economics-questions" class="nav-link" onclick="loadContent('question-bank/questions/03-economics/economics-questions',this,event)">Economics (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/04-financial-statement-analysis/fsa-questions" class="nav-link" onclick="loadContent('question-bank/questions/04-financial-statement-analysis/fsa-questions',this,event)">Financial Statement Analysis (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/05-corporate-issuers/corporate-issuers-questions" class="nav-link" onclick="loadContent('question-bank/questions/05-corporate-issuers/corporate-issuers-questions',this,event)">Corporate Issuers (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/06-equity-investments/equity-questions" class="nav-link" onclick="loadContent('question-bank/questions/06-equity-investments/equity-questions',this,event)">Equity Investments (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/07-fixed-income/fixed-income-questions" class="nav-link" onclick="loadContent('question-bank/questions/07-fixed-income/fixed-income-questions',this,event)">Fixed Income (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/08-derivatives/derivatives-questions" class="nav-link" onclick="loadContent('question-bank/questions/08-derivatives/derivatives-questions',this,event)">Derivatives (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/09-alternative-investments/alternative-investments-questions" class="nav-link" onclick="loadContent('question-bank/questions/09-alternative-investments/alternative-investments-questions',this,event)">Alternative Investments (15 Qs)</a></li>
+        <li><a href="#" data-file="question-bank/questions/10-portfolio-management/portfolio-management-questions" class="nav-link" onclick="loadContent('question-bank/questions/10-portfolio-management/portfolio-management-questions',this,event)">Portfolio Management (15 Qs)</a></li>
+      </ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">🔢</span> Formula Bank<span class="arrow">▾</span></div><ul class="nav-sub"><li><a href="#" data-file="formula-bank/all-formulas" class="nav-link" onclick="loadContent('formula-bank/all-formulas',this,event)">All Formulas (144)</a></li></ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">🧩</span> Pattern Library<span class="arrow">▾</span></div><ul class="nav-sub">
+        <li><a href="#" data-file="pattern-library/pattern-catalog" class="nav-link" onclick="loadContent('pattern-library/pattern-catalog',this,event)">Pattern Catalog</a></li>
+        <li><a href="#" data-file="pattern-library/question-construction-recipes" class="nav-link" onclick="loadContent('pattern-library/question-construction-recipes',this,event)">Construction Recipes</a></li>
+        <li><a href="#" data-file="pattern-library/trap-catalog" class="nav-link" onclick="loadContent('pattern-library/trap-catalog',this,event)">Trap Catalog (70+)</a></li>
+      </ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📊</span> Dashboard & Error Bank<span class="arrow">▾</span></div><ul class="nav-sub">
+        <li><a href="#" data-file="dashboard/tracking-system" class="nav-link" onclick="loadContent('dashboard/tracking-system',this,event)">Readiness Dashboard</a></li>
+        <li><a href="#" data-file="dashboard/error-bank-system" class="nav-link" onclick="loadContent('dashboard/error-bank-system',this,event)">Error Bank System</a></li>
+      </ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📄</span> Mock Exams<span class="arrow">▾</span></div><ul class="nav-sub"><li><a href="#" data-file="mock-exams/mock-exam-system" class="nav-link" onclick="loadContent('mock-exams/mock-exam-system',this,event)">Mock Exam System</a></li></ul></li>
+      <li class="nav-section"><div class="nav-category" onclick="toggleSection(this)"><span class="nav-icon">📅</span> Final Protocols<span class="arrow">▾</span></div><ul class="nav-sub"><li><a href="#" data-file="protocols/final-protocols" class="nav-link" onclick="loadContent('protocols/final-protocols',this,event)">30-Day & 7-Day Plans</a></li></ul></li>
+      <li><a href="#" data-file="README" class="nav-link" onclick="loadContent('README',this,event)"><span class="nav-icon">📖</span> README</a></li>
     </ul>
-
-    <div class="sidebar-footer">
-      <span>21 files · 150+ questions · 144 formulas</span>
-      <span>Exam Cycle: 2024–2025</span>
-    </div>
+    <div class="sidebar-footer"><span>21 files · 150+ questions · 144 formulas</span><span>Exam Cycle: 2024–2025</span></div>
   </nav>
-
-  <!-- Mobile overlay -->
   <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
-
-  <!-- Main Content -->
   <main class="content" id="content">
     <div class="content-header">
       <button class="mobile-menu-btn" onclick="toggleSidebar()">☰ Menu</button>
@@ -154,11 +142,59 @@
         <button onclick="scrollToTop()" title="Scroll to top" class="action-btn">⬆</button>
       </div>
     </div>
-    <div class="content-body" id="contentBody">
-      <div class="loading">Loading...</div>
-    </div>
+    <div class="content-body" id="contentBody"><div class="loading">Loading...</div></div>
   </main>
+  <script>
+const contentBody=document.getElementById('contentBody');
+const breadcrumb=document.getElementById('breadcrumb');
+const navTree=document.getElementById('navTree');
+const searchInput=document.getElementById('searchInput');
 
-  <script src="script.js"></script>
+function init(){loadContent('home',document.querySelector('[data-file="home"]'));loadDarkModePreference();}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+
+async function loadContent(file,linkElement,event){
+  if(event)event.preventDefault();
+  document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('active'));
+  if(linkElement)linkElement.classList.add('active');
+  contentBody.innerHTML='<div class="loading">Loading</div>';
+  try{
+    if(file==='home'){renderHome();breadcrumb.textContent='Dashboard';}
+    else{
+      if(typeof marked==='undefined'){contentBody.innerHTML='<div style="text-align:center;padding:60px 20px;color:var(--red)"><h2>Renderer Not Loaded</h2><p>Check your internet connection.</p></div>';return;}
+      const r=await fetch(file+'.md');
+      if(!r.ok)throw new Error('File not found');
+      contentBody.innerHTML=marked.parse(await r.text());
+      breadcrumb.textContent=file.replace(/\//g,' › ').replace(/-/g,' ');
+    }
+    document.querySelector('.content').scrollTop=0;
+    if(window.innerWidth<=768)closeSidebar();
+  }catch(e){
+    contentBody.innerHTML='<div style="text-align:center;padding:60px 20px"><h2 style="color:var(--orange)">📡 File Not Available Locally</h2><p style="color:var(--text-muted);margin:12px 0">Could not load: <code>'+file+'.md</code></p><p style="color:var(--text-muted);font-size:.85rem">Full access works on GitHub Pages. The Dashboard always works.</p><p style="margin-top:20px"><a class="quick-link" onclick="loadContent(\'home\',this)" style="display:inline-block;cursor:pointer">← Back to Dashboard</a></p></div>';
+    breadcrumb.textContent='Preview';
+  }
+}
+
+function renderHome(){
+  contentBody.innerHTML='<div class="home-dashboard"><div class="home-hero"><h1>CFA Level I<br>Complete Preparation System</h1><p class="subtitle">21 files · 150+ original questions · 144 formulas · 222 Learning Outcomes</p><span class="target">🎯 Target: 90%+ Preparation Coverage</span></div><div class="stat-grid"><div class="stat-card"><div class="stat-number">10/10</div><div class="stat-label">Subjects Covered</div></div><div class="stat-card"><div class="stat-number">222</div><div class="stat-label">Learning Outcomes</div></div><div class="stat-card"><div class="stat-number">150+</div><div class="stat-label">Original Questions</div></div><div class="stat-card"><div class="stat-number">144</div><div class="stat-label">Formulas</div></div><div class="stat-card"><div class="stat-number">70+</div><div class="stat-label">Common Traps</div></div><div class="stat-card"><div class="stat-number">5</div><div class="stat-label">Difficulty Levels</div></div></div><h2>The Five Pillars</h2><div class="pillar-grid"><div class="pillar-card"><h3>🔴 Error Bank</h3><p>Every mistake becomes a future question. Personal database of questions designed to catch the mistakes YOU make.</p></div><div class="pillar-card"><h3>🧩 Pattern Bank</h3><p>Record how questions are constructed. Recognize the pattern when CFA changes numbers or wording.</p></div><div class="pillar-card"><h3>⭐ Mastery System</h3><p>"I got 8/10" isn\'t enough. Prove you can solve it two weeks later under time pressure.</p></div><div class="pillar-card"><h3>📊 Readiness Dashboard</h3><p>Confidence through evidence: Curriculum 100%, Concepts 96%, Formulas 93%, Readiness: Strong.</p></div><div class="pillar-card"><h3>🛡️ Anti-Overfitting</h3><p>Recurring concepts + reasoning patterns + traps. Not memorizing previous questions.</p></div></div><h2>Quick Navigation</h2><div class="quick-links"><a class="quick-link" onclick="loadContent(\'question-bank/questions/01-ethics/standards-i-vii\',this)">📝 Ethics Questions (20)</a><a class="quick-link" onclick="loadContent(\'formula-bank/all-formulas\',this)">🔢 Formula Bank (144)</a><a class="quick-link" onclick="loadContent(\'curriculum/coverage-matrix\',this)">📋 Coverage Matrix (222 LOs)</a><a class="quick-link" onclick="loadContent(\'pattern-library/trap-catalog\',this)">⚠️ Trap Catalog (70+)</a><a class="quick-link" onclick="loadContent(\'dashboard/tracking-system\',this)">📊 Readiness Dashboard</a><a class="quick-link" onclick="loadContent(\'dashboard/error-bank-system\',this)">🔴 Error Bank System</a><a class="quick-link" onclick="loadContent(\'mock-exams/mock-exam-system\',this)">📄 Mock Exam System</a><a class="quick-link" onclick="loadContent(\'protocols/final-protocols\',this)">📅 Final 30-Day Protocol</a></div><h2>Subject Weights</h2><table><thead><tr><th>#</th><th>Subject</th><th>Weight</th><th>Priority</th></tr></thead><tbody><tr><td>1</td><td>Ethical &amp; Professional Standards</td><td>15–20%</td><td>🔴 Tier 1</td></tr><tr><td>2</td><td>Financial Statement Analysis</td><td>11–14%</td><td>🔴 Tier 1</td></tr><tr><td>3</td><td>Equity Investments</td><td>11–14%</td><td>🔴 Tier 1</td></tr><tr><td>4</td><td>Fixed Income</td><td>11–14%</td><td>🔴 Tier 1</td></tr><tr><td>5</td><td>Portfolio Management</td><td>8–12%</td><td>🟡 Tier 2</td></tr><tr><td>6</td><td>Alternative Investments</td><td>7–10%</td><td>🟡 Tier 2</td></tr><tr><td>7</td><td>Quantitative Methods</td><td>6–9%</td><td>🟡 Tier 2</td></tr><tr><td>8</td><td>Economics</td><td>6–9%</td><td>🟡 Tier 2</td></tr><tr><td>9</td><td>Corporate Issuers</td><td>6–9%</td><td>🟡 Tier 2</td></tr><tr><td>10</td><td>Derivatives</td><td>5–8%</td><td>🟢 Tier 3</td></tr></tbody></table></div>';
+}
+
+function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('sidebarOverlay').classList.toggle('active');}
+function closeSidebar(){document.getElementById('sidebar').classList.remove('open');document.getElementById('sidebarOverlay').classList.remove('active');}
+function toggleSection(e){e.classList.toggle('open');const s=e.nextElementSibling;if(s)s.classList.toggle('open');}
+function filterNav(){
+  const q=searchInput.value.toLowerCase();
+  const links=navTree.querySelectorAll('.nav-link');
+  const sections=navTree.querySelectorAll('.nav-section');
+  links.forEach(l=>{const li=l.closest('li');if(li)li.style.display=l.textContent.toLowerCase().includes(q)?'':'none'});
+  sections.forEach(s=>{let v=false;s.querySelectorAll('.nav-link').forEach(l=>{if(l.closest('li')&&l.closest('li').style.display!=='none')v=true});s.style.display=v||!q?'':'none';if(q&&v){const c=s.querySelector('.nav-category'),u=s.querySelector('.nav-sub');if(c&&u){c.classList.add('open');u.classList.add('open')}}});
+  if(!q){links.forEach(l=>{const li=l.closest('li');if(li)li.style.display=''});sections.forEach(s=>s.style.display='')}
+}
+function toggleDarkMode(){document.body.classList.toggle('light-mode');localStorage.setItem('cfa-theme',document.body.classList.contains('light-mode')?'light':'dark')}
+function loadDarkModePreference(){if(localStorage.getItem('cfa-theme')==='light')document.body.classList.add('light-mode')}
+function scrollToTop(){document.querySelector('.content').scrollTo({top:0,behavior:'smooth'})}
+document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();searchInput.focus()}});
+document.getElementById('sidebarOverlay').addEventListener('click',closeSidebar);
+  </script>
 </body>
 </html>
