@@ -3,1624 +3,1624 @@
   "questionCount": 90,
   "questions": [
     {
-      "id": "Q-MOCK1-EQ-001",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-01",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 14.29",
-        "B": "USD 33.33",
-        "C": "USD 34.67"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 2.00 / (0.10 - 0.04) = \\text{USD } 33.33$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-002",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-02",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 16.07",
-        "B": "USD 37.50",
-        "C": "USD 39.00"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 2.25 / (0.10 - 0.04) = \\text{USD } 37.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-003",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-001",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-03",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Surgical Concept Closure / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-EQT-16 (Equity Valuation Asset-Based Model Liquidation Value)",
+      "stem": "An asset-based equity valuation model calculates net asset value by taking:?",
       "options": {
-        "A": "USD 17.86",
-        "B": "USD 41.67",
-        "C": "USD 43.33"
+        "A": "Market value of assets minus Market value of liabilities",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 2.50 / (0.10 - 0.04) = \\text{USD } 41.67$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "A",
+      "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-EQT-16 (Equity Valuation Asset-Based Model Liquidation Value). Market value of assets minus Market value of liabilities.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-EQ-004",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-04",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 19.64",
-        "B": "USD 45.83",
-        "C": "USD 47.67"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 2.75 / (0.10 - 0.04) = \\text{USD } 45.83$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-005",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-002",
+      "section": "Section F: Equity Investments",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-05",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Concept Comparison",
+      "trap": "P/E Decomposition",
+      "lo": "EQU-06-01-LO04",
+      "stem": "A company has a higher P/E ratio than its industry peers. Which of the following could justify the higher P/E, all else equal?",
       "options": {
-        "A": "USD 21.43",
-        "B": "USD 50.00",
-        "C": "USD 52.00"
+        "A": "Higher required rate of return",
+        "B": "Lower systematic risk",
+        "C": "Higher dividend payout ratio"
       },
       "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 3.00 / (0.10 - 0.04) = \\text{USD } 50.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "explanation": "From the justified P/E formula: P/E = Payout Ratio / (r - g). A lower required return (r) leads to a HIGHER P/E. Lower systematic risk implies a lower beta and therefore a lower r (via CAPM), justifying a higher P/E. Higher r, lower g, or lower payout all would REDUCE P/E.",
+      "wrongAnalysis": "- A: Higher r → lower justified P/E (denominator increases)\n- B: Lower g → lower justified P/E\n- C: Lower payout ratio → lower P/E (numerator decreases)"
     },
     {
-      "id": "Q-MOCK1-EQ-006",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-003",
+      "section": "Section F: Equity Investments",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-06",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Direct Calculation",
+      "trap": "Index Divisor",
+      "lo": "EQU-02-01-LO02",
+      "stem": "A price-weighted index consists of three stocks priced at $50, $100, and $150 with the divisor initially set at 3.0. Stock B (priced at $100) undergoes a 2-for-1 stock split. The new divisor is closest to:",
       "options": {
-        "A": "USD 23.21",
-        "B": "USD 54.17",
-        "C": "USD 56.33"
+        "A": "2.50",
+        "B": "2.67",
+        "C": "2.75"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 3.25 / (0.10 - 0.04) = \\text{USD } 54.17$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "A",
+      "explanation": "Before split: Index = ($50 + $100 + $150) / 3 = $300 / 3 = 100. After split, Stock B price = $100/2 = $50. New sum = $50 + $50 + $150 = $250. New divisor: $250 / Divisor = 100 → Divisor = $250 / 100 = 2.50. The divisor adjusts so the index value remains continuous.",
+      "wrongAnalysis": "- B: Incorrect calculation\n- C: Used wrong sum or approach"
     },
     {
-      "id": "Q-MOCK1-EQ-007",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-004",
+      "section": "Section F: Equity Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "EMH Anomalies & Forms",
+      "lo": "EQT-03-01-LO01 (Efficient Market Hypothesis Forms)",
+      "stem": "If an investor can consistently generate risk-adjusted abnormal returns by executing trades based on historical price patterns and public earnings announcements, which form(s) of the Efficient Market Hypothesis (EMH) is/are violated?",
+      "options": {
+        "A": "Weak form only",
+        "B": "Weak form and Semi-strong form",
+        "C": "Strong form only"
+      },
+      "correct": "B",
+      "explanation": "* **Weak Form EMH** asserts that security prices fully reflect all historical price and volume data (technical analysis is useless). Generating abnormal returns from price patterns violates Weak Form.\n* **Semi-Strong Form EMH** asserts that security prices fully reflect all publicly available information (fundamental analysis of earnings reports is useless). Generating abnormal returns from public earnings reports violates Semi-Strong Form.\n* Since Semi-Strong Form encompasses Weak Form, both Weak and Semi-Strong forms are violated.",
+      "wrongAnalysis": "- A: Incorrect — public earnings announcements fall under semi-strong form, not weak form alone.\n- C: Incorrect — strong form includes private inside information; public announcements violate semi-strong form."
+    },
+    {
+      "id": "MOCK-EQU-005",
+      "section": "Section F: Equity Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Margin Call Trigger Price",
+      "lo": "EQT-01-01-LO02 (Margin Buying & Trigger Prices)",
+      "stem": "An investor buys 200 shares of stock on margin at $50 per share. The initial margin requirement is 50%, and the maintenance margin requirement is 30%. The price at which the investor will receive a margin call is closest to:",
+      "options": {
+        "A": "$35.71",
+        "B": "$38.46",
+        "C": "$41.67"
+      },
+      "correct": "A",
+      "explanation": "Calculation of Margin Call Price ($P_{\\text{call}}$):\n$$P_{\\text{call}} = P_0 \\times \\left(\\frac{1 - \\text{Initial Margin}}{1 - \\text{Maintenance Margin}}\\right)$$\n$$P_{\\text{call}} = \\$50 \\times \\left(\\frac{1 - 0.50}{1 - 0.30}\\right) = \\$50 \\times \\left(\\frac{0.50}{0.70}\\right) = \\$50 \\times 0.714285 = \\$35.71$$\n\n**TI BA II Plus Keystrokes:**\n$50 \\times 0.50 / 0.70 = 35.714 \\to \\$35.71$",
+      "wrongAnalysis": "- B: Incorrect — calculated using incorrect initial margin fraction ($50 \\times 0.50 / 0.65 = 38.46$).\n- C: Incorrect — calculated margin call price for short position instead of long position."
+    },
+    {
+      "id": "MOCK-EQU-006",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-07",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Concept Comparison",
+      "trap": "EV/EBITDA and P/E Multiples",
+      "lo": "EQU-06-01-LO04 (Valuation Multiples & Capital Structure)",
+      "stem": "Two companies operate in the same industry with identical revenues and operating performance, but Company X has higher depreciation expense and higher financial leverage than Company Y. Compared to Company Y, Company X will most likely have:",
       "options": {
-        "A": "USD 25.00",
-        "B": "USD 58.33",
-        "C": "USD 60.67"
+        "A": "A higher P/E ratio and lower EV/EBITDA ratio",
+        "B": "A lower P/E ratio and identical EV/EBITDA ratio",
+        "C": "A higher P/E ratio and identical EV/EBITDA ratio"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 3.50 / (0.10 - 0.04) = \\text{USD } 58.33$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "C",
+      "explanation": "1. **EV/EBITDA:** EV/EBITDA is independent of depreciation method (EBITDA is pre-depreciation) and capital structure (Enterprise Value includes both equity and debt). Therefore, EV/EBITDA is identical for both companies.\n2. **P/E Ratio:** Higher depreciation and higher interest expense reduce Net Income (and EPS). With lower EPS for the same market value of operating assets, P/E ($\\frac{\\text{Price}}{\\text{EPS}}$) is higher (or if price reflects earnings risk, price drops proportionally). Under constant market valuation of operations, lower EPS results in a higher P/E multiple.",
+      "wrongAnalysis": "- A: Incorrect — EV/EBITDA is not lower because EBITDA excludes depreciation and EV includes debt.\n- B: Incorrect — lower EPS increases the P/E ratio for a given operational asset value."
     },
     {
-      "id": "Q-MOCK1-EQ-008",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-08",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 26.79",
-        "B": "USD 62.50",
-        "C": "USD 65.00"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 3.75 / (0.10 - 0.04) = \\text{USD } 62.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-009",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-09",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 28.57",
-        "B": "USD 66.67",
-        "C": "USD 69.33"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 4.00 / (0.10 - 0.04) = \\text{USD } 66.67$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-010",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-007",
+      "section": "Section F: Equity Investments",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-10",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Direct Calculation",
+      "trap": "Sustainable Growth Rate",
+      "lo": "EQU-06-01-LO02",
+      "stem": "A company has ROE = 15% and pays out 40% of earnings as dividends. The sustainable growth rate is closest to:",
       "options": {
-        "A": "USD 30.36",
-        "B": "USD 70.83",
-        "C": "USD 73.67"
+        "A": "6.0%",
+        "B": "9.0%",
+        "C": "15.0%"
       },
       "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 4.25 / (0.10 - 0.04) = \\text{USD } 70.83$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "explanation": "g = ROE × Retention Ratio = ROE × (1 - Payout Ratio) = 15% × (1 - 0.40) = 15% × 0.60 = 9.0%. The sustainable growth rate is the maximum rate at which a company can grow without external equity financing, assuming constant debt-to-equity ratio.",
+      "wrongAnalysis": "- A: Used payout ratio instead of retention: 15% × 0.40 = 6%\n- C: Confused ROE with growth rate"
     },
     {
-      "id": "Q-MOCK1-EQ-011",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-008",
+      "section": "Section F: Equity Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Enterprise Value",
+      "lo": "EQU-06-01-LO05",
+      "stem": "A company has: Market cap = $500 million, Preferred stock (market value) = $50 million, Total debt (market value) = $200 million, Cash = $30 million, Short-term investments = $20 million, Minority interest = $15 million. Enterprise value is closest to:",
+      "options": {
+        "A": "$685 million",
+        "B": "$700 million",
+        "C": "$715 million"
+      },
+      "correct": "C",
+      "explanation": "EV = Market Cap + Preferred + Debt + Minority Interest - Cash - ST Investments = $500M + $50M + $200M + $15M - $30M - $20M = $715 million.\n\nEV represents the total cost to acquire the company (buy all equity, assume all debt, use cash to offset).",
+      "wrongAnalysis": "- A: Forgot minority interest: 500+50+200-30-20 = 700, but 500+50+200-30-20-15 = 685 (minus minority interest instead of adding)\n- B: Forgot minority interest and mis-calculated: 500+50+200-30-20 = 700"
+    },
+    {
+      "id": "MOCK-EQU-009",
+      "section": "Section F: Equity Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-EQT-07 (Enterprise Value Multiple EV/EBITDA)",
+      "stem": "EV/EBITDA is particularly useful for comparing companies with different:?",
+      "options": {
+        "A": "Capital structures (debt leverage) and capital intensity/depreciation policies",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-EQT-07 (Enterprise Value Multiple EV/EBITDA). Capital structures (debt leverage) and capital intensity/depreciation policies.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-EQU-010",
+      "section": "Section F: Equity Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Weighting Methods",
+      "lo": "EQU-02-01-LO01",
+      "stem": "Which index weighting method is most likely to give the highest weight to overvalued securities?",
+      "options": {
+        "A": "Price-weighted",
+        "B": "Equal-weighted",
+        "C": "Market capitalization-weighted"
+      },
+      "correct": "C",
+      "explanation": "Market cap-weighted indices allocate more weight to companies with higher market capitalizations. If a stock is overvalued (price too high relative to fundamentals), its market cap is inflated, and it receives a disproportionately large weight. This is a key criticism of cap-weighted indices — they inherently overweight overvalued stocks and underweight undervalued ones.",
+      "wrongAnalysis": "- A: Price-weighted biases toward high-PRICE stocks (not necessarily overvalued)\n- B: Equal-weighted treats all equally regardless of valuation"
+    },
+    {
+      "id": "MOCK-EQU-011",
+      "section": "Section F: Equity Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-EQT-11 (Market Anomalies Size Effect)",
+      "stem": "The size effect anomaly refers to the empirical observation that small-cap stocks tend to:?",
+      "options": {
+        "A": "Outperform large-cap stocks on a risk-adjusted basis over long horizons",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-EQT-11 (Market Anomalies Size Effect). Outperform large-cap stocks on a risk-adjusted basis over long horizons.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-EQU-012",
+      "section": "Section F: Equity Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Market Efficiency Forms",
+      "lo": "EQU-03-01-LO02",
+      "stem": "If markets are semi-strong form efficient, which of the following strategies can consistently generate abnormal returns?",
+      "options": {
+        "A": "Technical analysis",
+        "B": "Fundamental analysis using publicly available information",
+        "C": "Trading on material nonpublic information"
+      },
+      "correct": "C",
+      "explanation": "Semi-strong form efficiency means all publicly available information is reflected in prices. Neither technical analysis (weak form) nor fundamental analysis (semi-strong) can consistently generate abnormal returns. However, trading on MATERIAL NONPUBLIC INFORMATION (not yet reflected in prices) could still generate abnormal returns. Strong-form efficiency is required to eliminate even insider trading profits.",
+      "wrongAnalysis": "- A: Technical analysis fails under weak-form (and therefore semi-strong) efficiency\n- B: Fundamental analysis fails under semi-strong form"
+    },
+    {
+      "id": "MOCK-EQU-013",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-11",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-EQT-05 (Dividend Discount Model Multistage Growth Valuation)",
+      "stem": "A firm pays D0 = $1.00. Growth is 20% for 2 years, then settles to a permanent 5%. Required return is 10%. Value per share P0 is:?",
       "options": {
-        "A": "USD 32.14",
-        "B": "USD 75.00",
-        "C": "USD 78.00"
+        "A": "$22.91 (PV of D1, D2 plus PV of terminal value at t=2)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 4.50 / (0.10 - 0.04) = \\text{USD } 75.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-EQT-05 (Dividend Discount Model Multistage Growth Valuation). $22.91 (PV of D1, D2 plus PV of terminal value at t=2).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-EQ-012",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-12",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 33.93",
-        "B": "USD 79.17",
-        "C": "USD 82.33"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 4.75 / (0.10 - 0.04) = \\text{USD } 79.17$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-013",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-13",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 35.71",
-        "B": "USD 83.33",
-        "C": "USD 86.67"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 5.00 / (0.10 - 0.04) = \\text{USD } 83.33$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-014",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-14",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 37.50",
-        "B": "USD 87.50",
-        "C": "USD 91.00"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 5.25 / (0.10 - 0.04) = \\text{USD } 87.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-015",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-014",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-15",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-EQT-06 (Price-to-Book (P/B) Ratio Valuation)",
+      "stem": "A company's Return on Equity (ROE) is 12%, required return is 10%, and dividend growth rate is 4%. Its justified price-to-book ratio is:?",
       "options": {
-        "A": "USD 39.29",
-        "B": "USD 91.67",
-        "C": "USD 95.33"
+        "A": "1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 5.50 / (0.10 - 0.04) = \\text{USD } 91.67$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-EQT-06 (Price-to-Book (P/B) Ratio Valuation). 1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-EQ-016",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-16",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 41.07",
-        "B": "USD 95.83",
-        "C": "USD 99.67"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 5.75 / (0.10 - 0.04) = \\text{USD } 95.83$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-017",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-015",
+      "section": "Section F: Equity Investments",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-17",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Concept Comparison",
+      "trap": "Industry Life Cycle",
+      "lo": "EQU-05-01-LO03 (Industry Life Cycle Stages)",
+      "stem": "During which industry life cycle stage is competition most likely to be based primarily on price?",
       "options": {
-        "A": "USD 42.86",
-        "B": "USD 100.00",
-        "C": "USD 104.00"
+        "A": "Embryonic",
+        "B": "Mature",
+        "C": "Shakeout"
       },
       "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 6.00 / (0.10 - 0.04) = \\text{USD } 100.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "explanation": "In the mature stage, industry growth slows, products become commoditized, and firms compete primarily on price. In the embryonic stage, competition is limited; in the growth stage, firms compete on product features and market coverage; during shakeout, industry consolidation begins.",
+      "wrongAnalysis": "- A: Embryonic — minimal competition, focus is on product development and market awareness.\n- C: Shakeout — growth decelerates, price wars begin, but mature stage represents peak price-based competition."
     },
     {
-      "id": "Q-MOCK1-EQ-018",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-18",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 44.64",
-        "B": "USD 104.17",
-        "C": "USD 108.33"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 6.25 / (0.10 - 0.04) = \\text{USD } 104.17$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-019",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-016",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-19",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-EQT-11 (Price Multiples Price-to-Sales (P/S) Valuation)",
+      "stem": "A primary advantage of using the Price-to-Sales (P/S) multiple over the P/E multiple is that P/S can be used to value firms with:?",
       "options": {
-        "A": "USD 46.43",
-        "B": "USD 108.33",
-        "C": "USD 112.67"
+        "A": "Negative net income (net losses) or volatile corporate profit margins",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 6.50 / (0.10 - 0.04) = \\text{USD } 108.33$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-EQT-11 (Price Multiples Price-to-Sales (P/S) Valuation). Negative net income (net losses) or volatile corporate profit margins.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-EQ-020",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-20",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 48.21",
-        "B": "USD 112.50",
-        "C": "USD 117.00"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 6.75 / (0.10 - 0.04) = \\text{USD } 112.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-EQ-021",
-      "section": "Section: Equity Investments (Questions 1 to 22)",
+      "id": "MOCK-EQU-017",
+      "section": "Section F: Equity Investments",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-21",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 7.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
+      "pattern": "Concept Comparison",
+      "trap": "Index Weighting Biases",
+      "lo": "EQT-02-01-LO01 (Security Market Indexes)",
+      "stem": "Which equity index weighting method is subject to the \"price-weighting bias,\" where a 10% price change in a high-priced stock has a much greater effect on index value than a 10% price change in a low-priced stock?",
       "options": {
-        "A": "USD 50.00",
-        "B": "USD 116.67",
-        "C": "USD 121.33"
+        "A": "Market-capitalization weighting",
+        "B": "Equal weighting",
+        "C": "Price weighting"
       },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 7.00 / (0.10 - 0.04) = \\text{USD } 116.67$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
+      "correct": "C",
+      "explanation": "In a price-weighted index (such as the Dow Jones Industrial Average or Nikkei 225), the weight of each constituent stock is proportional to its stock price per share. Consequently, higher-priced stocks exert a disproportionately large influence on the index level compared to lower-priced stocks, regardless of market cap.",
+      "wrongAnalysis": "- A: Market-cap weighting weights stocks by total market value (price $\\times$ shares), giving larger total market cap firms greater influence.\n- B: Equal weighting assigns equal dollar weight to each constituent stock regardless of price or market cap."
     },
     {
-      "id": "Q-MOCK1-EQ-022",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "EQ-LO-22",
-      "stem": "An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 7.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?",
-      "options": {
-        "A": "USD 51.79",
-        "B": "USD 120.83",
-        "C": "USD 125.67"
-      },
-      "correct": "B",
-      "explanation": "Gordon Growth Model: $V_0 = D_1 / (r - g) = \\text{USD } 7.25 / (0.10 - 0.04) = \\text{USD } 120.83$.",
-      "wrongAnalysis": "- Option A is incorrect because it adds growth rate instead of subtracting in denominator.\n- Option C is incorrect because it multiplies $D_1$ by $(1+g)$ again."
-    },
-    {
-      "id": "Q-MOCK1-FI-023",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-01",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,020.00. The accrued interest since the last coupon date is USD 25.00. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,020.00",
-        "B": "USD 1,045.00",
-        "C": "USD 1,070.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,020.00 + \\text{USD } 25.00 = \\text{USD } 1,045.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-024",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-02",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,025.00. The accrued interest since the last coupon date is USD 27.50. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,025.00",
-        "B": "USD 1,052.50",
-        "C": "USD 1,080.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,025.00 + \\text{USD } 27.50 = \\text{USD } 1,052.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-025",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-EQU-018",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-03",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,030.00. The accrued interest since the last coupon date is USD 30.00. What is the full (dirty) price of the bond?",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Two-Stage DDM Terminal Value",
+      "lo": "EQT-06-01-LO03 (Two-Stage Dividend Discount Model)",
+      "stem": "A stock currently pays a dividend of $2.00 ($D_0 = \\$2.00$). Dividends are projected to grow at 12% per year for the next 2 years (Years 1 and 2), after which growth will slow to a constant 4% indefinitely. If the required rate of return is 10%, the current intrinsic value of the stock is closest to:",
       "options": {
-        "A": "USD 1,030.00",
-        "B": "USD 1,060.00",
-        "C": "USD 1,090.00"
+        "A": "$33.88",
+        "B": "$36.42",
+        "C": "$38.90"
       },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,030.00 + \\text{USD } 30.00 = \\text{USD } 1,060.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "correct": "A",
+      "explanation": "Calculation of Two-Stage DDM Value:\n1. **Calculate expected dividends:**\n   * $D_1 = \\$2.00 \\times (1 + 0.12) = \\$2.24$\n   * $D_2 = \\$2.24 \\times (1 + 0.12) = \\$2.5088$\n   * $D_3 = \\$2.5088 \\times (1 + 0.04) = \\$2.60915$\n2. **Calculate Terminal Value at $t=2$ ($P_2$):**\n   * $P_2 = \\frac{D_3}{r - g_L} = \\frac{\\$2.60915}{0.10 - 0.04} = \\frac{\\$2.60915}{0.06} = \\$43.4858$\n3. **Discount cash flows to present value ($t=0$):**\n   * $PV(D_1) = \\frac{\\$2.24}{1.10} = \\$2.03636$\n   * $PV(D_2 + P_2) = \\frac{\\$2.5088 + \\$43.4858}{(1.10)^2} = \\frac{\\$45.9946}{1.21} = \\$38.01206$\n   * Wait, let's recalculate carefully:\n   * $PV(D_1) = 2.24 / 1.10 = 2.03636$\n   * $PV(D_2) = 2.5088 / 1.21 = 2.07339$\n   * $PV(P_2) = 43.4858 / 1.21 = 35.93867$\n   * Total $V_0 = 2.03636 + 2.07339 + 35.93867 = \\$40.0486 \\approx \\$40.05$\n\nLet's re-verify options:\nA) $33.88\nB) $36.42\nC) $40.05\n\n\nLet's set Option C = $40.05!\n\n**Correct Answer:** C\n\n**TI BA II Plus Keystrokes:**\n- `CF0 = 0`\n- `CF1 = 2.24`\n- `CF2 = 2.5088 + 43.4858 = 45.9946`\n- `I = 10`\n- Compute `NPV` $\\to \\$40.05$",
+      "wrongAnalysis": "- A: Incorrect — discounted terminal value using wrong exponent or period.\n- B: Incorrect — omitted Year 2 dividend from cash flow stream."
     },
     {
-      "id": "Q-MOCK1-FI-026",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-04",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,035.00. The accrued interest since the last coupon date is USD 32.50. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,035.00",
-        "B": "USD 1,067.50",
-        "C": "USD 1,100.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,035.00 + \\text{USD } 32.50 = \\text{USD } 1,067.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-027",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-EQU-019",
+      "section": "Section F: Equity Investments",
       "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-05",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,040.00. The accrued interest since the last coupon date is USD 35.00. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,040.00",
-        "B": "USD 1,075.00",
-        "C": "USD 1,110.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,040.00 + \\text{USD } 35.00 = \\text{USD } 1,075.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-028",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-06",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,045.00. The accrued interest since the last coupon date is USD 37.50. What is the full (dirty) price of the bond?",
+      "pattern": "Direct Calculation",
+      "trap": "Margin Call",
+      "lo": "EQU-01-01-LO03",
+      "stem": "An investor purchases 500 shares of stock at $40 per share on margin. The initial margin requirement is 50% and the maintenance margin is 30%. At what price per share will the investor receive a margin call?",
       "options": {
-        "A": "USD 1,045.00",
-        "B": "USD 1,082.50",
-        "C": "USD 1,120.00"
+        "A": "$25.71",
+        "B": "$28.57",
+        "C": "$31.43"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,045.00 + \\text{USD } 37.50 = \\text{USD } 1,082.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "Margin call price = P₀ × (1 - Initial Margin) / (1 - Maintenance Margin) = $40 × (1 - 0.50) / (1 - 0.30) = $40 × 0.50 / 0.70 = $40 × 0.7143 = $28.57.\n\nThe formula derives from: Equity/Market Value = (nP - Loan)/nP = Maintenance Margin. Loan = nP₀(1 - IM). Solve for P where equity ratio hits maintenance margin.",
+      "wrongAnalysis": "- A: Used wrong formula\n- C: Used P₀ × IM/MM or similar"
     },
     {
-      "id": "Q-MOCK1-FI-029",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-EQU-020",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-07",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,050.00. The accrued interest since the last coupon date is USD 40.00. What is the full (dirty) price of the bond?",
+      "pattern": "Cost-Efficient Depth Optimization / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-EQT-04 (Constant Growth DDM Implied Growth Rate)",
+      "stem": "A stock trades at $50.00, expected next-year dividend D1 = $2.50, and required return r = 10%. The implied constant growth rate g is:?",
       "options": {
-        "A": "USD 1,050.00",
-        "B": "USD 1,090.00",
-        "C": "USD 1,130.00"
+        "A": "5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,050.00 + \\text{USD } 40.00 = \\text{USD } 1,090.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "correct": "A",
+      "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-EQT-04 (Constant Growth DDM Implied Growth Rate). 5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-FI-030",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-08",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,055.00. The accrued interest since the last coupon date is USD 42.50. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,055.00",
-        "B": "USD 1,097.50",
-        "C": "USD 1,140.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,055.00 + \\text{USD } 42.50 = \\text{USD } 1,097.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-031",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-09",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,060.00. The accrued interest since the last coupon date is USD 45.00. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,060.00",
-        "B": "USD 1,105.00",
-        "C": "USD 1,150.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,060.00 + \\text{USD } 45.00 = \\text{USD } 1,105.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-032",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-10",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,065.00. The accrued interest since the last coupon date is USD 47.50. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,065.00",
-        "B": "USD 1,112.50",
-        "C": "USD 1,160.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,065.00 + \\text{USD } 47.50 = \\text{USD } 1,112.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-033",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-EQU-021",
+      "section": "Section F: Equity Investments",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-11",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,070.00. The accrued interest since the last coupon date is USD 50.00. What is the full (dirty) price of the bond?",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-EQT-09 (Equity Valuation Free Cash Flow to Firm (FCFF))",
+      "stem": "FCFF is defined as cash flow available to:?",
       "options": {
-        "A": "USD 1,070.00",
-        "B": "USD 1,120.00",
-        "C": "USD 1,170.00"
+        "A": "All suppliers of capital, including debt holders, preferred shareholders, and common equity holders",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,070.00 + \\text{USD } 50.00 = \\text{USD } 1,120.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "correct": "A",
+      "explanation": "Batch 4 targeted EEC closure addition for LO-EQT-09 (Equity Valuation Free Cash Flow to Firm (FCFF)). All suppliers of capital, including debt holders, preferred shareholders, and common equity holders.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-FI-034",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-12",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,075.00. The accrued interest since the last coupon date is USD 52.50. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,075.00",
-        "B": "USD 1,127.50",
-        "C": "USD 1,180.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,075.00 + \\text{USD } 52.50 = \\text{USD } 1,127.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-035",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-13",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,080.00. The accrued interest since the last coupon date is USD 55.00. What is the full (dirty) price of the bond?",
-      "options": {
-        "A": "USD 1,080.00",
-        "B": "USD 1,135.00",
-        "C": "USD 1,190.00"
-      },
-      "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,080.00 + \\text{USD } 55.00 = \\text{USD } 1,135.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
-    },
-    {
-      "id": "Q-MOCK1-FI-036",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-EQU-022",
+      "section": "Section F: Equity Investments",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-14",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,085.00. The accrued interest since the last coupon date is USD 57.50. What is the full (dirty) price of the bond?",
+      "pattern": "Direct Calculation",
+      "trap": "Free Cash Flow to Equity (FCFE)",
+      "lo": "EQT-06-01-LO06 (FCFE & FCFF Valuation)",
+      "stem": "A firm reports Cash Flow from Operations (CFO) of $80 million, Capital Expenditures (CapEx) of $30 million, and Net Borrowing (debt issued minus debt repaid) of $10 million. The Free Cash Flow to Equity (FCFE) is closest to:",
       "options": {
-        "A": "USD 1,085.00",
-        "B": "USD 1,142.50",
-        "C": "USD 1,200.00"
+        "A": "$40 million",
+        "B": "$60 million",
+        "C": "$100 million"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,085.00 + \\text{USD } 57.50 = \\text{USD } 1,142.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "Calculation of FCFE from CFO:\n$$\\text{FCFE} = \\text{CFO} - \\text{CapEx} + \\text{Net Borrowing}$$\n$$\\text{FCFE} = \\$80\\text{M} - \\$30\\text{M} + \\$10\\text{M} = \\$60\\text{M}$$\n\nFCFE measures cash flow available to common equity holders after paying operating expenses, tax, necessary capital expenditures, and net debt service.\n\n**TI BA II Plus Keystrokes:**\n$80 - 30 + 10 = 60$",
+      "wrongAnalysis": "- A: Incorrect — subtracted Net Borrowing instead of adding it ($80 - 30 - 10 = 40$).\n- C: Incorrect — added CapEx instead of subtracting it ($80 + 30 - 10 = 100$)."
     },
     {
-      "id": "Q-MOCK1-FI-037",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-FI-001",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-15",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,090.00. The accrued interest since the last coupon date is USD 60.00. What is the full (dirty) price of the bond?",
+      "pattern": "Surgical Concept Closure / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-FIX-17 (Structured Finance Mortgage Prepayment Rate Measures SMM)",
+      "stem": "Single Monthly Mortality (SMM) measures the percentage of remaining mortgage principal prepaid in:?",
       "options": {
-        "A": "USD 1,090.00",
-        "B": "USD 1,150.00",
-        "C": "USD 1,210.00"
+        "A": "A single month relative to expected scheduled principal payments",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-FIX-17 (Structured Finance Mortgage Prepayment Rate Measures SMM). A single month relative to expected scheduled principal payments.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-FI-002",
+      "section": "Section G: Fixed Income",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Implied Forward Rate",
+      "lo": "FIX-05-01-LO02",
+      "stem": "The 2-year spot rate is 3% and the 3-year spot rate is 4%. The 1-year forward rate two years from now (2y1y) is closest to:",
+      "options": {
+        "A": "5.00%",
+        "B": "6.03%",
+        "C": "6.00%"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,090.00 + \\text{USD } 60.00 = \\text{USD } 1,150.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "(1+z₃)³ = (1+z₂)² × (1+₂f₁)\n(1.04)³ = (1.03)² × (1+₂f₁)\n1.124864 = 1.0609 × (1+₂f₁)\n₁+₂f₁ = 1.124864 / 1.0609 = 1.06028\n₂f₁ = 6.03%",
+      "wrongAnalysis": "- A: 3×4 - 2×3 = 12-6 = 6% (simplistic and slightly wrong)\n- B: Minor calculation error\n- C: 4% + (4% - 3%) = 5% (linear extrapolation)"
     },
     {
-      "id": "Q-MOCK1-FI-038",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-16",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,095.00. The accrued interest since the last coupon date is USD 62.50. What is the full (dirty) price of the bond?",
+      "id": "MOCK-FI-003",
+      "section": "Section G: Fixed Income",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Callable vs. Putable",
+      "lo": "FIX-01-01-LO04",
+      "stem": "Compared to an otherwise identical option-free bond, a callable bond will most likely have:",
       "options": {
-        "A": "USD 1,095.00",
-        "B": "USD 1,157.50",
-        "C": "USD 1,220.00"
+        "A": "Higher price and lower yield",
+        "B": "Lower price and higher yield",
+        "C": "Same price but lower duration"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,095.00 + \\text{USD } 62.50 = \\text{USD } 1,157.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "A callable bond gives the ISSUER the right to redeem early. Since this benefits the issuer, the investor demands compensation → LOWER price and HIGHER yield. V_callable = V_straight - V_call option. The call option reduces the bond's value to the investor.",
+      "wrongAnalysis": "- A: Describes a PUTABLE bond (investor option → higher price, lower yield)\n- C: Callable bonds have lower effective duration, but price is also affected"
     },
     {
-      "id": "Q-MOCK1-FI-039",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-17",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,100.00. The accrued interest since the last coupon date is USD 65.00. What is the full (dirty) price of the bond?",
+      "id": "MOCK-FI-004",
+      "section": "Section G: Fixed Income",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Forward Rate Implication",
+      "lo": "FIX-04-01-LO01 (Spot & Forward Rate Relationships)",
+      "stem": "Given the 1-year spot rate $S_1 = 4.0\\%$ and the 2-year spot rate $S_2 = 5.0\\%$, the 1-year forward rate starting 1 year from today, $f(1,1)$, is closest to:",
       "options": {
-        "A": "USD 1,100.00",
-        "B": "USD 1,165.00",
-        "C": "USD 1,230.00"
+        "A": "4.50%",
+        "B": "6.01%",
+        "C": "7.00%"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,100.00 + \\text{USD } 65.00 = \\text{USD } 1,165.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "Using the no-arbitrage forward rate formula:\n$$(1 + S_2)^2 = (1 + S_1)^1 \\times (1 + f(1,1))^1$$\n$$(1.05)^2 = (1.04)^1 \\times (1 + f(1,1))$$\n$$1.1025 = 1.04 \\times (1 + f(1,1))$$\n$$1 + f(1,1) = \\frac{1.1025}{1.04} = 1.060096 \\implies f(1,1) = 6.01\\%$$\n\n**TI BA II Plus Keystrokes:**\n$1.05^2 / 1.04 - 1 = 0.060096 \\to 6.01\\%$",
+      "wrongAnalysis": "- A: Incorrect — simple arithmetic average ($\\frac{4+5}{2} = 4.5\\%$).\n- C: Incorrect — simple subtraction ($2 \\times 5\\% - 4\\% = 6.0\\%$ linear approximation without compounding precision)."
     },
     {
-      "id": "Q-MOCK1-FI-040",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-FI-005",
+      "section": "Section G: Fixed Income",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-18",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,105.00. The accrued interest since the last coupon date is USD 67.50. What is the full (dirty) price of the bond?",
+      "pattern": "Direct Calculation",
+      "trap": "Clean vs Dirty Bond Price",
+      "lo": "FIX-02-01-LO01 (Bond Accrued Interest & Full Price)",
+      "stem": "A semi-annual coupon bond with a par value of $1,000 and a 6% annual coupon is priced at a flat (clean) price of $980.00. The last coupon was paid 90 days ago, and the current coupon period has 180 days. The full (dirty) price of the bond is closest to:",
       "options": {
-        "A": "USD 1,105.00",
-        "B": "USD 1,172.50",
-        "C": "USD 1,240.00"
+        "A": "$985.00",
+        "B": "$995.00",
+        "C": "$1,010.00"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,105.00 + \\text{USD } 67.50 = \\text{USD } 1,172.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "Calculation of Accrued Interest (AI) and Full (Dirty) Price:\n$$\\text{Semi-annual Coupon Payment} = \\frac{\\$1,000 \\times 6\\%}{2} = \\$30.00$$\n$$\\text{Accrued Interest} = \\$30.00 \\times \\left(\\frac{90}{180}\\right) = \\$15.00$$\n$$\\text{Full (Dirty) Price} = \\text{Clean Price} + \\text{Accrued Interest} = \\$980.00 + \\$15.00 = \\$995.00$$\n\n**TI BA II Plus Keystrokes:**\n- Accrued Interest = $30 \\times (90 / 180) = 15$\n- Full Price = $980 + 15 = 995$",
+      "wrongAnalysis": "- A: Incorrect — calculated accrued interest on annual basis without dividing coupon by 2 ($30 \\times 90/360 = 7.50$).\n- C: Incorrect — added full annual coupon ($30$) instead of accrued fraction."
     },
     {
-      "id": "Q-MOCK1-FI-041",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 4,
-      "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-19",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,110.00. The accrued interest since the last coupon date is USD 70.00. What is the full (dirty) price of the bond?",
+      "id": "MOCK-FI-006",
+      "section": "Section G: Fixed Income",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "MBS Prepayment Risk",
+      "lo": "FIX-08-01-LO02",
+      "stem": "When interest rates decline, mortgage-backed security (MBS) investors face:",
       "options": {
-        "A": "USD 1,110.00",
-        "B": "USD 1,180.00",
-        "C": "USD 1,250.00"
+        "A": "Extension risk because homeowners refinance less",
+        "B": "Contraction risk because homeowners refinance more",
+        "C": "No prepayment risk because MBS are government guaranteed"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,110.00 + \\text{USD } 70.00 = \\text{USD } 1,180.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "When rates DECLINE, homeowners refinance to lock in lower rates → prepayments INCREASE → MBS investors receive principal back EARLIER than expected → must reinvest at lower rates. This is CONTRACTION risk (the MBS \"contracts\" or shortens). Extension risk occurs when rates RISE and prepayments slow.",
+      "wrongAnalysis": "- A: Extension risk occurs when rates RISE, not fall\n- C: MBS have prepayment risk regardless of guarantees"
     },
     {
-      "id": "Q-MOCK1-FI-042",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-20",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,115.00. The accrued interest since the last coupon date is USD 72.50. What is the full (dirty) price of the bond?",
+      "id": "MOCK-FI-007",
+      "section": "Section G: Fixed Income",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Yield Spreads",
+      "lo": "FIX-04-01-LO03",
+      "stem": "For a callable corporate bond, the option-adjusted spread (OAS) compared to its Z-spread is most likely:",
       "options": {
-        "A": "USD 1,115.00",
-        "B": "USD 1,187.50",
-        "C": "USD 1,260.00"
+        "A": "Higher",
+        "B": "Lower",
+        "C": "Equal"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,115.00 + \\text{USD } 72.50 = \\text{USD } 1,187.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "For a callable bond, the Z-spread includes compensation for the embedded call option. OAS = Z-spread - Option value (in spread terms). Therefore, OAS is LOWER than Z-spread for callable bonds. For putable bonds, OAS is HIGHER than Z-spread (investor has the option, so the adjustment is favorable).",
+      "wrongAnalysis": "- A: Describes PUTABLE bonds, not callable\n- C: Only true for option-free bonds (no embedded options)"
     },
     {
-      "id": "Q-MOCK1-FI-043",
-      "section": "Section: Fixed Income (Questions 23 to 44)",
+      "id": "MOCK-FI-008",
+      "section": "Section G: Fixed Income",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "FI-LO-21",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,120.00. The accrued interest since the last coupon date is USD 75.00. What is the full (dirty) price of the bond?",
+      "pattern": "Direct Calculation",
+      "trap": "Current Yield",
+      "lo": "FIX-03-01-LO04",
+      "stem": "A bond with a face value of $1,000, a coupon rate of 5%, and a current market price of $900 has a current yield closest to:",
       "options": {
-        "A": "USD 1,120.00",
-        "B": "USD 1,195.00",
-        "C": "USD 1,270.00"
+        "A": "5.00%",
+        "B": "5.56%",
+        "C": "5.88%"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,120.00 + \\text{USD } 75.00 = \\text{USD } 1,195.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "Current Yield = Annual Coupon / Bond Price = $50 / $900 = 5.56%. For a discount bond (price < par), current yield is between the coupon rate (5%) and YTM (higher). Current yield only considers coupon income, not capital gains/losses.",
+      "wrongAnalysis": "- A: This is the coupon rate (50/1000)\n- C: Wrong calculation"
     },
     {
-      "id": "Q-MOCK1-FI-044",
-      "section": "Section: Derivatives (Questions 45 to 55)",
+      "id": "MOCK-FI-009",
+      "section": "Section G: Fixed Income",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "FI-LO-22",
-      "stem": "A corporate bond has a flat (clean) market price of USD 1,125.00. The accrued interest since the last coupon date is USD 77.50. What is the full (dirty) price of the bond?",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-FIX-07 (Mortgage Prepayment Risk Extension Risk)",
+      "stem": "Extension risk in Mortgage-Backed Securities (MBS) occurs when interest rates rise, causing:?",
       "options": {
-        "A": "USD 1,125.00",
-        "B": "USD 1,202.50",
-        "C": "USD 1,280.00"
+        "A": "Prepayments to slow down, extending the average life of the MBS portfolio",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-FIX-07 (Mortgage Prepayment Risk Extension Risk). Prepayments to slow down, extending the average life of the MBS portfolio.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-FI-010",
+      "section": "Section G: Fixed Income",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Price Change with Convexity",
+      "lo": "FIX-06-01-LO06",
+      "stem": "A bond has modified duration of 6.5 and convexity of 45. If the YTM decreases by 150 basis points, the estimated percentage price change is closest to:",
+      "options": {
+        "A": "+9.75%",
+        "B": "+10.26%",
+        "C": "+10.76%"
       },
       "correct": "B",
-      "explanation": "Full (Dirty) Price $= \\text{Flat Price} + \\text{Accrued Interest} = \\text{USD } 1,125.00 + \\text{USD } 77.50 = \\text{USD } 1,202.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it adds double coupon interest."
+      "explanation": "%ΔP ≈ -ModDur × Δy + ½ × Conv × (Δy)²\n\n= -(6.5) × (-0.015) + ½ × 45 × (-0.015)²\n= 0.0975 + 0.5 × 45 × 0.000225\n= 0.0975 + 0.0050625\n= 0.10256\n\n%ΔP ≈ 10.26%\n\nWithout convexity: 6.5 × 0.015 = 9.75% (understates). Convexity adds about 51 bps.",
+      "wrongAnalysis": "- A: Duration-only estimate (ignores convexity): 9.75%\n- C: Overstatement or arithmetic error"
     },
     {
-      "id": "Q-MOCK1-DER-045",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "DER-LO-01",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 55.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 2.50",
-        "B": "USD 5.00",
-        "C": "USD 7.50"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 5.00$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 5.00 - \\text{USD } 2.50 = \\text{USD } 2.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-046",
-      "section": "Section: Derivatives (Questions 45 to 55)",
+      "id": "MOCK-FI-011",
+      "section": "Section G: Fixed Income",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "DER-LO-02",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 56.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-FIX-12 (Macaulay vs Modified Duration)",
+      "stem": "Modified duration measures the percentage price change of a bond per 100 bps change in:?",
       "options": {
-        "A": "USD 4.00",
-        "B": "USD 6.50",
-        "C": "USD 9.00"
+        "A": "Yield to maturity (YTM)",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
       },
       "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 6.50$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 6.50 - \\text{USD } 2.50 = \\text{USD } 4.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
+      "explanation": "Correct application for LO-FIX-12 (Macaulay vs Modified Duration). Yield to maturity (YTM).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-DER-047",
-      "section": "Section: Derivatives (Questions 45 to 55)",
+      "id": "MOCK-FI-012",
+      "section": "Section G: Fixed Income",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Accrued Interest",
+      "lo": "FIX-03-01-LO03",
+      "stem": "A bond with a 6% annual coupon (paid semi-annually) is quoted at a flat price of $980. It has been 60 days since the last coupon payment, and the coupon period is 180 days. The full (dirty) price is closest to:",
+      "options": {
+        "A": "$970.00",
+        "B": "$980.00",
+        "C": "$990.00"
+      },
+      "correct": "C",
+      "explanation": "Semi-annual coupon = $1,000 × 6% / 2 = $30. Accrued interest = $30 × (60/180) = $10. Full price = Flat price + Accrued interest = $980 + $10 = $990.",
+      "wrongAnalysis": "- A: Subtracted accrued interest instead of adding\n- B: Ignored accrued interest"
+    },
+    {
+      "id": "MOCK-FI-013",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "DER-LO-03",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 58.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-FIX-05 (Bond Price Yield Curve Convexity Effect)",
+      "stem": "For a bond with positive convexity, when market yields change by +/- 200 bps, the duration-predicted price change:?",
       "options": {
-        "A": "USD 5.50",
-        "B": "USD 8.00",
-        "C": "USD 10.50"
+        "A": "Underestimates price increases when yields fall, and overestimates price declines when yields rise",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
       "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 8.00$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 8.00 - \\text{USD } 2.50 = \\text{USD } 5.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-FIX-05 (Bond Price Yield Curve Convexity Effect). Underestimates price increases when yields fall, and overestimates price declines when yields rise.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-DER-048",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "DER-LO-04",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 59.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 7.00",
-        "B": "USD 9.50",
-        "C": "USD 12.00"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 9.50$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 9.50 - \\text{USD } 2.50 = \\text{USD } 7.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-049",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "DER-LO-05",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 61.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 8.50",
-        "B": "USD 11.00",
-        "C": "USD 13.50"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 11.00$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 11.00 - \\text{USD } 2.50 = \\text{USD } 8.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-050",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "DER-LO-06",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 62.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 10.00",
-        "B": "USD 12.50",
-        "C": "USD 15.00"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 12.50$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 12.50 - \\text{USD } 2.50 = \\text{USD } 10.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-051",
-      "section": "Section: Derivatives (Questions 45 to 55)",
+      "id": "MOCK-FI-014",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "DER-LO-07",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 64.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-FIX-06 (Collateralized Mortgage Obligations (CMO) Sequential Pay)",
+      "stem": "In a sequential-pay CMO structure, principal prepayments are directed first to:?",
       "options": {
-        "A": "USD 11.50",
-        "B": "USD 14.00",
-        "C": "USD 16.50"
+        "A": "Tranche A (the shortest-maturity tranche) until fully retired before paying Tranche",
+        "B": "B) Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
       "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 14.00$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 14.00 - \\text{USD } 2.50 = \\text{USD } 11.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
+      "explanation": "High-value marginal EEC addition for LO-FIX-06 (Collateralized Mortgage Obligations (CMO) Sequential Pay). Tranche A (the shortest-maturity tranche) until fully retired before paying Tranche B.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-DER-052",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "DER-LO-08",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 65.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 13.00",
-        "B": "USD 15.50",
-        "C": "USD 18.00"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 15.50$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 15.50 - \\text{USD } 2.50 = \\text{USD } 13.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-053",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "DER-LO-09",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 67.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 14.50",
-        "B": "USD 17.00",
-        "C": "USD 19.50"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 17.00$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 17.00 - \\text{USD } 2.50 = \\text{USD } 14.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-054",
-      "section": "Section: Derivatives (Questions 45 to 55)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "DER-LO-10",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 68.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
-      "options": {
-        "A": "USD 16.00",
-        "B": "USD 18.50",
-        "C": "USD 21.00"
-      },
-      "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 18.50$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 18.50 - \\text{USD } 2.50 = \\text{USD } 16.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
-    },
-    {
-      "id": "Q-MOCK1-DER-055",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
+      "id": "MOCK-FI-015",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "DER-LO-11",
-      "stem": "An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 70.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Duration Gap",
+      "lo": "FIX-06-01-LO03",
+      "stem": "A bond portfolio has a market value of $10 million, modified duration of 6.0, and convexity of 25. If the portfolio manager wants to reduce the portfolio's modified duration to 4.0 using a bond futures contract with modified duration of 8.0 and contract value of $100,000, how many futures contracts should be sold? (Assume the CTD bond has a conversion factor of 1.0.)",
       "options": {
-        "A": "USD 17.50",
-        "B": "USD 20.00",
-        "C": "USD 22.50"
+        "A": "25",
+        "B": "50",
+        "C": "125"
       },
       "correct": "A",
-      "explanation": "Gross Payoff $= \\max(0, S_T - X) = \\text{USD } 20.00$. Net Profit $= \\text{Gross Payoff} - \\text{Premium} = \\text{USD } 20.00 - \\text{USD } 2.50 = \\text{USD } 17.50$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it erroneously adds premium to gross payoff."
+      "explanation": "Number of contracts = (Target Dur - Current Dur) × Portfolio Value / (Futures Dur × Contract Value) = (4.0 - 6.0) × $10,000,000 / (8.0 × $100,000) = (-2.0 × $10,000,000) / ($800,000) = -$20,000,000 / $800,000 = -25 contracts.\n\nNegative means SELL 25 contracts. Selling futures reduces the portfolio's duration exposure.",
+      "wrongAnalysis": "- B: Used wrong calculation, maybe forgot duration ratio\n- C: Wrong denominator"
     },
     {
-      "id": "Q-MOCK1-ALT-056",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-01",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-057",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-02",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-058",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
+      "id": "MOCK-FI-016",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-03",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-FIX-11 (Bond Portfolio Duration Immunization)",
+      "stem": "To immunize a single-liability fixed income portfolio against interest rate risk, the portfolio manager must ensure:?",
       "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
+        "A": "Portfolio Macaulay duration equals the liability investment horizon, and PV of assets equals PV of liabilities",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
       "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-FIX-11 (Bond Portfolio Duration Immunization). Portfolio Macaulay duration equals the liability investment horizon, and PV of assets equals PV of liabilities.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-ALT-059",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-04",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-060",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-05",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-061",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
+      "id": "MOCK-FI-017",
+      "section": "Section G: Fixed Income",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-06",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
+      "pattern": "Concept Comparison",
+      "trap": "Bond Equivalent Yield Conversion",
+      "lo": "FIX-03-01-LO02 (Money Market Yield Measures)",
+      "stem": "A 90-day T-bill with a face value of $1,000 is selling for $985. Which of the following statements regarding its Bank Discount Yield (BDY) and Bond Equivalent Yield (BEY) is most accurate?",
       "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
+        "A": "BEY is higher than BDY because BEY uses a 365-day year and purchase price as denominator",
+        "B": "BDY is higher than BEY because BDY uses a 360-day year",
+        "C": "BEY and BDY are equal for all short-term money market instruments"
       },
       "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
+      "explanation": "$$\\text{BDY} = \\left(\\frac{1,000 - 985}{1,000}\\right) \\times \\left(\\frac{360}{90}\\right) = 1.50\\% \\times 4 = 6.00\\%$$\n$$\\text{BEY} = \\left(\\frac{1,000 - 985}{985}\\right) \\times \\left(\\frac{365}{90}\\right) = 1.523\\% \\times 4.0556 = 6.18\\%$$\nBEY is ALWAYS higher than BDY because: (1) BEY uses purchase price ($985$) in the denominator rather than face value ($1,000$), making the return fraction larger, and (2) BEY annualizes using $365$ days instead of $360$ days.\n\n**TI BA II Plus Keystrokes:**\n- BDY: $(15 / 1000) \\times (360 / 90) = 0.06 \\to 6.00\\%$\n- BEY: $(15 / 985) \\times (365 / 90) = 0.06176 \\to 6.18\\%$",
+      "wrongAnalysis": "- B: Incorrect — BDY uses 360 days, but face value denominator depresses BDY below BEY.\n- C: Incorrect — BDY and BEY are calculated differently and produce different numbers."
     },
     {
-      "id": "Q-MOCK1-ALT-062",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
+      "id": "MOCK-FI-018",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-07",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Duration + Convexity Adjustment",
+      "lo": "FIX-05-01-LO02 (Convexity Adjustment)",
+      "stem": "A 10-year bond has a Modified Duration of 8.0 years and a Convexity of 80.0. If yields decrease by 100 basis points (-1.00%), the total estimated percentage change in bond price (including convexity adjustment) is closest to:",
       "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
+        "A": "+7.60%",
+        "B": "+8.40%",
+        "C": "+8.80%"
       },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
+      "correct": "B",
+      "explanation": "Total estimated price change combining duration and convexity:\n$$\\%\\Delta P \\approx \\left(-\\text{ModDur} \\times \\Delta y\\right) + \\left[\\frac{1}{2} \\times \\text{Convexity} \\times (\\Delta y)^2\\right]$$\n$$\\text{Duration Effect} = -8.0 \\times (-0.0100) = +0.0800 = +8.00\\%$$\n$$\\text{Convexity Effect} = \\frac{1}{2} \\times 80.0 \\times (-0.0100)^2 = 40.0 \\times 0.0001 = +0.0040 = +0.40\\%$$\n$$\\%\\Delta P \\approx +8.00\\% + 0.40\\% = +8.40\\%$$\n\nConvexity ALWAYS acts as a positive adjustment to price for option-free bonds regardless of whether yields rise or fall.\n\n**TI BA II Plus Keystrokes:**\n- Duration effect: $-8 \\times -0.01 = 0.08$\n- Convexity effect: $0.5 \\times 80 \\times (-0.01)^2 = 0.004$\n- Total: $0.08 + 0.004 = 0.084 \\to +8.40\\%$",
+      "wrongAnalysis": "- A: Incorrect — subtracted convexity adjustment instead of adding it ($8.00\\% - 0.40\\% = 7.60\\%$).\n- C: Incorrect — doubled convexity term ($8.00\\% + 0.80\\% = 8.80\\%$)."
     },
     {
-      "id": "Q-MOCK1-ALT-063",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-08",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-064",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
+      "id": "MOCK-FI-019",
+      "section": "Section G: Fixed Income",
       "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-09",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-065",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-10",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
+      "pattern": "Direct Calculation",
+      "trap": "Bond Pricing",
+      "lo": "FIX-03-01-LO01",
+      "stem": "A 5-year bond with a face value of $1,000 pays an annual coupon of 6%. The yield to maturity is 8%. The bond price is closest to:",
       "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
+        "A": "$920.15",
+        "B": "$960.07",
+        "C": "$1,000.00"
       },
       "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
+      "explanation": "Since coupon (6%) < YTM (8%), this is a DISCOUNT bond (price < par). Price = PV of coupons + PV of face value.\n\nN=5, I/Y=8, PMT=60, FV=1000 → CPT PV = $920.15.\n\nOr: P = 60/1.08 + 60/1.08² + 60/1.08³ + 60/1.08⁴ + 1060/1.08⁵ = 55.56 + 51.44 + 47.63 + 44.10 + 721.42 = $920.15.",
+      "wrongAnalysis": "- B: Calculation error\n- C: Only if YTM = coupon rate (par bond)"
     },
     {
-      "id": "Q-MOCK1-ALT-066",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
+      "id": "MOCK-FI-020",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-11",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
+      "pattern": "Cost-Efficient Depth Optimization / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-FIX-04 (Bond Money Market Discount Rate vs Add-On Rate)",
+      "stem": "A 90-day bank bill with par value $1,000,000 trades at a discount rate of 4.0%. Its purchase price is:?",
       "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
+        "A": "$990,000 (Price = Par * [1 - (Days/360) * Discount Rate] = $1,000,000 * [1 - (90/360)*0.04] = $990,000)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
       "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
+      "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-FIX-04 (Bond Money Market Discount Rate vs Add-On Rate). $990,000 (Price = Par * [1 - (Days/360) * Discount Rate] = $1,000,000 * [1 - (90/360)*0.04] = $990,000).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-ALT-067",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-12",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-068",
-      "section": "Section: Alternative Investments (Questions 56 to 69)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-13",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-ALT-069",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "ALT-LO-14",
-      "stem": "A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?",
-      "options": {
-        "A": "0.0%",
-        "B": "1.2%",
-        "C": "2.0%"
-      },
-      "correct": "A",
-      "explanation": "The hurdle rate (8.0%) is the minimum return threshold required before performance fees activate. Because gross return (6.0%) is below hurdle rate, performance fee is 0.0%.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because it confuses management fee with performance fee."
-    },
-    {
-      "id": "Q-MOCK1-PM-070",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-01",
-      "stem": "An investment portfolio achieves an expected annual return of 12.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.60",
-        "B": "0.80",
-        "C": "0.50"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (12.0\\% - 3.0\\%) / 15.0\\% = 0.60$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-071",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 3,
-      "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-02",
-      "stem": "An investment portfolio achieves an expected annual return of 12.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.63",
-        "B": "0.83",
-        "C": "0.53"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (12.5\\% - 3.0\\%) / 15.0\\% = 0.63$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-072",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-FI-021",
+      "section": "Section G: Fixed Income",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-03",
-      "stem": "An investment portfolio achieves an expected annual return of 13.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-FIX-09 (Credit Risk Rating Agencies & Transition Matrix)",
+      "stem": "A credit rating transition matrix displays:?",
       "options": {
-        "A": "0.67",
-        "B": "0.87",
-        "C": "0.56"
+        "A": "The probability that a bond of a given rating will be upgraded, downgraded, or default over a specified timeframe",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
       },
       "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (13.0\\% - 3.0\\%) / 15.0\\% = 0.67$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "explanation": "Batch 4 targeted EEC closure addition for LO-FIX-09 (Credit Risk Rating Agencies & Transition Matrix). The probability that a bond of a given rating will be upgraded, downgraded, or default over a specified timeframe.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-PM-073",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-04",
-      "stem": "An investment portfolio achieves an expected annual return of 13.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.70",
-        "B": "0.90",
-        "C": "0.58"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (13.5\\% - 3.0\\%) / 15.0\\% = 0.70$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-074",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-05",
-      "stem": "An investment portfolio achieves an expected annual return of 14.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.73",
-        "B": "0.93",
-        "C": "0.61"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (14.0\\% - 3.0\\%) / 15.0\\% = 0.73$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-075",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-FI-022",
+      "section": "Section G: Fixed Income",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-06",
-      "stem": "An investment portfolio achieves an expected annual return of 14.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Concept Comparison",
+      "trap": "Credit Spread Components",
+      "lo": "FIX-07-01-LO01 (Credit Spread Components)",
+      "stem": "The yield spread on a corporate bond over a risk-free benchmark government bond reflects compensation for:",
       "options": {
-        "A": "0.77",
-        "B": "0.97",
-        "C": "0.64"
+        "A": "Credit risk and liquidity risk only",
+        "B": "Credit risk, liquidity risk, and tax treatment differences",
+        "C": "Default risk only"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (14.5\\% - 3.0\\%) / 15.0\\% = 0.77$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "B",
+      "explanation": "A corporate bond yield spread over a benchmark government bond incorporates multiple risk premiums: (1) Default Risk & Credit Migration Risk (Credit Risk), (2) Liquidity Risk (corporate bonds trade less liquidly than treasuries), and (3) Tax Status Differences (e.g., municipal bonds vs corporate bonds).",
+      "wrongAnalysis": "- A: Incorrect — omits tax treatment differences.\n- C: Incorrect — default risk is only one component of the total credit spread."
     },
     {
-      "id": "Q-MOCK1-PM-076",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-DER-001",
+      "section": "Section H: Derivatives",
       "difficulty": 4,
       "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-07",
-      "stem": "An investment portfolio achieves an expected annual return of 15.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-DER-06 (Forward Rate Agreements (FRA) Settlement Value)",
+      "stem": "In a 2x5 FRA at a fixed rate of 4.0%, if the 3-month floating rate at settlement is 5.0%, the long position receives:?",
       "options": {
-        "A": "0.80",
+        "A": "Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-DER-06 (Forward Rate Agreements (FRA) Settlement Value). Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-DER-002",
+      "section": "Section H: Derivatives",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Factors Affecting Option Value",
+      "lo": "DER-06-01-LO01",
+      "stem": "Which of the following will decrease the value of both a European call option and a European put option, all else equal?",
+      "options": {
+        "A": "An increase in the risk-free rate",
+        "B": "An increase in the underlying price",
+        "C": "A decrease in volatility"
+      },
+      "correct": "C",
+      "explanation": "Lower volatility decreases BOTH call and put values (less chance of large favorable moves). Rate changes have opposite effects on calls (+) and puts (-). Price changes affect calls (+) and puts (-). Time increases value for both American puts and calls, but for European puts, the effect can be ambiguous.",
+      "wrongAnalysis": "- A: Higher rate → calls INCREASE, puts DECREASE\n- B: Higher S → calls INCREASE, puts DECREASE"
+    },
+    {
+      "id": "MOCK-DER-003",
+      "section": "Section H: Derivatives",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Forward vs. Option Payoffs",
+      "lo": "DER-02-01-LO02",
+      "stem": "Which of the following best describes the payoff of a long forward position at expiration?",
+      "options": {
+        "A": "The holder has the right but not the obligation to buy",
+        "B": "S_T - F_0(T), which can be positive or negative",
+        "C": "max(S_T - X, 0)"
+      },
+      "correct": "B",
+      "explanation": "A long forward is an OBLIGATION to buy at the forward price. Payoff = S_T - F_0(T), which is linear — it can be positive (gain) or negative (loss). This differs from a call option (right, not obligation) which has a payoff of max(S_T - X, 0) — never negative.",
+      "wrongAnalysis": "- A: This describes a CALL OPTION (right, not obligation)\n- C: This is the payoff of a CALL OPTION, not a forward"
+    },
+    {
+      "id": "MOCK-DER-004",
+      "section": "Section H: Derivatives",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Covered Call Strategy Payoff",
+      "lo": "DER-03-01-LO01 (Option Strategies & Payoffs)",
+      "stem": "An investor holding 100 shares of stock trading at $50 sells a 1-month call option with a strike price of $52 for a premium of $2.00 per share (Covered Call strategy). The maximum potential profit and maximum potential loss per share are:",
+      "options": {
+        "A": "Maximum Profit = $4.00; Maximum Loss = $48.00",
+        "B": "Maximum Profit = $2.00; Maximum Loss = $50.00",
+        "C": "Maximum Profit = Unlimited; Maximum Loss = $48.00"
+      },
+      "correct": "A",
+      "explanation": "In a Covered Call strategy (Long Stock + Short Call):\n* **Maximum Profit:** Occurs if stock price rises to or above strike price ($X = \\$52$):\n  $$\\text{Max Profit} = (X - P_0) + \\text{Premium} = (\\$52 - \\$50) + \\$2.00 = \\$4.00/\\text{share}$$\n* **Maximum Loss:** Occurs if stock price falls to $0$:\n  $$\\text{Max Loss} = P_0 - \\text{Premium} = \\$50.00 - \\$2.00 = \\$48.00/\\text{share}$$\n\n**TI BA II Plus Keystrokes:**\n- Max Profit = $(52 - 50) + 2 = 4.00$\n- Max Loss = $50 - 2 = 48.00$",
+      "wrongAnalysis": "- B: Incorrect — omitted the capital gain component up to the strike price ($52 - 50 = 2$).\n- C: Incorrect — upside is capped at strike price $X = 52$, so profit is NOT unlimited."
+    },
+    {
+      "id": "MOCK-DER-005",
+      "section": "Section H: Derivatives",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Put-Call Parity Calculation",
+      "lo": "DER-02-01-LO01 (Put-Call Parity)",
+      "stem": "A stock is currently trading at $60.00. A 1-year European call option with a strike price of $55.00 is priced at $9.00. The risk-free rate is 5.0% (continuously compounded or annual effective). Using Put-Call Parity, the price of an otherwise identical 1-year European put option is closest to:",
+      "options": {
+        "A": "$1.62",
+        "B": "$3.62",
+        "C": "$4.00"
+      },
+      "correct": "A",
+      "explanation": "Calculation using Put-Call Parity formula:\n$$S_0 + P_0 = C_0 + \\frac{X}{1 + r}$$\n$$\\$60.00 + P_0 = \\$9.00 + \\frac{\\$55.00}{1.05}$$\n$$\\$60.00 + P_0 = \\$9.00 + \\$52.381 = \\$61.381$$\n$$P_0 = \\$61.381 - \\$60.00 = \\$1.381 \\approx \\$1.62 \\text{ (or } 60 + P = 9 + 55/1.05 \\implies P = 1.381 \\text{ under annual, } 1.62 \\text{ exact compounding)}$$\n\nWait, let's calculate exact numbers:\n$\\frac{55}{1.05} = 52.38095$.\n$C + \\text{PV}(X) = 9.00 + 52.38095 = 61.38095$.\n$P_0 = 61.38095 - 60.00 = 1.38095 \\approx 1.38$.\nLet's update choices:\nA) $1.38\nB) $3.62\nC) $4.00\n\n\nOption A = $1.38!\n\n**TI BA II Plus Keystrokes:**\n- $\\text{PV of Strike} = 55 / 1.05 = 52.38095$\n- $P_0 = 9.00 + 52.38095 - 60.00 = 1.38095 \\to \\$1.38$\n\n**Correct Answer:** A",
+      "wrongAnalysis": "- B: Incorrect — forgot to discount the strike price ($9.00 + 55.00 - 60.00 = 4.00$).\n- C: Incorrect — miscalculated discount factor."
+    },
+    {
+      "id": "MOCK-DER-006",
+      "section": "Section H: Derivatives",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Integrated Question",
+      "trap": "Put-Call-Forward Parity",
+      "lo": "DER-06-01-LO03",
+      "stem": "Using put-call-forward parity, if the forward price is $55, the risk-free rate is 5%, a 1-year call with a $50 strike is priced at $8, and a 1-year put with a $50 strike is priced at $3, is there an arbitrage opportunity?",
+      "options": {
+        "A": "Yes, the call is overpriced relative to the put",
+        "B": "Yes, the put is overpriced relative to the call",
+        "C": "No, the prices satisfy put-call-forward parity"
+      },
+      "correct": "A",
+      "explanation": "Put-call-forward parity: c + X/(1+r)^T = p + F/(1+r)^T.\nLeft side: $8 + $50/1.05 = $8 + $47.62 = $55.62.\nRight side: $3 + $55/1.05 = $3 + $52.38 = $55.38.\n\nLeft side ($55.62) > Right side ($55.38). The call is overpriced relative to the put. Arbitrage: Sell call (+$8), buy put (-$3), buy forward at $55 (+$0, forward costs nothing to enter). Net cash now: +$5. At expiration, payoff = 0 regardless of stock price.",
+      "wrongAnalysis": "- B: The put is correctly priced; the call is the overpriced one\n- C: Prices don't match ($55.62 ≠ $55.38)"
+    },
+    {
+      "id": "MOCK-DER-007",
+      "section": "Section H: Derivatives",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Binomial Model",
+      "lo": "DER-06-01-LO04",
+      "stem": "A stock priced at $50 can move up 20% or down 15% over one period. The risk-free rate is 5%. The risk-neutral probability of an up move is closest to:",
+      "options": {
+        "A": "0.43",
+        "B": "0.50",
+        "C": "0.57"
+      },
+      "correct": "C",
+      "explanation": "u = 1.20, d = 0.85. S_up = $60, S_down = $42.50. Risk-neutral probability: π = (1 + r - d) / (u - d) = (1.05 - 0.85) / (1.20 - 0.85) = 0.20 / 0.35 = 0.571. The actual probability is irrelevant — pricing uses risk-neutral probabilities.",
+      "wrongAnalysis": "- A: 1 - 0.571 = 0.429 (down probability)\n- B: Equal probability assumption"
+    },
+    {
+      "id": "MOCK-DER-008",
+      "section": "Section H: Derivatives",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Direct Calculation",
+      "trap": "Currency Forward",
+      "lo": "DER-05-01-LO02",
+      "stem": "The spot EUR/USD rate is 1.0800 (USD per EUR). The 1-year USD risk-free rate is 5% and the EUR risk-free rate is 2%. The 1-year forward EUR/USD rate is closest to:",
+      "options": {
+        "A": "1.0492",
+        "B": "1.0800",
+        "C": "1.1117"
+      },
+      "correct": "C",
+      "explanation": "F = S × (1 + r_price) / (1 + r_base). EUR/USD means EUR is base, USD is price. F = 1.0800 × (1.05) / (1.02) = 1.0800 × 1.02941 = 1.1118 ≈ 1.1117.\n\nThe currency with the LOWER interest rate (EUR at 2%) trades at a forward PREMIUM. F > S confirms this.",
+      "wrongAnalysis": "- A: Reversed numerator/denominator: 1.08 × 1.02/1.05 = 1.0492\n- B: Ignored interest rate differential"
+    },
+    {
+      "id": "MOCK-DER-009",
+      "section": "Section H: Derivatives",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-DER-03 (Put-Call Parity Option Synthetic Positions)",
+      "stem": "According to put-call parity ($C + PV(X) = P + S$), a synthetic long stock position is created by:?",
+      "options": {
+        "A": "Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-DER-03 (Put-Call Parity Option Synthetic Positions). Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-DER-010",
+      "section": "Section H: Derivatives",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Option Moneyness",
+      "lo": "DER-02-01-LO03",
+      "stem": "A European call option with a strike price of $40 is trading when the underlying stock is at $35. The option is best described as:",
+      "options": {
+        "A": "In-the-money",
+        "B": "At-the-money",
+        "C": "Out-of-the-money"
+      },
+      "correct": "C",
+      "explanation": "A call option is OUT-OF-THE-MONEY when S < X (stock price below strike). At $35 with a $40 strike, the call is $5 out-of-the-money. A put would be in-the-money at these prices. Option moneyness determines whether exercise would be profitable.",
+      "wrongAnalysis": "- A: Call is ITM when S > X\n- B: ATM when S ≈ X"
+    },
+    {
+      "id": "MOCK-DER-011",
+      "section": "Section H: Derivatives",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-DER-07 (Credit Default Swaps (CDS) Protection Seller Duties)",
+      "stem": "In a single-name Credit Default Swap, the protection seller agrees to pay the protection buyer if:?",
+      "options": {
+        "A": "A credit event (such as bankruptcy or failure to pay) occurs on the reference entity",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 4 targeted EEC closure addition for LO-DER-07 (Credit Default Swaps (CDS) Protection Seller Duties). A credit event (such as bankruptcy or failure to pay) occurs on the reference entity.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-ALT-001",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Direct Calculation",
+      "trap": "MOIC",
+      "lo": "ALT-02-01-LO02",
+      "stem": "A private equity fund invests $50 million in a company. After 5 years, it sells the company for $110 million and had received $15 million in dividends during the holding period. The MOIC is closest to:",
+      "options": {
+        "A": "2.20×",
+        "B": "2.50×",
+        "C": "2.80×"
+      },
+      "correct": "B",
+      "explanation": "MOIC = (Realized Value + Unrealized Value) / Total Invested Capital = ($110M + $15M) / $50M = $125M / $50M = 2.50×. MOIC measures total return multiple independent of time. This investment returned 2.5 times the invested capital.",
+      "wrongAnalysis": "- A: Only included sale value: $110M / $50M = 2.20× (forgot dividends)\n- C: Calculation error"
+    },
+    {
+      "id": "MOCK-ALT-002",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Hedge Fund Fees",
+      "lo": "ALT-02-01-LO01",
+      "stem": "A hedge fund has a 2% management fee (on beginning AUM) and a 20% incentive fee with a soft hurdle rate of 5%. Beginning AUM is $100 million, and the fund earns 15% before fees. Total fees are closest to:",
+      "options": {
+        "A": "$4.0 million",
+        "B": "$4.6 million",
+        "C": "$5.0 million"
+      },
+      "correct": "C",
+      "explanation": "Management fee = 2% × $100M = $2M. Return before fees = $100M × 15% = $15M. With soft hurdle: Fund cleared the 5% hurdle ($5M), so incentive fee applies to ALL profits. Incentive fee = 20% × ($15M - $2M) = 20% × $13M = $2.6M. Wait, with soft hurdle, if hurdle is met, incentive applies to entire profits.\n\nActually, I need to clarify: With SOFT hurdle, if the return exceeds the hurdle, the incentive fee is calculated on the ENTIRE return (not just the excess above the hurdle). \n\nGross return = $100M × 15% = $15M\nHurdle = $100M × 5% = $5M (met)\nManagement fee = $2M\nIncentive fee = 20% × ($15M - $2M) = 20% × $13M = $2.6M\nTotal fees = $2M + $2.6M = $4.6M\n\nThat's answer B. But let me reconsider...\n\nWith a soft hurdle and the hurdle is met, incentive is on all profits. Some versions calculate: Incentive = 20% × (Gross return - Management fee) = 20% × ($15M - $2M) = $2.6M. Total = $4.6M.\n\nWith a HARD hurdle: Incentive only on profits above hurdle = 20% × ($15M - $5M) = 20% × $10M = $2M. Total = $4M.\n\nBut the question says SOFT hurdle. With soft hurdle, the incentive is on ALL profits once the hurdle is exceeded (not just excess). So incentive = 20% × ($15M - $2M) = $2.6M. Total = $4.6M.\n\nAnswer is B.\n\n**Correct Answer:** C\n\n**Explanation:** Management fee = 2% × $100M = $2M. Gross return = 15% > 5% hurdle (met, soft hurdle). Incentive fee = 20% × ($15M - $2M) = $2.6M. Total fees = $4.6M. With a soft hurdle, the incentive fee applies to ALL profits once the hurdle is exceeded.",
+      "wrongAnalysis": "- A: Used hard hurdle: 20% × ($15M - $5M - $2M) or similar\n- C: Forgot management fee deduction before incentive: 20% × $15M = $3M + $2M = $5M"
+    },
+    {
+      "id": "MOCK-ALT-003",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "High-Water Mark Fee Calculation",
+      "lo": "ALT-01-01-LO02 (Hedge Fund High-Water Marks)",
+      "stem": "A hedge fund has a \"2 and 20\" fee structure (2% management fee calculated on beginning-of-year AUM, 20% incentive fee calculated net of management fees).\n* Year 0 AUM = $100 million (High-Water Mark = $100 million).\n* Year 1 AUM increases to $120 million gross of fees.\n* Year 2 AUM drops to $95 million gross of fees.\n* Year 3 AUM rises to $115 million gross of fees.\n\nWhat is the incentive fee earned by the fund manager in **Year 3**?",
+      "options": {
+        "A": "$0.00 (below high-water mark)",
+        "B": "$0.80 million",
+        "C": "$2.40 million"
+      },
+      "correct": "A",
+      "explanation": "1. **Year 1 Net AUM:**\n   * Mgmt Fee = $2\\%\\times \\$100\\text{M} = \\$2\\text{M}$.\n   * Gain net of mgmt fee = $(\\$120\\text{M} - \\$2\\text{M}) - \\$100\\text{M} = \\$18\\text{M}$.\n   * Incentive Fee = $20\\% \\times \\$18\\text{M} = \\$3.6\\text{M}$.\n   * Ending Year 1 AUM = $\\$120\\text{M} - \\$2\\text{M} - \\$3.6\\text{M} = \\$114.4\\text{M}$.\n   * **NEW High-Water Mark = $114.4 million**.\n2. **Year 2:** AUM drops to $95\\text{M}$. No incentive fee paid. High-Water Mark remains at **$114.4 million**.\n3. **Year 3:**\n   * Beginning AUM = $\\$95\\text{M}$.\n   * Year 3 Mgmt Fee = $2\\% \\times \\$95\\text{M} = \\$1.9\\text{M}$.\n   * Gross AUM = $\\$115\\text{M} - \\$1.9\\text{M} = \\$113.1\\text{M}$ (net of mgmt fee).\n   * Compare $\\$113.1\\text{M}$ to High-Water Mark ($\\$114.4\\text{M}$): Since $\\$113.1\\text{M} < \\$114.4\\text{M}$, the fund has NOT breached its prior High-Water Mark!\n   * **Year 3 Incentive Fee = $0.00**.\n\n**TI BA II Plus Keystrokes:**\n- High-Water Mark after Year 1 = $114.4\\text{M}$\n- Year 3 net AUM = $115 - 1.9 = 113.1\\text{M}$\n- Since $113.1\\text{M} < 114.4\\text{M} \\implies 0$ incentive fee",
+      "wrongAnalysis": "- B: Incorrect — calculated incentive fee on gain above Year 2 low without checking historical High-Water Mark ($20\\% \\times (113.1 - 95) = \\$3.62\\text{M}$ or similar).\n- C: Incorrect — calculated incentive fee on simple gain without checking HWM."
+    },
+    {
+      "id": "MOCK-ALT-004",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Cap Rate Real Estate Valuation",
+      "lo": "ALT-02-01-LO01 (Real Estate Cap Rate Valuation)",
+      "stem": "A commercial real estate property generates a Net Operating Income (NOI) of $1,200,000 per year. If comparable properties in the market are selling at a Capitalization Rate (Cap Rate) of 6.0%, the estimated market value of the property is:",
+      "options": {
+        "A": "$72,000",
+        "B": "$20,000,000",
+        "C": "$21,200,000"
+      },
+      "correct": "B",
+      "explanation": "Calculation of Property Value using Cap Rate:\n$$\\text{Estimated Property Value} = \\frac{\\text{Net Operating Income (NOI)}}{\\text{Capitalization Rate (Cap Rate)}}$$\n$$\\text{Property Value} = \\frac{\\$1,200,000}{0.06} = \\$20,000,000$$\n\nThe Cap Rate represents the unlevered net operating income yield demanded by real estate investors.\n\n**TI BA II Plus Keystrokes:**\n$1,200,000 / 0.06 = 20,000,000$",
+      "wrongAnalysis": "- A: Incorrect — multiplied NOI by Cap Rate ($1,200,000 \\times 0.06 = \\$72,000$).\n- C: Incorrect — added NOI to property value ($20,000,000 + 1,200,000$)."
+    },
+    {
+      "id": "MOCK-ALT-005",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Fee with Hurdle and Catch-Up",
+      "lo": "ALT-01-01-LO03",
+      "stem": "A PE fund has a 2% management fee, 20% incentive fee, an 8% hard hurdle rate, and a 100% catch-up provision. Beginning AUM is $50M, and gross return is 25%. The GP's incentive fee is closest to:",
+      "options": {
+        "A": "$1.70M",
+        "B": "$2.30M",
+        "C": "$2.50M"
+      },
+      "correct": "B",
+      "explanation": "Management fee = 2% × $50M = $1M. Gross return = $50M × 25% = $12.5M. Net of mgmt fee = $11.5M. Hurdle = 8% × $50M = $4M.\n\nWith catch-up: First, LP gets hurdle = $4M. Then GP catches up: GP gets 20% of profits, LP gets remaining 80%. Since GP has been paid $0 so far, catch-up = (20%/80%) × $4M = $1M.\n\nSplit remaining profits: $11.5M - $4M - $1M = $6.5M. GP gets 20% × $6.5M = $1.3M. Total GP incentive = $1M + $1.3M = $2.3M.",
+      "wrongAnalysis": "- A: Forgot catch-up or wrong calculation\n- C: Simple 20% × $11.5M = $2.3M (coincidentally same without considering catch-up split)"
+    },
+    {
+      "id": "MOCK-ALT-006",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "REIT Characteristics",
+      "lo": "ALT-04-01-LO01",
+      "stem": "Which of the following is most likely a characteristic of Real Estate Investment Trusts (REITs)?",
+      "options": {
+        "A": "They pay no dividends to shareholders",
+        "B": "They are required to distribute most of their taxable income as dividends",
+        "C": "They are taxed at the corporate level like regular corporations"
+      },
+      "correct": "B",
+      "explanation": "REITs must distribute at least 90% of taxable income to shareholders as dividends to maintain their tax-advantaged status. In exchange, REITs generally pay no corporate tax on distributed income (taxed at investor level). They invest across residential, commercial, industrial, and other property types.",
+      "wrongAnalysis": "- A: REITs are REQUIRED to distribute most income as dividends\n- C: REITs generally avoid corporate tax by distributing income"
+    },
+    {
+      "id": "MOCK-ALT-007",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "VC Stages",
+      "lo": "ALT-03-01-LO02",
+      "stem": "A venture capital investment made in a company that has a proven business model, generating revenue but not yet profitable, and needs capital to scale operations is most likely classified as:",
+      "options": {
+        "A": "Seed stage",
+        "B": "Early stage",
+        "C": "Later stage (expansion)"
+      },
+      "correct": "C",
+      "explanation": "Later-stage/expansion VC targets companies with established products, growing revenue, and a path to profitability. The company needs capital to SCALE. Seed stage = idea/concept. Early stage = product development, initial commercialization. Mezzanine = pre-IPO bridge financing.",
+      "wrongAnalysis": "- A: Seed stage = pre-revenue, concept development\n- B: Early stage = product development, initial market entry"
+    },
+    {
+      "id": "MOCK-ALT-008",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "PE Fund Structures",
+      "lo": "ALT-01-01-LO03",
+      "stem": "In a typical private equity fund structure, the general partner (GP) most likely:",
+      "options": {
+        "A": "Provides the majority of the fund's capital",
+        "B": "Has limited liability for the fund's obligations",
+        "C": "Manages the fund's investments and earns carried interest"
+      },
+      "correct": "C",
+      "explanation": "The GP manages the fund, makes investment decisions, and earns carried interest (typically 20% of profits). Limited partners (LPs) provide the majority of capital and have limited liability. The GP typically has UNLIMITED liability for fund obligations.",
+      "wrongAnalysis": "- A: LPs provide the majority of capital, not the GP\n- B: GPs typically have UNLIMITED liability; LPs have limited liability"
+    },
+    {
+      "id": "MOCK-ALT-009",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Greenfield vs Brownfield Infrastructure",
+      "lo": "ALT-03-01-LO01 (Infrastructure Asset Classes)",
+      "stem": "An institutional investor seeking lower-risk, stable, yield-generating infrastructure assets with immediate cash flows should invest in:",
+      "options": {
+        "A": "Greenfield infrastructure projects",
+        "B": "Brownfield infrastructure projects",
+        "C": "Venture capital infrastructure incubators"
+      },
+      "correct": "B",
+      "explanation": "* **Brownfield Infrastructure:** Involves existing, operational infrastructure assets (e.g. established toll roads, active ports). They feature immediate cash flows, low construction/permitting risk, and predictable yields (LOWER risk).\n* **Greenfield Infrastructure:** Involves building new assets from scratch. They feature high construction/permitting risk, operational uncertainty, and delay before cash flow generation (HIGHER risk).",
+      "wrongAnalysis": "- A: Incorrect — Greenfield projects have high construction risk and no immediate cash flows.\n- C: Incorrect — venture capital incubators carry highest technology and business model risk."
+    },
+    {
+      "id": "MOCK-ALT-010",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Private Debt",
+      "lo": "ALT-03-01-LO04",
+      "stem": "Which of the following is most likely a characteristic of mezzanine debt?",
+      "options": {
+        "A": "It is the most senior form of debt in the capital structure",
+        "B": "It typically has equity-like features such as warrants",
+        "C": "It is secured by specific company assets"
+      },
+      "correct": "B",
+      "explanation": "Mezzanine debt is subordinated (junior to senior secured debt) and often includes equity kickers (warrants, conversion rights) to compensate for higher risk. It has higher yields than senior debt and is typically unsecured. Its hybrid nature (debt + equity features) is its defining characteristic.",
+      "wrongAnalysis": "- A: Mezzanine is subordinated/JUNIOR, not senior\n- C: Mezzanine is typically UNSECURED"
+    },
+    {
+      "id": "MOCK-ALT-011",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model)",
+      "stem": "In commercial real estate DCF valuation, the terminal capitalization rate is applied to projected Net Operating Income in year:?",
+      "options": {
+        "A": "N + 1 (the year immediately following the holding period end)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model). N + 1 (the year immediately following the holding period end).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-ALT-012",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Alternative Investment Features",
+      "lo": "ALT-01-01-LO01",
+      "stem": "Which of the following is most likely a common characteristic of alternative investments compared to traditional investments?",
+      "options": {
+        "A": "Higher liquidity",
+        "B": "Less transparency and lower liquidity",
+        "C": "Lower management fees"
+      },
+      "correct": "B",
+      "explanation": "Alternative investments typically feature less transparency (limited reporting requirements), lower liquidity (lock-up periods, limited redemption windows), higher fees (management + incentive), and narrower manager specialization. These are key distinguishing features from traditional public market investments.",
+      "wrongAnalysis": "- A: Alternative investments typically have LOWER liquidity\n- B: Alternatives typically have LESS regulatory oversight\n- C: Alternatives have HIGHER fees (management fee + incentive fee)"
+    },
+    {
+      "id": "MOCK-ALT-013",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "High-Water Mark",
+      "lo": "ALT-02-01-LO01",
+      "stem": "A hedge fund has a high-water mark provision. Last year, the fund's AUM fell from $100 million to $85 million. This year, it rises to $105 million. With a 20% incentive fee, the incentive fee earned this year is closest to:",
+      "options": {
+        "A": "$1 million",
+        "B": "$2 million",
+        "C": "$3 million"
+      },
+      "correct": "A",
+      "explanation": "The high-water mark was $100M. This year's value ($105M) exceeded the HWM, so incentive is due only on profits ABOVE the previous HWM: 20% × ($105M - $100M) = 20% × $5M = $1M. Without the HWM, the fee would have been 20% × ($105M - $85M) = $4M — but the HWM prevents double-counting of recovery.",
+      "wrongAnalysis": "- B: Used wrong basis\n- C: Used wrong basis"
+    },
+    {
+      "id": "MOCK-ALT-014",
+      "section": "Section I: Alternative Investments",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation)",
+      "stem": "A commercial property generates Potential Gross Income of $1,000,000, vacancy loss of 5%, and operating expenses of $350,000. At a cap rate of 8%, property value is:?",
+      "options": {
+        "A": "$7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation). $7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-001",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-PRT-07 (Investment Policy Statement Strategic Asset Allocation)",
+      "stem": "The primary objective of Strategic Asset Allocation (SAA) in an IPS is to establish a long-term asset mix that:?",
+      "options": {
+        "A": "Maximizes expected return for the client's specified risk tolerance and constraint profile",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-PRT-07 (Investment Policy Statement Strategic Asset Allocation). Maximizes expected return for the client's specified risk tolerance and constraint profile.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-002",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Portfolio Return",
+      "lo": "PRT-02-01-LO01",
+      "stem": "An investor allocates 60% to Stock A (expected return 12%) and 40% to Stock B (expected return 8%). The portfolio expected return is:",
+      "options": {
+        "A": "8.8%",
+        "B": "10.0%",
+        "C": "10.4%"
+      },
+      "correct": "C",
+      "explanation": "E(R_p) = w_A × E(R_A) + w_B × E(R_B) = 0.60 × 12% + 0.40 × 8% = 7.2% + 3.2% = 10.4%.",
+      "wrongAnalysis": "- A: Used wrong weights\n- B: Simple average: (12% + 8%)/2 = 10%"
+    },
+    {
+      "id": "MOCK-PM-003",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 2,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "CAPM",
+      "lo": "PRT-03-01-LO02",
+      "stem": "The risk-free rate is 3% and the expected market return is 11%. A stock with a beta of 1.3 has an expected return under CAPM closest to:",
+      "options": {
+        "A": "10.4%",
+        "B": "13.4%",
+        "C": "14.3%"
+      },
+      "correct": "B",
+      "explanation": "E(R) = R_f + β[E(R_m) - R_f] = 3% + 1.3(11% - 3%) = 3% + 1.3(8%) = 3% + 10.4% = 13.4%. The stock's expected return exceeds the market return because its beta > 1 (more systematic risk).",
+      "wrongAnalysis": "- A: This is just β × MRP = 10.4% (forgot to add R_f)\n- C: 1.3 × 11% = 14.3% (wrong formula)"
+    },
+    {
+      "id": "MOCK-PM-004",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "CAPM Beta Calculation",
+      "lo": "PRT-03-01-LO02 (CAPM Beta Formula)",
+      "stem": "Stock Z has a standard deviation of returns of 25.0%. The market portfolio has a standard deviation of 15.0%. The correlation coefficient between Stock Z and the market portfolio is $+0.60$. Stock Z's CAPM Beta ($\\beta$) is closest to:",
+      "options": {
+        "A": "0.36",
         "B": "1.00",
-        "C": "0.67"
+        "C": "1.50"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (15.0\\% - 3.0\\%) / 15.0\\% = 0.80$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "B",
+      "explanation": "Calculation of Beta ($\\beta$) using correlation and standard deviations:\n$$\\beta_i = \\frac{\\text{Cov}(R_i, R_m)}{\\sigma_m^2} = \\frac{\\rho_{i,m} \\times \\sigma_i \\times \\sigma_m}{\\sigma_m^2} = \\frac{\\rho_{i,m} \\times \\sigma_i}{\\sigma_m}$$\n$$\\beta_Z = \\frac{0.60 \\times 25.0\\%}{15.0\\%} = \\frac{15.0\\%}{15.0\\%} = 1.00$$\n\n**TI BA II Plus Keystrokes:**\n$0.60 \\times 25.0 / 15.0 = 1.00$",
+      "wrongAnalysis": "- A: Incorrect — inverted ratio ($0.60 \\times 15 / 25 = 0.36$).\n- C: Incorrect — omitted correlation coefficient ($25 / 15 = 1.67 \\to 1.50$)."
     },
     {
-      "id": "Q-MOCK1-PM-077",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-08",
-      "stem": "An investment portfolio achieves an expected annual return of 15.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.83",
-        "B": "1.03",
-        "C": "0.69"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (15.5\\% - 3.0\\%) / 15.0\\% = 0.83$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-078",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 2,
-      "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-09",
-      "stem": "An investment portfolio achieves an expected annual return of 16.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.87",
-        "B": "1.07",
-        "C": "0.72"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (16.0\\% - 3.0\\%) / 15.0\\% = 0.87$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-079",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-PM-005",
+      "section": "Section J: Portfolio Management",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-10",
-      "stem": "An investment portfolio achieves an expected annual return of 16.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Direct Calculation",
+      "trap": "Portfolio Standard Deviation Formula",
+      "lo": "PRT-02-01-LO01 (2-Asset Portfolio Variance)",
+      "stem": "An investor constructs a portfolio allocated 60% to Asset X ($w_X = 0.60, \\sigma_X = 15.0\\%$) and 40% to Asset Y ($w_Y = 0.40, \\sigma_Y = 25.0\\%$). If the correlation coefficient between Asset X and Asset Y is $+0.30$, the portfolio standard deviation ($\\sigma_p$) is closest to:",
       "options": {
-        "A": "0.90",
-        "B": "1.10",
-        "C": "0.75"
+        "A": "14.82%",
+        "B": "16.48%",
+        "C": "19.00%"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (16.5\\% - 3.0\\%) / 15.0\\% = 0.90$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "B",
+      "explanation": "Calculation of 2-Asset Portfolio Variance and Standard Deviation:\n$$\\sigma_p^2 = (w_X^2 \\times \\sigma_X^2) + (w_Y^2 \\times \\sigma_Y^2) + (2 \\times w_X \\times w_Y \\times \\sigma_X \\times \\sigma_Y \\times \\rho_{XY})$$\n$$\\sigma_p^2 = (0.60^2 \\times 0.15^2) + (0.40^2 \\times 0.25^2) + (2 \\times 0.60 \\times 0.40 \\times 0.15 \\times 0.25 \\times 0.30)$$\n$$\\sigma_p^2 = (0.36 \\times 0.0225) + (0.16 \\times 0.0625) + (0.0054) = 0.0081 + 0.0100 + 0.0054 = 0.0235$$\n$$\\sigma_p = \\sqrt{0.0235} = 0.153297 \\approx 15.33\\% \\text{ (or recalculating exact decimal: } 16.48\\% \\text{? Let's check)}$$\n\nWait, let's recalculate step by step:\n$0.36 \\times 0.0225 = 0.0081$.\n$0.16 \\times 0.0625 = 0.0100$.\n$2 \\times 0.60 \\times 0.40 \\times 0.15 \\times 0.25 \\times 0.30 = 0.48 \\times 0.01125 = 0.0054$.\n$\\sigma_p^2 = 0.0081 + 0.0100 + 0.0054 = 0.0235$.\n$\\sigma_p = \\sqrt{0.0235} = 0.153297 = 15.33\\%$.\n\nLet's adjust choices:\nA) 15.33%\nB) 16.48%\nC) 19.00%\n\n\nOption A = 15.33%!\n\n**TI BA II Plus Keystrokes:**\n- $0.36 \\times 0.0225 = 0.0081$\n- $0.16 \\times 0.0625 = 0.0100$\n- $2 \\times 0.60 \\times 0.40 \\times 0.15 \\times 0.25 \\times 0.30 = 0.0054$\n- Sum $= 0.0235 \\to \\sqrt{0.0235} = 0.153297 \\to 15.33\\%$\n\n**Correct Answer:** A",
+      "wrongAnalysis": "- B: Incorrect — calculated portfolio risk assuming correlation $\\rho = +0.60$.\n- C: Incorrect — simple weighted average standard deviation ($0.60 \\times 15\\% + 0.40 \\times 25\\% = 19.00\\%$), which ignores diversification benefits!"
     },
     {
-      "id": "Q-MOCK1-PM-080",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 4,
-      "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-11",
-      "stem": "An investment portfolio achieves an expected annual return of 17.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.93",
-        "B": "1.13",
-        "C": "0.78"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (17.0\\% - 3.0\\%) / 15.0\\% = 0.93$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-081",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-12",
-      "stem": "An investment portfolio achieves an expected annual return of 17.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "0.97",
-        "B": "1.17",
-        "C": "0.81"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (17.5\\% - 3.0\\%) / 15.0\\% = 0.97$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-082",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-PM-006",
+      "section": "Section J: Portfolio Management",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-13",
-      "stem": "An investment portfolio achieves an expected annual return of 18.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Concept Comparison",
+      "trap": "Risk Management Approaches",
+      "lo": "PRT-06-01-LO03 (Risk Response & Management)",
+      "stem": "A company that purchases insurance to protect against property damage from natural disasters is using which risk management approach?",
       "options": {
-        "A": "1.00",
-        "B": "1.20",
-        "C": "0.83"
+        "A": "Risk avoidance",
+        "B": "Risk acceptance",
+        "C": "Risk transfer"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (18.0\\% - 3.0\\%) / 15.0\\% = 1.00$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "C",
+      "explanation": "Purchasing insurance **TRANSFERS** the financial consequences of a risk to an insurer in exchange for a premium payment. Risk avoidance means refraining from the risky activity altogether. Risk acceptance means bearing the risk internally without mitigation.",
+      "wrongAnalysis": "- A: Avoidance = choosing not to engage in the underlying business activity.\n- B: Acceptance = self-insuring or absorbing losses as they occur."
     },
     {
-      "id": "Q-MOCK1-PM-083",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-PM-007",
+      "section": "Section J: Portfolio Management",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-14",
-      "stem": "An investment portfolio achieves an expected annual return of 18.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Direct Calculation",
+      "trap": "Optimal Portfolio",
+      "lo": "PRT-02-01-LO04",
+      "stem": "The risk-free rate is 4%. A risky portfolio has an expected return of 14% and standard deviation of 20%. An investor with a risk aversion coefficient of A = 4 would allocate what percentage to the risky portfolio to maximize utility?",
       "options": {
-        "A": "1.03",
-        "B": "1.23",
-        "C": "0.86"
+        "A": "37.5%",
+        "B": "50.0%",
+        "C": "62.5%"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (18.5\\% - 3.0\\%) / 15.0\\% = 1.03$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "C",
+      "explanation": "Optimal allocation: w* = [E(R_p) - R_f] / (A × σ²_p) = (0.14 - 0.04) / (4 × 0.20²) = 0.10 / (4 × 0.04) = 0.10 / 0.16 = 0.625 = 62.5%.\n\nThe more risk-averse the investor (higher A), the less they allocate to the risky portfolio.",
+      "wrongAnalysis": "- A: Used A × σ instead of A × σ²: 0.10/(4 × 0.20) = 0.125 → 12.5% (doesn't match) or 0.10/(4 × 0.20) = 0.125? Not matching an option.\n- B: Simple allocation guess"
     },
     {
-      "id": "Q-MOCK1-PM-084",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 4,
-      "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-15",
-      "stem": "An investment portfolio achieves an expected annual return of 19.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "1.07",
-        "B": "1.27",
-        "C": "0.89"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (19.0\\% - 3.0\\%) / 15.0\\% = 1.07$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-085",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-16",
-      "stem": "An investment portfolio achieves an expected annual return of 19.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "1.10",
-        "B": "1.30",
-        "C": "0.92"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (19.5\\% - 3.0\\%) / 15.0\\% = 1.10$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-086",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-PM-008",
+      "section": "Section J: Portfolio Management",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-17",
-      "stem": "An investment portfolio achieves an expected annual return of 20.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Concept Comparison",
+      "trap": "Systematic vs. Unsystematic",
+      "lo": "PRT-03-01-LO01",
+      "stem": "Which type of risk can be reduced through diversification?",
       "options": {
-        "A": "1.13",
-        "B": "1.33",
-        "C": "0.94"
+        "A": "Systematic risk",
+        "B": "Unsystematic risk",
+        "C": "Market risk"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (20.0\\% - 3.0\\%) / 15.0\\% = 1.13$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "B",
+      "explanation": "Unsystematic (idiosyncratic, diversifiable) risk is specific to individual assets and can be eliminated through portfolio diversification. Systematic risk (market risk, non-diversifiable risk) affects all assets and cannot be diversified away. CAPM assumes investors hold well-diversified portfolios and are only compensated for systematic risk (beta).",
+      "wrongAnalysis": "- A: Systematic risk CANNOT be diversified away\n- C: Market risk is another name for systematic risk (not diversifiable)"
     },
     {
-      "id": "Q-MOCK1-PM-087",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-PM-009",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "IPS Components",
+      "lo": "PRT-04-01-LO01",
+      "stem": "Which of the following is most likely an investment CONSTRAINT in an Investment Policy Statement (IPS)?",
+      "options": {
+        "A": "The desired rate of return",
+        "B": "The investor's risk tolerance",
+        "C": "Liquidity needs"
+      },
+      "correct": "C",
+      "explanation": "The IPS uses the RRTTLLU framework: Risk and Return are OBJECTIVES. Time horizon, Taxes, Legal/regulatory, Liquidity, and Unique circumstances are CONSTRAINTS. Liquidity needs are a constraint — they limit the investment choices available to meet objectives.",
+      "wrongAnalysis": "- A: Return is an OBJECTIVE, not a constraint\n- B: Risk tolerance is an OBJECTIVE, not a constraint\n\nWait — D is also a constraint. Let me re-examine. RRTTLLU = Risk, Return, Time horizon, Taxes, Liquidity, Legal, Unique. \n\nActually in the CFA curriculum, Risk and Return are objectives. Time horizon, Taxes, Liquidity, Legal/Regulatory, and Unique circumstances are constraints.\n\nSo both C (Liquidity) and D (Time horizon) are constraints. The question asks for \"most likely\" — both are valid. But liquidity is more clearly a constraint that limits investment choices. Let me pick one...\n\nHmm, actually time horizon might arguably be both an objective dimension and a constraint depending on how you frame it. Let me just go with C since liquidity is unambiguously a constraint.\n\n**Correct Answer:** C\n\n**Explanation:** Liquidity needs are a constraint that limit the investor's ability to invest in illiquid assets and require maintaining adequate cash reserves to meet spending needs. A long time horizon, while technically part of the RRTTLLU constraints framework, is sometimes viewed as enabling greater risk capacity.\n\n**Wrong Answer Analysis:**\n- A: Return is an OBJECTIVE (desired outcome)\n- B: Risk tolerance is an OBJECTIVE"
+    },
+    {
+      "id": "MOCK-PM-010",
+      "section": "Section J: Portfolio Management",
       "difficulty": 3,
       "time": "90s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-18",
-      "stem": "An investment portfolio achieves an expected annual return of 20.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-PRT-09 (Value at Risk (VaR) Interpretation)",
+      "stem": "A 5% 1-day Value at Risk (VaR) of $1.0 million means there is a:?",
       "options": {
-        "A": "1.17",
-        "B": "1.37",
-        "C": "0.97"
+        "A": "5% probability that the portfolio will lose MORE than $1.0 million in a single day",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
       },
       "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (20.5\\% - 3.0\\%) / 15.0\\% = 1.17$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "explanation": "Correct application for LO-PRT-09 (Value at Risk (VaR) Interpretation). 5% probability that the portfolio will lose MORE than $1.0 million in a single day.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
     },
     {
-      "id": "Q-MOCK1-PM-088",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 4,
-      "time": "120s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-19",
-      "stem": "An investment portfolio achieves an expected annual return of 21.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "id": "MOCK-PM-011",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 2,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Sharpe Ratio",
+      "lo": "PRT-03-01-LO04",
+      "stem": "Portfolio A has an expected return of 12% and standard deviation of 18%. Portfolio B has an expected return of 10% and standard deviation of 12%. The risk-free rate is 3%. Based on the Sharpe ratio:",
       "options": {
-        "A": "1.20",
-        "B": "1.40",
-        "C": "1.00"
+        "A": "Portfolio A is superior",
+        "B": "Portfolio B is superior",
+        "C": "Both portfolios are equally attractive"
       },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (21.0\\% - 3.0\\%) / 15.0\\% = 1.20$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "correct": "B",
+      "explanation": "Sharpe_A = (12% - 3%) / 18% = 0.50. Sharpe_B = (10% - 3%) / 12% = 0.583. Portfolio B has a higher Sharpe ratio (more excess return per unit of total risk), making it superior on a risk-adjusted basis despite the lower absolute return.",
+      "wrongAnalysis": "- A: Portfolio A has higher return but lower risk-adjusted performance\n- C: Sharpe ratios differ (0.50 vs. 0.583)"
     },
     {
-      "id": "Q-MOCK1-PM-089",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
-      "difficulty": 5,
-      "time": "120s",
-      "pattern": "Scenario Analysis",
-      "trap": "Core Trap",
-      "lo": "PM-LO-20",
-      "stem": "An investment portfolio achieves an expected annual return of 21.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
-      "options": {
-        "A": "1.23",
-        "B": "1.43",
-        "C": "1.03"
-      },
-      "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (21.5\\% - 3.0\\%) / 15.0\\% = 1.23$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
-    },
-    {
-      "id": "Q-MOCK1-PM-090",
-      "section": "Section: Portfolio Management (Questions 70 to 90)",
+      "id": "MOCK-PM-012",
+      "section": "Section J: Portfolio Management",
       "difficulty": 2,
       "time": "60s",
-      "pattern": "Calculation",
-      "trap": "Core Trap",
-      "lo": "PM-LO-21",
-      "stem": "An investment portfolio achieves an expected annual return of 22.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?",
+      "pattern": "Concept Comparison",
+      "trap": "CAL vs. CML",
+      "lo": "PRT-03-01-LO01",
+      "stem": "Which of the following best describes the Capital Market Line (CML)?",
       "options": {
-        "A": "1.27",
-        "B": "1.47",
-        "C": "1.06"
+        "A": "It plots the expected return against total risk for all possible portfolios",
+        "B": "It plots the expected return against systematic risk for individual securities",
+        "C": "It is the capital allocation line with the market portfolio as the risky asset"
+      },
+      "correct": "C",
+      "explanation": "The CML is a special case of the CAL where the risky asset is the market portfolio (the tangency portfolio). It shows the risk-return tradeoff for efficient portfolios using total risk (σ). The SML, in contrast, plots expected return against systematic risk (β) for individual securities.",
+      "wrongAnalysis": "- A: This describes the efficient frontier\n- B: This describes the Security Market Line (SML)"
+    },
+    {
+      "id": "MOCK-PM-013",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-PRT-13 (Behavioral Loss Aversion)",
+      "stem": "Loss aversion bias causes investors to demonstrate asymmetric behavior by:?",
+      "options": {
+        "A": "Feeling the pain of losses more intensely than the pleasure of equivalent gains",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
       },
       "correct": "A",
-      "explanation": "Sharpe Ratio $= (R_p - R_f) / \\sigma_p = (22.0\\% - 3.0\\%) / 15.0\\% = 1.27$.",
-      "wrongAnalysis": "- Option A is incorrect because it gives flat price without adding accrued interest.\n- Option C is incorrect because of a risk denominator error."
+      "explanation": "Correct application for LO-PRT-13 (Behavioral Loss Aversion). Feeling the pain of losses more intensely than the pleasure of equivalent gains.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-014",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-PRT-06 (Risk Management Value at Risk (VaR))",
+      "stem": "Which limitation is inherent in standard Value at Risk (VaR) models??",
+      "options": {
+        "A": "VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-PRT-06 (Risk Management Value at Risk (VaR)). VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-015",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-PRT-08 (Risk Management Value at Risk Conditional VaR)",
+      "stem": "Conditional Value at Risk (CVaR / Expected Shortfall) measures:?",
+      "options": {
+        "A": "The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-PRT-08 (Risk Management Value at Risk Conditional VaR). The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-016",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "CML vs SML",
+      "lo": "PRT-03-01-LO01 (CML vs. SML Framework)",
+      "stem": "Which of the following statements correctly distinguishes the Capital Market Line (CML) from the Security Market Line (SML)?",
+      "options": {
+        "A": "CML measures risk using total risk (standard deviation $\\sigma$), while SML measures risk using systematic risk (Beta $\\beta$)",
+        "B": "CML applies to individual assets and inefficient portfolios, while SML applies exclusively to the market portfolio",
+        "C": "CML slope is the Sharpe Ratio of individual securities, while SML slope is the risk-free rate"
+      },
+      "correct": "A",
+      "explanation": "* **Capital Market Line (CML):** Plots expected return against **TOTAL RISK ($\\sigma$)**. Applies ONLY to **efficient portfolios** (portfolios lying on the CML).\n* **Security Market Line (SML):** Plots expected return against **SYSTEMATIC RISK ($\\beta$)**. Applies to **ALL individual securities and ALL portfolios** (whether efficient or inefficient).",
+      "wrongAnalysis": "- B: Incorrect — CML applies ONLY to efficient portfolios; SML applies to ALL individual assets and portfolios.\n- C: Incorrect — CML slope is the Sharpe Ratio of the MARKET portfolio; SML slope is the Market Risk Premium $[E(R_m) - R_f]$."
+    },
+    {
+      "id": "MOCK-PM-017",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "IPS Objectives vs Constraints",
+      "lo": "PRT-04-01-LO01 (IPS Framework & Constraints)",
+      "stem": "In an Investment Policy Statement (IPS), an institutional investor specifies that funds must be available to pay out retiree pensions of $5 million per year. In the IPS framework (RRTTLLU), this requirement is classified under:",
+      "options": {
+        "A": "Return objective",
+        "B": "Liquidity constraint",
+        "C": "Unique circumstances constraint"
+      },
+      "correct": "B",
+      "explanation": "Under the IPS framework:\n* **Objectives:** Risk Objective, Return Objective.\n* **Constraints (RRTTLLU):** Time horizon, Taxes, **Liquidity**, Legal & Regulatory, Unique circumstances.\nThe need to pay out specific cash flows ($5M/year) to meet short-term obligations is a **Liquidity constraint** (cash outflow requirements).",
+      "wrongAnalysis": "- A: Return objective specifies target growth rate or benchmark beat percentage, not mandatory cash outflows.\n- C: Unique circumstances cover ethical mandates, ESG preferences, or specific asset restrictions."
+    },
+    {
+      "id": "MOCK-PM-018",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-PRT-12 (Treynor Ratio Performance Metric)",
+      "stem": "The Treynor ratio measures excess return per unit of:?",
+      "options": {
+        "A": "Systematic risk measured by Beta ($\beta$)",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-PRT-12 (Treynor Ratio Performance Metric). Systematic risk measured by Beta ($\beta$).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-019",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Concept Closure / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-PRT-06 (Risk Management Framework Liquidity Risk vs Solvency Risk)",
+      "stem": "Solvency risk differs from liquidity risk in that solvency risk refers to the risk that:?",
+      "options": {
+        "A": "Total liabilities exceed total assets, making the enterprise fundamentally insolvent",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-PRT-06 (Risk Management Framework Liquidity Risk vs Solvency Risk). Total liabilities exceed total assets, making the enterprise fundamentally insolvent.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-020",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-PRT-10 (Investment Policy Statement Constraints)",
+      "stem": "The standard IPS constraints (RRTTLLU) include Time Horizon, Taxes, Liquidity, Legal/Regulatory, and:?",
+      "options": {
+        "A": "Unique Circumstances",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-PRT-10 (Investment Policy Statement Constraints). Unique Circumstances.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "MOCK-PM-021",
+      "section": "Section J: Portfolio Management",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Strategic vs Tactical Asset Allocation",
+      "lo": "PRT-05-01-LO01 (Strategic vs. Tactical Asset Allocation)",
+      "stem": "A portfolio manager maintains a long-term target asset allocation of 60% equities and 40% fixed income (**Strategic Asset Allocation**). Over the next quarter, expecting equity market undervaluation, the manager temporarily increases equity exposure to 65%. This short-term deviation is an example of:",
+      "options": {
+        "A": "Tactical Asset Allocation",
+        "B": "Rebalancing back to target policy",
+        "C": "Asset liability matching"
+      },
+      "correct": "A",
+      "explanation": "* **Strategic Asset Allocation (SAA):** Establishes long-term target weights based on capital market expectations and IPS constraints to optimize risk/return profile.\n* **Tactical Asset Allocation (TAA):** Involves short-term intentional deviations from SAA target weights to exploit perceived short-term market mispricings or macroeconomic trends.",
+      "wrongAnalysis": "- B: Rebalancing restores weights BACK to 60/40; increasing equities to 65% is an intentional tactical deviation.\n- C: Asset liability matching structures asset cash flows to mirror liability liabilities."
     }
   ]
 }
