@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFA Level I — Complete Preparation System</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>CFA Level I<span>Prep System</span></h1>
+      <button class="sidebar-toggle" onclick="toggleSidebar()" aria-label="Toggle sidebar">☰</button>
+    </div>
+
+    <div class="sidebar-search">
+      <input type="text" id="searchInput" placeholder="Search files..." oninput="filterNav()">
+    </div>
+
+    <ul class="nav-tree" id="navTree">
+      <!-- HOME -->
+      <li>
+        <a href="#" data-file="home" class="nav-link active" onclick="loadContent('home', this, event)">
+          <span class="nav-icon">🏠</span> Dashboard
+        </a>
+      </li>
+
+      <!-- ARCHITECTURE -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">📐</span> Architecture
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="architecture/master-blueprint" class="nav-link" onclick="loadContent('architecture/master-blueprint', this, event)">Master Blueprint</a></li>
+        </ul>
+      </li>
+
+      <!-- CURRICULUM -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">📋</span> Curriculum
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="curriculum/coverage-matrix" class="nav-link" onclick="loadContent('curriculum/coverage-matrix', this, event)">Coverage Matrix (222 LOs)</a></li>
+        </ul>
+      </li>
+
+      <!-- QUESTION BANK -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">📝</span> Question Bank
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="question-bank/questions/01-ethics/standards-i-vii" class="nav-link" onclick="loadContent('question-bank/questions/01-ethics/standards-i-vii', this, event)">Ethics (20 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/02-quantitative-methods/quantitative-methods-questions" class="nav-link" onclick="loadContent('question-bank/questions/02-quantitative-methods/quantitative-methods-questions', this, event)">Quant Methods (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/03-economics/economics-questions" class="nav-link" onclick="loadContent('question-bank/questions/03-economics/economics-questions', this, event)">Economics (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/04-financial-statement-analysis/fsa-questions" class="nav-link" onclick="loadContent('question-bank/questions/04-financial-statement-analysis/fsa-questions', this, event)">Financial Statement Analysis (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/05-corporate-issuers/corporate-issuers-questions" class="nav-link" onclick="loadContent('question-bank/questions/05-corporate-issuers/corporate-issuers-questions', this, event)">Corporate Issuers (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/06-equity-investments/equity-questions" class="nav-link" onclick="loadContent('question-bank/questions/06-equity-investments/equity-questions', this, event)">Equity Investments (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/07-fixed-income/fixed-income-questions" class="nav-link" onclick="loadContent('question-bank/questions/07-fixed-income/fixed-income-questions', this, event)">Fixed Income (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/08-derivatives/derivatives-questions" class="nav-link" onclick="loadContent('question-bank/questions/08-derivatives/derivatives-questions', this, event)">Derivatives (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/09-alternative-investments/alternative-investments-questions" class="nav-link" onclick="loadContent('question-bank/questions/09-alternative-investments/alternative-investments-questions', this, event)">Alternative Investments (15 Qs)</a></li>
+          <li><a href="#" data-file="question-bank/questions/10-portfolio-management/portfolio-management-questions" class="nav-link" onclick="loadContent('question-bank/questions/10-portfolio-management/portfolio-management-questions', this, event)">Portfolio Management (15 Qs)</a></li>
+        </ul>
+      </li>
+
+      <!-- FORMULA BANK -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">🔢</span> Formula Bank
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="formula-bank/all-formulas" class="nav-link" onclick="loadContent('formula-bank/all-formulas', this, event)">All Formulas (144)</a></li>
+        </ul>
+      </li>
+
+      <!-- PATTERN LIBRARY -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">🧩</span> Pattern Library
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="pattern-library/pattern-catalog" class="nav-link" onclick="loadContent('pattern-library/pattern-catalog', this, event)">Pattern Catalog</a></li>
+          <li><a href="#" data-file="pattern-library/question-construction-recipes" class="nav-link" onclick="loadContent('pattern-library/question-construction-recipes', this, event)">Construction Recipes</a></li>
+          <li><a href="#" data-file="pattern-library/trap-catalog" class="nav-link" onclick="loadContent('pattern-library/trap-catalog', this, event)">Trap Catalog (70+)</a></li>
+        </ul>
+      </li>
+
+      <!-- DASHBOARD -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">📊</span> Dashboard & Error Bank
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="dashboard/tracking-system" class="nav-link" onclick="loadContent('dashboard/tracking-system', this, event)">Readiness Dashboard</a></li>
+          <li><a href="#" data-file="dashboard/error-bank-system" class="nav-link" onclick="loadContent('dashboard/error-bank-system', this, event)">Error Bank System</a></li>
+        </ul>
+      </li>
+
+      <!-- MOCK EXAMS -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">📄</span> Mock Exams
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="mock-exams/mock-exam-system" class="nav-link" onclick="loadContent('mock-exams/mock-exam-system', this, event)">Mock Exam System</a></li>
+        </ul>
+      </li>
+
+      <!-- PROTOCOLS -->
+      <li class="nav-section">
+        <div class="nav-category" onclick="toggleSection(this)">
+          <span class="nav-icon">📅</span> Final Protocols
+          <span class="arrow">▾</span>
+        </div>
+        <ul class="nav-sub">
+          <li><a href="#" data-file="protocols/final-protocols" class="nav-link" onclick="loadContent('protocols/final-protocols', this, event)">30-Day & 7-Day Plans</a></li>
+        </ul>
+      </li>
+
+      <!-- README -->
+      <li>
+        <a href="#" data-file="README" class="nav-link" onclick="loadContent('README', this, event)">
+          <span class="nav-icon">📖</span> README
+        </a>
+      </li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <span>21 files · 150+ questions · 144 formulas</span>
+      <span>Exam Cycle: 2024–2025</span>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+  <!-- Main Content -->
+  <main class="content" id="content">
+    <div class="content-header">
+      <button class="mobile-menu-btn" onclick="toggleSidebar()">☰ Menu</button>
+      <div class="breadcrumb" id="breadcrumb">Dashboard</div>
+      <div class="content-actions">
+        <button onclick="toggleDarkMode()" title="Toggle dark mode" class="action-btn">🌓</button>
+        <button onclick="scrollToTop()" title="Scroll to top" class="action-btn">⬆</button>
+      </div>
+    </div>
+    <div class="content-body" id="contentBody">
+      <div class="loading">Loading...</div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
