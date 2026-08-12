@@ -1,0 +1,1356 @@
+{
+  "title": "CFA Level I — Ethics Question Bank",
+  "questionCount": 75,
+  "questions": [
+    {
+      "id": "Q-ETH-0001",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Strictest Law Apply",
+      "lo": "ETH-02-01-LO01 (Standard I(A) Knowledge of the Law)",
+      "stem": "Maria Chen, CFA, works as an investment analyst in Country A, where securities laws prohibit trading on material nonpublic information but allow analysts to accept modest gifts from companies they cover. According to the CFA Institute Standards of Professional Conduct, which of the following is most appropriate for Chen?",
+      "options": {
+        "A": "Follow Country A's laws regarding gifts since they are more permissive",
+        "B": "Follow only CFA Institute Standards since they are globally recognized",
+        "C": "Follow CFA Institute Standards regarding gifts because they are stricter than Country A's laws on this matter"
+      },
+      "correct": "C",
+      "explanation": "Under Standard I(A) Knowledge of the Law, members must comply with the stricter of applicable laws, rules, or CFA Institute Standards. If Country A's laws are more permissive on gifts than the CFA Standards (which require independence and objectivity), Chen must follow the stricter CFA Standards. The fundamental principle is \"strictest law/standard applies.\"",
+      "wrongAnalysis": "- A: Incorrect — the \"strictest\" rule applies, not simply following local law when it's weaker\n- B: Incorrect — Standards don't override stricter local laws; the strictest standard applies"
+    },
+    {
+      "id": "Q-ETH-0002",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "Gift Threshold",
+      "lo": "ETH-02-01-LO02 (Standard I(B) Independence and Objectivity)",
+      "stem": "Thomas Park, CFA, receives a bottle of wine worth approximately $150 from a company he covers after publishing a favorable research report. Park did not know the gift was coming. According to the CFA Institute Standards, what is Park's most appropriate action?",
+      "options": {
+        "A": "Keep the wine since he didn't expect it and the report was already published",
+        "B": "Return the wine and report the incident to his compliance department",
+        "C": "Keep the wine but disclose it to his employer"
+      },
+      "correct": "B",
+      "explanation": "Under Standard I(B) Independence and Objectivity, members must not accept gifts that could reasonably be expected to compromise their independence. A $150 gift is not token and could create the appearance of influence. Returning the gift and reporting to compliance protects independence. Simply keeping it — even with disclosure — could reasonably be seen as compromising objectivity.",
+      "wrongAnalysis": "- A: Incorrect — timing of the gift relative to the report doesn't eliminate the appearance issue\n- B: Partially correct but incomplete — returning alone without reporting leaves no record\n- C: Incorrect — disclosure doesn't cure a gift that reasonably appears to compromise independence"
+    },
+    {
+      "id": "Q-ETH-0003",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Plagiarism vs. Attribution",
+      "lo": "ETH-02-01-LO03 (Standard I(C) Misrepresentation)",
+      "stem": "An analyst includes a chart from a well-known industry publication in her research report. She cites the source in a footnote but reproduces the chart without permission. Does this most likely violate Standard I(C) Misrepresentation?",
+      "options": {
+        "A": "No, because proper citation was provided",
+        "B": "No, because industry data is considered public domain",
+        "C": "Yes, because reproducing without permission is plagiarism regardless of citation"
+      },
+      "correct": "A",
+      "explanation": "Standard I(C) prohibits misrepresentation, including plagiarism. However, providing proper attribution/citation typically satisfies the Standard's requirements. The Standard does not require obtaining permission from the original source — attribution is sufficient to avoid misrepresentation. Copyright law is a separate legal matter, but for CFA Standards purposes, proper citation addresses the misrepresentation concern.",
+      "wrongAnalysis": "- B: Incorrect — the Standard doesn't distinguish \"public domain\" material; attribution is still needed\n- C: Incorrect — plagiarism under the Standards is about failing to attribute, not about permission"
+    },
+    {
+      "id": "Q-ETH-0004",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "\"Most Likely\" Question",
+      "trap": "Personal vs. Professional Conduct",
+      "lo": "ETH-02-01-LO04 (Standard I(D) Misconduct)",
+      "stem": "A CFA charterholder is convicted of drunk driving (a misdemeanor) in his personal time. According to Standard I(D) Misconduct, does this most likely constitute a violation?",
+      "options": {
+        "A": "Yes, because any criminal conviction reflects poorly on the profession",
+        "B": "Yes, because charterholders must maintain high standards at all times",
+        "C": "No, because the conduct was in his personal time and unrelated to professional activities"
+      },
+      "correct": "C",
+      "explanation": "Standard I(D) concerns professional misconduct — acts involving dishonesty, fraud, or deceit, or acts that reflect adversely on professional reputation. A single DUI misdemeanor, while serious, may not necessarily reflect on professional honesty or integrity in a way that triggers Standard I(D). The Standard is not a blanket morality clause for all personal conduct.",
+      "wrongAnalysis": "- A: Incorrect — not ALL criminal convictions automatically violate the Standard\n- B: Incorrect — the Standard focuses on professional integrity, not all personal behavior"
+    },
+    {
+      "id": "Q-ETH-0005",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Multiple Standards Application",
+      "lo": "ETH-03-01-LO01 (Standard II(A) Material Nonpublic Information)",
+      "stem": "A portfolio manager learns from a friend who works at a regulatory agency that a major enforcement action will be announced against Company X next week. The manager immediately sells all client positions in Company X. Which Standard(s) has the manager most likely violated?",
+      "options": {
+        "A": "Standard II(A) Material Nonpublic Information only",
+        "B": "Standard II(A) and Standard III(B) Fair Dealing",
+        "C": "Standard II(A) and Standard III(A) Loyalty, Prudence, and Care"
+      },
+      "correct": "A",
+      "explanation": "The manager traded on material nonpublic information, violating Standard II(A). There's no evidence of unfair dealing (all clients were treated the same) or disloyalty (selling to protect clients from losses is arguably in their interest). The violation is specifically trading on inside information, regardless of the direction of the trade.",
+      "wrongAnalysis": "- B: Incorrect — no evidence of unequal treatment among clients\n- C: Incorrect — protecting clients from losses could be seen as loyal/prudent"
+    },
+    {
+      "id": "Q-ETH-0006",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "Mosaic Theory",
+      "lo": "ETH-03-01-LO01 (Standard II(A) MNPI — Mosaic Theory)",
+      "stem": "An analyst gathers information from multiple public sources about a company. She also speaks with the company's former employees (who are not bound by confidentiality) about industry trends. Combining all this information, she concludes the company's earnings will decline and recommends selling. Has she most likely violated Standard II(A)?",
+      "options": {
+        "A": "Yes, because speaking with former employees is improper",
+        "B": "Yes, because the conclusion was based on nonpublic information",
+        "C": "No, because all information used was either public or non-material nonpublic"
+      },
+      "correct": "C",
+      "explanation": "This is a classic mosaic theory scenario. The analyst combined public information with non-material nonpublic information (general industry trends from former employees, not specific confidential data) to reach her own conclusion. The mosaic theory permits using non-material nonpublic information as part of analysis, as long as you don't trade on material nonpublic information.",
+      "wrongAnalysis": "- A: Incorrect — speaking with former employees about non-confidential matters is permissible\n- B: Incorrect — the key is whether the nonpublic information was MATERIAL, not just nonpublic"
+    },
+    {
+      "id": "Q-ETH-0007",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "\"Least Likely\" Question",
+      "trap": "Market Manipulation Definition",
+      "lo": "ETH-03-01-LO02 (Standard II(B) Market Manipulation)",
+      "stem": "Which of the following is least likely to violate Standard II(B) Market Manipulation?",
+      "options": {
+        "A": "Placing large buy orders near market close to boost the reported closing price",
+        "B": "Executing a large block trade at a price negotiated privately between buyer and seller",
+        "C": "Simultaneously buying and selling the same security to create an appearance of high trading volume"
+      },
+      "correct": "B",
+      "explanation": "A privately negotiated block trade is a legitimate transaction — it does not distort prices or create artificial volume. The other three options are classic examples of market manipulation: (A) is marking the close, (B) is spreading false information, and (C) is wash trading.",
+      "wrongAnalysis": "- A: This IS manipulation — \"marking the close\"\n- B: This IS manipulation — information-based manipulation\n- C: This IS manipulation — wash trading to create false volume"
+    },
+    {
+      "id": "Q-ETH-0008",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Fair Dealing vs. Suitability",
+      "lo": "ETH-04-01-LO02 (Standard III(B) Fair Dealing)",
+      "stem": "",
+      "options": {
+        "A": "portfolio manager receives an IPO allocation of 1,000 shares. She has three clients for whom the IPO would be suitable. Client A has $10M in assets, Client",
+        "B": "has $5M, and Client",
+        "C": "has $1M. The manager allocates 333 shares to each client. Does this most likely comply with Standard III(B) Fair Dealing?  A) Yes, because all suitable clients received equal allocation B) No, because allocation should be proportional to account size C) No, because the manager should have allocated only to the largest client"
+      },
+      "correct": "B",
+      "explanation": "Fair dealing means all clients must be treated fairly, but \"fair\" doesn't necessarily mean \"equal.\" A pro-rata allocation based on account size (500 to A, 250 to B, 100 to C, or similar proportionality) is the standard practice. Equal allocation when account sizes differ dramatically is not fair — the smallest client gets a disproportionately large allocation.",
+      "wrongAnalysis": "- A: Incorrect — fair ≠ equal; allocation should reflect account size\n- C: Incorrect — all suitable clients should receive allocation"
+    },
+    {
+      "id": "Q-ETH-0009",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "Suitability",
+      "lo": "ETH-04-01-LO03 (Standard III(C) Suitability)",
+      "stem": "An investment advisor recommends a high-risk, leveraged ETF to an 85-year-old client whose primary objective is capital preservation and income. The advisor believes the ETF will generate superior returns. Has the advisor most likely violated Standard III(C) Suitability?",
+      "options": {
+        "A": "Yes, because the recommendation does not match the client's stated objectives",
+        "B": "No, because the advisor believes the investment will perform well",
+        "C": "No, as long as the advisor disclosed the risks of the ETF"
+      },
+      "correct": "A",
+      "explanation": "Standard III(C) requires that recommendations be suitable based on the client's investment objectives, risk tolerance, and constraints. A high-risk leveraged investment is fundamentally unsuitable for a client with capital preservation as the primary objective, regardless of the advisor's performance expectations or risk disclosures.",
+      "wrongAnalysis": "- B: Incorrect — the advisor's belief doesn't override suitability requirements\n- C: Incorrect — disclosure of risks doesn't make an unsuitable investment suitable"
+    },
+    {
+      "id": "Q-ETH-0010",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Ethics Scenario",
+      "trap": "Multiple Standards Interaction",
+      "lo": "ETH-05-01-LO01 (Standard IV(A) Loyalty)",
+      "stem": "A CFA charterholder is leaving her current employer to start her own firm. Before resigning, she downloads client contact information, performance records, and proprietary investment models from her employer's database. She did not have a non-compete agreement but signed a confidentiality agreement. Which Standards has she most likely violated?",
+      "options": {
+        "A": "Standard IV(A) Loyalty to Employer only",
+        "B": "Standard IV(A) and Standard III(E) Preservation of Confidentiality",
+        "C": "Standard IV(A) and Standard V(C) Record Retention"
+      },
+      "correct": "A",
+      "explanation": "Taking employer property (client lists, proprietary models) before leaving violates Standard IV(A) Loyalty to Employer — she deprived the employer of its property. The confidentiality agreement is an employment contract matter. Standard III(E) concerns client confidentiality, not employer confidentiality. Standard V(C) concerns maintaining records, not taking them. Primary violation is loyalty to employer.",
+      "wrongAnalysis": "- B: Incorrect — client performance records are not the same as confidential client information\n- C: Incorrect — V(C) is about maintaining adequate records, not misappropriating employer records"
+    },
+    {
+      "id": "Q-ETH-0011",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Diligence and Reasonable Basis",
+      "lo": "ETH-06-01-LO01 (Standard V(A) Diligence and Reasonable Basis)",
+      "stem": "An analyst issues a \"Strong Buy\" recommendation on a stock after reading the company's annual report and speaking with management at an investor conference. The analyst did not build a financial model or verify management's claims with independent sources. The stock subsequently declines 60%. Has the analyst most likely violated Standard V(A) Diligence and Reasonable Basis?",
+      "options": {
+        "A": "Yes, because the analysis was insufficient to support a \"Strong Buy\" rating",
+        "B": "No, because reading the annual report and speaking with management constitutes reasonable diligence",
+        "C": "Yes, because the stock declined, proving the recommendation was wrong"
+      },
+      "correct": "A",
+      "explanation": "Standard V(A) requires exercise of diligence and thoroughness in developing recommendations. For a \"Strong Buy\" rating (a high-conviction recommendation), merely reading the annual report and attending a conference is unlikely to constitute sufficient research. The analyst should have conducted more thorough analysis including independent verification. The outcome (stock decline) is evidence but not the test — the test is whether the process was diligent.",
+      "wrongAnalysis": "- B: Incorrect — this level of analysis is unlikely sufficient for a high-conviction recommendation\n- C: Incorrect — the Standard tests process, not outcomes; bad outcomes don't equal violations"
+    },
+    {
+      "id": "Q-ETH-0012",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "Fact vs. Opinion",
+      "lo": "ETH-06-01-LO02 (Standard V(B) Communication with Clients)",
+      "stem": "A research report states: \"Company X will definitely double its earnings next year because its new CEO is a proven leader.\" Which Standard is most likely violated?",
+      "options": {
+        "A": "Standard V(B) Communication with Clients — failure to distinguish fact from opinion",
+        "B": "Standard V(A) Diligence and Reasonable Basis — insufficient research",
+        "C": "Standard I(C) Misrepresentation — false statement about future earnings"
+      },
+      "correct": "A",
+      "explanation": "The statement presents a prediction (\"will definitely double\") as if it were a fact rather than an opinion. Standard V(B) requires analysts to distinguish between fact and opinion in communications. The report should state something like \"In my opinion, earnings could increase substantially given the new CEO's track record.\" The certainty language is the violation.",
+      "wrongAnalysis": "- B: Possible but secondary — the primary violation is the presentation, not the research process\n- C: Overstated — predicting earnings growth is not necessarily misrepresentation"
+    },
+    {
+      "id": "Q-ETH-0013",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Disclosure vs. Prohibition",
+      "lo": "ETH-07-01-LO03 (Standard VI(C) Referral Fees), ETH-05-01-LO02 (Standard IV(B))",
+      "stem": "A CFA charterholder recommends a local wealth management firm to several of her clients and receives a referral fee of $500 per client. She does not tell her clients or employer about this arrangement. Which Standard has she most likely violated?",
+      "options": {
+        "A": "Standard VI(C) Referral Fees — failure to disclose",
+        "B": "Standard IV(B) Additional Compensation — failure to get employer consent",
+        "C": "Both Standard VI(C) and Standard IV(B)"
+      },
+      "correct": "C",
+      "explanation": "The charterholder violated Standard VI(C) by failing to disclose the referral fees to clients. She also likely violated Standard IV(B) by accepting additional compensation that could conflict with employer interests without written consent from all parties. Both Standards require disclosure; referral fees are not prohibited — they must be disclosed.",
+      "wrongAnalysis": "- A: Partially correct but incomplete\n- B: Partially correct but incomplete"
+    },
+    {
+      "id": "Q-ETH-0014",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Priority of Transactions",
+      "lo": "ETH-07-01-LO02 (Standard VI(B) Priority of Transactions)",
+      "stem": "A portfolio manager receives a client order to buy 10,000 shares of XYZ Corp. Before executing the client order, the manager buys 1,000 shares for her personal account at the same price. The client order is then executed. The stock subsequently rises. Has the manager most likely violated Standard VI(B) Priority of Transactions?",
+      "options": {
+        "A": "Yes, because client transactions must take priority over personal transactions",
+        "B": "No, because the small personal trade did not affect the client's execution price",
+        "C": "Yes, but only if the manager's trade caused the client to pay a higher price"
+      },
+      "correct": "A",
+      "explanation": "Standard VI(B) is absolute — client transactions must take priority over personal transactions. The size of the trade, the price impact, or whether it was executed the same day are all irrelevant. The violation is trading ahead of the client, regardless of outcome. This is a strict priority rule.",
+      "wrongAnalysis": "- B: Incorrect — price impact is irrelevant to the priority rule\n- C: Incorrect — the violation occurs from the act of trading ahead, not from the price effect"
+    },
+    {
+      "id": "Q-ETH-0015",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Ethics Scenario",
+      "trap": "GIPS Compliance",
+      "lo": "ETH-09-01-LO02 (GIPS Compliance Requirements)",
+      "stem": "A small investment firm manages $50 million in assets and wants to claim compliance with GIPS. The firm manages both discretionary and non-discretionary portfolios. Which of the following is most accurate regarding GIPS compliance?",
+      "options": {
+        "A": "The firm must include all fee-paying discretionary portfolios in at least one composite",
+        "B": "The firm can claim GIPS compliance for only certain asset classes it manages",
+        "C": "The firm is too small to claim GIPS compliance"
+      },
+      "correct": "A",
+      "explanation": "GIPS compliance is firm-wide, meaning all actual, fee-paying, discretionary portfolios must be included in at least one composite. There is no minimum size requirement for GIPS compliance. Non-discretionary portfolios are excluded from composites. A firm cannot claim compliance for only part of its business — it's all or nothing.",
+      "wrongAnalysis": "- B: Incorrect — compliance is firm-wide, not selective by asset class\n- C: Incorrect — GIPS has no minimum firm size requirement"
+    },
+    {
+      "id": "Q-ETH-0016",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Supervisor Responsibility",
+      "lo": "ETH-05-01-LO03 (Standard IV(C) Responsibilities of Supervisors)",
+      "stem": "Sarah Chen, CFA, is a senior portfolio manager supervising a team of three junior analysts. One junior analyst, without Chen's knowledge, publishes a research report that contains material copied from another firm's report without attribution. Under Standard IV(C) Responsibilities of Supervisors, has Chen violated the Standard?",
+      "options": {
+        "A": "Yes, because supervisors are responsible for detecting and preventing violations",
+        "B": "No, because Chen had no knowledge of the violation",
+        "C": "Yes, but only if Chen failed to have reasonable compliance procedures in place"
+      },
+      "correct": "C",
+      "explanation": "Standard IV(C) requires supervisors to make reasonable efforts to detect and prevent violations. The Standard does not impose strict liability — a supervisor violates the Standard only if they FAILED to establish reasonable compliance procedures or FAILED to enforce them. If Chen had reasonable procedures in place and the analyst circumvented them, Chen may not be in violation.",
+      "wrongAnalysis": "- A: Incorrect — the Standard requires \"reasonable efforts,\" not absolute liability\n- B: Incorrect — lack of knowledge doesn't automatically excuse if procedures were inadequate"
+    },
+    {
+      "id": "Q-ETH-0017",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "\"Most Appropriate Action\"",
+      "trap": "Standard Overlap",
+      "lo": "ETH-08-01-LO02 (Standard VII(B) Reference to CFA Institute)",
+      "stem": "A CFA candidate posts the following on LinkedIn: \"John Smith, CFA Level II Candidate.\" Has the candidate most likely violated Standard VII(B)?",
+      "options": {
+        "A": "Yes, because \"CFA\" must never be used as a noun or adjective",
+        "B": "No, because the candidate accurately stated his candidacy status",
+        "C": "Yes, because candidates cannot reference the CFA Program publicly"
+      },
+      "correct": "A",
+      "explanation": "Standard VII(B) explicitly prohibits using \"CFA\" as a noun. The proper reference would be \"John Smith has passed Level I of the CFA Program\" or \"John Smith is a Level II candidate in the CFA Program.\" The designation \"CFA\" (even when followed by \"Level II Candidate\") cannot be used as a noun or adjective.",
+      "wrongAnalysis": "- B: Incorrect — even if factually accurate, the FORMAT violates the Standard\n- C: Incorrect — candidates CAN reference candidacy, but must do it properly"
+    },
+    {
+      "id": "Q-ETH-0018",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Disclosure of Conflicts",
+      "lo": "ETH-07-01-LO01 (Standard VI(A) Disclosure of Conflicts)",
+      "stem": "An analyst holds shares in a company she covers. Her research report includes a \"Buy\" recommendation. At the end of the report, there is a small footnote stating: \"The analyst holds a position in this security.\" Has the analyst complied with Standard VI(A) Disclosure of Conflicts?",
+      "options": {
+        "A": "Yes, because the conflict was disclosed",
+        "B": "No, because the disclosure should be prominent, not buried in a footnote",
+        "C": "Yes, as long as the analyst's holding did not influence the recommendation"
+      },
+      "correct": "B",
+      "explanation": "Standard VI(A) requires \"full and fair disclosure\" of conflicts. A small footnote at the end of a report does not constitute prominent disclosure. The disclosure should be clear, noticeable, and placed where readers will actually see it — ideally at the beginning of the report or in a prominent disclosure section.",
+      "wrongAnalysis": "- A: Incorrect — mere disclosure is not sufficient; it must be meaningful disclosure\n- C: Incorrect — the Standard requires DISCLOSURE regardless of actual influence"
+    },
+    {
+      "id": "Q-ETH-0019",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Performance Presentation",
+      "lo": "ETH-04-01-LO04 (Standard III(D) Performance Presentation)",
+      "stem": "A firm's marketing material states: \"Our Large Cap Strategy has outperformed the S&P 500 in 8 of the last 10 years.\" However, the firm excludes a year when the strategy significantly underperformed because that year the portfolio manager was on medical leave. Does this most likely violate Standard III(D) Performance Presentation?",
+      "options": {
+        "A": "Yes, because the presentation is not fair, accurate, and complete",
+        "B": "No, because the excluded year was due to a non-recurring circumstance",
+        "C": "Yes, but only if the firm did not disclose the exclusion and its reason"
+      },
+      "correct": "A",
+      "explanation": "Standard III(D) requires performance presentation to be fair, accurate, and complete. Selectively excluding a poor-performing year without extremely clear disclosure makes the presentation misleading. Even with disclosure, marketing material emphasizing \"8 of 10 years\" while burying the excluded year is likely not \"fair\" presentation.",
+      "wrongAnalysis": "- B: Incorrect — cherry-picking time periods is misleading regardless of the reason\n- C: Incorrect — disclosure helps but may not cure fundamentally misleading presentation"
+    },
+    {
+      "id": "Q-ETH-0020",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Ethics Scenario",
+      "trap": "Complex Standard Interaction",
+      "lo": "ETH-03-01-LO01, ETH-05-01-LO01",
+      "stem": "An equity analyst at a large bank is working on an IPO for Company X. The analyst's brother asks for a stock tip at a family dinner, and the analyst mentions that Company X is about to go public with strong prospects. The brother buys shares in the IPO through his own broker. Which of the following is most accurate?",
+      "options": {
+        "A": "The analyst violated Standard II(A) by communicating material nonpublic information",
+        "B": "Both Standard II(A) and Standard IV(A) were violated",
+        "C": "The analyst violated Standard IV(A) by depriving the employer of confidential information"
+      },
+      "correct": "B",
+      "explanation": "The analyst communicated MNPI (the upcoming IPO with \"strong prospects\") to his brother, violating Standard II(A). He also violated Standard IV(A) by depriving his employer of the exclusive benefit of the confidential deal information. The brother receiving and trading on the information also creates a chain of violations.",
+      "wrongAnalysis": "- A: Partially correct but incomplete\n- B: Incorrect — Standard III(E) concerns CLIENT confidentiality, not employer deal information\n- C: Partially correct but incomplete — II(A) is also violated"
+    },
+    {
+      "id": "Q-ETH-0021",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Directed Brokerage & Soft Dollars",
+      "lo": "ETH-04-01-LO01 (Standard III(A) Loyalty, Prudence, and Care)",
+      "stem": "An investment manager uses client brokerage commissions to pay for research reports from a broker-dealer that assist the manager in making investment decisions for all client accounts. Additionally, the manager uses soft dollars to purchase office furniture and computer hardware. According to Standard III(A) Loyalty, Prudence, and Care, which of the following best describes the manager's compliance status?",
+      "options": {
+        "A": "Compliant with all soft dollar uses because research benefits client accounts",
+        "B": "Non-compliant regarding office furniture and computer hardware, but compliant regarding research reports",
+        "C": "Non-compliant regarding all soft dollar expenditures because commissions belong to the firm"
+      },
+      "correct": "B",
+      "explanation": "Standard III(A) Loyalty, Prudence, and Care requires that brokerage commissions belong to the client. Soft dollar benefits used for investment research directly benefit client accounts and are permissible. However, using soft dollars for administrative overhead such as office furniture or general computer hardware violates the Standard because these items benefit the manager, not the clients.",
+      "wrongAnalysis": "- A: Incorrect — office furniture and general hardware do not provide direct research assistance to clients.\n- C: Incorrect — soft dollar research is permissible if it assists in the investment decision-making process for clients."
+    },
+    {
+      "id": "Q-ETH-0022",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Block Trading & Allocation",
+      "lo": "ETH-04-01-LO02 (Standard III(B) Fair Dealing)",
+      "stem": "A portfolio manager places a block trade to purchase shares of a promising IPO for several client accounts. The order is only partially filled. The manager allocates the filled portion pro-rata across all participating accounts based on order size, but excludes his own personal account that was included in the original block. Did the manager violate Standard III(B) Fair Dealing?",
+      "options": {
+        "A": "Yes, because personal accounts must receive identical pro-rata allocation in block orders",
+        "B": "No, because client accounts must take priority over personal accounts",
+        "C": "Yes, because pro-rata allocation is required whenever an order is partially filled"
+      },
+      "correct": "B",
+      "explanation": "Standard III(B) Fair Dealing and Standard VI(B) Priority of Transactions require that client transactions take priority over personal transactions of members and candidates. When a block trade is partially filled, excluding the manager's personal account to fully allocate available shares to clients is proper and compliant.",
+      "wrongAnalysis": "- A: Incorrect — client accounts must take priority over personal trading; personal accounts should not participate on equal footing when orders are partially filled.\n- C: Incorrect — pro-rata allocation applies among client accounts, but client accounts precede personal accounts."
+    },
+    {
+      "id": "Q-ETH-0023",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "IPS Requirement",
+      "lo": "ETH-04-01-LO03 (Standard III(C) Suitability)",
+      "stem": "A financial advisor meets a new prospective client who requests immediate equity investments. Before taking any investment action, the advisor conducts a thorough interview to assess the client's risk tolerance, return objectives, liquidity needs, and time horizon, creating an Investment Policy Statement (IPS). According to Standard III(C) Suitability, how often must the advisor update this IPS?",
+      "options": {
+        "A": "At least annually",
+        "B": "At least quarterly",
+        "C": "Only when the client specifically requests a revision"
+      },
+      "correct": "A",
+      "explanation": "Standard III(C) Suitability mandates that members and candidates update the Investment Policy Statement (IPS) at least annually, or whenever there is a significant change in the client's financial situation, risk tolerance, or investment objectives.",
+      "wrongAnalysis": "- B: Incorrect — quarterly updates are not mandated by the Standard, though portfolio reviews may occur quarterly.\n- C: Incorrect — waiting solely for client requests is insufficient; proactive annual updates are required."
+    },
+    {
+      "id": "Q-ETH-0024",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Simulated vs. Actual Performance",
+      "lo": "ETH-04-01-LO04 (Standard III(D) Performance Presentation)",
+      "stem": "An investment advisory firm publishes a marketing brochure showing a 5-year annualized return of 18.5% for its growth strategy. The return figures are based on backtested model portfolio performance, but the brochure clearly labels them as \"Simulated Model Returns\" in a prominent footnote. Does this presentation comply with Standard III(D) Performance Presentation?",
+      "options": {
+        "A": "Yes, because clear disclosure of simulated performance eliminates misrepresentation",
+        "B": "No, because simulated backtested performance can never be presented to prospective clients",
+        "C": "Compliant only if actual client account performance is also presented alongside the model returns"
+      },
+      "correct": "C",
+      "explanation": "Standard III(D) Performance Presentation requires fair, accurate, and complete representation of performance. Presenting model/backtested performance without presenting actual managed client account performance (or falsely implying backtested returns represent live trading) is misleading. Simulated returns may be shown only if clearly identified AND accompanied by live operational track record context.",
+      "wrongAnalysis": "- A: Incorrect — footnotes alone do not cure misleading presentation if actual performance is omitted.\n- B: Incorrect — simulated returns are not strictly banned, but must be accompanied by full context and clear identification."
+    },
+    {
+      "id": "Q-ETH-0025",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Legal Compulsion & Confidentiality",
+      "lo": "ETH-04-01-LO05 (Standard III(E) Preservation of Confidentiality)",
+      "stem": "A client reveals to her portfolio manager that she has underreported her business income on tax returns. Shortly after, law enforcement officers investigating suspected tax fraud issue a legally binding court subpoena demanding the manager produce all financial records for that client. According to Standard III(E) Preservation of Confidentiality, what is the manager's most appropriate action?",
+      "options": {
+        "A": "Refuse to disclose the records to protect client confidentiality under all circumstances",
+        "B": "Comply with the legal subpoena and disclose the requested records",
+        "C": "Inform the client immediately before taking any action, but refuse to cooperate with authorities"
+      },
+      "correct": "B",
+      "explanation": "Standard III(E) Preservation of Confidentiality states that members must keep client information confidential UNLESS: (1) the information concerns illegal activities, (2) disclosure is required by law (such as a valid subpoena), or (3) the client permits disclosure. Since the disclosure is required by a legal subpoena, the manager must comply.",
+      "wrongAnalysis": "- A: Incorrect — confidentiality is not absolute and does not override legal court subpoenas.\n- C: Incorrect — obstruction of a legal subpoena violates both law and Standard I(A)."
+    },
+    {
+      "id": "Q-ETH-0026",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "Independent Practice Before Resignation",
+      "lo": "ETH-05-01-LO01 (Standard IV(A) Loyalty)",
+      "stem": "An analyst decides to leave her current employer to start her own independent asset management firm. While still employed, she registers her new business entity and rents office space. She does not solicit any current clients or take employer property before her resignation becomes effective. Has she violated Standard IV(A) Loyalty?",
+      "options": {
+        "A": "Yes, because preparing to compete while employed is a breach of loyalty",
+        "B": "No, because making preliminary preparations to compete without soliciting clients or taking property is permissible",
+        "C": "Yes, because registering a business entity requires written consent from her current employer"
+      },
+      "correct": "B",
+      "explanation": "Standard IV(A) Loyalty permits employees to make preliminary arrangements to set up a new business (such as registering a business name or renting office space) while still employed, provided such activities do not compete with the employer, solicit current clients, or occur during firm working hours.",
+      "wrongAnalysis": "- A: Incorrect — preliminary preparation is allowed as long as active competition or solicitation does not occur.\n- C: Incorrect — employer consent is required for additional compensation or active competing practice, not simple preliminary setup."
+    },
+    {
+      "id": "Q-ETH-0027",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Incentive Compensation Disclosure",
+      "lo": "ETH-05-01-LO02 (Standard IV(B) Additional Compensation Arrangements)",
+      "stem": "A wealth manager is offered an additional incentive by a client: if the client's portfolio achieves a return exceeding 15% in a calendar year, the client will pay the manager a $10,000 personal bonus. The manager verbally informs her supervisor and receives verbal approval. Does this satisfy Standard IV(B) Additional Compensation Arrangements?",
+      "options": {
+        "A": "Yes, because disclosure and approval were obtained prior to performance",
+        "B": "No, because additional compensation arrangements require WRITTEN consent from all parties",
+        "C": "No, because performance bonuses from clients are strictly prohibited under the Standards"
+      },
+      "correct": "B",
+      "explanation": "Standard IV(B) Additional Compensation Arrangements explicitly mandates that members must not accept gifts, benefits, compensation, or consideration that competes with or might create a conflict of interest with their employer's interest unless they obtain WRITTEN consent from all parties involved. Verbal consent is insufficient.",
+      "wrongAnalysis": "- A: Incorrect — verbal disclosure/approval does not satisfy the explicit requirement for WRITTEN consent.\n- C: Incorrect — client performance bonuses are permissible if fully disclosed in writing and approved in writing by the employer."
+    },
+    {
+      "id": "Q-ETH-0028",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Ethics Scenario",
+      "trap": "Supervisor Compliance Design",
+      "lo": "ETH-05-01-LO03 (Standard IV(C) Responsibilities of Supervisors)",
+      "stem": "A head of research hires a junior analyst and provides him with the firm's compliance manual. Six months later, the junior analyst engages in insider trading. An internal investigation reveals that the head of research never checked the analyst's trading logs or conducted periodic compliance reviews. Did the head of research violate Standard IV(C) Responsibilities of Supervisors?",
+      "options": {
+        "A": "No, because providing the compliance manual satisfies supervisor duties",
+        "B": "Yes, because supervisors must establish and ENFORCE reasonable compliance procedures, including monitoring",
+        "C": "No, because individual employees are solely responsible for their criminal acts"
+      },
+      "correct": "B",
+      "explanation": "Standard IV(C) Responsibilities of Supervisors requires members to make reasonable efforts to detect and prevent violations by anyone under their supervision. Simply handing out a compliance manual without establishing ongoing monitoring, enforcement, and auditing mechanisms violates Standard IV(C).",
+      "wrongAnalysis": "- A: Incorrect — distribution of a manual without active monitoring and enforcement is insufficient.\n- C: Incorrect — supervisors share responsibility if lack of supervision permitted the violation to occur."
+    },
+    {
+      "id": "Q-ETH-0029",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Secondary Research & Diligence",
+      "lo": "ETH-06-01-LO01 (Standard V(A) Diligence and Reasonable Basis)",
+      "stem": "An equity analyst issues a \"Buy\" recommendation on a biotechnology company based solely on a favorable research report published by a top-tier investment bank. The analyst did not review the biotech firm's financial statements, drug trial data, or regulatory filings himself. Has the analyst violated Standard V(A) Diligence and Reasonable Basis?",
+      "options": {
+        "A": "No, because relying on research from a reputable bank constitutes a reasonable basis",
+        "B": "Yes, because relying on third-party research without independent verification lacks diligence",
+        "C": "Compliant only if the third-party report is cited in the analyst's published report"
+      },
+      "correct": "B",
+      "explanation": "Standard V(A) Diligence and Reasonable Basis requires members to conduct thorough, independent research. While analysts may use secondary/third-party research, they must perform reasonable diligence to verify the underlying assumptions and data before issuing recommendations. Blindly adopting another bank's report without independent check violates Standard V(A).",
+      "wrongAnalysis": "- A: Incorrect — reputation of the third party does not eliminate the duty to independently verify research.\n- C: Incorrect — citation prevents plagiarism (Standard I(C)), but does not satisfy reasonable basis (Standard V(A))."
+    },
+    {
+      "id": "Q-ETH-0030",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Ethics Scenario",
+      "trap": "GIPS Composite Definition",
+      "lo": "ETH-09-01-LO03 (GIPS Composite Construction)",
+      "stem": "According to the Global Investment Performance Standards (GIPS), which of the following best describes the requirement for composite construction?",
+      "options": {
+        "A": "A composite must include all actual, fee-paying, discretionary and non-discretionary accounts managed according to a specific strategy",
+        "B": "A composite must include all actual, fee-paying, discretionary accounts managed according to a specific strategy",
+        "C": "Firms may select which fee-paying discretionary accounts to include in a composite based on performance benchmarks"
+      },
+      "correct": "B",
+      "explanation": "Under GIPS Standards, a composite MUST include all actual, fee-paying, DISCRETIONARY accounts managed according to a specific investment strategy or objective. Non-discretionary accounts must be excluded (since the firm cannot execute its strategy freely), and cherry-picking portfolios is strictly prohibited.",
+      "wrongAnalysis": "- A: Incorrect — non-discretionary accounts must NOT be included in GIPS composites.\n- C: Incorrect — selective cherry-picking violates the core principle of GIPS composite construction."
+    },
+    {
+      "id": "Q-ETH-0031",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Code of Ethics Principles",
+      "lo": "ETH-01-01-LO01 (CFA Code of Ethics Principles)",
+      "stem": "Which of the following is one of the six fundamental principles explicitly stated in the CFA Institute Code of Ethics?",
+      "options": {
+        "A": "Place the integrity of the investment profession and the interests of clients above personal interests",
+        "B": "Guarantee a minimum risk-adjusted annual return for all discretionary client accounts",
+        "C": "Report all personal trading activities to regulatory authorities on a weekly basis"
+      },
+      "correct": "A",
+      "explanation": "The first fundamental principle of the CFA Institute Code of Ethics explicitly mandates that members and candidates must: **\"Act with integrity, competence, diligence, respect and in an ethical manner with the public, clients, prospective clients, employers, employees, colleagues in the investment profession, and other participants in the global capital markets,\"** and **\"Place the integrity of the investment profession and the interests of clients above their own personal interests.\"**",
+      "wrongAnalysis": "- B: Incorrect — guaranteeing returns is strictly prohibited under Standard I(C) Misrepresentation.\n- C: Incorrect — weekly regulatory reporting is not part of the Code of Ethics principles."
+    },
+    {
+      "id": "Q-ETH-0032",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Knowledge of the Law Priority",
+      "lo": "ETH-02-01-LO01 (Standard I(A) Knowledge of the Law)",
+      "stem": "A CFA candidate resides in Country X, where local securities law permits financial advisors to accept undisclosed gifts from broker-dealers. However, the candidate manages accounts for clients residing in Country Y, where local law strictly prohibits any gifts. The CFA Institute Code and Standards mandate strict written disclosure and consent. Which rule must the candidate follow?",
+      "options": {
+        "A": "Country X law, because the candidate resides in Country X",
+        "B": "The strictest applicable law or standard among Country X, Country Y, and the Code and Standards",
+        "C": "Country Y law only, because the clients reside in Country Y"
+      },
+      "correct": "B",
+      "explanation": "Under Standard I(A) Knowledge of the Law, members and candidates must comply with all applicable laws, rules, and regulations of any government, regulatory organization, or licensed association governing their professional activities. In the event of a conflict, members and candidates MUST comply with the **stricter law, rule, or standard**.",
+      "wrongAnalysis": "- A: Incorrect — adhering to the less strict local law violates Standard I(A) when a stricter law or Standard applies.\n- C: Incorrect — ignores the requirement to evaluate all applicable jurisdictions and the Code & Standards to select the strictest rule."
+    },
+    {
+      "id": "Q-ETH-0033",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Market Manipulation Intent",
+      "lo": "ETH-03-01-LO02 (Standard II(B) Market Manipulation)",
+      "stem": "A trader at an institutional hedge fund executes a series of large, rapid buy orders near market close to deliberately artificially push up the closing price of a illiquid stock, enhancing the quarterly valuation of the fund's holdings. Has the trader violated Standard II(B) Market Manipulation?",
+      "options": {
+        "A": "Yes, because the transactions were intended to distort security prices and artificially inflate performance",
+        "B": "No, because executing actual market trades with real capital does not constitute manipulation",
+        "C": "No, provided the fund discloses its closing trade execution strategy in its prospectus"
+      },
+      "correct": "A",
+      "explanation": "Standard II(B) Market Manipulation prohibits practices that distort prices or artificially inflate trading volume with the INTENT to mislead market participants. Securing an artificially high closing price (\"marking the close\") through deliberate end-of-day order placing distorts price signals and violates Standard II(B), regardless of whether real capital was used.",
+      "wrongAnalysis": "- B: Incorrect — real transaction execution intended to distort pricing is transactional manipulation.\n- C: Incorrect — prospectus disclosure cannot legitimize price manipulation."
+    },
+    {
+      "id": "Q-ETH-0034",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Referral Fee Disclosures",
+      "lo": "ETH-07-01-LO03 (Standard VI(C) Referral Fees)",
+      "stem": "An independent investment advisor enters into an agreement with a tax accounting firm: for every client the accountant refers to the advisor, the advisor pays the accountant a $500 referral fee. The advisor discloses this arrangement to referred clients AFTER they sign the investment management agreement. Has the advisor violated Standard VI(C) Referral Fees?",
+      "options": {
+        "A": "No, because referral fees are permitted if disclosed at any time during the client relationship",
+        "B": "Yes, because referral fees must be disclosed to prospective clients BEFORE entering into an agreement",
+        "C": "Yes, because paying cash referral fees to non-investment professionals is strictly prohibited"
+      },
+      "correct": "B",
+      "explanation": "Standard VI(C) Referral Fees requires members and candidates to disclose to their employer, clients, and prospective clients, as appropriate, any compensation, consideration, or benefit received from or paid to others for the recommendation of products or services. Crucially, this disclosure must occur **PRIOR to entering into any contract or agreement**.",
+      "wrongAnalysis": "- A: Incorrect — post-signing disclosure fails to inform the prospective client before contracting.\n- C: Incorrect — referral fees are permitted provided full prior written disclosure is made."
+    },
+    {
+      "id": "Q-ETH-0035",
+      "section": "Standard I: Professionalism",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Ethics Scenario",
+      "trap": "CFA Designation Use Rules",
+      "lo": "ETH-08-01-LO02 (Standard VII(B) CFA Designation Rules)",
+      "stem": "On his LinkedIn profile, a candidate who recently passed the Level I CFA exam writes: *\"John Smith, CFA Level II Candidate — proven expert in financial statement analysis due to superior Level I exam performance.\"* Does this statement violate Standard VII(B) Reference to CFA Institute, the CFA Designation, and the CFA Program?",
+      "options": {
+        "A": "No, because he passed Level I and is registered for Level II",
+        "B": "Yes, because claiming \"superior performance\" or \"proven expertise\" misrepresents the CFA designation and exam results",
+        "C": "No, provided he pays his annual CFA Institute candidate dues"
+      },
+      "correct": "B",
+      "explanation": "Standard VII(B) prohibits members and candidates from exaggerating the meaning or implications of membership in CFA Institute, holding the CFA designation, or candidacy in the CFA Program. Claiming \"superior performance\" or that passing an exam guarantees \"proven expertise\" partials out exaggerated claims and violates Standard VII(B).",
+      "wrongAnalysis": "- A: Incorrect — candidate status is a factual statement, but claiming superior expertise or guaranteed ability is a violation.\n- C: Incorrect — paying dues does not permit misleading or exaggerated claims."
+    },
+    {
+      "id": "Q-ETH-0036",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Proxy Voting Duty",
+      "lo": "ETH-04-01-LO01 (Standard III(A) Loyalty, Prudence, and Care)",
+      "stem": "A portfolio manager receives proxy voting materials for a annual shareholder meeting of a portfolio company. Because the proxy issues appear routine, the manager routinely votes all proxies in accordance with management's recommendations without reviewing the proxy items. Has the manager violated Standard III(A) Loyalty, Prudence, and Care?",
+      "options": {
+        "A": "No, because voting with corporate management is standard industry practice for routine matters",
+        "B": "Yes, because proxies are economic assets of the client and must be evaluated independently in the client's best interest",
+        "C": "No, provided the manager discloses to clients that proxies are automatically voted with management"
+      },
+      "correct": "B",
+      "explanation": "Standard III(A) Loyalty, Prudence, and Care establishes that proxy voting rights are financial assets of the client. Portfolio managers have a fiduciary duty to evaluate proxy issues independently and vote proxies in the best economic interest of the client, rather than blindly rubber-stamping management proposals.",
+      "wrongAnalysis": "- A: Incorrect — blind voting with management without review violates fiduciary duty.\n- C: Incorrect — disclosure does not relieve the manager of the obligation to act prudently in the client's interest."
+    },
+    {
+      "id": "Q-ETH-0037",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Ethics Scenario",
+      "trap": "Misrepresentation & Guaranteed Returns",
+      "lo": "LO-ETH-13 (Standard I(C) Misrepresentation)",
+      "stem": "An investment manager presents a pitch deck to prospective clients stating: *\"Our proprietary quantitative strategy guarantees a minimum return of 10% per annum under all market environments, backed by historical backtests.\"* Has the manager violated Standard I(C) Misrepresentation?",
+      "options": {
+        "A": "Yes, because guaranteeing investment returns and misrepresenting backtested results as guaranteed violates Standard I(C)",
+        "B": "No, provided the firm's legal counsel approved the presentation deck",
+        "C": "No, because backtested model results constitute empirical proof of strategy performance"
+      },
+      "correct": "A",
+      "explanation": "Standard I(C) Misrepresentation strictly prohibits members and candidates from making any false, misleading, or guaranteed statements regarding investment returns. Guaranteed returns cannot be promised in equity or debt strategies, and backtested returns do not guarantee future performance.",
+      "wrongAnalysis": "- B: Incorrect — legal counsel approval does not override the Code and Standards.\n- C: Incorrect — backtested returns represent simulated historical models, not guaranteed future results."
+    },
+    {
+      "id": "Q-ETH-0038",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-17 (Standard I(D) Misconduct)",
+      "stem": "A financial analyst is arrested for operating an un-registered off-the-books gambling ring. Does this conduct violate Standard I(D) Misconduct??",
+      "options": {
+        "A": "Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-17 (Standard I(D) Misconduct). Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0039",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory)",
+      "stem": "An analyst combines public financial reports with non-material nonpublic observations from plant site visits to form a Buy recommendation. Has the analyst violated Standard II(A)??",
+      "options": {
+        "A": "No, because reaching an investment conclusion using the Mosaic Theory is fully compliant",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory). No, because reaching an investment conclusion using the Mosaic Theory is fully compliant.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0040",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-19 (Standard III(C) Suitability)",
+      "stem": "An advisor manages a portfolio for an elderly retiree whose primary objective is capital preservation. The advisor allocates 80% to speculative high-yield debt. Has the advisor violated Standard III(C)??",
+      "options": {
+        "A": "Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-19 (Standard III(C) Suitability). Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0041",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-20 (Standard IV(A) Loyalty - Firm Property)",
+      "stem": "Upon resigning, an analyst takes proprietary research models created during employment without employer permission. Has the analyst violated Standard IV(A)??",
+      "options": {
+        "A": "Yes, because taking firm property or proprietary models violates duty of loyalty to employer",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-20 (Standard IV(A) Loyalty - Firm Property). Yes, because taking firm property or proprietary models violates duty of loyalty to employer.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0042",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-21 (Standard IV(B) Additional Compensation)",
+      "stem": "A client offers an analyst a luxury vacation if his portfolio beats a benchmark. The analyst accepts in writing after receiving written approval from his employer. Is this compliant??",
+      "options": {
+        "A": "Yes, because full prior written disclosure and written employer consent were obtained",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-21 (Standard IV(B) Additional Compensation). Yes, because full prior written disclosure and written employer consent were obtained.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0043",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-22 (Standard V(B) Communication with Clients)",
+      "stem": "An analyst publishes a research report that fails to distinguish between factual historical data and forward-looking earnings projections. Has the analyst violated Standard V(B)??",
+      "options": {
+        "A": "Yes, because Standard V(B) requires clear separation between facts and opinions/projections",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-22 (Standard V(B) Communication with Clients). Yes, because Standard V(B) requires clear separation between facts and opinions/projections.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0044",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-23 (Standard V(C) Record Retention)",
+      "stem": "A firm fails to maintain research recommendation records and client communication logs for the recommended 7-year retention period. Has the firm violated Standard V(C)??",
+      "options": {
+        "A": "Yes, because Standard V(C) recommends maintaining records for at least 7 years",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-23 (Standard V(C) Record Retention). Yes, because Standard V(C) recommends maintaining records for at least 7 years.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0045",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-24 (Standard VI(A) Disclosure of Conflicts)",
+      "stem": "An analyst writes a research report on a company where her spouse owns 5% of outstanding shares, without disclosing the relationship. Has the analyst violated Standard VI(A)??",
+      "options": {
+        "A": "Yes, because beneficial ownership by immediate family members creates a material conflict of interest",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-24 (Standard VI(A) Disclosure of Conflicts). Yes, because beneficial ownership by immediate family members creates a material conflict of interest.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0046",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-25 (Standard VI(C) Referral Fees)",
+      "stem": "An advisor receives a cash referral fee from a broker for client trades, and discloses the arrangement to clients prior to contract signing. Is this compliant??",
+      "options": {
+        "A": "Yes, because referral fees are permissible if fully disclosed in writing before contract execution",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-25 (Standard VI(C) Referral Fees). Yes, because referral fees are permissible if fully disclosed in writing before contract execution.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0047",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-26 (Standard VII(A) CFA Program Conduct)",
+      "stem": "A Level I candidate discusses specific exam question topics on a online forum after completing the exam. Has the candidate violated Standard VII(A)??",
+      "options": {
+        "A": "Yes, because disclosing confidential exam question content compromises exam integrity",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-26 (Standard VII(A) CFA Program Conduct). Yes, because disclosing confidential exam question content compromises exam integrity.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0048",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-27 (Standard VII(B) Designation Reference)",
+      "stem": "A charterholder uses 'CFA' as a noun on business cards ('John Smith, a CFA'). Does this violate Standard VII(B)??",
+      "options": {
+        "A": "Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-27 (Standard VII(B) Designation Reference). Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0049",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-17 (Standard I(D) Misconduct)",
+      "stem": "A financial analyst is arrested for operating an un-registered off-the-books gambling ring. Does this conduct violate Standard I(D) Misconduct??",
+      "options": {
+        "A": "Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-17 (Standard I(D) Misconduct). Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0050",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory)",
+      "stem": "An analyst combines public financial reports with non-material nonpublic observations from plant site visits to form a Buy recommendation. Has the analyst violated Standard II(A)??",
+      "options": {
+        "A": "No, because reaching an investment conclusion using the Mosaic Theory is fully compliant",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory). No, because reaching an investment conclusion using the Mosaic Theory is fully compliant.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0051",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-19 (Standard III(C) Suitability)",
+      "stem": "An advisor manages a portfolio for an elderly retiree whose primary objective is capital preservation. The advisor allocates 80% to speculative high-yield debt. Has the advisor violated Standard III(C)??",
+      "options": {
+        "A": "Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-19 (Standard III(C) Suitability). Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0052",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-20 (Standard IV(A) Loyalty - Firm Property)",
+      "stem": "Upon resigning, an analyst takes proprietary research models created during employment without employer permission. Has the analyst violated Standard IV(A)??",
+      "options": {
+        "A": "Yes, because taking firm property or proprietary models violates duty of loyalty to employer",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-20 (Standard IV(A) Loyalty - Firm Property). Yes, because taking firm property or proprietary models violates duty of loyalty to employer.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0053",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-21 (Standard IV(B) Additional Compensation)",
+      "stem": "A client offers an analyst a luxury vacation if his portfolio beats a benchmark. The analyst accepts in writing after receiving written approval from his employer. Is this compliant??",
+      "options": {
+        "A": "Yes, because full prior written disclosure and written employer consent were obtained",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-21 (Standard IV(B) Additional Compensation). Yes, because full prior written disclosure and written employer consent were obtained.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0054",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-22 (Standard V(B) Communication with Clients)",
+      "stem": "An analyst publishes a research report that fails to distinguish between factual historical data and forward-looking earnings projections. Has the analyst violated Standard V(B)??",
+      "options": {
+        "A": "Yes, because Standard V(B) requires clear separation between facts and opinions/projections",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-22 (Standard V(B) Communication with Clients). Yes, because Standard V(B) requires clear separation between facts and opinions/projections.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0055",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-23 (Standard V(C) Record Retention)",
+      "stem": "A firm fails to maintain research recommendation records and client communication logs for the recommended 7-year retention period. Has the firm violated Standard V(C)??",
+      "options": {
+        "A": "Yes, because Standard V(C) recommends maintaining records for at least 7 years",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-23 (Standard V(C) Record Retention). Yes, because Standard V(C) recommends maintaining records for at least 7 years.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0056",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-24 (Standard VI(A) Disclosure of Conflicts)",
+      "stem": "An analyst writes a research report on a company where her spouse owns 5% of outstanding shares, without disclosing the relationship. Has the analyst violated Standard VI(A)??",
+      "options": {
+        "A": "Yes, because beneficial ownership by immediate family members creates a material conflict of interest",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-24 (Standard VI(A) Disclosure of Conflicts). Yes, because beneficial ownership by immediate family members creates a material conflict of interest.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0057",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-25 (Standard VI(C) Referral Fees)",
+      "stem": "An advisor receives a cash referral fee from a broker for client trades, and discloses the arrangement to clients prior to contract signing. Is this compliant??",
+      "options": {
+        "A": "Yes, because referral fees are permissible if fully disclosed in writing before contract execution",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-25 (Standard VI(C) Referral Fees). Yes, because referral fees are permissible if fully disclosed in writing before contract execution.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0058",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-26 (Standard VII(A) CFA Program Conduct)",
+      "stem": "A Level I candidate discusses specific exam question topics on a online forum after completing the exam. Has the candidate violated Standard VII(A)??",
+      "options": {
+        "A": "Yes, because disclosing confidential exam question content compromises exam integrity",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-26 (Standard VII(A) CFA Program Conduct). Yes, because disclosing confidential exam question content compromises exam integrity.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0059",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ETH-27 (Standard VII(B) Designation Reference)",
+      "stem": "A charterholder uses 'CFA' as a noun on business cards ('John Smith, a CFA'). Does this violate Standard VII(B)??",
+      "options": {
+        "A": "Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ETH-27 (Standard VII(B) Designation Reference). Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0060",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-01 (CFA Code of Ethics Principles)",
+      "stem": "A charterholder is considering establishing an independent advisory firm while still employed. Before soliciting current clients, she must notify her employer in writing of the types of services, duration, and compensation. Does her duty of loyalty permit pre-solicitation preparation??",
+      "options": {
+        "A": "Yes, preliminary actions to organize a new business (such as filing incorporation papers) are permissible provided they do not conflict with employer duties or solicit clients prior to resignation.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-ETH-01 (CFA Code of Ethics Principles). Yes, preliminary actions to organize a new business (such as filing incorporation papers) are permissible provided they do not conflict with employer duties or solicit clients prior to resignation..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0061",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-05 (Standard IV(C) Responsibilities of Supervisors)",
+      "stem": "A supervisor detects that an analyst under her supervision committed a minor trade allocation error. The supervisor instructs the analyst to cover the loss out of personal funds without reporting it to compliance. Has the supervisor violated Standard IV(C)??",
+      "options": {
+        "A": "Yes, supervisors must ensure compliance procedures are strictly followed and all breaches are reported to appropriate compliance authorities.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-ETH-05 (Standard IV(C) Responsibilities of Supervisors). Yes, supervisors must ensure compliance procedures are strictly followed and all breaches are reported to appropriate compliance authorities..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0062",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-09 (Standard V(A) Diligence & Reasonable Basis)",
+      "stem": "An analyst relies solely on a high-performing third-party quantitative screening model without reviewing the underlying assumptions or backtested methodology. Has the analyst violated Standard V(A)??",
+      "options": {
+        "A": "Yes, members must undertake reasonable diligence to understand the parameters and limitations of third-party research before adopting recommendations.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-ETH-09 (Standard V(A) Diligence & Reasonable Basis). Yes, members must undertake reasonable diligence to understand the parameters and limitations of third-party research before adopting recommendations..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0063",
+      "section": "Standard I: Professionalism",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-11 (Standard VII(A) Conduct as Members)",
+      "stem": "During a live webinar, a CFA Level I candidate claims that passing Level I on the first attempt places him in the top 5% of financial professionals globally. Has the candidate violated Standard VII(A)??",
+      "options": {
+        "A": "Yes, candidates must not exaggerate the meaning or implications of participation in the CFA Program.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-ETH-11 (Standard VII(A) Conduct as Members). Yes, candidates must not exaggerate the meaning or implications of participation in the CFA Program..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0064",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ETH-10 (Standard I(C) Misrepresentation & Plagiarism)",
+      "stem": "An analyst copies three paragraphs of economic forecasting data from a published central bank report without attribution. Has the analyst committed plagiarism under Standard I(C)??",
+      "options": {
+        "A": "Yes, members must acknowledge the source of material used from published research, even if produced by governmental or official bodies.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ETH-10 (Standard I(C) Misrepresentation & Plagiarism). Yes, members must acknowledge the source of material used from published research, even if produced by governmental or official bodies..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0065",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ETH-12 (Standard I(D) Misconduct & Personal Integrity)",
+      "stem": "An investment advisor is convicted of tax evasion involving personal offshore accounts. Does this personal conviction constitute a violation of Standard I(D) Misconduct??",
+      "options": {
+        "A": "Yes, because tax evasion involves dishonesty and deceit, which reflects adversely on professional integrity.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ETH-12 (Standard I(D) Misconduct & Personal Integrity). Yes, because tax evasion involves dishonesty and deceit, which reflects adversely on professional integrity..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0066",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ETH-14 (Standard II(A) Material Nonpublic Information)",
+      "stem": "An analyst learns from a supply chain audit that a major technology firm has halved its component orders. He issues a Sell rating before public earnings release. Compliant under Mosaic Theory??",
+      "options": {
+        "A": "Yes, combining non-material nonpublic observations with industry research is permissible under the Mosaic Theory.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ETH-14 (Standard II(A) Material Nonpublic Information). Yes, combining non-material nonpublic observations with industry research is permissible under the Mosaic Theory..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0067",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ETH-15 (Standard VI(B) Priority of Transactions)",
+      "stem": "A portfolio manager executes a personal purchase of 500 shares of Stock A after fully executing a 100,000-share institutional block order for clients. Has the manager complied with Standard VI(B)??",
+      "options": {
+        "A": "Yes, client trades received complete priority over personal trades, satisfying Standard VI(B).",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ETH-15 (Standard VI(B) Priority of Transactions). Yes, client trades received complete priority over personal trades, satisfying Standard VI(B)..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0068",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ETH-16 (Standard GIPS Composite Construction)",
+      "stem": "Under GIPS standards, a composite must include:?",
+      "options": {
+        "A": "All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ETH-16 (Standard GIPS Composite Construction). All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0069",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-11 (Standard VII(A) CFA Institute Logo & Designation)",
+      "stem": "A charterholder displays the CFA logo on his website, scaled proportionally and alongside his name. Is this compliant with Standard VII(A)??",
+      "options": {
+        "A": "Yes, proper usage of the CFA designation and logo according to CFA Institute guidelines is compliant.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 4 targeted EEC closure addition for LO-ETH-11 (Standard VII(A) CFA Institute Logo & Designation). Yes, proper usage of the CFA designation and logo according to CFA Institute guidelines is compliant..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0070",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Concept Closure / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-10 (Standard I(C) Plagiarism & Source Attribution)",
+      "stem": "An analyst includes an excerpt from a paid proprietary research report in her investment memo, citing the source and author in a footnote. Compliant under Standard I(C)??",
+      "options": {
+        "A": "Yes, proper citation and attribution of proprietary third-party research fully satisfies Standard I(C).",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-ETH-10 (Standard I(C) Plagiarism & Source Attribution). Yes, proper citation and attribution of proprietary third-party research fully satisfies Standard I(C)..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0071",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Cost-Efficient Depth Optimization / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-08 (Standard I(B) Independence & Objectivity Corporate Visits)",
+      "stem": "An analyst accepts commercial business class airfare and luxury hotel accommodation paid by an issuer for a site visit to a remote mining facility. Does this violate Standard I(B)??",
+      "options": {
+        "A": "Yes, unless modest or in remote locations where commercial transportation is unavailable, accepting paid luxury travel impairs independence.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-ETH-08 (Standard I(B) Independence & Objectivity Corporate Visits). Yes, unless modest or in remote locations where commercial transportation is unavailable, accepting paid luxury travel impairs independence..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0072",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Cost-Efficient Depth Optimization / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-10 (Standard I(C) Misrepresentation Model Backtesting)",
+      "stem": "An advisor presents a backtested investment model to clients stating: 'This strategy delivered a 15% annual return over the past 5 years.' Has the advisor violated Standard I(C)??",
+      "options": {
+        "A": "Yes, failing to explicitly state that backtested performance represents simulated historical results constitutes misrepresentation.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-ETH-10 (Standard I(C) Misrepresentation Model Backtesting). Yes, failing to explicitly state that backtested performance represents simulated historical results constitutes misrepresentation..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0073",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-12 (Standard I(D) Personal Misconduct & Financial Crimes)",
+      "stem": "A senior analyst is convicted of wire fraud related to personal property transactions. Does this conviction breach Standard I(D)??",
+      "options": {
+        "A": "Yes, acts of fraud and deceit reflect directly on professional trustworthiness and violate Standard I(D).",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ETH-12 (Standard I(D) Personal Misconduct & Financial Crimes). Yes, acts of fraud and deceit reflect directly on professional trustworthiness and violate Standard I(D)..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0074",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-13 (Standard I(C) Misrepresentation Benchmark Comparison)",
+      "stem": "An advisor compares her equity fund to an inappropriate short-term cash benchmark to claim superior alpha. Compliant under Standard I(C)??",
+      "options": {
+        "A": "No, comparing performance against an inappropriate benchmark to misrepresent relative returns violates Standard I(C).",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ETH-13 (Standard I(C) Misrepresentation Benchmark Comparison). No, comparing performance against an inappropriate benchmark to misrepresent relative returns violates Standard I(C)..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ETH-0075",
+      "section": "Standard I: Professionalism",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ETH-14 (Standard II(A) Material Nonpublic Information Rumors)",
+      "stem": "An analyst trades stock based on unverified internet chatroom rumors of an impending takeover. Has the analyst violated Standard II(A)??",
+      "options": {
+        "A": "No, trading on unverified public market rumors does not constitute trading on material nonpublic insider information.",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ETH-14 (Standard II(A) Material Nonpublic Information Rumors). No, trading on unverified public market rumors does not constitute trading on material nonpublic insider information..",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    }
+  ]
+}

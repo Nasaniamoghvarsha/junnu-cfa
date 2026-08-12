@@ -806,3 +806,149 @@ body {
   border-color: var(--accent);
 }
 
+/* =========== SECTION HEADING (JSON question renderer) =========== */
+.section-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 36px 0 16px;
+  padding: 10px 16px;
+  background: linear-gradient(90deg, rgba(88,166,255,0.08) 0%, transparent 100%);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  letter-spacing: 0.02em;
+}
+
+/* =========== WRONG ANSWER LIST =========== */
+.wrong-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+.wrong-list li {
+  position: relative;
+  padding: 6px 0 6px 20px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+.wrong-list li:last-child {
+  border-bottom: none;
+}
+.wrong-list li::before {
+  content: '✗';
+  position: absolute;
+  left: 0;
+  color: var(--red);
+  font-weight: 700;
+}
+
+/* =========== TRAP BADGE =========== */
+.trap-badge {
+  color: #fbbf24 !important;
+  border-color: rgba(251,191,36,0.3) !important;
+  background: rgba(251,191,36,0.06) !important;
+}
+
+/* =========== PREMIUM CARD UPGRADE =========== */
+.interactive-question-card {
+  position: relative;
+  counter-increment: q-counter;
+}
+.interactive-question-card::before {
+  content: counter(q-counter);
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgba(88,166,255,0.05);
+  pointer-events: none;
+  line-height: 1;
+}
+.q-stem {
+  font-size: 1.0rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+.q-option-btn {
+  border-radius: 10px;
+  font-size: 0.94rem;
+}
+.q-option-btn:hover:not(:disabled) {
+  box-shadow: 0 0 0 2px rgba(88,166,255,0.3);
+}
+.q-explanation-box {
+  border-radius: 10px;
+}
+.answered-correct .q-explanation-box {
+  border-left-color: var(--green) !important;
+  background: rgba(63,185,80,0.04) !important;
+}
+.answered-incorrect .q-explanation-box {
+  border-left-color: var(--red) !important;
+  background: rgba(248,81,73,0.04) !important;
+}
+
+/* =========== EXAM PROGRESS BAR =========== */
+.exam-progress-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: rgba(15,17,23,0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 24px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.exam-progress-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.exam-progress-badge {
+  background: rgba(88,166,255,0.1);
+  color: var(--accent);
+  border: 1px solid rgba(88,166,255,0.3);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+.exam-score-badge {
+  background: rgba(63,185,80,0.1);
+  color: var(--green);
+  border: 1px solid rgba(63,185,80,0.3);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+.exam-reset-all-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-light);
+  color: var(--text-muted);
+  padding: 6px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.exam-reset-all-btn:hover {
+  background: var(--hover);
+  color: var(--text);
+  border-color: var(--accent);
+}
+#contentBody {
+  counter-reset: q-counter;
+}

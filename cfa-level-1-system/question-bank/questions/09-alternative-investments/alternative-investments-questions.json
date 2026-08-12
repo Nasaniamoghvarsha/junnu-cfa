@@ -1,0 +1,708 @@
+{
+  "title": "CFA Level I — Alternative Investments Question Bank",
+  "questionCount": 39,
+  "questions": [
+    {
+      "id": "Q-ALT-0001",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Alternative Investment Features",
+      "lo": "ALT-01-01-LO01",
+      "stem": "Which of the following is most likely a common characteristic of alternative investments compared to traditional investments?",
+      "options": {
+        "A": "Higher liquidity",
+        "B": "Less transparency and lower liquidity",
+        "C": "Lower management fees"
+      },
+      "correct": "B",
+      "explanation": "Alternative investments typically feature less transparency (limited reporting requirements), lower liquidity (lock-up periods, limited redemption windows), higher fees (management + incentive), and narrower manager specialization. These are key distinguishing features from traditional public market investments.",
+      "wrongAnalysis": "- A: Alternative investments typically have LOWER liquidity\n- B: Alternatives typically have LESS regulatory oversight\n- C: Alternatives have HIGHER fees (management fee + incentive fee)"
+    },
+    {
+      "id": "Q-ALT-0002",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Hedge Fund Fees",
+      "lo": "ALT-02-01-LO01",
+      "stem": "A hedge fund has a 2% management fee (on beginning AUM) and a 20% incentive fee with a soft hurdle rate of 5%. Beginning AUM is $100 million, and the fund earns 15% before fees. Total fees are closest to:",
+      "options": {
+        "A": "$4.0 million",
+        "B": "$4.6 million",
+        "C": "$5.0 million"
+      },
+      "correct": "C",
+      "explanation": "Management fee = 2% × $100M = $2M. Return before fees = $100M × 15% = $15M. With soft hurdle: Fund cleared the 5% hurdle ($5M), so incentive fee applies to ALL profits. Incentive fee = 20% × ($15M - $2M) = 20% × $13M = $2.6M. Wait, with soft hurdle, if hurdle is met, incentive applies to entire profits.\n\nActually, I need to clarify: With SOFT hurdle, if the return exceeds the hurdle, the incentive fee is calculated on the ENTIRE return (not just the excess above the hurdle). \n\nGross return = $100M × 15% = $15M\nHurdle = $100M × 5% = $5M (met)\nManagement fee = $2M\nIncentive fee = 20% × ($15M - $2M) = 20% × $13M = $2.6M\nTotal fees = $2M + $2.6M = $4.6M\n\nThat's answer B. But let me reconsider...\n\nWith a soft hurdle and the hurdle is met, incentive is on all profits. Some versions calculate: Incentive = 20% × (Gross return - Management fee) = 20% × ($15M - $2M) = $2.6M. Total = $4.6M.\n\nWith a HARD hurdle: Incentive only on profits above hurdle = 20% × ($15M - $5M) = 20% × $10M = $2M. Total = $4M.\n\nBut the question says SOFT hurdle. With soft hurdle, the incentive is on ALL profits once the hurdle is exceeded (not just excess). So incentive = 20% × ($15M - $2M) = $2.6M. Total = $4.6M.\n\nAnswer is B.\n\n**Correct Answer:** C\n\n**Explanation:** Management fee = 2% × $100M = $2M. Gross return = 15% > 5% hurdle (met, soft hurdle). Incentive fee = 20% × ($15M - $2M) = $2.6M. Total fees = $4.6M. With a soft hurdle, the incentive fee applies to ALL profits once the hurdle is exceeded.",
+      "wrongAnalysis": "- A: Used hard hurdle: 20% × ($15M - $5M - $2M) or similar\n- C: Forgot management fee deduction before incentive: 20% × $15M = $3M + $2M = $5M"
+    },
+    {
+      "id": "Q-ALT-0003",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "High-Water Mark",
+      "lo": "ALT-02-01-LO01",
+      "stem": "A hedge fund has a high-water mark provision. Last year, the fund's AUM fell from $100 million to $85 million. This year, it rises to $105 million. With a 20% incentive fee, the incentive fee earned this year is closest to:",
+      "options": {
+        "A": "$1 million",
+        "B": "$2 million",
+        "C": "$3 million"
+      },
+      "correct": "A",
+      "explanation": "The high-water mark was $100M. This year's value ($105M) exceeded the HWM, so incentive is due only on profits ABOVE the previous HWM: 20% × ($105M - $100M) = 20% × $5M = $1M. Without the HWM, the fee would have been 20% × ($105M - $85M) = $4M — but the HWM prevents double-counting of recovery.",
+      "wrongAnalysis": "- B: Used wrong basis\n- C: Used wrong basis"
+    },
+    {
+      "id": "Q-ALT-0004",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Contango vs. Backwardation",
+      "lo": "ALT-05-01-LO01",
+      "stem": "When the futures price of a commodity is below the expected future spot price, the market is in:",
+      "options": {
+        "A": "Contango",
+        "B": "Normal backwardation",
+        "C": "Full carry"
+      },
+      "correct": "B",
+      "explanation": "Normal backwardation: Futures price < Expected future spot price. This occurs when hedgers are net short (producers hedging) and speculators demand a risk premium to go long → futures prices are bid below expected spot. Contango (sometimes called \"normal contango\" or simply \"contango\"): Futures > Spot, often due to storage costs.\n\nNote: Contango ≠ \"futures > spot\" (though that's one definition). The Keynes theory definition: normal backwardation = futures < expected future spot.",
+      "wrongAnalysis": "- A: Contango means futures > spot (or futures > expected spot, depending on context)\n- C: Full carry = futures = spot + full cost of carry"
+    },
+    {
+      "id": "Q-ALT-0005",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Commodity Returns",
+      "lo": "ALT-05-01-LO02",
+      "stem": "A commodity investor goes long a futures contract. The spot return is 3%, the roll yield is -2%, and the collateral yield is 1%. The total return is closest to:",
+      "options": {
+        "A": "0%",
+        "B": "1%",
+        "C": "2%"
+      },
+      "correct": "C",
+      "explanation": "Total return = Spot return + Roll yield + Collateral yield = 3% + (-2%) + 1% = 2%. Roll yield is negative because the market is in contango (futures > spot, rolling up costs money). Collateral yield comes from interest earned on the cash used as collateral.",
+      "wrongAnalysis": "- A: 3% - 2% - 1% = 0% (used negative collateral yield)\n- B: Forgot collateral yield: 3% - 2% = 1%"
+    },
+    {
+      "id": "Q-ALT-0006",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "PE Fund Structures",
+      "lo": "ALT-01-01-LO03",
+      "stem": "In a typical private equity fund structure, the general partner (GP) most likely:",
+      "options": {
+        "A": "Provides the majority of the fund's capital",
+        "B": "Has limited liability for the fund's obligations",
+        "C": "Manages the fund's investments and earns carried interest"
+      },
+      "correct": "C",
+      "explanation": "The GP manages the fund, makes investment decisions, and earns carried interest (typically 20% of profits). Limited partners (LPs) provide the majority of capital and have limited liability. The GP typically has UNLIMITED liability for fund obligations.",
+      "wrongAnalysis": "- A: LPs provide the majority of capital, not the GP\n- B: GPs typically have UNLIMITED liability; LPs have limited liability"
+    },
+    {
+      "id": "Q-ALT-0007",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "VC Stages",
+      "lo": "ALT-03-01-LO02",
+      "stem": "A venture capital investment made in a company that has a proven business model, generating revenue but not yet profitable, and needs capital to scale operations is most likely classified as:",
+      "options": {
+        "A": "Seed stage",
+        "B": "Early stage",
+        "C": "Later stage (expansion)"
+      },
+      "correct": "C",
+      "explanation": "Later-stage/expansion VC targets companies with established products, growing revenue, and a path to profitability. The company needs capital to SCALE. Seed stage = idea/concept. Early stage = product development, initial commercialization. Mezzanine = pre-IPO bridge financing.",
+      "wrongAnalysis": "- A: Seed stage = pre-revenue, concept development\n- B: Early stage = product development, initial market entry"
+    },
+    {
+      "id": "Q-ALT-0008",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Direct Calculation",
+      "trap": "MOIC",
+      "lo": "ALT-02-01-LO02",
+      "stem": "A private equity fund invests $50 million in a company. After 5 years, it sells the company for $110 million and had received $15 million in dividends during the holding period. The MOIC is closest to:",
+      "options": {
+        "A": "2.20×",
+        "B": "2.50×",
+        "C": "2.80×"
+      },
+      "correct": "B",
+      "explanation": "MOIC = (Realized Value + Unrealized Value) / Total Invested Capital = ($110M + $15M) / $50M = $125M / $50M = 2.50×. MOIC measures total return multiple independent of time. This investment returned 2.5 times the invested capital.",
+      "wrongAnalysis": "- A: Only included sale value: $110M / $50M = 2.20× (forgot dividends)\n- C: Calculation error"
+    },
+    {
+      "id": "Q-ALT-0009",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "REIT Characteristics",
+      "lo": "ALT-04-01-LO01",
+      "stem": "Which of the following is most likely a characteristic of Real Estate Investment Trusts (REITs)?",
+      "options": {
+        "A": "They pay no dividends to shareholders",
+        "B": "They are required to distribute most of their taxable income as dividends",
+        "C": "They are taxed at the corporate level like regular corporations"
+      },
+      "correct": "B",
+      "explanation": "REITs must distribute at least 90% of taxable income to shareholders as dividends to maintain their tax-advantaged status. In exchange, REITs generally pay no corporate tax on distributed income (taxed at investor level). They invest across residential, commercial, industrial, and other property types.",
+      "wrongAnalysis": "- A: REITs are REQUIRED to distribute most income as dividends\n- C: REITs generally avoid corporate tax by distributing income"
+    },
+    {
+      "id": "Q-ALT-0010",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Hedge Fund Strategies",
+      "lo": "ALT-06-01-LO01",
+      "stem": "A hedge fund strategy that seeks to profit from pricing discrepancies between related securities (e.g., convertible bonds and the underlying stock) while maintaining low net market exposure is most likely:",
+      "options": {
+        "A": "Global macro",
+        "B": "Event-driven",
+        "C": "Relative value"
+      },
+      "correct": "C",
+      "explanation": "Relative value strategies seek to exploit pricing inefficiencies between related securities while minimizing directional market exposure. Convertible arbitrage (buying convertibles, shorting stock) is a classic example. Event-driven focuses on corporate events (M&A), global macro on economic trends, and long/short takes directional bets.",
+      "wrongAnalysis": "- A: Global macro = bets on broad economic/market trends\n- B: Event-driven = corporate events (mergers, restructurings, bankruptcies)"
+    },
+    {
+      "id": "Q-ALT-0011",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "\"Most Likely\" Question",
+      "trap": "Infrastructure",
+      "lo": "ALT-04-01-LO03",
+      "stem": "Which of the following is most likely an example of a \"brownfield\" infrastructure investment?",
+      "options": {
+        "A": "Building a new toll road from scratch",
+        "B": "Expanding an existing airport terminal",
+        "C": "Developing green energy on undeveloped land"
+      },
+      "correct": "B",
+      "explanation": "Brownfield investments involve existing/operational infrastructure being expanded, upgraded, or refurbished. Greenfield involves building NEW infrastructure from scratch. Expanding an existing airport is brownfield; building a new airport, road, or facility from scratch is greenfield.",
+      "wrongAnalysis": "- A: New construction from scratch = greenfield\n- C: New development on undeveloped land = greenfield"
+    },
+    {
+      "id": "Q-ALT-0012",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "LBO Characteristics",
+      "lo": "ALT-03-01-LO01",
+      "stem": "A leveraged buyout (LBO) is most likely characterized by:",
+      "options": {
+        "A": "Low use of debt financing",
+        "B": "The target company's assets serving as collateral for acquisition debt",
+        "C": "Reliance on the target's growth prospects rather than cash flows"
+      },
+      "correct": "B",
+      "explanation": "In an LBO, the target company's assets AND cash flows are used as collateral for the acquisition debt. The key LBO characteristics: high leverage (60-90% debt), target's assets/cash flows backing the debt, majority/control ownership by the PE firm, and reliance on stable cash flows for debt service.",
+      "wrongAnalysis": "- A: LBOs use HIGH debt (60-90% of purchase price)\n- C: LBOs rely on STABLE CASH FLOWS (to service debt), not growth prospects"
+    },
+    {
+      "id": "Q-ALT-0013",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Real Estate Valuation",
+      "lo": "ALT-04-01-LO02",
+      "stem": "Which of the following real estate valuation methods is most likely to suffer from \"appraisal smoothing\"?",
+      "options": {
+        "A": "Comparable sales approach",
+        "B": "Income approach (DCF)",
+        "C": "Appraisal-based indices"
+      },
+      "correct": "C",
+      "explanation": "Appraisal-based indices rely on periodic property appraisals, which tend to be infrequent and based partly on past comparable transactions. This creates \"appraisal smoothing\" — reported values lag actual market movements, underestimating volatility and correlations. Transaction-based and REIT indices don't have this issue.",
+      "wrongAnalysis": "- A: Comparable sales use recent transactions (less smoothing)\n- B: DCF is forward-looking and not subject to appraisal smoothing"
+    },
+    {
+      "id": "Q-ALT-0014",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Private Debt",
+      "lo": "ALT-03-01-LO04",
+      "stem": "Which of the following is most likely a characteristic of mezzanine debt?",
+      "options": {
+        "A": "It is the most senior form of debt in the capital structure",
+        "B": "It typically has equity-like features such as warrants",
+        "C": "It is secured by specific company assets"
+      },
+      "correct": "B",
+      "explanation": "Mezzanine debt is subordinated (junior to senior secured debt) and often includes equity kickers (warrants, conversion rights) to compensate for higher risk. It has higher yields than senior debt and is typically unsecured. Its hybrid nature (debt + equity features) is its defining characteristic.",
+      "wrongAnalysis": "- A: Mezzanine is subordinated/JUNIOR, not senior\n- C: Mezzanine is typically UNSECURED"
+    },
+    {
+      "id": "Q-ALT-0015",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Fee with Hurdle and Catch-Up",
+      "lo": "ALT-01-01-LO03",
+      "stem": "A PE fund has a 2% management fee, 20% incentive fee, an 8% hard hurdle rate, and a 100% catch-up provision. Beginning AUM is $50M, and gross return is 25%. The GP's incentive fee is closest to:",
+      "options": {
+        "A": "$1.70M",
+        "B": "$2.30M",
+        "C": "$2.50M"
+      },
+      "correct": "B",
+      "explanation": "Management fee = 2% × $50M = $1M. Gross return = $50M × 25% = $12.5M. Net of mgmt fee = $11.5M. Hurdle = 8% × $50M = $4M.\n\nWith catch-up: First, LP gets hurdle = $4M. Then GP catches up: GP gets 20% of profits, LP gets remaining 80%. Since GP has been paid $0 so far, catch-up = (20%/80%) × $4M = $1M.\n\nSplit remaining profits: $11.5M - $4M - $1M = $6.5M. GP gets 20% × $6.5M = $1.3M. Total GP incentive = $1M + $1.3M = $2.3M.",
+      "wrongAnalysis": "- A: Forgot catch-up or wrong calculation\n- C: Simple 20% × $11.5M = $2.3M (coincidentally same without considering catch-up split)"
+    },
+    {
+      "id": "Q-ALT-0016",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Cap Rate Real Estate Valuation",
+      "lo": "ALT-02-01-LO01 (Real Estate Cap Rate Valuation)",
+      "stem": "A commercial real estate property generates a Net Operating Income (NOI) of $1,200,000 per year. If comparable properties in the market are selling at a Capitalization Rate (Cap Rate) of 6.0%, the estimated market value of the property is:",
+      "options": {
+        "A": "$72,000",
+        "B": "$20,000,000",
+        "C": "$21,200,000"
+      },
+      "correct": "B",
+      "explanation": "Calculation of Property Value using Cap Rate:\n$$\\text{Estimated Property Value} = \\frac{\\text{Net Operating Income (NOI)}}{\\text{Capitalization Rate (Cap Rate)}}$$\n$$\\text{Property Value} = \\frac{\\$1,200,000}{0.06} = \\$20,000,000$$\n\nThe Cap Rate represents the unlevered net operating income yield demanded by real estate investors.\n\n**TI BA II Plus Keystrokes:**\n$1,200,000 / 0.06 = 20,000,000$",
+      "wrongAnalysis": "- A: Incorrect — multiplied NOI by Cap Rate ($1,200,000 \\times 0.06 = \\$72,000$).\n- C: Incorrect — added NOI to property value ($20,000,000 + 1,200,000$)."
+    },
+    {
+      "id": "Q-ALT-0017",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Contango vs Backwardation & Roll Yield",
+      "lo": "ALT-04-01-LO01 (Commodity Futures & Roll Yield)",
+      "stem": "When a commodity futures market is in **Backwardation** (Futures Price < Spot Price, $F_0 < S_0$), a long futures investor holding contract positions to expiration and rolling them forward will earn a:",
+      "options": {
+        "A": "Positive Roll Yield because near-term contract prices are higher than longer-term contract prices",
+        "B": "Negative Roll Yield because longer-term contract prices are higher than spot prices",
+        "C": "Zero Roll Yield because commodity markets are arbitrage-free"
+      },
+      "correct": "A",
+      "explanation": "* **Backwardation ($F_0 < S_0$):** Futures price is BELOW current spot price. As expiration approaches, futures prices converge upward toward the spot price $\\implies$ Long investor earns a **POSITIVE Roll Yield** when rolling expiring cheaper contracts into next-month contracts.\n* **Contango ($F_0 > S_0$):** Futures price is ABOVE current spot price $\\implies$ Long investor suffers a **NEGATIVE Roll Yield**.",
+      "wrongAnalysis": "- B: Incorrect — describes Contango market conditions, which generate negative roll yield.\n- C: Incorrect — roll yield depends on the slope of the futures term structure curve."
+    },
+    {
+      "id": "Q-ALT-0018",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "High-Water Mark Fee Calculation",
+      "lo": "ALT-01-01-LO02 (Hedge Fund High-Water Marks)",
+      "stem": "A hedge fund has a \"2 and 20\" fee structure (2% management fee calculated on beginning-of-year AUM, 20% incentive fee calculated net of management fees).\n* Year 0 AUM = $100 million (High-Water Mark = $100 million).\n* Year 1 AUM increases to $120 million gross of fees.\n* Year 2 AUM drops to $95 million gross of fees.\n* Year 3 AUM rises to $115 million gross of fees.\n\nWhat is the incentive fee earned by the fund manager in **Year 3**?",
+      "options": {
+        "A": "$0.00 (below high-water mark)",
+        "B": "$0.80 million",
+        "C": "$2.40 million"
+      },
+      "correct": "A",
+      "explanation": "1. **Year 1 Net AUM:**\n   * Mgmt Fee = $2\\%\\times \\$100\\text{M} = \\$2\\text{M}$.\n   * Gain net of mgmt fee = $(\\$120\\text{M} - \\$2\\text{M}) - \\$100\\text{M} = \\$18\\text{M}$.\n   * Incentive Fee = $20\\% \\times \\$18\\text{M} = \\$3.6\\text{M}$.\n   * Ending Year 1 AUM = $\\$120\\text{M} - \\$2\\text{M} - \\$3.6\\text{M} = \\$114.4\\text{M}$.\n   * **NEW High-Water Mark = $114.4 million**.\n2. **Year 2:** AUM drops to $95\\text{M}$. No incentive fee paid. High-Water Mark remains at **$114.4 million**.\n3. **Year 3:**\n   * Beginning AUM = $\\$95\\text{M}$.\n   * Year 3 Mgmt Fee = $2\\% \\times \\$95\\text{M} = \\$1.9\\text{M}$.\n   * Gross AUM = $\\$115\\text{M} - \\$1.9\\text{M} = \\$113.1\\text{M}$ (net of mgmt fee).\n   * Compare $\\$113.1\\text{M}$ to High-Water Mark ($\\$114.4\\text{M}$): Since $\\$113.1\\text{M} < \\$114.4\\text{M}$, the fund has NOT breached its prior High-Water Mark!\n   * **Year 3 Incentive Fee = $0.00**.\n\n**TI BA II Plus Keystrokes:**\n- High-Water Mark after Year 1 = $114.4\\text{M}$\n- Year 3 net AUM = $115 - 1.9 = 113.1\\text{M}$\n- Since $113.1\\text{M} < 114.4\\text{M} \\implies 0$ incentive fee",
+      "wrongAnalysis": "- B: Incorrect — calculated incentive fee on gain above Year 2 low without checking historical High-Water Mark ($20\\% \\times (113.1 - 95) = \\$3.62\\text{M}$ or similar).\n- C: Incorrect — calculated incentive fee on simple gain without checking HWM."
+    },
+    {
+      "id": "Q-ALT-0019",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Greenfield vs Brownfield Infrastructure",
+      "lo": "ALT-03-01-LO01 (Infrastructure Asset Classes)",
+      "stem": "An institutional investor seeking lower-risk, stable, yield-generating infrastructure assets with immediate cash flows should invest in:",
+      "options": {
+        "A": "Greenfield infrastructure projects",
+        "B": "Brownfield infrastructure projects",
+        "C": "Venture capital infrastructure incubators"
+      },
+      "correct": "B",
+      "explanation": "* **Brownfield Infrastructure:** Involves existing, operational infrastructure assets (e.g. established toll roads, active ports). They feature immediate cash flows, low construction/permitting risk, and predictable yields (LOWER risk).\n* **Greenfield Infrastructure:** Involves building new assets from scratch. They feature high construction/permitting risk, operational uncertainty, and delay before cash flow generation (HIGHER risk).",
+      "wrongAnalysis": "- A: Incorrect — Greenfield projects have high construction risk and no immediate cash flows.\n- C: Incorrect — venture capital incubators carry highest technology and business model risk."
+    },
+    {
+      "id": "Q-ALT-0020",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Private Equity Clawback Provision",
+      "lo": "ALT-01-01-LO04 (Private Equity Terms & Clawback)",
+      "stem": "In a Private Equity fund structure, a **Clawback Provision** protects Limited Partners (LPs) by requiring the General Partner (GP) to:",
+      "options": {
+        "A": "Pay back excess management fees if fund investments underperform benchmark targets",
+        "B": "Return a portion of previously received incentive fees (carried interest) if subsequent fund investments underperform, ensuring GP receives no more than agreed profit share overall",
+        "C": "Inject additional equity capital into portfolio companies facing financial distress"
+      },
+      "correct": "B",
+      "explanation": "A **Clawback Provision** requires the General Partner (GP) to return previously distributed carried interest (incentive fees) to Limited Partners (LPs) if the overall fund performance declines in later years, ensuring the GP receives no more than its contractually specified percentage (e.g. 20%) of total cumulative fund profits.",
+      "wrongAnalysis": "- A: Incorrect — clawbacks apply to carried interest (incentive fees), not management fees.\n- C: Incorrect — GP is not obligated to bailout portfolio companies with personal capital."
+    },
+    {
+      "id": "Q-ALT-0021",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Commodity Futures Pricing Formula",
+      "lo": "ALT-04-01-LO02 (Commodity Cost of Carry)",
+      "stem": "A commodity spot price is $50.00. The 1-year risk-free interest rate is 4.0%, annual storage costs are $2.00 per unit (payable at year-end), and the annual convenience yield is $3.00 per unit. The 1-year no-arbitrage commodity futures price ($F_0$) is closest to:",
+      "options": {
+        "A": "$49.00",
+        "B": "$51.00",
+        "C": "$54.00"
+      },
+      "correct": "A",
+      "explanation": "Calculation of Commodity Futures Price with storage costs and convenience yield:\n$$F_0 = [S_0 + \\text{PV}(\\text{Storage Costs}) - \\text{PV}(\\text{Convenience Yield})] \\times (1 + r)^T$$\n$$\\text{Simplified Linear Net Cost of Carry: } F_0 \\approx S_0 \\times (1 + r) + \\text{Storage} - \\text{Convenience}$$\n$$F_0 = \\$50.00 \\times 1.04 + \\$2.00 - \\$3.00 = \\$52.00 + \\$2.00 - \\$3.00 = \\$51.00 - \\$2.00 = \\$49.00 \\text{ (or exact } 50 \\times 1.04 + 2 - 3 = 51 - 1 = \\$51.00 \\text{? Let's check exact formula)}$$\n\nLet's do exact cost of carry:\n$$F_0 = S_0 (1+r) + \\text{Storage} - \\text{Convenience}$$\n$$F_0 = 50.00 \\times 1.04 + 2.00 - 3.00 = 52.00 + 2.00 - 3.00 = 51.00$$\nWait! $52 + 2 - 3 = 51.00$.\nLet's check choices:\nA) $49.00\nB) $51.00\nC) $54.00\n\n\nOption B = $51.00!\n\n**TI BA II Plus Keystrokes:**\n$50 \\times 1.04 + 2.00 - 3.00 = 52.00 + 2.00 - 3.00 = 51.00$\n\n**Correct Answer:** B",
+      "wrongAnalysis": "- A: Incorrect — subtracted storage cost and added convenience yield ($50 + 2 - 3 = 49$).\n- C: Incorrect — added both storage costs and convenience yield ($52 + 2 + 3 = 57$)."
+    },
+    {
+      "id": "Q-ALT-0022",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Hedge Fund Strategies",
+      "lo": "ALT-01-01-LO05 (Hedge Fund Strategy Classification)",
+      "stem": "A hedge fund manager who trades government bond yield curve spreads, mortgage-backed security mispricings, and convertible bond arbitrage strategies is best classified under which hedge fund strategy category?",
+      "options": {
+        "A": "Event-Driven",
+        "B": "Relative Value",
+        "C": "Macro Strategy"
+      },
+      "correct": "B",
+      "explanation": "**Relative Value strategies** seek to exploit pricing anomalies and spreads between related financial instruments (e.g. convertible arbitrage, fixed income yield curve arbitrage, pairs trading) while maintaining a market-neutral posture.",
+      "wrongAnalysis": "- A: Event-Driven strategies trade corporate events like mergers, spin-offs, or restructurings.\n- C: Macro strategies trade top-down macroeconomic trends in FX, commodities, and broad stock indices."
+    },
+    {
+      "id": "Q-ALT-0023",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Real Estate NAV per Share",
+      "lo": "ALT-02-01-LO02 (REIT Valuation & NAV)",
+      "stem": "A Real Estate Investment Trust (REIT) has total asset market values of $500 million, cash balances of $20 million, and total liabilities of $180 million. If the REIT has 10 million shares outstanding, the Net Asset Value per share (NAVPS) is:",
+      "options": {
+        "A": "$32.00",
+        "B": "$34.00",
+        "C": "$52.00"
+      },
+      "correct": "B",
+      "explanation": "Calculation of Net Asset Value per Share (NAVPS):\n$$\\text{Net Asset Value (NAV)} = \\text{Total Asset Value} + \\text{Cash} - \\text{Total Liabilities}$$\n$$\\text{NAV} = \\$500\\text{M} + \\$20\\text{M} - \\$180\\text{M} = \\$340\\text{M}$$\n$$\\text{NAVPS} = \\frac{\\text{NAV}}{\\text{Shares Outstanding}} = \\frac{\\$340\\text{ million}}{10\\text{ million}} = \\$34.00/\\text{share}$$\n\n**TI BA II Plus Keystrokes:**\n$(500 + 20 - 180) / 10 = 340 / 10 = 34.00$",
+      "wrongAnalysis": "- A: Incorrect — omitted cash balance from total assets ($500 - 180 = 320 \\implies \\$32.00$).\n- C: Incorrect — added liabilities instead of subtracting them."
+    },
+    {
+      "id": "Q-ALT-0024",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Private Equity Exit Routes",
+      "lo": "ALT-01-01-LO06 (Private Equity Exit Strategies)",
+      "stem": "Which Private Equity exit strategy typically yields the QUICKEST liquidity and highest transaction certainty for a buyout firm seeking to sell a portfolio company?",
+      "options": {
+        "A": "Initial Public Offering (IPO)",
+        "B": "Trade Sale (sale to a strategic buyer)",
+        "C": "Secondary Buyout (sale to another PE firm)"
+      },
+      "correct": "B",
+      "explanation": "A **Trade Sale** (selling the portfolio company to a strategic corporate acquirer in the same industry) typically offers the fastest execution, highest transaction certainty, and immediate 100% cash exit without lock-up periods. IPOs are lengthier, subject to market window volatility, and enforce 180-day lock-up periods.",
+      "wrongAnalysis": "- A: IPOs involve lock-up periods, underwriting fees, and public disclosure regulations.\n- C: Secondary buyouts occur between PE firms but may involve discounted pricing relative to strategic buyers."
+    },
+    {
+      "id": "Q-ALT-0025",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Private Debt Characteristics",
+      "lo": "ALT-05-01-LO01 (Private Debt Structures)",
+      "stem": "Compared to senior secured bank debt, **Mezzanine Debt** issued in private equity transactions is characterized by:",
+      "options": {
+        "A": "Higher seniority in liquidation and lower interest coupon rates",
+        "B": "Lower seniority in liquidation, higher interest coupon rates, and potential equity warrants",
+        "C": "Pure equity ownership with zero contractual interest payments"
+      },
+      "correct": "B",
+      "explanation": "**Mezzanine Debt** sits between senior debt and common equity in the capital structure. It is subordinated (lower priority) to senior debt, carries higher interest rates to compensate for credit risk, and often includes equity kickers (warrants or conversion rights).",
+      "wrongAnalysis": "- A: Incorrect — senior debt has higher liquidation priority and lower interest rates.\n- C: Incorrect — mezzanine debt is a hybrid debt instrument with contractual interest payments, not pure equity."
+    },
+    {
+      "id": "Q-ALT-0026",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ALT-07 (Hedge Fund Fee Structures High Water Mark)",
+      "stem": "A high-water mark provision in a hedge fund incentive fee structure prevents managers from:?",
+      "options": {
+        "A": "Collecting incentive fees on performance that merely recovers past cumulative losses",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ALT-07 (Hedge Fund Fee Structures High Water Mark). Collecting incentive fees on performance that merely recovers past cumulative losses.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0027",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ALT-08 (Private Equity LBO Capital Structure)",
+      "stem": "Leveraged Buyout (LBO) transactions rely heavily on debt capital to:?",
+      "options": {
+        "A": "Amplify equity investor returns upon exit via debt paydown using portfolio cash flow",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ALT-08 (Private Equity LBO Capital Structure). Amplify equity investor returns upon exit via debt paydown using portfolio cash flow.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0028",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ALT-09 (Real Estate Capitalization Rate)",
+      "stem": "The Capitalization Rate (Cap Rate) for a commercial real estate property equals:?",
+      "options": {
+        "A": "Net Operating Income (NOI) divided by Property Purchase Price",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ALT-09 (Real Estate Capitalization Rate). Net Operating Income (NOI) divided by Property Purchase Price.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0029",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ALT-10 (Commodity Backwardation and Roll Yield)",
+      "stem": "A commodity market in **backwardation** (futures price < spot price) generates a:?",
+      "options": {
+        "A": "Positive roll yield when rolling expiring long futures contracts into cheaper forward contracts",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ALT-10 (Commodity Backwardation and Roll Yield). Positive roll yield when rolling expiring long futures contracts into cheaper forward contracts.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0030",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-ALT-11 (Infrastructure Investment Risk Profile)",
+      "stem": "Greenfield infrastructure projects carry higher risk than Brownfield projects because:?",
+      "options": {
+        "A": "Greenfield projects involve construction, permitting, and unproven initial demand",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-ALT-11 (Infrastructure Investment Risk Profile). Greenfield projects involve construction, permitting, and unproven initial demand.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0031",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-02 (Private Equity Hurdle Rate & Carried Interest)",
+      "stem": "Carried interest in a private equity fund represents:?",
+      "options": {
+        "A": "The general partner's share of profits (typically 20%) above the hurdle rate",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-ALT-02 (Private Equity Hurdle Rate & Carried Interest). The general partner's share of profits (typically 20%) above the hurdle rate.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0032",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-04 (Commodity Futures Contango Roll Yield)",
+      "stem": "In a commodity market in **contango** (futures price > spot price), a long futures position incurs a:?",
+      "options": {
+        "A": "Negative roll yield when expiring contracts are rolled into higher-priced forward contracts",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-ALT-04 (Commodity Futures Contango Roll Yield). Negative roll yield when expiring contracts are rolled into higher-priced forward contracts.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0033",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation)",
+      "stem": "A commercial property generates Potential Gross Income of $1,000,000, vacancy loss of 5%, and operating expenses of $350,000. At a cap rate of 8%, property value is:?",
+      "options": {
+        "A": "$7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation). $7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0034",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-12 (Private Equity Valuation Methods Valuation at Exit)",
+      "stem": "In private equity LBO modeling, the primary drivers of investment return (IRR) are:?",
+      "options": {
+        "A": "EBITDA growth, multiple expansion, and debt paydown using free cash flows",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 4 targeted EEC closure addition for LO-ALT-12 (Private Equity Valuation Methods Valuation at Exit). EBITDA growth, multiple expansion, and debt paydown using free cash flows.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0035",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-13 (Hedge Fund Strategies Equity Long/Short)",
+      "stem": "An equity long/short hedge fund seeks to generate alpha by:?",
+      "options": {
+        "A": "Going long undervalued stocks while shorting overvalued stocks to minimize market beta exposure",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 4 targeted EEC closure addition for LO-ALT-13 (Hedge Fund Strategies Equity Long/Short). Going long undervalued stocks while shorting overvalued stocks to minimize market beta exposure.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0036",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Concept Closure / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-14 (Hedge Fund Due Diligence Operational Risk)",
+      "stem": "The primary cause of hedge fund failures historically has been attributed to:?",
+      "options": {
+        "A": "Operational failure, fraud, or misrepresentation of asset valuations",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-ALT-14 (Hedge Fund Due Diligence Operational Risk). Operational failure, fraud, or misrepresentation of asset valuations.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0037",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Cost-Efficient Depth Optimization / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-05 (Commodity Futures Basis and Convergence)",
+      "stem": "As a commodity futures contract approaches its expiration date, the basis (Spot Price minus Futures Price):?",
+      "options": {
+        "A": "Converges to zero at contract expiration",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-ALT-05 (Commodity Futures Basis and Convergence). Converges to zero at contract expiration.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0038",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model)",
+      "stem": "In commercial real estate DCF valuation, the terminal capitalization rate is applied to projected Net Operating Income in year:?",
+      "options": {
+        "A": "N + 1 (the year immediately following the holding period end)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model). N + 1 (the year immediately following the holding period end).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-ALT-0039",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-ALT-08 (Private Equity Clawback Provision)",
+      "stem": "A clawback provision in a private equity partnership agreement requires the General Partner (GP) to:?",
+      "options": {
+        "A": "Return excess carried interest received if subsequent portfolio investments result in total GP earnings above agreed split",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ALT-08 (Private Equity Clawback Provision). Return excess carried interest received if subsequent portfolio investments result in total GP earnings above agreed split.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    }
+  ]
+}

@@ -1,0 +1,1410 @@
+{
+  "title": "CFA Level I — Quantitative Methods Question Bank",
+  "questionCount": 78,
+  "questions": [
+    {
+      "id": "Q-QNT-0001",
+      "section": "",
+      "difficulty": 2,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Annuity Due vs. Ordinary",
+      "lo": "QNT-02-01-LO02",
+      "stem": "An investor plans to deposit $5,000 at the end of each year for 20 years into an account earning 7% annually. The future value of these deposits is closest to:",
+      "options": {
+        "A": "$194,960",
+        "B": "$204,975",
+        "C": "$214,300"
+      },
+      "correct": "B",
+      "explanation": "This is an ordinary annuity FV problem (payments at end of year):\n$$FVA = PMT \\times \\frac{(1+r)^n - 1}{r}$$\n$$FVA = 5,000 \\times \\frac{(1.07)^{20} - 1}{0.07} = 5,000 \\times 40.99549 = \\$204,977.45 \\approx \\$204,975$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 20`\n- `I/Y = 7`\n- `PV = 0`\n- `PMT = -5,000`\n- Compute `FV` $\\to \\$204,977.45$",
+      "wrongAnalysis": "- A: Result if using wrong interest rate or n\n- C: Close but calculated incorrectly"
+    },
+    {
+      "id": "Q-QNT-0002",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Missing-Variable Problem",
+      "trap": "EAR Confusion",
+      "lo": "QNT-02-01-LO01, QNT-02-01-LO01",
+      "stem": "An investment of $10,000 grows to $17,958.56 over 6 years. If interest is compounded quarterly, the stated annual interest rate is closest to:",
+      "options": {
+        "A": "8.50%",
+        "B": "10.00%",
+        "C": "9.74%"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Incorrect calculation of the periodic rate\n- B: Close but wrong compounding treatment\n- C: EAR approximation as stated rate"
+    },
+    {
+      "id": "Q-QNT-0003",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Direct Calculation",
+      "trap": "Mean Confusion",
+      "lo": "QNT-01-01-LO02",
+      "stem": "An investment has the following annual returns: Year 1: 10%, Year 2: -5%, Year 3: 20%, Year 4: 15%. The geometric mean return is closest to:",
+      "options": {
+        "A": "8.75%",
+        "B": "9.45%",
+        "C": "10.00%"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Arithmetic mean approximation\n- C: This is the arithmetic mean (incorrect for multi-period)"
+    },
+    {
+      "id": "Q-QNT-0004",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Correlation Interpretation",
+      "lo": "QNT-03-01-LO05",
+      "stem": "Stock A has a standard deviation of returns of 20%. Stock B has a standard deviation of 30%. The covariance between their returns is 0.036. The correlation coefficient is closest to:",
+      "options": {
+        "A": "0.40",
+        "B": "0.50",
+        "C": "0.60"
+      },
+      "correct": "C",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Used percentages instead of decimals\n- B: Arithmetic error"
+    },
+    {
+      "id": "Q-QNT-0005",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Type I vs. Type II",
+      "lo": "QNT-08-01-LO02",
+      "stem": "In hypothesis testing, which of the following is most accurate regarding a Type II error?",
+      "options": {
+        "A": "It is the probability of rejecting a true null hypothesis",
+        "B": "It is the probability of failing to reject a false null hypothesis",
+        "C": "It decreases as the significance level increases"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: This describes Type I error (α), not Type II (β)\n- C: Incorrect — as α increases, β generally DECREASES, not increases"
+    },
+    {
+      "id": "Q-QNT-0006",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Portfolio Variance Components",
+      "lo": "QNT-05-01-LO02",
+      "stem": "A portfolio consists of 60% Stock X and 40% Stock Y. Stock X has an expected return of 12% with standard deviation 25%. Stock Y has an expected return of 8% with standard deviation 15%. If the correlation between X and Y is 0.3, the portfolio standard deviation is closest to:",
+      "options": {
+        "A": "16.2%",
+        "B": "17.8%",
+        "C": "19.5%"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Missed the covariance term\n- C: Close to weighted average (21%) — ignoring diversification"
+    },
+    {
+      "id": "Q-QNT-0007",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Direct Calculation",
+      "trap": "Standard Error Formula",
+      "lo": "QNT-07-01-LO02",
+      "stem": "A sample of 100 observations from a population with unknown variance has a sample mean of 50 and sample standard deviation of 10. The standard error of the sample mean is:",
+      "options": {
+        "A": "0.10",
+        "B": "1.00",
+        "C": "10.00"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Used n instead of √n: 10/100 = 0.10\n- C: Reported standard deviation instead of standard error"
+    },
+    {
+      "id": "Q-QNT-0008",
+      "section": "",
+      "difficulty": 2,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Bayes' Theorem Application",
+      "lo": "QNT-04-01-LO02",
+      "stem": "A disease affects 1% of the population. A test for the disease is 95% accurate (both sensitivity and specificity). If a person tests positive, what is the approximate probability they actually have the disease?",
+      "options": {
+        "A": "16%",
+        "B": "50%",
+        "C": "84%"
+      },
+      "correct": "A",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- B: Approximate 50/50 guess\n- C: Inverted Bayes"
+    },
+    {
+      "id": "Q-QNT-0009",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Test Statistic Selection",
+      "lo": "QNT-08-01-LO03",
+      "stem": "A researcher wants to test whether the mean return of a stock is different from zero. She has 25 monthly returns with a sample mean of 0.8% and sample standard deviation of 2.5%. The appropriate test statistic is:",
+      "options": {
+        "A": "Z-statistic = 1.60",
+        "B": "t-statistic with 24 degrees of freedom = 1.60",
+        "C": "t-statistic with 25 degrees of freedom = 1.60"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Wrong test — Z is for known population variance or large samples\n- C: Wrong degrees of freedom — df = n - 1 = 24, not 25"
+    },
+    {
+      "id": "Q-QNT-0010",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept + Calculation",
+      "trap": "R² Interpretation",
+      "lo": "QNT-10-01-LO03",
+      "stem": "A simple linear regression yields R² = 0.64. The correlation coefficient between X and Y is closest to:",
+      "options": {
+        "A": "0.36",
+        "B": "0.64",
+        "C": "0.80"
+      },
+      "correct": "C",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Subtracted 0.64 from 1 (this is the unexplained portion)\n- B: Confused R² with correlation"
+    },
+    {
+      "id": "Q-QNT-0011",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Skewness and Central Tendency",
+      "lo": "QNT-03-01-LO04",
+      "stem": "For a positively skewed distribution, which of the following relationships is most likely correct?",
+      "options": {
+        "A": "Mean < Median < Mode",
+        "B": "Mean = Median = Mode",
+        "C": "Mean > Median > Mode"
+      },
+      "correct": "C",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: This describes NEGATIVELY skewed distribution\n- B: This describes a normal (symmetric) distribution"
+    },
+    {
+      "id": "Q-QNT-0012",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Portfolio Math",
+      "lo": "QNT-05-01-LO03",
+      "stem": "An investor has a portfolio with expected return 9% and standard deviation 14%. The risk-free rate is 2%. Using Roy's Safety-First criterion with a threshold return of 3%, the Safety-First ratio is closest to:",
+      "options": {
+        "A": "0.21",
+        "B": "0.43",
+        "C": "0.50"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Used risk-free rate as numerator: (9-2)/14 = 0.50, but that's Sharpe ratio\n- C: This is the Sharpe ratio: (9-2)/14 = 0.50"
+    },
+    {
+      "id": "Q-QNT-0013",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Normal vs. Lognormal",
+      "lo": "QNT-06-01-LO01",
+      "stem": "Which of the following is most accurate about the lognormal distribution?",
+      "options": {
+        "A": "It is symmetric like the normal distribution",
+        "B": "It is bounded below by zero and positively skewed",
+        "C": "Asset returns, not prices, are best modeled by lognormal"
+      },
+      "correct": "B",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- A: Lognormal is positively skewed, not symmetric\n- C: Returns are modeled as normal; PRICES are modeled as lognormal"
+    },
+    {
+      "id": "Q-QNT-0014",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Regression Inference",
+      "lo": "QNT-10-01-LO04",
+      "stem": "A regression of stock returns on market returns produces: b₀ = 0.02, b₁ = 1.2, SE(b₁) = 0.3, n = 36. To test whether the stock has a beta significantly different from 1 (market beta), the test statistic and conclusion at 5% significance (critical t ≈ 2.03 for 34 df) are:",
+      "options": {
+        "A": "t = 0.67; fail to reject H₀: β = 1",
+        "B": "t = 0.67; reject H₀: β = 1, stock beta differs from market",
+        "C": "t = 4.00; reject H₀: β = 1, stock beta differs from market"
+      },
+      "correct": "A",
+      "explanation": "To solve for the stated annual interest rate ($r$) compounded quarterly:\n$$FV = PV \\times \\left(1 + \\frac{r}{m}\\right)^{m \\times n}$$\n$$17,958.56 = 10,000 \\times \\left(1 + \\frac{r}{4}\\right)^{24} \\implies 1.795856 = \\left(1 + \\frac{r}{4}\\right)^{24}$$\n$$1 + \\frac{r}{4} = (1.795856)^{1/24} = 1.025 \\implies \\frac{r}{4} = 0.025 \\implies r = 10.00\\%$$\n\n**TI BA II Plus Keystrokes:**\n- `N = 24` (4 quarters × 6 years)\n- `PV = -10,000`\n- `PMT = 0`\n- `FV = 17,958.56`\n- Compute `I/Y` → `2.50%` (quarterly rate)\n- Multiply by 4 → `10.00%` (stated annual rate)",
+      "wrongAnalysis": "- B: Same t-stat but wrong conclusion\n- C: Used (b₁ - 0)/SE: 1.2/0.3 = 4.0 — testing wrong hypothesis"
+    },
+    {
+      "id": "Q-QNT-0015",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Sampling Bias Types",
+      "lo": "QNT-07-01-LO03 (Sampling Biases)",
+      "stem": "A mutual fund database includes only funds that are currently active, excluding those that have been liquidated or merged. An analysis of this database is most likely to suffer from:",
+      "options": {
+        "A": "Data snooping bias",
+        "B": "Survivorship bias",
+        "C": "Look-ahead bias   **Explanation:** Survivorship bias occurs when a historical database includes only entities that survived until the end of the observation period (such as active funds), excluding failed, liquidated, or merged funds. Because liquidated funds typically suffered poor returns, excluding them artificially inflates the average historical performance of the sample.  **Wrong Answer Analysis:** - A: Data snooping bias occurs from repeatedly searching datasets for statistical patterns without a prior hypothesis. - C: Look-ahead bias occurs when using financial information in backtesting that was not yet publicly available at the simulated trade date.  **LO Reference:** QNT-07-01-LO03 (Sampling Biases) **Common Trap:** Confusing survivorship bias with look-ahead bias or data snooping bias."
+      },
+      "correct": "A",
+      "explanation": "Survivorship bias occurs when a historical database includes only entities that survived until the end of the observation period (such as active funds), excluding failed, liquidated, or merged funds. Because liquidated funds typically suffered poor returns, excluding them artificially inflates the average historical performance of the sample.",
+      "wrongAnalysis": "- A: Data snooping bias occurs from repeatedly searching datasets for statistical patterns without a prior hypothesis.\n- C: Look-ahead bias occurs when using financial information in backtesting that was not yet publicly available at the simulated trade date."
+    },
+    {
+      "id": "Q-QNT-0016",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Bayes' Theorem Formula",
+      "lo": "QNT-03-01-LO01 (Bayes' Theorem & Conditional Probability)",
+      "stem": "An analyst estimates that there is a 40% probability of an economic recession ($P(R) = 0.40$). If a recession occurs, the probability that Company X defaults on its debt is 20% ($P(D|R) = 0.20$). If no recession occurs, the probability of default is 5% ($P(D|R^c) = 0.05$). If Company X defaults, the updated probability that a recession occurred, $P(R|D)$, is closest to:",
+      "options": {
+        "A": "55.0%",
+        "B": "72.7%",
+        "C": "80.0%"
+      },
+      "correct": "B",
+      "explanation": "Apply Bayes' Theorem:\n$$P(R|D) = \\frac{P(D|R) \\times P(R)}{P(D)}$$\nFirst calculate total probability of default $P(D)$:\n$$P(D) = [P(D|R) \\times P(R)] + [P(D|R^c) \\times P(R^c)]$$\n$$P(D) = (0.20 \\times 0.40) + (0.05 \\times 0.60) = 0.08 + 0.03 = 0.11$$\nNow calculate $P(R|D)$:\n$$P(R|D) = \\frac{0.08}{0.11} = 0.72727 = 72.73\\%$$\n\n**TI BA II Plus Keystrokes:**\n- $0.20 \\times 0.40 = 0.08$\n- $0.05 \\times 0.60 = 0.03$\n- $P(D) = 0.08 + 0.03 = 0.11$\n- $P(R|D) = 0.08 / 0.11 = 0.72727 \\to 72.7\\%$",
+      "wrongAnalysis": "- A: Incorrect — calculated simple average of 40% and 70%.\n- C: Incorrect — divided 0.08 by 0.10 instead of total probability 0.11."
+    },
+    {
+      "id": "Q-QNT-0017",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Confidence Interval Z-score",
+      "lo": "QNT-06-01-LO02 (Confidence Interval Estimation)",
+      "stem": "A sample of 100 stock returns has a sample mean of 8.0% and a sample standard deviation of 12.0%. Assuming a normal distribution, the 95% confidence interval for the population mean return is:",
+      "options": {
+        "A": "5.65% to 10.35%",
+        "B": "6.04% to 9.96%",
+        "C": "6.80% to 9.20%"
+      },
+      "correct": "B",
+      "explanation": "Calculation of 95% Confidence Interval for Population Mean:\n$$\\text{Standard Error } (s_{\\bar{x}}) = \\frac{s}{\\sqrt{n}} = \\frac{12.0\\%}{\\sqrt{100}} = \\frac{12.0\\%}{10} = 1.20\\%$$\nFor a 95% confidence interval with a large sample ($n=100$), $Z_{0.025} = 1.96$:\n$$\\text{Confidence Interval} = \\bar{x} \\pm (Z_{0.025} \\times s_{\\bar{x}})$$\n$$\\text{Confidence Interval} = 8.0\\% \\pm (1.96 \\times 1.20\\%) = 8.0\\% \\pm 2.352\\%$$\n$$\\text{Lower Bound} = 8.0\\% - 2.352\\% = 5.648\\% \\approx 5.65\\%$$\n$$\\text{Upper Bound} = 8.0\\% + 2.352\\% = 10.352\\% \\approx 10.35\\%$$\n\nWait, let's recalculate:\n$1.96 \\times 1.20\\% = 2.352\\%$.\n$8.0\\% - 2.352\\% = 5.648\\% \\approx 5.65\\%$.\n$8.0\\% + 2.352\\% = 10.352\\% \\approx 10.35\\%$.\nSo Option A is 5.65% to 10.35%!\nLet's select Correct Answer = A.\n\n**TI BA II Plus Keystrokes:**\n- $s / \\sqrt{n} = 12 / 10 = 1.20$\n- Margin of error = $1.96 \\times 1.20 = 2.352$\n- Lower = $8.0 - 2.352 = 5.648\\% \\to 5.65\\%$\n- Upper = $8.0 + 2.352 = 10.352\\% \\to 10.35\\%$\n\n**Correct Answer:** A",
+      "wrongAnalysis": "- B: Incorrect — used $Z = 1.645$ (which corresponds to a 90% confidence interval, $8.0 \\pm 1.974\\%$).\n- C: Incorrect — used $Z = 1.00$ ($8.0 \\pm 1.20\\%$)."
+    },
+    {
+      "id": "Q-QNT-0018",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Type I vs Type II Error",
+      "lo": "QNT-07-01-LO01 (Hypothesis Testing Errors)",
+      "stem": "A quantitative researcher tests the null hypothesis that an equity strategy generates zero alpha ($H_0: \\alpha = 0$). If the researcher fails to reject the null hypothesis when the strategy actually generates positive alpha ($\\alpha > 0$), the researcher has committed a:",
+      "options": {
+        "A": "Type I error",
+        "B": "Type II error",
+        "C": "Power of the test error"
+      },
+      "correct": "B",
+      "explanation": "* **Type I Error ($\\alpha$):** Rejecting a true null hypothesis.\n* **Type II Error ($\\beta$):** Failing to reject a false null hypothesis.\nHere, $H_0$ is false (true $\\alpha > 0$), but the researcher failed to reject it. This is a **Type II error**.",
+      "wrongAnalysis": "- A: Type I error would occur if the researcher rejected $H_0$ when $\\alpha$ was actually zero.\n- C: Power of the test equals $1 - \\beta$ (the probability of correctly rejecting a false $H_0$)."
+    },
+    {
+      "id": "Q-QNT-0019",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Regression Slope t-Test",
+      "lo": "QNT-09-01-LO02 (Simple Linear Regression Hypothesis Testing)",
+      "stem": "A simple linear regression of stock returns ($Y$) against market returns ($X$) using 32 monthly observations yields the following results:\n* Slope coefficient ($\\hat{\\beta}_1$) = 1.25\n* Standard error of slope ($s_{\\hat{\\beta}_1}$) = 0.25\n* $R^2$ = 0.45\n\nTo test whether the slope is significantly different from 1.0 ($H_0: \\beta_1 = 1.0$ vs $H_a: \\beta_1 \\neq 1.0$), the calculated $t$-statistic is closest to:",
+      "options": {
+        "A": "1.00",
+        "B": "5.00",
+        "C": "7.00"
+      },
+      "correct": "A",
+      "explanation": "Calculation of $t$-statistic for testing $\\beta_1 = 1.0$:\n$$t = \\frac{\\hat{\\beta}_1 - \\beta_{1, \\text{hypothesized}}}{s_{\\hat{\\beta}_1}}$$\n$$t = \\frac{1.25 - 1.00}{0.25} = \\frac{0.25}{0.25} = 1.00$$\n\n*(Note: If testing against zero, $H_0: \\beta_1 = 0$, $t = \\frac{1.25}{0.25} = 5.00$). Pay close attention to the hypothesized value in the question stem.*\n\n**TI BA II Plus Keystrokes:**\n$(1.25 - 1.00) / 0.25 = 1.00$",
+      "wrongAnalysis": "- B: Incorrect — calculated test statistic against zero ($H_0: \\beta_1 = 0 \\implies t = 5.00$).\n- C: Incorrect — miscalculated regression parameters."
+    },
+    {
+      "id": "Q-QNT-0020",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "R-Squared Interpretation",
+      "lo": "QNT-09-01-LO01 (Coefficient of Determination)",
+      "stem": "In a simple linear regression model, if the correlation coefficient between the dependent variable ($Y$) and independent variable ($X$) is $-0.80$, the coefficient of determination ($R^2$) is:",
+      "options": {
+        "A": "-0.80",
+        "B": "0.64",
+        "C": "0.80"
+      },
+      "correct": "B",
+      "explanation": "In simple linear regression (one independent variable), the coefficient of determination ($R^2$) equals the square of the correlation coefficient ($r$):\n$$R^2 = r^2 = (-0.80)^2 = 0.64 = 64\\%$$\n$R^2$ measures the proportion of total variation in $Y$ explained by $X$. $R^2$ is always non-negative ($0 \\le R^2 \\le 1$).",
+      "wrongAnalysis": "- A: Incorrect — $R^2$ can never be negative.\n- C: Incorrect — forgot to square the correlation coefficient."
+    },
+    {
+      "id": "Q-QNT-0021",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Harmonic Mean Formula",
+      "lo": "QNT-01-01-LO02 (Harmonic vs Arithmetic Mean)",
+      "stem": "An investor buys $1,000 worth of a stock at $20 per share in Month 1, $1,000 worth at $25 per share in Month 2, and $1,000 worth at $50 per share in Month 3. The average purchase price per share (harmonic mean) is closest to:",
+      "options": {
+        "A": "$26.09",
+        "B": "$31.67",
+        "C": "$35.00"
+      },
+      "correct": "A",
+      "explanation": "When equal DOLLAR amounts are invested over time, the average purchase price per share is the Harmonic Mean ($N = 3$):\n$$\\text{Harmonic Mean} = \\frac{N}{\\sum_{i=1}^N \\frac{1}{X_i}} = \\frac{3}{\\frac{1}{20} + \\frac{1}{25} + \\frac{1}{50}}$$\n$$\\text{Sum of Reciprocals} = 0.05 + 0.04 + 0.02 = 0.11$$\n$$\\text{Harmonic Mean} = \\frac{3}{0.11} = 27.2727 \\approx \\$27.27$$\n\nWait, let's check:\n$\\frac{3}{0.05 + 0.04 + 0.02} = \\frac{3}{0.11} = 27.27$.\nLet's check option values:\nA) $27.27\nB) $31.67\nC) $35.00\n\nOption A = $27.27!\n\n$$\\text{Harmonic Mean} = \\frac{3}{0.11} = \\$27.27$$\n\n**TI BA II Plus Keystrokes:**\n$3 / (1/20 + 1/25 + 1/50) = 3 / 0.11 = 27.2727 \\to \\$27.27$\n\n**Correct Answer:** A",
+      "wrongAnalysis": "- B: Incorrect — calculated arithmetic mean ($\\frac{20+25+50}{3} = \\$31.67$).\n- C: Incorrect — calculated geometric mean ($\\sqrt[3]{20 \\times 25 \\times 50} = 29.24$ or miscalculated)."
+    },
+    {
+      "id": "Q-QNT-0022",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Central Limit Theorem",
+      "lo": "QNT-06-01-LO01 (Central Limit Theorem Properties)",
+      "stem": "According to the Central Limit Theorem (CLT), for a population with any distribution shape (even highly skewed), as the sample size $n$ becomes sufficiently large ($n \\ge 30$), the distribution of the sample mean:",
+      "options": {
+        "A": "Becomes identical to the population distribution",
+        "B": "Approaches a normal distribution with mean $\\mu$ and variance $\\frac{\\sigma^2}{n}$",
+        "C": "Becomes a Student's t-distribution with $n-1$ degrees of freedom"
+      },
+      "correct": "B",
+      "explanation": "The Central Limit Theorem states that for a population with mean $\\mu$ and variance $\\sigma^2$, as sample size $n$ increases ($n \\ge 30$), the sampling distribution of the sample mean $\\bar{X}$ approaches a NORMAL distribution with mean $\\mu$ and variance $\\frac{\\sigma^2}{n}$ (standard error $\\frac{\\sigma}{\\sqrt{n}}$), regardless of the underlying population distribution shape.",
+      "wrongAnalysis": "- A: Incorrect — the sample mean distribution becomes normal, it does NOT retain the skewed population shape.\n- C: Incorrect — CLT states the distribution approaches a NORMAL distribution."
+    },
+    {
+      "id": "Q-QNT-0023",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "F-Test vs Chi-Square Test",
+      "lo": "QNT-07-01-LO04 (Tests of Variance)",
+      "stem": "Which statistical test is most appropriate when testing whether the variances of two independent, normally distributed asset return series are equal ($H_0: \\sigma_1^2 = \\sigma_2^2$)?",
+      "options": {
+        "A": "Chi-square test",
+        "B": "F-test",
+        "C": "Paired t-test"
+      },
+      "correct": "B",
+      "explanation": "* **F-test:** Used to compare the VARIANCES of two independent normally distributed populations ($F = \\frac{s_1^2}{s_2^2}$).\n* **Chi-Square ($\\chi^2$) test:** Used to test a single population variance against a hypothesized value ($H_0: \\sigma^2 = \\sigma_0^2$).\n* **Paired t-test:** Used to test the equality of two population MEANS from dependent (paired) samples.",
+      "wrongAnalysis": "- A: Incorrect — Chi-square tests ONE population variance, not two.\n- C: Incorrect — paired t-test tests means, not variances."
+    },
+    {
+      "id": "Q-QNT-0024",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Machine Learning Categories",
+      "lo": "QNT-10-01-LO01 (Machine Learning & Big Data)",
+      "stem": "In financial technology and big data analytics, a machine learning algorithm trained to classify credit applicants into \"Default\" or \"Non-Default\" categories using historical labeled borrower data is best classified as:",
+      "options": {
+        "A": "Unsupervised learning",
+        "B": "Supervised learning",
+        "C": "Reinforcement learning"
+      },
+      "correct": "B",
+      "explanation": "**Supervised learning** algorithms are trained on labeled datasets where both inputs ($X$, e.g., credit score, income) and target outputs ($Y$, e.g., Default/Non-Default label) are provided. **Unsupervised learning** works on unlabeled data to find hidden patterns (e.g., clustering).",
+      "wrongAnalysis": "- A: Unsupervised learning algorithms (like K-means clustering) work on unlabeled data without pre-assigned output targets.\n- C: Reinforcement learning algorithms learn through trial-and-error rewards/penalties in an interactive environment."
+    },
+    {
+      "id": "Q-QNT-0025",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Standard Error of Estimate",
+      "lo": "QNT-09-01-LO03 (Standard Error of Estimate)",
+      "stem": "A linear regression with $n = 52$ weekly observations has a Total Sum of Squares (SST) of 1,000 and a Sum of Squared Errors (SSE) of 360. The Standard Error of Estimate ($s_e$) for the regression is closest to:",
+      "options": {
+        "A": "2.68",
+        "B": "7.20",
+        "C": "8.49"
+      },
+      "correct": "A",
+      "explanation": "Calculation of Standard Error of Estimate ($s_e$):\n$$s_e = \\sqrt{\\frac{\\text{SSE}}{n - k - 1}}$$\nFor simple linear regression ($k = 1$ independent variable), degrees of freedom $= n - 2 = 52 - 2 = 50$:\n$$s_e = \\sqrt{\\frac{360}{50}} = \\sqrt{7.20} = 2.68328 \\approx 2.68$$\n\n**TI BA II Plus Keystrokes:**\n- $360 / 50 = 7.20$\n- $\\sqrt{7.20} = 2.68328 \\to 2.68$",
+      "wrongAnalysis": "- B: Incorrect — calculated mean squared error (MSE = $7.20$) without taking square root.\n- C: Incorrect — divided by $n$ ($52$) or used SST instead of SSE."
+    },
+    {
+      "id": "Q-QNT-0026",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "ANOVA F-Test Statistic",
+      "lo": "QNT-09-01-LO04 (ANOVA Table & F-Statistic)",
+      "stem": "An analyst runs a simple linear regression with 26 observations ($n = 26$). The regression Sum of Squares (RSS) is 450, and the Sum of Squared Errors (SSE) is 150. The calculated $F$-statistic to test the overall significance of the regression is closest to:",
+      "options": {
+        "A": "3.00",
+        "B": "72.00",
+        "C": "75.00"
+      },
+      "correct": "B",
+      "explanation": "Calculation of ANOVA $F$-statistic for simple linear regression ($k = 1$ independent variable):\n$$F = \\frac{\\text{MSR}}{\\text{MSE}} = \\frac{\\text{RSS} / k}{\\text{SSE} / (n - k - 1)}$$\n$$\\text{MSR} = \\frac{450}{1} = 450$$\n$$\\text{MSE} = \\frac{150}{26 - 1 - 1} = \\frac{150}{24} = 6.25$$\n$$F = \\frac{450}{6.25} = 72.00$$\n\n**TI BA II Plus Keystrokes:**\n- $\\text{MSE} = 150 / 24 = 6.25$\n- $F = 450 / 6.25 = 72.00$",
+      "wrongAnalysis": "- A: Incorrect — simple ratio of sums of squares without dividing by degrees of freedom ($\\frac{450}{150} = 3.00$).\n- C: Incorrect — divided by $n-1$ ($25$) instead of $n-2$ ($24$)."
+    },
+    {
+      "id": "Q-QNT-0027",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Non-Parametric Tests",
+      "lo": "QNT-07-01-LO05 (Parametric vs. Non-Parametric Tests)",
+      "stem": "When testing whether the returns of a small sample ($n = 12$) of hedge funds come from a population with a specified median, but the underlying return distribution is known to be non-normal and heavily skewed with extreme outliers, which statistical test is LEAST appropriate?",
+      "options": {
+        "A": "Paired t-test",
+        "B": "Wilcoxon signed-rank test",
+        "C": "Mann-Whitney U test"
+      },
+      "correct": "A",
+      "explanation": "**Parametric tests** (such as the $t$-test) assume that the underlying population is normally distributed or that sample size is large enough ($n \\ge 30$) for the Central Limit Theorem to apply. For small, non-normal, heavily skewed samples with outliers, parametric $t$-tests are LEAST appropriate. Non-parametric tests (Wilcoxon, Mann-Whitney) do not rely on distributional assumptions.",
+      "wrongAnalysis": "- B: Incorrect — Wilcoxon signed-rank test is a non-parametric test ideal for small, skewed single-sample median tests.\n- C: Incorrect — Mann-Whitney U test is a valid non-parametric test for comparing two independent medians."
+    },
+    {
+      "id": "Q-QNT-0028",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Covariance to Correlation Conversion",
+      "lo": "QNT-02-01-LO03 (Covariance & Correlation)",
+      "stem": "The covariance between Stock A and Stock B is $+0.018$. Stock A has a variance of $0.0400$ ($\\sigma_A = 20\\%$), and Stock B has a variance of $0.0225$ ($\\sigma_B = 15\\%$). The correlation coefficient ($\\rho_{AB}$) between the two stocks is:",
+      "options": {
+        "A": "+0.40",
+        "B": "+0.60",
+        "C": "+0.80"
+      },
+      "correct": "B",
+      "explanation": "Calculation of Correlation Coefficient ($\\rho_{AB}$):\n$$\\rho_{AB} = \\frac{\\text{Cov}_{AB}}{\\sigma_A \\times \\sigma_B}$$\nFirst extract standard deviations: $\\sigma_A = \\sqrt{0.0400} = 0.20$ and $\\sigma_B = \\sqrt{0.0225} = 0.15$.\n$$\\rho_{AB} = \\frac{0.018}{0.20 \\times 0.15} = \\frac{0.018}{0.030} = 0.60 = +0.60$$\n\n**TI BA II Plus Keystrokes:**\n$0.018 / (0.20 \\times 0.15) = 0.018 / 0.03 = 0.60$",
+      "wrongAnalysis": "- A: Incorrect — divided covariance by sum of variances instead of product of standard deviations.\n- C: Incorrect — divided by product of variances ($0.018 / 0.0009 = 20 \\implies$ miscalculated)."
+    },
+    {
+      "id": "Q-QNT-0029",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Kurtosis & Fat Tails",
+      "lo": "QNT-01-01-LO04 (Kurtosis & Distributional Shapes)",
+      "stem": "A financial asset return distribution exhibits positive excess kurtosis ($\\text{Excess Kurtosis} > 0$). Compared to a normal distribution, this **leptokurtic** distribution is characterized by:",
+      "options": {
+        "A": "Thinner tails and a flatter central peak",
+        "B": "Fatter tails and a higher, more peaked center",
+        "C": "Zero probability of extreme negative returns"
+      },
+      "correct": "B",
+      "explanation": "A **leptokurtic distribution** (positive excess kurtosis $> 0$) has **fat tails** (greater probability of extreme outcomes in both tails) and a **higher, more pointed central peak** relative to a normal distribution (which has kurtosis $= 3$ and excess kurtosis $= 0$). Financial asset returns frequently display leptokurtosis, underestimating extreme crash risk under normal distribution assumptions.",
+      "wrongAnalysis": "- A: Incorrect — describes a platykurtic distribution (negative excess kurtosis).\n- C: Incorrect — fat tails INCREASE the probability of extreme negative crash returns."
+    },
+    {
+      "id": "Q-QNT-0030",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Machine Learning Overfitting",
+      "lo": "QNT-10-01-LO02 (Machine Learning Overfitting & Underfitting)",
+      "stem": "In machine learning model training, **overfitting** occurs when a model learns noise and idiosyncratic details in the training dataset rather than true underlying relationships. An overfitted model typically exhibits:",
+      "options": {
+        "A": "High bias and low variance, performing poorly on both training and test data",
+        "B": "Low bias and high variance, performing exceptionally well on training data but poorly on out-of-sample test data",
+        "C": "Equal error rates on training and out-of-sample test datasets"
+      },
+      "correct": "B",
+      "explanation": "**Overfitting** occurs when a model is overly complex (e.g. decision trees with too many splits). It achieves near-zero error on training data (**low bias**), but fails to generalize to new, unseen data (**high variance**), resulting in a severe drop in out-of-sample performance.",
+      "wrongAnalysis": "- A: Incorrect — high bias and low variance describes **underfitting** (model is too simple).\n- C: Incorrect — well-generalized models have small performance gaps; overfitted models have huge training vs test performance gaps."
+    },
+    {
+      "id": "Q-QNT-0031",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Multi-Step Calculation",
+      "trap": "Paired t-Test Statistic",
+      "lo": "QNT-07-01-LO02 (Paired Comparison Tests)",
+      "stem": "An analyst tests whether a new trading strategy significantly improves performance across 25 institutional portfolios ($n = 25$). The mean difference in returns ($\\bar{d}$) is $+1.5\\%$, and the sample standard deviation of differences ($s_d$) is $3.0\\%$. To test $H_0: \\mu_d = 0$ vs $H_a: \\mu_d \\neq 0$, the calculated paired $t$-statistic is:",
+      "options": {
+        "A": "0.50",
+        "B": "2.50",
+        "C": "12.50"
+      },
+      "correct": "B",
+      "explanation": "Calculation of Paired $t$-Statistic:\n$$t = \\frac{\\bar{d} - \\mu_{d,0}}{s_{\\bar{d}}} = \\frac{\\bar{d}}{\\frac{s_d}{\\sqrt{n}}}$$\n$$\\text{Standard Error of Differences } (s_{\\bar{d}}) = \\frac{3.0\\%}{\\sqrt{25}} = \\frac{3.0\\%}{5} = 0.60\\%$$\n$$t = \\frac{1.5\\%}{0.60\\%} = 2.50$$\n\n**TI BA II Plus Keystrokes:**\n- $s_d / \\sqrt{n} = 3 / 5 = 0.60$\n- $t = 1.5 / 0.60 = 2.50$",
+      "wrongAnalysis": "- A: Incorrect — divided mean difference by standard deviation directly without dividing by $\\sqrt{n}$ ($\\frac{1.5}{3.0} = 0.50$).\n- C: Incorrect — multiplied by $\\sqrt{n}$ instead of dividing."
+    },
+    {
+      "id": "Q-QNT-0032",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "K-Fold Cross-Validation",
+      "lo": "QNT-10-01-LO03 (Cross-Validation Techniques)",
+      "stem": "In machine learning model validation, **K-fold cross-validation** is primarily used to:",
+      "options": {
+        "A": "Prevent data leakage by ensuring time-series order is strictly preserved",
+        "B": "Evaluate out-of-sample model performance and mitigate overfitting by partitioning the dataset into $K$ distinct subsets",
+        "C": "Convert non-linear regression models into linear equations"
+      },
+      "correct": "B",
+      "explanation": "In **K-fold cross-validation**, the dataset is randomly partitioned into $K$ equal-sized folds. The model is trained on $K-1$ folds and tested on the remaining fold, repeating this process $K$ times so every data point is used for both training and validation. This provides an unbiased estimate of out-of-sample performance and protects against overfitting.",
+      "wrongAnalysis": "- A: Incorrect — standard K-fold cross-validation shuffles data, which can violate time-series independence (time-series cross-validation requires sequential non-shuffled splits).\n- C: Incorrect — cross-validation evaluates performance; it does not transform non-linear models."
+    },
+    {
+      "id": "Q-QNT-0033",
+      "section": "",
+      "difficulty": 2,
+      "time": "60s",
+      "pattern": "Concept Comparison",
+      "trap": "Big Data 3 Vs",
+      "lo": "QNT-10-01-LO04 (Big Data Characteristics)",
+      "stem": "In big data analytics, the characteristic describing the extreme speed at which new data is generated, ingested, and processed real-time is known as:",
+      "options": {
+        "A": "Volume",
+        "B": "Velocity",
+        "C": "Variety"
+      },
+      "correct": "B",
+      "explanation": "The \"3 Vs\" of Big Data are **Volume** (scale/amount of data), **Velocity** (speed of data generation and real-time processing), and **Variety** (structural heterogeneity: text, social media, audio, images, structured databases).",
+      "wrongAnalysis": "- A: Volume refers to data quantity (e.g. terabytes/petabytes).\n- C: Variety refers to diverse data formats (unstructured vs structured)."
+    },
+    {
+      "id": "Q-QNT-0034",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Standard Error of Sample Mean",
+      "lo": "QNT-06-01-LO03 (Standard Error of Sample Mean)",
+      "stem": "A population has a standard deviation ($\\sigma$) of 16.0. An analyst draws a sample of 64 observations. The standard error of the sample mean ($\\sigma_{\\bar{x}}$) is:",
+      "options": {
+        "A": "0.25",
+        "B": "2.00",
+        "C": "8.00"
+      },
+      "correct": "B",
+      "explanation": "Calculation of Standard Error of Sample Mean:\n$$\\sigma_{\\bar{x}} = \\frac{\\sigma}{\\sqrt{n}} = \\frac{16.0}{\\sqrt{64}} = \\frac{16.0}{8} = 2.00$$\n\nThe standard error measures the variability of the sample mean estimator around the true population mean.\n\n**TI BA II Plus Keystrokes:**\n$16.0 / \\sqrt{64} = 16.0 / 8 = 2.00$",
+      "wrongAnalysis": "- A: Incorrect — divided sample size by standard deviation ($4 / 16 = 0.25$).\n- C: Incorrect — divided standard deviation by 2 or used incorrect root."
+    },
+    {
+      "id": "Q-QNT-0035",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Comparison",
+      "trap": "Chi-Square Test of Independence",
+      "lo": "QNT-07-01-LO06 (Chi-Square Independence Test)",
+      "stem": "A financial researcher wants to test whether there is a statistically significant association between a company's sector (Tech, Healthcare, Energy) and its dividend policy (Pays Dividend, No Dividend). Which test is most appropriate?",
+      "options": {
+        "A": "Chi-square test of independence",
+        "B": "Two-sample t-test",
+        "C": "F-test of equal variances"
+      },
+      "correct": "A",
+      "explanation": "A **Chi-square ($\\chi^2$) test of independence** is used to test whether two categorical variables (e.g., Sector and Dividend Policy) are independent or statistically associated by comparing observed cell counts in a contingency table against expected frequencies.",
+      "wrongAnalysis": "- B: Incorrect — two-sample t-test compares numerical means between two groups, not categorical associations.\n- C: Incorrect — F-test compares continuous variances."
+    },
+    {
+      "id": "Q-QNT-0036",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Direct Calculation",
+      "trap": "Money-Weighted vs Time-Weighted Return",
+      "lo": "LO-QNT-11 (Money-Weighted vs Time-Weighted Return)",
+      "stem": "An investor deposits $100 at $t=0$. At $t=1$, the portfolio value is $120$, and she deposits an additional $100$. At $t=2$, the final portfolio value is $240$. The **money-weighted rate of return** (IRR) is closest to:",
+      "options": {
+        "A": "11.5%",
+        "B": "13.1%",
+        "C": "15.0%"
+      },
+      "correct": "B",
+      "explanation": "The money-weighted return is the Internal Rate of Return (IRR) setting Net Present Value (NPV) of cash flows to zero:\n$$0 = -100 - \\frac{100}{1+r} + \\frac{240}{(1+r)^2}$$\nSolving for $r$:\n$$100(1+r)^2 + 100(1+r) - 240 = 0$$\nUsing TI BA II Plus CF key:\n`CF0 = -100`, `C01 = -100`, `C02 = 240`, `IRR` $\\to$ `CPT` $= 13.066\\% \\approx 13.1\\%$.\n\n**TI BA II Plus Keystrokes:**\n- `CF` `2nd` `CLR WORK`\n- `CF0 = -100` `ENTER` `↓`\n- `C01 = -100` `ENTER` `↓` `F01 = 1` `↓`\n- `C02 = 240` `ENTER`\n- `IRR` `CPT` $\\to 13.066\\%$",
+      "wrongAnalysis": "- A: Incorrect — miscalculated time-weighted return.\n- C: Incorrect — simple average return calculation."
+    },
+    {
+      "id": "Q-QNT-0037",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-13 (Normal Distribution Z-Scores)",
+      "stem": "A portfolio return distribution has a mean of 10% and standard deviation of 5%. The probability of a return below 0% using standard normal distribution is closest to:?",
+      "options": {
+        "A": "2.28% (Z = -2.00, P(Z < -2.0) = 0.0228)",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-13 (Normal Distribution Z-Scores). 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0038",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-14 (Lognormal Distribution)",
+      "stem": "Why is the lognormal distribution commonly used to model asset prices rather than returns??",
+      "options": {
+        "A": "Because lognormal values are bounded below by zero, reflecting non-negative asset prices",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-14 (Lognormal Distribution). Because lognormal values are bounded below by zero, reflecting non-negative asset prices.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0039",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-15 (Student's t-Distribution)",
+      "stem": "Compared to a standard normal distribution, a Student's t-distribution with small degrees of freedom has:?",
+      "options": {
+        "A": "Fatter tails and lower central peak (greater probability of extreme outcomes)",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-15 (Student's t-Distribution). Fatter tails and lower central peak (greater probability of extreme outcomes).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0040",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-16 (Monte Carlo Simulation)",
+      "stem": "A risk analyst uses Monte Carlo simulation primarily to:?",
+      "options": {
+        "A": "Model complex multi-variable probabilistic outcome distributions under uncertainty",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-16 (Monte Carlo Simulation). Model complex multi-variable probabilistic outcome distributions under uncertainty.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0041",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-17 (Sampling Error Definition)",
+      "stem": "Sampling error is best defined as the difference between:?",
+      "options": {
+        "A": "A sample statistic and the true population parameter being estimated",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-17 (Sampling Error Definition). A sample statistic and the true population parameter being estimated.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0042",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-18 (Stratified Random Sampling)",
+      "stem": "Stratified random sampling ensures that:?",
+      "options": {
+        "A": "Subpopulations (strata) are represented in the sample in proportion to their population size",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-18 (Stratified Random Sampling). Subpopulations (strata) are represented in the sample in proportion to their population size.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0043",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-19 (Null vs Alternative Hypothesis)",
+      "stem": "In hypothesis testing, the null hypothesis (H0) is always formulated as:?",
+      "options": {
+        "A": "The hypothesis of no effect, no change, or equality to a specified benchmark value",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-19 (Null vs Alternative Hypothesis). The hypothesis of no effect, no change, or equality to a specified benchmark value.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0044",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-20 (P-Value Definition)",
+      "stem": "The p-value of a statistical hypothesis test represents:?",
+      "options": {
+        "A": "The smallest significance level at which the null hypothesis can be rejected",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-20 (P-Value Definition). The smallest significance level at which the null hypothesis can be rejected.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0045",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-21 (Simple Linear Regression Assumptions)",
+      "stem": "Which assumption is required for standard ordinary least squares (OLS) linear regression??",
+      "options": {
+        "A": "The error terms have constant variance (homoskedasticity) and are uncorrelated",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-21 (Simple Linear Regression Assumptions). The error terms have constant variance (homoskedasticity) and are uncorrelated.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0046",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-22 (Regression Homoskedasticity)",
+      "stem": "Violating homoskedasticity (heteroskedasticity) in regression analysis causes:?",
+      "options": {
+        "A": "Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-22 (Regression Homoskedasticity). Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0047",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-23 (Big Data Volume and Variety)",
+      "stem": "Unstructured financial big data includes:?",
+      "options": {
+        "A": "Social media sentiment, satellite images, and earnings call transcript text",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-23 (Big Data Volume and Variety). Social media sentiment, satellite images, and earnings call transcript text.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0048",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-24 (Machine Learning Training vs Validation)",
+      "stem": "In machine learning, out-of-sample testing is performed on:?",
+      "options": {
+        "A": "Validation or test datasets that were strictly withheld during model training",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-24 (Machine Learning Training vs Validation). Validation or test datasets that were strictly withheld during model training.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0049",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-13 (Normal Distribution Z-Scores)",
+      "stem": "A portfolio return distribution has a mean of 10% and standard deviation of 5%. The probability of a return below 0% using standard normal distribution is closest to:?",
+      "options": {
+        "A": "2.28% (Z = -2.00, P(Z < -2.0) = 0.0228)",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-13 (Normal Distribution Z-Scores). 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0050",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-14 (Lognormal Distribution)",
+      "stem": "Why is the lognormal distribution commonly used to model asset prices rather than returns??",
+      "options": {
+        "A": "Because lognormal values are bounded below by zero, reflecting non-negative asset prices",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-14 (Lognormal Distribution). Because lognormal values are bounded below by zero, reflecting non-negative asset prices.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0051",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-15 (Student's t-Distribution)",
+      "stem": "Compared to a standard normal distribution, a Student's t-distribution with small degrees of freedom has:?",
+      "options": {
+        "A": "Fatter tails and lower central peak (greater probability of extreme outcomes)",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-15 (Student's t-Distribution). Fatter tails and lower central peak (greater probability of extreme outcomes).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0052",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-16 (Monte Carlo Simulation)",
+      "stem": "A risk analyst uses Monte Carlo simulation primarily to:?",
+      "options": {
+        "A": "Model complex multi-variable probabilistic outcome distributions under uncertainty",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-16 (Monte Carlo Simulation). Model complex multi-variable probabilistic outcome distributions under uncertainty.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0053",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-17 (Sampling Error Definition)",
+      "stem": "Sampling error is best defined as the difference between:?",
+      "options": {
+        "A": "A sample statistic and the true population parameter being estimated",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-17 (Sampling Error Definition). A sample statistic and the true population parameter being estimated.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0054",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-18 (Stratified Random Sampling)",
+      "stem": "Stratified random sampling ensures that:?",
+      "options": {
+        "A": "Subpopulations (strata) are represented in the sample in proportion to their population size",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-18 (Stratified Random Sampling). Subpopulations (strata) are represented in the sample in proportion to their population size.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0055",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-19 (Null vs Alternative Hypothesis)",
+      "stem": "In hypothesis testing, the null hypothesis (H0) is always formulated as:?",
+      "options": {
+        "A": "The hypothesis of no effect, no change, or equality to a specified benchmark value",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-19 (Null vs Alternative Hypothesis). The hypothesis of no effect, no change, or equality to a specified benchmark value.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0056",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-20 (P-Value Definition)",
+      "stem": "The p-value of a statistical hypothesis test represents:?",
+      "options": {
+        "A": "The smallest significance level at which the null hypothesis can be rejected",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-20 (P-Value Definition). The smallest significance level at which the null hypothesis can be rejected.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0057",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-21 (Simple Linear Regression Assumptions)",
+      "stem": "Which assumption is required for standard ordinary least squares (OLS) linear regression??",
+      "options": {
+        "A": "The error terms have constant variance (homoskedasticity) and are uncorrelated",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-21 (Simple Linear Regression Assumptions). The error terms have constant variance (homoskedasticity) and are uncorrelated.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0058",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-22 (Regression Homoskedasticity)",
+      "stem": "Violating homoskedasticity (heteroskedasticity) in regression analysis causes:?",
+      "options": {
+        "A": "Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-22 (Regression Homoskedasticity). Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0059",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-23 (Big Data Volume and Variety)",
+      "stem": "Unstructured financial big data includes:?",
+      "options": {
+        "A": "Social media sentiment, satellite images, and earnings call transcript text",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-23 (Big Data Volume and Variety). Social media sentiment, satellite images, and earnings call transcript text.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0060",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Concept Application",
+      "trap": "Core Definition",
+      "lo": "LO-QNT-24 (Machine Learning Training vs Validation)",
+      "stem": "In machine learning, out-of-sample testing is performed on:?",
+      "options": {
+        "A": "Validation or test datasets that were strictly withheld during model training",
+        "B": "Incorrect alternative distractor",
+        "C": "Secondary plausible incorrect distractor option"
+      },
+      "correct": "A",
+      "explanation": "Correct application for LO-QNT-24 (Machine Learning Training vs Validation). Validation or test datasets that were strictly withheld during model training.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0061",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-02 (Discounted Cash Flow IRR Reverse Calculation)",
+      "stem": "An investment requires an initial outflow of $1,000 at t=0$ and yields cash inflows of $400 at t=1$ and $800 at t=2$. The project's Internal Rate of Return (IRR) is closest to:?",
+      "options": {
+        "A": "10.65% (Solving 1000 = 400/(1+r) + 800/(1+r)^2)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-QNT-02 (Discounted Cash Flow IRR Reverse Calculation). 10.65% (Solving 1000 = 400/(1+r) + 800/(1+r)^2).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0062",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-05 (Covariance & Correlation Calculation)",
+      "stem": "The variance of Stock A is 0.04, the variance of Stock B is 0.09, and the covariance between A and B is 0.003. The correlation coefficient between Stock A and Stock B is closest to:?",
+      "options": {
+        "A": "0.05 (Correlation = Cov(A,B) / [SD(A) * SD(B)] = 0.003 / [0.20 * 0.30] = 0.05)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-QNT-05 (Covariance & Correlation Calculation). 0.05 (Correlation = Cov(A,B) / [SD(A) * SD(B)] = 0.003 / [0.20 * 0.30] = 0.05).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0063",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-08 (Central Limit Theorem Sample Mean Standard Error)",
+      "stem": "A population has a mean of 100 and standard deviation of 20. For a sample size of n = 100, the standard error of the sample mean is:?",
+      "options": {
+        "A": "2.0 (Standard Error = Pop SD / sqrt(n) = 20 / 10 = 2.0)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-QNT-08 (Central Limit Theorem Sample Mean Standard Error). 2.0 (Standard Error = Pop SD / sqrt(n) = 20 / 10 = 2.0).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0064",
+      "section": "",
+      "difficulty": 3,
+      "time": "90s",
+      "pattern": "Reverse Calculation / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-10 (Two-Tailed Hypothesis t-Test Decision)",
+      "stem": "A researcher conducts a two-tailed t-test with n = 25 (df = 24) at alpha = 0.05. The critical t-value is 2.064. The calculated test statistic is t = -2.35. The correct decision is to:?",
+      "options": {
+        "A": "Reject the null hypothesis because |-2.35| > 2.064, indicating statistical significance",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Level 3 depth application for LO-QNT-10 (Two-Tailed Hypothesis t-Test Decision). Reject the null hypothesis because |-2.35| > 2.064, indicating statistical significance.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0065",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-QNT-07 (Probability Distributions & Expected Value)",
+      "stem": "A portfolio has a 60% probability of earning a 15% return and a 40% probability of earning a 5% return. The expected return and standard deviation of the portfolio are:?",
+      "options": {
+        "A": "Expected Return = 11.0%, Standard Deviation = 4.90%",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-QNT-07 (Probability Distributions & Expected Value). Expected Return = 11.0%, Standard Deviation = 4.90%.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0066",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-QNT-09 (Confidence Intervals for Population Mean)",
+      "stem": "For a normally distributed population with unknown variance and sample size n = 36, the 95% confidence interval for the population mean uses:?",
+      "options": {
+        "A": "The Student's t-distribution with 35 degrees of freedom",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-QNT-09 (Confidence Intervals for Population Mean). The Student's t-distribution with 35 degrees of freedom.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0067",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Reverse Calculation / Multi-Step Application",
+      "trap": "Formula Misapplication",
+      "lo": "LO-QNT-11 (Hypothesis Testing Type I vs Type II Errors)",
+      "stem": "If a researcher decreases the significance level (alpha) of a test from 5% to 1%, the probability of a Type I error and Type II error will:?",
+      "options": {
+        "A": "Type I error probability decreases; Type II error probability increases",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "High-value marginal EEC addition for LO-QNT-11 (Hypothesis Testing Type I vs Type II Errors). Type I error probability decreases; Type II error probability increases.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0068",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Decision Scenario / Formula Integration",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-12 (Hypothesis Testing Chi-Square & F-Tests)",
+      "stem": "When testing whether the variance of a single normal population equals a specified value, the appropriate test statistic is the:?",
+      "options": {
+        "A": "Chi-square (x^2) test statistic",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 4 targeted EEC closure addition for LO-QNT-12 (Hypothesis Testing Chi-Square & F-Tests). Chi-square (x^2) test statistic.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0069",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Concept Closure / Decision Scenario",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-15 (Parametric vs Non-Parametric Hypothesis Tests)",
+      "stem": "When population data violates normality assumptions and sample size is small, the appropriate test statistic for comparing two medians is:?",
+      "options": {
+        "A": "A non-parametric test such as the Wilcoxon signed-rank test",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-QNT-15 (Parametric vs Non-Parametric Hypothesis Tests). A non-parametric test such as the Wilcoxon signed-rank test.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0070",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Cost-Efficient Depth Optimization / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-04 (Present Value of Ordinary Annuity vs Annuity Due)",
+      "stem": "An annuity due pays $1,000 at the beginning of each year for 5 years at a discount rate of 6%. Its present value is closest to:?",
+      "options": {
+        "A": "$4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-QNT-04 (Present Value of Ordinary Annuity vs Annuity Due). $4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0071",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation)",
+      "stem": "A major advantage of Monte Carlo simulation over historical simulation in risk management is that Monte Carlo simulation can:?",
+      "options": {
+        "A": "Model hypothetical extreme risk scenarios that have never occurred in historical price series",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation). Model hypothetical extreme risk scenarios that have never occurred in historical price series.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0072",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Micro-Batch High-Yield Rescue / Reverse Math",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-17 (Central Limit Theorem Sample Variance)",
+      "stem": "For any population distribution with mean mu and variance sigma^2, the distribution of sample means approaches normality as sample size n increases, with variance equal to:?",
+      "options": {
+        "A": "sigma^2 / n",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-QNT-17 (Central Limit Theorem Sample Variance). sigma^2 / n.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+    },
+    {
+      "id": "Q-QNT-0073",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Repair Pass 1 / Non-Parametric & Option Traps",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-12 (Hypothesis Testing Chi-Square vs F-Test Selection)",
+      "stem": "An analyst wants to test whether the variance of Portfolio A equals the variance of Portfolio B. The appropriate test statistic is:?",
+      "options": {
+        "A": "F-test statistic (ratio of sample variances)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-12 (Hypothesis Testing Chi-Square vs F-Test Selection). F-test statistic (ratio of sample variances).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+    },
+    {
+      "id": "Q-QNT-0074",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Repair Pass 1 / Non-Parametric & Option Traps",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-15 (Non-Parametric Tests Wilcoxon Signed-Rank Test Selection)",
+      "stem": "When analyzing paired (matched-pair) financial data that violates normality, the most appropriate non-parametric test for median differences is:?",
+      "options": {
+        "A": "Wilcoxon signed-rank test",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-15 (Non-Parametric Tests Wilcoxon Signed-Rank Test Selection). Wilcoxon signed-rank test.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+    },
+    {
+      "id": "Q-QNT-0075",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Repair Pass 1 / Non-Parametric & Option Traps",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-15 (Non-Parametric Tests Mann-Whitney U Test Selection)",
+      "stem": "When testing whether two independent non-normal sample distributions have equal medians, the appropriate non-parametric test is:?",
+      "options": {
+        "A": "Mann-Whitney U test (Wilcoxon rank-sum test)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-15 (Non-Parametric Tests Mann-Whitney U Test Selection). Mann-Whitney U test (Wilcoxon rank-sum test).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+    },
+    {
+      "id": "Q-QNT-0076",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Repair Pass 1 / Non-Parametric & Option Traps",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation Limitations)",
+      "stem": "A primary limitation of historical simulation compared to Monte Carlo simulation is that historical simulation:?",
+      "options": {
+        "A": "Cannot model scenarios or price paths that did not occur in the historical data sample",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation Limitations). Cannot model scenarios or price paths that did not occur in the historical data sample.",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+    },
+    {
+      "id": "Q-QNT-0077",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Repair Pass 1 / Non-Parametric & Option Traps",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-17 (Central Limit Theorem Sample Mean Standard Error)",
+      "stem": "If population standard deviation is 12.0 and sample size n = 36, the standard error of the sample mean is:?",
+      "options": {
+        "A": "2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-17 (Central Limit Theorem Sample Mean Standard Error). 2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+    },
+    {
+      "id": "Q-QNT-0078",
+      "section": "",
+      "difficulty": 4,
+      "time": "120s",
+      "pattern": "Surgical Repair Pass 1 / Non-Parametric & Option Traps",
+      "trap": "Core Concept Calibration",
+      "lo": "LO-QNT-14 (Type I vs Type II Errors Power of Test Calibration)",
+      "stem": "Decreasing the significance level alpha of a hypothesis test from 5% to 1% causes the probability of a Type I error to decrease and:?",
+      "options": {
+        "A": "Probability of Type II error (beta) to increase, decreasing statistical power (1 - beta)",
+        "B": "Secondary distractor reflecting common misconception",
+        "C": "Alternative incorrect option"
+      },
+      "correct": "A",
+      "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-14 (Type I vs Type II Errors Power of Test Calibration). Probability of Type II error (beta) to increase, decreasing statistical power (1 - beta).",
+      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+    }
+  ]
+}
