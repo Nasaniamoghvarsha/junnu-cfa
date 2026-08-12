@@ -6,10 +6,10 @@
 
 **Question:**
 A company reports net income of $5,000,000 for the year. The company has 1,000,000 common shares outstanding throughout the year and pays $200,000 in preferred dividends. Basic earnings per share is closest to:
-
 A) $4.80
 B) $5.00
 C) $5.20
+
 
 **Correct Answer:** A
 
@@ -29,10 +29,10 @@ C) $5.20
 
 **Question:**
 Which of the following would increase a company's current ratio but decrease its quick ratio, assuming both ratios are initially greater than 1?
-
 A) Purchase of inventory with cash
 B) Collection of accounts receivable
 C) Payment of accounts payable with cash
+
 
 **Correct Answer:** A
 
@@ -49,12 +49,10 @@ Wait, let me redo this more carefully.
 Current Ratio = CA / CL. Quick Ratio = (Cash + MS + AR) / CL.
 
 Both initially > 1.
-
 A) Purchase of inventory with cash
-
 B) Collection of accounts receivable
-
 C) Payment of accounts payable with cash
+
 
 
 Hmm, none of these seem to perfectly match "increase CR, decrease QR." Let me reconsider B.
@@ -126,10 +124,10 @@ A company reports the following:
 - Gain on sale of equipment: $8,000
 
 Using the indirect method, cash flow from operations is closest to:
-
 A) $212,000
 B) $232,000
 C) $240,000
+
 
 **Correct Answer:** B
 
@@ -158,10 +156,10 @@ Adjustments:
 
 **Question:**
 A company has: Net profit margin = 6%, Total asset turnover = 1.5, Financial leverage (Assets/Equity) = 2.0. The company's ROE is closest to:
-
 A) 9.0%
 B) 12.0%
 C) 18.0%
+
 
 **Correct Answer:** C
 
@@ -181,10 +179,10 @@ C) 18.0%
 
 **Question:**
 During a period of rising prices, a company using LIFO reports inventory of $500,000 and a LIFO reserve of $150,000. If the company had used FIFO, its inventory would be:
-
 A) $350,000
 B) $500,000
 C) $650,000
+
 
 **Correct Answer:** C
 
@@ -204,10 +202,10 @@ C) $650,000
 
 **Question:**
 A company spends $100,000 on a machine expected to last 5 years with no residual value. If the company incorrectly expenses the entire amount instead of capitalizing and depreciating it, which of the following is most accurate for Year 1?
-
 A) Net income is understated by $80,000
 B) Total assets are overstated by $80,000
 C) Net income is understated by $100,000
+
 
 **Correct Answer:** A
 
@@ -226,10 +224,10 @@ C) Net income is understated by $100,000
 
 **Question:**
 Equipment costs $120,000 with a useful life of 5 years and $20,000 residual value. Under double-declining balance depreciation, Year 2 depreciation expense is closest to:
-
 A) $20,000
 B) $24,000
 C) $28,800
+
 
 **Correct Answer:** C
 
@@ -253,10 +251,10 @@ Note: DDB ignores residual value in calculation but doesn't depreciate below res
 
 **Question:**
 A company uses straight-line depreciation for financial reporting but accelerated depreciation for tax purposes. In the early years of an asset's life, this will most likely create a:
-
 A) Deferred tax asset
 B) Deferred tax liability
 C) Permanent difference
+
 
 **Correct Answer:** B
 
@@ -275,10 +273,10 @@ C) Permanent difference
 
 **Question:**
 A company reports: EBIT = $500,000, Tax rate = 30%, Depreciation = $80,000, Capital expenditures = $120,000, Increase in working capital = $30,000. Free cash flow to the firm (FCFF) is closest to:
-
 A) $230,000
 B) $280,000
 C) $310,000
+
 
 **Correct Answer:** B
 
@@ -303,10 +301,10 @@ FCFF represents cash available to ALL capital providers (both debt and equity). 
 
 **Question:**
 A company issues bonds at a discount. Under the effective interest method, which of the following is most accurate over the life of the bonds?
-
 A) Interest expense decreases each period
 B) Interest expense increases each period
 C) The carrying value of the bond decreases
+
 
 **Correct Answer:** B
 
@@ -325,10 +323,10 @@ C) The carrying value of the bond decreases
 
 **Question:**
 Which of the following is most likely an indicator of low-quality financial reporting?
-
 A) Revenue growing faster than accounts receivable
 B) Operating cash flow consistently exceeding net income
 C) Frequent changes in accounting policies without clear justification
+
 
 **Correct Answer:** C
 
@@ -347,10 +345,10 @@ C) Frequent changes in accounting policies without clear justification
 
 **Question:**
 In a period of rising prices, a company using FIFO (vs. LIFO) will most likely report:
-
 A) Lower COGS, higher inventory, and higher net income
 B) Higher COGS, lower inventory, and lower net income
 C) Lower COGS, lower inventory, and higher net income
+
 
 **Correct Answer:** A
 
@@ -369,10 +367,10 @@ C) Lower COGS, lower inventory, and higher net income
 
 **Question:**
 A company has: Net income = $10,000,000, Common shares outstanding = 2,000,000, Preferred dividends = $500,000, 50,000 convertible preferred shares (each convertible into 4 common shares, preferred dividend = $3/share), 100,000 stock options (exercise price = $20, average market price = $25). Diluted EPS is closest to:
-
 A) $3.80
 B) $4.00
 C) $4.30
+
 
 **Correct Answer:** A
 
@@ -426,10 +424,10 @@ Diluted EPS = ($9.5M + $0.15M) / (2M + 0.2M + 0.02M) = $9.65M / 2.22M = $4.347 �
 
 **Question:**
 Under US GAAP, dividends paid to shareholders are classified as:
-
 A) Operating cash outflow
 B) Investing cash outflow
 C) Financing cash outflow
+
 
 **Correct Answer:** C
 
@@ -448,10 +446,10 @@ C) Financing cash outflow
 
 **Question:**
 Equipment is carried at $200,000 (cost $300,000, accumulated depreciation $100,000). The undiscounted future cash flows are $180,000, the discounted future cash flows (fair value) are $150,000, and the equipment could be sold for $140,000 (net of selling costs). Under US GAAP, the impairment loss is:
-
 A) $10,000
 B) $20,000
 C) $50,000
+
 
 **Correct Answer:** B
 
@@ -493,10 +491,10 @@ So C is correct.
 
 **Question:**
 Under IFRS 15 and ASC 606, a software vendor contracts to sell a software license, custom implementation services, and two years of technical support to a corporate customer for a single bundled price of $100,000. According to the 5-step revenue recognition model, how should the vendor allocate the transaction price?
-
 A) Allocate equal amounts ($33,333) to each of the three goods/services
 B) Allocate the transaction price based on the relative stand-alone selling prices of each performance obligation
 C) Recognize the full $100,000 upfront upon signing the customer contract
+
 
 **Correct Answer:** B
 
@@ -516,10 +514,10 @@ C) Recognize the full $100,000 upfront upon signing the customer contract
 
 **Question:**
 A firm using LIFO reporting shows an Inventory balance of $450,000, Cost of Goods Sold (COGS) of $1,200,000, and a LIFO Reserve of $80,000 (up from $60,000 in the prior year). If the firm's marginal tax rate is 25%, what would the firm's adjusted FIFO Cost of Goods Sold be?
-
 A) $1,180,000
 B) $1,220,000
 C) $1,260,000
+
 
 **Correct Answer:** A
 
@@ -548,10 +546,10 @@ During inflation, LIFO COGS is higher than FIFO COGS. Subtracting the increase i
 
 **Question:**
 An equipment asset costing $120,000 has an estimated useful life of 5 years and a salvage value of $20,000. Using the double-declining balance (DDB) depreciation method, what is the depreciation expense recognized in Year 2?
-
 A) $28,800
 B) $32,000
 C) $48,000
+
 
 **Correct Answer:** A
 
@@ -582,10 +580,10 @@ C) $48,000
 
 **Question:**
 A firm uses straight-line depreciation for financial reporting and accelerated depreciation for tax reporting. Assuming tax rates remain constant and the firm continues acquiring capital assets, this reporting difference will most likely create a:
-
 A) Deferred tax asset that will reverse within 1 year
 B) Deferred tax liability that grows over time
 C) Permanent difference that requires no accounting adjustment
+
 
 **Correct Answer:** B
 
@@ -605,10 +603,10 @@ C) Permanent difference that requires no accounting adjustment
 
 **Question:**
 Under IFRS 16, how does a lessee classify and report cash flows associated with an operating lease on the statement of cash flows?
-
 A) Entire lease payment is classified as an operating cash outflow
 B) Principal portion is classified as a financing outflow; interest portion is classified as operating or financing outflow
 C) Entire lease payment is classified as an investing cash outflow
+
 
 **Correct Answer:** B
 
@@ -635,10 +633,10 @@ A firm reports Net Income of $500,000 for the year. Additional financial details
 * Decrease in Accounts Payable: $18,000
 
 Under the indirect method, the firm's Cash Flow from Operations (CFO) is:
-
 A) $517,000
 B) $547,000
 C) $577,000
+
 
 **Correct Answer:** A
 
@@ -676,10 +674,10 @@ A financial analyst evaluates Company Y using 5-way DuPont analysis based on the
 * Financial Leverage (Avg Assets / Avg Equity) = 1.80
 
 Company Y's Return on Equity (ROE) is closest to:
-
 A) 18.00%
 B) 22.85%
 C) 27.22%
+
 
 **Correct Answer:** B
 
@@ -697,6 +695,7 @@ Let me check option numbers:
 A) 19.28%
 B) 22.85%
 C) 27.22%
+
 
 Let's set Option A = 19.28%!
 
@@ -721,10 +720,10 @@ $0.70 \times 0.85 \times 0.15 \times 1.20 \times 1.80 = 0.19278 \to 19.28\%$
 
 **Question:**
 If a company capitalizes an expenditure instead of expensing it immediately in the current period, which of the following financial statement impacts will occur in the initial period?
-
 A) Lower Net Income and lower Cash Flow from Operations
 B) Higher Net Income and higher Cash Flow from Operations
 C) Higher Net Income and lower Cash Flow from Operations
+
 
 **Correct Answer:** B
 
@@ -744,10 +743,10 @@ C) Higher Net Income and lower Cash Flow from Operations
 
 **Question:**
 A firm records a $50,000 Deferred Tax Asset (DTA) due to cumulative tax loss carryforwards. However, management determines it is "more likely than not" that $20,000 of the DTA will not be realized. Under US GAAP, how does establishing a valuation allowance impact the income statement and balance sheet?
-
 A) Reduces DTA asset value on balance sheet and increases income tax expense on income statement
 B) Increases DTL liability on balance sheet and reduces net income
 C) Has zero impact on income statement until the tax loss carryforward expires
+
 
 **Correct Answer:** A
 
@@ -767,10 +766,10 @@ C) Has zero impact on income statement until the tax loss carryforward expires
 
 **Question:**
 Which of the following accounting signals is most indicative of low financial reporting quality or aggressive earnings management?
-
 A) Sustainable increase in Cash Flow from Operations tracking ahead of Net Income growth
 B) Consistent growth in Net Income accompanied by declining Cash Flow from Operations
 C) Frequent write-downs of obsolete inventory accompanied by rising LIFO reserve
+
 
 **Correct Answer:** B
 
@@ -792,15 +791,17 @@ C) Frequent write-downs of obsolete inventory accompanied by rising LIFO reserve
 
 **Question:**
 Under IFRS 16, a lessee enters into a 5-year equipment lease with annual lease payments of $20,000 paid at the end of each year. The lessee's incremental borrowing rate is 6%. At lease commencement, the lessee recognizes a Right-of-Use (ROU) Asset and Lease Liability of:
-
 A) $84,247
 B) $100,000
 C) $106,000
 
+
 **Correct Answer:** A
 
 **Explanation:** Under IFRS 16, lessees recognize a ROU Asset and Lease Liability equal to the Present Value of future lease payments discounted at the interest rate implicit in the lease (or incremental borrowing rate):
-$$PV = 	ext{PMT} 	imes \left[rac{1 - (1+r)^{-n}}{r}ight] = 20,000 	imes \left[rac{1 - (1.06)^{-5}}{0.06}ight] = \$84,247.28$$
+$$PV = 	ext{PMT} 	imes \left[rac{1 - (1+r)^{-n}}{r}
+ight] = 20,000 	imes \left[rac{1 - (1.06)^{-5}}{0.06}
+ight] = \$84,247.28$$
 
 **TI BA II Plus Keystrokes:**
 - `N = 5`, `I/Y = 6`, `PMT = -20000`, `FV = 0`
@@ -820,10 +821,10 @@ $$PV = 	ext{PMT} 	imes \left[rac{1 - (1+r)^{-n}}{r}ight] = 20,000 	imes \left[
 
 **Question:**
 Under US GAAP, goodwill impairment testing is conducted at the **reporting unit** level using a single-step quantitative test. Under IFRS, goodwill impairment testing is conducted at the:
-
 A) Operating segment level using a two-step test
 B) Cash-generating unit (CGU) level comparing carrying value to recoverable amount
 C) Individual intangible asset level
+
 
 **Correct Answer:** B
 
@@ -843,10 +844,10 @@ C) Individual intangible asset level
 
 **Question:**
 A temporary difference where financial accounting income is less than taxable income creates a:?
-
 A) Deferred Tax Liability (DTL) because future tax payments will be higher
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -864,10 +865,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 When a bond is issued at a discount, over time the effective interest expense:?
-
 A) Increases as the carrying value of the bond amortizes upward toward par value
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -885,10 +886,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which of the following is considered an off-balance sheet financing technique??
-
 A) Factoring accounts receivable with recourse or take-or-pay purchase agreements
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -906,10 +907,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Cash received from customers under the direct method equals Sales revenue plus:?
-
 A) Beginning Accounts Receivable minus Ending Accounts Receivable
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -927,10 +928,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In the 5-way DuPont decomposition, Return on Equity (ROE) equals:?
-
 A) Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Financial Leverage
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -948,10 +949,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Quick Ratio (Acid-Test) excludes which current asset from the numerator??
-
 A) Inventory, because it is less liquid than cash and receivables
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -969,10 +970,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which accounting policy change is considered a potential red flag for aggressive financial reporting??
-
 A) Extending useful life assumptions for capital assets to lower annual depreciation expense
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -991,10 +992,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Under the indirect method for operating cash flows, an increase in Accounts Payable during the period is:?
-
 A) Added back to net income, because it represents expenses incurred but not yet paid in cash
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1012,10 +1013,10 @@ C) Alternative incorrect option
 
 **Question:**
 When converting a firm's financial statements from LIFO to FIFO during a period of rising prices, FIFO Inventory equals:?
-
 A) LIFO Inventory + LIFO Reserve
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1033,10 +1034,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS revaluation model, an initial upward revaluation of PP&E above historical cost is recorded in:?
-
 A) Other Comprehensive Income (OCI) and accumulated in revaluation surplus in equity
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1054,10 +1055,10 @@ C) Alternative incorrect option
 
 **Question:**
 A corporation reports pretax financial income of $1,000,000. Statutory tax rate is 25%. Non-deductible executive compensation is $40,000. Effective tax expense is:?
-
 A) $260,000 (Tax Expense = 25% * ($1,000,000 + $40,000) = $260,000)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1076,10 +1077,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS, inventory is valued at lower of cost and Net Realizable Value (NRV). If NRV subsequently recovers, inventory write-downs:?
-
 A) Must be reversed up to the amount of the original write-down in profit or loss
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1097,10 +1098,10 @@ C) Alternative incorrect option
 
 **Question:**
 Capitalizing interest expense during the construction of a self-use building (instead of expensing it) causes:?
-
 A) Higher operating cash flows and higher net income during construction years
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1118,10 +1119,10 @@ C) Alternative incorrect option
 
 **Question:**
 A firm reports a Deferred Tax Liability (DTL) that is expected to reverse in future periods. In financial ratio analysis, DTL should be treated as:?
-
 A) Liability if reversal is expected, or Equity if reversal is unlikely to occur in the foreseeable future
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1140,10 +1141,10 @@ C) Alternative incorrect option
 
 **Question:**
 LIFO liquidation occurs when a firm using LIFO sells more units than it purchases during a period of rising prices. This results in:?
-
 A) Artificially inflated gross profit margins and higher net income due to matching old lower costs against current revenues
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1161,10 +1162,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under US GAAP, if an asset's carrying value exceeds its undiscovered future cash flows, the impairment loss equals:?
-
 A) Carrying value minus Fair value
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1182,10 +1183,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS 16, a lessor classifies a lease as a finance lease if:?
-
 A) Substantially all risks and rewards of ownership are transferred to the lessee
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1204,10 +1205,10 @@ C) Alternative incorrect option
 
 **Question:**
 Special Purpose Entities (SPEs) created for off-balance sheet financing must be consolidated under IFRS 10 if:?
-
 A) The sponsor entity controls the SPE by having exposure to variable returns and power over relevant activities
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1225,10 +1226,10 @@ C) Alternative incorrect option
 
 **Question:**
 When a firm extinguishes long-term debt early at a price below carrying value, the resulting gain is recognized in:?
-
 A) Income statement as part of continuing operations income
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1247,10 +1248,10 @@ C) Alternative incorrect option
 
 **Question:**
 During a period of rising inventory prices, a firm using FIFO reports lower Cost of Goods Sold (COGS) than under LIFO. To adjust FIFO COGS to LIFO COGS, an analyst should:?
-
 A) Add the change in the LIFO Reserve during the period to FIFO COGS
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1268,10 +1269,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS, interest paid and dividends received may be classified as operating cash flows OR:?
-
 A) Financing cash flows (for interest paid) or Investing cash flows (for dividends received)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1290,10 +1291,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS 16, a lessee recognizes a Right-of-Use asset and lease liability. Over the lease term, the total expense recognized:?
-
 A) Is front-loaded (higher in early years) due to higher interest expense on the larger initial liability balance
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1311,10 +1312,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS (IAS 36), an impairment loss allocated to a Cash-Generating Unit (CGU) is applied first to reduce:?
-
 A) Carrying amount of goodwill allocated to the CGU, then pro-rata to other non-current assets
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1332,10 +1333,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under US GAAP, a deferred tax asset valuation allowance is recognized when it is:?
-
 A) More likely than not (>50% probability) that some or all of the DTA will not be realized
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1354,10 +1355,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under IFRS 16, a lessee recognizes lease expense composed of depreciation and interest. Under US GAAP operating lease accounting, total lease expense is recognized:?
-
 A) As a single straight-line operating lease expense on the income statement
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1375,10 +1376,10 @@ C) Alternative incorrect option
 
 **Question:**
 A firm recorded an impairment loss on equipment in Year 1. In Year 2, asset recoverable amount increases. Reversal of the impairment loss is:?
-
 A) Permitted under IFRS up to original carrying amount, but prohibited under US GAAP
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1396,10 +1397,10 @@ C) Alternative incorrect option
 
 **Question:**
 Establishing or increasing a deferred tax asset valuation allowance under US GAAP results in:?
-
 A) Decreased net income and decreased carrying value of total assets
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1417,10 +1418,10 @@ C) Alternative incorrect option
 
 **Question:**
 When a firm using LIFO experiences inventory price inflation, an increase in the LIFO Reserve during the period:?
-
 A) Increases LIFO COGS, reducing net income and reducing tax payments, which increases operating cash flow
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1438,10 +1439,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under US GAAP, a long-lived asset held for use is tested for impairment recoverability in Step 1 by comparing carrying value to:?
-
 A) Total undiscounted expected future cash flows from the asset
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1459,10 +1460,10 @@ C) Alternative incorrect option
 
 **Question:**
 Under US GAAP, a enterprise must consolidate a Variable Interest Entity (VIE) if the enterprise:?
-
 A) Is the primary beneficiary that absorbs a majority of expected VIE losses or receives a majority of residual returns
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

@@ -6,10 +6,10 @@
 
 **Question:**
 Which market structure is characterized by many firms, differentiated products, low barriers to entry, and zero economic profit in the long run?
-
 A) Perfect competition
 B) Monopolistic competition
 C) Oligopoly
+
 
 **Correct Answer:** B
 
@@ -28,10 +28,10 @@ C) Oligopoly
 
 **Question:**
 A firm increases the price of its product by 5% and observes that quantity demanded decreases by 8%. Based on this, total revenue will most likely:
-
 A) Increase
 B) Decrease
 C) Remain unchanged
+
 
 **Correct Answer:** B
 
@@ -51,10 +51,10 @@ C) Remain unchanged
 
 **Question:**
 A firm sells its product for $25 per unit. Variable cost is $15 per unit and total fixed costs are $50,000. The firm currently produces and sells 4,000 units. Which of the following is most accurate?
-
 A) The firm is breaking even
 B) The firm should continue operating but is not breaking even
 C) The firm is making a profit but below breakeven
+
 
 **Correct Answer:** B
 
@@ -74,10 +74,10 @@ C) The firm is making a profit but below breakeven
 
 **Question:**
 During the expansion phase of a business cycle, which of the following is most likely to occur?
-
 A) Rising unemployment and falling inflation
 B) Falling unemployment and rising inflation
 C) Rising unemployment and rising inflation
+
 
 **Correct Answer:** B
 
@@ -96,10 +96,10 @@ C) Rising unemployment and rising inflation
 
 **Question:**
 Given the following data for a country (in billions): Consumption = $800, Investment = $200, Government Spending = $300, Exports = $150, Imports = $200. GDP is closest to:
-
 A) $1,150
 B) $1,250
 C) $1,450
+
 
 **Correct Answer:** B
 
@@ -119,10 +119,10 @@ C) $1,450
 
 **Question:**
 A central bank observes inflation above its target and an economy operating above potential GDP. The most appropriate monetary policy action is to:
-
 A) Decrease the policy interest rate and buy government bonds
 B) Increase the policy interest rate and sell government bonds
 C) Decrease government spending and increase taxes
+
 
 **Correct Answer:** B
 
@@ -141,10 +141,10 @@ C) Decrease government spending and increase taxes
 
 **Question:**
 If the nominal interest rate is 7% and the expected inflation rate is 3%, the real interest rate is closest to:
-
 A) 3.00%
 B) 3.88%
 C) 4.00%
+
 
 **Correct Answer:** C
 
@@ -164,10 +164,10 @@ C) 4.00%
 
 **Question:**
 Country A can produce 10 units of wheat or 5 units of steel per labor hour. Country B can produce 8 units of wheat or 2 units of steel per labor hour. According to comparative advantage:
-
 A) Country A should produce both goods because it has absolute advantage in both
 B) Country A should specialize in steel and Country B in wheat
 C) Country A should specialize in wheat and Country B in steel
+
 
 **Correct Answer:** B
 
@@ -190,10 +190,10 @@ Country B has lower opportunity cost for wheat (0.25 < 0.5 steel per wheat), so 
 
 **Question:**
 The current spot exchange rate is quoted as EUR/USD = 1.1000. The one-year risk-free rate is 5% in the US and 2% in the Eurozone. The one-year forward exchange rate (EUR/USD) is closest to:
-
 A) 1.0686
 B) 1.1000
 C) 1.1314
+
 
 **Correct Answer:** A
 
@@ -260,10 +260,10 @@ So D (1.1330) is correct. Let me fix this.
 
 **Question:**
 Which of the following is an example of expansionary fiscal policy?
-
 A) The central bank lowers the policy interest rate
 B) The government increases infrastructure spending
 C) The central bank purchases government bonds
+
 
 **Correct Answer:** B
 
@@ -282,10 +282,10 @@ C) The central bank purchases government bonds
 
 **Question:**
 A sharp increase in oil prices due to geopolitical tensions causes the overall price level to rise. This is best described as:
-
 A) Demand-pull inflation
 B) Cost-push inflation
 C) Monetary inflation
+
 
 **Correct Answer:** B
 
@@ -304,10 +304,10 @@ C) Monetary inflation
 
 **Question:**
 The nominal exchange rate is 0.85 USD/EUR. The US CPI is 120 and the Eurozone CPI is 110. The real exchange rate (USD/EUR) is closest to:
-
 A) 0.78
 B) 0.85
 C) 0.93
+
 
 **Correct Answer:** C
 
@@ -375,10 +375,10 @@ So: 0.85 × 110/120 = 0.779 ≈ 0.78. Let me go with A.
 
 **Question:**
 Which of the following transactions would be recorded in the current account of a country's balance of payments?
-
 A) A foreign investor purchases domestic government bonds
 B) A domestic company builds a factory in a foreign country
 C) A domestic resident receives dividend income from foreign investments
+
 
 **Correct Answer:** C
 
@@ -397,10 +397,10 @@ C) A domestic resident receives dividend income from foreign investments
 
 **Question:**
 In an oligopolistic market, firms independently choose output quantities, each assuming the other's output will remain constant. This describes which model?
-
 A) Cournot model
 B) Stackelberg model
 C) Bertrand model
+
 
 **Correct Answer:** A
 
@@ -419,10 +419,10 @@ C) Bertrand model
 
 **Question:**
 According to the quantity theory of money, if the money supply grows at 6%, real GDP grows at 2%, and the velocity of money is constant, the nominal interest rate is most likely:
-
 A) 4%
 B) Cannot be determined without knowing the real interest rate
 C) Higher than the real interest rate
+
 
 **Correct Answer:** B
 
@@ -443,10 +443,10 @@ C) Higher than the real interest rate
 
 **Question:**
 In a duopoly game theory scenario, two competing firms must independently choose whether to set a "High Price" or a "Low Price." A Nash Equilibrium is reached when:
-
 A) Neither firm can increase its payoff by unilaterally changing its chosen strategy
 B) Both firms cooperate to maximize their combined joint industry profits
 C) Total economic surplus in the market is maximized
+
 
 **Correct Answer:** A
 
@@ -466,10 +466,10 @@ C) Total economic surplus in the market is maximized
 
 **Question:**
 According to the kinked demand curve model of oligopoly, the demand curve facing an individual firm is highly ELASTIC for price increases above the prevailing price, but highly INELASTIC for price decreases below it. This model explains why:
-
 A) Oligopoly firms continuously engage in price wars
 B) Market prices in oligopoly markets tend to exhibit price rigidity
 C) Marginal revenue is equal to price at all output levels
+
 
 **Correct Answer:** B
 
@@ -489,10 +489,10 @@ C) Marginal revenue is equal to price at all output levels
 
 **Question:**
 If a central bank sets a reserve requirement ratio of 8.0% for commercial banks and commercial banks hold zero excess reserves, the potential money multiplier is closest to:
-
 A) 8.0
 B) 12.5
 C) 80.0
+
 
 **Correct Answer:** B
 
@@ -517,10 +517,10 @@ $1 / 0.08 = 12.50$
 
 **Question:**
 An economy has a marginal propensity to consume (MPC) of 0.80 and a marginal tax rate ($t$) of 25%. If the government increases government spending by $40 billion, the total estimated increase in aggregate demand (GDP) is:
-
 A) $80 billion
 B) $100 billion
 C) $160 billion
+
 
 **Correct Answer:** B
 
@@ -548,10 +548,10 @@ $$\Delta \text{GDP} = \Delta G \times m_{\text{fiscal}} = \$40\text{ billion} \t
 
 **Question:**
 When a central bank conducts Open Market Operations by PURCHASING government securities from commercial banks, the immediate impact on bank reserves, short-term interest rates, and the monetary base is:
-
 A) Bank reserves decrease, short-term interest rates rise, and monetary base contracts
 B) Bank reserves increase, short-term interest rates fall, and monetary base expands
 C) Bank reserves increase, short-term interest rates rise, and monetary base contracts
+
 
 **Correct Answer:** B
 
@@ -571,10 +571,10 @@ C) Bank reserves increase, short-term interest rates rise, and monetary base con
 
 **Question:**
 Which of the following statements comparing the Consumer Price Index (CPI) and the GDP Deflator is most accurate?
-
 A) CPI measures prices of all goods and services produced domestically, including capital goods
 B) CPI measures prices of a fixed basket of goods consumed by households, including imported consumer goods
 C) Both CPI and GDP Deflator use fixed-basket weights (Laspeyres index approach)
+
 
 **Correct Answer:** B
 
@@ -596,10 +596,10 @@ C) Both CPI and GDP Deflator use fixed-basket weights (Laspeyres index approach)
 
 **Question:**
 The nominal exchange rate is 1.20 USD per EUR ($S_{\text{USD/EUR}} = 1.20$). The CPI in the US is 110 ($P_{\text{US}} = 110$) and the CPI in the Eurozone is 105 ($P_{\text{Eurozone}} = 105$). The real exchange rate ($R_{\text{USD/EUR}}$) expressed as US goods per Eurozone good is closest to:
-
 A) 1.145
 B) 1.257
 C) 1.320
+
 
 **Correct Answer:** A
 
@@ -631,10 +631,10 @@ An FX dealer observes the following spot cross-rates:
 * GBP/EUR cross-rate = 0.8000
 
 Is triangular arbitrage possible, and what is the implied consistent GBP/EUR rate?
-
 A) Arbitrage is not possible because implied rate equals 0.8000
 B) Arbitrage is possible because implied GBP/EUR rate is 0.8462
 C) Arbitrage is possible because implied GBP/EUR rate is 1.1818
+
 
 **Correct Answer:** B
 
@@ -659,10 +659,10 @@ $1.1000 / 1.3000 = 0.84615 \to 0.8462$
 
 **Question:**
 According to the Ricardian Equivalence proposition, a tax cut funded by issuing government debt will have which effect on aggregate demand?
-
 A) Significantly increase aggregate demand as households spend the tax savings
 B) Have zero net effect on aggregate demand because forward-looking households save the tax savings to pay future taxes
 C) Decrease aggregate demand due to immediate inflation crowding out
+
 
 **Correct Answer:** B
 
@@ -682,10 +682,10 @@ C) Decrease aggregate demand due to immediate inflation crowding out
 
 **Question:**
 If a nation runs a persistent Current Account deficit (imports > exports), which of the following MUST occur on its Capital/Financial Account (assuming zero change in official reserves)?
-
 A) A capital/financial account deficit of equal magnitude
 B) A capital/financial account surplus of equal magnitude
 C) A decline in domestic interest rates to restore equilibrium
+
 
 **Correct Answer:** B
 
@@ -709,16 +709,18 @@ A net negative Current Account balance (deficit) must be offset by a net positiv
 
 **Question:**
 The nominal exchange rate is $1.25$ USD per EUR ($S_{	ext{USD/EUR}} = 1.25$). The price level in the Eurozone ($P_{	ext{EUR}}$) is 110, and the price level in the US ($P_{	ext{USD}}$) is 100. The **real exchange rate** ($q_{	ext{USD/EUR}}$) is closest to:
-
 A) 1.14
 B) 1.38
 C) 1.50
 
+
 **Correct Answer:** B
 
 **Explanation:** Real Exchange Rate Calculation:
-$$q_{	ext{d/f}} = S_{	ext{d/f}} 	imes \left(rac{P_{	ext{foreign}}}{P_{	ext{domestic}}}ight)$$
-$$q_{	ext{USD/EUR}} = 1.25 	imes \left(rac{110}{100}ight) = 1.25 	imes 1.10 = 1.375 pprox 1.38$$
+$$q_{	ext{d/f}} = S_{	ext{d/f}} 	imes \left(rac{P_{	ext{foreign}}}{P_{	ext{domestic}}}
+ight)$$
+$$q_{	ext{USD/EUR}} = 1.25 	imes \left(rac{110}{100}
+ight) = 1.25 	imes 1.10 = 1.375 pprox 1.38$$
 
 **TI BA II Plus Keystrokes:**
 $1.25 	imes (110 / 100) = 1.375 	o 1.38$
@@ -737,10 +739,10 @@ $1.25 	imes (110 / 100) = 1.375 	o 1.38$
 
 **Question:**
 Compared to an import tariff that generates equivalent price increases, an **import quota** results in:
-
 A) Greater government tariff revenue
 B) Transfer of quota rents to foreign exporters if licenses are granted to foreign firms
 C) Zero deadweight loss to the domestic economy
+
 
 **Correct Answer:** B
 
@@ -760,10 +762,10 @@ C) Zero deadweight loss to the domestic economy
 
 **Question:**
 Which of the following is included in a nation's GDP measured by the expenditure approach??
-
 A) Gross private domestic investment and net exports of goods and services
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -781,10 +783,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 An increase in real interest rates typically causes Aggregate Demand (AD) to:?
-
 A) Decrease, because higher borrowing costs reduce consumer spending and capital investment
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -802,10 +804,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In the long run, the aggregate supply curve (LRAS) is vertical at potential GDP because:?
-
 A) Wages and input prices fully adjust to price level changes
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -823,10 +825,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which economic indicator is considered a leading indicator of business cycle turns??
-
 A) Average weekly initial claims for unemployment insurance
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -844,10 +846,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Cost-push inflation is caused by:?
-
 A) A decrease in Aggregate Supply due to rising wage or commodity input costs
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -865,10 +867,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The fiscal spending multiplier is larger than the tax cut multiplier because:?
-
 A) Government spending enters directly into GDP, whereas tax cuts are partially saved
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -886,10 +888,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Central banks with high operational and target independence generally achieve:?
-
 A) Lower and more stable inflation rates compared to politized central banks
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -907,10 +909,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??
-
 A) Financial Account
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -928,10 +930,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A country has a comparative advantage in producing a good if it:?
-
 A) Can produce the good at a lower opportunity cost than trading partners
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -949,10 +951,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The foreign exchange market is best characterized as a:?
-
 A) Global over-the-counter (OTC) 24-hour interbank network
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -970,10 +972,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 If covered interest rate parity holds, any interest rate differential between two currencies equals:?
-
 A) The forward premium or discount on the foreign currency
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -991,10 +993,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A persistent current account deficit must be offset by a net capital inflow in the:?
-
 A) Capital and Financial Accounts
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1012,10 +1014,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A fixed peg exchange rate regime requires a central bank to maintain foreign reserves to:?
-
 A) Intervene in foreign exchange markets to maintain the target peg parity
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1034,10 +1036,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which of the following is included in a nation's GDP measured by the expenditure approach??
-
 A) Gross private domestic investment and net exports of goods and services
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1055,10 +1057,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 An increase in real interest rates typically causes Aggregate Demand (AD) to:?
-
 A) Decrease, because higher borrowing costs reduce consumer spending and capital investment
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1076,10 +1078,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In the long run, the aggregate supply curve (LRAS) is vertical at potential GDP because:?
-
 A) Wages and input prices fully adjust to price level changes
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1097,10 +1099,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which economic indicator is considered a leading indicator of business cycle turns??
-
 A) Average weekly initial claims for unemployment insurance
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1118,10 +1120,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Cost-push inflation is caused by:?
-
 A) A decrease in Aggregate Supply due to rising wage or commodity input costs
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1139,10 +1141,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The fiscal spending multiplier is larger than the tax cut multiplier because:?
-
 A) Government spending enters directly into GDP, whereas tax cuts are partially saved
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1160,10 +1162,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Central banks with high operational and target independence generally achieve:?
-
 A) Lower and more stable inflation rates compared to politized central banks
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1181,10 +1183,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??
-
 A) Financial Account
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1202,10 +1204,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A country has a comparative advantage in producing a good if it:?
-
 A) Can produce the good at a lower opportunity cost than trading partners
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1223,10 +1225,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The foreign exchange market is best characterized as a:?
-
 A) Global over-the-counter (OTC) 24-hour interbank network
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1244,10 +1246,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 If covered interest rate parity holds, any interest rate differential between two currencies equals:?
-
 A) The forward premium or discount on the foreign currency
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1265,10 +1267,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A persistent current account deficit must be offset by a net capital inflow in the:?
-
 A) Capital and Financial Accounts
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1286,10 +1288,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A fixed peg exchange rate regime requires a central bank to maintain foreign reserves to:?
-
 A) Intervene in foreign exchange markets to maintain the target peg parity
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1308,10 +1310,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 If the cross-price elasticity of demand between Good X and Good Y is +1.5, Good X and Good Y are best classified as:?
-
 A) Substitute goods, because an increase in the price of Y causes demand for X to increase
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1329,10 +1331,10 @@ C) Alternative incorrect option
 
 **Question:**
 A profit-maximizing monopolist sets production output at the level where:?
-
 A) Marginal Revenue equals Marginal Cost (MR = MC), pricing along the demand curve
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1350,10 +1352,10 @@ C) Alternative incorrect option
 
 **Question:**
 According to the Fisher Effect, an increase in expected inflation of 2% will cause nominal interest rates to:?
-
 A) Increase by 2% in the long run to preserve real interest rates
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1371,10 +1373,10 @@ C) Alternative incorrect option
 
 **Question:**
 When a central bank purchases government bonds through open market operations, short-term interest rates:?
-
 A) Decrease, boosting commercial bank excess reserves and money supply growth
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1393,10 +1395,10 @@ C) Alternative incorrect option
 
 **Question:**
 For a **Giffen good**, an increase in price leads to an increase in quantity demanded because:?
-
 A) The negative income effect outweighs the positive substitution effect for an inferior good
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1414,10 +1416,10 @@ C) Alternative incorrect option
 
 **Question:**
 Nominal GDP grew by 8% while Real GDP grew by 5%. The implicit GDP deflator inflation rate is closest to:?
-
 A) 2.86% (GDP Deflator = Nominal GDP / Real GDP = 1.08 / 1.05 = 1.0286)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1435,10 +1437,10 @@ C) Alternative incorrect option
 
 **Question:**
 If a central bank lowers the required reserve ratio for commercial banks, the money multiplier and money supply will:?
-
 A) Increase, boosting credit expansion capability across the banking sector
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1457,10 +1459,10 @@ C) Alternative incorrect option
 
 **Question:**
 If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 4 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for:?
-
 A) 3 units of Cloth (between the opportunity costs of 2 and 4)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1479,10 +1481,10 @@ C) Alternative incorrect option
 
 **Question:**
 Which economic indicator is classified as a lagging indicator of business cycle turns??
-
 A) Average duration of unemployment and commercial bank prime lending rate
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1501,10 +1503,10 @@ C) Alternative incorrect option
 
 **Question:**
 An oligopolistic market structure characterized by a dominant firm pricing under the dominant firm model leads to market price equal to:?
-
 A) The price set by the dominant firm where its marginal revenue equals marginal cost
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1523,10 +1525,10 @@ C) Alternative incorrect option
 
 **Question:**
 When a central bank increases its target policy rate, commercial bank lending rates increase, leading to:?
-
 A) Lower credit expansion, reduced business investment, and slower aggregate demand growth
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1544,10 +1546,10 @@ C) Alternative incorrect option
 
 **Question:**
 An import tariff imposed by a small country causes domestic price to rise to the world price plus tariff. The net national welfare loss equals:?
-
 A) The combined area of domestic production distortion and consumption distortion deadweight loss triangles
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

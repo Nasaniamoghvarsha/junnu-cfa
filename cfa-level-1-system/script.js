@@ -324,26 +324,50 @@ function setupInteractiveQuestions(container) {
       const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
 
       let stemText = '';
-      const stemMatch = blockText.match(/Question:\s*([\s\S]*?)(?=A\)|B\)|C\)|Correct Answer:|$)/i);
+      const stemMatch = blockText.match(/Question:\s*([\s\S]*?)(?=A[\)\.]|B[\)\.]|C[\)\.]|Correct Answer:|$)/i);
       if (stemMatch) {
         stemText = stemMatch[1].trim();
       }
 
+      // Smart Multi-Option Extractor (handles separate lines AND single-line options)
       const options = [];
-      const lines = blockText.split('\n');
-      lines.forEach(line => {
-        const m = line.trim().match(/^([A-C])\)\s*(.*)/);
-        if (m && !options.some(o => o.letter === m[1])) {
-          options.push({ letter: m[1], text: m[2].trim() });
-        }
-      });
 
+      function cleanOptionString(s) {
+        if (!s) return '';
+        return s.trim()
+          .replace(/^A[\)\.]?\s*/i, '')
+          .replace(/^B[\)\.]?\s*/i, '')
+          .replace(/^C[\)\.]?\s*/i, '')
+          .replace(/\s*(?:Correct Answer:|Explanation:|Wrong Answer Analysis:).*$/i, '')
+          .replace(/\n/g, ' ')
+          .trim();
+      }
+
+      const optAReg = /(?:^|\s|\n)A[\)\.]?\s*([\s\S]*?)(?=(?:^|\s|\n)B[\)\.]?|Correct Answer:|$)/i;
+      const optBReg = /(?:^|\s|\n)B[\)\.]?\s*([\s\S]*?)(?=(?:^|\s|\n)C[\)\.]?|Correct Answer:|$)/i;
+      const optCReg = /(?:^|\s|\n)C[\)\.]?\s*([\s\S]*?)(?=(?:^|\s|\n)Correct Answer:|Explanation:|$)/i;
+
+      const matchA = blockText.match(optAReg);
+      const matchB = blockText.match(optBReg);
+      const matchC = blockText.match(optCReg);
+
+      if (matchA && cleanOptionString(matchA[1])) {
+        options.push({ letter: 'A', text: cleanOptionString(matchA[1]) });
+      }
+      if (matchB && cleanOptionString(matchB[1])) {
+        options.push({ letter: 'B', text: cleanOptionString(matchB[1]) });
+      }
+      if (matchC && cleanOptionString(matchC[1])) {
+        options.push({ letter: 'C', text: cleanOptionString(matchC[1]) });
+      }
+
+      // Fallback line parsing
       if (options.length < 3) {
-        ['A', 'B', 'C'].forEach(let => {
-          if (!options.some(o => o.letter === let)) {
-            const reg = new RegExp(let + '\\)\\s*([^\\n]+)');
-            const m = blockText.match(reg);
-            if (m) options.push({ letter: let, text: m[1].trim() });
+        const lineList = blockText.split('\n');
+        lineList.forEach(line => {
+          const m = line.trim().match(/^([A-C])[\)\.]?\s*(.*)/);
+          if (m && !options.some(o => o.letter === m[1].toUpperCase())) {
+            options.push({ letter: m[1].toUpperCase(), text: cleanOptionString(m[2]) });
           }
         });
       }
@@ -441,27 +465,25 @@ function selectQuestionOption(button, selectedOption) {
     statusBadge.className = 'q-status-badge status-correct';
     statusBadge.textContent = 'CORRECT 🟢';
     expHeader.className = 'exp-header correct-title';
-    expHeader.innerHTML = '✔ Excellent! Correct Answer: Option ' + correctOption;
+    expHeader.innerHTML = '<span class="exp-icon">✔</span> Excellent! Option ' + correctOption + ' is correct.';
   } else {
     button.classList.add('selected-incorrect');
     card.classList.add('answered-incorrect');
     statusBadge.className = 'q-status-badge status-incorrect';
     statusBadge.textContent = 'INCORRECT 🔴';
     expHeader.className = 'exp-header incorrect-title';
-    expHeader.innerHTML = '❌ Incorrect. Correct Answer is Option ' + correctOption;
+    expHeader.innerHTML = '<span class="exp-icon">❌</span> Incorrect. You selected Option ' + selectedOption + '. Correct Answer is Option ' + correctOption + '.';
 
     // Highlight correct option
     allButtons.forEach(btn => {
-      if (btn.querySelector('.opt-letter').textContent.trim() === correctOption) {
+      const letterNode = btn.querySelector('.opt-letter');
+      if (letterNode && letterNode.textContent.trim() === correctOption) {
         btn.classList.add('reveal-correct');
       }
     });
   }
 
-  // Smoothly reveal explanation box
   explanationBox.style.display = 'block';
-
-  // Update page progress stats
   updateExamProgressTracker();
 }
 

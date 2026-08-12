@@ -6,10 +6,10 @@
 
 **Question:**
 A 5-year bond with a face value of $1,000 pays an annual coupon of 6%. The yield to maturity is 8%. The bond price is closest to:
-
 A) $920.15
 B) $960.07
 C) $1,000.00
+
 
 **Correct Answer:** A
 
@@ -33,10 +33,10 @@ Or: P = 60/1.08 + 60/1.08² + 60/1.08³ + 60/1.08⁴ + 1060/1.08⁵ = 55.56 + 51
 
 **Question:**
 Compared to an otherwise identical option-free bond, a callable bond will most likely have:
-
 A) Higher price and lower yield
 B) Lower price and higher yield
 C) Same price but lower duration
+
 
 **Correct Answer:** B
 
@@ -56,10 +56,10 @@ C) Same price but lower duration
 
 **Question:**
 A bond with a 6% annual coupon (paid semi-annually) is quoted at a flat price of $980. It has been 60 days since the last coupon payment, and the coupon period is 180 days. The full (dirty) price is closest to:
-
 A) $970.00
 B) $980.00
 C) $990.00
+
 
 **Correct Answer:** C
 
@@ -79,10 +79,10 @@ C) $990.00
 
 **Question:**
 A bond has a Macaulay duration of 7.2 years and a YTM of 6% (annual-pay). The modified duration is closest to:
-
 A) 6.79
 B) 7.20
 C) 7.63
+
 
 **Correct Answer:** A
 
@@ -104,10 +104,10 @@ Modified duration measures the percentage price change for a 1% (100 bps) change
 
 **Question:**
 Which of the following bonds will have the highest Macaulay duration, all else equal?
-
 A) A 10-year zero-coupon bond
 B) A 10-year bond with a 10% coupon
 C) A 10-year bond with a 5% coupon
+
 
 **Correct Answer:** A
 
@@ -126,10 +126,10 @@ C) A 10-year bond with a 5% coupon
 
 **Question:**
 A bond has modified duration of 6.5 and convexity of 45. If the YTM decreases by 150 basis points, the estimated percentage price change is closest to:
-
 A) +9.75%
 B) +10.26%
 C) +10.76%
+
 
 **Correct Answer:** B
 
@@ -158,10 +158,10 @@ Without convexity: 6.5 × 0.015 = 9.75% (understates). Convexity adds about 51 b
 
 **Question:**
 A bond with a face value of $1,000, a coupon rate of 5%, and a current market price of $900 has a current yield closest to:
-
 A) 5.00%
 B) 5.56%
 C) 5.88%
+
 
 **Correct Answer:** B
 
@@ -181,10 +181,10 @@ C) 5.88%
 
 **Question:**
 The 2-year spot rate is 3% and the 3-year spot rate is 4%. The 1-year forward rate two years from now (2y1y) is closest to:
-
 A) 5.00%
 B) 6.03%
 C) 6.00%
+
 
 **Correct Answer:** B
 
@@ -209,10 +209,10 @@ C) 6.00%
 
 **Question:**
 For a callable corporate bond, the option-adjusted spread (OAS) compared to its Z-spread is most likely:
-
 A) Higher
 B) Lower
 C) Equal
+
 
 **Correct Answer:** B
 
@@ -232,10 +232,10 @@ C) Equal
 
 **Question:**
 Credit risk consists of which two components?
-
 A) Market risk and liquidity risk
 B) Default probability and loss severity
 C) Interest rate risk and reinvestment risk
+
 
 **Correct Answer:** B
 
@@ -255,10 +255,10 @@ C) Interest rate risk and reinvestment risk
 
 **Question:**
 If investors believe that short-term rates will remain unchanged but demand a premium for holding longer-term bonds, the yield curve will most likely be:
-
 A) Flat
 B) Upward sloping
 C) Downward sloping
+
 
 **Correct Answer:** B
 
@@ -277,10 +277,10 @@ C) Downward sloping
 
 **Question:**
 A 180-day T-bill with a face value of $10,000 is priced at $9,800. The discount rate is closest to:
-
 A) 2.00%
 B) 4.00%
 C) 4.08%
+
 
 **Correct Answer:** B
 
@@ -305,10 +305,10 @@ The bond equivalent yield (BEY) uses 365-day year: ($200/$9,800) × (365/180) = 
 
 **Question:**
 Which of the following is most likely an affirmative covenant in a bond indenture?
-
 A) A restriction on the issuance of additional debt
 B) A requirement to maintain a minimum interest coverage ratio
 C) A restriction on the sale of assets
+
 
 **Correct Answer:** B
 
@@ -327,10 +327,10 @@ C) A restriction on the sale of assets
 
 **Question:**
 A bond portfolio has a market value of $10 million, modified duration of 6.0, and convexity of 25. If the portfolio manager wants to reduce the portfolio's modified duration to 4.0 using a bond futures contract with modified duration of 8.0 and contract value of $100,000, how many futures contracts should be sold? (Assume the CTD bond has a conversion factor of 1.0.)
-
 A) 25
 B) 50
 C) 125
+
 
 **Correct Answer:** A
 
@@ -351,10 +351,10 @@ Negative means SELL 25 contracts. Selling futures reduces the portfolio's durati
 
 **Question:**
 When interest rates decline, mortgage-backed security (MBS) investors face:
-
 A) Extension risk because homeowners refinance less
 B) Contraction risk because homeowners refinance more
 C) No prepayment risk because MBS are government guaranteed
+
 
 **Correct Answer:** B
 
@@ -373,10 +373,10 @@ C) No prepayment risk because MBS are government guaranteed
 
 **Question:**
 A semi-annual coupon bond with a par value of $1,000 and a 6% annual coupon is priced at a flat (clean) price of $980.00. The last coupon was paid 90 days ago, and the current coupon period has 180 days. The full (dirty) price of the bond is closest to:
-
 A) $985.00
 B) $995.00
 C) $1,010.00
+
 
 **Correct Answer:** B
 
@@ -403,10 +403,10 @@ $$\text{Full (Dirty) Price} = \text{Clean Price} + \text{Accrued Interest} = \$9
 
 **Question:**
 A 90-day T-bill with a face value of $1,000 is selling for $985. Which of the following statements regarding its Bank Discount Yield (BDY) and Bond Equivalent Yield (BEY) is most accurate?
-
 A) BEY is higher than BDY because BEY uses a 365-day year and purchase price as denominator
 B) BDY is higher than BEY because BDY uses a 360-day year
 C) BEY and BDY are equal for all short-term money market instruments
+
 
 **Correct Answer:** A
 
@@ -433,10 +433,10 @@ BEY is ALWAYS higher than BDY because: (1) BEY uses purchase price ($985$) in th
 
 **Question:**
 Given the 1-year spot rate $S_1 = 4.0\%$ and the 2-year spot rate $S_2 = 5.0\%$, the 1-year forward rate starting 1 year from today, $f(1,1)$, is closest to:
-
 A) 4.50%
 B) 6.01%
 C) 7.00%
+
 
 **Correct Answer:** B
 
@@ -463,10 +463,10 @@ $1.05^2 / 1.04 - 1 = 0.060096 \to 6.01\%$
 
 **Question:**
 A portfolio of fixed income securities has a Modified Duration of 7.5 years and a Money Duration of $15,000,000. If market yield increases by 40 basis points (0.40%), the estimated percentage price change of the portfolio is closest to:
-
 A) -3.00%
 B) -6.00%
 C) -30.00%
+
 
 **Correct Answer:** A
 
@@ -493,10 +493,10 @@ $-7.5 \times 0.0040 = -0.03 \to -3.00\%$
 
 **Question:**
 A 10-year bond has a Modified Duration of 8.0 years and a Convexity of 80.0. If yields decrease by 100 basis points (-1.00%), the total estimated percentage change in bond price (including convexity adjustment) is closest to:
-
 A) +7.60%
 B) +8.40%
 C) +8.80%
+
 
 **Correct Answer:** B
 
@@ -527,10 +527,10 @@ Convexity ALWAYS acts as a positive adjustment to price for option-free bonds re
 
 **Question:**
 A callable bond exhibits "negative convexity" when market yields drop significantly below the bond's coupon rate. This negative convexity occurs because:
-
 A) The issuer is likely to call the bond, capping price appreciation near the call price
 B) Duration increases rapidly as interest rates drop
 C) Coupon payments decrease automatically when interest rates fall
+
 
 **Correct Answer:** A
 
@@ -550,10 +550,10 @@ C) Coupon payments decrease automatically when interest rates fall
 
 **Question:**
 Why MUST Effective Duration be used instead of Modified Duration when analyzing bonds with embedded options (such as callable or putable bonds)?
-
 A) Modified Duration assumes future cash flows do not change when interest rates change
 B) Effective Duration ignores convexity adjustments
 C) Modified Duration can only be calculated for zero-coupon bonds
+
 
 **Correct Answer:** A
 
@@ -573,10 +573,10 @@ C) Modified Duration can only be calculated for zero-coupon bonds
 
 **Question:**
 The yield spread on a corporate bond over a risk-free benchmark government bond reflects compensation for:
-
 A) Credit risk and liquidity risk only
 B) Credit risk, liquidity risk, and tax treatment differences
 C) Default risk only
+
 
 **Correct Answer:** B
 
@@ -596,10 +596,10 @@ C) Default risk only
 
 **Question:**
 In traditional credit analysis, evaluating a corporate borrower's leverage, interest coverage ratios, and cash flow predictability falls under which of the "4 Cs of Credit"?
-
 A) Character
 B) Capacity
 C) Collateral
+
 
 **Correct Answer:** B
 
@@ -619,10 +619,10 @@ C) Collateral
 
 **Question:**
 A portfolio manager holds a 5-year corporate bond with a par value of $1,000. Credit rating models estimate a 5-year cumulative Probability of Default (PD) of 4.0% and a Loss Given Default (LGD) of 60% (Recovery Rate = 40%). The expected loss from default over 5 years is:
-
 A) $24.00
 B) $40.00
 C) $60.00
+
 
 **Correct Answer:** A
 
@@ -650,10 +650,10 @@ $1,000 \times 0.04 \times 0.60 = 24.00$
 
 **Question:**
 Affirmative bond covenants typically require the bond issuer to:?
-
 A) Maintain adequate collateral insurance and pay taxes on time
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -671,10 +671,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Bond price-yield curves exhibit positive convexity, meaning bond price increases when yields fall are:?
-
 A) Larger than bond price decreases when yields rise by an equal amount
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -692,10 +692,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Modified duration measures the percentage price change of a bond per 100 bps change in:?
-
 A) Yield to maturity (YTM)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -713,10 +713,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 For a callable bond trading near its call price, effective duration is:?
-
 A) Lower than that of an equivalent option-free bond due to price capping
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -734,10 +734,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Credit spread risk refers to the risk of bond price decline resulting from:?
-
 A) An increase in the market credit spread required over the benchmark risk-free rate
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -755,10 +755,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In a securitized asset-backed structure, credit tranching protects senior bondholders by:?
-
 A) Absorbing first losses in junior (subordinated/equity) tranches
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -776,10 +776,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 CMBS structures protect investors against prepayment risk primarily through:?
-
 A) Loan-level call protection mechanisms such as defeasance or prepayment penalties
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -798,10 +798,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A 10-year zero-coupon bond with a YTM of 5% has a Macaulay duration equal to:?
-
 A) 10.0 years (Macaulay duration of a zero-coupon bond equals its maturity)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -819,10 +819,10 @@ C) Alternative incorrect option
 
 **Question:**
 A steepening of the yield curve occurs when long-term bond yields increase by:?
-
 A) A greater amount than short-term bond yields
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -840,10 +840,10 @@ C) Alternative incorrect option
 
 **Question:**
 Extension risk in Mortgage-Backed Securities (MBS) occurs when interest rates rise, causing:?
-
 A) Prepayments to slow down, extending the average life of the MBS portfolio
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -862,10 +862,10 @@ C) Alternative incorrect option
 
 **Question:**
 A 5-year coupon bond has an effective duration of 4.2 and effective convexity of 22.0. If yields decline by 100 bps (-1.0%), the estimated percentage price change is:?
-
 A) +4.31% (% Change = -Duration * dY + 0.5 * Convexity * (dY)^2 = -4.2 * (-0.01) + 0.5 * 22 * (0.01)^2 = 0.042 + 0.0011 = 4.31%)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -883,10 +883,10 @@ C) Alternative incorrect option
 
 **Question:**
 In a sequential-pay CMO structure, principal prepayments are directed first to:?
-
-A) Tranche A (the shortest-maturity tranche) until fully retired before paying Tranche B
-B) Secondary distractor reflecting common misconception
+A) Tranche A (the shortest-maturity tranche) until fully retired before paying Tranche
+B) B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -905,10 +905,10 @@ C) Alternative incorrect option
 
 **Question:**
 For a bond with an embedded call option, the Option-Adjusted Spread (OAS) relative to its Z-spread is:?
-
 A) Lower than the Z-spread, because OAS removes the cost of the call option
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -926,10 +926,10 @@ C) Alternative incorrect option
 
 **Question:**
 A credit rating transition matrix displays:?
-
 A) The probability that a bond of a given rating will be upgraded, downgraded, or default over a specified timeframe
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -947,10 +947,10 @@ C) Alternative incorrect option
 
 **Question:**
 Auto loan ABS prepayments are typically measured using the:?
-
 A) Absolute Prepayment Speed (ABS) metric
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -969,10 +969,10 @@ C) Alternative incorrect option
 
 **Question:**
 Single Monthly Mortality (SMM) measures the percentage of remaining mortgage principal prepaid in:?
-
 A) A single month relative to expected scheduled principal payments
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -990,10 +990,10 @@ C) Alternative incorrect option
 
 **Question:**
 Sovereign CDS credit events typically include bankruptcy, failure to pay, and:?
-
 A) Restructuring or debt repudiation/moratorium by the issuing sovereign government
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1012,10 +1012,10 @@ C) Alternative incorrect option
 
 **Question:**
 A 90-day bank bill with par value $1,000,000 trades at a discount rate of 4.0%. Its purchase price is:?
-
 A) $990,000 (Price = Par * [1 - (Days/360) * Discount Rate] = $1,000,000 * [1 - (90/360)*0.04] = $990,000)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1034,10 +1034,10 @@ C) Alternative incorrect option
 
 **Question:**
 For a bond with positive convexity, when market yields change by +/- 200 bps, the duration-predicted price change:?
-
 A) Underestimates price increases when yields fall, and overestimates price declines when yields rise
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1055,10 +1055,10 @@ C) Alternative incorrect option
 
 **Question:**
 To immunize a single-liability fixed income portfolio against interest rate risk, the portfolio manager must ensure:?
-
 A) Portfolio Macaulay duration equals the liability investment horizon, and PV of assets equals PV of liabilities
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1076,10 +1076,10 @@ C) Alternative incorrect option
 
 **Question:**
 The upfront premium paid on a Credit Default Swap (CDS) equals:?
-
 A) (CDS Credit Spread - CDS Fixed Coupon) * CDS Duration
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

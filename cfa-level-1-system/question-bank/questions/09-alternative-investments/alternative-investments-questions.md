@@ -6,10 +6,10 @@
 
 **Question:**
 Which of the following is most likely a common characteristic of alternative investments compared to traditional investments?
-
 A) Higher liquidity
 B) Less transparency and lower liquidity
 C) Lower management fees
+
 
 **Correct Answer:** B
 
@@ -29,10 +29,10 @@ C) Lower management fees
 
 **Question:**
 A hedge fund has a 2% management fee (on beginning AUM) and a 20% incentive fee with a soft hurdle rate of 5%. Beginning AUM is $100 million, and the fund earns 15% before fees. Total fees are closest to:
-
 A) $4.0 million
 B) $4.6 million
 C) $5.0 million
+
 
 **Correct Answer:** C
 
@@ -73,10 +73,10 @@ Answer is B.
 
 **Question:**
 A hedge fund has a high-water mark provision. Last year, the fund's AUM fell from $100 million to $85 million. This year, it rises to $105 million. With a 20% incentive fee, the incentive fee earned this year is closest to:
-
 A) $1 million
 B) $2 million
 C) $3 million
+
 
 **Correct Answer:** A
 
@@ -95,10 +95,10 @@ C) $3 million
 
 **Question:**
 When the futures price of a commodity is below the expected future spot price, the market is in:
-
 A) Contango
 B) Normal backwardation
 C) Full carry
+
 
 **Correct Answer:** B
 
@@ -119,10 +119,10 @@ Note: Contango ≠ "futures > spot" (though that's one definition). The Keynes t
 
 **Question:**
 A commodity investor goes long a futures contract. The spot return is 3%, the roll yield is -2%, and the collateral yield is 1%. The total return is closest to:
-
 A) 0%
 B) 1%
 C) 2%
+
 
 **Correct Answer:** C
 
@@ -142,10 +142,10 @@ C) 2%
 
 **Question:**
 In a typical private equity fund structure, the general partner (GP) most likely:
-
 A) Provides the majority of the fund's capital
 B) Has limited liability for the fund's obligations
 C) Manages the fund's investments and earns carried interest
+
 
 **Correct Answer:** C
 
@@ -164,10 +164,10 @@ C) Manages the fund's investments and earns carried interest
 
 **Question:**
 A venture capital investment made in a company that has a proven business model, generating revenue but not yet profitable, and needs capital to scale operations is most likely classified as:
-
 A) Seed stage
 B) Early stage
 C) Later stage (expansion)
+
 
 **Correct Answer:** C
 
@@ -186,10 +186,10 @@ C) Later stage (expansion)
 
 **Question:**
 A private equity fund invests $50 million in a company. After 5 years, it sells the company for $110 million and had received $15 million in dividends during the holding period. The MOIC is closest to:
-
 A) 2.20×
 B) 2.50×
 C) 2.80×
+
 
 **Correct Answer:** B
 
@@ -209,10 +209,10 @@ C) 2.80×
 
 **Question:**
 Which of the following is most likely a characteristic of Real Estate Investment Trusts (REITs)?
-
 A) They pay no dividends to shareholders
 B) They are required to distribute most of their taxable income as dividends
 C) They are taxed at the corporate level like regular corporations
+
 
 **Correct Answer:** B
 
@@ -231,10 +231,10 @@ C) They are taxed at the corporate level like regular corporations
 
 **Question:**
 A hedge fund strategy that seeks to profit from pricing discrepancies between related securities (e.g., convertible bonds and the underlying stock) while maintaining low net market exposure is most likely:
-
 A) Global macro
 B) Event-driven
 C) Relative value
+
 
 **Correct Answer:** C
 
@@ -253,10 +253,10 @@ C) Relative value
 
 **Question:**
 Which of the following is most likely an example of a "brownfield" infrastructure investment?
-
 A) Building a new toll road from scratch
 B) Expanding an existing airport terminal
 C) Developing green energy on undeveloped land
+
 
 **Correct Answer:** B
 
@@ -275,10 +275,10 @@ C) Developing green energy on undeveloped land
 
 **Question:**
 A leveraged buyout (LBO) is most likely characterized by:
-
 A) Low use of debt financing
 B) The target company's assets serving as collateral for acquisition debt
 C) Reliance on the target's growth prospects rather than cash flows
+
 
 **Correct Answer:** B
 
@@ -297,10 +297,10 @@ C) Reliance on the target's growth prospects rather than cash flows
 
 **Question:**
 Which of the following real estate valuation methods is most likely to suffer from "appraisal smoothing"?
-
 A) Comparable sales approach
 B) Income approach (DCF)
 C) Appraisal-based indices
+
 
 **Correct Answer:** C
 
@@ -319,10 +319,10 @@ C) Appraisal-based indices
 
 **Question:**
 Which of the following is most likely a characteristic of mezzanine debt?
-
 A) It is the most senior form of debt in the capital structure
 B) It typically has equity-like features such as warrants
 C) It is secured by specific company assets
+
 
 **Correct Answer:** B
 
@@ -341,10 +341,10 @@ C) It is secured by specific company assets
 
 **Question:**
 A PE fund has a 2% management fee, 20% incentive fee, an 8% hard hurdle rate, and a 100% catch-up provision. Beginning AUM is $50M, and gross return is 25%. The GP's incentive fee is closest to:
-
 A) $1.70M
 B) $2.30M
 C) $2.50M
+
 
 **Correct Answer:** B
 
@@ -367,10 +367,10 @@ Split remaining profits: $11.5M - $4M - $1M = $6.5M. GP gets 20% × $6.5M = $1.3
 
 **Question:**
 A commercial real estate property generates a Net Operating Income (NOI) of $1,200,000 per year. If comparable properties in the market are selling at a Capitalization Rate (Cap Rate) of 6.0%, the estimated market value of the property is:
-
 A) $72,000
 B) $20,000,000
 C) $21,200,000
+
 
 **Correct Answer:** B
 
@@ -397,10 +397,10 @@ $1,200,000 / 0.06 = 20,000,000$
 
 **Question:**
 When a commodity futures market is in **Backwardation** (Futures Price < Spot Price, $F_0 < S_0$), a long futures investor holding contract positions to expiration and rolling them forward will earn a:
-
 A) Positive Roll Yield because near-term contract prices are higher than longer-term contract prices
 B) Negative Roll Yield because longer-term contract prices are higher than spot prices
 C) Zero Roll Yield because commodity markets are arbitrage-free
+
 
 **Correct Answer:** A
 
@@ -428,10 +428,10 @@ A hedge fund has a "2 and 20" fee structure (2% management fee calculated on beg
 * Year 3 AUM rises to $115 million gross of fees.
 
 What is the incentive fee earned by the fund manager in **Year 3**?
-
 A) $0.00 (below high-water mark)
 B) $0.80 million
 C) $2.40 million
+
 
 **Correct Answer:** A
 
@@ -469,10 +469,10 @@ C) $2.40 million
 
 **Question:**
 An institutional investor seeking lower-risk, stable, yield-generating infrastructure assets with immediate cash flows should invest in:
-
 A) Greenfield infrastructure projects
 B) Brownfield infrastructure projects
 C) Venture capital infrastructure incubators
+
 
 **Correct Answer:** B
 
@@ -494,10 +494,10 @@ C) Venture capital infrastructure incubators
 
 **Question:**
 In a Private Equity fund structure, a **Clawback Provision** protects Limited Partners (LPs) by requiring the General Partner (GP) to:
-
 A) Pay back excess management fees if fund investments underperform benchmark targets
 B) Return a portion of previously received incentive fees (carried interest) if subsequent fund investments underperform, ensuring GP receives no more than agreed profit share overall
 C) Inject additional equity capital into portfolio companies facing financial distress
+
 
 **Correct Answer:** B
 
@@ -517,10 +517,10 @@ C) Inject additional equity capital into portfolio companies facing financial di
 
 **Question:**
 A commodity spot price is $50.00. The 1-year risk-free interest rate is 4.0%, annual storage costs are $2.00 per unit (payable at year-end), and the annual convenience yield is $3.00 per unit. The 1-year no-arbitrage commodity futures price ($F_0$) is closest to:
-
 A) $49.00
 B) $51.00
 C) $54.00
+
 
 **Correct Answer:** A
 
@@ -537,6 +537,7 @@ Let's check choices:
 A) $49.00
 B) $51.00
 C) $54.00
+
 
 Option B = $51.00!
 
@@ -559,10 +560,10 @@ $50 \times 1.04 + 2.00 - 3.00 = 52.00 + 2.00 - 3.00 = 51.00$
 
 **Question:**
 A hedge fund manager who trades government bond yield curve spreads, mortgage-backed security mispricings, and convertible bond arbitrage strategies is best classified under which hedge fund strategy category?
-
 A) Event-Driven
 B) Relative Value
 C) Macro Strategy
+
 
 **Correct Answer:** B
 
@@ -582,10 +583,10 @@ C) Macro Strategy
 
 **Question:**
 A Real Estate Investment Trust (REIT) has total asset market values of $500 million, cash balances of $20 million, and total liabilities of $180 million. If the REIT has 10 million shares outstanding, the Net Asset Value per share (NAVPS) is:
-
 A) $32.00
 B) $34.00
 C) $52.00
+
 
 **Correct Answer:** B
 
@@ -611,10 +612,10 @@ $(500 + 20 - 180) / 10 = 340 / 10 = 34.00$
 
 **Question:**
 Which Private Equity exit strategy typically yields the QUICKEST liquidity and highest transaction certainty for a buyout firm seeking to sell a portfolio company?
-
 A) Initial Public Offering (IPO)
 B) Trade Sale (sale to a strategic buyer)
 C) Secondary Buyout (sale to another PE firm)
+
 
 **Correct Answer:** B
 
@@ -634,10 +635,10 @@ C) Secondary Buyout (sale to another PE firm)
 
 **Question:**
 Compared to senior secured bank debt, **Mezzanine Debt** issued in private equity transactions is characterized by:
-
 A) Higher seniority in liquidation and lower interest coupon rates
 B) Lower seniority in liquidation, higher interest coupon rates, and potential equity warrants
 C) Pure equity ownership with zero contractual interest payments
+
 
 **Correct Answer:** B
 
@@ -659,10 +660,10 @@ C) Pure equity ownership with zero contractual interest payments
 
 **Question:**
 A high-water mark provision in a hedge fund incentive fee structure prevents managers from:?
-
 A) Collecting incentive fees on performance that merely recovers past cumulative losses
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -680,10 +681,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Leveraged Buyout (LBO) transactions rely heavily on debt capital to:?
-
 A) Amplify equity investor returns upon exit via debt paydown using portfolio cash flow
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -701,10 +702,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Capitalization Rate (Cap Rate) for a commercial real estate property equals:?
-
 A) Net Operating Income (NOI) divided by Property Purchase Price
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -722,10 +723,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A commodity market in **backwardation** (futures price < spot price) generates a:?
-
 A) Positive roll yield when rolling expiring long futures contracts into cheaper forward contracts
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -743,10 +744,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Greenfield infrastructure projects carry higher risk than Brownfield projects because:?
-
 A) Greenfield projects involve construction, permitting, and unproven initial demand
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -765,10 +766,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Carried interest in a private equity fund represents:?
-
 A) The general partner's share of profits (typically 20%) above the hurdle rate
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -786,10 +787,10 @@ C) Alternative incorrect option
 
 **Question:**
 In a commodity market in **contango** (futures price > spot price), a long futures position incurs a:?
-
 A) Negative roll yield when expiring contracts are rolled into higher-priced forward contracts
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -808,10 +809,10 @@ C) Alternative incorrect option
 
 **Question:**
 A commercial property generates Potential Gross Income of $1,000,000, vacancy loss of 5%, and operating expenses of $350,000. At a cap rate of 8%, property value is:?
-
 A) $7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -830,10 +831,10 @@ C) Alternative incorrect option
 
 **Question:**
 In private equity LBO modeling, the primary drivers of investment return (IRR) are:?
-
 A) EBITDA growth, multiple expansion, and debt paydown using free cash flows
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -851,10 +852,10 @@ C) Alternative incorrect option
 
 **Question:**
 An equity long/short hedge fund seeks to generate alpha by:?
-
 A) Going long undervalued stocks while shorting overvalued stocks to minimize market beta exposure
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -873,10 +874,10 @@ C) Alternative incorrect option
 
 **Question:**
 The primary cause of hedge fund failures historically has been attributed to:?
-
 A) Operational failure, fraud, or misrepresentation of asset valuations
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -895,10 +896,10 @@ C) Alternative incorrect option
 
 **Question:**
 As a commodity futures contract approaches its expiration date, the basis (Spot Price minus Futures Price):?
-
 A) Converges to zero at contract expiration
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -917,10 +918,10 @@ C) Alternative incorrect option
 
 **Question:**
 In commercial real estate DCF valuation, the terminal capitalization rate is applied to projected Net Operating Income in year:?
-
 A) N + 1 (the year immediately following the holding period end)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -938,10 +939,10 @@ C) Alternative incorrect option
 
 **Question:**
 A clawback provision in a private equity partnership agreement requires the General Partner (GP) to:?
-
 A) Return excess carried interest received if subsequent portfolio investments result in total GP earnings above agreed split
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

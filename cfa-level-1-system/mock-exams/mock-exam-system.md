@@ -11,10 +11,10 @@
 
 **Question:**
 During a portfolio review, Analyst #1 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -32,10 +32,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #2 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -53,10 +53,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #3 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -74,10 +74,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #4 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -95,10 +95,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #5 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -116,10 +116,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #6 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -137,10 +137,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #7 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -158,10 +158,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #8 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -179,10 +179,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #9 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -200,10 +200,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #10 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -221,10 +221,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #11 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -242,10 +242,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #12 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -263,10 +263,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #13 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -284,10 +284,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #14 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -305,10 +305,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #15 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -326,10 +326,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #16 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -347,10 +347,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #17 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -368,10 +368,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #18 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -389,10 +389,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #19 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -410,10 +410,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #20 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -431,10 +431,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #21 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -452,10 +452,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #22 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -473,10 +473,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #23 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -494,10 +494,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #24 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -515,10 +515,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #25 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -536,10 +536,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #26 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -557,10 +557,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 During a portfolio review, Analyst #27 receives nonpublic information regarding a regulatory penalty. According to Standard I(A) Knowledge of the Law and Standard II(A), what is the required compliance protocol?
-
 A) Act on the information immediately before market open.
 B) Refrain from trading or inducing others to trade until the information is publicly disclosed.
 C) Inform existing high-net-worth clients verbally while withholding written research reports.
+
 
 **Correct Answer:** B
 
@@ -580,10 +580,10 @@ C) Inform existing high-net-worth clients verbally while withholding written res
 
 **Question:**
 An investor places USD 10,000 into a corporate bond savings fund offering a nominal annual rate of 5.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 12,500.00
 B) USD 12,820.37
 C) USD 13,076.78
+
 
 **Correct Answer:** B
 
@@ -601,10 +601,10 @@ C) USD 13,076.78
 
 **Question:**
 An investor places USD 10,500 into a corporate bond savings fund offering a nominal annual rate of 5.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 13,387.50
 B) USD 13,797.70
 C) USD 14,073.65
+
 
 **Correct Answer:** B
 
@@ -622,10 +622,10 @@ C) USD 14,073.65
 
 **Question:**
 An investor places USD 11,000 into a corporate bond savings fund offering a nominal annual rate of 6.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 14,300.00
 B) USD 14,815.41
 C) USD 15,111.72
+
 
 **Correct Answer:** B
 
@@ -643,10 +643,10 @@ C) USD 15,111.72
 
 **Question:**
 An investor places USD 11,500 into a corporate bond savings fund offering a nominal annual rate of 6.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 15,237.50
 B) USD 15,874.83
 C) USD 16,192.33
+
 
 **Correct Answer:** B
 
@@ -664,10 +664,10 @@ C) USD 16,192.33
 
 **Question:**
 An investor places USD 12,000 into a corporate bond savings fund offering a nominal annual rate of 7.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 16,200.00
 B) USD 16,977.34
 C) USD 17,316.89
+
 
 **Correct Answer:** B
 
@@ -685,10 +685,10 @@ C) USD 17,316.89
 
 **Question:**
 An investor places USD 12,500 into a corporate bond savings fund offering a nominal annual rate of 7.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 17,187.50
 B) USD 18,124.35
 C) USD 18,486.84
+
 
 **Correct Answer:** B
 
@@ -706,10 +706,10 @@ C) USD 18,486.84
 
 **Question:**
 An investor places USD 13,000 into a corporate bond savings fund offering a nominal annual rate of 8.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 18,200.00
 B) USD 19,317.32
 C) USD 19,703.67
+
 
 **Correct Answer:** B
 
@@ -727,10 +727,10 @@ C) USD 19,703.67
 
 **Question:**
 An investor places USD 13,500 into a corporate bond savings fund offering a nominal annual rate of 8.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 19,237.50
 B) USD 20,557.73
 C) USD 20,968.88
+
 
 **Correct Answer:** B
 
@@ -748,10 +748,10 @@ C) USD 20,968.88
 
 **Question:**
 An investor places USD 14,000 into a corporate bond savings fund offering a nominal annual rate of 9.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 20,300.00
 B) USD 21,847.13
 C) USD 22,284.07
+
 
 **Correct Answer:** B
 
@@ -769,10 +769,10 @@ C) USD 22,284.07
 
 **Question:**
 An investor places USD 14,500 into a corporate bond savings fund offering a nominal annual rate of 9.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 21,387.50
 B) USD 23,187.09
 C) USD 23,650.83
+
 
 **Correct Answer:** B
 
@@ -790,10 +790,10 @@ C) USD 23,650.83
 
 **Question:**
 An investor places USD 15,000 into a corporate bond savings fund offering a nominal annual rate of 10.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 22,500.00
 B) USD 24,579.25
 C) USD 25,070.83
+
 
 **Correct Answer:** B
 
@@ -811,10 +811,10 @@ C) USD 25,070.83
 
 **Question:**
 An investor places USD 15,500 into a corporate bond savings fund offering a nominal annual rate of 10.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 23,637.50
 B) USD 26,025.26
 C) USD 26,545.77
+
 
 **Correct Answer:** B
 
@@ -832,10 +832,10 @@ C) USD 26,545.77
 
 **Question:**
 An investor places USD 16,000 into a corporate bond savings fund offering a nominal annual rate of 11.0% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 24,800.00
 B) USD 27,526.85
 C) USD 28,077.39
+
 
 **Correct Answer:** B
 
@@ -853,10 +853,10 @@ C) USD 28,077.39
 
 **Question:**
 An investor places USD 16,500 into a corporate bond savings fund offering a nominal annual rate of 11.5% compounded quarterly. What is the total investment value at the end of 5 years (20 quarters)?
-
 A) USD 25,987.50
 B) USD 29,085.79
 C) USD 29,667.51
+
 
 **Correct Answer:** B
 
@@ -876,10 +876,10 @@ C) USD 29,667.51
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.2 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -897,10 +897,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.3 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -918,10 +918,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.4 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -939,10 +939,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.5 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -960,10 +960,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.6 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -981,10 +981,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.7 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1002,10 +1002,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.8 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1023,10 +1023,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -1.9 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1044,10 +1044,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -2.0 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1065,10 +1065,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -2.1 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1086,10 +1086,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -2.2 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1107,10 +1107,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -2.3 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1128,10 +1128,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -2.4 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1149,10 +1149,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 The price elasticity of demand for a luxury consumer product is estimated at -2.5 (elastic). If the firm increases its retail selling price by 8%, what is the expected impact on total product revenue?
-
 A) Total revenue will increase by 9.6%.
 B) Total revenue will decrease.
 C) Total revenue will remain completely unchanged.
+
 
 **Correct Answer:** B
 
@@ -1172,10 +1172,10 @@ C) Total revenue will remain completely unchanged.
 
 **Question:**
 Corporation #56 reports net income of USD 2,000,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 200,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 3.60
 B) USD 4.00
 C) USD 4.40
+
 
 **Correct Answer:** A
 
@@ -1193,10 +1193,10 @@ C) USD 4.40
 
 **Question:**
 Corporation #57 reports net income of USD 2,250,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 220,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 4.06
 B) USD 4.50
 C) USD 4.94
+
 
 **Correct Answer:** A
 
@@ -1214,10 +1214,10 @@ C) USD 4.94
 
 **Question:**
 Corporation #58 reports net income of USD 2,500,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 240,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 4.52
 B) USD 5.00
 C) USD 5.48
+
 
 **Correct Answer:** A
 
@@ -1235,10 +1235,10 @@ C) USD 5.48
 
 **Question:**
 Corporation #59 reports net income of USD 2,750,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 260,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 4.98
 B) USD 5.50
 C) USD 6.02
+
 
 **Correct Answer:** A
 
@@ -1256,10 +1256,10 @@ C) USD 6.02
 
 **Question:**
 Corporation #60 reports net income of USD 3,000,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 280,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 5.44
 B) USD 6.00
 C) USD 6.56
+
 
 **Correct Answer:** A
 
@@ -1277,10 +1277,10 @@ C) USD 6.56
 
 **Question:**
 Corporation #61 reports net income of USD 3,250,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 300,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 5.90
 B) USD 6.50
 C) USD 7.10
+
 
 **Correct Answer:** A
 
@@ -1298,10 +1298,10 @@ C) USD 7.10
 
 **Question:**
 Corporation #62 reports net income of USD 3,500,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 320,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 6.36
 B) USD 7.00
 C) USD 7.64
+
 
 **Correct Answer:** A
 
@@ -1319,10 +1319,10 @@ C) USD 7.64
 
 **Question:**
 Corporation #63 reports net income of USD 3,750,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 340,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 6.82
 B) USD 7.50
 C) USD 8.18
+
 
 **Correct Answer:** A
 
@@ -1340,10 +1340,10 @@ C) USD 8.18
 
 **Question:**
 Corporation #64 reports net income of USD 4,000,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 360,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 7.28
 B) USD 8.00
 C) USD 8.72
+
 
 **Correct Answer:** A
 
@@ -1361,10 +1361,10 @@ C) USD 8.72
 
 **Question:**
 Corporation #65 reports net income of USD 4,250,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 380,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 7.74
 B) USD 8.50
 C) USD 9.26
+
 
 **Correct Answer:** A
 
@@ -1382,10 +1382,10 @@ C) USD 9.26
 
 **Question:**
 Corporation #66 reports net income of USD 4,500,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 400,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 8.20
 B) USD 9.00
 C) USD 9.80
+
 
 **Correct Answer:** A
 
@@ -1403,10 +1403,10 @@ C) USD 9.80
 
 **Question:**
 Corporation #67 reports net income of USD 4,750,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 420,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 8.66
 B) USD 9.50
 C) USD 10.34
+
 
 **Correct Answer:** A
 
@@ -1424,10 +1424,10 @@ C) USD 10.34
 
 **Question:**
 Corporation #68 reports net income of USD 5,000,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 440,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 9.12
 B) USD 10.00
 C) USD 10.88
+
 
 **Correct Answer:** A
 
@@ -1445,10 +1445,10 @@ C) USD 10.88
 
 **Question:**
 Corporation #69 reports net income of USD 5,250,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 460,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 9.58
 B) USD 10.50
 C) USD 11.42
+
 
 **Correct Answer:** A
 
@@ -1466,10 +1466,10 @@ C) USD 11.42
 
 **Question:**
 Corporation #70 reports net income of USD 5,500,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 480,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 10.04
 B) USD 11.00
 C) USD 11.96
+
 
 **Correct Answer:** A
 
@@ -1487,10 +1487,10 @@ C) USD 11.96
 
 **Question:**
 Corporation #71 reports net income of USD 5,750,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 500,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 10.50
 B) USD 11.50
 C) USD 12.50
+
 
 **Correct Answer:** A
 
@@ -1508,10 +1508,10 @@ C) USD 12.50
 
 **Question:**
 Corporation #72 reports net income of USD 6,000,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 520,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 10.96
 B) USD 12.00
 C) USD 13.04
+
 
 **Correct Answer:** A
 
@@ -1529,10 +1529,10 @@ C) USD 13.04
 
 **Question:**
 Corporation #73 reports net income of USD 6,250,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 540,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 11.42
 B) USD 12.50
 C) USD 13.58
+
 
 **Correct Answer:** A
 
@@ -1550,10 +1550,10 @@ C) USD 13.58
 
 **Question:**
 Corporation #74 reports net income of USD 6,500,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 560,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 11.88
 B) USD 13.00
 C) USD 14.12
+
 
 **Correct Answer:** A
 
@@ -1571,10 +1571,10 @@ C) USD 14.12
 
 **Question:**
 Corporation #75 reports net income of USD 6,750,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 580,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 12.34
 B) USD 13.50
 C) USD 14.66
+
 
 **Correct Answer:** A
 
@@ -1592,10 +1592,10 @@ C) USD 14.66
 
 **Question:**
 Corporation #76 reports net income of USD 7,000,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 600,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 12.80
 B) USD 14.00
 C) USD 15.20
+
 
 **Correct Answer:** A
 
@@ -1613,10 +1613,10 @@ C) USD 15.20
 
 **Question:**
 Corporation #77 reports net income of USD 7,250,000 and has 500,000 weighted average common shares outstanding. The firm paid USD 620,000 in preferred dividends. What is the Basic Earnings Per Share (EPS)?
-
 A) USD 13.26
 B) USD 14.50
 C) USD 15.74
+
 
 **Correct Answer:** A
 
@@ -1636,10 +1636,10 @@ C) USD 15.74
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 6.0%, marginal corporate tax rate is 25.0%, and cost of equity is 11.0%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 8.40%
 B) 9.00%
 C) 8.82%
+
 
 **Correct Answer:** A
 
@@ -1657,10 +1657,10 @@ C) 8.82%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 6.2%, marginal corporate tax rate is 25.0%, and cost of equity is 11.3%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 8.64%
 B) 9.26%
 C) 9.07%
+
 
 **Correct Answer:** A
 
@@ -1678,10 +1678,10 @@ C) 9.07%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 6.4%, marginal corporate tax rate is 25.0%, and cost of equity is 11.6%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 8.88%
 B) 9.52%
 C) 9.32%
+
 
 **Correct Answer:** A
 
@@ -1699,10 +1699,10 @@ C) 9.32%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 6.6%, marginal corporate tax rate is 25.0%, and cost of equity is 11.9%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 9.12%
 B) 9.78%
 C) 9.58%
+
 
 **Correct Answer:** A
 
@@ -1720,10 +1720,10 @@ C) 9.58%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 6.8%, marginal corporate tax rate is 25.0%, and cost of equity is 12.2%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 9.36%
 B) 10.04%
 C) 9.83%
+
 
 **Correct Answer:** A
 
@@ -1741,10 +1741,10 @@ C) 9.83%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 7.0%, marginal corporate tax rate is 25.0%, and cost of equity is 12.5%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 9.60%
 B) 10.30%
 C) 10.08%
+
 
 **Correct Answer:** A
 
@@ -1762,10 +1762,10 @@ C) 10.08%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 7.2%, marginal corporate tax rate is 25.0%, and cost of equity is 12.8%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 9.84%
 B) 10.56%
 C) 10.33%
+
 
 **Correct Answer:** A
 
@@ -1783,10 +1783,10 @@ C) 10.33%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 7.4%, marginal corporate tax rate is 25.0%, and cost of equity is 13.1%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 10.08%
 B) 10.82%
 C) 10.58%
+
 
 **Correct Answer:** A
 
@@ -1804,10 +1804,10 @@ C) 10.58%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 7.6%, marginal corporate tax rate is 25.0%, and cost of equity is 13.4%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 10.32%
 B) 11.08%
 C) 10.84%
+
 
 **Correct Answer:** A
 
@@ -1825,10 +1825,10 @@ C) 10.84%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 7.8%, marginal corporate tax rate is 25.0%, and cost of equity is 13.7%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 10.56%
 B) 11.34%
 C) 11.09%
+
 
 **Correct Answer:** A
 
@@ -1846,10 +1846,10 @@ C) 11.09%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 8.0%, marginal corporate tax rate is 25.0%, and cost of equity is 14.0%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 10.80%
 B) 11.60%
 C) 11.34%
+
 
 **Correct Answer:** A
 
@@ -1867,10 +1867,10 @@ C) 11.34%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 8.2%, marginal corporate tax rate is 25.0%, and cost of equity is 14.3%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 11.04%
 B) 11.86%
 C) 11.59%
+
 
 **Correct Answer:** A
 
@@ -1888,10 +1888,10 @@ C) 11.59%
 
 **Question:**
 A firm maintains a target capital structure of 40% debt and 60% equity. Its pre-tax cost of debt is 8.4%, marginal corporate tax rate is 25.0%, and cost of equity is 14.6%. What is the firm's Weighted Average Cost of Capital (WACC)?
-
 A) 11.28%
 B) 12.12%
 C) 11.84%
+
 
 **Correct Answer:** A
 
@@ -1919,10 +1919,10 @@ C) 11.84%
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 14.29
 B) USD 33.33
 C) USD 34.67
+
 
 **Correct Answer:** B
 
@@ -1940,10 +1940,10 @@ C) USD 34.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 16.07
 B) USD 37.50
 C) USD 39.00
+
 
 **Correct Answer:** B
 
@@ -1961,10 +1961,10 @@ C) USD 39.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 17.86
 B) USD 41.67
 C) USD 43.33
+
 
 **Correct Answer:** B
 
@@ -1982,10 +1982,10 @@ C) USD 43.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 19.64
 B) USD 45.83
 C) USD 47.67
+
 
 **Correct Answer:** B
 
@@ -2003,10 +2003,10 @@ C) USD 47.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 21.43
 B) USD 50.00
 C) USD 52.00
+
 
 **Correct Answer:** B
 
@@ -2024,10 +2024,10 @@ C) USD 52.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 23.21
 B) USD 54.17
 C) USD 56.33
+
 
 **Correct Answer:** B
 
@@ -2045,10 +2045,10 @@ C) USD 56.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 25.00
 B) USD 58.33
 C) USD 60.67
+
 
 **Correct Answer:** B
 
@@ -2066,10 +2066,10 @@ C) USD 60.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 26.79
 B) USD 62.50
 C) USD 65.00
+
 
 **Correct Answer:** B
 
@@ -2087,10 +2087,10 @@ C) USD 65.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 28.57
 B) USD 66.67
 C) USD 69.33
+
 
 **Correct Answer:** B
 
@@ -2108,10 +2108,10 @@ C) USD 69.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 30.36
 B) USD 70.83
 C) USD 73.67
+
 
 **Correct Answer:** B
 
@@ -2129,10 +2129,10 @@ C) USD 73.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 32.14
 B) USD 75.00
 C) USD 78.00
+
 
 **Correct Answer:** B
 
@@ -2150,10 +2150,10 @@ C) USD 78.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 33.93
 B) USD 79.17
 C) USD 82.33
+
 
 **Correct Answer:** B
 
@@ -2171,10 +2171,10 @@ C) USD 82.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 35.71
 B) USD 83.33
 C) USD 86.67
+
 
 **Correct Answer:** B
 
@@ -2192,10 +2192,10 @@ C) USD 86.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 37.50
 B) USD 87.50
 C) USD 91.00
+
 
 **Correct Answer:** B
 
@@ -2213,10 +2213,10 @@ C) USD 91.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 39.29
 B) USD 91.67
 C) USD 95.33
+
 
 **Correct Answer:** B
 
@@ -2234,10 +2234,10 @@ C) USD 95.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 41.07
 B) USD 95.83
 C) USD 99.67
+
 
 **Correct Answer:** B
 
@@ -2255,10 +2255,10 @@ C) USD 99.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 42.86
 B) USD 100.00
 C) USD 104.00
+
 
 **Correct Answer:** B
 
@@ -2276,10 +2276,10 @@ C) USD 104.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 44.64
 B) USD 104.17
 C) USD 108.33
+
 
 **Correct Answer:** B
 
@@ -2297,10 +2297,10 @@ C) USD 108.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 46.43
 B) USD 108.33
 C) USD 112.67
+
 
 **Correct Answer:** B
 
@@ -2318,10 +2318,10 @@ C) USD 112.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 48.21
 B) USD 112.50
 C) USD 117.00
+
 
 **Correct Answer:** B
 
@@ -2339,10 +2339,10 @@ C) USD 117.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 7.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 50.00
 B) USD 116.67
 C) USD 121.33
+
 
 **Correct Answer:** B
 
@@ -2360,10 +2360,10 @@ C) USD 121.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 7.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 51.79
 B) USD 120.83
 C) USD 125.67
+
 
 **Correct Answer:** B
 
@@ -2383,10 +2383,10 @@ C) USD 125.67
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,020.00. The accrued interest since the last coupon date is USD 25.00. What is the full (dirty) price of the bond?
-
 A) USD 1,020.00
 B) USD 1,045.00
 C) USD 1,070.00
+
 
 **Correct Answer:** B
 
@@ -2404,10 +2404,10 @@ C) USD 1,070.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,025.00. The accrued interest since the last coupon date is USD 27.50. What is the full (dirty) price of the bond?
-
 A) USD 1,025.00
 B) USD 1,052.50
 C) USD 1,080.00
+
 
 **Correct Answer:** B
 
@@ -2425,10 +2425,10 @@ C) USD 1,080.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,030.00. The accrued interest since the last coupon date is USD 30.00. What is the full (dirty) price of the bond?
-
 A) USD 1,030.00
 B) USD 1,060.00
 C) USD 1,090.00
+
 
 **Correct Answer:** B
 
@@ -2446,10 +2446,10 @@ C) USD 1,090.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,035.00. The accrued interest since the last coupon date is USD 32.50. What is the full (dirty) price of the bond?
-
 A) USD 1,035.00
 B) USD 1,067.50
 C) USD 1,100.00
+
 
 **Correct Answer:** B
 
@@ -2467,10 +2467,10 @@ C) USD 1,100.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,040.00. The accrued interest since the last coupon date is USD 35.00. What is the full (dirty) price of the bond?
-
 A) USD 1,040.00
 B) USD 1,075.00
 C) USD 1,110.00
+
 
 **Correct Answer:** B
 
@@ -2488,10 +2488,10 @@ C) USD 1,110.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,045.00. The accrued interest since the last coupon date is USD 37.50. What is the full (dirty) price of the bond?
-
 A) USD 1,045.00
 B) USD 1,082.50
 C) USD 1,120.00
+
 
 **Correct Answer:** B
 
@@ -2509,10 +2509,10 @@ C) USD 1,120.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,050.00. The accrued interest since the last coupon date is USD 40.00. What is the full (dirty) price of the bond?
-
 A) USD 1,050.00
 B) USD 1,090.00
 C) USD 1,130.00
+
 
 **Correct Answer:** B
 
@@ -2530,10 +2530,10 @@ C) USD 1,130.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,055.00. The accrued interest since the last coupon date is USD 42.50. What is the full (dirty) price of the bond?
-
 A) USD 1,055.00
 B) USD 1,097.50
 C) USD 1,140.00
+
 
 **Correct Answer:** B
 
@@ -2551,10 +2551,10 @@ C) USD 1,140.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,060.00. The accrued interest since the last coupon date is USD 45.00. What is the full (dirty) price of the bond?
-
 A) USD 1,060.00
 B) USD 1,105.00
 C) USD 1,150.00
+
 
 **Correct Answer:** B
 
@@ -2572,10 +2572,10 @@ C) USD 1,150.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,065.00. The accrued interest since the last coupon date is USD 47.50. What is the full (dirty) price of the bond?
-
 A) USD 1,065.00
 B) USD 1,112.50
 C) USD 1,160.00
+
 
 **Correct Answer:** B
 
@@ -2593,10 +2593,10 @@ C) USD 1,160.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,070.00. The accrued interest since the last coupon date is USD 50.00. What is the full (dirty) price of the bond?
-
 A) USD 1,070.00
 B) USD 1,120.00
 C) USD 1,170.00
+
 
 **Correct Answer:** B
 
@@ -2614,10 +2614,10 @@ C) USD 1,170.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,075.00. The accrued interest since the last coupon date is USD 52.50. What is the full (dirty) price of the bond?
-
 A) USD 1,075.00
 B) USD 1,127.50
 C) USD 1,180.00
+
 
 **Correct Answer:** B
 
@@ -2635,10 +2635,10 @@ C) USD 1,180.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,080.00. The accrued interest since the last coupon date is USD 55.00. What is the full (dirty) price of the bond?
-
 A) USD 1,080.00
 B) USD 1,135.00
 C) USD 1,190.00
+
 
 **Correct Answer:** B
 
@@ -2656,10 +2656,10 @@ C) USD 1,190.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,085.00. The accrued interest since the last coupon date is USD 57.50. What is the full (dirty) price of the bond?
-
 A) USD 1,085.00
 B) USD 1,142.50
 C) USD 1,200.00
+
 
 **Correct Answer:** B
 
@@ -2677,10 +2677,10 @@ C) USD 1,200.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,090.00. The accrued interest since the last coupon date is USD 60.00. What is the full (dirty) price of the bond?
-
 A) USD 1,090.00
 B) USD 1,150.00
 C) USD 1,210.00
+
 
 **Correct Answer:** B
 
@@ -2698,10 +2698,10 @@ C) USD 1,210.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,095.00. The accrued interest since the last coupon date is USD 62.50. What is the full (dirty) price of the bond?
-
 A) USD 1,095.00
 B) USD 1,157.50
 C) USD 1,220.00
+
 
 **Correct Answer:** B
 
@@ -2719,10 +2719,10 @@ C) USD 1,220.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,100.00. The accrued interest since the last coupon date is USD 65.00. What is the full (dirty) price of the bond?
-
 A) USD 1,100.00
 B) USD 1,165.00
 C) USD 1,230.00
+
 
 **Correct Answer:** B
 
@@ -2740,10 +2740,10 @@ C) USD 1,230.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,105.00. The accrued interest since the last coupon date is USD 67.50. What is the full (dirty) price of the bond?
-
 A) USD 1,105.00
 B) USD 1,172.50
 C) USD 1,240.00
+
 
 **Correct Answer:** B
 
@@ -2761,10 +2761,10 @@ C) USD 1,240.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,110.00. The accrued interest since the last coupon date is USD 70.00. What is the full (dirty) price of the bond?
-
 A) USD 1,110.00
 B) USD 1,180.00
 C) USD 1,250.00
+
 
 **Correct Answer:** B
 
@@ -2782,10 +2782,10 @@ C) USD 1,250.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,115.00. The accrued interest since the last coupon date is USD 72.50. What is the full (dirty) price of the bond?
-
 A) USD 1,115.00
 B) USD 1,187.50
 C) USD 1,260.00
+
 
 **Correct Answer:** B
 
@@ -2803,10 +2803,10 @@ C) USD 1,260.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,120.00. The accrued interest since the last coupon date is USD 75.00. What is the full (dirty) price of the bond?
-
 A) USD 1,120.00
 B) USD 1,195.00
 C) USD 1,270.00
+
 
 **Correct Answer:** B
 
@@ -2824,10 +2824,10 @@ C) USD 1,270.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,125.00. The accrued interest since the last coupon date is USD 77.50. What is the full (dirty) price of the bond?
-
 A) USD 1,125.00
 B) USD 1,202.50
 C) USD 1,280.00
+
 
 **Correct Answer:** B
 
@@ -2847,10 +2847,10 @@ C) USD 1,280.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 55.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 2.50
 B) USD 5.00
 C) USD 7.50
+
 
 **Correct Answer:** A
 
@@ -2868,10 +2868,10 @@ C) USD 7.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 56.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 4.00
 B) USD 6.50
 C) USD 9.00
+
 
 **Correct Answer:** A
 
@@ -2889,10 +2889,10 @@ C) USD 9.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 58.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 5.50
 B) USD 8.00
 C) USD 10.50
+
 
 **Correct Answer:** A
 
@@ -2910,10 +2910,10 @@ C) USD 10.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 59.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 7.00
 B) USD 9.50
 C) USD 12.00
+
 
 **Correct Answer:** A
 
@@ -2931,10 +2931,10 @@ C) USD 12.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 61.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 8.50
 B) USD 11.00
 C) USD 13.50
+
 
 **Correct Answer:** A
 
@@ -2952,10 +2952,10 @@ C) USD 13.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 62.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 10.00
 B) USD 12.50
 C) USD 15.00
+
 
 **Correct Answer:** A
 
@@ -2973,10 +2973,10 @@ C) USD 15.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 64.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 11.50
 B) USD 14.00
 C) USD 16.50
+
 
 **Correct Answer:** A
 
@@ -2994,10 +2994,10 @@ C) USD 16.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 65.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 13.00
 B) USD 15.50
 C) USD 18.00
+
 
 **Correct Answer:** A
 
@@ -3015,10 +3015,10 @@ C) USD 18.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 67.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 14.50
 B) USD 17.00
 C) USD 19.50
+
 
 **Correct Answer:** A
 
@@ -3036,10 +3036,10 @@ C) USD 19.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 68.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 16.00
 B) USD 18.50
 C) USD 21.00
+
 
 **Correct Answer:** A
 
@@ -3057,10 +3057,10 @@ C) USD 21.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 70.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 17.50
 B) USD 20.00
 C) USD 22.50
+
 
 **Correct Answer:** A
 
@@ -3080,10 +3080,10 @@ C) USD 22.50
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3101,10 +3101,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3122,10 +3122,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3143,10 +3143,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3164,10 +3164,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3185,10 +3185,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3206,10 +3206,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3227,10 +3227,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3248,10 +3248,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3269,10 +3269,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3290,10 +3290,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3311,10 +3311,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3332,10 +3332,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3353,10 +3353,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -3376,10 +3376,10 @@ C) 2.0%
 
 **Question:**
 An investment portfolio achieves an expected annual return of 12.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.60
 B) 0.80
 C) 0.50
+
 
 **Correct Answer:** A
 
@@ -3397,10 +3397,10 @@ C) 0.50
 
 **Question:**
 An investment portfolio achieves an expected annual return of 12.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.63
 B) 0.83
 C) 0.53
+
 
 **Correct Answer:** A
 
@@ -3418,10 +3418,10 @@ C) 0.53
 
 **Question:**
 An investment portfolio achieves an expected annual return of 13.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.67
 B) 0.87
 C) 0.56
+
 
 **Correct Answer:** A
 
@@ -3439,10 +3439,10 @@ C) 0.56
 
 **Question:**
 An investment portfolio achieves an expected annual return of 13.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.70
 B) 0.90
 C) 0.58
+
 
 **Correct Answer:** A
 
@@ -3460,10 +3460,10 @@ C) 0.58
 
 **Question:**
 An investment portfolio achieves an expected annual return of 14.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.73
 B) 0.93
 C) 0.61
+
 
 **Correct Answer:** A
 
@@ -3481,10 +3481,10 @@ C) 0.61
 
 **Question:**
 An investment portfolio achieves an expected annual return of 14.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.77
 B) 0.97
 C) 0.64
+
 
 **Correct Answer:** A
 
@@ -3502,10 +3502,10 @@ C) 0.64
 
 **Question:**
 An investment portfolio achieves an expected annual return of 15.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.80
 B) 1.00
 C) 0.67
+
 
 **Correct Answer:** A
 
@@ -3523,10 +3523,10 @@ C) 0.67
 
 **Question:**
 An investment portfolio achieves an expected annual return of 15.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.83
 B) 1.03
 C) 0.69
+
 
 **Correct Answer:** A
 
@@ -3544,10 +3544,10 @@ C) 0.69
 
 **Question:**
 An investment portfolio achieves an expected annual return of 16.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.87
 B) 1.07
 C) 0.72
+
 
 **Correct Answer:** A
 
@@ -3565,10 +3565,10 @@ C) 0.72
 
 **Question:**
 An investment portfolio achieves an expected annual return of 16.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.90
 B) 1.10
 C) 0.75
+
 
 **Correct Answer:** A
 
@@ -3586,10 +3586,10 @@ C) 0.75
 
 **Question:**
 An investment portfolio achieves an expected annual return of 17.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.93
 B) 1.13
 C) 0.78
+
 
 **Correct Answer:** A
 
@@ -3607,10 +3607,10 @@ C) 0.78
 
 **Question:**
 An investment portfolio achieves an expected annual return of 17.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.97
 B) 1.17
 C) 0.81
+
 
 **Correct Answer:** A
 
@@ -3628,10 +3628,10 @@ C) 0.81
 
 **Question:**
 An investment portfolio achieves an expected annual return of 18.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.00
 B) 1.20
 C) 0.83
+
 
 **Correct Answer:** A
 
@@ -3649,10 +3649,10 @@ C) 0.83
 
 **Question:**
 An investment portfolio achieves an expected annual return of 18.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.03
 B) 1.23
 C) 0.86
+
 
 **Correct Answer:** A
 
@@ -3670,10 +3670,10 @@ C) 0.86
 
 **Question:**
 An investment portfolio achieves an expected annual return of 19.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.07
 B) 1.27
 C) 0.89
+
 
 **Correct Answer:** A
 
@@ -3691,10 +3691,10 @@ C) 0.89
 
 **Question:**
 An investment portfolio achieves an expected annual return of 19.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.10
 B) 1.30
 C) 0.92
+
 
 **Correct Answer:** A
 
@@ -3712,10 +3712,10 @@ C) 0.92
 
 **Question:**
 An investment portfolio achieves an expected annual return of 20.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.13
 B) 1.33
 C) 0.94
+
 
 **Correct Answer:** A
 
@@ -3733,10 +3733,10 @@ C) 0.94
 
 **Question:**
 An investment portfolio achieves an expected annual return of 20.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.17
 B) 1.37
 C) 0.97
+
 
 **Correct Answer:** A
 
@@ -3754,10 +3754,10 @@ C) 0.97
 
 **Question:**
 An investment portfolio achieves an expected annual return of 21.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.20
 B) 1.40
 C) 1.00
+
 
 **Correct Answer:** A
 
@@ -3775,10 +3775,10 @@ C) 1.00
 
 **Question:**
 An investment portfolio achieves an expected annual return of 21.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.23
 B) 1.43
 C) 1.03
+
 
 **Correct Answer:** A
 
@@ -3796,10 +3796,10 @@ C) 1.03
 
 **Question:**
 An investment portfolio achieves an expected annual return of 22.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.27
 B) 1.47
 C) 1.06
+
 
 **Correct Answer:** A
 

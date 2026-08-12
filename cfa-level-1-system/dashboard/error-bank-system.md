@@ -108,10 +108,10 @@ question: |
   inventory of $520,000. The company discloses that if it had used
   LIFO, inventory would have been $580,000. The LIFO reserve is
   closest to:
+A) -$60,000
+B) $60,000
+C) $580,000
 
-  A) -$60,000
-  B) $60,000
-  C) $580,000
   D) $520,000
 
 correct_answer: A

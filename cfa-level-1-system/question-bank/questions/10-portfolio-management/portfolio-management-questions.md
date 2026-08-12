@@ -6,10 +6,10 @@
 
 **Question:**
 Which of the following best describes the Capital Market Line (CML)?
-
 A) It plots the expected return against total risk for all possible portfolios
 B) It plots the expected return against systematic risk for individual securities
 C) It is the capital allocation line with the market portfolio as the risky asset
+
 
 **Correct Answer:** C
 
@@ -29,10 +29,10 @@ C) It is the capital allocation line with the market portfolio as the risky asse
 
 **Question:**
 The risk-free rate is 3% and the expected market return is 11%. A stock with a beta of 1.3 has an expected return under CAPM closest to:
-
 A) 10.4%
 B) 13.4%
 C) 14.3%
+
 
 **Correct Answer:** B
 
@@ -52,10 +52,10 @@ C) 14.3%
 
 **Question:**
 Portfolio A has an expected return of 12% and standard deviation of 18%. Portfolio B has an expected return of 10% and standard deviation of 12%. The risk-free rate is 3%. Based on the Sharpe ratio:
-
 A) Portfolio A is superior
 B) Portfolio B is superior
 C) Both portfolios are equally attractive
+
 
 **Correct Answer:** B
 
@@ -75,10 +75,10 @@ C) Both portfolios are equally attractive
 
 **Question:**
 Stock X has a correlation of 0.7 with the market, a standard deviation of 25%, and the market standard deviation is 15%. The beta of Stock X is closest to:
-
 A) 0.42
 B) 1.17
 C) 1.05
+
 
 **Correct Answer:** B
 
@@ -99,10 +99,10 @@ C) 1.05
 
 **Question:**
 Portfolio P has a return of 15%, beta of 1.2, and the market return is 10%. The risk-free rate is 3%. Jensen's alpha for Portfolio P is closest to:
-
 A) -0.60%
 B) +1.20%
 C) +3.60%
+
 
 **Correct Answer:** C
 
@@ -122,10 +122,10 @@ C) +3.60%
 
 **Question:**
 Which of the following is most likely an investment CONSTRAINT in an Investment Policy Statement (IPS)?
-
 A) The desired rate of return
 B) The investor's risk tolerance
 C) Liquidity needs
+
 
 **Correct Answer:** C
 
@@ -160,10 +160,10 @@ Hmm, actually time horizon might arguably be both an objective dimension and a c
 
 **Question:**
 Which type of risk can be reduced through diversification?
-
 A) Systematic risk
 B) Unsystematic risk
 C) Market risk
+
 
 **Correct Answer:** B
 
@@ -182,10 +182,10 @@ C) Market risk
 
 **Question:**
 An investor allocates 60% to Stock A (expected return 12%) and 40% to Stock B (expected return 8%). The portfolio expected return is:
-
 A) 8.8%
 B) 10.0%
 C) 10.4%
+
 
 **Correct Answer:** C
 
@@ -205,10 +205,10 @@ C) 10.4%
 
 **Question:**
 The risk-free rate is 4%. A risky portfolio has an expected return of 14% and standard deviation of 20%. An investor with a risk aversion coefficient of A = 4 would allocate what percentage to the risky portfolio to maximize utility?
-
 A) 37.5%
 B) 50.0%
 C) 62.5%
+
 
 **Correct Answer:** C
 
@@ -230,10 +230,10 @@ The more risk-averse the investor (higher A), the less they allocate to the risk
 
 **Question:**
 An investor refuses to sell a stock at a loss, even though the company's fundamentals have significantly deteriorated. This behavior is most consistent with:
-
 A) Overconfidence bias
 B) Loss aversion
 C) Anchoring bias
+
 
 **Correct Answer:** B
 
@@ -252,10 +252,10 @@ C) Anchoring bias
 
 **Question:**
 Which of the following is most likely classified as a cognitive error rather than an emotional bias?
-
 A) Loss aversion
 B) Overconfidence
 C) Representativeness
+
 
 **Correct Answer:** C
 
@@ -274,10 +274,10 @@ C) Representativeness
 
 **Question:**
 An investor who excludes tobacco, weapons, and fossil fuel companies from their portfolio is most likely using which ESG approach?
-
 A) Impact investing
 B) Thematic investing
 C) Negative screening
+
 
 **Correct Answer:** C
 
@@ -296,10 +296,10 @@ C) Negative screening
 
 **Question:**
 Portfolio X has a return of 14%, standard deviation of 25%, and the market has a return of 11% with standard deviation of 18%. The risk-free rate is 3%. Portfolio X's M² measure is closest to:
-
 A) +0.36%
 B) +1.00%
 C) +1.44%
+
 
 **Correct Answer:** C
 
@@ -362,10 +362,10 @@ I'll go with A as closest despite the sign mismatch. This might be a rounding is
 
 **Question:**
 Stock A has a standard deviation of 20% ($\sigma_A = 0.20$), and Stock B has a standard deviation of 30% ($\sigma_B = 0.30$). The correlation coefficient between Stock A and Stock B is $-0.20$. The weight of Stock A in the global minimum-variance portfolio is closest to:
-
 A) 33.8%
 B) 50.0%
 C) 66.2%
+
 
 **Correct Answer:** C
 
@@ -397,10 +397,10 @@ $$w_B = 1 - 0.6623 = 33.77\% \approx 33.8\%$$
 
 **Question:**
 A company that purchases insurance to protect against property damage from natural disasters is using which risk management approach?
-
 A) Risk avoidance
 B) Risk acceptance
 C) Risk transfer
+
 
 **Correct Answer:** C
 
@@ -419,10 +419,10 @@ C) Risk transfer
 
 **Question:**
 An investor constructs a portfolio allocated 60% to Asset X ($w_X = 0.60, \sigma_X = 15.0\%$) and 40% to Asset Y ($w_Y = 0.40, \sigma_Y = 25.0\%$). If the correlation coefficient between Asset X and Asset Y is $+0.30$, the portfolio standard deviation ($\sigma_p$) is closest to:
-
 A) 14.82%
 B) 16.48%
 C) 19.00%
+
 
 **Correct Answer:** B
 
@@ -443,6 +443,7 @@ Let's adjust choices:
 A) 15.33%
 B) 16.48%
 C) 19.00%
+
 
 Option A = 15.33%!
 
@@ -468,10 +469,10 @@ Option A = 15.33%!
 
 **Question:**
 Which of the following statements correctly distinguishes the Capital Market Line (CML) from the Security Market Line (SML)?
-
 A) CML measures risk using total risk (standard deviation $\sigma$), while SML measures risk using systematic risk (Beta $\beta$)
 B) CML applies to individual assets and inefficient portfolios, while SML applies exclusively to the market portfolio
 C) CML slope is the Sharpe Ratio of individual securities, while SML slope is the risk-free rate
+
 
 **Correct Answer:** A
 
@@ -493,10 +494,10 @@ C) CML slope is the Sharpe Ratio of individual securities, while SML slope is th
 
 **Question:**
 Stock Z has a standard deviation of returns of 25.0%. The market portfolio has a standard deviation of 15.0%. The correlation coefficient between Stock Z and the market portfolio is $+0.60$. Stock Z's CAPM Beta ($\beta$) is closest to:
-
 A) 0.36
 B) 1.00
 C) 1.50
+
 
 **Correct Answer:** B
 
@@ -521,10 +522,10 @@ $0.60 \times 25.0 / 15.0 = 1.00$
 
 **Question:**
 A portfolio manager states: "The 5% 1-day Value at Risk (VaR) of our equity portfolio is $2,000,000." This statement means that:
-
 A) There is a 95% probability that the portfolio will lose at least $2,000,000 in a single day
 B) There is a 5% probability that the portfolio will lose AT LEAST $2,000,000 in a single day
 C) The maximum possible loss the portfolio can ever experience in a single day is $2,000,000
+
 
 **Correct Answer:** B
 
@@ -544,10 +545,10 @@ C) The maximum possible loss the portfolio can ever experience in a single day i
 
 **Question:**
 In an Investment Policy Statement (IPS), an institutional investor specifies that funds must be available to pay out retiree pensions of $5 million per year. In the IPS framework (RRTTLLU), this requirement is classified under:
-
 A) Return objective
 B) Liquidity constraint
 C) Unique circumstances constraint
+
 
 **Correct Answer:** B
 
@@ -570,10 +571,10 @@ The need to pay out specific cash flows ($5M/year) to meet short-term obligation
 
 **Question:**
 A portfolio manager maintains a long-term target asset allocation of 60% equities and 40% fixed income (**Strategic Asset Allocation**). Over the next quarter, expecting equity market undervaluation, the manager temporarily increases equity exposure to 65%. This short-term deviation is an example of:
-
 A) Tactical Asset Allocation
 B) Rebalancing back to target policy
 C) Asset liability matching
+
 
 **Correct Answer:** A
 
@@ -595,10 +596,10 @@ C) Asset liability matching
 
 **Question:**
 An equity portfolio reports an annual return of 14.0%, a Beta ($\beta$) of 1.25, and a standard deviation ($\sigma$) of 20.0%. If the risk-free rate is 4.0%, the portfolio's Sharpe Ratio and Treynor Ratio are:
-
 A) Sharpe Ratio = 0.50; Treynor Ratio = 8.00%
 B) Sharpe Ratio = 0.50; Treynor Ratio = 10.00%
 C) Sharpe Ratio = 0.70; Treynor Ratio = 8.00%
+
 
 **Correct Answer:** A
 
@@ -626,10 +627,10 @@ Sharpe Ratio measures excess return per unit of TOTAL risk ($\sigma$), while Tre
 
 **Question:**
 An investor refuses to sell a losing stock position currently down 40%, choosing to hold the position in hopes of "breaking even," while quickly selling winning stocks that have gained 10%. This behavioral pattern is best described as:
-
 A) Overconfidence bias
 B) Loss aversion and the Disposition Effect
 C) Availability heuristic
+
 
 **Correct Answer:** B
 
@@ -649,10 +650,10 @@ C) Availability heuristic
 
 **Question:**
 An active portfolio manager achieves an average annual return of 12.0% against a benchmark return of 10.0%. The tracking error (standard deviation of excess returns) is 4.0%. The portfolio's **Information Ratio (IR)** is:
-
 A) 0.50
 B) 2.50
 C) 3.00
+
 
 **Correct Answer:** A
 
@@ -679,10 +680,10 @@ $(12.0 - 10.0) / 4.0 = 2.0 / 4.0 = 0.50$
 
 **Question:**
 An institutional fund manager excludes all companies involved in weapons manufacturing, tobacco production, and fossil fuel extraction from its investment universe. This ESG implementation strategy is known as:
-
 A) Negative screening (exclusionary screening)
 B) Positive ESG integration
 C) Impact investing
+
 
 **Correct Answer:** A
 
@@ -707,10 +708,10 @@ C) Impact investing
 
 **Question:**
 The slope of the Capital Allocation Line (CAL) represents the:?
-
 A) Sharpe ratio of the optimal risky portfolio
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -728,10 +729,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Security Market Line (SML) plots expected return against:?
-
 A) Systematic risk measured by Beta ($eta$)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -749,10 +750,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A 5% 1-day Value at Risk (VaR) of $1.0 million means there is a:?
-
 A) 5% probability that the portfolio will lose MORE than $1.0 million in a single day
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -770,10 +771,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The standard IPS constraints (RRTTLLU) include Time Horizon, Taxes, Liquidity, Legal/Regulatory, and:?
-
 A) Unique Circumstances
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -791,10 +792,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Tactical Asset Allocation (TAA) attempts to generate alpha by:?
-
 A) Making short-term tactical deviations from the Strategic Asset Allocation baseline
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -812,10 +813,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Treynor ratio measures excess return per unit of:?
-
 A) Systematic risk measured by Beta ($eta$)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -833,10 +834,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Loss aversion bias causes investors to demonstrate asymmetric behavior by:?
-
 A) Feeling the pain of losses more intensely than the pleasure of equivalent gains
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -855,10 +856,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Capital Market Line (CML) measures total risk using:?
-
 A) Standard deviation of portfolio returns
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -876,10 +877,10 @@ C) Alternative incorrect option
 
 **Question:**
 The Information Ratio measures excess return relative to a benchmark per unit of:?
-
 A) Tracking error (active risk)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -897,10 +898,10 @@ C) Alternative incorrect option
 
 **Question:**
 Which limitation is inherent in standard Value at Risk (VaR) models??
-
 A) VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -919,10 +920,10 @@ C) Alternative incorrect option
 
 **Question:**
 A stock has a Beta of 1.2. Risk-free rate is 3% and market return is 8%. An analyst estimates the stock will return 10%. The stock's Jensen's Alpha is:?
-
 A) +1.0% (Required Return = 3% + 1.2*(8%-3%) = 9.0%; Alpha = 10.0% - 9.0% = +1.0%)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -941,10 +942,10 @@ C) Alternative incorrect option
 
 **Question:**
 If Asset A and Asset B have correlation coefficient of -1.0, a risk-free portfolio can be constructed if portfolio weights are set to:?
-
 A) w_A = SD(B) / [SD(A) + SD(B)]
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -962,10 +963,10 @@ C) Alternative incorrect option
 
 **Question:**
 The Fama-French three-factor model expands CAPM by adding market risk factor plus:?
-
 A) Size factor (SMB) and Value factor (HML)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -984,10 +985,10 @@ C) Alternative incorrect option
 
 **Question:**
 Solvency risk differs from liquidity risk in that solvency risk refers to the risk that:?
-
 A) Total liabilities exceed total assets, making the enterprise fundamentally insolvent
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1006,10 +1007,10 @@ C) Alternative incorrect option
 
 **Question:**
 When evaluating a well-diversified portfolio, an analyst should primarily rank performance using the:?
-
 A) Sharpe Ratio (or Treynor Ratio, since unsystematic risk is fully diversified away)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1028,10 +1029,10 @@ C) Alternative incorrect option
 
 **Question:**
 The primary objective of Strategic Asset Allocation (SAA) in an IPS is to establish a long-term asset mix that:?
-
 A) Maximizes expected return for the client's specified risk tolerance and constraint profile
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1049,10 +1050,10 @@ C) Alternative incorrect option
 
 **Question:**
 Conditional Value at Risk (CVaR / Expected Shortfall) measures:?
-
 A) The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

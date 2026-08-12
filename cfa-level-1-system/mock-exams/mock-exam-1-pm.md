@@ -11,10 +11,10 @@
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 14.29
 B) USD 33.33
 C) USD 34.67
+
 
 **Correct Answer:** B
 
@@ -32,10 +32,10 @@ C) USD 34.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 16.07
 B) USD 37.50
 C) USD 39.00
+
 
 **Correct Answer:** B
 
@@ -53,10 +53,10 @@ C) USD 39.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 17.86
 B) USD 41.67
 C) USD 43.33
+
 
 **Correct Answer:** B
 
@@ -74,10 +74,10 @@ C) USD 43.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 2.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 19.64
 B) USD 45.83
 C) USD 47.67
+
 
 **Correct Answer:** B
 
@@ -95,10 +95,10 @@ C) USD 47.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 21.43
 B) USD 50.00
 C) USD 52.00
+
 
 **Correct Answer:** B
 
@@ -116,10 +116,10 @@ C) USD 52.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 23.21
 B) USD 54.17
 C) USD 56.33
+
 
 **Correct Answer:** B
 
@@ -137,10 +137,10 @@ C) USD 56.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 25.00
 B) USD 58.33
 C) USD 60.67
+
 
 **Correct Answer:** B
 
@@ -158,10 +158,10 @@ C) USD 60.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 3.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 26.79
 B) USD 62.50
 C) USD 65.00
+
 
 **Correct Answer:** B
 
@@ -179,10 +179,10 @@ C) USD 65.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 28.57
 B) USD 66.67
 C) USD 69.33
+
 
 **Correct Answer:** B
 
@@ -200,10 +200,10 @@ C) USD 69.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 30.36
 B) USD 70.83
 C) USD 73.67
+
 
 **Correct Answer:** B
 
@@ -221,10 +221,10 @@ C) USD 73.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 32.14
 B) USD 75.00
 C) USD 78.00
+
 
 **Correct Answer:** B
 
@@ -242,10 +242,10 @@ C) USD 78.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 4.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 33.93
 B) USD 79.17
 C) USD 82.33
+
 
 **Correct Answer:** B
 
@@ -263,10 +263,10 @@ C) USD 82.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 35.71
 B) USD 83.33
 C) USD 86.67
+
 
 **Correct Answer:** B
 
@@ -284,10 +284,10 @@ C) USD 86.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 37.50
 B) USD 87.50
 C) USD 91.00
+
 
 **Correct Answer:** B
 
@@ -305,10 +305,10 @@ C) USD 91.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 39.29
 B) USD 91.67
 C) USD 95.33
+
 
 **Correct Answer:** B
 
@@ -326,10 +326,10 @@ C) USD 95.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 5.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 41.07
 B) USD 95.83
 C) USD 99.67
+
 
 **Correct Answer:** B
 
@@ -347,10 +347,10 @@ C) USD 99.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 42.86
 B) USD 100.00
 C) USD 104.00
+
 
 **Correct Answer:** B
 
@@ -368,10 +368,10 @@ C) USD 104.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 44.64
 B) USD 104.17
 C) USD 108.33
+
 
 **Correct Answer:** B
 
@@ -389,10 +389,10 @@ C) USD 108.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.50. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 46.43
 B) USD 108.33
 C) USD 112.67
+
 
 **Correct Answer:** B
 
@@ -410,10 +410,10 @@ C) USD 112.67
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 6.75. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 48.21
 B) USD 112.50
 C) USD 117.00
+
 
 **Correct Answer:** B
 
@@ -431,10 +431,10 @@ C) USD 117.00
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 7.00. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 50.00
 B) USD 116.67
 C) USD 121.33
+
 
 **Correct Answer:** B
 
@@ -452,10 +452,10 @@ C) USD 121.33
 
 **Question:**
 An equity analyst estimates next year's annual dividend ($D_1$) for a firm will be USD 7.25. The required return on equity is 10.0% and constant dividend growth is 4.0%. According to the Gordon Growth Model, what is the intrinsic value per share?
-
 A) USD 51.79
 B) USD 120.83
 C) USD 125.67
+
 
 **Correct Answer:** B
 
@@ -475,10 +475,10 @@ C) USD 125.67
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,020.00. The accrued interest since the last coupon date is USD 25.00. What is the full (dirty) price of the bond?
-
 A) USD 1,020.00
 B) USD 1,045.00
 C) USD 1,070.00
+
 
 **Correct Answer:** B
 
@@ -496,10 +496,10 @@ C) USD 1,070.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,025.00. The accrued interest since the last coupon date is USD 27.50. What is the full (dirty) price of the bond?
-
 A) USD 1,025.00
 B) USD 1,052.50
 C) USD 1,080.00
+
 
 **Correct Answer:** B
 
@@ -517,10 +517,10 @@ C) USD 1,080.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,030.00. The accrued interest since the last coupon date is USD 30.00. What is the full (dirty) price of the bond?
-
 A) USD 1,030.00
 B) USD 1,060.00
 C) USD 1,090.00
+
 
 **Correct Answer:** B
 
@@ -538,10 +538,10 @@ C) USD 1,090.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,035.00. The accrued interest since the last coupon date is USD 32.50. What is the full (dirty) price of the bond?
-
 A) USD 1,035.00
 B) USD 1,067.50
 C) USD 1,100.00
+
 
 **Correct Answer:** B
 
@@ -559,10 +559,10 @@ C) USD 1,100.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,040.00. The accrued interest since the last coupon date is USD 35.00. What is the full (dirty) price of the bond?
-
 A) USD 1,040.00
 B) USD 1,075.00
 C) USD 1,110.00
+
 
 **Correct Answer:** B
 
@@ -580,10 +580,10 @@ C) USD 1,110.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,045.00. The accrued interest since the last coupon date is USD 37.50. What is the full (dirty) price of the bond?
-
 A) USD 1,045.00
 B) USD 1,082.50
 C) USD 1,120.00
+
 
 **Correct Answer:** B
 
@@ -601,10 +601,10 @@ C) USD 1,120.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,050.00. The accrued interest since the last coupon date is USD 40.00. What is the full (dirty) price of the bond?
-
 A) USD 1,050.00
 B) USD 1,090.00
 C) USD 1,130.00
+
 
 **Correct Answer:** B
 
@@ -622,10 +622,10 @@ C) USD 1,130.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,055.00. The accrued interest since the last coupon date is USD 42.50. What is the full (dirty) price of the bond?
-
 A) USD 1,055.00
 B) USD 1,097.50
 C) USD 1,140.00
+
 
 **Correct Answer:** B
 
@@ -643,10 +643,10 @@ C) USD 1,140.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,060.00. The accrued interest since the last coupon date is USD 45.00. What is the full (dirty) price of the bond?
-
 A) USD 1,060.00
 B) USD 1,105.00
 C) USD 1,150.00
+
 
 **Correct Answer:** B
 
@@ -664,10 +664,10 @@ C) USD 1,150.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,065.00. The accrued interest since the last coupon date is USD 47.50. What is the full (dirty) price of the bond?
-
 A) USD 1,065.00
 B) USD 1,112.50
 C) USD 1,160.00
+
 
 **Correct Answer:** B
 
@@ -685,10 +685,10 @@ C) USD 1,160.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,070.00. The accrued interest since the last coupon date is USD 50.00. What is the full (dirty) price of the bond?
-
 A) USD 1,070.00
 B) USD 1,120.00
 C) USD 1,170.00
+
 
 **Correct Answer:** B
 
@@ -706,10 +706,10 @@ C) USD 1,170.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,075.00. The accrued interest since the last coupon date is USD 52.50. What is the full (dirty) price of the bond?
-
 A) USD 1,075.00
 B) USD 1,127.50
 C) USD 1,180.00
+
 
 **Correct Answer:** B
 
@@ -727,10 +727,10 @@ C) USD 1,180.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,080.00. The accrued interest since the last coupon date is USD 55.00. What is the full (dirty) price of the bond?
-
 A) USD 1,080.00
 B) USD 1,135.00
 C) USD 1,190.00
+
 
 **Correct Answer:** B
 
@@ -748,10 +748,10 @@ C) USD 1,190.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,085.00. The accrued interest since the last coupon date is USD 57.50. What is the full (dirty) price of the bond?
-
 A) USD 1,085.00
 B) USD 1,142.50
 C) USD 1,200.00
+
 
 **Correct Answer:** B
 
@@ -769,10 +769,10 @@ C) USD 1,200.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,090.00. The accrued interest since the last coupon date is USD 60.00. What is the full (dirty) price of the bond?
-
 A) USD 1,090.00
 B) USD 1,150.00
 C) USD 1,210.00
+
 
 **Correct Answer:** B
 
@@ -790,10 +790,10 @@ C) USD 1,210.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,095.00. The accrued interest since the last coupon date is USD 62.50. What is the full (dirty) price of the bond?
-
 A) USD 1,095.00
 B) USD 1,157.50
 C) USD 1,220.00
+
 
 **Correct Answer:** B
 
@@ -811,10 +811,10 @@ C) USD 1,220.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,100.00. The accrued interest since the last coupon date is USD 65.00. What is the full (dirty) price of the bond?
-
 A) USD 1,100.00
 B) USD 1,165.00
 C) USD 1,230.00
+
 
 **Correct Answer:** B
 
@@ -832,10 +832,10 @@ C) USD 1,230.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,105.00. The accrued interest since the last coupon date is USD 67.50. What is the full (dirty) price of the bond?
-
 A) USD 1,105.00
 B) USD 1,172.50
 C) USD 1,240.00
+
 
 **Correct Answer:** B
 
@@ -853,10 +853,10 @@ C) USD 1,240.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,110.00. The accrued interest since the last coupon date is USD 70.00. What is the full (dirty) price of the bond?
-
 A) USD 1,110.00
 B) USD 1,180.00
 C) USD 1,250.00
+
 
 **Correct Answer:** B
 
@@ -874,10 +874,10 @@ C) USD 1,250.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,115.00. The accrued interest since the last coupon date is USD 72.50. What is the full (dirty) price of the bond?
-
 A) USD 1,115.00
 B) USD 1,187.50
 C) USD 1,260.00
+
 
 **Correct Answer:** B
 
@@ -895,10 +895,10 @@ C) USD 1,260.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,120.00. The accrued interest since the last coupon date is USD 75.00. What is the full (dirty) price of the bond?
-
 A) USD 1,120.00
 B) USD 1,195.00
 C) USD 1,270.00
+
 
 **Correct Answer:** B
 
@@ -916,10 +916,10 @@ C) USD 1,270.00
 
 **Question:**
 A corporate bond has a flat (clean) market price of USD 1,125.00. The accrued interest since the last coupon date is USD 77.50. What is the full (dirty) price of the bond?
-
 A) USD 1,125.00
 B) USD 1,202.50
 C) USD 1,280.00
+
 
 **Correct Answer:** B
 
@@ -939,10 +939,10 @@ C) USD 1,280.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 55.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 2.50
 B) USD 5.00
 C) USD 7.50
+
 
 **Correct Answer:** A
 
@@ -960,10 +960,10 @@ C) USD 7.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 56.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 4.00
 B) USD 6.50
 C) USD 9.00
+
 
 **Correct Answer:** A
 
@@ -981,10 +981,10 @@ C) USD 9.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 58.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 5.50
 B) USD 8.00
 C) USD 10.50
+
 
 **Correct Answer:** A
 
@@ -1002,10 +1002,10 @@ C) USD 10.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 59.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 7.00
 B) USD 9.50
 C) USD 12.00
+
 
 **Correct Answer:** A
 
@@ -1023,10 +1023,10 @@ C) USD 12.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 61.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 8.50
 B) USD 11.00
 C) USD 13.50
+
 
 **Correct Answer:** A
 
@@ -1044,10 +1044,10 @@ C) USD 13.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 62.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 10.00
 B) USD 12.50
 C) USD 15.00
+
 
 **Correct Answer:** A
 
@@ -1065,10 +1065,10 @@ C) USD 15.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 64.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 11.50
 B) USD 14.00
 C) USD 16.50
+
 
 **Correct Answer:** A
 
@@ -1086,10 +1086,10 @@ C) USD 16.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 65.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 13.00
 B) USD 15.50
 C) USD 18.00
+
 
 **Correct Answer:** A
 
@@ -1107,10 +1107,10 @@ C) USD 18.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 67.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 14.50
 B) USD 17.00
 C) USD 19.50
+
 
 **Correct Answer:** A
 
@@ -1128,10 +1128,10 @@ C) USD 19.50
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 68.50. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 16.00
 B) USD 18.50
 C) USD 21.00
+
 
 **Correct Answer:** A
 
@@ -1149,10 +1149,10 @@ C) USD 21.00
 
 **Question:**
 An investor purchases a European call option with a strike price of USD 50.00. At expiration, the underlying stock price is USD 70.00. If the initial option premium was USD 2.50, what is the net profit to the option buyer?
-
 A) USD 17.50
 B) USD 20.00
 C) USD 22.50
+
 
 **Correct Answer:** A
 
@@ -1172,10 +1172,10 @@ C) USD 22.50
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1193,10 +1193,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1214,10 +1214,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1235,10 +1235,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1256,10 +1256,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1277,10 +1277,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1298,10 +1298,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1319,10 +1319,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1340,10 +1340,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1361,10 +1361,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1382,10 +1382,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1403,10 +1403,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1424,10 +1424,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1445,10 +1445,10 @@ C) 2.0%
 
 **Question:**
 A private equity fund charges a 2% management fee and a 20% performance fee (carried interest) with an 8% hurdle rate. If the fund achieves a gross annual return of 6.0%, what performance fee percentage is collected by the General Partner (GP)?
-
 A) 0.0%
 B) 1.2%
 C) 2.0%
+
 
 **Correct Answer:** A
 
@@ -1468,10 +1468,10 @@ C) 2.0%
 
 **Question:**
 An investment portfolio achieves an expected annual return of 12.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.60
 B) 0.80
 C) 0.50
+
 
 **Correct Answer:** A
 
@@ -1489,10 +1489,10 @@ C) 0.50
 
 **Question:**
 An investment portfolio achieves an expected annual return of 12.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.63
 B) 0.83
 C) 0.53
+
 
 **Correct Answer:** A
 
@@ -1510,10 +1510,10 @@ C) 0.53
 
 **Question:**
 An investment portfolio achieves an expected annual return of 13.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.67
 B) 0.87
 C) 0.56
+
 
 **Correct Answer:** A
 
@@ -1531,10 +1531,10 @@ C) 0.56
 
 **Question:**
 An investment portfolio achieves an expected annual return of 13.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.70
 B) 0.90
 C) 0.58
+
 
 **Correct Answer:** A
 
@@ -1552,10 +1552,10 @@ C) 0.58
 
 **Question:**
 An investment portfolio achieves an expected annual return of 14.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.73
 B) 0.93
 C) 0.61
+
 
 **Correct Answer:** A
 
@@ -1573,10 +1573,10 @@ C) 0.61
 
 **Question:**
 An investment portfolio achieves an expected annual return of 14.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.77
 B) 0.97
 C) 0.64
+
 
 **Correct Answer:** A
 
@@ -1594,10 +1594,10 @@ C) 0.64
 
 **Question:**
 An investment portfolio achieves an expected annual return of 15.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.80
 B) 1.00
 C) 0.67
+
 
 **Correct Answer:** A
 
@@ -1615,10 +1615,10 @@ C) 0.67
 
 **Question:**
 An investment portfolio achieves an expected annual return of 15.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.83
 B) 1.03
 C) 0.69
+
 
 **Correct Answer:** A
 
@@ -1636,10 +1636,10 @@ C) 0.69
 
 **Question:**
 An investment portfolio achieves an expected annual return of 16.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.87
 B) 1.07
 C) 0.72
+
 
 **Correct Answer:** A
 
@@ -1657,10 +1657,10 @@ C) 0.72
 
 **Question:**
 An investment portfolio achieves an expected annual return of 16.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.90
 B) 1.10
 C) 0.75
+
 
 **Correct Answer:** A
 
@@ -1678,10 +1678,10 @@ C) 0.75
 
 **Question:**
 An investment portfolio achieves an expected annual return of 17.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.93
 B) 1.13
 C) 0.78
+
 
 **Correct Answer:** A
 
@@ -1699,10 +1699,10 @@ C) 0.78
 
 **Question:**
 An investment portfolio achieves an expected annual return of 17.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 0.97
 B) 1.17
 C) 0.81
+
 
 **Correct Answer:** A
 
@@ -1720,10 +1720,10 @@ C) 0.81
 
 **Question:**
 An investment portfolio achieves an expected annual return of 18.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.00
 B) 1.20
 C) 0.83
+
 
 **Correct Answer:** A
 
@@ -1741,10 +1741,10 @@ C) 0.83
 
 **Question:**
 An investment portfolio achieves an expected annual return of 18.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.03
 B) 1.23
 C) 0.86
+
 
 **Correct Answer:** A
 
@@ -1762,10 +1762,10 @@ C) 0.86
 
 **Question:**
 An investment portfolio achieves an expected annual return of 19.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.07
 B) 1.27
 C) 0.89
+
 
 **Correct Answer:** A
 
@@ -1783,10 +1783,10 @@ C) 0.89
 
 **Question:**
 An investment portfolio achieves an expected annual return of 19.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.10
 B) 1.30
 C) 0.92
+
 
 **Correct Answer:** A
 
@@ -1804,10 +1804,10 @@ C) 0.92
 
 **Question:**
 An investment portfolio achieves an expected annual return of 20.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.13
 B) 1.33
 C) 0.94
+
 
 **Correct Answer:** A
 
@@ -1825,10 +1825,10 @@ C) 0.94
 
 **Question:**
 An investment portfolio achieves an expected annual return of 20.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.17
 B) 1.37
 C) 0.97
+
 
 **Correct Answer:** A
 
@@ -1846,10 +1846,10 @@ C) 0.97
 
 **Question:**
 An investment portfolio achieves an expected annual return of 21.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.20
 B) 1.40
 C) 1.00
+
 
 **Correct Answer:** A
 
@@ -1867,10 +1867,10 @@ C) 1.00
 
 **Question:**
 An investment portfolio achieves an expected annual return of 21.5% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.23
 B) 1.43
 C) 1.03
+
 
 **Correct Answer:** A
 
@@ -1888,10 +1888,10 @@ C) 1.03
 
 **Question:**
 An investment portfolio achieves an expected annual return of 22.0% with a total standard deviation of 15.0%. If the risk-free benchmark rate is 3.0%, what is the portfolio's Sharpe Ratio?
-
 A) 1.27
 B) 1.47
 C) 1.06
+
 
 **Correct Answer:** A
 

@@ -6,10 +6,10 @@
 
 **Question:**
 An investor purchases 500 shares of stock at $40 per share on margin. The initial margin requirement is 50% and the maintenance margin is 30%. At what price per share will the investor receive a margin call?
-
 A) $25.71
 B) $28.57
 C) $31.43
+
 
 **Correct Answer:** B
 
@@ -31,10 +31,10 @@ The formula derives from: Equity/Market Value = (nP - Loan)/nP = Maintenance Mar
 
 **Question:**
 A price-weighted index consists of three stocks priced at $50, $100, and $150 with the divisor initially set at 3.0. Stock B (priced at $100) undergoes a 2-for-1 stock split. The new divisor is closest to:
-
 A) 2.50
 B) 2.67
 C) 2.75
+
 
 **Correct Answer:** A
 
@@ -53,10 +53,10 @@ C) 2.75
 
 **Question:**
 If markets are semi-strong form efficient, which of the following strategies can consistently generate abnormal returns?
-
 A) Technical analysis
 B) Fundamental analysis using publicly available information
 C) Trading on material nonpublic information
+
 
 **Correct Answer:** C
 
@@ -75,10 +75,10 @@ C) Trading on material nonpublic information
 
 **Question:**
 Which of the following is most likely a characteristic of cumulative preferred shares?
-
 A) Unpaid dividends are forfeited
 B) Unpaid dividends accumulate and must be paid before common dividends
 C) Preferred shareholders can vote on major corporate matters
+
 
 **Correct Answer:** B
 
@@ -97,10 +97,10 @@ C) Preferred shareholders can vote on major corporate matters
 
 **Question:**
 A stock just paid a dividend of $2.50. Dividends are expected to grow at 4% indefinitely. The required rate of return is 11%. The intrinsic value of the stock is closest to:
-
 A) $22.73
 B) $35.71
 C) $37.14
+
 
 **Correct Answer:** C
 
@@ -122,10 +122,10 @@ The most common mistake is using D₀ instead of D₁: $2.50/0.07 = $35.71 (whic
 
 **Question:**
 Which index weighting method is most likely to give the highest weight to overvalued securities?
-
 A) Price-weighted
 B) Equal-weighted
 C) Market capitalization-weighted
+
 
 **Correct Answer:** C
 
@@ -144,10 +144,10 @@ C) Market capitalization-weighted
 
 **Question:**
 A company has: Market cap = $500 million, Preferred stock (market value) = $50 million, Total debt (market value) = $200 million, Cash = $30 million, Short-term investments = $20 million, Minority interest = $15 million. Enterprise value is closest to:
-
 A) $685 million
 B) $700 million
 C) $715 million
+
 
 **Correct Answer:** C
 
@@ -169,10 +169,10 @@ EV represents the total cost to acquire the company (buy all equity, assume all 
 
 **Question:**
 A company has a higher P/E ratio than its industry peers. Which of the following could justify the higher P/E, all else equal?
-
 A) Higher required rate of return
 B) Lower systematic risk
 C) Higher dividend payout ratio
+
 
 **Correct Answer:** B
 
@@ -193,10 +193,10 @@ C) Higher dividend payout ratio
 
 **Question:**
 A company has ROE = 15% and pays out 40% of earnings as dividends. The sustainable growth rate is closest to:
-
 A) 6.0%
 B) 9.0%
 C) 15.0%
+
 
 **Correct Answer:** B
 
@@ -216,10 +216,10 @@ C) 15.0%
 
 **Question:**
 A company is expected to pay a dividend of $1.00 next year, growing at 20% for years 2-3, then at 5% indefinitely. The required return is 12%. The intrinsic value is closest to:
-
 A) $15.47
 B) $22.18
 C) $20.42
+
 
 **Correct Answer:** B
 
@@ -270,10 +270,10 @@ B ($18.65) is closest. Let me go with B.
 
 **Question:**
 According to Porter's Five Forces, which of the following would most likely increase industry rivalry?
-
 A) High industry growth rate
 B) High switching costs for customers
 C) High fixed costs in the industry
+
 
 **Correct Answer:** C
 
@@ -292,10 +292,10 @@ C) High fixed costs in the industry
 
 **Question:**
 An investor places a limit order to buy a stock at $45 when the current market price is $47. This order is most likely:
-
 A) At the market
 B) Behind the market
 C) A marketable limit order
+
 
 **Correct Answer:** B
 
@@ -314,10 +314,10 @@ C) A marketable limit order
 
 **Question:**
 A company has a book value per share of $25 and generates ROE of 12%. The required return is 10% and the long-term growth rate is 4%. Using the justified P/B ratio, the intrinsic value per share is closest to:
-
 A) $20.00
 B) $50.00
 C) $30.00
+
 
 **Correct Answer:** B
 
@@ -398,10 +398,10 @@ $$\text{Intrinsic Value per share} = \text{Book Value} \times \text{Justified P/
 
 **Question:**
 During which industry life cycle stage is competition most likely to be based primarily on price?
-
 A) Embryonic
 B) Mature
 C) Shakeout
+
 
 **Correct Answer:** B
 
@@ -420,10 +420,10 @@ C) Shakeout
 
 **Question:**
 Two companies operate in the same industry with identical revenues and operating performance, but Company X has higher depreciation expense and higher financial leverage than Company Y. Compared to Company Y, Company X will most likely have:
-
 A) A higher P/E ratio and lower EV/EBITDA ratio
 B) A lower P/E ratio and identical EV/EBITDA ratio
 C) A higher P/E ratio and identical EV/EBITDA ratio
+
 
 **Correct Answer:** C
 
@@ -445,10 +445,10 @@ C) A higher P/E ratio and identical EV/EBITDA ratio
 
 **Question:**
 An investor buys 200 shares of stock on margin at $50 per share. The initial margin requirement is 50%, and the maintenance margin requirement is 30%. The price at which the investor will receive a margin call is closest to:
-
 A) $35.71
 B) $38.46
 C) $41.67
+
 
 **Correct Answer:** A
 
@@ -473,10 +473,10 @@ $50 \times 0.50 / 0.70 = 35.714 \to \$35.71$
 
 **Question:**
 Which equity index weighting method is subject to the "price-weighting bias," where a 10% price change in a high-priced stock has a much greater effect on index value than a 10% price change in a low-priced stock?
-
 A) Market-capitalization weighting
 B) Equal weighting
 C) Price weighting
+
 
 **Correct Answer:** C
 
@@ -496,10 +496,10 @@ C) Price weighting
 
 **Question:**
 If an investor can consistently generate risk-adjusted abnormal returns by executing trades based on historical price patterns and public earnings announcements, which form(s) of the Efficient Market Hypothesis (EMH) is/are violated?
-
 A) Weak form only
 B) Weak form and Semi-strong form
 C) Strong form only
+
 
 **Correct Answer:** B
 
@@ -522,10 +522,10 @@ C) Strong form only
 
 **Question:**
 A company has a Return on Equity (ROE) of 15.0%, earnings per share (EPS) of $4.00, and pays an annual dividend of $1.60 per share. The company's sustainable growth rate ($g$) is closest to:
-
 A) 6.00%
 B) 9.00%
 C) 15.00%
+
 
 **Correct Answer:** B
 
@@ -553,10 +553,10 @@ $$\text{Sustainable Growth Rate } (g) = b \times \text{ROE} = 0.60 \times 15.0\%
 
 **Question:**
 A stock currently pays a dividend of $2.00 ($D_0 = \$2.00$). Dividends are projected to grow at 12% per year for the next 2 years (Years 1 and 2), after which growth will slow to a constant 4% indefinitely. If the required rate of return is 10%, the current intrinsic value of the stock is closest to:
-
 A) $33.88
 B) $36.42
 C) $38.90
+
 
 **Correct Answer:** A
 
@@ -580,6 +580,7 @@ Let's re-verify options:
 A) $33.88
 B) $36.42
 C) $40.05
+
 
 Let's set Option C = $40.05!
 
@@ -606,10 +607,10 @@ Let's set Option C = $40.05!
 
 **Question:**
 A firm has a market capitalization of common equity of $500 million, total debt of $150 million, preferred stock of $30 million, and cash & short-term investments of $40 million. The company's Enterprise Value (EV) is closest to:
-
 A) $640 million
 B) $680 million
 C) $720 million
+
 
 **Correct Answer:** A
 
@@ -636,10 +637,10 @@ $500 + 30 + 150 - 40 = 640$
 
 **Question:**
 According to Michael Porter's Five Forces framework, an industry characterized by high capital requirements, strong brand loyalty among customers, and significant economies of scale will most likely have:
-
 A) High threat of new entrants
 B) Low threat of new entrants
 C) High bargaining power of buyers
+
 
 **Correct Answer:** B
 
@@ -659,10 +660,10 @@ C) High bargaining power of buyers
 
 **Question:**
 A firm reports Cash Flow from Operations (CFO) of $80 million, Capital Expenditures (CapEx) of $30 million, and Net Borrowing (debt issued minus debt repaid) of $10 million. The Free Cash Flow to Equity (FCFE) is closest to:
-
 A) $40 million
 B) $60 million
 C) $100 million
+
 
 **Correct Answer:** B
 
@@ -689,10 +690,10 @@ $80 - 30 + 10 = 60$
 
 **Question:**
 All else equal, a firm's justified leading Price-to-Earnings ($\text{P}_0 / \text{E}_1$) ratio will INCREASE if there is an increase in the firm's:
-
 A) Required rate of return ($r$)
 B) Dividend payout ratio ($1 - b$)
 C) Financial leverage risk premium
+
 
 **Correct Answer:** B
 
@@ -714,10 +715,10 @@ An increase in the dividend payout ratio ($1 - b$) increases the numerator, whic
 
 **Question:**
 Asset-based valuation models are LEAST appropriate for valuing a company that:
-
 A) Has significant intangible assets and intellectual property not captured on the balance sheet
 B) Consists primarily of liquid financial assets and real estate holdings
 C) Is undergoing liquidation or bankruptcy proceedings
+
 
 **Correct Answer:** A
 
@@ -739,10 +740,10 @@ C) Is undergoing liquidation or bankruptcy proceedings
 
 **Question:**
 In an equal-weighted equity index, maintaining target portfolio weights requires:?
-
 A) Periodic rebalancing that creates implicit sell-high/buy-low rebalancing pressure
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -760,10 +761,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Weak-form Market Efficiency implies that technical analysis based on past price data:?
-
 A) Cannot consistently generate risk-adjusted abnormal returns (alpha)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -781,10 +782,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The size effect anomaly refers to the empirical observation that small-cap stocks tend to:?
-
 A) Outperform large-cap stocks on a risk-adjusted basis over long horizons
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -802,10 +803,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 An industry characterized by slowing growth, intense price competition, and capacity rationalization is in the:?
-
 A) Shakeout stage
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -823,10 +824,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 According to Porter's Five Forces framework, high buyer bargaining power tends to:?
-
 A) Cap industry pricing power and reduce long-term industry profitability
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -844,10 +845,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In the Dividend Discount Model, the sustainable dividend growth rate ($g$) equals:?
-
 A) Retention rate ($b$) multiplied by Return on Equity (ROE)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -865,10 +866,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A justified trailing P/E multiple increases when:?
-
 A) The dividend payout ratio increases or the required rate of return decreases
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -887,10 +888,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 An investor buys a stock on margin at $50 per share with an initial margin of 50% and maintenance margin of 30%. The price at which a margin call occurs is:?
-
 A) $35.71 (Margin Call Price = [50 * (1 - 0.50)] / (1 - 0.30) = $35.71)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -908,10 +909,10 @@ C) Alternative incorrect option
 
 **Question:**
 FCFE represents cash flow available to equity holders after meeting operating expenses, working capital, and:?
-
 A) Capital expenditures and net debt service/repayments
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -929,10 +930,10 @@ C) Alternative incorrect option
 
 **Question:**
 EV/EBITDA is particularly useful for comparing companies with different:?
-
 A) Capital structures (debt leverage) and capital intensity/depreciation policies
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -951,10 +952,10 @@ C) Alternative incorrect option
 
 **Question:**
 A firm pays a current dividend of $2.00. Dividends grow at 10% for 2 years, then at 4% indefinitely. Required return is 8%. The value per share is:?
-
 A) $54.55 (PV of D1, D2 + PV of terminal value at t=2)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -972,10 +973,10 @@ C) Alternative incorrect option
 
 **Question:**
 A company's Return on Equity (ROE) is 12%, required return is 10%, and dividend growth rate is 4%. Its justified price-to-book ratio is:?
-
 A) 1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -994,10 +995,10 @@ C) Alternative incorrect option
 
 **Question:**
 High economies of scale and heavy capital requirements create high barriers to entry, which tends to:?
-
 A) Protect incumbent firm profitability and reduce threat of new entrants
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1015,10 +1016,10 @@ C) Alternative incorrect option
 
 **Question:**
 FCFF is defined as cash flow available to:?
-
 A) All suppliers of capital, including debt holders, preferred shareholders, and common equity holders
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1036,10 +1037,10 @@ C) Alternative incorrect option
 
 **Question:**
 The justified forward P/E ratio under the Gordon Growth Model equals:?
-
 A) (1 - b) / (r - g), where (1 - b) is the dividend payout ratio
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1058,10 +1059,10 @@ C) Alternative incorrect option
 
 **Question:**
 An asset-based equity valuation model calculates net asset value by taking:?
-
 A) Market value of assets minus Market value of liabilities
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1079,10 +1080,10 @@ C) Alternative incorrect option
 
 **Question:**
 In a quote-driven equity market, liquidity is provided primarily by:?
-
 A) Designated market makers or dealers standing ready to buy and sell at quoted bid/ask prices
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1101,10 +1102,10 @@ C) Alternative incorrect option
 
 **Question:**
 A stock trades at $50.00, expected next-year dividend D1 = $2.50, and required return r = 10%. The implied constant growth rate g is:?
-
 A) 5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1123,10 +1124,10 @@ C) Alternative incorrect option
 
 **Question:**
 A firm pays D0 = $1.00. Growth is 20% for 2 years, then settles to a permanent 5%. Required return is 10%. Value per share P0 is:?
-
 A) $22.91 (PV of D1, D2 plus PV of terminal value at t=2)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1144,10 +1145,10 @@ C) Alternative incorrect option
 
 **Question:**
 A primary advantage of using the Price-to-Sales (P/S) multiple over the P/E multiple is that P/S can be used to value firms with:?
-
 A) Negative net income (net losses) or volatile corporate profit margins
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1165,10 +1166,10 @@ C) Alternative incorrect option
 
 **Question:**
 Strong-form Market Efficiency asserts that stock prices fully reflect:?
-
 A) All public and private (inside) information
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

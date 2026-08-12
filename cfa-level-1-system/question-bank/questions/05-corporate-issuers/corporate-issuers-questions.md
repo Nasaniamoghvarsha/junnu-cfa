@@ -6,10 +6,10 @@
 
 **Question:**
 A project requires an initial investment of $500,000 and generates cash flows of $150,000 per year for 5 years. The required rate of return is 10%. The NPV is closest to:
-
 A) $68,618
 B) $75,000
 C) $118,618
+
 
 **Correct Answer:** A
 
@@ -33,10 +33,10 @@ Two mutually exclusive projects have the following NPV profiles:
 - Project B: NPV at 10% = $65,000, IRR = 15%
 
 The crossover rate is 12%. At the company's cost of capital of 10%, which project should be selected?
-
 A) Project A because it has the higher IRR
 B) Project B because it has the higher NPV
 C) Either project because both have positive NPV
+
 
 **Correct Answer:** B
 
@@ -55,10 +55,10 @@ C) Either project because both have positive NPV
 
 **Question:**
 A company has the following capital structure at market values: Debt = $4 million (YTM = 6%), Equity = $6 million (CAPM cost = 12%). The tax rate is 25%. WACC is closest to:
-
 A) 8.4%
 B) 9.0%
 C) 9.6%
+
 
 **Correct Answer:** B
 
@@ -78,10 +78,10 @@ C) 9.6%
 
 **Question:**
 A company has: Days of Inventory on Hand (DOH) = 45, Days Sales Outstanding (DSO) = 30, Days Payable Outstanding (DPO) = 25. Its cash conversion cycle is:
-
 A) 20 days
 B) 40 days
 C) 50 days
+
 
 **Correct Answer:** C
 
@@ -101,10 +101,10 @@ C) 50 days
 
 **Question:**
 According to Modigliani-Miller Proposition I with corporate taxes, as a firm increases its use of debt:
-
 A) Firm value decreases due to increased financial risk
 B) Firm value remains unchanged
 C) Firm value increases due to the interest tax shield
+
 
 **Correct Answer:** C
 
@@ -124,10 +124,10 @@ C) Firm value increases due to the interest tax shield
 
 **Question:**
 A company has: Sales = $1,000,000, Variable costs = $400,000, Fixed operating costs = $200,000, Interest expense = $50,000. The degree of total leverage (DTL) is closest to:
-
 A) 1.50
 B) 1.71
 C) 2.00
+
 
 **Correct Answer:** B
 
@@ -154,10 +154,10 @@ Alternatively: DTL = Contribution Margin / (EBIT - Interest) = $600,000 / $350,0
 
 **Question:**
 A supplier offers credit terms of 2/10, net 60. The effective annual rate of forgoing the discount is closest to:
-
 A) 12.2%
 B) 14.9%
 C) 15.9%
+
 
 **Correct Answer:** C
 
@@ -179,10 +179,10 @@ ln(1.020408) × 7.3 = 0.02020 × 7.3 = 0.1475. e^0.1475 = 1.159. So EAR ≈ 15.9
 
 **Question:**
 A company spent $200,000 last year on a feasibility study for a new product. In evaluating whether to proceed with the product launch, the $200,000 should be:
-
 A) Included as part of the initial investment
 B) Excluded because it is a sunk cost
 C) Amortized over the project's life
+
 
 **Correct Answer:** B
 
@@ -201,10 +201,10 @@ C) Amortized over the project's life
 
 **Question:**
 The risk-free rate is 3%, the expected market return is 10%, and a stock's beta is 1.4. The stock also pays a $2 dividend (just paid), with dividends expected to grow at 5% indefinitely. The current stock price is $35. Using CAPM, the required return is:
-
 A) 9.8%
 B) 11.0%
 C) 12.8%
+
 
 **Correct Answer:** C
 
@@ -226,10 +226,10 @@ Note: The DDM information (D₀ = $2, g = 5%, P₀ = $35) gives: r_e = D₁/P₀
 
 **Question:**
 Which of the following is most likely an example of an agency problem between shareholders and management?
-
 A) A company increases its dividend payout ratio
 B) Management rejects a risky positive-NPV project to protect their jobs
 C) Bondholders impose restrictive covenants on new debt issuance
+
 
 **Correct Answer:** B
 
@@ -248,10 +248,10 @@ C) Bondholders impose restrictive covenants on new debt issuance
 
 **Question:**
 A company's bonds have a YTM of 8% and trade at par. The company's marginal tax rate is 30%. The after-tax cost of debt used in WACC is:
-
 A) 2.4%
 B) 5.6%
 C) 8.0%
+
 
 **Correct Answer:** B
 
@@ -271,10 +271,10 @@ C) 8.0%
 
 **Question:**
 A mining company has the option to temporarily shut down operations when commodity prices fall below extraction costs and resume when prices recover. This is best described as a:
-
 A) Timing option
 B) Sizing option
 C) Flexibility option
+
 
 **Correct Answer:** C
 
@@ -293,10 +293,10 @@ C) Flexibility option
 
 **Question:**
 Which of the following is most likely a characteristic of a one-tier (unitary) board structure?
-
 A) Separate management and supervisory boards
 B) Executive and non-executive directors serve on the same board
 C) Employee representatives must serve on the supervisory board
+
 
 **Correct Answer:** B
 
@@ -315,10 +315,10 @@ C) Employee representatives must serve on the supervisory board
 
 **Question:**
 A project requires an initial investment of $1,000,000 in equipment and $100,000 in net working capital (fully recovered at project end). Annual after-tax operating cash flows are $300,000 for 5 years. At the end of year 5, equipment is sold for $200,000 (book value = $0, tax rate = 25%). The required return is 10%. NPV is closest to:
-
 A) $137,236
 B) $223,470
 C) $261,420
+
 
 **Correct Answer:** B
 
@@ -417,10 +417,10 @@ $$\text{NPV} = -1,100,000 + 272,727 + 247,934 + 225,394 + 204,904 + 372,552 = \$
 
 **Question:**
 Which of the following is most likely considered a secondary source of liquidity for a company?
-
 A) Cash balances on hand
 B) Operating cash flow from sales
 C) Negotiating relaxed debt covenants with lenders
+
 
 **Correct Answer:** C
 
@@ -439,10 +439,10 @@ C) Negotiating relaxed debt covenants with lenders
 
 **Question:**
 A firm has a target capital structure of 40% debt, 10% preferred stock, and 50% common equity. The firm's pre-tax cost of debt is 6.0%, cost of preferred stock is 7.5%, and cost of common equity is 12.0%. If the corporate tax rate is 25%, the firm's Weighted Average Cost of Capital (WACC) is closest to:
-
 A) 7.95%
 B) 8.55%
 C) 9.15%
+
 
 **Correct Answer:** B
 
@@ -469,10 +469,10 @@ $(0.40 \times 6 \times 0.75) + (0.10 \times 7.5) + (0.50 \times 12) = 1.80 + 0.7
 
 **Question:**
 A capital project requires an initial outlay of $500,000 and generates a present value of future cash inflows of $625,000 (yielding a Net Present Value of $125,000). The Profitability Index (PI) for this project is:
-
 A) 0.25
 B) 1.25
 C) 1.50
+
 
 **Correct Answer:** B
 
@@ -498,10 +498,10 @@ $625,000 / 500,000 = 1.25$
 
 **Question:**
 According to Modigliani-Miller Proposition II WITH corporate taxes, as a firm increases its proportion of debt financing, the firm's cost of equity ($r_e$) increases because of higher financial risk, but the firm's overall WACC:
-
 A) Increases steadily due to the threat of bankruptcy
 B) Decreases continuously because of the tax shield on interest
 C) Remains constant regardless of debt level
+
 
 **Correct Answer:** B
 
@@ -521,10 +521,10 @@ C) Remains constant regardless of debt level
 
 **Question:**
 According to the Pecking Order Theory of capital structure, when a company needs to raise capital to finance new investment projects, management will choose financing sources in which order of priority?
-
 A) Internal equity (retained earnings) $\to$ Debt $\to$ External equity
 B) External equity $\to$ Debt $\to$ Internal equity
 C) Debt $\to$ Internal equity $\to$ External equity
+
 
 **Correct Answer:** A
 
@@ -549,10 +549,10 @@ A manufacturing company reports the following working capital metrics:
 * Number of Days of Payables (NDP) = 30 days
 
 The company's Operating Cycle and Cash Conversion Cycle (CCC) are:
-
 A) Operating Cycle = 80 days; Cash Conversion Cycle = 50 days
 B) Operating Cycle = 80 days; Cash Conversion Cycle = 110 days
 C) Operating Cycle = 50 days; Cash Conversion Cycle = 80 days
+
 
 **Correct Answer:** A
 
@@ -580,10 +580,10 @@ The Cash Conversion Cycle measures the net time between paying suppliers for raw
 
 **Question:**
 A firm's stock has a Beta ($\beta$) of 1.20. The risk-free rate is 3.5% and the expected return on the market portfolio is 9.5%. Using the Capital Asset Pricing Model (CAPM), the firm's cost of common equity ($r_e$) is:
-
 A) 10.70%
 B) 11.40%
 C) 14.90%
+
 
 **Correct Answer:** A
 
@@ -609,10 +609,10 @@ $3.5 + 1.20 \times (9.5 - 3.5) = 3.5 + 7.20 = 10.70\%$
 
 **Question:**
 In corporate governance and ESG analysis, an analyst evaluating "Governance" risk factors would focus LEAST on:
-
 A) Executive compensation structure and alignment with long-term shareholders
 B) Board of directors independence and dual CEO-Chairman roles
 C) Workplace safety compliance and employee turnover metrics
+
 
 **Correct Answer:** C
 
@@ -636,10 +636,10 @@ Workplace safety and employee turnover fall under the **Social (S)** pillar, not
 
 **Question:**
 A firm's 10-year outstanding bonds yield 7.0%. Based on historical risk premium studies, equity analysts assign an equity risk premium of 4.5% over the firm's own cost of debt. Using the Bond Yield Plus Risk Premium approach, the firm's estimated cost of equity is:
-
 A) 4.50%
 B) 11.50%
 C) 13.00%
+
 
 **Correct Answer:** B
 
@@ -664,10 +664,10 @@ $7.0 + 4.5 = 11.50\%$
 
 **Question:**
 A company issues Dual-Class Share structures where Class A shares carry 1 vote per share and Class B shares (held by founders) carry 10 votes per share. From a corporate governance perspective, this structure:
-
 A) Enhances minority shareholder protection by insulating management from short-term market pressures
 B) Creates an agency conflict by decoupling voting control from economic ownership
 C) Has no effect on corporate governance because economic dividends are equal
+
 
 **Correct Answer:** B
 
@@ -687,10 +687,10 @@ C) Has no effect on corporate governance because economic dividends are equal
 
 **Question:**
 A firm has a target capital structure of 40% debt and 60% equity. The firm can raise up to $30 million in new debt at a pre-tax cost of 6%, after which additional debt will cost 8%. If the firm expects to generate $45 million in retained earnings this year, the break point in the Marginal Cost of Capital (MCC) schedule caused by exhausting internal equity is:
-
 A) $45 million
 B) $75 million
 C) $112.5 million
+
 
 **Correct Answer:** B
 
@@ -718,10 +718,10 @@ $45 / 0.60 = 75.0\text{ million}$
 
 **Question:**
 The Net Present Value (NPV) profile of a project plots NPV against discount rates. The slope of the profile is:?
-
 A) Negative, indicating NPV declines as the discount rate increases
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -739,10 +739,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The cost of non-callable, non-convertible preferred stock ($r_ps$) equals:?
-
 A) Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -760,10 +760,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The after-tax cost of debt capital ($r_d(1-t)$) incorporates the marginal tax rate because:?
-
 A) Interest expense is tax-deductible in corporate tax returns
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -781,10 +781,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Financial risk refers specifically to risk resulting from a company's use of:?
-
 A) Fixed-cost debt capital in its capital structure
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -802,10 +802,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Degree of Operating Leverage (DOL) measures the sensitivity of EBIT to changes in:?
-
 A) Sales revenue
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -823,10 +823,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The Cash Conversion Cycle equals Days Sales Outstanding plus Days of Inventory ON Hand minus:?
-
 A) Number of Days of Payables Outstanding
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -844,10 +844,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Under modern corporate governance frameworks, the primary duty of the Board of Directors is to:?
-
 A) Protect shareholder interests while monitoring management execution
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -866,10 +866,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A company's Beta is 1.2, risk-free rate is 3%, and market risk premium is 6%. Its CAPM cost of equity is:?
-
 A) 10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -887,10 +887,10 @@ C) Alternative incorrect option
 
 **Question:**
 The Marginal Cost of Capital (MCC) schedule slopes upward because:?
-
 A) Costs of debt and equity capital increase as the firm raises larger amounts of capital
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -908,10 +908,10 @@ C) Alternative incorrect option
 
 **Question:**
 If a firm's DOL is 2.0 and DFL is 1.5, its Degree of Combined Leverage (DCL) is:?
-
 A) 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -930,10 +930,10 @@ C) Alternative incorrect option
 
 **Question:**
 A firm has 40% debt (cost of debt = 6%, tax rate = 25%) and 60% equity (cost of equity = 10%). Its WACC is:?
-
 A) 7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -951,10 +951,10 @@ C) Alternative incorrect option
 
 **Question:**
 When evaluating mutually exclusive projects with different scales, NPV and IRR methods can conflict. The analyst should prioritize:?
-
 A) NPV, because it directly measures expected shareholder wealth maximization in dollar terms
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -973,10 +973,10 @@ C) Alternative incorrect option
 
 **Question:**
 A company's cash ratio measures cash and marketable securities relative to:?
-
 A) Current liabilities
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -994,10 +994,10 @@ C) Alternative incorrect option
 
 **Question:**
 Operating risk is primarily driven by a firm's:?
-
 A) Fixed operating costs relative to variable costs
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1016,10 +1016,10 @@ C) Alternative incorrect option
 
 **Question:**
 The audit committee of a publicly traded company's Board of Directors must consist of:?
-
 A) Independent board members, with at least one financial expert
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1038,10 +1038,10 @@ C) Alternative incorrect option
 
 **Question:**
 A firm's non-callable 10-year bond yields 5.5%. The corporate marginal tax rate is 20%. The after-tax cost of debt ($r_d(1-t)$) is:?
-
 A) 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1060,10 +1060,10 @@ C) Alternative incorrect option
 
 **Question:**
 The primary structural limitation of the traditional payback period method is that it:?
-
 A) Ignores the time value of money and all cash flows occurring after the payback cutoff date
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1081,10 +1081,10 @@ C) Alternative incorrect option
 
 **Question:**
 In corporate governance, shareholder general meetings provide shareholders the right to vote on:?
-
 A) Board member election, executive compensation policy, and major corporate restructuring decisions
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 

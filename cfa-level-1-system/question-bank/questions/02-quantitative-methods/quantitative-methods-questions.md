@@ -6,10 +6,10 @@
 
 **Question:**
 An investor plans to deposit $5,000 at the end of each year for 20 years into an account earning 7% annually. The future value of these deposits is closest to:
-
 A) $194,960
 B) $204,975
 C) $214,300
+
 
 **Correct Answer:** B
 
@@ -38,10 +38,10 @@ $$FVA = 5,000 \times \frac{(1.07)^{20} - 1}{0.07} = 5,000 \times 40.99549 = \$20
 
 **Question:**
 An investment of $10,000 grows to $17,958.56 over 6 years. If interest is compounded quarterly, the stated annual interest rate is closest to:
-
 A) 8.50%
 B) 10.00%
 C) 9.74%
+
 
 **Correct Answer:** B
 
@@ -73,10 +73,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 An investment has the following annual returns: Year 1: 10%, Year 2: -5%, Year 3: 20%, Year 4: 15%. The geometric mean return is closest to:
-
 A) 8.75%
 B) 9.45%
 C) 10.00%
+
 
 **Correct Answer:** B
 
@@ -107,10 +107,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 Stock A has a standard deviation of returns of 20%. Stock B has a standard deviation of 30%. The covariance between their returns is 0.036. The correlation coefficient is closest to:
-
 A) 0.40
 B) 0.50
 C) 0.60
+
 
 **Correct Answer:** C
 
@@ -141,10 +141,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 In hypothesis testing, which of the following is most accurate regarding a Type II error?
-
 A) It is the probability of rejecting a true null hypothesis
 B) It is the probability of failing to reject a false null hypothesis
 C) It decreases as the significance level increases
+
 
 **Correct Answer:** B
 
@@ -174,10 +174,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A portfolio consists of 60% Stock X and 40% Stock Y. Stock X has an expected return of 12% with standard deviation 25%. Stock Y has an expected return of 8% with standard deviation 15%. If the correlation between X and Y is 0.3, the portfolio standard deviation is closest to:
-
 A) 16.2%
 B) 17.8%
 C) 19.5%
+
 
 **Correct Answer:** B
 
@@ -208,10 +208,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A sample of 100 observations from a population with unknown variance has a sample mean of 50 and sample standard deviation of 10. The standard error of the sample mean is:
-
 A) 0.10
 B) 1.00
 C) 10.00
+
 
 **Correct Answer:** B
 
@@ -242,10 +242,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A disease affects 1% of the population. A test for the disease is 95% accurate (both sensitivity and specificity). If a person tests positive, what is the approximate probability they actually have the disease?
-
 A) 16%
 B) 50%
 C) 84%
+
 
 **Correct Answer:** A
 
@@ -276,10 +276,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A researcher wants to test whether the mean return of a stock is different from zero. She has 25 monthly returns with a sample mean of 0.8% and sample standard deviation of 2.5%. The appropriate test statistic is:
-
 A) Z-statistic = 1.60
 B) t-statistic with 24 degrees of freedom = 1.60
 C) t-statistic with 25 degrees of freedom = 1.60
+
 
 **Correct Answer:** B
 
@@ -310,10 +310,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A simple linear regression yields R² = 0.64. The correlation coefficient between X and Y is closest to:
-
 A) 0.36
 B) 0.64
 C) 0.80
+
 
 **Correct Answer:** C
 
@@ -344,10 +344,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 For a positively skewed distribution, which of the following relationships is most likely correct?
-
 A) Mean < Median < Mode
 B) Mean = Median = Mode
 C) Mean > Median > Mode
+
 
 **Correct Answer:** C
 
@@ -377,10 +377,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 An investor has a portfolio with expected return 9% and standard deviation 14%. The risk-free rate is 2%. Using Roy's Safety-First criterion with a threshold return of 3%, the Safety-First ratio is closest to:
-
 A) 0.21
 B) 0.43
 C) 0.50
+
 
 **Correct Answer:** B
 
@@ -411,10 +411,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 Which of the following is most accurate about the lognormal distribution?
-
 A) It is symmetric like the normal distribution
 B) It is bounded below by zero and positively skewed
 C) Asset returns, not prices, are best modeled by lognormal
+
 
 **Correct Answer:** B
 
@@ -444,10 +444,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A regression of stock returns on market returns produces: b₀ = 0.02, b₁ = 1.2, SE(b₁) = 0.3, n = 36. To test whether the stock has a beta significantly different from 1 (market beta), the test statistic and conclusion at 5% significance (critical t ≈ 2.03 for 34 df) are:
-
 A) t = 0.67; fail to reject H₀: β = 1
 B) t = 0.67; reject H₀: β = 1, stock beta differs from market
 C) t = 4.00; reject H₀: β = 1, stock beta differs from market
+
 
 **Correct Answer:** A
 
@@ -478,10 +478,10 @@ $$1 + \frac{r}{4} = (1.795856)^{1/24} = 1.025 \implies \frac{r}{4} = 0.025 \impl
 
 **Question:**
 A mutual fund database includes only funds that are currently active, excluding those that have been liquidated or merged. An analysis of this database is most likely to suffer from:
-
 A) Data snooping bias
 B) Survivorship bias
 C) Look-ahead bias
+
 
 **Explanation:** Survivorship bias occurs when a historical database includes only entities that survived until the end of the observation period (such as active funds), excluding failed, liquidated, or merged funds. Because liquidated funds typically suffered poor returns, excluding them artificially inflates the average historical performance of the sample.
 
@@ -498,10 +498,10 @@ C) Look-ahead bias
 
 **Question:**
 An analyst estimates that there is a 40% probability of an economic recession ($P(R) = 0.40$). If a recession occurs, the probability that Company X defaults on its debt is 20% ($P(D|R) = 0.20$). If no recession occurs, the probability of default is 5% ($P(D|R^c) = 0.05$). If Company X defaults, the updated probability that a recession occurred, $P(R|D)$, is closest to:
-
 A) 55.0%
 B) 72.7%
 C) 80.0%
+
 
 **Correct Answer:** B
 
@@ -533,10 +533,10 @@ $$P(R|D) = \frac{0.08}{0.11} = 0.72727 = 72.73\%$$
 
 **Question:**
 A sample of 100 stock returns has a sample mean of 8.0% and a sample standard deviation of 12.0%. Assuming a normal distribution, the 95% confidence interval for the population mean return is:
-
 A) 5.65% to 10.35%
 B) 6.04% to 9.96%
 C) 6.80% to 9.20%
+
 
 **Correct Answer:** B
 
@@ -577,10 +577,10 @@ Let's select Correct Answer = A.
 
 **Question:**
 A quantitative researcher tests the null hypothesis that an equity strategy generates zero alpha ($H_0: \alpha = 0$). If the researcher fails to reject the null hypothesis when the strategy actually generates positive alpha ($\alpha > 0$), the researcher has committed a:
-
 A) Type I error
 B) Type II error
 C) Power of the test error
+
 
 **Correct Answer:** B
 
@@ -608,10 +608,10 @@ A simple linear regression of stock returns ($Y$) against market returns ($X$) u
 * $R^2$ = 0.45
 
 To test whether the slope is significantly different from 1.0 ($H_0: \beta_1 = 1.0$ vs $H_a: \beta_1 \neq 1.0$), the calculated $t$-statistic is closest to:
-
 A) 1.00
 B) 5.00
 C) 7.00
+
 
 **Correct Answer:** A
 
@@ -638,10 +638,10 @@ $(1.25 - 1.00) / 0.25 = 1.00$
 
 **Question:**
 In a simple linear regression model, if the correlation coefficient between the dependent variable ($Y$) and independent variable ($X$) is $-0.80$, the coefficient of determination ($R^2$) is:
-
 A) -0.80
 B) 0.64
 C) 0.80
+
 
 **Correct Answer:** B
 
@@ -663,10 +663,10 @@ $R^2$ measures the proportion of total variation in $Y$ explained by $X$. $R^2$ 
 
 **Question:**
 An investor buys $1,000 worth of a stock at $20 per share in Month 1, $1,000 worth at $25 per share in Month 2, and $1,000 worth at $50 per share in Month 3. The average purchase price per share (harmonic mean) is closest to:
-
 A) $26.09
 B) $31.67
 C) $35.00
+
 
 **Correct Answer:** A
 
@@ -681,6 +681,7 @@ Let's check option values:
 A) $27.27
 B) $31.67
 C) $35.00
+
 Option A = $27.27!
 
 $$\text{Harmonic Mean} = \frac{3}{0.11} = \$27.27$$
@@ -704,10 +705,10 @@ $3 / (1/20 + 1/25 + 1/50) = 3 / 0.11 = 27.2727 \to \$27.27$
 
 **Question:**
 According to the Central Limit Theorem (CLT), for a population with any distribution shape (even highly skewed), as the sample size $n$ becomes sufficiently large ($n \ge 30$), the distribution of the sample mean:
-
 A) Becomes identical to the population distribution
 B) Approaches a normal distribution with mean $\mu$ and variance $\frac{\sigma^2}{n}$
 C) Becomes a Student's t-distribution with $n-1$ degrees of freedom
+
 
 **Correct Answer:** B
 
@@ -727,10 +728,10 @@ C) Becomes a Student's t-distribution with $n-1$ degrees of freedom
 
 **Question:**
 Which statistical test is most appropriate when testing whether the variances of two independent, normally distributed asset return series are equal ($H_0: \sigma_1^2 = \sigma_2^2$)?
-
 A) Chi-square test
 B) F-test
 C) Paired t-test
+
 
 **Correct Answer:** B
 
@@ -753,10 +754,10 @@ C) Paired t-test
 
 **Question:**
 In financial technology and big data analytics, a machine learning algorithm trained to classify credit applicants into "Default" or "Non-Default" categories using historical labeled borrower data is best classified as:
-
 A) Unsupervised learning
 B) Supervised learning
 C) Reinforcement learning
+
 
 **Correct Answer:** B
 
@@ -776,10 +777,10 @@ C) Reinforcement learning
 
 **Question:**
 A linear regression with $n = 52$ weekly observations has a Total Sum of Squares (SST) of 1,000 and a Sum of Squared Errors (SSE) of 360. The Standard Error of Estimate ($s_e$) for the regression is closest to:
-
 A) 2.68
 B) 7.20
 C) 8.49
+
 
 **Correct Answer:** A
 
@@ -806,10 +807,10 @@ $$s_e = \sqrt{\frac{360}{50}} = \sqrt{7.20} = 2.68328 \approx 2.68$$
 
 **Question:**
 An analyst runs a simple linear regression with 26 observations ($n = 26$). The regression Sum of Squares (RSS) is 450, and the Sum of Squared Errors (SSE) is 150. The calculated $F$-statistic to test the overall significance of the regression is closest to:
-
 A) 3.00
 B) 72.00
 C) 75.00
+
 
 **Correct Answer:** B
 
@@ -837,10 +838,10 @@ $$F = \frac{450}{6.25} = 72.00$$
 
 **Question:**
 When testing whether the returns of a small sample ($n = 12$) of hedge funds come from a population with a specified median, but the underlying return distribution is known to be non-normal and heavily skewed with extreme outliers, which statistical test is LEAST appropriate?
-
 A) Paired t-test
 B) Wilcoxon signed-rank test
 C) Mann-Whitney U test
+
 
 **Correct Answer:** A
 
@@ -860,10 +861,10 @@ C) Mann-Whitney U test
 
 **Question:**
 The covariance between Stock A and Stock B is $+0.018$. Stock A has a variance of $0.0400$ ($\sigma_A = 20\%$), and Stock B has a variance of $0.0225$ ($\sigma_B = 15\%$). The correlation coefficient ($\rho_{AB}$) between the two stocks is:
-
 A) +0.40
 B) +0.60
 C) +0.80
+
 
 **Correct Answer:** B
 
@@ -889,10 +890,10 @@ $0.018 / (0.20 \times 0.15) = 0.018 / 0.03 = 0.60$
 
 **Question:**
 A financial asset return distribution exhibits positive excess kurtosis ($\text{Excess Kurtosis} > 0$). Compared to a normal distribution, this **leptokurtic** distribution is characterized by:
-
 A) Thinner tails and a flatter central peak
 B) Fatter tails and a higher, more peaked center
 C) Zero probability of extreme negative returns
+
 
 **Correct Answer:** B
 
@@ -912,10 +913,10 @@ C) Zero probability of extreme negative returns
 
 **Question:**
 In machine learning model training, **overfitting** occurs when a model learns noise and idiosyncratic details in the training dataset rather than true underlying relationships. An overfitted model typically exhibits:
-
 A) High bias and low variance, performing poorly on both training and test data
 B) Low bias and high variance, performing exceptionally well on training data but poorly on out-of-sample test data
 C) Equal error rates on training and out-of-sample test datasets
+
 
 **Correct Answer:** B
 
@@ -935,10 +936,10 @@ C) Equal error rates on training and out-of-sample test datasets
 
 **Question:**
 An analyst tests whether a new trading strategy significantly improves performance across 25 institutional portfolios ($n = 25$). The mean difference in returns ($\bar{d}$) is $+1.5\%$, and the sample standard deviation of differences ($s_d$) is $3.0\%$. To test $H_0: \mu_d = 0$ vs $H_a: \mu_d \neq 0$, the calculated paired $t$-statistic is:
-
 A) 0.50
 B) 2.50
 C) 12.50
+
 
 **Correct Answer:** B
 
@@ -965,10 +966,10 @@ $$t = \frac{1.5\%}{0.60\%} = 2.50$$
 
 **Question:**
 In machine learning model validation, **K-fold cross-validation** is primarily used to:
-
 A) Prevent data leakage by ensuring time-series order is strictly preserved
 B) Evaluate out-of-sample model performance and mitigate overfitting by partitioning the dataset into $K$ distinct subsets
 C) Convert non-linear regression models into linear equations
+
 
 **Correct Answer:** B
 
@@ -988,10 +989,10 @@ C) Convert non-linear regression models into linear equations
 
 **Question:**
 In big data analytics, the characteristic describing the extreme speed at which new data is generated, ingested, and processed real-time is known as:
-
 A) Volume
 B) Velocity
 C) Variety
+
 
 **Correct Answer:** B
 
@@ -1011,10 +1012,10 @@ C) Variety
 
 **Question:**
 A population has a standard deviation ($\sigma$) of 16.0. An analyst draws a sample of 64 observations. The standard error of the sample mean ($\sigma_{\bar{x}}$) is:
-
 A) 0.25
 B) 2.00
 C) 8.00
+
 
 **Correct Answer:** B
 
@@ -1040,10 +1041,10 @@ $16.0 / \sqrt{64} = 16.0 / 8 = 2.00$
 
 **Question:**
 A financial researcher wants to test whether there is a statistically significant association between a company's sector (Tech, Healthcare, Energy) and its dividend policy (Pays Dividend, No Dividend). Which test is most appropriate?
-
 A) Chi-square test of independence
 B) Two-sample t-test
 C) F-test of equal variances
+
 
 **Correct Answer:** A
 
@@ -1065,10 +1066,10 @@ C) F-test of equal variances
 
 **Question:**
 An investor deposits $100 at $t=0$. At $t=1$, the portfolio value is $120$, and she deposits an additional $100$. At $t=2$, the final portfolio value is $240$. The **money-weighted rate of return** (IRR) is closest to:
-
 A) 11.5%
 B) 13.1%
 C) 15.0%
+
 
 **Correct Answer:** B
 
@@ -1100,10 +1101,10 @@ Using TI BA II Plus CF key:
 
 **Question:**
 A portfolio return distribution has a mean of 10% and standard deviation of 5%. The probability of a return below 0% using standard normal distribution is closest to:?
-
 A) 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1121,10 +1122,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Why is the lognormal distribution commonly used to model asset prices rather than returns??
-
 A) Because lognormal values are bounded below by zero, reflecting non-negative asset prices
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1142,10 +1143,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Compared to a standard normal distribution, a Student's t-distribution with small degrees of freedom has:?
-
 A) Fatter tails and lower central peak (greater probability of extreme outcomes)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1163,10 +1164,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A risk analyst uses Monte Carlo simulation primarily to:?
-
 A) Model complex multi-variable probabilistic outcome distributions under uncertainty
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1184,10 +1185,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Sampling error is best defined as the difference between:?
-
 A) A sample statistic and the true population parameter being estimated
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1205,10 +1206,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Stratified random sampling ensures that:?
-
 A) Subpopulations (strata) are represented in the sample in proportion to their population size
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1226,10 +1227,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In hypothesis testing, the null hypothesis (H0) is always formulated as:?
-
 A) The hypothesis of no effect, no change, or equality to a specified benchmark value
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1247,10 +1248,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The p-value of a statistical hypothesis test represents:?
-
 A) The smallest significance level at which the null hypothesis can be rejected
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1268,10 +1269,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which assumption is required for standard ordinary least squares (OLS) linear regression??
-
 A) The error terms have constant variance (homoskedasticity) and are uncorrelated
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1289,10 +1290,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Violating homoskedasticity (heteroskedasticity) in regression analysis causes:?
-
 A) Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1310,10 +1311,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Unstructured financial big data includes:?
-
 A) Social media sentiment, satellite images, and earnings call transcript text
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1331,10 +1332,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In machine learning, out-of-sample testing is performed on:?
-
 A) Validation or test datasets that were strictly withheld during model training
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1353,10 +1354,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A portfolio return distribution has a mean of 10% and standard deviation of 5%. The probability of a return below 0% using standard normal distribution is closest to:?
-
 A) 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1374,10 +1375,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Why is the lognormal distribution commonly used to model asset prices rather than returns??
-
 A) Because lognormal values are bounded below by zero, reflecting non-negative asset prices
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1395,10 +1396,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Compared to a standard normal distribution, a Student's t-distribution with small degrees of freedom has:?
-
 A) Fatter tails and lower central peak (greater probability of extreme outcomes)
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1416,10 +1417,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 A risk analyst uses Monte Carlo simulation primarily to:?
-
 A) Model complex multi-variable probabilistic outcome distributions under uncertainty
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1437,10 +1438,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Sampling error is best defined as the difference between:?
-
 A) A sample statistic and the true population parameter being estimated
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1458,10 +1459,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Stratified random sampling ensures that:?
-
 A) Subpopulations (strata) are represented in the sample in proportion to their population size
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1479,10 +1480,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In hypothesis testing, the null hypothesis (H0) is always formulated as:?
-
 A) The hypothesis of no effect, no change, or equality to a specified benchmark value
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1500,10 +1501,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 The p-value of a statistical hypothesis test represents:?
-
 A) The smallest significance level at which the null hypothesis can be rejected
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1521,10 +1522,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Which assumption is required for standard ordinary least squares (OLS) linear regression??
-
 A) The error terms have constant variance (homoskedasticity) and are uncorrelated
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1542,10 +1543,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Violating homoskedasticity (heteroskedasticity) in regression analysis causes:?
-
 A) Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1563,10 +1564,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 Unstructured financial big data includes:?
-
 A) Social media sentiment, satellite images, and earnings call transcript text
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1584,10 +1585,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 In machine learning, out-of-sample testing is performed on:?
-
 A) Validation or test datasets that were strictly withheld during model training
 B) Incorrect alternative distractor
 C) Secondary plausible incorrect distractor option
+
 
 **Correct Answer:** A
 
@@ -1606,10 +1607,10 @@ C) Secondary plausible incorrect distractor option
 
 **Question:**
 An investment requires an initial outflow of $1,000 at t=0$ and yields cash inflows of $400 at t=1$ and $800 at t=2$. The project's Internal Rate of Return (IRR) is closest to:?
-
 A) 10.65% (Solving 1000 = 400/(1+r) + 800/(1+r)^2)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1627,10 +1628,10 @@ C) Alternative incorrect option
 
 **Question:**
 The variance of Stock A is 0.04, the variance of Stock B is 0.09, and the covariance between A and B is 0.003. The correlation coefficient between Stock A and Stock B is closest to:?
-
 A) 0.05 (Correlation = Cov(A,B) / [SD(A) * SD(B)] = 0.003 / [0.20 * 0.30] = 0.05)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1648,10 +1649,10 @@ C) Alternative incorrect option
 
 **Question:**
 A population has a mean of 100 and standard deviation of 20. For a sample size of n = 100, the standard error of the sample mean is:?
-
 A) 2.0 (Standard Error = Pop SD / sqrt(n) = 20 / 10 = 2.0)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1669,10 +1670,10 @@ C) Alternative incorrect option
 
 **Question:**
 A researcher conducts a two-tailed t-test with n = 25 (df = 24) at alpha = 0.05. The critical t-value is 2.064. The calculated test statistic is t = -2.35. The correct decision is to:?
-
 A) Reject the null hypothesis because |-2.35| > 2.064, indicating statistical significance
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1691,10 +1692,10 @@ C) Alternative incorrect option
 
 **Question:**
 A portfolio has a 60% probability of earning a 15% return and a 40% probability of earning a 5% return. The expected return and standard deviation of the portfolio are:?
-
 A) Expected Return = 11.0%, Standard Deviation = 4.90%
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1712,10 +1713,10 @@ C) Alternative incorrect option
 
 **Question:**
 For a normally distributed population with unknown variance and sample size n = 36, the 95% confidence interval for the population mean uses:?
-
 A) The Student's t-distribution with 35 degrees of freedom
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1733,10 +1734,10 @@ C) Alternative incorrect option
 
 **Question:**
 If a researcher decreases the significance level (alpha) of a test from 5% to 1%, the probability of a Type I error and Type II error will:?
-
 A) Type I error probability decreases; Type II error probability increases
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1755,10 +1756,10 @@ C) Alternative incorrect option
 
 **Question:**
 When testing whether the variance of a single normal population equals a specified value, the appropriate test statistic is the:?
-
 A) Chi-square (x^2) test statistic
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1777,10 +1778,10 @@ C) Alternative incorrect option
 
 **Question:**
 When population data violates normality assumptions and sample size is small, the appropriate test statistic for comparing two medians is:?
-
 A) A non-parametric test such as the Wilcoxon signed-rank test
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1799,10 +1800,10 @@ C) Alternative incorrect option
 
 **Question:**
 An annuity due pays $1,000 at the beginning of each year for 5 years at a discount rate of 6%. Its present value is closest to:?
-
 A) $4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1821,10 +1822,10 @@ C) Alternative incorrect option
 
 **Question:**
 A major advantage of Monte Carlo simulation over historical simulation in risk management is that Monte Carlo simulation can:?
-
 A) Model hypothetical extreme risk scenarios that have never occurred in historical price series
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1842,10 +1843,10 @@ C) Alternative incorrect option
 
 **Question:**
 For any population distribution with mean mu and variance sigma^2, the distribution of sample means approaches normality as sample size n increases, with variance equal to:?
-
 A) sigma^2 / n
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1864,10 +1865,10 @@ C) Alternative incorrect option
 
 **Question:**
 An analyst wants to test whether the variance of Portfolio A equals the variance of Portfolio B. The appropriate test statistic is:?
-
 A) F-test statistic (ratio of sample variances)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1885,10 +1886,10 @@ C) Alternative incorrect option
 
 **Question:**
 When analyzing paired (matched-pair) financial data that violates normality, the most appropriate non-parametric test for median differences is:?
-
 A) Wilcoxon signed-rank test
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1906,10 +1907,10 @@ C) Alternative incorrect option
 
 **Question:**
 When testing whether two independent non-normal sample distributions have equal medians, the appropriate non-parametric test is:?
-
 A) Mann-Whitney U test (Wilcoxon rank-sum test)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1927,10 +1928,10 @@ C) Alternative incorrect option
 
 **Question:**
 A primary limitation of historical simulation compared to Monte Carlo simulation is that historical simulation:?
-
 A) Cannot model scenarios or price paths that did not occur in the historical data sample
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1948,10 +1949,10 @@ C) Alternative incorrect option
 
 **Question:**
 If population standard deviation is 12.0 and sample size n = 36, the standard error of the sample mean is:?
-
 A) 2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
@@ -1969,10 +1970,10 @@ C) Alternative incorrect option
 
 **Question:**
 Decreasing the significance level alpha of a hypothesis test from 5% to 1% causes the probability of a Type I error to decrease and:?
-
 A) Probability of Type II error (beta) to increase, decreasing statistical power (1 - beta)
 B) Secondary distractor reflecting common misconception
 C) Alternative incorrect option
+
 
 **Correct Answer:** A
 
