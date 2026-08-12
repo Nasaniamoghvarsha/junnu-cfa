@@ -41,6 +41,10 @@ async function loadContent(file, linkElement, event) {
       const markdown = await response.text();
       const html = marked.parse(markdown);
       contentBody.innerHTML = html;
+      
+      // Transform raw Markdown questions into interactive exam components
+      setupInteractiveQuestions(contentBody);
+
       if (typeof renderMathInElement === 'function') {
         renderMathInElement(contentBody, {
           delimiters: [
@@ -263,3 +267,241 @@ document.addEventListener('keydown', (e) => {
 
 // Close sidebar when clicking overlay
 document.getElementById('sidebarOverlay').addEventListener('click', closeSidebar);
+
+// =========== INTERACTIVE QUESTION PARSER & ENGINE ===========
+function setupInteractiveQuestions(container) {
+  const headers = Array.from(container.querySelectorAll('h3, h4')).filter(h => {
+    return h.textContent.includes('Q-') || h.textContent.includes('Difficulty:');
+  });
+
+  if (headers.length === 0) return;
+
+  // Render Exam Progress Header
+  const progressHeader = document.createElement('div');
+  progressHeader.className = 'exam-progress-bar';
+  progressHeader.id = 'examProgressBar';
+  progressHeader.innerHTML = `
+    <div class="exam-progress-info">
+      <span>🎯 Interactive Exam Practice Mode</span>
+      <span class="exam-progress-badge" id="examProgressCount">0 / ${headers.length} Answered</span>
+      <span class="exam-score-badge" id="examScoreCount">Score: 0%</span>
+    </div>
+    <button class="exam-reset-all-btn" onclick="resetAllExamQuestions()">🔄 Reset All</button>
+  `;
+  container.insertBefore(progressHeader, container.firstChild);
+
+  let qIndex = 0;
+  headers.forEach(header => {
+    qIndex++;
+    const metaText = header.textContent.trim();
+    
+    // Collect sibling elements until next H2, H3, or HR
+    let sibling = header.nextElementSibling;
+    let rawHtml = '';
+    const siblingsToRemove = [];
+
+    while (sibling && !['H2', 'H3', 'HR'].includes(sibling.tagName)) {
+      rawHtml += sibling.outerHTML;
+      siblingsToRemove.push(sibling);
+      sibling = sibling.nextElementSibling;
+    }
+
+    // Parse Q-ID, Difficulty, Time, Pattern
+    const idMatch = metaText.match(/Q-[A-Z]+-\d+/);
+    const qId = idMatch ? idMatch[0] : `Q-${qIndex}`;
+
+    const diffMatch = metaText.match(/Difficulty:\s*(\d+)/i);
+    const diff = diffMatch ? diffMatch[1] : '3';
+
+    const timeMatch = metaText.match(/Time:\s*(\d+s?)/i);
+    const time = timeMatch ? timeMatch[1] : '90s';
+
+    const patternMatch = metaText.match(/Pattern:\s*([^|]+)/i);
+    const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
+
+    // Parse Stem, Options, Correct Answer, Explanation, Wrong Analysis, LO Reference
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = rawHtml;
+
+    // Find Question Stem
+    let stemText = '';
+    const stemPara = Array.from(tempDiv.querySelectorAll('p')).find(p => p.textContent.includes('Question:'));
+    if (stemPara) {
+      stemText = stemPara.innerHTML.replace(/<strong>Question:<\/strong>/i, '').trim();
+    }
+
+    // Find Options A, B, C
+    const options = [];
+    const fullText = tempDiv.textContent;
+    
+    const optAMatch = fullText.match(/A\)\s*([\s\S]*?)(?=B\)|Correct Answer:|$)/);
+    const optBMatch = fullText.match(/B\)\s*([\s\S]*?)(?=C\)|Correct Answer:|$)/);
+    const optCMatch = fullText.match(/C\)\s*([\s\S]*?)(?=Correct Answer:|Explanation:|$)/);
+
+    if (optAMatch) options.push({ letter: 'A', text: optAMatch[1].trim() });
+    if (optBMatch) options.push({ letter: 'B', text: optBMatch[1].trim() });
+    if (optCMatch) options.push({ letter: 'C', text: optCMatch[1].trim() });
+
+    // Find Correct Answer Letter
+    const correctMatch = fullText.match(/Correct Answer:\s*([A-C])/i);
+    const correctLetter = correctMatch ? correctMatch[1].toUpperCase() : 'A';
+
+    // Find Explanation
+    let expText = '';
+    const expMatch = fullText.match(/Explanation:\s*([\s\S]*?)(?=Wrong Answer Analysis:|LO Reference:|$)/i);
+    if (expMatch) expText = expMatch[1].trim();
+
+    // Find Wrong Answer Analysis
+    let wrongText = '';
+    const wrongMatch = fullText.match(/Wrong Answer Analysis:\s*([\s\S]*?)(?=LO Reference:|Related Concepts:|$)/i);
+    if (wrongMatch) wrongText = wrongMatch[1].trim();
+
+    // Find LO Reference
+    const loMatch = fullText.match(/LO Reference:\s*([^\n]+)/i);
+    const loRef = loMatch ? loMatch[1].trim() : 'CFA Curriculum';
+
+    // Create Interactive Question Card element
+    const card = document.createElement('div');
+    card.className = 'interactive-question-card';
+    card.dataset.correct = correctLetter;
+    card.id = `q-card-${qIndex}`;
+
+    card.innerHTML = `
+      <div class="q-card-header">
+        <span class="q-id-badge">${qId}</span>
+        <span class="q-meta-badge difficulty">Difficulty: ${diff}/5</span>
+        <span class="q-meta-badge">⏱️ ${time}</span>
+        <span class="q-meta-badge">${pattern}</span>
+        <span class="q-status-badge status-unanswered">UNANSWERED</span>
+      </div>
+      <div class="q-stem">${stemText || 'Question stem loading...'}</div>
+      <div class="q-options-container">
+        ${options.map(opt => `
+          <button class="q-option-btn" onclick="selectQuestionOption(this, '${opt.letter}')">
+            <span class="opt-letter">${opt.letter}</span>
+            <span class="opt-text">${opt.text}</span>
+          </button>
+        `).join('')}
+      </div>
+      <div class="q-explanation-box" style="display: none;">
+        <div class="exp-header correct-title">
+          <span class="exp-icon">✔</span> Correct Answer: Option ${correctLetter}
+        </div>
+        <div class="exp-section">
+          <h4>Detailed Explanation:</h4>
+          <p>${expText}</p>
+        </div>
+        ${wrongText ? `
+          <div class="exp-section">
+            <h4>Wrong Answer Analysis:</h4>
+            <p>${wrongText.replace(/\n/g, '<br>')}</p>
+          </div>
+        ` : ''}
+        <div class="exp-footer">
+          <span class="lo-tag">📌 ${loRef}</span>
+          <button class="q-reset-btn" onclick="resetQuestionCard(this)">🔄 Retry Question</button>
+        </div>
+      </div>
+    `;
+
+    // Remove raw siblings and insert interactive card
+    siblingsToRemove.forEach(el => el.remove());
+    header.replaceWith(card);
+  });
+}
+
+function selectQuestionOption(button, selectedOption) {
+  const card = button.closest('.interactive-question-card');
+  const correctOption = card.dataset.correct;
+  const statusBadge = card.querySelector('.q-status-badge');
+  const explanationBox = card.querySelector('.q-explanation-box');
+  const expHeader = card.querySelector('.exp-header');
+  const allButtons = card.querySelectorAll('.q-option-btn');
+
+  // Disable all options once answered
+  allButtons.forEach(btn => btn.disabled = true);
+
+  const isCorrect = (selectedOption === correctOption);
+
+  if (isCorrect) {
+    button.classList.add('selected-correct');
+    card.classList.add('answered-correct');
+    statusBadge.className = 'q-status-badge status-correct';
+    statusBadge.textContent = 'CORRECT 🟢';
+    expHeader.className = 'exp-header correct-title';
+    expHeader.innerHTML = '✔ Excellent! Correct Answer: Option ' + correctOption;
+  } else {
+    button.classList.add('selected-incorrect');
+    card.classList.add('answered-incorrect');
+    statusBadge.className = 'q-status-badge status-incorrect';
+    statusBadge.textContent = 'INCORRECT 🔴';
+    expHeader.className = 'exp-header incorrect-title';
+    expHeader.innerHTML = '❌ Incorrect. Correct Answer is Option ' + correctOption;
+
+    // Highlight correct option
+    allButtons.forEach(btn => {
+      if (btn.querySelector('.opt-letter').textContent.trim() === correctOption) {
+        btn.classList.add('reveal-correct');
+      }
+    });
+  }
+
+  // Smoothly reveal explanation box
+  explanationBox.style.display = 'block';
+
+  // Update page progress stats
+  updateExamProgressTracker();
+}
+
+function resetQuestionCard(btn) {
+  const card = btn.closest('.interactive-question-card');
+  const statusBadge = card.querySelector('.q-status-badge');
+  const explanationBox = card.querySelector('.q-explanation-box');
+  const allButtons = card.querySelectorAll('.q-option-btn');
+
+  card.classList.remove('answered-correct', 'answered-incorrect');
+  statusBadge.className = 'q-status-badge status-unanswered';
+  statusBadge.textContent = 'UNANSWERED';
+  explanationBox.style.display = 'none';
+
+  allButtons.forEach(b => {
+    b.disabled = false;
+    b.classList.remove('selected-correct', 'selected-incorrect', 'reveal-correct');
+  });
+
+  updateExamProgressTracker();
+}
+
+function resetAllExamQuestions() {
+  document.querySelectorAll('.interactive-question-card').forEach(card => {
+    const resetBtn = card.querySelector('.q-reset-btn');
+    if (resetBtn) resetQuestionCard(resetBtn);
+  });
+}
+
+function updateExamProgressTracker() {
+  const cards = document.querySelectorAll('.interactive-question-card');
+  if (cards.length === 0) return;
+
+  let answered = 0;
+  let correct = 0;
+
+  cards.forEach(card => {
+    if (card.classList.contains('answered-correct')) {
+      answered++;
+      correct++;
+    } else if (card.classList.contains('answered-incorrect')) {
+      answered++;
+    }
+  });
+
+  const countBadge = document.getElementById('examProgressCount');
+  const scoreBadge = document.getElementById('examScoreCount');
+
+  if (countBadge) countBadge.textContent = `${answered} / ${cards.length} Answered`;
+  if (scoreBadge) {
+    const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+    scoreBadge.textContent = `Score: ${pct}% (${correct}/${answered})`;
+  }
+}
+

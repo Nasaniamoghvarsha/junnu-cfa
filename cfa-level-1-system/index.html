@@ -182,112 +182,223 @@ async function loadContent(file,linkElement,event){
   }
 }
 
-function renderHome(){
-  const userStats = JSON.parse(localStorage.getItem('cfa-user-stats') || '{"answered":0,"correct":0}');
-  const readPct = userStats.answered > 0 ? ((userStats.correct / userStats.answered) * 100).toFixed(1) + '%' : '0.0%';
-  contentBody.innerHTML='<div class="home-dashboard">'+
-    '<div class="home-hero"><h1>CFA Level I<br>Preparation &amp; Mastery Engine</h1>'+
-    '<p class="subtitle">2026 Curriculum · 222 Learning Outcomes · 3-Option Exam Standards</p>'+
-    '<span class="target">🎯 Target: 90%+ Preparation Coverage</span></div>'+
+function makeQuizInteractive() {
+  const headers = Array.from(contentBody.querySelectorAll('h3, h4')).filter(h => {
+    return h.textContent.includes('Q-') || h.textContent.includes('Difficulty:');
+  });
+
+  if (headers.length === 0) return;
+
+  const progressHeader = document.createElement('div');
+  progressHeader.className = 'exam-progress-bar';
+  progressHeader.id = 'examProgressBar';
+  progressHeader.innerHTML = `
+    <div class="exam-progress-info">
+      <span>🎯 Interactive Exam Practice Mode</span>
+      <span class="exam-progress-badge" id="examProgressCount">0 / ${headers.length} Answered</span>
+      <span class="exam-score-badge" id="examScoreCount">Score: 0%</span>
+    </div>
+    <button class="exam-reset-all-btn" onclick="resetAllExamQuestions()">🔄 Reset All</button>
+  `;
+  contentBody.insertBefore(progressHeader, contentBody.firstChild);
+
+  let qIndex = 0;
+  headers.forEach(header => {
+    qIndex++;
+    const metaText = header.textContent.trim();
     
-    '<h2>Tri-Score Preparation Framework</h2>'+
-    '<div class="tri-score-grid">'+
-      '<div class="metric-card"><div class="metric-value">82.5 <span style="font-size: 1rem; color: #94a3b8;">/ 100</span></div><div class="metric-label">1. Question Bank Quality</div><div class="metric-sub">System & Content Excellence</div></div>'+
-      '<div class="metric-card"><div class="metric-value" style="color: #10b981;">84.0%</div><div class="metric-label">Rolling 30-Day Readiness Score</div><div class="metric-sub">🟢 GREEN_MAINTAIN (Normal Cadence)</div></div>'+
-      '<div class="metric-card"><div class="metric-value">45.6%</div><div class="metric-label">2. Effective Exam Coverage (EEC)</div><div class="metric-sub">Version 2.1 Baseline Frozen & Locked</div></div>'+
-      '<div class="metric-card"><div class="metric-value" style="color: #10b981;">84.0%</div><div class="metric-label">3. Effective Exam Mastery (EEM)</div><div class="metric-sub">Floor: 77.8% (Derivatives) | Retest: 86.7%</div></div>'+
-    '</div>'+
+    let sibling = header.nextElementSibling;
+    let rawHtml = '';
+    const siblingsToRemove = [];
 
-    '<h2>Operational Maintenance Decision Protocol (Phase 3 Rules)</h2>'+
-    '<table class="data-table"><thead><tr><th>Tier Level</th><th>Performance Condition</th><th>System Action</th></tr></thead><tbody>'+
-      '<tr><td>🟢 GREEN (Maintain)</td><td>Overall &ge; 80%, Domains &ge; 80% (Derivatives &ge; 75%), Retention &ge; 80%</td><td>Continue normal weekly maintenance cadence (No new question generation)</td></tr>'+
-      '<tr><td>🟡 YELLOW (Repair)</td><td>Derivatives &lt; 75%, or Domain &lt; 80%, or repeat error &ge; 3 times</td><td>Generate 2–5 adaptive repair questions in isolated pool, retest, return to maintenance</td></tr>'+
-      '<tr><td>🟠 ORANGE (Escalate)</td><td>Overall timed performance &lt; 80%, or retention drops, or multi-domain decay</td><td>Run targeted diagnostic audit before generating additional material</td></tr>'+
-      '<tr><td>🔴 RED (Reassess)</td><td>Overall performance approaches ~70% MPS benchmark, or major domain collapse</td><td>Reopen specific curriculum LO gaps rather than blindly adding questions</td></tr>'+
-    '</tbody></table>'+
-
-    '<h2>Exam Priority Intelligence Tiers</h2>'+
-    '<table class="data-table"><thead><tr><th>Tier</th><th>Subject</th><th>Weight</th><th>Priority Status</th></tr></thead><tbody>'+
-      '<tr><td>1</td><td>Ethical & Professional Standards</td><td>15–20%</td><td>🔴 Very High Priority</td></tr>'+
-      '<tr><td>1</td><td>Financial Statement Analysis</td><td>11–14%</td><td>🔴 Very High Priority</td></tr>'+
-      '<tr><td>1</td><td>Fixed Income</td><td>11–14%</td><td>🔴 Very High Priority</td></tr>'+
-      '<tr><td>1</td><td>Equity Investments</td><td>11–14%</td><td>🔴 Very High Priority</td></tr>'+
-      '<tr><td>2</td><td>Portfolio Management</td><td>8–12%</td><td>🟡 High Priority</td></tr>'+
-      '<tr><td>2</td><td>Alternative Investments</td><td>7–10%</td><td>🟡 High Priority</td></tr>'+
-      '<tr><td>2</td><td>Quantitative Methods</td><td>6–9%</td><td>🟡 High Priority</td></tr>'+
-      '<tr><td>2</td><td>Economics</td><td>6–9%</td><td>🟡 High Priority</td></tr>'+
-      '<tr><td>2</td><td>Corporate Issuers</td><td>6–9%</td><td>🟡 High Priority</td></tr>'+
-      '<tr><td>3</td><td>Derivatives</td><td>5–8%</td><td>🟢 Lower Priority</td></tr>'+
-    '</tbody></table>'+
-
-    '<h2>Question Bank Quick Navigation (539 Core Questions)</h2><div class="quick-links">'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/01-ethics/standards-i-vii\',this)">📝 Ethics (36 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/04-financial-statement-analysis/fsa-questions\',this)">📊 Financial Statement Analysis (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/07-fixed-income/fixed-income-questions\',this)">📈 Fixed Income (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/06-equity-investments/equity-questions\',this)">💹 Equity Investments (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/02-quantitative-methods/quantitative-methods-questions\',this)">🔢 Quantitative Methods (35 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/03-economics/economics-questions\',this)">🌐 Economics (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/05-corporate-issuers/corporate-issuers-questions\',this)">🏢 Corporate Issuers (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/08-derivatives/derivatives-questions\',this)">⚡ Derivatives (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/09-alternative-investments/alternative-investments-questions\',this)">🧱 Alternative Investments (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'question-bank/questions/10-portfolio-management/portfolio-management-questions\',this)">💼 Portfolio Management (25 Qs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'formula-bank/all-formulas\',this)">🔢 Formula Bank (144)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'curriculum/coverage-matrix\',this)">📋 Coverage Matrix (222 LOs)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'pattern-library/trap-catalog\',this)">⚠️ Trap Catalog (70+)</a>'+
-      '<a class="quick-link" onclick="loadContent(\'dashboard/tracking-system\',this)">📊 Readiness Dashboard</a>'+
-      '<a class="quick-link" onclick="loadContent(\'dashboard/error-bank-system\',this)">🔴 Error Bank System</a>'+
-      '<a class="quick-link" onclick="loadContent(\'mock-exams/mock-exam-system\',this)">📄 Mock Exam System</a>'+
-    '</div></div>';
-}
-
-function makeQuizInteractive(){
-  const paragraphs = contentBody.querySelectorAll('p');
-  paragraphs.forEach(p => {
-    const html = p.innerHTML;
-    if(html.match(/^[A-C]\)/m)){
-      const lines = html.split('<br>');
-      let newHtml = '';
-      lines.forEach(line => {
-        const m = line.match(/^([A-C])\)\s*(.*)/);
-        if(m){
-          const opt = m[1];
-          const optText = m[2];
-          newHtml += `<button class="quiz-opt-btn" data-opt="${opt}" onclick="selectQuizOption(this, '${opt}')"><strong>${opt})</strong> ${optText}</button>`;
-        } else {
-          newHtml += line;
-        }
-      });
-      if(newHtml !== html) p.innerHTML = newHtml;
+    while (sibling && !['H2', 'H3', 'HR'].includes(sibling.tagName)) {
+      rawHtml += sibling.outerHTML;
+      siblingsToRemove.push(sibling);
+      sibling = sibling.nextElementSibling;
     }
+
+    const idMatch = metaText.match(/Q-[A-Z]+-\d+/);
+    const qId = idMatch ? idMatch[0] : `Q-${qIndex}`;
+
+    const diffMatch = metaText.match(/Difficulty:\s*(\d+)/i);
+    const diff = diffMatch ? diffMatch[1] : '3';
+
+    const timeMatch = metaText.match(/Time:\s*(\d+s?)/i);
+    const time = timeMatch ? timeMatch[1] : '90s';
+
+    const patternMatch = metaText.match(/Pattern:\s*([^|]+)/i);
+    const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
+
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = rawHtml;
+
+    let stemText = '';
+    const stemPara = Array.from(tempDiv.querySelectorAll('p')).find(p => p.textContent.includes('Question:'));
+    if (stemPara) {
+      stemText = stemPara.innerHTML.replace(/<strong>Question:<\/strong>/i, '').trim();
+    }
+
+    const options = [];
+    const fullText = tempDiv.textContent;
+    
+    const optAMatch = fullText.match(/A\)\s*([\s\S]*?)(?=B\)|Correct Answer:|$)/);
+    const optBMatch = fullText.match(/B\)\s*([\s\S]*?)(?=C\)|Correct Answer:|$)/);
+    const optCMatch = fullText.match(/C\)\s*([\s\S]*?)(?=Correct Answer:|Explanation:|$)/);
+
+    if (optAMatch) options.push({ letter: 'A', text: optAMatch[1].trim() });
+    if (optBMatch) options.push({ letter: 'B', text: optBMatch[1].trim() });
+    if (optCMatch) options.push({ letter: 'C', text: optCMatch[1].trim() });
+
+    const correctMatch = fullText.match(/Correct Answer:\s*([A-C])/i);
+    const correctLetter = correctMatch ? correctMatch[1].toUpperCase() : 'A';
+
+    let expText = '';
+    const expMatch = fullText.match(/Explanation:\s*([\s\S]*?)(?=Wrong Answer Analysis:|LO Reference:|$)/i);
+    if (expMatch) expText = expMatch[1].trim();
+
+    let wrongText = '';
+    const wrongMatch = fullText.match(/Wrong Answer Analysis:\s*([\s\S]*?)(?=LO Reference:|Related Concepts:|$)/i);
+    if (wrongMatch) wrongText = wrongMatch[1].trim();
+
+    const loMatch = fullText.match(/LO Reference:\s*([^\n]+)/i);
+    const loRef = loMatch ? loMatch[1].trim() : 'CFA Curriculum';
+
+    const card = document.createElement('div');
+    card.className = 'interactive-question-card';
+    card.dataset.correct = correctLetter;
+    card.id = `q-card-${qIndex}`;
+
+    card.innerHTML = `
+      <div class="q-card-header">
+        <span class="q-id-badge">${qId}</span>
+        <span class="q-meta-badge difficulty">Difficulty: ${diff}/5</span>
+        <span class="q-meta-badge">⏱️ ${time}</span>
+        <span class="q-meta-badge">${pattern}</span>
+        <span class="q-status-badge status-unanswered">UNANSWERED</span>
+      </div>
+      <div class="q-stem">${stemText || 'Question stem loading...'}</div>
+      <div class="q-options-container">
+        ${options.map(opt => `
+          <button class="q-option-btn" onclick="selectQuestionOption(this, '${opt.letter}')">
+            <span class="opt-letter">${opt.letter}</span>
+            <span class="opt-text">${opt.text}</span>
+          </button>
+        `).join('')}
+      </div>
+      <div class="q-explanation-box" style="display: none;">
+        <div class="exp-header correct-title">
+          <span class="exp-icon">✔</span> Correct Answer: Option ${correctLetter}
+        </div>
+        <div class="exp-section">
+          <h4>Detailed Explanation:</h4>
+          <p>${expText}</p>
+        </div>
+        ${wrongText ? `
+          <div class="exp-section">
+            <h4>Wrong Answer Analysis:</h4>
+            <p>${wrongText.replace(/\n/g, '<br>')}</p>
+          </div>
+        ` : ''}
+        <div class="exp-footer">
+          <span class="lo-tag">📌 ${loRef}</span>
+          <button class="q-reset-btn" onclick="resetQuestionCard(this)">🔄 Retry Question</button>
+        </div>
+      </div>
+    `;
+
+    siblingsToRemove.forEach(el => el.remove());
+    header.replaceWith(card);
   });
 }
 
-function selectQuizOption(btn, chosenOpt){
-  let block = btn.parentElement;
-  while(block && block !== contentBody && !block.querySelector('p')){
-    block = block.parentElement;
+function selectQuestionOption(button, selectedOption) {
+  const card = button.closest('.interactive-question-card');
+  const correctOption = card.dataset.correct;
+  const statusBadge = card.querySelector('.q-status-badge');
+  const explanationBox = card.querySelector('.q-explanation-box');
+  const expHeader = card.querySelector('.exp-header');
+  const allButtons = card.querySelectorAll('.q-option-btn');
+
+  allButtons.forEach(btn => btn.disabled = true);
+
+  const isCorrect = (selectedOption === correctOption);
+
+  if (isCorrect) {
+    button.classList.add('selected-correct');
+    card.classList.add('answered-correct');
+    statusBadge.className = 'q-status-badge status-correct';
+    statusBadge.textContent = 'CORRECT 🟢';
+    expHeader.className = 'exp-header correct-title';
+    expHeader.innerHTML = '✔ Excellent! Correct Answer: Option ' + correctOption;
+  } else {
+    button.classList.add('selected-incorrect');
+    card.classList.add('answered-incorrect');
+    statusBadge.className = 'q-status-badge status-incorrect';
+    statusBadge.textContent = 'INCORRECT 🔴';
+    expHeader.className = 'exp-header incorrect-title';
+    expHeader.innerHTML = '❌ Incorrect. Correct Answer is Option ' + correctOption;
+
+    allButtons.forEach(btn => {
+      if (btn.querySelector('.opt-letter').textContent.trim() === correctOption) {
+        btn.classList.add('reveal-correct');
+      }
+    });
   }
-  let correctOpt = 'A';
-  const allText = contentBody.innerText;
-  const matches = [...allText.matchAll(/Correct Answer:\s*([A-C])/g)];
-  if(matches.length > 0) correctOpt = matches[0][1];
 
-  const parent = btn.parentElement;
-  const siblingBtns = parent.querySelectorAll('.quiz-opt-btn');
-  siblingBtns.forEach(b => {
-    b.disabled = true;
-    const bOpt = b.getAttribute('data-opt');
-    if(bOpt === correctOpt){
-      b.classList.add('correct');
-    } else if(bOpt === chosenOpt && chosenOpt !== correctOpt){
-      b.classList.add('incorrect');
+  explanationBox.style.display = 'block';
+  updateExamProgressTracker();
+}
+
+function resetQuestionCard(btn) {
+  const card = btn.closest('.interactive-question-card');
+  const statusBadge = card.querySelector('.q-status-badge');
+  const explanationBox = card.querySelector('.q-explanation-box');
+  const allButtons = card.querySelectorAll('.q-option-btn');
+
+  card.classList.remove('answered-correct', 'answered-incorrect');
+  statusBadge.className = 'q-status-badge status-unanswered';
+  statusBadge.textContent = 'UNANSWERED';
+  explanationBox.style.display = 'none';
+
+  allButtons.forEach(b => {
+    b.disabled = false;
+    b.classList.remove('selected-correct', 'selected-incorrect', 'reveal-correct');
+  });
+
+  updateExamProgressTracker();
+}
+
+function resetAllExamQuestions() {
+  document.querySelectorAll('.interactive-question-card').forEach(card => {
+    const resetBtn = card.querySelector('.q-reset-btn');
+    if (resetBtn) resetQuestionCard(resetBtn);
+  });
+}
+
+function updateExamProgressTracker() {
+  const cards = document.querySelectorAll('.interactive-question-card');
+  if (cards.length === 0) return;
+
+  let answered = 0;
+  let correct = 0;
+
+  cards.forEach(card => {
+    if (card.classList.contains('answered-correct')) {
+      answered++;
+      correct++;
+    } else if (card.classList.contains('answered-incorrect')) {
+      answered++;
     }
   });
 
-  let userStats = JSON.parse(localStorage.getItem('cfa-user-stats') || '{"answered":0,"correct":0}');
-  userStats.answered++;
-  if(chosenOpt === correctOpt) userStats.correct++;
-  localStorage.setItem('cfa-user-stats', JSON.stringify(userStats));
+  const countBadge = document.getElementById('examProgressCount');
+  const scoreBadge = document.getElementById('examScoreCount');
+
+  if (countBadge) countBadge.textContent = `${answered} / ${cards.length} Answered`;
+  if (scoreBadge) {
+    const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+    scoreBadge.textContent = `Score: ${pct}% (${correct}/${answered})`;
+  }
 }
 
 function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('sidebarOverlay').classList.toggle('active');}
