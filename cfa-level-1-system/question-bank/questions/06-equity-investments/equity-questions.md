@@ -741,8 +741,8 @@ C) Is undergoing liquidation or bankruptcy proceedings
 **Question:**
 In an equal-weighted equity index, maintaining target portfolio weights requires:?
 A) Periodic rebalancing that creates implicit sell-high/buy-low rebalancing pressure
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Periodic rebalancing that creates implicit sell-low/buy-high rebalancing pressure
+C) Periodic rebalancing that creates zero implicit rebalancing pressure
 
 
 **Correct Answer:** A
@@ -750,7 +750,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-09 (Market Index Weighting Schemes). Periodic rebalancing that creates implicit sell-high/buy-low rebalancing pressure.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor introduces incorrect directional pressure (sell-low/buy-high instead of sell-high/buy-low), which does not accurately reflect the market's tendency to overreact. As a result, it is incorrect.
+- C: This distractor underestimates the impact of periodic rebalancing on portfolio weights, which can lead to inaccurate target weights over time. It does not accurately reflect the correct application of LO-EQT-09. 
 
 **LO Reference:** LO-EQT-09 (Market Index Weighting Schemes)
 **Related Concepts:** Market Index Weighting Schemes, CFA curriculum core concept
@@ -762,8 +763,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Weak-form Market Efficiency implies that technical analysis based on past price data:?
 A) Cannot consistently generate risk-adjusted abnormal returns (alpha)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Can only generate risk-adjusted abnormal returns (alpha) when using short-term moving averages
+C) Is directly related to the stock's fundamental value
 
 
 **Correct Answer:** A
@@ -771,7 +772,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-10 (Market Efficiency EMH Weak Form). Cannot consistently generate risk-adjusted abnormal returns (alpha).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Wrong because technical analysis based on past price data can be used with various time frames, not limited to short-term moving averages. LO-EQT-10 specifically focuses on long-term patterns in price changes.
+- C: Wrong because weak-form EMH implies that past price data cannot consistently generate risk-adjusted abnormal returns (alpha) regardless of the type of analysis or methodology used.
 
 **LO Reference:** LO-EQT-10 (Market Efficiency EMH Weak Form)
 **Related Concepts:** Market Efficiency EMH Weak Form, CFA curriculum core concept
@@ -783,8 +785,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The size effect anomaly refers to the empirical observation that small-cap stocks tend to:?
 A) Outperform large-cap stocks on a risk-adjusted basis over long horizons
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Underperform large-cap stocks on a risk-adjusted basis over long horizons
+C) Exhibit equal returns to large-cap stocks on a risk-adjusted basis over long horizons
 
 
 **Correct Answer:** A
@@ -792,7 +794,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-11 (Market Anomalies Size Effect). Outperform large-cap stocks on a risk-adjusted basis over long horizons.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because the size effect anomaly indicates that small-cap stocks tend to outperform, not underperform, their larger counterparts. The observation is consistent with the idea that smaller companies face higher agency costs and have lower growth prospects, leading to a risk premium that results in superior returns.
+- C: This distractor is wrong because it suggests that small-cap stocks do not exhibit a size effect at all. In reality, the anomaly has been consistently documented across various studies, with small-cap stocks outperforming large-cap stocks on a risk-adjusted basis over long horizons.
 
 **LO Reference:** LO-EQT-11 (Market Anomalies Size Effect)
 **Related Concepts:** Market Anomalies Size Effect, CFA curriculum core concept
@@ -804,8 +807,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An industry characterized by slowing growth, intense price competition, and capacity rationalization is in the:?
 A) Shakeout stage
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Characterized by increased market share and expansion into new markets.
+C) Marked by a temporary reduction in the number of competitors due to financial distress, but then followed by consolidation rather than elimination.
 
 
 **Correct Answer:** A
@@ -813,7 +816,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-12 (Industry Life Cycle Stages). Shakeout stage.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the shakeout stage is characterized by capacity rationalization, intense price competition, and slowing growth, whereas option B describes a period of expansion. The industry is undergoing consolidation due to increased price competition, not expansion.
+- C: Incorrect because this option incorrectly identifies the shakeout stage as marked by consolidation rather than elimination. While some companies may consolidate during the shakeout stage, the overall goal is to eliminate or reduce capacity and intensity of competition.
 
 **LO Reference:** LO-EQT-12 (Industry Life Cycle Stages)
 **Related Concepts:** Industry Life Cycle Stages, CFA curriculum core concept
@@ -825,8 +829,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 According to Porter's Five Forces framework, high buyer bargaining power tends to:?
 A) Cap industry pricing power and reduce long-term industry profitability
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Lead to more frequent product changes and innovation, as buyers are willing to switch brands or products when faced with high prices.
+C) Increase the likelihood of mergers and acquisitions among competitors, as buyers may be able to negotiate better deals with stronger companies.
 
 
 **Correct Answer:** A
@@ -834,7 +838,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-13 (Porter Five Forces Framework). Cap industry pricing power and reduce long-term industry profitability.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because high buyer bargaining power does not lead to more frequent product changes. Instead, it often leads to reduced competition, lower prices, and fewer new products being introduced. When a single buyer has significant market share, they can dictate the terms of the market, including pricing.
+- C: This distractor is also wrong because high buyer bargaining power typically does not increase the likelihood of mergers and acquisitions among competitors. In fact, when buyers have more bargaining power, it often leads to consolidation in the industry, as smaller companies may be unable to compete with the dominant player.
 
 **LO Reference:** LO-EQT-13 (Porter Five Forces Framework)
 **Related Concepts:** Porter Five Forces Framework, CFA curriculum core concept
@@ -846,8 +851,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In the Dividend Discount Model, the sustainable dividend growth rate ($g$) equals:?
 A) Retention rate ($b$) multiplied by Return on Equity (ROE)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) sustainable dividend growth rate (g) equals the Weighted Average Cost of Capital (WACC)
+C) sustainable dividend growth rate (g) equals the sum of Retention Rate ($b$) and Return on Equity (ROE)
 
 
 **Correct Answer:** A
@@ -855,7 +860,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-14 (Gordon Growth Model Constant g). Retention rate ($b$) multiplied by Return on Equity (ROE).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because WACC is a measure of cost, not growth. The sustainable dividend growth rate should equal the expected earnings yield, not a cost. 
+- C: Incorrect because adding ROE to Retention Rate ($b$) would result in an incorrect calculation of the sustainable dividend growth rate. The correct formula multiplies the retention rate by ROE to determine g.
 
 **LO Reference:** LO-EQT-14 (Gordon Growth Model Constant g)
 **Related Concepts:** Gordon Growth Model Constant g, CFA curriculum core concept
@@ -867,8 +873,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A justified trailing P/E multiple increases when:?
 A) The dividend payout ratio increases or the required rate of return decreases
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A declining interest rate environment leads to a decrease in the market's required return, causing investors to demand higher earnings per share to maintain their returns.
+C) An increase in inflation expectations increases the required rate of return, offsetting the effect of the dividend payout ratio on the P/E multiple.
 
 
 **Correct Answer:** A
@@ -876,7 +882,10 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-EQT-15 (Price Multiples P/E Valuation). The dividend payout ratio increases or the required rate of return decreases.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+- B is incorrect because a declining interest rate environment does not lead to an increase in the justified trailing P/E multiple. A decreasing interest rate would actually decrease the required rate of return, which would increase the justified trailing P/E multiple.
+- C is incorrect because increasing inflation expectations would decrease the required rate of return, offsetting the effect of the dividend payout ratio on the P/E multiple.
 
 **LO Reference:** LO-EQT-15 (Price Multiples P/E Valuation)
 **Related Concepts:** Price Multiples P/E Valuation, CFA curriculum core concept
@@ -889,8 +898,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An investor buys a stock on margin at $50 per share with an initial margin of 50% and maintenance margin of 30%. The price at which a margin call occurs is:?
 A) $35.71 (Margin Call Price = [50 * (1 - 0.50)] / (1 - 0.30) = $35.71)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The investor will receive a margin call when the market value of their shares falls below $40, since they have 50% equity in the position.
+C) A margin call occurs at a price where the investor has only $15 left after deducting maintenance margin (30%), so it is $45.
 
 
 **Correct Answer:** A
@@ -898,7 +907,10 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-EQT-02 (Margin Trading Maintenance Call Price). $35.71 (Margin Call Price = [50 * (1 - 0.50)] / (1 - 0.30) = $35.71).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+- B is incorrect because it misunderstands the relationship between initial and maintenance margins. The correct calculation involves using the maintenance margin percentage to determine the price at which a margin call occurs.
+- C is incorrect because it incorrectly assumes that the investor has only $15 left after deducting maintenance margin, rather than recalculating the available equity based on the given margin percentages.
 
 **LO Reference:** LO-EQT-02 (Margin Trading Maintenance Call Price)
 **Related Concepts:** Margin Trading Maintenance Call Price, CFA curriculum core concept
@@ -910,8 +922,8 @@ C) Alternative incorrect option
 **Question:**
 FCFE represents cash flow available to equity holders after meeting operating expenses, working capital, and:?
 A) Capital expenditures and net debt service/repayments
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Investing in a new research and development project to drive future growth and profitability.
+C) Paying off a short-term loan with a large settlement payment from a contract renegotiation.
 
 
 **Correct Answer:** A
@@ -919,7 +931,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-EQT-05 (Free Cash Flow to Equity (FCFE) Valuation). Capital expenditures and net debt service/repayments.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because FCFE does not include investing expenditures, as they are expected to generate future cash flows. Investing expenditures reduce the amount of cash available to equity holders.
+- C is wrong because net debt service/repayments are already considered in the calculation of FCFE, so there's no need to pay off a short-term loan that doesn't affect working capital.
 
 **LO Reference:** LO-EQT-05 (Free Cash Flow to Equity (FCFE) Valuation)
 **Related Concepts:** Free Cash Flow to Equity (FCFE) Valuation, CFA curriculum core concept
@@ -931,8 +944,8 @@ C) Alternative incorrect option
 **Question:**
 EV/EBITDA is particularly useful for comparing companies with different:?
 A) Capital structures (debt leverage) and capital intensity/depreciation policies
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) valuation multiples for companies with different accounting standards and revenue recognition policies
+C) comparisons of companies in the same industry with varying tax strategies and foreign earnings
 
 
 **Correct Answer:** A
@@ -940,7 +953,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-EQT-07 (Enterprise Value Multiple EV/EBITDA). Capital structures (debt leverage) and capital intensity/depreciation policies.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because EV/EBITDA ignores differences in capital structures, which can be a key factor in evaluating company performance. While accounting standards may also affect financial statements, they are not as directly relevant to the EV/EBITDA metric.
+- C: This distractor is incorrect because tax strategies and foreign earnings are more relevant to valuing companies in specific industries or markets rather than comparing their overall financial health.
 
 **LO Reference:** LO-EQT-07 (Enterprise Value Multiple EV/EBITDA)
 **Related Concepts:** Enterprise Value Multiple EV/EBITDA, CFA curriculum core concept
@@ -953,8 +967,8 @@ C) Alternative incorrect option
 **Question:**
 A firm pays a current dividend of $2.00. Dividends grow at 10% for 2 years, then at 4% indefinitely. Required return is 8%. The value per share is:?
 A) $54.55 (PV of D1, D2 + PV of terminal value at t=2)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The dividend growth rate after 2 years is assumed to remain constant at 10% for perpetuity, while the required return of 8% should be used as a discount rate.
+C) Since the terminal value is calculated at year 2 and then grows indefinitely, the perpetual growth rate of 4% would only apply starting from year 3, not immediately after year 2.
 
 
 **Correct Answer:** A
@@ -962,7 +976,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-EQT-03 (Dividend Discount Model Two-Stage Valuation). $54.55 (PV of D1, D2 + PV of terminal value at t=2).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it misinterprets how to use the required return in a two-stage valuation model. The correct approach is to discount both the initial dividend and the terminal value at year 2 using the required return, then summing them together. Misapplication of the required return rate would lead to an incorrect answer.
+- C: Incorrect because it incorrectly assumes the growth rate after year 2 should be used for a perpetual growth calculation immediately following year 2, rather than applying the perpetual growth rate starting from year 3 as stated in the correct solution. This misinterpretation of the two-stage valuation process would also result in an incorrect answer.
 
 **LO Reference:** LO-EQT-03 (Dividend Discount Model Two-Stage Valuation)
 **Related Concepts:** Dividend Discount Model Two-Stage Valuation, CFA curriculum core concept
@@ -974,8 +989,8 @@ C) Alternative incorrect option
 **Question:**
 A company's Return on Equity (ROE) is 12%, required return is 10%, and dividend growth rate is 4%. Its justified price-to-book ratio is:?
 A) 1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The company's market risk premium is higher than its cost of equity, indicating a justified P/B ratio below 1.
+C) The company's dividend yield is high due to a large dividend payout, which decreases the justified P/B ratio.
 
 
 **Correct Answer:** A
@@ -983,7 +998,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-EQT-06 (Price-to-Book (P/B) Ratio Valuation). 1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: The calculation in C uses g (dividend growth rate) and r (required return), but ROE (12%) already assumes an expected earnings increase. Assuming market risk premium does not directly relate to dividend yield. Therefore, B's explanation is incorrect and misleading.
+- C: Explanation why C is wrong: Dividend yield does not affect the justified P/B ratio calculation directly. A high dividend yield indicates a company pays out more dividends than it earns, which would actually lead to a lower justified P/B ratio. Thus, C's claim that a high dividend yield decreases the justified P/B ratio is incorrect.
 
 **LO Reference:** LO-EQT-06 (Price-to-Book (P/B) Ratio Valuation)
 **Related Concepts:** Price-to-Book (P/B) Ratio Valuation, CFA curriculum core concept
@@ -996,8 +1012,8 @@ C) Alternative incorrect option
 **Question:**
 High economies of scale and heavy capital requirements create high barriers to entry, which tends to:?
 A) Protect incumbent firm profitability and reduce threat of new entrants
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Create an environment where firms must compromise on price to attract customers, ultimately leading to lower profit margins.
+C) Foster a culture of innovation and competition among new entrants, which can lead to the displacement of existing firms.
 
 
 **Correct Answer:** A
@@ -1005,7 +1021,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-EQT-08 (Industry Analysis Porter Five Forces Barriers to Entry). Protect incumbent firm profitability and reduce threat of new entrants.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-EQT-08 (Industry Analysis Porter Five Forces Barriers to Entry)
 **Related Concepts:** Industry Analysis Porter Five Forces Barriers to Entry, CFA curriculum core concept
@@ -1017,8 +1033,8 @@ C) Alternative incorrect option
 **Question:**
 FCFF is defined as cash flow available to:?
 A) All suppliers of capital, including debt holders, preferred shareholders, and common equity holders
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) All suppliers of capital, including all shareholders and lenders with claims to residual income and cash flow.
+C) All providers of financing that have a financial claim on the residual cash flows of a firm, but excludes those with only non-financial claims such as dividends from preferred stock or interest from debt.
 
 
 **Correct Answer:** A
@@ -1026,7 +1042,10 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-EQT-09 (Equity Valuation Free Cash Flow to Firm (FCFF)). All suppliers of capital, including debt holders, preferred shareholders, and common equity holders.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+B is wrong because FCFF does not include all shareholders. Only common equity holders and retained earnings are included. Preferred shareholders have a claim to dividend payments, but these are paid out of net income rather than residual cash flows. Debt holders have a financial claim on the firm's assets only if they convert their debt into equity.
+C is wrong because it excludes those with non-financial claims from residual cash flows. While C correctly identifies that FCFF excludes those with only non-financial claims, it incorrectly implies that these are not included at all. In fact, some analysts do include preferred stock and other non-financial claims in their calculation of FCFF.
 
 **LO Reference:** LO-EQT-09 (Equity Valuation Free Cash Flow to Firm (FCFF))
 **Related Concepts:** Equity Valuation Free Cash Flow to Firm (FCFF), CFA curriculum core concept
@@ -1038,8 +1057,8 @@ C) Alternative incorrect option
 **Question:**
 The justified forward P/E ratio under the Gordon Growth Model equals:?
 A) (1 - b) / (r - g), where (1 - b) is the dividend payout ratio
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The justified forward P/E ratio under the Gordon Growth Model equals (1 - b)/(r + g), where (1 - b) is the dividend payout ratio.
+C) The justified forward P/E ratio under the Gordon Growth Model equals (b/ r)
 
 
 **Correct Answer:** A
@@ -1047,7 +1066,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-EQT-10 (Price Multiples Justified Forward P/E Ratio). (1 - b) / (r - g), where (1 - b) is the dividend payout ratio.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong The divisor should be (r - g), not (r + g).
+- C: Explanation why C is wrong The divisor should be based on growth rate minus dividend payout ratio, not just growth rate alone.
 
 **LO Reference:** LO-EQT-10 (Price Multiples Justified Forward P/E Ratio)
 **Related Concepts:** Price Multiples Justified Forward P/E Ratio, CFA curriculum core concept
@@ -1060,8 +1080,8 @@ C) Alternative incorrect option
 **Question:**
 An asset-based equity valuation model calculates net asset value by taking:?
 A) Market value of assets minus Market value of liabilities
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Net income minus outstanding debt
+C) Total assets minus cash and marketable securities
 
 
 **Correct Answer:** A
@@ -1069,7 +1089,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-EQT-16 (Equity Valuation Asset-Based Model Liquidation Value). Market value of assets minus Market value of liabilities.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it incorrectly uses net income (which represents earnings, not assets) and debt, which may not be directly applicable to asset-based valuation.
+- C is wrong because using total assets and excluding cash and marketable securities would understate the value of more illiquid or hard-to-value assets.
 
 **LO Reference:** LO-EQT-16 (Equity Valuation Asset-Based Model Liquidation Value)
 **Related Concepts:** Equity Valuation Asset-Based Model Liquidation Value, CFA curriculum core concept
@@ -1081,8 +1102,8 @@ C) Alternative incorrect option
 **Question:**
 In a quote-driven equity market, liquidity is provided primarily by:?
 A) Designated market makers or dealers standing ready to buy and sell at quoted bid/ask prices
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Order flow specialists acting as both buyers and sellers on behalf of a large trading firm or institution, facilitating trades in a quote-driven market.
+C) Broker-dealers providing liquidity by holding positions in the securities they trade, acting in the best interests of their clients while maintaining a fair and orderly market
 
 
 **Correct Answer:** A
@@ -1090,7 +1111,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-EQT-17 (Market Microstructure Order Driven vs Quote Driven). Designated market makers or dealers standing ready to buy and sell at quoted bid/ask prices.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Although order flow specialists may contribute to liquidity, their role is often limited to specific trades or orders, rather than providing continuous liquidity as needed. In a quote-driven market, liquidity providers need to be more proactive and responsive to changing market conditions. 
+- C: Broker-dealers can indeed hold positions in securities and provide liquidity, but this approach may limit their ability to act independently and adapt quickly to market changes. Designated market makers or dealers are better suited to providing continuous liquidity as needed in a quote-driven market.
 
 **LO Reference:** LO-EQT-17 (Market Microstructure Order Driven vs Quote Driven)
 **Related Concepts:** Market Microstructure Order Driven vs Quote Driven, CFA curriculum core concept
@@ -1103,8 +1125,8 @@ C) Alternative incorrect option
 **Question:**
 A stock trades at $50.00, expected next-year dividend D1 = $2.50, and required return r = 10%. The implied constant growth rate g is:?
 A) 5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The expected constant growth rate g should equal the required return r to reflect a dividend yield of 5% at time zero, since D1 / P0 = $2.50 / $50.00 represents the present value of future dividends.
+C) Dividend yield equals the discount rate times a non-growing dividend, so we can set g equal to the required return r plus the non-growing dividend yield (D1/P0) to correctly calculate the constant growth rate.
 
 
 **Correct Answer:** A
@@ -1112,7 +1134,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-EQT-04 (Constant Growth DDM Implied Growth Rate). 5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-EQT-04 (Constant Growth DDM Implied Growth Rate)
 **Related Concepts:** Constant Growth DDM Implied Growth Rate, CFA curriculum core concept
@@ -1125,8 +1147,8 @@ C) Alternative incorrect option
 **Question:**
 A firm pays D0 = $1.00. Growth is 20% for 2 years, then settles to a permanent 5%. Required return is 10%. Value per share P0 is:?
 A) $22.91 (PV of D1, D2 plus PV of terminal value at t=2)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The firm will pay dividends of $1.20 at t=1 and $1.40 at t=2, which can be discounted back to the present using a 10% discount rate.
+C) The terminal growth period begins immediately after year 2, allowing the firm to generate perpetually increasing dividend payments that will compound on themselves indefinitely.
 
 
 **Correct Answer:** A
@@ -1134,7 +1156,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-EQT-05 (Dividend Discount Model Multistage Growth Valuation). $22.91 (PV of D1, D2 plus PV of terminal value at t=2).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it assumes the dividends paid out by the firm grow at a rate independent of the overall growth rate, which may not accurately reflect the firm's dividend policy. The correct approach should consider the impact of the permanent 5% growth rate on future dividends.
+- C: This distractor is wrong because it incorrectly assumes that the terminal growth period starts immediately after year 2, ignoring the fact that a two-year growth period has already occurred. Additionally, assuming perpetual and self-reinforcing dividend growth at year 3 onward does not accurately capture the firm's long-term growth prospects.
 
 **LO Reference:** LO-EQT-05 (Dividend Discount Model Multistage Growth Valuation)
 **Related Concepts:** Dividend Discount Model Multistage Growth Valuation, CFA curriculum core concept
@@ -1146,8 +1169,8 @@ C) Alternative incorrect option
 **Question:**
 A primary advantage of using the Price-to-Sales (P/S) multiple over the P/E multiple is that P/S can be used to value firms with:?
 A) Negative net income (net losses) or volatile corporate profit margins
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Companies with highly seasonal revenue streams that have stable profit margins throughout the year.
+C) Firms with strong brand recognition and loyal customer bases that maintain profitability despite low sales growth.
 
 
 **Correct Answer:** A
@@ -1155,7 +1178,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-EQT-11 (Price Multiples Price-to-Sales (P/S) Valuation). Negative net income (net losses) or volatile corporate profit margins.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it doesn't accurately reflect a disadvantage of P/E over P/S. Seasonal revenue does not necessarily imply stability or profitability.
+- C is wrong because strong brand recognition alone does not guarantee high profit margins, especially for companies with low sales growth.
 
 **LO Reference:** LO-EQT-11 (Price Multiples Price-to-Sales (P/S) Valuation)
 **Related Concepts:** Price Multiples Price-to-Sales (P/S) Valuation, CFA curriculum core concept
@@ -1167,8 +1191,8 @@ C) Alternative incorrect option
 **Question:**
 Strong-form Market Efficiency asserts that stock prices fully reflect:?
 A) All public and private (inside) information
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Investor sentiment and historical trends are fully reflected in stock prices.
+C) Stock prices accurately predict future earnings per share.
 
 
 **Correct Answer:** A
@@ -1176,7 +1200,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-EQT-12 (Market Efficiency Efficient Market Hypothesis Strong Form). All public and private (inside) information.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because Strong-form Market Efficiency asserts that all public and private (inside) information is fully reflected in stock prices, not just investor sentiment and historical trends. This distractor misrepresents the concept of strong-form market efficiency by suggesting it only accounts for external factors like sentiment and trends, rather than internal information such as company-specific knowledge. 
+- C is wrong because Strong-form Market Efficiency does not imply that stock prices predict future earnings per share with accuracy; it suggests that all public and private (inside) information is reflected in current prices.
 
 **LO Reference:** LO-EQT-12 (Market Efficiency Efficient Market Hypothesis Strong Form)
 **Related Concepts:** Market Efficiency Efficient Market Hypothesis Strong Form, CFA curriculum core concept

@@ -845,8 +845,8 @@ C) Individual intangible asset level
 **Question:**
 A temporary difference where financial accounting income is less than taxable income creates a:?
 A) Deferred Tax Liability (DTL) because future tax payments will be higher
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Creates a deferred tax asset (DTA) because future tax payments will be lower
+C) Does not impact the recognition of deferred taxes, as it is a non-recurring item
 
 
 **Correct Answer:** A
@@ -854,7 +854,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-14 (Deferred Tax Assets and Liabilities). Deferred Tax Liability (DTL) because future tax payments will be higher.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrectly assumes that lower taxable income leads to lower future tax payments. A temporary difference can create a DTL if future taxable income increases.
+- C: Correct analysis for option C, but does not apply to the creation of a DTL as described in the question.
 
 **LO Reference:** LO-FSA-14 (Deferred Tax Assets and Liabilities)
 **Related Concepts:** Deferred Tax Assets and Liabilities, CFA curriculum core concept
@@ -866,8 +867,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 When a bond is issued at a discount, over time the effective interest expense:?
 A) Increases as the carrying value of the bond amortizes upward toward par value
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Decreases as the bond's cash received for purchase at discount decreases over time.
+C) Remains constant as the amortization of the bond's carrying value offset by the decrease in its market value
 
 
 **Correct Answer:** A
@@ -875,7 +876,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-15 (Non-Current Liabilities Bond Amortization). Increases as the carrying value of the bond amortizes upward toward par value.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The correct answer is wrong because when a bond is issued at a discount, it receives more cash upfront. Over time, the cash received decreases, but the effective interest expense actually increases due to the higher carrying value and lower cash received. 
+- C: The correct answer is wrong because as the bond's market value decreases over time, its carrying value remains high, causing the effective interest expense to increase.
 
 **LO Reference:** LO-FSA-15 (Non-Current Liabilities Bond Amortization)
 **Related Concepts:** Non-Current Liabilities Bond Amortization, CFA curriculum core concept
@@ -887,8 +889,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which of the following is considered an off-balance sheet financing technique??
 A) Factoring accounts receivable with recourse or take-or-pay purchase agreements
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Deferred tax assets and liabilities are an off-balance sheet financing technique
+C) Lease payments made under capital lease arrangements can be considered off-balance sheet financing
 
 
 **Correct Answer:** A
@@ -896,7 +898,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-16 (Off-Balance Sheet Financing). Factoring accounts receivable with recourse or take-or-pay purchase agreements.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because deferred tax assets and liabilities represent the tax benefits or drawbacks of existing transactions, not a financing technique.
+- C: Incorrect because lease payments made under capital lease arrangements are accounted for on the balance sheet as leased assets and lease liability.
 
 **LO Reference:** LO-FSA-16 (Off-Balance Sheet Financing)
 **Related Concepts:** Off-Balance Sheet Financing, CFA curriculum core concept
@@ -908,8 +911,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Cash received from customers under the direct method equals Sales revenue plus:?
 A) Beginning Accounts Receivable minus Ending Accounts Receivable
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Direct method of cash flow presentation requires the reconciliation of opening and closing accounts receivable with sales revenue, as opening and closing balances are not adjusted for collections or losses.
+C) Ending Accounts Receivable should be added to Sales Revenue because it represents the expected value of future cash flows from accounts receivable, while Beginning Accounts Receivable is a lagging indicator.
 
 
 **Correct Answer:** A
@@ -917,7 +920,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-17 (Cash Flow Direct Method Construction). Beginning Accounts Receivable minus Ending Accounts Receivable.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect. The correct analysis focuses on reconciling the opening and closing balances of accounts receivable with sales revenue, as these balances reflect the outstanding amount due to customers at different points in time. This relationship is critical for accurately representing cash flows from sales under the direct method.
+- C: Incorrect. Ending Accounts Receivable should be subtracted from Sales Revenue because it represents the expected value of future cash flows that have already been collected, while Beginning Accounts Receivable reflects the amount due to customers before they have paid. Subtracting these two values provides a more accurate representation of sales revenue as a source of cash.
 
 **LO Reference:** LO-FSA-17 (Cash Flow Direct Method Construction)
 **Related Concepts:** Cash Flow Direct Method Construction, CFA curriculum core concept
@@ -929,8 +933,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In the 5-way DuPont decomposition, Return on Equity (ROE) equals:?
 A) Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Financial Leverage
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) ROE equals the sum of Interest Expense and Tax Expense as a percentage of Earnings Before Taxes (EBT), multiplied by EBIT Margin, then adjusted for asset turnover.
+C) ROE equals Total Assets minus Interest Expenses plus Taxes minus Depreciation minus Amortization as a percentage of Total Assets
 
 
 **Correct Answer:** A
@@ -938,7 +942,10 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-18 (Financial Analysis DuPont 5-Way Framework). Tax Burden × Interest Burden × EBIT Margin × Asset Turnover × Financial Leverage.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+B is wrong because it misrepresents the DuPont model, which decomposes ROE into its constituent parts. The correct formula for the second part is missing, and the concept of EBIT Margin is incorrectly applied.
+C is incorrect because it represents a misleading combination of asset-related items, rather than using the three core components: Interest Burden, Tax Burden, and EBIT Margin.
 
 **LO Reference:** LO-FSA-18 (Financial Analysis DuPont 5-Way Framework)
 **Related Concepts:** Financial Analysis DuPont 5-Way Framework, CFA curriculum core concept
@@ -950,8 +957,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Quick Ratio (Acid-Test) excludes which current asset from the numerator??
 A) Inventory, because it is less liquid than cash and receivables
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Returns receivables, because it may take time for the client to pay their outstanding balance.
+C) Prepaid expenses, because they represent future payments made for goods and services that have not been received yet.
 
 
 **Correct Answer:** A
@@ -959,7 +966,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-19 (Working Capital Liquidity Ratios). Inventory, because it is less liquid than cash and receivables.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Returns receivables is wrong. Although it's true returns receivables can be less liquid than cash and accounts receivable, the Quick Ratio specifically excludes inventory, but not necessarily returns receivables. The correct answer should address why returns receivables aren't an exclusion for the Quick Ratio, which is because it doesn't fit into the numerator as a current asset to be used in calculating liquidity.
+- C: Prepaid expenses are wrong. Prepaid expenses don't belong in the numerator of the Quick Ratio. They're non-current assets that represent payments made for goods and services received in previous periods, not current assets expected to be converted into cash within a short period.
 
 **LO Reference:** LO-FSA-19 (Working Capital Liquidity Ratios)
 **Related Concepts:** Working Capital Liquidity Ratios, CFA curriculum core concept
@@ -971,8 +979,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which accounting policy change is considered a potential red flag for aggressive financial reporting??
 A) Extending useful life assumptions for capital assets to lower annual depreciation expense
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Rounding up inventory levels to avoid write-offs during lean periods
+C) Using a perpetual inventory method with no valuation adjustments for obsolescence or damage
 
 
 **Correct Answer:** A
@@ -980,7 +988,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-FSA-20 (Earnings Quality Red Flags). Extending useful life assumptions for capital assets to lower annual depreciation expense.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This option may be seen as aggressive if it results in understating inventory costs and hiding potential future write-offs. However, it is a common practice for companies to maintain lower inventory levels during lean periods to minimize holding costs.
 
 **LO Reference:** LO-FSA-20 (Earnings Quality Red Flags)
 **Related Concepts:** Earnings Quality Red Flags, CFA curriculum core concept
@@ -993,8 +1001,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Under the indirect method for operating cash flows, an increase in Accounts Payable during the period is:?
 A) Added back to net income, because it represents expenses incurred but not yet paid in cash
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Accounts Payable is a component of Accounts Receivable and would be added to net income, because it represents revenue earned but not yet collected in cash
+C) The increase in Accounts Payable does not directly impact the payment of expenses; therefore, it should remain on the income statement.
 
 
 **Correct Answer:** A
@@ -1002,7 +1010,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-FSA-03 (Cash Flow Operating Indirect Method Adjustment). Added back to net income, because it represents expenses incurred but not yet paid in cash.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because Accounts Payable is a liability account and increasing its balance would actually reduce net income. Adding it back to net income would overstate net income.
+- C: This distractor is wrong because an increase in Accounts Payable does represent expenses incurred but not yet paid in cash, which should be subtracted from net income.
 
 **LO Reference:** LO-FSA-03 (Cash Flow Operating Indirect Method Adjustment)
 **Related Concepts:** Cash Flow Operating Indirect Method Adjustment, CFA curriculum core concept
@@ -1014,8 +1023,8 @@ C) Alternative incorrect option
 **Question:**
 When converting a firm's financial statements from LIFO to FIFO during a period of rising prices, FIFO Inventory equals:?
 A) LIFO Inventory + LIFO Reserve
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) FIFO Inventory equals LIFO Reserve - LIFO Cost of Goods Sold (CGS) plus COGS minus Ending Inventory under FIFO.
+C) FIFO Inventory equals Net Realizable Value (NRV) less Ending Inventory under LIFO plus Beginning Inventory plus Net Gain on Inventory.
 
 
 **Correct Answer:** A
@@ -1023,7 +1032,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-FSA-05 (Inventory Valuation LIFO to FIFO Conversion). LIFO Inventory + LIFO Reserve.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it incorrectly states the relationship between LIFO Reserve and ending inventory; instead, FIFO Reserve equals COGS - LIFO CGS. It also includes unnecessary concepts like NRV and net gain on inventory.
+- C: This distractor is wrong because FIFO Inventory is not directly calculated from NRV or beginning inventory plus net gain on inventory; it's actually the difference between the beginning inventory value under FIFO and the current cost of goods sold minus ending inventory. The correct formula involves LIFO Reserve, COGS, CGS, and ending inventory.
 
 **LO Reference:** LO-FSA-05 (Inventory Valuation LIFO to FIFO Conversion)
 **Related Concepts:** Inventory Valuation LIFO to FIFO Conversion, CFA curriculum core concept
@@ -1035,8 +1045,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS revaluation model, an initial upward revaluation of PP&E above historical cost is recorded in:?
 A) Other Comprehensive Income (OCI) and accumulated in revaluation surplus in equity
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Recorded in Net Income (Profit/Loss) to reflect the initial increase in asset value.
+C) Recorded in Revaluation Reserves, increasing the carrying amount of PP&E without affecting net income.
 
 
 **Correct Answer:** A
@@ -1044,7 +1054,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-FSA-07 (Long-Lived Assets Revaluation Model IFRS). Other Comprehensive Income (OCI) and accumulated in revaluation surplus in equity.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the initial upward revaluation is not directly reflected in net income. Instead, it's recorded in OCI and increases the carrying amount of PP&E.
+- C: Incorrect because while a portion of the increase may be temporarily deferred in Revaluation Reserves, the entire increase must first be accounted for in OCI to reflect the asset's new carrying value.
 
 **LO Reference:** LO-FSA-07 (Long-Lived Assets Revaluation Model IFRS)
 **Related Concepts:** Long-Lived Assets Revaluation Model IFRS, CFA curriculum core concept
@@ -1056,8 +1067,8 @@ C) Alternative incorrect option
 **Question:**
 A corporation reports pretax financial income of $1,000,000. Statutory tax rate is 25%. Non-deductible executive compensation is $40,000. Effective tax expense is:?
 A) $260,000 (Tax Expense = 25% * ($1,000,000 + $40,000) = $260,000)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Corporate tax rate drops to 22% due to recent regulatory changes.
+C) Net operating loss carryforwards reduce taxable income by $80,000.
 
 
 **Correct Answer:** A
@@ -1065,7 +1076,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-FSA-09 (Income Tax Expense Effective Rate Reconciliation). $260,000 (Tax Expense = 25% * ($1,000,000 + $40,000) = $260,000).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The effective tax expense calculation does not take into account the reduction in corporate tax rate. Adding a 3% decrease in corporate tax rate would result in an additional $20,000 (25% * $40,000) to the tax expense, making it $260,000 instead of $240,000. 
+- C: The calculation incorrectly assumes that net operating losses directly reduce taxable income, whereas they are only allowed against future taxable income. Therefore, this distractor is irrelevant to calculating effective tax expense.
 
 **LO Reference:** LO-FSA-09 (Income Tax Expense Effective Rate Reconciliation)
 **Related Concepts:** Income Tax Expense Effective Rate Reconciliation, CFA curriculum core concept
@@ -1078,8 +1090,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS, inventory is valued at lower of cost and Net Realizable Value (NRV). If NRV subsequently recovers, inventory write-downs:?
 A) Must be reversed up to the amount of the original write-down in profit or loss
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Must be reversed in full when NRV recovers, as the write-down was an error and not a loss.
+C) Only require reversal of the portion of the original write-down that exceeds the subsequent NRV, to maintain consistency with the accounting equation.
 
 
 **Correct Answer:** A
@@ -1087,7 +1099,10 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-FSA-08 (Inventory Valuation Lower of Cost and NRV). Must be reversed up to the amount of the original write-down in profit or loss.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+B is wrong because reversing in full would be an unrealistic assumption; it would imply that the write-down was an error rather than a legitimate decrease in value. This ignores the possibility that subsequent NRV decline may continue.
+C is wrong because it incorrectly assumes a 'portion' reversal, which is not directly supported by IFRS principles and could lead to inconsistent accounting outcomes.
 
 **LO Reference:** LO-FSA-08 (Inventory Valuation Lower of Cost and NRV)
 **Related Concepts:** Inventory Valuation Lower of Cost and NRV, CFA curriculum core concept
@@ -1099,8 +1114,8 @@ C) Alternative incorrect option
 **Question:**
 Capitalizing interest expense during the construction of a self-use building (instead of expensing it) causes:?
 A) Higher operating cash flows and higher net income during construction years
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Reduces the initial cash outlay by temporarily deferring interest expense payments, resulting in lower cash flows and reduced net income during construction years.
+C) Allows for more accurate tracking of project costs and facilitates better forecasting of future expenses, leading to improved financial planning and decision-making.
 
 
 **Correct Answer:** A
@@ -1108,7 +1123,7 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-FSA-10 (Capitalized Interest Accounting Impact). Higher operating cash flows and higher net income during construction years.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-FSA-10 (Capitalized Interest Accounting Impact)
 **Related Concepts:** Capitalized Interest Accounting Impact, CFA curriculum core concept
@@ -1120,8 +1135,8 @@ C) Alternative incorrect option
 **Question:**
 A firm reports a Deferred Tax Liability (DTL) that is expected to reverse in future periods. In financial ratio analysis, DTL should be treated as:?
 A) Liability if reversal is expected, or Equity if reversal is unlikely to occur in the foreseeable future
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Deferred Tax Liability should be treated as a Non-Cash Item since its reversal in future periods is not guaranteed.
+C) The Deferred Tax Liability should be reported on the Balance Sheet under Equity as it represents a potential future credit that may offset future tax liabilities.
 
 
 **Correct Answer:** A
@@ -1129,7 +1144,7 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-FSA-11 (Deferred Tax Liability Balance Sheet Analysis). Liability if reversal is expected, or Equity if reversal is unlikely to occur in the foreseeable future.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong DTL should be treated as a liability if reversal is expected, as it represents an amount that must be paid in future periods. Treating it as a non-cash item ignores the obligation and does not accurately reflect the company's financial position. - C: Explanation why C is wrong The treatment of DTL under equity assumes that its reversal is highly uncertain or unlikely to occur in the foreseeable future, which may not always be the case. If reversal is expected, it should still be treated as a liability rather than equity, as it represents an amount that must be paid.
 
 **LO Reference:** LO-FSA-11 (Deferred Tax Liability Balance Sheet Analysis)
 **Related Concepts:** Deferred Tax Liability Balance Sheet Analysis, CFA curriculum core concept
@@ -1142,8 +1157,8 @@ C) Alternative incorrect option
 **Question:**
 LIFO liquidation occurs when a firm using LIFO sells more units than it purchases during a period of rising prices. This results in:?
 A) Artificially inflated gross profit margins and higher net income due to matching old lower costs against current revenues
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Increases inventory costs, which are not matched against current revenues, leading to lower net income.
+C) Results in a greater loss when prices fall, as the firm has to write down the value of its inventory more aggressively.
 
 
 **Correct Answer:** A
@@ -1151,7 +1166,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-FSA-21 (Inventory Costing Methods LIFO Liquidation). Artificially inflated gross profit margins and higher net income due to matching old lower costs against current revenues.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This is incorrect because LIFO liquidation does indeed increase inventory costs. However, this does not directly affect net income during the period of rising prices. Instead, it increases gross profit margins due to matching old lower costs against current revenues. Lower net income would result when prices fall and the firm has to write down its inventory more aggressively, which is a subsequent effect rather than a direct result of LIFO liquidation.
+- C: This is incorrect because the greater loss when prices fall is not directly related to LIFO liquidation during periods of rising prices. The correct concern with LIFO liquidation in this scenario is that it leads to artificially inflated gross profit margins and higher net income due to matching old lower costs against current revenues.
 
 **LO Reference:** LO-FSA-21 (Inventory Costing Methods LIFO Liquidation)
 **Related Concepts:** Inventory Costing Methods LIFO Liquidation, CFA curriculum core concept
@@ -1163,8 +1179,8 @@ C) Alternative incorrect option
 **Question:**
 Under US GAAP, if an asset's carrying value exceeds its undiscovered future cash flows, the impairment loss equals:?
 A) Carrying value minus Fair value
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Impairment loss equals carrying value minus future expected cash flows discounted to present value.
+C) Impairment loss equals the difference between carrying value and the asset's current market price.
 
 
 **Correct Answer:** A
@@ -1172,7 +1188,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-FSA-22 (Long-Lived Assets Impairment Loss Measurement US GAAP). Carrying value minus Fair value.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it assumes future cash flows are discounted to present value, but US GAAP does not require this. The impairment loss is simply the excess of carrying value over fair value.
+- C: Incorrect because it refers to the current market price rather than fair value. Fair value is a more appropriate measure for impairment calculation under US GAAP.
 
 **LO Reference:** LO-FSA-22 (Long-Lived Assets Impairment Loss Measurement US GAAP)
 **Related Concepts:** Long-Lived Assets Impairment Loss Measurement US GAAP, CFA curriculum core concept
@@ -1184,8 +1201,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS 16, a lessor classifies a lease as a finance lease if:?
 A) Substantially all risks and rewards of ownership are transferred to the lessee
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The lessee bears the economic benefits and liabilities of ownership, such as the depreciation expense and interest on the capital lease.
+C) A finance lease is one where a lease term greater than 25% of the total useful life is granted to the lessee.
 
 
 **Correct Answer:** A
@@ -1193,7 +1210,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-FSA-23 (Lease Accounting Finance vs Operating Lease Lessor). Substantially all risks and rewards of ownership are transferred to the lessee.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor addresses an incorrect aspect of IFRS 16. The correct definition focuses on risks and rewards transferred, not economic benefits and liabilities of ownership.
+- C: A lease term greater than 25% of the total useful life does not determine if a finance lease is required under IFRS 16. Instead, it is about which party bears the risks and rewards of ownership.
 
 **LO Reference:** LO-FSA-23 (Lease Accounting Finance vs Operating Lease Lessor)
 **Related Concepts:** Lease Accounting Finance vs Operating Lease Lessor, CFA curriculum core concept
@@ -1206,8 +1224,8 @@ C) Alternative incorrect option
 **Question:**
 Special Purpose Entities (SPEs) created for off-balance sheet financing must be consolidated under IFRS 10 if:?
 A) The sponsor entity controls the SPE by having exposure to variable returns and power over relevant activities
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The SPE must be a variable interest entity (VIE) and the sponsor entity is identified as the primary beneficiary under IFRS 10.
+C) The SPE meets one of the conditions for consolidation under IFRS 10, such as being a joint arrangement or an investment entity
 
 
 **Correct Answer:** A
@@ -1215,7 +1233,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-FSA-24 (Financial Statement Analysis Off-Balance Sheet Entities). The sponsor entity controls the SPE by having exposure to variable returns and power over relevant activities.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because the correct answer focuses on variable returns and power over relevant activities, not being a VIE. A VIE would be consolidated if it meets the primary beneficiary test, but that's not the case here. The correct focus is on control, not just identifying a VIE.
+- C: This distractor is wrong because while joint arrangements and investment entities do require consolidation under IFRS 10, the question specifically mentions SPEs created for off-balance sheet financing. The conditions for those types of entities are different from those that would require consolidation due to being a joint arrangement or investment entity.
 
 **LO Reference:** LO-FSA-24 (Financial Statement Analysis Off-Balance Sheet Entities)
 **Related Concepts:** Financial Statement Analysis Off-Balance Sheet Entities, CFA curriculum core concept
@@ -1227,8 +1246,8 @@ C) Alternative incorrect option
 **Question:**
 When a firm extinguishes long-term debt early at a price below carrying value, the resulting gain is recognized in:?
 A) Income statement as part of continuing operations income
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Recognized in other comprehensive income, as the gain is a foreign currency translation adjustment.
+C) Recognized in prior period adjustments, since the transaction was acquired prior to the current period's financial statements.
 
 
 **Correct Answer:** A
@@ -1236,7 +1255,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-FSA-25 (Long-Term Debt Retirement Gain or Loss). Income statement as part of continuing operations income.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-FSA-25 (Long-Term Debt Retirement Gain or Loss)
 **Related Concepts:** Long-Term Debt Retirement Gain or Loss, CFA curriculum core concept
@@ -1249,8 +1268,8 @@ C) Alternative incorrect option
 **Question:**
 During a period of rising inventory prices, a firm using FIFO reports lower Cost of Goods Sold (COGS) than under LIFO. To adjust FIFO COGS to LIFO COGS, an analyst should:?
 A) Add the change in the LIFO Reserve during the period to FIFO COGS
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) To adjust FIFO COGS to LIFO COGS, an analyst should add the difference between the FIFO ending inventory value and the LIFO ending inventory value.
+C) An analyst should use the formula: LIFO COGS = (FIFO COGS + (Beginning Inventory Value - Ending Inventory Value)) / 2.
 
 
 **Correct Answer:** A
@@ -1258,7 +1277,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-FSA-06 (FIFO to LIFO Cost of Goods Sold Adjustment). Add the change in the LIFO Reserve during the period to FIFO COGS.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it doesn't account for the change in LIFO Reserve during the period. The correct approach involves adjusting FIFO COGS to reflect the difference between LIFO and FIFO ending inventory values.
+- C is wrong because it incorrectly calculates LIFO COGS using a formula that doesn't take into account the change in LIFO Reserve, which is necessary to accurately adjust FIFO COGS.
 
 **LO Reference:** LO-FSA-06 (FIFO to LIFO Cost of Goods Sold Adjustment)
 **Related Concepts:** FIFO to LIFO Cost of Goods Sold Adjustment, CFA curriculum core concept
@@ -1270,8 +1290,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS, interest paid and dividends received may be classified as operating cash flows OR:?
 A) Financing cash flows (for interest paid) or Investing cash flows (for dividends received)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) are classified as operating cash flows due to the classification rules for interest expenses and dividends, where both are considered cash outflows from financing activities.
+C) are classified as operating cash flows because dividends are distributions of profits to owners, and do not reflect any inflow or outflow of funds.
 
 
 **Correct Answer:** A
@@ -1279,7 +1299,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-FSA-11 (Operating vs Financing Cash Flow Classification IFRS). Financing cash flows (for interest paid) or Investing cash flows (for dividends received).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because the classification rules for interest expenses and dividends under IFRS do not support the premise that both can be classified as operating cash flows. Interest paid is a financing cash flow, while dividends received are an investing cash flow.
+- C: This distractor is wrong because dividends are distributions of profits to owners, but they reflect an outflow of funds from the company, rather than an inflow of cash. As such, they should be classified as financing cash flows.
 
 **LO Reference:** LO-FSA-11 (Operating vs Financing Cash Flow Classification IFRS)
 **Related Concepts:** Operating vs Financing Cash Flow Classification IFRS, CFA curriculum core concept
@@ -1292,8 +1313,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS 16, a lessee recognizes a Right-of-Use asset and lease liability. Over the lease term, the total expense recognized:?
 A) Is front-loaded (higher in early years) due to higher interest expense on the larger initial liability balance
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Is front-loaded due to higher depreciation expense in early years, as the asset has a lower residual value and is fully depreciated after five years.
+C) Is constant over the lease term, with no impact from interest expense on the initial liability balance.
 
 
 **Correct Answer:** A
@@ -1301,7 +1322,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-FSA-12 (Lease Accounting Balance Sheet Impact Lessee). Is front-loaded (higher in early years) due to higher interest expense on the larger initial liability balance.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: The question states that the total expense recognized over the lease term is front-loaded due to higher interest expense on the larger initial liability balance. Depreciation expense does not directly relate to the initial liability balance, so option B is incorrect. Instead, the interest expense affects the lease liability, which impacts the total expense recognized.
+- C: Explanation why C is wrong: The correct answer states that the total expense is front-loaded due to higher interest expense on the larger initial liability balance. Option C incorrectly suggests that there is no impact from interest expense on the initial liability balance, which contradicts the correct analysis.
 
 **LO Reference:** LO-FSA-12 (Lease Accounting Balance Sheet Impact Lessee)
 **Related Concepts:** Lease Accounting Balance Sheet Impact Lessee, CFA curriculum core concept
@@ -1313,8 +1335,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS (IAS 36), an impairment loss allocated to a Cash-Generating Unit (CGU) is applied first to reduce:?
 A) Carrying amount of goodwill allocated to the CGU, then pro-rata to other non-current assets
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) non-current liabilities
+C) goodwill and cash
 
 
 **Correct Answer:** A
@@ -1322,7 +1344,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-FSA-13 (Impairment of Goodwill Cash Generating Units IFRS). Carrying amount of goodwill allocated to the CGU, then pro-rata to other non-current assets.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: B is wrong because the impairment loss allocated to a Cash-Generating Unit (CGU) should first reduce the carrying amount of goodwill allocated to the CGU, not non-current liabilities. IFRS 36 states that the impairment loss should be applied pro-rata to other non-current assets if there are any, but it does not specifically address reducing non-current liabilities.
+- C: C is wrong because the impairment loss should first reduce the carrying amount of goodwill allocated to the CGU, then pro-rata to other non-current assets. Reducing goodwill and cash would be an incorrect application of the guidance in IFRS 36.
 
 **LO Reference:** LO-FSA-13 (Impairment of Goodwill Cash Generating Units IFRS)
 **Related Concepts:** Impairment of Goodwill Cash Generating Units IFRS, CFA curriculum core concept
@@ -1334,8 +1357,8 @@ C) Alternative incorrect option
 **Question:**
 Under US GAAP, a deferred tax asset valuation allowance is recognized when it is:?
 A) More likely than not (>50% probability) that some or all of the DTA will not be realized
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Recognized when the tax benefit associated with a long-lived asset is expected to be realized within one year of its anticipated disposal.
+C) Recognized when an entity expects to realize more than half of the future taxable amounts from operations that have already occurred, such as dividends or interest income.
 
 
 **Correct Answer:** A
@@ -1343,7 +1366,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-FSA-15 (Deferred Tax Asset Valuation Allowance US GAAP). More likely than not (>50% probability) that some or all of the DTA will not be realized.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor describes the realization of tax benefits associated with disposals and is incorrect because DTA valuation allowance does not require expected realization within one year. 
+- C: This distractor refers to future taxable amounts from operations that have already occurred, which relates to revenue recognition, not DTA valuation allowance.
 
 **LO Reference:** LO-FSA-15 (Deferred Tax Asset Valuation Allowance US GAAP)
 **Related Concepts:** Deferred Tax Asset Valuation Allowance US GAAP, CFA curriculum core concept
@@ -1356,8 +1380,8 @@ C) Alternative incorrect option
 **Question:**
 Under IFRS 16, a lessee recognizes lease expense composed of depreciation and interest. Under US GAAP operating lease accounting, total lease expense is recognized:?
 A) As a single straight-line operating lease expense on the income statement
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Recognized as a single expense on the income statement, with interest capitalized and amortized over the lease term
+C) Amortized proportionately to its costs, with interest expensed separately in profit or loss
 
 
 **Correct Answer:** A
@@ -1365,7 +1389,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-12 (IFRS 16 vs US GAAP Operating Lease Expense Front-Loading). As a single straight-line operating lease expense on the income statement.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: Wrong because IFRS 16 requires amortization of interest over the lease term, not as a single expense. Additionally, US GAAP would capitalize interest and separate it from depreciation expense. 
+- C: Incorrect because under US GAAP operating leases, total lease expense is recognized as a single straight-line expense on the income statement, with neither capitalized nor expensed separately.
 
 **LO Reference:** LO-FSA-12 (IFRS 16 vs US GAAP Operating Lease Expense Front-Loading)
 **Related Concepts:** IFRS 16 vs US GAAP Operating Lease Expense Front-Loading, CFA curriculum core concept
@@ -1377,8 +1402,8 @@ C) Alternative incorrect option
 **Question:**
 A firm recorded an impairment loss on equipment in Year 1. In Year 2, asset recoverable amount increases. Reversal of the impairment loss is:?
 A) Permitted under IFRS up to original carrying amount, but prohibited under US GAAP
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Reversal of impairment loss is permitted under IFRS up to the higher of original carrying amount and asset's recoverable amount, whereas US GAAP requires reversal only up to the original carrying amount.
+C) Reversal of impairment loss in a subsequent period must be based on the same criteria used initially, but may not exceed the lower of cost or net realizable value under both IFRS and US GAAP.
 
 
 **Correct Answer:** A
@@ -1386,7 +1411,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-13 (Impairment Reversal Rules IFRS vs US GAAP). Permitted under IFRS up to original carrying amount, but prohibited under US GAAP.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: Incorrect because it incorrectly states that reversal is permitted up to asset's recoverable amount; correct rules allow up to original carrying amount. 
+- C: Incorrect because while reversal must be based on the same criteria, neither IFRS nor US GAAP allows reversal based on lower of cost or net realizable value.
 
 **LO Reference:** LO-FSA-13 (Impairment Reversal Rules IFRS vs US GAAP)
 **Related Concepts:** Impairment Reversal Rules IFRS vs US GAAP, CFA curriculum core concept
@@ -1398,8 +1424,8 @@ C) Alternative incorrect option
 **Question:**
 Establishing or increasing a deferred tax asset valuation allowance under US GAAP results in:?
 A) Decreased net income and decreased carrying value of total assets
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Increases net income, as the valuation allowance reduces taxable income, thereby decreasing tax expense and increasing net income.
+C) Increases carrying value of total assets by recognizing a valuation allowance as an asset, despite it being deductible in the future.
 
 
 **Correct Answer:** A
@@ -1407,7 +1433,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-15 (Deferred Tax Asset Valuation Allowance Earnings Impact). Decreased net income and decreased carrying value of total assets.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: Incorrect because increasing taxable income due to reduced valuation allowance would decrease net income. 
+- C: Correct explanation, but B was given as the correct answer. This distractor is plausible but incorrect.
 
 **LO Reference:** LO-FSA-15 (Deferred Tax Asset Valuation Allowance Earnings Impact)
 **Related Concepts:** Deferred Tax Asset Valuation Allowance Earnings Impact, CFA curriculum core concept
@@ -1419,8 +1446,8 @@ C) Alternative incorrect option
 **Question:**
 When a firm using LIFO experiences inventory price inflation, an increase in the LIFO Reserve during the period:?
 A) Increases LIFO COGS, reducing net income and reducing tax payments, which increases operating cash flow
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Increases LIFO COGS, reducing net income and reducing tax payments, which decreases operating cash flow.
+C) Results in no change to the LIFO Reserve or LIFO COGS
 
 
 **Correct Answer:** A
@@ -1428,7 +1455,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-21 (LIFO Reserve Change Cash Flow Statement Effect). Increases LIFO COGS, reducing net income and reducing tax payments, which increases operating cash flow.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This answer is incorrect because an increase in LIFO COGS would actually decrease net income and increase tax payments (since the cost of goods sold is overstated), thus increasing operating cash flow. The statement incorrectly states that it decreases operating cash flow.
+- C: This answer is incorrect because an increase in the LIFO Reserve during the period should result in a decrease in LIFO COGS, which in turn would reduce net income and tax payments, thereby increasing operating cash flow.
 
 **LO Reference:** LO-FSA-21 (LIFO Reserve Change Cash Flow Statement Effect)
 **Related Concepts:** LIFO Reserve Change Cash Flow Statement Effect, CFA curriculum core concept
@@ -1440,8 +1468,8 @@ C) Alternative incorrect option
 **Question:**
 Under US GAAP, a long-lived asset held for use is tested for impairment recoverability in Step 1 by comparing carrying value to:?
 A) Total undiscounted expected future cash flows from the asset
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Reproduce the original carrying value of the asset at the date of the impairment test.
+C) Total undiscounted expected future cash flows before interest and taxes, using 10% discount rate for cash flows from disposal alternatives that are likely to occur.
 
 
 **Correct Answer:** A
@@ -1449,7 +1477,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-22 (Impairment Test Step 1 Recoverability Test US GAAP). Total undiscounted expected future cash flows from the asset.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B is wrong because this option does not accurately reflect the requirements for the recoverability test as outlined in ASC 360. The correct answer focuses on the asset's carrying value at the date of the impairment test, while B describes a different concept altogether.
+- C is wrong because it incorrectly references cash flows before interest and taxes with a specific discount rate for disposal alternatives that may not be applicable to the asset being tested for impairment.
 
 **LO Reference:** LO-FSA-22 (Impairment Test Step 1 Recoverability Test US GAAP)
 **Related Concepts:** Impairment Test Step 1 Recoverability Test US GAAP, CFA curriculum core concept
@@ -1461,8 +1490,8 @@ C) Alternative incorrect option
 **Question:**
 Under US GAAP, a enterprise must consolidate a Variable Interest Entity (VIE) if the enterprise:?
 A) Is the primary beneficiary that absorbs a majority of expected VIE losses or receives a majority of residual returns
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Is the primary beneficiary that absorbs less than a majority of expected VIE losses or receives less than a majority of residual returns
+C) Must have a controlling interest in the VIE's ownership structure
 
 
 **Correct Answer:** A
@@ -1470,7 +1499,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-24 (Variable Interest Entity (VIE) Consolidation Threshold). Is the primary beneficiary that absorbs a majority of expected VIE losses or receives a majority of residual returns.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This answer is incorrect because it states the opposite of what US GAAP requires; the primary beneficiary must absorb more than a majority of expected losses. Instead, if the enterprise absorbs less or receives less residual returns, the VIE should not be consolidated.
+- C: This answer is incorrect because having controlling interest over the entity's ownership structure alone does not automatically trigger consolidation under US GAAP for a Variable Interest Entity.
 
 **LO Reference:** LO-FSA-24 (Variable Interest Entity (VIE) Consolidation Threshold)
 **Related Concepts:** Variable Interest Entity (VIE) Consolidation Threshold, CFA curriculum core concept

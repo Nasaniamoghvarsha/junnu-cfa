@@ -719,8 +719,8 @@ $45 / 0.60 = 75.0\text{ million}$
 **Question:**
 The Net Present Value (NPV) profile of a project plots NPV against discount rates. The slope of the profile is:?
 A) Negative, indicating NPV declines as the discount rate increases
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A decreasing NPV profile indicates that the project's expected cash inflows are increasing, leading to higher present values at lower discount rates.
+C) The slope of an NPV profile reflects a project's sensitivity to changes in the discount rate, with negative slopes typically indicating projects that are less valuable when discounted at higher rates.
 
 
 **Correct Answer:** A
@@ -728,7 +728,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-07 (Capital Budgeting NPV Profile). Negative, indicating NPV declines as the discount rate increases.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because increasing cash inflows do not necessarily lead to higher present values at lower discount rates. The relationship between NPV and discount rate requires careful consideration of both timing and magnitude of cash flows.
+- C: While a negative slope does indicate that the project becomes less valuable when discounted at higher rates, this answer is more nuanced as it acknowledges that the slope reflects the trade-off between expected future cash flows and the time value of money.
 
 **LO Reference:** LO-COR-07 (Capital Budgeting NPV Profile)
 **Related Concepts:** Capital Budgeting NPV Profile, CFA curriculum core concept
@@ -740,8 +741,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The cost of non-callable, non-convertible preferred stock ($r_ps$) equals:?
 A) Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Cost of Preferred Stock = (Preferred Dividend * Risk-Free Rate) / (Risk-Free Rate + Cost of Equity)
+C) Cost of Preferred Stock = (Dividend Yield - Cost of Equity) * Market Value of Preferred Stock
 
 
 **Correct Answer:** A
@@ -749,7 +750,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-08 (WACC Cost of Preferred Stock). Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it incorrectly uses the dividend yield instead of the preferred dividend, and assumes a direct relationship with risk-free rate which is incorrect for non-callable, non-convertible stocks.
+- C is wrong because it incorrectly assumes the market value of preferred stock can be used to calculate cost of preferred stock, and also incorrectly calculates the cost of preferred stock as a function of dividend yield and cost of equity
 
 **LO Reference:** LO-COR-08 (WACC Cost of Preferred Stock)
 **Related Concepts:** WACC Cost of Preferred Stock, CFA curriculum core concept
@@ -761,8 +763,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The after-tax cost of debt capital ($r_d(1-t)$) incorporates the marginal tax rate because:?
 A) Interest expense is tax-deductible in corporate tax returns
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Depreciation on a debt instrument is tax-deductible in corporate tax returns, thus increasing the after-tax cost of debt capital.
+C) The marginal tax rate affects the after-tax cost of debt capital because higher tax rates result in lower interest deductions, thereby increasing the cost of borrowing.
 
 
 **Correct Answer:** A
@@ -770,7 +772,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-09 (Cost of Debt Capital). Interest expense is tax-deductible in corporate tax returns.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because depreciation on a debt instrument does not increase the after-tax cost of debt capital. Depreciation is typically related to tangible assets and does not affect the tax treatment of interest expenses. The correct answer relies solely on the tax deductibility of interest expenses.
+- C: This distractor misinterprets the relationship between the marginal tax rate and the after-tax cost of debt capital. While higher tax rates do result in lower interest deductions, they also reduce the after-tax cost of debt capital by increasing the effective tax rate applied to interest income. The correct answer highlights that the marginal tax rate is incorporated into the after-tax cost of debt capital because interest expenses are tax-deductible.
 
 **LO Reference:** LO-COR-09 (Cost of Debt Capital)
 **Related Concepts:** Cost of Debt Capital, CFA curriculum core concept
@@ -782,8 +785,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Financial risk refers specifically to risk resulting from a company's use of:?
 A) Fixed-cost debt capital in its capital structure
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Higher fixed-cost debt capital increases a company's interest rate risk, making it more vulnerable to changes in market interest rates.
+C) Companies with higher fixed-cost debt capital have less financial flexibility to respond to changes in the economy.
 
 
 **Correct Answer:** A
@@ -791,7 +794,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-10 (Business Risk vs Financial Risk). Fixed-cost debt capital in its capital structure.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-COR-10 (Business Risk vs Financial Risk)
 **Related Concepts:** Business Risk vs Financial Risk, CFA curriculum core concept
@@ -803,8 +806,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Degree of Operating Leverage (DOL) measures the sensitivity of EBIT to changes in:?
 A) Sales revenue
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The DOL measures the sensitivity of EBIT to changes in operating efficiency.
+C) The DOL measures the sensitivity of EBIT to changes in labor costs.
 
 
 **Correct Answer:** A
@@ -812,7 +815,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-11 (Degree of Operating Leverage (DOL)). Sales revenue.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it refers to changes in 'operating efficiency', which is not a direct measure of sales revenue sensitivity. The correct focus should be on sales revenue, as higher sales volumes directly impact production levels and capacity utilization.
+- C: Incorrect because labor costs are not the primary driver of EBIT sensitivity. While labor costs can affect profitability, the DOL specifically measures the impact of changes in sales revenue on EBIT.
 
 **LO Reference:** LO-COR-11 (Degree of Operating Leverage (DOL))
 **Related Concepts:** Degree of Operating Leverage (DOL), CFA curriculum core concept
@@ -824,8 +828,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Cash Conversion Cycle equals Days Sales Outstanding plus Days of Inventory ON Hand minus:?
 A) Number of Days of Payables Outstanding
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Days of Inventory Outstanding - Days of Receivables Outstanding
+C) Days of Inventory Outstanding + Days of Payables Outstanding
 
 
 **Correct Answer:** A
@@ -833,7 +837,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-12 (Working Capital Cash Conversion Cycle). Number of Days of Payables Outstanding.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it incorrectly adds Days of Inventory Outstanding instead of subtracting. The correct formula requires the subtraction of Days of Receivables Outstanding to calculate Days Sales Outstanding.
+- C: Incorrect because it incorrectly adds Days of Inventory Outstanding and Days of Payables Outstanding, resulting in an incorrect calculation of the Cash Conversion Cycle.
 
 **LO Reference:** LO-COR-12 (Working Capital Cash Conversion Cycle)
 **Related Concepts:** Working Capital Cash Conversion Cycle, CFA curriculum core concept
@@ -845,8 +850,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Under modern corporate governance frameworks, the primary duty of the Board of Directors is to:?
 A) Protect shareholder interests while monitoring management execution
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Ensure compliance with corporate social responsibility policies and environmental regulations.
+C) Maximize stakeholder value through strategic partnerships and community development initiatives.
 
 
 **Correct Answer:** A
@@ -854,7 +859,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-COR-13 (Corporate Governance ESG Stakeholders). Protect shareholder interests while monitoring management execution.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it implies that the Board's primary duty is to comply with CSR policies, rather than protecting shareholder interests. While important, CSR considerations are secondary to the fiduciary duties of shareholders. Modern corporate governance frameworks prioritize shareholder interests above all else.
+- C is wrong because it assumes the Board has a broader mandate to promote stakeholder value beyond what is explicitly outlined in modern corporate governance frameworks.
 
 **LO Reference:** LO-COR-13 (Corporate Governance ESG Stakeholders)
 **Related Concepts:** Corporate Governance ESG Stakeholders, CFA curriculum core concept
@@ -867,8 +873,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A company's Beta is 1.2, risk-free rate is 3%, and market risk premium is 6%. Its CAPM cost of equity is:?
 A) 10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The company's cost of equity can be calculated using the Weighted Average Cost of Capital (WACC) approach, which takes into account the debt and equity components.
+C) The market risk premium should be multiplied by the risk-free rate to obtain the cost of equity.
 
 
 **Correct Answer:** A
@@ -876,7 +882,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-COR-02 (WACC Cost of Equity CAPM Approach). 10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The WACC approach is incorrect because it assumes a specific capital structure, whereas the CAPM approach assumes all invested capital is at risk. This distractor misrepresents the CAPM approach.
+- C: Multiplying the market risk premium by the risk-free rate would result in an incorrect cost of equity due to the omission of the company's Beta and its impact on the expected return.
 
 **LO Reference:** LO-COR-02 (WACC Cost of Equity CAPM Approach)
 **Related Concepts:** WACC Cost of Equity CAPM Approach, CFA curriculum core concept
@@ -888,8 +895,8 @@ C) Alternative incorrect option
 **Question:**
 The Marginal Cost of Capital (MCC) schedule slopes upward because:?
 A) Costs of debt and equity capital increase as the firm raises larger amounts of capital
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) As firms take on more debt, the cost of interest payments increases, which offsets the lower costs associated with equity financing, leading to an upward-sloping MCC schedule.
+C) The MCC schedule slopes upward because larger firms have better negotiating power with suppliers and labor unions, allowing them to secure better deals for raw materials and wages, thereby increasing their overall cost of capital.
 
 
 **Correct Answer:** A
@@ -897,7 +904,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-COR-04 (Capital Structure Marginal Cost of Capital). Costs of debt and equity capital increase as the firm raises larger amounts of capital.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it incorrectly attributes the increase in costs of debt to interest payments, rather than the higher level of debt itself. While interest payments do increase with debt, this is a secondary effect of taking on more debt, not the primary reason for the MCC schedule's upward slope.
+- C: This distractor is wrong because it misrepresents how firms negotiate with suppliers and labor unions. Firms do have some negotiating power, but this does not result in better deals for raw materials and wages, which would actually decrease costs, not increase them.
 
 **LO Reference:** LO-COR-04 (Capital Structure Marginal Cost of Capital)
 **Related Concepts:** Capital Structure Marginal Cost of Capital, CFA curriculum core concept
@@ -909,8 +917,8 @@ C) Alternative incorrect option
 **Question:**
 If a firm's DOL is 2.0 and DFL is 1.5, its Degree of Combined Leverage (DCL) is:?
 A) 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The firm's DCL is 1.8, calculated by taking the weighted average of its DOL and DFL values.
+C) The firm's DCL is 2.25, calculated using a more complex formula that takes into account both the DOL and DFL as separate components.
 
 
 **Correct Answer:** A
@@ -918,7 +926,9 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-COR-06 (Degree of Combined Leverage (DCL)). 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong. The calculation for DCL assumes equal weight for both DOL and DFL, so multiplying them together results in an incorrect answer of 3.0. The correct approach would be to take the geometric mean or apply a more complex formula that takes into account the combined effect of both DOL and DFL.
+
+- C: Explanation why C is wrong. While it's true that there are more complex formulas for calculating DCL, this distractor implies a completely different calculation method (taking separate components) that is not supported by any standard financial ratio or formula. The correct answer remains 3.0 as calculated directly from the given DOL and DFL values.
 
 **LO Reference:** LO-COR-06 (Degree of Combined Leverage (DCL))
 **Related Concepts:** Degree of Combined Leverage (DCL), CFA curriculum core concept
@@ -931,8 +941,8 @@ C) Alternative incorrect option
 **Question:**
 A firm has 40% debt (cost of debt = 6%, tax rate = 25%) and 60% equity (cost of equity = 10%). Its WACC is:?
 A) 7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The debt component contributes to the overall cost, but its tax benefit should be calculated as a weighted average of the interest rate and the tax rate.
+C) The cost of equity is assumed to remain constant regardless of the firm's capital structure, which does not accurately reflect the impact of high debt levels on cost of equity.
 
 
 **Correct Answer:** A
@@ -940,7 +950,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-COR-03 (Weighted Average Cost of Capital (WACC)). 7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor misinterprets the concept of weighted average cost of debt and incorrectly applies it to the overall WACC calculation. The correct approach involves calculating the tax benefit of debt using a weighted average of the interest rate and tax rate, as shown in the correct answer. 
+- C: This distractor misunderstands the relationship between cost of equity and capital structure. In reality, high levels of debt can lead to a lower cost of equity due to the presence of senior secured bonds, which have priority over common stock in case of liquidation. The correct calculation should consider the impact of high debt levels on the cost of equity.
 
 **LO Reference:** LO-COR-03 (Weighted Average Cost of Capital (WACC))
 **Related Concepts:** Weighted Average Cost of Capital (WACC), CFA curriculum core concept
@@ -952,8 +963,8 @@ C) Alternative incorrect option
 **Question:**
 When evaluating mutually exclusive projects with different scales, NPV and IRR methods can conflict. The analyst should prioritize:?
 A) NPV, because it directly measures expected shareholder wealth maximization in dollar terms
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Prioritizing IRR ensures that all projects contribute equally to the firm's overall growth, regardless of their size or scale.
+C) IRR takes into account the time value of money and the opportunity cost of capital, making it a more comprehensive metric for investment decisions.
 
 
 **Correct Answer:** A
@@ -961,7 +972,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-COR-05 (NPV vs IRR Conflicts Capital Rationing). NPV, because it directly measures expected shareholder wealth maximization in dollar terms.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Wrong because NPV measures wealth creation in dollar terms, which is essential when comparing projects with different scales. IRR does not directly measure expected shareholder wealth maximization. 
+- C: Wrong because while IRR is an important consideration, prioritizing it over NPV would lead to capital rationing problems, where smaller projects are unfairly denied funding due to their lower IRR values. NPV provides a more objective measure of project value.
 
 **LO Reference:** LO-COR-05 (NPV vs IRR Conflicts Capital Rationing)
 **Related Concepts:** NPV vs IRR Conflicts Capital Rationing, CFA curriculum core concept
@@ -974,8 +986,8 @@ C) Alternative incorrect option
 **Question:**
 A company's cash ratio measures cash and marketable securities relative to:?
 A) Current liabilities
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The company's inventory levels are an important component of its working capital structure, and therefore the cash ratio should include inventory in addition to cash and marketable securities.
+C) The company has entered into a long-term contract with a supplier, which requires it to pay for goods received up to 30 days after delivery. In this case, the cash ratio should be based on current liabilities plus the amount of time remaining on these contracts.
 
 
 **Correct Answer:** A
@@ -983,7 +995,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-COR-06 (Working Capital Liquidity Management Metrics). Current liabilities.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because inventory levels do not directly relate to a company's ability to meet its short-term debt obligations. A cash and marketable securities-focused ratio would still prioritize liquidity over inventory considerations.
+- C: While this distractor acknowledges the potential impact of long-term contracts on working capital, it incorrectly implies that these contracts should be included in the cash ratio. In reality, current liabilities are the primary focus of working capital ratios, as they represent a company's near-term debt obligations.
 
 **LO Reference:** LO-COR-06 (Working Capital Liquidity Management Metrics)
 **Related Concepts:** Working Capital Liquidity Management Metrics, CFA curriculum core concept
@@ -995,8 +1008,8 @@ C) Alternative incorrect option
 **Question:**
 Operating risk is primarily driven by a firm's:?
 A) Fixed operating costs relative to variable costs
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Operating risk is primarily driven by a firm's ability to manage its working capital requirements.
+C) Operating risk is primarily driven by a firm's focus on maximizing shareholder returns through dividend payments.
 
 
 **Correct Answer:** A
@@ -1004,7 +1017,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-COR-07 (Capital Structure Business vs Financial Risk). Fixed operating costs relative to variable costs.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because operating risk is not directly related to managing working capital. While working capital management can contribute to operational risk, it is not the primary driver. Fixed costs relative to variable costs are more relevant to financial risk management.
+- C: This distractor is incorrect because a firm's focus on maximizing shareholder returns through dividend payments does not necessarily drive operating risk. Operating risk is more closely related to the firm's ability to manage its business operations and mitigate potential losses, rather than solely focusing on dividend payments.
 
 **LO Reference:** LO-COR-07 (Capital Structure Business vs Financial Risk)
 **Related Concepts:** Capital Structure Business vs Financial Risk, CFA curriculum core concept
@@ -1017,8 +1031,8 @@ C) Alternative incorrect option
 **Question:**
 The audit committee of a publicly traded company's Board of Directors must consist of:?
 A) Independent board members, with at least one financial expert
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The audit committee must consist of board members who are not required to have any financial expertise, but must include at least two independent directors.
+C) The audit committee must be comprised of all board members with the exception of the CEO or CFO, and must also include a board member with significant experience in finance, accounting, or law.
 
 
 **Correct Answer:** A
@@ -1026,7 +1040,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-COR-08 (Corporate Governance Board Committees). Independent board members, with at least one financial expert.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it contradicts the CFA Institute's definition, which states that at least one member of the audit committee should be independent, non-management director who is financially literate.
 
 **LO Reference:** LO-COR-08 (Corporate Governance Board Committees)
 **Related Concepts:** Corporate Governance Board Committees, CFA curriculum core concept
@@ -1039,8 +1053,8 @@ C) Alternative incorrect option
 **Question:**
 A firm's non-callable 10-year bond yields 5.5%. The corporate marginal tax rate is 20%. The after-tax cost of debt ($r_d(1-t)$) is:?
 A) 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The corporate marginal tax rate is only applicable to the firm's operating income, not its interest expenses.
+C) The after-tax cost of debt should be calculated as $r_d(1-t) = (5.5% + 2%) * 0.80$
 
 
 **Correct Answer:** A
@@ -1048,7 +1062,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-COR-04 (Cost of Debt Capital Bond Yield Plus Risk Premium). 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The corporate marginal tax rate is applied to the firm's interest income, not its operating income, so it affects the after-tax cost of debt directly.
+- C: The correct formula for after-tax cost of debt should be $r_d(1-t) = r_d * (1 - t)$ where $r_d$ is the before-tax cost of debt and $t$ is the tax rate.
 
 **LO Reference:** LO-COR-04 (Cost of Debt Capital Bond Yield Plus Risk Premium)
 **Related Concepts:** Cost of Debt Capital Bond Yield Plus Risk Premium, CFA curriculum core concept
@@ -1061,8 +1076,8 @@ C) Alternative incorrect option
 **Question:**
 The primary structural limitation of the traditional payback period method is that it:?
 A) Ignores the time value of money and all cash flows occurring after the payback cutoff date
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Fails to account for the risk-free rate, which affects the present value of cash flows.
+C) Is sensitive to changes in the payback period cutoff date due to its simple and linear nature.
 
 
 **Correct Answer:** A
@@ -1070,7 +1085,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-COR-05 (Capital Budgeting Payback Period Limitation). Ignores the time value of money and all cash flows occurring after the payback cutoff date.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it does not address the fundamental limitation related to the time value of money. The traditional payback period method ignores the time value of money, regardless of the risk-free rate. 
+- C: This distractor is also incorrect as the payback period cutoff date affects the calculation but not the underlying structural limitation of ignoring cash flows after that date.
 
 **LO Reference:** LO-COR-05 (Capital Budgeting Payback Period Limitation)
 **Related Concepts:** Capital Budgeting Payback Period Limitation, CFA curriculum core concept
@@ -1082,8 +1098,8 @@ C) Alternative incorrect option
 **Question:**
 In corporate governance, shareholder general meetings provide shareholders the right to vote on:?
 A) Board member election, executive compensation policy, and major corporate restructuring decisions
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Distractor B: Shareholders have the right to vote on board member election, executive compensation policy, but not major corporate restructuring decisions due to the CEO's fiduciary duty.
+C) Distractor C: Shareholders have the right to vote on board member election and executive compensation policy, but only up to a certain threshold of shareholder ownership, as specified in the company's bylaws.
 
 
 **Correct Answer:** A
@@ -1091,7 +1107,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-COR-09 (Corporate Governance Stakeholder Management Mechanisms). Board member election, executive compensation policy, and major corporate restructuring decisions.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because although shareholders do have some say in major corporate restructuring decisions through proxy votes, their primary role is not to directly participate in such decisions. The board, with its fiduciary duty, makes these critical choices.
+- C is wrong because the concept of a threshold of shareholder ownership for voting on certain matters does not exist in standard corporate governance practices. Shareholders generally have an equal right to vote regardless of their ownership stake.
 
 **LO Reference:** LO-COR-09 (Corporate Governance Stakeholder Management Mechanisms)
 **Related Concepts:** Corporate Governance Stakeholder Management Mechanisms, CFA curriculum core concept

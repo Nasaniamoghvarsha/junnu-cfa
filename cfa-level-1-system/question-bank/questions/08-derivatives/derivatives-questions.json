@@ -463,12 +463,12 @@
       "stem": "When a futures trader's margin balance falls below the maintenance margin level, the trader receives a:?",
       "options": {
         "A": "Margin call requiring funds to restore the balance back to the INITIAL margin level",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Margin call requiring funds to restore the balance back to the MARKET TO MARKET margin level",
+        "C": "Trader is allowed a 24-hour grace period before receiving a margin call, during which time they can deposit additional funds or liquidate positions."
       },
       "correct": "A",
       "explanation": "Correct application for LO-DER-08 (Futures Margin Mark-to-Market). Margin call requiring funds to restore the balance back to the INITIAL margin level.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it incorrectly applies the concept of market-to-market margining. When the trader's margin balance falls below the maintenance margin level, the trader must restore the balance back to the INITIAL margin level to avoid a margin call. Market-to-market margining is relevant in different contexts, such as interest rate derivatives or swap agreements, but not for futures contracts. \n\n- C: This distractor is wrong because it misrepresents the rules governing margin calls for futures traders. While there may be some variation depending on the exchange or market, most exchanges require a margin call when a trader's account balance falls below the maintenance margin level without allowing a grace period. The purpose of maintaining adequate margins is to protect the exchange against potential losses in case the trader defaults on their obligations."
     },
     {
       "id": "Q-DER-0027",
@@ -481,12 +481,12 @@
       "stem": "Put-call parity for European options on non-dividend paying stock states:?",
       "options": {
         "A": "Fiduciary Call ($C + PV(X)$) equals Protective Put ($P + S_0$)",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Call premium equals Protective Put price plus Stock Price",
+        "C": "Fiduciary Call equals Protective Put minus PV(X) Stock Price"
       },
       "correct": "A",
       "explanation": "Correct application for LO-DER-09 (Put-Call Parity Equity Options). Fiduciary Call ($C + PV(X)$) equals Protective Put ($P + S_0$).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it incorrectly equates the call premium with the sum of the protective put and stock price, violating the fundamental principles of put-call parity. Additionally, it fails to account for the present value (PV) of the strike price, which should be subtracted from the Protective Put price.\n- C: This distractor is wrong because it incorrectly adds PV(X) Stock Price instead of subtracting it, again failing to accurately represent the principles of put-call parity."
     },
     {
       "id": "Q-DER-0028",
@@ -499,12 +499,12 @@
       "stem": "In a single-period binomial option model, the risk-neutral probability ($\\pi$) depends on:?",
       "options": {
         "A": "Risk-free rate, up-move factor ($u$), and down-move factor ($d$)",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Risk-free rate and expected return of the underlying asset",
+        "C": "Risk-neutral interest rate only"
       },
       "correct": "A",
       "explanation": "Correct application for LO-DER-10 (Binomial Option Pricing Model). Risk-free rate, up-move factor ($u$), and down-move factor ($d$).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because the risk-neutral probability ($\\pi$) depends on the risk-free rate, up-move factor ($u$), and down-move factor ($d$). The expected return of the underlying asset does not directly affect $\\pi$.- C is wrong because the risk-neutral interest rate only affects the risk-free rate component of the risk-neutral probability. Without the factors $u$ and $d$, it would be impossible to determine a valid risk-neutral probability."
     },
     {
       "id": "Q-DER-0029",
@@ -517,12 +517,12 @@
       "stem": "The Delta of a European call option measures the change in option price per 1.00 change in:?",
       "options": {
         "A": "Underlying asset spot price",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Delta of a European call option measures the change in option price per 1.00 change in implied volatility",
+        "C": "Delta of a European call option measures the change in option price per 1.00 change in strike price"
       },
       "correct": "A",
       "explanation": "Correct application for LO-DER-11 (Option Delta Definition). Underlying asset spot price.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong The Delta measures change in option price due to change in underlying spot price, not volatility.\n- C: Explanation why C is wrong Delta only relates to changes in underlying spot prices, and not the strikes or volatility."
     },
     {
       "id": "Q-DER-0030",
@@ -535,12 +535,12 @@
       "stem": "In a plain vanilla fixed-for-floating interest rate swap, net settlement cash flows equal:?",
       "options": {
         "A": "Notional amount × (Swap Fixed Rate - Floating Benchmark Rate) × Day Count Fraction",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Notional amount × (Floating Benchmark Rate - Swap Fixed Rate) × Day Count Fraction",
+        "C": "Notional amount × Floating Benchmark Rate × (Swap Fixed Rate - Day Count Fraction)"
       },
       "correct": "A",
       "explanation": "Correct application for LO-DER-12 (Interest Rate Swaps Settlement). Notional amount × (Swap Fixed Rate - Floating Benchmark Rate) × Day Count Fraction.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it inverts the subtraction order, incorrectly subtracting floating rate from fixed rate. \n- C: Incorrect because it incorrectly incorporates a day count fraction as part of the calculation for the net settlement cash flows."
     },
     {
       "id": "Q-DER-0031",
@@ -553,12 +553,12 @@
       "stem": "A 3x9 FRA represents a forward rate agreement that settles in:?",
       "options": {
         "A": "3 months on a 6-month underlying benchmark rate",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Settles in 6 months on a 3-month underlying benchmark rate",
+        "C": "Settles in 12 months on a 9-month underlying benchmark rate"
       },
       "correct": "A",
       "explanation": "Correct application for LO-DER-13 (Forward Rate Agreements (FRA)). 3 months on a 6-month underlying benchmark rate.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The FRA has equal time periods (6/3) but does not specify the underlying benchmark rate, so B is incorrect. According to LO-DER-13, the forward rate agreement settles in 3 months on a 6-month underlying benchmark rate.\n- C: Although it appears that 12 months equals 9 months + 3 months, this answer incorrectly assumes that the FRA must settle over the entire duration of both parties' commitments. The correct interpretation is that the agreement sets a forward rate for the duration of both parties' commitment periods, which are 6 and 9 months respectively. Thus, C is also incorrect."
     },
     {
       "id": "Q-DER-0032",
@@ -571,12 +571,12 @@
       "stem": "At expiration (t=T), the value of a long forward contract on a stock with spot price S_T and delivery price F_0 is:?",
       "options": {
         "A": "S_T - F_0",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The forward price at expiration would be the average of the spot and delivery prices, so (S_T + F_0) / 2 = S_T - F_0 / 2",
+        "C": "Since the forward contract allows for price adjustment until expiration, the value at T is actually calculated using the futures price at T, which reflects current market expectations, resulting in a value of F_T - F_0"
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-DER-02 (Forward Contract Value at Expiration). S_T - F_0.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it misunderstands the concept of spot and forward prices. The correct formula simply states that the value of a long forward contract at expiration is the difference between the spot price and delivery price.\n- C: Wrong because, although futures contracts do adjust to market expectations, this does not affect the value of the forward contract itself, which remains the difference between the delivery price and spot price."
     },
     {
       "id": "Q-DER-0033",
@@ -589,12 +589,12 @@
       "stem": "A covered call position consists of being:?",
       "options": {
         "A": "Long the underlying stock and short a call option",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Long the underlying stock and short a put option",
+        "C": "Hold a position in cash with no exposure to the underlying stock"
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-DER-05 (Covered Call Strategy Payoff). Long the underlying stock and short a call option.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This answer is incorrect because it incorrectly changes the type of option from call to put. In a covered call position, the investor sells a call option to gain income, which implies that they are shorting a call option, not long-ing a put option.\n- C: This answer is incorrect because holding cash does not create a net long exposure in the underlying stock, whereas in a covered call position, the investor has sold a call option and therefore has a long exposure to the underlying stock."
     },
     {
       "id": "Q-DER-0034",
@@ -607,12 +607,12 @@
       "stem": "An interest rate cap pays the buyer when the underlying benchmark floating rate:?",
       "options": {
         "A": "Exceeds the agreed strike rate on settlement dates",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Pays when the underlying benchmark floating rate is below the agreed strike rate on settlement dates",
+        "C": "Pays when the buyer's actual cost of borrowing exceeds the total interest payments made under a swap agreement"
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-DER-07 (Interest Rate Cap vs Floor). Exceeds the agreed strike rate on settlement dates.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor describes an interest rate floor, not a cap. A cap pays out when the benchmark rate exceeds the strike rate.\n- C: Although this explanation is complex and might seem plausible at first glance, it misrepresents how an interest rate cap actually works. The key feature of an interest rate cap is that it limits the buyer's exposure to increases in the underlying benchmark floating rate, not that it compares the buyer's actual cost of borrowing to total interest payments made under a swap agreement."
     },
     {
       "id": "Q-DER-0035",
@@ -625,12 +625,12 @@
       "stem": "According to put-call parity ($C + PV(X) = P + S$), a synthetic long stock position is created by:?",
       "options": {
         "A": "Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Buying a call option and selling a put option with the same strike, and investing the present value of the strike in risk-free bonds",
+        "C": "Investing the present value of the strike in risk-free bonds and buying a long stock position, then shorting the call option"
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-DER-03 (Put-Call Parity Option Synthetic Positions). Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it does not include selling the put option. The correct positions are buying a call and selling a put with the same strike.\n- C: Incorrect because it is creating a synthetic long stock position by buying the stock instead of investing in risk-free bonds."
     },
     {
       "id": "Q-DER-0036",
@@ -643,12 +643,12 @@
       "stem": "6 months after inception of a 2-year fixed-for-floating swap, short-term benchmark rates drop significantly. The value of the swap to the fixed-rate receiver:?",
       "options": {
         "A": "Increases, because receiving the higher fixed rate becomes more valuable in a low-rate environment",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The value of the swap to the fixed-rate receiver decreases because the floating leg becomes less valuable in a low-interest rate environment.",
+        "C": "The value of the swap to the fixed-rate receiver increases because the floating leg's notional amount is more diluted due to a lower short-term benchmark rate, making the fixed leg relatively more valuable."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-DER-06 (Interest Rate Swap Valuation Post-Inception). Increases, because receiving the higher fixed rate becomes more valuable in a low-rate environment.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong - The actual reason for the decrease in value is that the fixed leg becomes less valuable compared to the floating leg. The drop in short-term benchmark rates benefits the floating leg, not the fixed leg.\n- C: Explanation why C is wrong - The correct explanation is related to the relative values of the fixed and floating legs in a low-rate environment. As rates drop, the fixed leg's value becomes relatively more valuable compared to the dilution effect on the floating leg's notional amount."
     },
     {
       "id": "Q-DER-0037",
@@ -661,12 +661,12 @@
       "stem": "Gamma measures the rate of change of call option Delta relative to:?",
       "options": {
         "A": "Underlying asset spot price",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Variance of the underlying asset's returns",
+        "C": "Volatility of the underlying asset"
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-DER-04 (Option Greeks Gamma and Theta). Underlying asset spot price.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because Gamma measures the rate of change of call option Delta relative to a specific point (the underlying asset spot price) rather than over a range of possible prices. This is not a property of variance itself.\n- C is wrong because, while volatility does affect an option's Delta, it does so in a way that's more related to the entire distribution of returns, rather than just the rate of change at a single point (the underlying asset spot price)."
     },
     {
       "id": "Q-DER-0038",
@@ -679,12 +679,12 @@
       "stem": "In a single-name Credit Default Swap, the protection seller agrees to pay the protection buyer if:?",
       "options": {
         "A": "A credit event (such as bankruptcy or failure to pay) occurs on the reference entity",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "the protection seller agrees to pay the protection buyer if a downgrade occurs on the reference entity",
+        "C": "the protection seller agrees to pay the protection buyer in case of an economic downturn on the reference entity"
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-DER-07 (Credit Default Swaps (CDS) Protection Seller Duties). A credit event (such as bankruptcy or failure to pay) occurs on the reference entity.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This answer is incorrect because, under the CDS protection seller agreement, they only make payments in response to credit events (such as bankruptcy or failure to pay) on the reference entity, not downgrades. Downgrades are a different type of credit event that typically result in a higher payout for the buyer, but do not trigger an immediate payment.\n- C: This answer is also incorrect because the protection seller only makes payments due to events specifically defined in the agreement, such as bankruptcy or failure to pay, and does not make payments based on general economic downturns."
     },
     {
       "id": "Q-DER-0039",
@@ -697,12 +697,12 @@
       "stem": "Which assumption is required under the standard Black-Scholes-Merton option pricing model??",
       "options": {
         "A": "The risk-free rate and volatility of the underlying asset are constant over the option life",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The risk-free rate is assumed to be constant over the option life, but it can change with volatility.",
+        "C": "Volatility of the underlying asset is assumed to be constant over time, but it can change in response to changes in interest rates or other macroeconomic factors."
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-DER-08 (Option Pricing Black-Scholes-Merton Model Assumptions). The risk-free rate and volatility of the underlying asset are constant over the option life.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "Q-DER-0040",
@@ -715,12 +715,12 @@
       "stem": "A protective put strategy provides downside risk protection below the strike price while preserving:?",
       "options": {
         "A": "Unlimited upside potential above the breakeven price (Stock Purchase Price + Put Premium)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Preserves the risk premium from buying a put option",
+        "C": "Provides liquidity at expiration by allowing for easy conversion to a call option"
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-DER-05 (Option Payoff Protective Put Strategy). Unlimited upside potential above the breakeven price (Stock Purchase Price + Put Premium).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it incorrectly focuses on the premium rather than upside potential, and the strategy actually limits upside. \n- C: Incorrect because while it's true that selling puts can provide liquidity, this is not how protective puts work and doesn't preserve any upside potential."
     },
     {
       "id": "Q-DER-0041",
@@ -733,12 +733,12 @@
       "stem": "In a 2x5 FRA at a fixed rate of 4.0%, if the 3-month floating rate at settlement is 5.0%, the long position receives:?",
       "options": {
         "A": "Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The long position pays a coupon payment based on the floating rate, and then receives an additional settlement payment that is 1.0% above the fixed rate, discounted to the settlement date.",
+        "C": "The settlement value is simply the difference between the floating rate and the fixed rate times the notional principal amount."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-DER-06 (Forward Rate Agreements (FRA) Settlement Value). Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it assumes a premium or discount for the FRA, but instead the long position only receives interest on their initial investment. The additional settlement payment reflects the interest differential discounted back to the settlement date.\n- C: Incorrect because the settlement value is based on the fixed rate and the difference between the floating rate and the fixed rate times the notional principal amount."
     },
     {
       "id": "Q-DER-0042",
@@ -751,12 +751,12 @@
       "stem": "According to put-call parity, a synthetic protective put position is created by:?",
       "options": {
         "A": "Buying a call option, buying a zero-coupon risk-free bond, and shorting nothing (Long Call + Long Bond)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Buying a call option, selling a zero-coupon risk-free bond, and buying nothing (Short Call - Short Bond)",
+        "C": "Buying a put option, buying a zero-coupon risk-free bond, and shorting nothing (Long Put + Long Bond)"
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-DER-09 (Options Put Call Parity Protective Put Synthetic). Buying a call option, buying a zero-coupon risk-free bond, and shorting nothing (Long Call + Long Bond).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because selling a bond is not part of creating a protective put position. It's the opposite; you're paying to be long the asset.\n- C: Incorrect because putting on a synthetic put requires buying options, not buying put options directly."
     },
     {
       "id": "Q-DER-0043",
@@ -769,12 +769,12 @@
       "stem": "A call option's Gamma measures the rate of change of Delta with respect to underlying asset price. As an option becomes deep in-the-money or deep out-of-the-money, Gamma approaches:?",
       "options": {
         "A": "Zero (Gamma is highest for at-the-money options)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Gamma approaches a constant rate as the option becomes deep in-the-money, allowing traders to more accurately predict future price movements.",
+        "C": "As an option becomes deep out-of-the-money, Gamma increases, reflecting the option's increasing sensitivity to changes in underlying asset price."
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-04 (Option Greeks Gamma and Theta). Zero (Gamma is highest for at-the-money options).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This distractor is incorrect because Gamma does not approach a constant rate as the option becomes deeper in-the-money; it actually decreases. This decrease makes sense from a hedging perspective, where reducing Gamma reduces the risk associated with Delta.\n- C: This distractor is incorrect because Gamma approaches zero, not increases, as an option becomes deep out-of-the-money. This decrease reflects the decreasing sensitivity of the option to changes in underlying asset price."
     },
     {
       "id": "Q-DER-0044",
@@ -787,12 +787,12 @@
       "stem": "A investor holds a long stock position and writes an out-of-the-money call option. This covered call strategy:?",
       "options": {
         "A": "Caps maximum upside gain at the strike price plus premium while leaving downside risk unhedged",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Limits downside risk to the strike price minus premium",
+        "C": "Protects against a potential stock market crash by limiting upside and downside losses equally"
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-05 (Option Payoff Protective Put vs Covered Call Traps). Caps maximum upside gain at the strike price plus premium while leaving downside risk unhedged.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This distractor implies that the strategy limits downside risk, which is incorrect because it actually leaves downside risk unhedged. The purpose of the covered call is to generate additional income from writing options, not to limit downside risk.\n- C: This distractor incorrectly suggests that the strategy protects against a potential stock market crash by limiting both upside and downside losses equally. In reality, the covered call strategy caps maximum upside gain at the strike price plus premium while leaving downside risk unhedged."
     },
     {
       "id": "Q-DER-0045",
@@ -805,12 +805,12 @@
       "stem": "In a 3-year plain vanilla interest rate swap, the fixed rate payer receives 4.5% floating and pays 4.0% fixed on $10,000,000 notional. At annual settlement, the fixed rate payer receives:?",
       "options": {
         "A": "$50,000 net payment ($10,000,000 * [4.5% - 4.0%])",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The floating leg pays an average of 4.2%, making the net payment $42,000 ($10,000,000 * [4.5% - 4.2%])",
+        "C": "The fixed rate payer pays a total of $400,000 (4.0% of $10,000,000) every year, regardless of interest rates"
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-06 (Interest Rate Swaps Settlement Calculation Sign Errors). $50,000 net payment ($10,000,000 * [4.5% - 4.0%]).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This distractor is wrong because it incorrectly assumes the floating leg's average rate is lower than the stated fixed rate, when in fact it's paying a higher rate and the net payment would be positive. - C: This distractor is wrong because it only considers the fixed leg's payment without accounting for the interest rate differential between the two legs"
     },
     {
       "id": "Q-DER-0046",
@@ -823,12 +823,12 @@
       "stem": "Under the Black-Scholes-Merton model, an increase in the volatility of the underlying asset spot price causes the value of:?",
       "options": {
         "A": "Both European call and put options to increase",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "An increase in the volatility of the underlying asset spot price causes the value of European call options to decrease, while put options to remain stable.",
+        "C": "An increase in the volatility of the underlying asset spot price causes the value of European call options to increase more than put options"
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-08 (Black-Scholes Model Inputs Sensitivity Analysis). Both European call and put options to increase.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: B is wrong because an increase in volatility typically increases the value of both calls and puts due to increased uncertainty, not decreases. Additionally, the impact on stability is not a direct result of volatility.\n- C: C is wrong because while it's true that call options tend to increase more with higher volatility than put options, the statement does not account for the fact that both options will generally increase in value with increased volatility."
     },
     {
       "id": "Q-DER-0047",
@@ -841,12 +841,12 @@
       "stem": "According to put-call parity P0 + S0 = C0 + X/(1+r)^T, shorting a synthetic asset S0 is equivalent to:?",
       "options": {
         "A": "Buying a put option, shorting a call option, and shorting a risk-free bond",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Shorting a synthetic asset S0 equates to shorting a call option, shorting a risk-free bond, and buying a put option with strike K = S0.",
+        "C": "Shorting a synthetic asset S0 equates to shorting a cash position worth (S0 / (1+r)^T) * r."
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-09 (Put-Call Parity Synthetic Position Sign Verification). Buying a put option, shorting a call option, and shorting a risk-free bond.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This distractor is incorrect because it incorrectly inverts the relationship between call and put options; buying a put option, shorting a call option, and shorting a risk-free bond replicates S0 accurately. Furthermore, this choice misrepresents the cash component of the put-call parity formula.\n- C: This distractor is incorrect as it represents an arbitrage opportunity rather than a synthetic position; shorting a cash component that equates to r * (S0 / (1+r)^T) does not replicate S0. The correct answer B correctly replicates S0 through options and bond positions, accounting for the put-call parity relationship."
     },
     {
       "id": "Q-DER-0048",
@@ -859,12 +859,12 @@
       "stem": "In a CDS cash settlement after a credit event, the protection seller pays the protection buyer:?",
       "options": {
         "A": "Par value minus recovery value of the reference obligation",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Par value plus 5% of the reference obligation's notional amount",
+        "C": "Recovery value minus 2.5% of the reference obligation's notional amount"
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-07 (Credit Default Swap Settlement Physical vs Cash Delivery). Par value minus recovery value of the reference obligation.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This distractor suggests paying more than par, which is unrealistic in a CDS cash settlement. The protection seller should only pay the difference between the par value and recovery value, not an additional amount.\n- C: This distractor incorrectly subtracts a percentage of the reference obligation's notional amount from the recovery value, rather than simply using the recovery value as stated in the correct answer."
     }
   ]
 }

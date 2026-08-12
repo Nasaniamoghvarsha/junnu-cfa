@@ -499,12 +499,12 @@
       "stem": "Which of the following is included in a nation's GDP measured by the expenditure approach??",
       "options": {
         "A": "Gross private domestic investment and net exports of goods and services",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Gross government consumption expenditure and changes in inventories of goods and services",
+        "C": "Business sector's operating surplus (net income) from operating activities"
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-10 (Gross Domestic Product (GDP)). Gross private domestic investment and net exports of goods and services.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This option is correct because it correctly includes gross government consumption expenditure and changes in inventories, both of which are components of GDP measured by the expenditure approach. Therefore, option A is incorrect.\n- C: This option is incorrect because it refers to business sector's net income, not a component of GDP measured by the expenditure approach. Net income is a different way to calculate business profits and is not a part of GDP."
     },
     {
       "id": "Q-ECO-0039",
@@ -517,12 +517,12 @@
       "stem": "An increase in real interest rates typically causes Aggregate Demand (AD) to:?",
       "options": {
         "A": "Decrease, because higher borrowing costs reduce consumer spending and capital investment",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "An increase in real interest rates typically causes Aggregate Demand (AD) to decrease because higher borrowing costs lead to increased savings and decreased consumer spending on durable goods.",
+        "C": "An increase in real interest rates typically causes Aggregate Demand (AD) to increase because lower short-term interest rates lead to increased consumption and investment in technology."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-11 (Aggregate Demand Components). Decrease, because higher borrowing costs reduce consumer spending and capital investment.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because, while higher borrowing costs do reduce consumer spending, they also increase savings. The effect on aggregate demand depends on the elasticity of both consumption and saving with respect to interest rates.\n- C: This distractor is wrong because lower short-term interest rates lead to decreased capital investment, not increased consumption and investment in technology."
     },
     {
       "id": "Q-ECO-0040",
@@ -535,12 +535,12 @@
       "stem": "In the long run, the aggregate supply curve (LRAS) is vertical at potential GDP because:?",
       "options": {
         "A": "Wages and input prices fully adjust to price level changes",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Increased capital investment and technological advancements enable firms to produce more goods at the same level of prices.",
+        "C": "The LRAS curve shifts right due to government subsidies provided to businesses, allowing them to lower production costs."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-12 (Short-Run vs Long-Run Aggregate Supply). Wages and input prices fully adjust to price level changes.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong\nB is incorrect because it implies that firms can produce more goods without a change in prices, which would shift the LRAS curve and lead to inflation. In reality, wages and input prices fully adjust to price level changes.\nC is incorrect because government subsidies do not directly affect the long-run aggregate supply curve; they could shift the LRAS curve but only if they were related to factors that influence the cost of production, such as labor or capital costs."
     },
     {
       "id": "Q-ECO-0041",
@@ -553,12 +553,12 @@
       "stem": "Which economic indicator is considered a leading indicator of business cycle turns??",
       "options": {
         "A": "Average weekly initial claims for unemployment insurance",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The G7 GDP growth rate has historically been a reliable predictor of business cycle turns, as it tends to lead changes in economic activity by several quarters.",
+        "C": "The yield curve inversion is widely recognized as a leading indicator of business cycle turns, as it signals a potential shift from expansion to contraction."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-13 (Business Cycle Indicators). Average weekly initial claims for unemployment insurance.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The G7 GDP growth rate is more related to lagging economic activity rather than leading indicators. It tends to follow changes in the economy rather than precede them.\n- C: While the yield curve inversion can signal a potential recession, it's not as reliable as other leading indicators like average weekly initial claims for unemployment insurance."
     },
     {
       "id": "Q-ECO-0042",
@@ -571,12 +571,12 @@
       "stem": "Cost-push inflation is caused by:?",
       "options": {
         "A": "A decrease in Aggregate Supply due to rising wage or commodity input costs",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "An increase in the global supply of gold, leading to a decrease in the money supply and subsequent deflationary pressures.",
+        "C": "A decrease in government spending on public goods and services, reducing Aggregate Demand and triggering cost-push inflation through reduced Aggregate Supply."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-14 (Cost-Push vs Demand-Pull Inflation). A decrease in Aggregate Supply due to rising wage or commodity input costs.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it does not directly relate to a decrease in Aggregate Supply. An increase in global gold supply would actually lead to deflationary pressures, not cost-push inflation.\n- C: This distractor is wrong because while a decrease in government spending could reduce Aggregate Demand, the described effect on Aggregate Supply is incorrect. A reduction in government spending does not necessarily lead to cost-push inflation; it may instead lead to demand-pull inflation or reduced economic activity."
     },
     {
       "id": "Q-ECO-0043",
@@ -589,12 +589,12 @@
       "stem": "The fiscal spending multiplier is larger than the tax cut multiplier because:?",
       "options": {
         "A": "Government spending enters directly into GDP, whereas tax cuts are partially saved",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Government spending does not create new money, whereas tax cuts reduce disposable income",
+        "C": "Lower marginal propensity to consume for tax cuts results in a smaller multiplier"
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-15 (Fiscal Policy Multipliers). Government spending enters directly into GDP, whereas tax cuts are partially saved.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor implies that government spending creates new money, which is not the case. The fiscal spending multiplier is larger because government spending enters directly into GDP. Furthermore, if people save some of their income from tax cuts, it doesn't necessarily mean they consume less.\n- C: While lower marginal propensity to consume for tax cuts does result in a smaller multiplier, this statement alone fails to explain why the fiscal spending multiplier is larger than the tax cut multiplier."
     },
     {
       "id": "Q-ECO-0044",
@@ -607,12 +607,12 @@
       "stem": "Central banks with high operational and target independence generally achieve:?",
       "options": {
         "A": "Lower and more stable inflation rates compared to politized central banks",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Higher and more volatile inflation rates due to increased political interference in monetary policy decisions",
+        "C": "Reduced economic growth due to decreased investor confidence in the central bank's ability to set interest rates independently"
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-16 (Central Bank Independence). Lower and more stable inflation rates compared to politized central banks.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because high operational and target independence should lead to lower, not higher, inflation rates. Politicized central banks may be more prone to inflationary pressures due to their lack of independence and potential political agendas.\n- C: This distractor is also incorrect as there is no clear link between central bank independence and reduced economic growth. In fact, independent central banks are often seen as a stabilizing force in the economy."
     },
     {
       "id": "Q-ECO-0045",
@@ -625,12 +625,12 @@
       "stem": "Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??",
       "options": {
         "A": "Financial Account",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Foreign direct investment (FDI) inflows are recorded in the Capital Account.",
+        "C": "Foreign direct investment (FDI) inflows are recorded in the Non-Residual Balance of Payments account."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-17 (Balance of Payments Accounts). Financial Account.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong: The Capital Account includes investments by non-residents in the domestic economy, but it also shows outflows. FDI inflows should be reflected in the Financial Account as part of current transfers and income on foreign assets.\n- C: Explanation why C is wrong: The Non-Residual Balance of Payments account is not a standard BOP account. It was used historically to record transactions that were neither imports nor exports, but it has largely been replaced by more specific accounts like the Current Account and Capital Account."
     },
     {
       "id": "Q-ECO-0046",
@@ -643,12 +643,12 @@
       "stem": "A country has a comparative advantage in producing a good if it:?",
       "options": {
         "A": "Can produce the good at a lower opportunity cost than trading partners",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A country has a comparative advantage in producing a good if it can produce the same good at a higher output level than its trading partners.",
+        "C": "A country has a comparative advantage in producing a good if it can produce the good for a shorter period of time than its trading partners."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-18 (Comparative Advantage & Opportunity Cost). Can produce the good at a lower opportunity cost than trading partners.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because having a comparative advantage means being able to produce more of a good at an equal or lower opportunity cost, not necessarily higher. This distractor confuses output levels with absolute productivity.\n- C: Incorrect because a country's comparative advantage is determined by the absolute productivity difference between countries, not just the duration for which they can produce the good. This distractor incorrectly applies time as a factor in determining comparative advantage."
     },
     {
       "id": "Q-ECO-0047",
@@ -661,12 +661,12 @@
       "stem": "The foreign exchange market is best characterized as a:?",
       "options": {
         "A": "Global over-the-counter (OTC) 24-hour interbank network",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A decentralized, margin-based market where prices are set by supply and demand imbalances.",
+        "C": "An intraday, stop-order driven market for a limited number of major currencies only."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-19 (Foreign Exchange Market Structure). Global over-the-counter (OTC) 24-hour interbank network.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because the foreign exchange market does allow for some level of price discovery through market makers and other liquidity providers. However, it is not characterized as being decentralized or margin-based.\n- C: Incorrect because while it is true that the foreign exchange market operates on a 24-hour basis, with prices influenced by supply and demand imbalances, and stops are used in many markets, it does not limit to major currencies only, and stop orders are not unique to this market."
     },
     {
       "id": "Q-ECO-0048",
@@ -679,12 +679,12 @@
       "stem": "If covered interest rate parity holds, any interest rate differential between two currencies equals:?",
       "options": {
         "A": "The forward premium or discount on the foreign currency",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The interest rate differential between the two currencies directly represents the expected change in purchasing power of each currency.",
+        "C": "A difference in interest rates equals a permanent change in the value of one currency relative to another."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-20 (Covered Interest Rate Parity). The forward premium or discount on the foreign currency.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor implies that any interest rate differential must result from an expected change in purchasing power, which is incorrect. Covered Interest Rate Parity assumes that any interest rate differential can be explained by a forward premium or discount on the foreign currency, not necessarily due to changes in purchasing power.\n- C: This distractor misinterprets the relationship between interest rates and exchange rates, suggesting a permanent change in value rather than the temporary deviation implied by Covered Interest Rate Parity."
     },
     {
       "id": "Q-ECO-0049",
@@ -697,12 +697,12 @@
       "stem": "A persistent current account deficit must be offset by a net capital inflow in the:?",
       "options": {
         "A": "Capital and Financial Accounts",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The current account deficit is financed by the sale of government securities to foreign central banks.",
+        "C": "The current account deficit is partially offset by a depreciation in the value of the domestic currency, which reduces the price of exports and increases the competitiveness of domestic goods."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-21 (Current Account Balance Effects). Capital and Financial Accounts.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor implies that the current account deficit can be financed through purchases of government securities from foreign investors, which does not align with the correct analysis. A persistent current account deficit must always be offset by a net capital outflow (not inflow) to finance the deficit. The sale of government securities would actually increase the capital account surplus and worsen the current account deficit.\n\n- C: This distractor suggests that depreciation reduces the competitiveness of domestic goods, which is incorrect. A depreciation in the value of the domestic currency increases the price of imports and makes exports cheaper, thereby increasing competitiveness. While this can help to offset a persistent current account deficit, it does not fully offset it."
     },
     {
       "id": "Q-ECO-0050",
@@ -715,12 +715,12 @@
       "stem": "A fixed peg exchange rate regime requires a central bank to maintain foreign reserves to:?",
       "options": {
         "A": "Intervene in foreign exchange markets to maintain the target peg parity",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Maintain high levels of foreign reserves to smooth out fluctuations in the exchange rate.",
+        "C": "Ensure that interest rates are aligned with economic indicators such as GDP and inflation rates."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-22 (Exchange Rate Regime Types). Intervene in foreign exchange markets to maintain the target peg parity.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a fixed peg regime focuses on maintaining the parity rather than smoothing out fluctuations. The central bank's main goal is to defend the peg, not stabilize the currency through reserves. \n- C: Incorrect because the primary focus of a fixed peg exchange rate regime is the fixed parity itself, not aligning interest rates with economic indicators."
     },
     {
       "id": "Q-ECO-0051",
@@ -733,12 +733,12 @@
       "stem": "Which of the following is included in a nation's GDP measured by the expenditure approach??",
       "options": {
         "A": "Gross private domestic investment and net exports of goods and services",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Government consumption expenditure on infrastructure projects, such as construction of roads and bridges.",
+        "C": "Household disposable income spent on travel abroad."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-10 (Gross Domestic Product (GDP)). Gross private domestic investment and net exports of goods and services.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because government consumption expenditure on infrastructure projects are not included in GDP measured by the expenditure approach. This type of expenditure is part of GDP measured by the production approach.\n- C is wrong because household disposable income spent on travel abroad, although it may influence net exports, does not directly impact GDP calculated using the expenditure approach."
     },
     {
       "id": "Q-ECO-0052",
@@ -751,12 +751,12 @@
       "stem": "An increase in real interest rates typically causes Aggregate Demand (AD) to:?",
       "options": {
         "A": "Decrease, because higher borrowing costs reduce consumer spending and capital investment",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "An increase in real interest rates typically causes Aggregate Demand (AD) to increase, because higher borrowing costs reduce consumer saving and lead to increased consumption.",
+        "C": "An increase in real interest rates typically causes Aggregate Demand (AD) to decrease, but only among households that save more than they consume, as the remaining demand is driven by businesses seeking to take advantage of lower borrowing costs"
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-11 (Aggregate Demand Components). Decrease, because higher borrowing costs reduce consumer spending and capital investment.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong. Increasing borrowing costs do not lead to increased consumption, but rather reduce consumer spending and capital investment. This would decrease aggregate demand, not increase it.\n- C: Explanation why C is wrong. An increase in real interest rates will have a more uniform effect on all households and businesses, reducing the net demand for goods and services. The statement that some households save more than they consume does not change this outcome."
     },
     {
       "id": "Q-ECO-0053",
@@ -769,12 +769,12 @@
       "stem": "In the long run, the aggregate supply curve (LRAS) is vertical at potential GDP because:?",
       "options": {
         "A": "Wages and input prices fully adjust to price level changes",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "In the long run, firms can adjust their technology and capital stock to increase productivity.",
+        "C": "The LRAS curve is vertical because of government subsidies that keep prices low for all inputs."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-12 (Short-Run vs Long-Run Aggregate Supply). Wages and input prices fully adjust to price level changes.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it assumes that technological advancements and investment in capital are instantaneous, which is not the case. The correct answer focuses on the adjustment of wages and input prices to changes in the price level. - C: This distractor is also incorrect as government subsidies would likely create distortions in the market rather than being a long-run equilibrium condition."
     },
     {
       "id": "Q-ECO-0054",
@@ -787,12 +787,12 @@
       "stem": "Which economic indicator is considered a leading indicator of business cycle turns??",
       "options": {
         "A": "Average weekly initial claims for unemployment insurance",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The stock price of copper futures contracts, which are known to be highly correlated with business cycles.",
+        "C": "The current balance of international trade in oil over the past five years, as measured by the OECD's balance of payments data."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-13 (Business Cycle Indicators). Average weekly initial claims for unemployment insurance.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong The incorrectness of option B lies in the fact that copper futures prices are often seen as an indicator of inflation and commodity prices rather than a direct leading indicator of business cycles. Leading indicators typically have shorter lag times and are more closely tied to changes in consumer behavior or investment decisions.\n- C: Explanation why C is wrong The OECD's balance of payments data on oil trade does not serve as a reliable leading indicator for business cycle turns, primarily because the relationship between oil prices and economic activity can be complex and influenced by various factors such as technological advancements and shifts in global demand."
     },
     {
       "id": "Q-ECO-0055",
@@ -805,12 +805,12 @@
       "stem": "Cost-push inflation is caused by:?",
       "options": {
         "A": "A decrease in Aggregate Supply due to rising wage or commodity input costs",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A shift in consumer preferences leading to an increase in demand for non-essential goods",
+        "C": "An increase in the money supply due to a central bank's expansionary monetary policy"
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-14 (Cost-Push vs Demand-Pull Inflation). A decrease in Aggregate Supply due to rising wage or commodity input costs.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong: This distractor mistakenly equates cost-push inflation with demand-pull inflation, which would lead to an increase in prices due to an excess of demand. However, cost-push inflation is caused by a decrease in Aggregate Supply. - C: Explanation why C is wrong: An increase in the money supply typically leads to demand-pull inflation, not cost-push inflation."
     },
     {
       "id": "Q-ECO-0056",
@@ -823,12 +823,12 @@
       "stem": "The fiscal spending multiplier is larger than the tax cut multiplier because:?",
       "options": {
         "A": "Government spending enters directly into GDP, whereas tax cuts are partially saved",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Increased taxes reduce disposable income, thereby reducing consumer spending and decreasing the multiplier.",
+        "C": "A tax cut increases disposable income, leading to increased consumption of durables and non-durables, resulting in a greater multiplier."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-15 (Fiscal Policy Multipliers). Government spending enters directly into GDP, whereas tax cuts are partially saved.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "Q-ECO-0057",
@@ -841,12 +841,12 @@
       "stem": "Central banks with high operational and target independence generally achieve:?",
       "options": {
         "A": "Lower and more stable inflation rates compared to politized central banks",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Achieving lower inflation rates due to increased price stability from maintaining low interest rates for extended periods.",
+        "C": "Reduced risk of money supply manipulations by politically appointed governors seeking electoral advantages."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-16 (Central Bank Independence). Lower and more stable inflation rates compared to politized central banks.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because high operational and target independence actually lead to higher inflation rates, as central banks are less pressured to implement tight monetary policies. The correct answer focuses on the stability and predictability that increased independence brings, which can sometimes result in higher inflation if not managed properly.\n- C: This distractor is wrong because high operational and target independence reduce the risk of money supply manipulations by governors seeking electoral advantages; instead, they increase the risk of central banks acting independently without political influence."
     },
     {
       "id": "Q-ECO-0058",
@@ -859,12 +859,12 @@
       "stem": "Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??",
       "options": {
         "A": "Financial Account",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Outflows of goods, services, and income from a country are recorded in the Balance of Payments Financial Account.",
+        "C": "Foreign direct investment inflows are typically classified as part of the Capital Account within the Balance of Payments, but the correct classification is actually within the Current Account to reflect the 'inflows' and 'outflows' of FDI."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-17 (Balance of Payments Accounts). Financial Account.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor misrepresents how FDI is recorded in the Financial Account. According to LO-ECO-17, net outflows of capital, including foreign direct investment (FDI), are recorded in the Capital Account, not the Financial Account. FDI inflows are actually part of the Current Account.\n- C: This distractor incorrectly classifies FDI as part of the Capital Account and misrepresents how FDI is recorded in the Balance of Payments. FDI inflows should be classified as 'inflows' within the Current Account, not the Capital Account."
     },
     {
       "id": "Q-ECO-0059",
@@ -877,12 +877,12 @@
       "stem": "A country has a comparative advantage in producing a good if it:?",
       "options": {
         "A": "Can produce the good at a lower opportunity cost than trading partners",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "It has a comparative advantage in producing the good if it specializes in the production of that good with more skilled labor.",
+        "C": "It has a comparative advantage in producing the good if it produces the good that can be readily sold to its trading partners in exchange for other goods they require."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-18 (Comparative Advantage & Opportunity Cost). Can produce the good at a lower opportunity cost than trading partners.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because specializing in a particular good just because it requires skilled labor doesn't necessarily mean it's more cost-effective than trading partners. Opportunity costs must also be considered.\n- C is wrong because having a comparative advantage means producing a good at a lower opportunity cost, not necessarily producing the good that can be easily traded for other goods."
     },
     {
       "id": "Q-ECO-0060",
@@ -895,12 +895,12 @@
       "stem": "The foreign exchange market is best characterized as a:?",
       "options": {
         "A": "Global over-the-counter (OTC) 24-hour interbank network",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A large number of institutional investors participate in the foreign exchange market, often through bilateral agreements.",
+        "C": "The foreign exchange market is primarily driven by the needs of individual investors and traders acting on their own behalf."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-19 (Foreign Exchange Market Structure). Global over-the-counter (OTC) 24-hour interbank network.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because while institutional investors do play a role in FX markets, the term 'large number' implies an overly broad scope. The OTC network involves numerous interbank transactions but not necessarily a large number of participants compared to other financial markets.\n- C: Incorrect because this description is too narrow and does not accurately capture the 24-hour nature and global participation of the foreign exchange market."
     },
     {
       "id": "Q-ECO-0061",
@@ -913,12 +913,12 @@
       "stem": "If covered interest rate parity holds, any interest rate differential between two currencies equals:?",
       "options": {
         "A": "The forward premium or discount on the foreign currency",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Any interest rate differential between two currencies equals the absolute value of the interest rate differential",
+        "C": "Any interest rate differential between two currencies equals the forward premium or discount on its own currency"
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-20 (Covered Interest Rate Parity). The forward premium or discount on the foreign currency.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because covered interest parity holds, not the absolute value of the interest rate differential. The correct answer would still be related to the foreign currency's forward premium or discount. In reality, if covered interest parity does not hold, the interest rate differential may indeed equal the absolute value of the difference, but this is a different scenario.\n- C: This distractor is wrong because the question asks about the equality of any interest rate differential between two currencies, not just the forward premium or discount on its own currency. The correct answer is the forward premium or discount on the foreign currency."
     },
     {
       "id": "Q-ECO-0062",
@@ -931,12 +931,12 @@
       "stem": "A persistent current account deficit must be offset by a net capital inflow in the:?",
       "options": {
         "A": "Capital and Financial Accounts",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A country's capital account includes transfers from or to foreign countries, such as foreign aid, remittances, and loans.",
+        "C": "Foreign exchange markets determine the exchange rate of a currency relative to other currencies, which in turn affects the value of a nation's currency."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-21 (Current Account Balance Effects). Capital and Financial Accounts.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because a persistent current account deficit does not necessarily require a net capital inflow; it only requires the balance of trade to be covered by capital outflows from investment or savings. The correct answer is that the current and capital accounts are part of the same macroeconomic framework, but they don't guarantee a net capital inflow."
     },
     {
       "id": "Q-ECO-0063",
@@ -949,12 +949,12 @@
       "stem": "A fixed peg exchange rate regime requires a central bank to maintain foreign reserves to:?",
       "options": {
         "A": "Intervene in foreign exchange markets to maintain the target peg parity",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Maintain foreign reserves to facilitate capital account management and ensure policy credibility.",
+        "C": "Ensure stability of the domestic financial system through foreign exchange intervention."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-22 (Exchange Rate Regime Types). Intervene in foreign exchange markets to maintain the target peg parity.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a fixed peg exchange rate regime primarily relies on maintaining foreign reserves to anchor expectations around the target peg parity, rather than facilitating capital account management. \n- C: Incorrect because while ensuring stability of the domestic financial system is an important consideration for central banks, it is not the primary purpose of maintaining foreign reserves under a fixed peg exchange rate regime."
     },
     {
       "id": "Q-ECO-0064",
@@ -967,12 +967,12 @@
       "stem": "If the cross-price elasticity of demand between Good X and Good Y is +1.5, Good X and Good Y are best classified as:?",
       "options": {
         "A": "Substitute goods, because an increase in the price of Y causes demand for X to increase",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "If Good X and Good Y are close substitutes, an increase in the price of Y would lead to a decrease in demand for X due to consumer substitution.",
+        "C": "Since the cross-price elasticity of demand between Good X and Good Y indicates that demand for X increases when the price of Y rises, this implies perfect complementarity rather than substitutability."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-ECO-02 (Cross-Price Elasticity of Demand). Substitute goods, because an increase in the price of Y causes demand for X to increase.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because a cross-price elasticity of +1.5 actually supports substitutability, not consumer substitution.\n- C: The correct analysis is that an increase in the price of Y would lead to an increase in demand for X due to positive cross-price elasticity, which indicates that Good X and Good Y are substitutes."
     },
     {
       "id": "Q-ECO-0065",
@@ -985,12 +985,12 @@
       "stem": "A profit-maximizing monopolist sets production output at the level where:?",
       "options": {
         "A": "Marginal Revenue equals Marginal Cost (MR = MC), pricing along the demand curve",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Pricing along the demand curve does not necessarily mean MR = MC, as a profit-maximizing monopolist can adjust output based on elasticities and consumer behavior.",
+        "C": "A profit-maximizing monopolist should produce where P = ATC (average total cost) is not necessary but more accurate than the MC=MR for monopoly."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-ECO-04 (Monopoly Profit Maximization Output). Marginal Revenue equals Marginal Cost (MR = MC), pricing along the demand curve.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong"
     },
     {
       "id": "Q-ECO-0066",
@@ -1003,12 +1003,12 @@
       "stem": "According to the Fisher Effect, an increase in expected inflation of 2% will cause nominal interest rates to:?",
       "options": {
         "A": "Increase by 2% in the long run to preserve real interest rates",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Nominal interest rates will increase by 4% in the short run, followed by a 2% decrease in nominal interest rates to compensate for the expected inflation",
+        "C": "Real interest rates will remain unchanged as the expected inflation does not directly affect real interest rates"
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-ECO-06 (Fisher Effect Nominal Interest Rates). Increase by 2% in the long run to preserve real interest rates.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong"
     },
     {
       "id": "Q-ECO-0067",
@@ -1021,12 +1021,12 @@
       "stem": "When a central bank purchases government bonds through open market operations, short-term interest rates:?",
       "options": {
         "A": "Decrease, boosting commercial bank excess reserves and money supply growth",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Increase due to decrease in government bond yields, reducing interest expense and increasing borrowing capacity for commercial banks.",
+        "C": "Increase due to the sterilization effect of open market operations, where central bank's purchase of government bonds reduces reserve base growth and subsequently increases short-term interest rates."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-ECO-07 (Expansionary Monetary Policy Transmission). Decrease, boosting commercial bank excess reserves and money supply growth.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a decrease in government bond yields would actually decrease interest expense and increase borrowing capacity for commercial banks, not increasing short-term interest rates. This would lead to an expansionary monetary policy effect.\n- C: Incorrect because the sterilization effect is not directly related to central bank's purchase of government bonds through open market operations. The correct answer relies on the overall impact of central bank's actions on money supply growth."
     },
     {
       "id": "Q-ECO-0068",
@@ -1039,12 +1039,12 @@
       "stem": "For a **Giffen good**, an increase in price leads to an increase in quantity demanded because:?",
       "options": {
         "A": "The negative income effect outweighs the positive substitution effect for an inferior good",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "An increase in price leads to an increase in quantity demanded because consumers have a high disposable income, allowing them to afford more of the good.",
+        "C": "An increase in price leads to an increase in quantity demanded because higher prices encourage consumer substitution into more expensive alternatives."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-ECO-03 (Income and Substitution Effects). The negative income effect outweighs the positive substitution effect for an inferior good.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a Giffen good's demand curve is downward sloping, meaning that as price increases, quantity demanded decreases. This contradicts the claim that consumers can afford more due to increased disposable income.\n- C: Incorrect because the positive substitution effect would lead to an increase in quantity demanded if there were alternative goods available that are cheaper or closer substitutes for the Giffen good. However, this is not the case as the question does not mention any such alternatives."
     },
     {
       "id": "Q-ECO-0069",
@@ -1057,12 +1057,12 @@
       "stem": "Nominal GDP grew by 8% while Real GDP grew by 5%. The implicit GDP deflator inflation rate is closest to:?",
       "options": {
         "A": "2.86% (GDP Deflator = Nominal GDP / Real GDP = 1.08 / 1.05 = 1.0286)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The GDP deflator rate of change increased due to the appreciation of the nominal exchange rate, which was influenced by a decrease in import prices.",
+        "C": "The GDP deflator rate of change decreased because the increase in real GDP was solely due to higher productivity and not any change in the price level."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-ECO-05 (Gross Domestic Product Deflator). 2.86% (GDP Deflator = Nominal GDP / Real GDP = 1.08 / 1.05 = 1.0286).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a decrease in import prices would actually lead to an appreciation of the nominal exchange rate, increasing inflation. The actual explanation should relate the increased exchange rate to a decrease in import prices, which is implausible.\n- C: Correct because if real GDP grew only due to higher productivity and not any change in the price level, it implies no inflation, making the implied deflator rate of change 0%, not the reported 8%."
     },
     {
       "id": "Q-ECO-0070",
@@ -1075,12 +1075,12 @@
       "stem": "If a central bank lowers the required reserve ratio for commercial banks, the money multiplier and money supply will:?",
       "options": {
         "A": "Increase, boosting credit expansion capability across the banking sector",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Decreases the demand for bank reserves, causing a reduction in the money multiplier and subsequently decreasing money supply.",
+        "C": "Reduces the risk of bank runs by limiting the amount of depositable funds, which can lead to a decrease in lending and a reduction in credit expansion."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-ECO-08 (Central Bank Reserve Requirements). Increase, boosting credit expansion capability across the banking sector.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because lowering the reserve ratio increases the money multiplier, not decreases it. With more reserves available for lending, banks can create more new money.\n- C is wrong because reducing the reserve ratio would increase lending and credit expansion, not decrease it."
     },
     {
       "id": "Q-ECO-0071",
@@ -1093,12 +1093,12 @@
       "stem": "If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 4 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for:?",
       "options": {
         "A": "3 units of Cloth (between the opportunity costs of 2 and 4)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 6 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for: 3 units of Cloth.",
+        "C": "If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 5 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for: 4 units of Cloth."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-ECO-09 (International Trade Comparative Advantage Terms of Trade). 3 units of Cloth (between the opportunity costs of 2 and 4).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong: The correct answer does not take into account the opportunity costs of producing cloth in Country A. With an opportunity cost of 2 for cloth and 1 for wheat, trading 1 wheat for 3 units of cloth doesn't maximize efficiency.\n- C: Explanation why C is wrong: This option assumes a constant price ratio between wheat and cloth across both countries, which isn't necessarily true. Country B's relative advantage in producing cloth compared to wheat would indicate a higher opportunity cost of production."
     },
     {
       "id": "Q-ECO-0072",
@@ -1111,12 +1111,12 @@
       "stem": "Which economic indicator is classified as a lagging indicator of business cycle turns??",
       "options": {
         "A": "Average duration of unemployment and commercial bank prime lending rate",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The average duration of unemployment has historically been a leading indicator, with shorter durations preceding economic expansions.",
+        "C": "The commercial bank prime lending rate is also considered a leading indicator, as it tends to rise before the economy slows down and interest rates increase."
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-ECO-12 (Business Cycle Turning Points Leading Indicators). Average duration of unemployment and commercial bank prime lending rate.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because the average duration of unemployment has indeed been a leading indicator, particularly during the Great Depression. The correct answer is A because shorter durations of unemployment precede economic expansions, not longer ones.\n- C: Incorrect because a rising commercial bank prime lending rate actually indicates a slowing economy and rising interest rates, making it a lagging indicator rather than a leading one."
     },
     {
       "id": "Q-ECO-0073",
@@ -1129,12 +1129,12 @@
       "stem": "An oligopolistic market structure characterized by a dominant firm pricing under the dominant firm model leads to market price equal to:?",
       "options": {
         "A": "The price set by the dominant firm where its marginal revenue equals marginal cost",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The price set by the dominant firm where its marginal revenue equals average total cost",
+        "C": "The market price where firms are indifferent between producing at quantity one below the competitive level and quantity one above it"
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-ECO-06 (Monopoly vs Oligopoly Market Power). The price set by the dominant firm where its marginal revenue equals marginal cost.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This is incorrect because it implies a decrease in price due to an increase in average total costs, whereas in the dominant firm model, the firm sets its price where marginal revenue equals marginal cost. The change in price occurs when market demand changes or another firm enters the market.\n- C: This explanation suggests that oligopoly firms produce at the quantity where they are indifferent between producing above and below competitive levels, which implies a lack of market power. In reality, dominant firms do have significant market power and set prices based on their marginal revenue."
     },
     {
       "id": "Q-ECO-0074",
@@ -1147,12 +1147,12 @@
       "stem": "When a central bank increases its target policy rate, commercial bank lending rates increase, leading to:?",
       "options": {
         "A": "Lower credit expansion, reduced business investment, and slower aggregate demand growth",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Increased commercial bank lending rates lead to higher borrowing costs for households and businesses, reducing consumption and investment.",
+        "C": "An increase in the central bank's target policy rate can lead to lower inflation expectations, prompting households and businesses to invest more now rather than later, thereby increasing aggregate demand growth."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ECO-07 (Monetary Policy Interest Rate Target Transmission). Lower credit expansion, reduced business investment, and slower aggregate demand growth.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because an increase in commercial bank lending rates does not directly reduce consumption. Instead, it may cause borrowing costs to rise, which could lead to reduced spending power for households and reduced investment for businesses. However, this would likely be a short-term effect and the overall impact of higher interest rates on credit expansion would still be to decrease it due to tighter monetary policy conditions.\n- C: This distractor is wrong because an increase in the central bank's target policy rate should lead to increased lending costs for households and businesses, making them less likely to borrow now rather than later. A tightening of monetary policy conditions typically leads to a reduction in aggregate demand growth, not an increase."
     },
     {
       "id": "Q-ECO-0075",
@@ -1165,12 +1165,12 @@
       "stem": "An import tariff imposed by a small country causes domestic price to rise to the world price plus tariff. The net national welfare loss equals:?",
       "options": {
         "A": "The combined area of domestic production distortion and consumption distortion deadweight loss triangles",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The tariff imposes a tax on imported goods, which increases the domestic price. The net national welfare loss includes the deadweight loss from production distortion (the area between the supply curve and the price-induced new equilibrium) plus the deadweight loss from consumption distortion (the area between the demand curve and the price-induced new equilibrium).",
+        "C": "The tariff reduces imports, allowing for domestic producers to capture a monopoly profit. The net national welfare loss is zero because consumers are better off due to higher prices protecting domestic industries."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ECO-13 (International Trade Protectionism Deadweight Loss). The combined area of domestic production distortion and consumption distortion deadweight loss triangles.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it fails to account for the fact that the deadweight losses from consumption distortion and production distortion occur separately; they should not be combined into one area. - C: Incorrect because a tariff protects domestic producers, but also leads to an increase in domestic price relative to world price, causing consumers to pay more for domestically produced goods."
     }
   ]
 }

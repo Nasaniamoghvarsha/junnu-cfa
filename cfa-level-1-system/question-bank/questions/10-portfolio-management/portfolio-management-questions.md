@@ -709,8 +709,8 @@ C) Impact investing
 **Question:**
 The slope of the Capital Allocation Line (CAL) represents the:?
 A) Sharpe ratio of the optimal risky portfolio
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A lower slope indicates a portfolio with higher returns and lower risk.
+C) The slope of the CAL represents the equity market's risk premium.
 
 
 **Correct Answer:** A
@@ -718,7 +718,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-07 (Capital Allocation Line (CAL)). Sharpe ratio of the optimal risky portfolio.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a lower slope does not accurately describe the relationship between the Sharpe ratio and portfolio risk. The correct interpretation is that as the slope increases, the portfolio's expected return increases for every unit increase in standard deviation from the market portfolio.
+- C: Incorrect because the equity market's risk premium refers to the excess return of the market portfolio over the risk-free rate, which is not directly represented by the CAL's slope. The correct interpretation is that the slope represents the trade-off between expected return and standard deviation of a portfolio.
 
 **LO Reference:** LO-PRT-07 (Capital Allocation Line (CAL))
 **Related Concepts:** Capital Allocation Line (CAL), CFA curriculum core concept
@@ -730,8 +731,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Security Market Line (SML) plots expected return against:?
 A) Systematic risk measured by Beta ($eta$)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Expected Return on State-Specific Risk Factors (SRF)
+C) Expected Return on Size and Value
 
 
 **Correct Answer:** A
@@ -739,7 +740,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-08 (Security Market Line (SML) Beta). Systematic risk measured by Beta ($eta$).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor incorrectly implies that state-specific risk factors are relevant to the Security Market Line, which plots return against systematic risk as measured by Beta. 
+- C: While size and value are important factors in stock returns, they are not directly related to the Security Market Line's expected return against systematic risk.
 
 **LO Reference:** LO-PRT-08 (Security Market Line (SML) Beta)
 **Related Concepts:** Security Market Line (SML) Beta, CFA curriculum core concept
@@ -751,8 +753,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A 5% 1-day Value at Risk (VaR) of $1.0 million means there is a:?
 A) 5% probability that the portfolio will lose MORE than $1.0 million in a single day
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A 5% 1-day VaR of $1.0 million means there is a 5% probability that the portfolio will gain MORE than $1.0 million in a single day.
+C) A 5% 1-day VaR of $1.0 million means there is a 5% probability that the portfolio's return will be within -1.0% to 1.0% of $1.0 million in a single day.
 
 
 **Correct Answer:** A
@@ -760,7 +762,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-09 (Value at Risk (VaR) Interpretation). 5% probability that the portfolio will lose MORE than $1.0 million in a single day.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because VaR measures loss, not gain. The correct interpretation should consider losses exceeding the VaR value.
+- C: Incorrect because it implies that there is some level of probability for the portfolio's return to be within a specific range from the VaR value, which does not accurately represent how VaR is calculated and interpreted.
 
 **LO Reference:** LO-PRT-09 (Value at Risk (VaR) Interpretation)
 **Related Concepts:** Value at Risk (VaR) Interpretation, CFA curriculum core concept
@@ -772,8 +775,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The standard IPS constraints (RRTTLLU) include Time Horizon, Taxes, Liquidity, Legal/Regulatory, and:?
 A) Unique Circumstances
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Industry Concentration
+C) Fiduciary Duty
 
 
 **Correct Answer:** A
@@ -781,7 +784,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-10 (Investment Policy Statement Constraints). Unique Circumstances.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Industry Concentration is a relevant factor in investment policy but does not directly correspond to one of the IPS constraints. It's closely related to the Legal/Regulatory aspect, however.
+- C: Fiduciary Duty is an important consideration for investment managers, but it's not explicitly included as an IPS constraint. The correct answer should be Unique Circumstances which addresses LO-PRT-10 constraints directly.
 
 **LO Reference:** LO-PRT-10 (Investment Policy Statement Constraints)
 **Related Concepts:** Investment Policy Statement Constraints, CFA curriculum core concept
@@ -793,8 +797,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Tactical Asset Allocation (TAA) attempts to generate alpha by:?
 A) Making short-term tactical deviations from the Strategic Asset Allocation baseline
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Focusing on sector rotation by moving assets in and out of sectors that are expected to outperform the overall market.
+C) Utilizing a momentum-based approach to allocate assets based on which asset classes have shown historical performance advantages over recent periods.
 
 
 **Correct Answer:** A
@@ -802,7 +806,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-11 (Strategic vs Tactical Asset Allocation). Making short-term tactical deviations from the Strategic Asset Allocation baseline.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because this description implies a more permanent shift away from the Strategic Asset Allocation, rather than a tactical deviation. This does not align with the concept of making short-term adjustments. A TAA approach would typically involve moving assets in and out of sectors or asset classes on a short-term basis to capture temporary opportunities for alpha generation.
+- C is wrong because this description suggests a more permanent shift towards momentum-based investing, rather than a tactical adjustment. This does not align with the concept of making short-term deviations from the Strategic Asset Allocation.
 
 **LO Reference:** LO-PRT-11 (Strategic vs Tactical Asset Allocation)
 **Related Concepts:** Strategic vs Tactical Asset Allocation, CFA curriculum core concept
@@ -814,8 +819,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Treynor ratio measures excess return per unit of:?
 A) Systematic risk measured by Beta ($eta$)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The Treynor ratio is calculated as the excess return on stocks minus the risk-free rate, so it's related to expected returns rather than systematic risk.
+C) The Treynor ratio is actually a measure of the sensitivity of portfolio returns to changes in market risk, which is more closely related to the market risk premium than Beta.
 
 
 **Correct Answer:** A
@@ -823,7 +828,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-12 (Treynor Ratio Performance Metric). Systematic risk measured by Beta ($eta$).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The Treynor ratio does not directly measure excess return per unit of systematic risk. Instead, it measures the excess return relative to the risk-free rate and the market risk premium. While it does involve systematic risk, its primary purpose is to compare managers' risk-adjusted returns.
+- C: Beta ($eta$) actually measures the sensitivity of a security's returns to changes in market risk, which is closely related to the Treynor ratio's definition. The Treynor ratio is not directly calculated using Beta or market risk premium.
 
 **LO Reference:** LO-PRT-12 (Treynor Ratio Performance Metric)
 **Related Concepts:** Treynor Ratio Performance Metric, CFA curriculum core concept
@@ -835,8 +841,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Loss aversion bias causes investors to demonstrate asymmetric behavior by:?
 A) Feeling the pain of losses more intensely than the pleasure of equivalent gains
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Loss aversion bias causes investors to prioritize long-term cost savings over short-term gains.
+C) Loss aversion bias causes investors to invest more heavily in assets with higher potential for large losses.
 
 
 **Correct Answer:** A
@@ -844,7 +850,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-PRT-13 (Behavioral Loss Aversion). Feeling the pain of losses more intensely than the pleasure of equivalent gains.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because loss aversion refers to the tendency to prefer avoiding losses over acquiring equivalent gains, not prioritizing cost savings. Loss aversion does not necessarily imply a preference for long-term cost savings.
+- C: This distractor is wrong because while investors may be more risk-averse due to loss aversion, it's not accurate to say that investors invest more heavily in assets with higher potential for large losses. Loss aversion can lead to risk aversion, but this does not necessarily translate to increased investment in high-risk assets.
 
 **LO Reference:** LO-PRT-13 (Behavioral Loss Aversion)
 **Related Concepts:** Behavioral Loss Aversion, CFA curriculum core concept
@@ -857,8 +864,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Capital Market Line (CML) measures total risk using:?
 A) Standard deviation of portfolio returns
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Measures risk using the ratio of excess returns to beta.
+C) Uses the Sharpe ratio formula to calculate portfolio risk.
 
 
 **Correct Answer:** A
@@ -866,7 +873,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-PRT-02 (Capital Market Line (CML) Equation). Standard deviation of portfolio returns.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it incorrectly describes how the CML measures risk. The CML actually uses the ratio of portfolio return to market return, not the ratio of excess returns to beta.
+- C is wrong because it mistakenly applies the Sharpe ratio formula to the CML. The CML equation does not involve the Sharpe ratio or any measure of excess returns.
 
 **LO Reference:** LO-PRT-02 (Capital Market Line (CML) Equation)
 **Related Concepts:** Capital Market Line (CML) Equation, CFA curriculum core concept
@@ -878,8 +886,8 @@ C) Alternative incorrect option
 **Question:**
 The Information Ratio measures excess return relative to a benchmark per unit of:?
 A) Tracking error (active risk)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Net return per unit of total portfolio risk (TPR) adjusted for the market's risk premium
+C) Excess return per unit of beta
 
 
 **Correct Answer:** A
@@ -887,7 +895,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-PRT-04 (Sharpe vs Information Ratio). Tracking error (active risk).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it incorrectly references a flawed measure; the Information Ratio compares to a benchmark, not a modified version of it. TPR adjustment and market's risk premium are distinct concepts.
+- C is wrong because the correct concept being measured is 'tracking error' (active risk), which relates directly to the 'active share' rather than beta.
 
 **LO Reference:** LO-PRT-04 (Sharpe vs Information Ratio)
 **Related Concepts:** Sharpe vs Information Ratio, CFA curriculum core concept
@@ -899,8 +908,8 @@ C) Alternative incorrect option
 **Question:**
 Which limitation is inherent in standard Value at Risk (VaR) models??
 A) VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) VaR accounts for all types of potential losses, not just the expected loss, which includes both realized and unrealized losses.
+C) VaR models do not account for the impact of correlations between assets on overall portfolio risk.
 
 
 **Correct Answer:** A
@@ -908,7 +917,7 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-PRT-06 (Risk Management Value at Risk (VaR)). VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-PRT-06 (Risk Management Value at Risk (VaR))
 **Related Concepts:** Risk Management Value at Risk (VaR), CFA curriculum core concept
@@ -921,8 +930,8 @@ C) Alternative incorrect option
 **Question:**
 A stock has a Beta of 1.2. Risk-free rate is 3% and market return is 8%. An analyst estimates the stock will return 10%. The stock's Jensen's Alpha is:?
 A) +1.0% (Required Return = 3% + 1.2*(8%-3%) = 9.0%; Alpha = 10.0% - 9.0% = +1.0%)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The stock's Jensen's Alpha is 2.0% because the analyst's estimate of the stock return is overly optimistic.
+C) The stock's Jensen's Alpha is 5.0% because the Beta of 1.2 indicates that the stock has a higher risk than expected.
 
 
 **Correct Answer:** A
@@ -930,7 +939,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-PRT-03 (Capital Asset Pricing Model (CAPM) SML Security Alpha). +1.0% (Required Return = 3% + 1.2*(8%-3%) = 9.0%; Alpha = 10.0% - 9.0% = +1.0%).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: This distractor assumes an incorrect relationship between the stock return estimate and the value of alpha, failing to account for the CAPM formula. Additionally, this answer incorrectly calculates the Jensen's Alpha without considering the risk-free rate and market return. The correct calculation requires subtracting the required return from the estimated return, not adding.
+- C: Explanation why C is wrong: This distractor misinterprets the meaning of Beta in relation to alpha. A Beta of 1.2 indicates that the stock's expected return is higher than the market average for a given level of risk, but this does not directly translate to an incorrect value of Jensen's Alpha. The correct calculation still requires subtracting the required return from the estimated return.
 
 **LO Reference:** LO-PRT-03 (Capital Asset Pricing Model (CAPM) SML Security Alpha)
 **Related Concepts:** Capital Asset Pricing Model (CAPM) SML Security Alpha, CFA curriculum core concept
@@ -943,8 +953,8 @@ C) Alternative incorrect option
 **Question:**
 If Asset A and Asset B have correlation coefficient of -1.0, a risk-free portfolio can be constructed if portfolio weights are set to:?
 A) w_A = SD(B) / [SD(A) + SD(B)]
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) w_A = SD(B) / [2*SD(A)]
+C) w_A = -SD(B) / (SD(A) + SD(B))
 
 
 **Correct Answer:** A
@@ -952,7 +962,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-PRT-04 (Portfolio Risk Variance of Two-Asset Portfolio). w_A = SD(B) / [SD(A) + SD(B)].
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the risk-free portfolio is constructed with a positive weight for Asset A, as opposed to a negative weight. The correlation coefficient of -1.0 implies that the assets have opposite risk directions.
+- C: Incorrect because it would require a non-positive weight for Asset A, which violates the condition of a risk-free portfolio.
 
 **LO Reference:** LO-PRT-04 (Portfolio Risk Variance of Two-Asset Portfolio)
 **Related Concepts:** Portfolio Risk Variance of Two-Asset Portfolio, CFA curriculum core concept
@@ -964,8 +975,8 @@ C) Alternative incorrect option
 **Question:**
 The Fama-French three-factor model expands CAPM by adding market risk factor plus:?
 A) Size factor (SMB) and Value factor (HML)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) International Debt Factor (IDF) and Cash Flow Factor (CF)
+C) Profitability Index (PI) and Cash Flow Factor (CF)
 
 
 **Correct Answer:** A
@@ -973,7 +984,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-PRT-05 (Multifactor Risk Models Fama-French Three-Factor Model). Size factor (SMB) and Value factor (HML).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the Fama-French three-factor model only adds market risk factor (smb) along with size factor and value factor, not international debt factor. Also, profitability index is not a standard factor in this framework, cash flow factor could be but it's incorrect here.
 
 **LO Reference:** LO-PRT-05 (Multifactor Risk Models Fama-French Three-Factor Model)
 **Related Concepts:** Multifactor Risk Models Fama-French Three-Factor Model, CFA curriculum core concept
@@ -986,8 +997,8 @@ C) Alternative incorrect option
 **Question:**
 Solvency risk differs from liquidity risk in that solvency risk refers to the risk that:?
 A) Total liabilities exceed total assets, making the enterprise fundamentally insolvent
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Total liabilities exceed total assets, making the enterprise fundamentally insolvent but not necessarily unable to meet short-term obligations.
+C) Insufficient capital or inadequate cash reserves due to unfavorable changes in interest rates and exchange rates
 
 
 **Correct Answer:** A
@@ -995,7 +1006,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-PRT-06 (Risk Management Framework Liquidity Risk vs Solvency Risk). Total liabilities exceed total assets, making the enterprise fundamentally insolvent.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because solvency risk does not solely refer to being insolvent. While a total liability exceed of total assets indicates insolvency, the enterprise may still have sufficient liquidity to meet short-term obligations. Solvency risk focuses on an entity's ability to pay long-term debts and meet financial commitments over time.
+- C: This distractor is incorrect because solvency risk is not solely due to unfavorable changes in interest rates and exchange rates. While these factors can impact a company's solvency, they are not the primary characteristic of solvency risk.
 
 **LO Reference:** LO-PRT-06 (Risk Management Framework Liquidity Risk vs Solvency Risk)
 **Related Concepts:** Risk Management Framework Liquidity Risk vs Solvency Risk, CFA curriculum core concept
@@ -1008,8 +1020,8 @@ C) Alternative incorrect option
 **Question:**
 When evaluating a well-diversified portfolio, an analyst should primarily rank performance using the:?
 A) Sharpe Ratio (or Treynor Ratio, since unsystematic risk is fully diversified away)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Expected Return (E(R)) is a primary metric for portfolio performance evaluation, as it reflects the actual returns earned by an investment.
+C) The Treynor Ratio may be used to evaluate actively managed portfolios, but it's less relevant when evaluating passive or well-diversified portfolios like the one in question.
 
 
 **Correct Answer:** A
@@ -1017,7 +1029,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-PRT-05 (Sharpe Ratio vs Treynor Ratio Portfolio Ranking). Sharpe Ratio (or Treynor Ratio, since unsystematic risk is fully diversified away).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: While E(R) is important for overall portfolio performance, ranking and comparing portfolios primarily relies on metrics that account for risk. Using E(R) alone may not provide a clear picture of relative risk-adjusted performance. Sharpe Ratio (or Treynor Ratio) incorporates both return and risk metrics to make more informed comparisons.
+- C: Explanation why C is wrong: The Treynor Ratio's focus on excess return over market risk is relevant for active management but less applicable in passive or well-diversified portfolios, where unsystematic risk has been fully diversified away. Using the Sharpe Ratio (or Treynor Ratio) provides a more suitable framework for ranking these types of portfolios.
 
 **LO Reference:** LO-PRT-05 (Sharpe Ratio vs Treynor Ratio Portfolio Ranking)
 **Related Concepts:** Sharpe Ratio vs Treynor Ratio Portfolio Ranking, CFA curriculum core concept
@@ -1030,8 +1043,8 @@ C) Alternative incorrect option
 **Question:**
 The primary objective of Strategic Asset Allocation (SAA) in an IPS is to establish a long-term asset mix that:?
 A) Maximizes expected return for the client's specified risk tolerance and constraint profile
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Maximizes expected return for the client's specified risk tolerance and within the investment universe available to meet the investor's objectives, given prevailing market conditions.
+C) Ensures an asset mix that tracks a benchmark index closely, with minimal deviation from the track record of the chosen index.
 
 
 **Correct Answer:** A
@@ -1039,7 +1052,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-PRT-07 (Investment Policy Statement Strategic Asset Allocation). Maximizes expected return for the client's specified risk tolerance and constraint profile.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it implies SAA seeks to maximize return in isolation of other constraints and objectives, rather than aligning with the client's overall investment policy statement. The correct answer considers both risk tolerance and constraint profile alongside expected return.
+- C is wrong because tracking a benchmark index does not necessarily align with the client's specific goals or preferences, which SAA aims to address.
 
 **LO Reference:** LO-PRT-07 (Investment Policy Statement Strategic Asset Allocation)
 **Related Concepts:** Investment Policy Statement Strategic Asset Allocation, CFA curriculum core concept
@@ -1051,8 +1065,8 @@ C) Alternative incorrect option
 **Question:**
 Conditional Value at Risk (CVaR / Expected Shortfall) measures:?
 A) The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The expected loss given that the loss exceeds a certain percentage of VaR threshold with equal probability
+C) The unconditional average loss for all possible outcomes, regardless of VaR threshold
 
 
 **Correct Answer:** A
@@ -1060,7 +1074,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-PRT-08 (Risk Management Value at Risk Conditional VaR). The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because CVaR measures the expected loss above the VaR threshold, not just exceeding a certain percentage. The 'equal probability' aspect is also incorrect as it's more related to Expected Shortfall.
+- C: Incorrect because CVaR is conditional on the loss exceeding the specified VaR threshold and does not consider all possible outcomes.
 
 **LO Reference:** LO-PRT-08 (Risk Management Value at Risk Conditional VaR)
 **Related Concepts:** Risk Management Value at Risk Conditional VaR, CFA curriculum core concept

@@ -1102,8 +1102,8 @@ Using TI BA II Plus CF key:
 **Question:**
 A portfolio return distribution has a mean of 10% and standard deviation of 5%. The probability of a return below 0% using standard normal distribution is closest to:?
 A) 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The portfolio return distribution has a mean of 10% and standard deviation of 5%, so the probability of a return below 0% must be positive since the mean is above 0%
+C) Using a standard normal distribution, we can find that P(Z < -2.00) = P(Z > 2.00), which cannot be true
 
 
 **Correct Answer:** A
@@ -1111,7 +1111,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-13 (Normal Distribution Z-Scores). 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor assumes a misunderstanding of how to calculate probabilities below the mean, ignoring the fact that there is a positive probability for returns above the mean due to the distribution's skewness.
+- C: The correct application of a standard normal distribution shows that P(Z < -2.00) = 0.0228, not equaling P(Z > 2.00), which represents the area under the curve on the other side of the Z-score.
 
 **LO Reference:** LO-QNT-13 (Normal Distribution Z-Scores)
 **Related Concepts:** Normal Distribution Z-Scores, CFA curriculum core concept
@@ -1123,8 +1124,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Why is the lognormal distribution commonly used to model asset prices rather than returns??
 A) Because lognormal values are bounded below by zero, reflecting non-negative asset prices
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Because lognormal values are more symmetric than other distributions, reflecting the consistent returns of asset prices.
+C) Since lognormal distribution can model price movements with higher precision due to its ability to capture non-linear relationships, making it a better fit for modeling asset prices
 
 
 **Correct Answer:** A
@@ -1132,7 +1133,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-14 (Lognormal Distribution). Because lognormal values are bounded below by zero, reflecting non-negative asset prices.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because the lognormal distribution has unbounded positive values on average and a heavy right tail that doesn't accurately reflect consistent returns. The symmetric property of lognormal values actually makes them less suitable for modeling asset price movements compared to other distributions like the normal or exponential distribution.
+- C: This distractor is also wrong as the relationship between lognormal distribution and precision in modeling non-linear relationships is not accurate. Lognormal distributions can capture non-linear relationships but they are not inherently more precise than other distributions. The relationship between lognormal values and asset price movements is complex and not directly related to capturing non-linearities.
 
 **LO Reference:** LO-QNT-14 (Lognormal Distribution)
 **Related Concepts:** Lognormal Distribution, CFA curriculum core concept
@@ -1144,8 +1146,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Compared to a standard normal distribution, a Student's t-distribution with small degrees of freedom has:?
 A) Fatter tails and lower central peak (greater probability of extreme outcomes)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) is more symmetric and has a higher central tendency than a standard normal distribution, indicating less variability around the mean.
+C) has a greater central peak and lower skewness compared to a standard normal distribution, leading to shorter tails and increased reliability in hypothesis testing.
 
 
 **Correct Answer:** A
@@ -1153,7 +1155,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-15 (Student's t-Distribution). Fatter tails and lower central peak (greater probability of extreme outcomes).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: is wrong because a Student's t-Distribution actually has fatter tails and a lower central peak (greater probability of extreme outcomes) than a standard normal distribution. The correct explanation for the difference lies in its decreased degrees of freedom, which contribute to these characteristics.
+- C: is wrong because it incorrectly describes the relationship between the central peak and skewness of a Student's t-Distribution compared to a standard normal distribution. A standard normal distribution has a higher central peak and lower skewness than a Student's t-Distribution with small degrees of freedom, leading to shorter tails.
 
 **LO Reference:** LO-QNT-15 (Student's t-Distribution)
 **Related Concepts:** Student's t-Distribution, CFA curriculum core concept
@@ -1165,8 +1168,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A risk analyst uses Monte Carlo simulation primarily to:?
 A) Model complex multi-variable probabilistic outcome distributions under uncertainty
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Quantify risk associated with individual assets, such as stocks or bonds, by running simulations to estimate potential losses or gains.
+C) Analyze historical stock price data to identify trends and patterns that can be used to make investment decisions.
 
 
 **Correct Answer:** A
@@ -1174,7 +1177,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-16 (Monte Carlo Simulation). Model complex multi-variable probabilistic outcome distributions under uncertainty.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because Monte Carlo simulation primarily models complex multi-variable probabilistic outcome distributions under uncertainty, not just individual assets. While it can be applied to asset valuation, its primary purpose is broader than just risk quantification for a single asset. 
+- C: This distractor is also incorrect because Monte Carlo simulations are used to model outcomes under uncertainty and are typically not used to analyze historical trends in stock prices.
 
 **LO Reference:** LO-QNT-16 (Monte Carlo Simulation)
 **Related Concepts:** Monte Carlo Simulation, CFA curriculum core concept
@@ -1186,8 +1190,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Sampling error is best defined as the difference between:?
 A) A sample statistic and the true population parameter being estimated
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The difference between a sample statistic and the mean of the population being studied
+C) The difference between a sample median and the mode of the population being observed
 
 
 **Correct Answer:** A
@@ -1195,7 +1199,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-17 (Sampling Error Definition). A sample statistic and the true population parameter being estimated.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it implies that sampling error refers to an error in estimating a specific aspect of the population (mean), rather than a comparison to the true population parameter. Sampling error is about comparing a sample statistic to its corresponding population parameter, not just any measure of central tendency. 
+- C: Incorrect because it refers to the difference between two measures of central tendency, which are not relevant to the definition of sampling error. Sampling error should be compared to the true population parameter being estimated, not other statistics like medians or modes.
 
 **LO Reference:** LO-QNT-17 (Sampling Error Definition)
 **Related Concepts:** Sampling Error Definition, CFA curriculum core concept
@@ -1207,8 +1212,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Stratified random sampling ensures that:?
 A) Subpopulations (strata) are represented in the sample in proportion to their population size
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Sampling should start with the stratum that has the highest population size to ensure efficiency and reduce sampling variability.
+C) The entire sample space consists of distinct subpopulations that are mutually exclusive, so stratified random sampling will always include every possible combination of subpopulation values.
 
 
 **Correct Answer:** A
@@ -1216,7 +1221,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-18 (Stratified Random Sampling). Subpopulations (strata) are represented in the sample in proportion to their population size.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it assumes the starting stratum has the highest population size, which does not guarantee proportional representation. Stratification should ensure each stratum's proportion in the sample matches its population proportion regardless of the order they are selected. The correct implementation of stratified random sampling can start with any stratum.
 
 **LO Reference:** LO-QNT-18 (Stratified Random Sampling)
 **Related Concepts:** Stratified Random Sampling, CFA curriculum core concept
@@ -1228,8 +1233,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In hypothesis testing, the null hypothesis (H0) is always formulated as:?
 A) The hypothesis of no effect, no change, or equality to a specified benchmark value
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The hypothesis of no effect, no change, or that the population parameter equals zero
+C) The hypothesis that the mean difference between two groups is equal to a non-zero value
 
 
 **Correct Answer:** A
@@ -1237,7 +1242,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-19 (Null vs Alternative Hypothesis). The hypothesis of no effect, no change, or equality to a specified benchmark value.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it implies an equality to a specific zero value instead of a benchmark value. The correct distractor should be more vague and encompassing of various scenarios. 
+- C: Incorrect because it assumes a non-zero mean difference, which may not always be the case in hypothesis testing.
 
 **LO Reference:** LO-QNT-19 (Null vs Alternative Hypothesis)
 **Related Concepts:** Null vs Alternative Hypothesis, CFA curriculum core concept
@@ -1249,8 +1255,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The p-value of a statistical hypothesis test represents:?
 A) The smallest significance level at which the null hypothesis can be rejected
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The p-value represents the proportion of alternative hypotheses that would lead to a Type I error at the specified significance level.
+C) The p-value represents the probability of observing a result as extreme or more extreme than the one observed, assuming that the null hypothesis is true.
 
 
 **Correct Answer:** A
@@ -1258,7 +1264,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-20 (P-Value Definition). The smallest significance level at which the null hypothesis can be rejected.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it incorrectly states the relationship between the p-value and the significance level. The p-value does not represent proportion of alternative hypotheses.
+- C: Correct explanation for why C is wrong.
 
 **LO Reference:** LO-QNT-20 (P-Value Definition)
 **Related Concepts:** P-Value Definition, CFA curriculum core concept
@@ -1270,8 +1277,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which assumption is required for standard ordinary least squares (OLS) linear regression??
 A) The error terms have constant variance (homoskedasticity) and are uncorrelated
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The data must be from a normal distribution, and any outliers are removed before the analysis begins.
+C) The relationship between the independent variable(s) and the dependent variable must be linear and symmetrical about the mean.
 
 
 **Correct Answer:** A
@@ -1279,7 +1286,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-21 (Simple Linear Regression Assumptions). The error terms have constant variance (homoskedasticity) and are uncorrelated.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because OLS requires homoskedasticity, which only specifies that variance remains constant across all levels of the independent variable(s), not normal distribution or removal of outliers. Removing outliers can affect the results in several ways, such as through extreme values affecting the model's intercept or slope, but it does not ensure homoskedasticity. Therefore, having data from a normal distribution and removing outliers do not guarantee constant variance across all levels of the independent variable(s).
+- C is wrong because OLS assumes linearity between the independent variable(s) and dependent variable only when the relationship is exactly linear and not curved or asymmetrical.
 
 **LO Reference:** LO-QNT-21 (Simple Linear Regression Assumptions)
 **Related Concepts:** Simple Linear Regression Assumptions, CFA curriculum core concept
@@ -1291,8 +1299,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Violating homoskedasticity (heteroskedasticity) in regression analysis causes:?
 A) Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Violating homoskedasticity in regression analysis causes inconsistent regression coefficients, leading to incorrect conclusions about the relationships between variables.
+C) Violating homoskedasticity in regression analysis causes the model to be overfitting, resulting in poor predictive performance and reduced statistical power.
 
 
 **Correct Answer:** A
@@ -1300,7 +1308,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-22 (Regression Homoskedasticity). Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because heteroskedasticity affects standard errors rather than regression coefficients. Standard errors are biased, leading to unreliable t-statistics and hypothesis tests. 
+- C: Incorrect because overfitting is not a direct result of violating homoskedasticity. While it's possible that an ill-specified model may be more prone to heteroskedasticity, the primary issue with heteroskedasticity is biased standard errors rather than reduced statistical power or poor predictive performance.
 
 **LO Reference:** LO-QNT-22 (Regression Homoskedasticity)
 **Related Concepts:** Regression Homoskedasticity, CFA curriculum core concept
@@ -1312,8 +1321,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Unstructured financial big data includes:?
 A) Social media sentiment, satellite images, and earnings call transcript text
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Customer complaint data and transaction records
+C) Weather patterns and consumer behavior surveys
 
 
 **Correct Answer:** A
@@ -1321,7 +1330,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-23 (Big Data Volume and Variety). Social media sentiment, satellite images, and earnings call transcript text.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because social media sentiment, a key component of unstructured financial big data, was not included in the correct answer. However, customer complaint data may be analyzed to gauge market trends or potential regulatory issues. In contrast, transaction records are generally considered structured data as they can be easily organized and analyzed by predefined categories.
 
 **LO Reference:** LO-QNT-23 (Big Data Volume and Variety)
 **Related Concepts:** Big Data Volume and Variety, CFA curriculum core concept
@@ -1333,8 +1342,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In machine learning, out-of-sample testing is performed on:?
 A) Validation or test datasets that were strictly withheld during model training
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Out-of-sample testing is performed on data that is similar to the training data, as it allows for a more accurate representation of real-world scenarios.
+C) Out-of-sample testing involves training and testing on the same dataset, providing insight into how well the model generalizes across different data points.
 
 
 **Correct Answer:** A
@@ -1342,7 +1351,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-24 (Machine Learning Training vs Validation). Validation or test datasets that were strictly withheld during model training.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it describes in-sample testing, where the testing data is similar to the training data. In-sample testing can provide misleading results about a model's performance in real-world scenarios.
+- C: This distractor is wrong because it describes overfitting, where the model is trained and tested on the same dataset, resulting in poor generalization performance.
 
 **LO Reference:** LO-QNT-24 (Machine Learning Training vs Validation)
 **Related Concepts:** Machine Learning Training vs Validation, CFA curriculum core concept
@@ -1355,8 +1365,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A portfolio return distribution has a mean of 10% and standard deviation of 5%. The probability of a return below 0% using standard normal distribution is closest to:?
 A) 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The probability of a return below 0% using the standard normal distribution for a portfolio with a mean return of 10% and a standard deviation of 5% can be approximated by using a Z-score of 2.00, which corresponds to a cumulative probability of approximately 1% (not 2.28%).
+C) Using a Z-table or calculator, we find that the probability of a return below -2 standard deviations from the mean is approximately 0.0228%, not 2.28%.
 
 
 **Correct Answer:** A
@@ -1364,7 +1374,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-13 (Normal Distribution Z-Scores). 2.28% (Z = -2.00, P(Z < -2.0) = 0.0228).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The correct application of the standard normal distribution for this portfolio involves calculating the Z-score and using a Z-table to determine the cumulative probability, which in this case results in a value close to 0.0228%.
+- C: This distractor is incorrect because it incorrectly states the value obtained when looking up a Z-score of -2 in a standard normal distribution table or calculator.
 
 **LO Reference:** LO-QNT-13 (Normal Distribution Z-Scores)
 **Related Concepts:** Normal Distribution Z-Scores, CFA curriculum core concept
@@ -1376,8 +1387,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Why is the lognormal distribution commonly used to model asset prices rather than returns??
 A) Because lognormal values are bounded below by zero, reflecting non-negative asset prices
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Asset prices tend to be positively correlated with their volatility, which lognormal distribution captures more accurately than the normal distribution.
+C) The normal distribution assumes a constant risk premium across all asset classes, whereas the lognormal distribution allows for varying risk premia.
 
 
 **Correct Answer:** A
@@ -1385,7 +1396,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-14 (Lognormal Distribution). Because lognormal values are bounded below by zero, reflecting non-negative asset prices.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because the lognormal distribution does not inherently capture the relationship between asset prices and volatility. While it can be used to model volatility, other distributions such as the GARCH or IGARCH models are more suitable for capturing this relationship.
+- C: This distractor is incorrect because the normal distribution is not specifically designed to assume a constant risk premium. However, it can still be used to estimate the expected return of an asset class, and then add a risk premium component to get the overall expected return.
 
 **LO Reference:** LO-QNT-14 (Lognormal Distribution)
 **Related Concepts:** Lognormal Distribution, CFA curriculum core concept
@@ -1397,8 +1409,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Compared to a standard normal distribution, a Student's t-distribution with small degrees of freedom has:?
 A) Fatter tails and lower central peak (greater probability of extreme outcomes)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Similar shape to a normal distribution, but with less pronounced peak and slightly taller tails due to increased variance with fewer degrees of freedom.
+C) Slower convergence towards the standard normal distribution as sample size increases due to its asymptotic behavior.
 
 
 **Correct Answer:** A
@@ -1406,7 +1418,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-15 (Student's t-Distribution). Fatter tails and lower central peak (greater probability of extreme outcomes).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The Student's t-distribution indeed has fatter tails than a standard normal distribution, but it does not have a lower central peak or greater probability of extreme outcomes. Instead, it tends to be less symmetric around the mean. This distractor misrepresents the key characteristics of the t-distribution.
+- C: While the Student's t-distribution is indeed affected by sample size, its convergence rate towards the standard normal distribution does not depend on degrees of freedom. The t-distribution converges to a normal distribution as the degrees of freedom approach infinity, regardless of sample size. This distractor incorrectly portrays the asymptotic behavior of the t-distribution.
 
 **LO Reference:** LO-QNT-15 (Student's t-Distribution)
 **Related Concepts:** Student's t-Distribution, CFA curriculum core concept
@@ -1418,8 +1431,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A risk analyst uses Monte Carlo simulation primarily to:?
 A) Model complex multi-variable probabilistic outcome distributions under uncertainty
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Assessing individual variables' sensitivity to changes in input parameters rather than modeling complex systems.
+C) Generating static, deterministic output values for specific inputs within a predefined range of values.
 
 
 **Correct Answer:** A
@@ -1427,7 +1440,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-16 (Monte Carlo Simulation). Model complex multi-variable probabilistic outcome distributions under uncertainty.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because Monte Carlo simulation does not focus solely on assessing the sensitivity of individual variables. Instead, it models complex probabilistic distributions to estimate outcomes. The primary goal is to understand how different inputs affect overall performance under uncertainty. While sensitivity analysis can be a component of Monte Carlo simulations, it's not its primary purpose.
+- C: This distractor is wrong because generating static output values within a predefined range does not accurately represent the capabilities and goals of Monte Carlo simulation. The correct approach involves modeling complex probabilistic distributions to account for uncertainties, which is essential in risk analysis.
 
 **LO Reference:** LO-QNT-16 (Monte Carlo Simulation)
 **Related Concepts:** Monte Carlo Simulation, CFA curriculum core concept
@@ -1439,8 +1453,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Sampling error is best defined as the difference between:?
 A) A sample statistic and the true population parameter being estimated
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A measure of the variability in a sampling distribution that occurs when a sample is taken from a population.
+C) The difference between two samples' means if they were both selected from the same population at different times.
 
 
 **Correct Answer:** A
@@ -1448,7 +1462,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-17 (Sampling Error Definition). A sample statistic and the true population parameter being estimated.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because it describes a characteristic of a sampling distribution, not a definition of sampling error. Sampling error occurs when a sample does not accurately represent the true population parameter.
+- C: This distractor is also incorrect because the scenario described only shows that two samples were selected from different times in the same population, which may or may not be related to the original true population parameter.
 
 **LO Reference:** LO-QNT-17 (Sampling Error Definition)
 **Related Concepts:** Sampling Error Definition, CFA curriculum core concept
@@ -1460,8 +1475,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Stratified random sampling ensures that:?
 A) Subpopulations (strata) are represented in the sample in proportion to their population size
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Stratified random sampling ensures that subpopulations are represented in the sample with equal probability
+C) Stratified random sampling ensures that all samples have a finite population size
 
 
 **Correct Answer:** A
@@ -1469,7 +1484,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-18 (Stratified Random Sampling). Subpopulations (strata) are represented in the sample in proportion to their population size.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because stratified random sampling aims to represent subpopulations in proportion to their population size, not with equal probability. This would lead to biased estimates.
+- C: Incorrect because stratification is used when the sample size is too small for the entire population or when there are distinct subgroups within the population. It does not ensure that all samples have a finite population size.
 
 **LO Reference:** LO-QNT-18 (Stratified Random Sampling)
 **Related Concepts:** Stratified Random Sampling, CFA curriculum core concept
@@ -1481,8 +1497,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In hypothesis testing, the null hypothesis (H0) is always formulated as:?
 A) The hypothesis of no effect, no change, or equality to a specified benchmark value
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A statement that describes the condition under which no effect or change occurs, but does not account for alternative scenarios.
+C) The hypothesis that states there is a significant difference between two populations, groups, or samples.
 
 
 **Correct Answer:** A
@@ -1490,7 +1506,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-19 (Null vs Alternative Hypothesis). The hypothesis of no effect, no change, or equality to a specified benchmark value.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-QNT-19 (Null vs Alternative Hypothesis)
 **Related Concepts:** Null vs Alternative Hypothesis, CFA curriculum core concept
@@ -1502,8 +1518,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The p-value of a statistical hypothesis test represents:?
 A) The smallest significance level at which the null hypothesis can be rejected
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The probability that the observed results occurred by chance, assuming the null hypothesis is true.
+C) A measure of the strength of the relationship between two variables.
 
 
 **Correct Answer:** A
@@ -1511,7 +1527,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-20 (P-Value Definition). The smallest significance level at which the null hypothesis can be rejected.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it inaccurately describes the p-value as a probability of observing the data given the null hypothesis. Instead, it represents the probability of observing results at least as extreme as those observed, assuming the null hypothesis is true.
+- C is wrong because it misrepresents the concept of significance and its relationship to hypothesis testing.
 
 **LO Reference:** LO-QNT-20 (P-Value Definition)
 **Related Concepts:** P-Value Definition, CFA curriculum core concept
@@ -1523,8 +1540,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which assumption is required for standard ordinary least squares (OLS) linear regression??
 A) The error terms have constant variance (homoskedasticity) and are uncorrelated
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The data must be normally distributed for OLS to hold.
+C) The variables must not have any multicollinearity among them.
 
 
 **Correct Answer:** A
@@ -1532,7 +1549,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-21 (Simple Linear Regression Assumptions). The error terms have constant variance (homoskedasticity) and are uncorrelated.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the data distribution is not a requirement for OLS, but rather other assumptions like homoskedasticity and linearity of the relationship between the independent variable and the dependent variable are needed. Incorrectly implies that the normality assumption is crucial in OLS. However, in practice, standard OLS does assume constant variance (homoskedasticity) but not necessarily that the residuals should be normally distributed. This assumption relies on a general assumption of linearity in the relationship between the independent and dependent variable. Thus B can often still work even if data isn't perfectly normal.
 
 **LO Reference:** LO-QNT-21 (Simple Linear Regression Assumptions)
 **Related Concepts:** Simple Linear Regression Assumptions, CFA curriculum core concept
@@ -1544,8 +1561,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Violating homoskedasticity (heteroskedasticity) in regression analysis causes:?
 A) Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Violating homoskedasticity leads to decreased standard errors, resulting in conservative t-statistics and hypothesis tests.
+C) Heteroskedasticity in regression analysis causes the sample standard error of the regression coefficient to be inflated, which can lead to spurious significance.
 
 
 **Correct Answer:** A
@@ -1553,7 +1570,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-22 (Regression Homoskedasticity). Standard errors to be biased, leading to unreliable t-statistics and hypothesis tests.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong. Incorrect because decreased standard errors would not cause conservative t-statistics and hypothesis tests.
+- C: Explanation why C is wrong. Correct because heteroskedasticity can indeed cause the sample standard error of the regression coefficient to be inflated, leading to spurious significance.
 
 **LO Reference:** LO-QNT-22 (Regression Homoskedasticity)
 **Related Concepts:** Regression Homoskedasticity, CFA curriculum core concept
@@ -1565,8 +1583,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Unstructured financial big data includes:?
 A) Social media sentiment, satellite images, and earnings call transcript text
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Customer purchase behavior data and medical claims records
+C) Historical stock price charts and news articles
 
 
 **Correct Answer:** A
@@ -1574,7 +1592,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-23 (Big Data Volume and Variety). Social media sentiment, satellite images, and earnings call transcript text.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it represents structured financial data, whereas the correct answer (A) includes unstructured data such as social media sentiment and earnings call transcript text. Structured data typically contains a predefined format or structure, making it easier to analyze and extract insights.
+- C is wrong because historical stock price charts are considered structured data due to their regular format and lack of variability, unlike the diverse and complex nature of unstructured financial big data.
 
 **LO Reference:** LO-QNT-23 (Big Data Volume and Variety)
 **Related Concepts:** Big Data Volume and Variety, CFA curriculum core concept
@@ -1586,8 +1605,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In machine learning, out-of-sample testing is performed on:?
 A) Validation or test datasets that were strictly withheld during model training
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Out-of-sample testing is performed on datasets that have not been seen during the training process to ensure generalizability.
+C) Out-of-sample testing is often used for hyperparameter tuning, such as adjusting learning rates or regularization parameters.
 
 
 **Correct Answer:** A
@@ -1595,7 +1614,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-QNT-24 (Machine Learning Training vs Validation). Validation or test datasets that were strictly withheld during model training.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because out-of-sample testing can include the test dataset (held out of training) but does not limit itself to unseen data only. It's also about evaluating model performance on new, unseen data.
+- C: Incorrect because while hyperparameter tuning can involve out-of-sample testing, it is a different concept than simply performing an evaluation using unseen data to assess overall model performance.
 
 **LO Reference:** LO-QNT-24 (Machine Learning Training vs Validation)
 **Related Concepts:** Machine Learning Training vs Validation, CFA curriculum core concept
@@ -1608,8 +1628,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An investment requires an initial outflow of $1,000 at t=0$ and yields cash inflows of $400 at t=1$ and $800 at t=2$. The project's Internal Rate of Return (IRR) is closest to:?
 A) 10.65% (Solving 1000 = 400/(1+r) + 800/(1+r)^2)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The initial outflow of $1,000 at t=0$ can be ignored in the cash flow calculation as it does not contribute to the overall value creation of the project.
+C) Since the first cash inflow occurs at t=1$, the investment is not generating any cash until that point, making an IRR greater than 100% plausible for this scenario.
 
 
 **Correct Answer:** A
@@ -1617,7 +1637,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-QNT-02 (Discounted Cash Flow IRR Reverse Calculation). 10.65% (Solving 1000 = 400/(1+r) + 800/(1+r)^2).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the initial outflow affects the present value of future cash flows. In order to determine IRR, all cash inflows must be discounted back to time 0 using a common discount rate.
+- C: Incorrect because even though the first cash inflow occurs at t=1$, the investment was already out of pocket $1,000$ and has yet to generate any returns, so a negative IRR is possible. The actual IRR should be lower than 100% due to time value of money.
 
 **LO Reference:** LO-QNT-02 (Discounted Cash Flow IRR Reverse Calculation)
 **Related Concepts:** Discounted Cash Flow IRR Reverse Calculation, CFA curriculum core concept
@@ -1629,8 +1650,8 @@ C) Alternative incorrect option
 **Question:**
 The variance of Stock A is 0.04, the variance of Stock B is 0.09, and the covariance between A and B is 0.003. The correlation coefficient between Stock A and Stock B is closest to:?
 A) 0.05 (Correlation = Cov(A,B) / [SD(A) * SD(B)] = 0.003 / [0.20 * 0.30] = 0.05)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The correlation coefficient between Stock A and Stock B is closest to 0.08, which indicates a moderate negative relationship between the two stocks.
+C) The correlation coefficient between Stock A and Stock B is closest to 0.12, suggesting a weak positive relationship.
 
 
 **Correct Answer:** A
@@ -1638,7 +1659,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-QNT-05 (Covariance & Correlation Calculation). 0.05 (Correlation = Cov(A,B) / [SD(A) * SD(B)] = 0.003 / [0.20 * 0.30] = 0.05).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong - B's correlation value of 0.08 is implausible given the small covariance between A and B (0.003), which would result in a much lower correlation coefficient. The moderate negative relationship indicated by this value does not align with the data provided.
+- C: Explanation why C is wrong - C's correlation value of 0.12 is also implausible, as it would require a significant positive covariance between A and B to achieve, which contradicts the given covariance of 0.003.
 
 **LO Reference:** LO-QNT-05 (Covariance & Correlation Calculation)
 **Related Concepts:** Covariance & Correlation Calculation, CFA curriculum core concept
@@ -1650,8 +1672,8 @@ C) Alternative incorrect option
 **Question:**
 A population has a mean of 100 and standard deviation of 20. For a sample size of n = 100, the standard error of the sample mean is:?
 A) 2.0 (Standard Error = Pop SD / sqrt(n) = 20 / 10 = 2.0)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The standard error of the sample mean is directly proportional to the population variance.
+C) The formula for standard error only accounts for population standard deviation, not the impact of sampling variability on the sample size.
 
 
 **Correct Answer:** A
@@ -1659,7 +1681,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-QNT-08 (Central Limit Theorem Sample Mean Standard Error). 2.0 (Standard Error = Pop SD / sqrt(n) = 20 / 10 = 2.0).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it misrepresents the relationship between standard error and population variance. The actual calculation involves dividing by sqrt(n), which reduces the effect of high population variances. 
+- C: Correctly identifies a limitation in the formula, but incorrectly states that the impact is on the sample size. The correct issue is that the formula does not account for sampling variability when n is large, and the effect of this is to decrease the standard error as n increases.
 
 **LO Reference:** LO-QNT-08 (Central Limit Theorem Sample Mean Standard Error)
 **Related Concepts:** Central Limit Theorem Sample Mean Standard Error, CFA curriculum core concept
@@ -1671,8 +1694,8 @@ C) Alternative incorrect option
 **Question:**
 A researcher conducts a two-tailed t-test with n = 25 (df = 24) at alpha = 0.05. The critical t-value is 2.064. The calculated test statistic is t = -2.35. The correct decision is to:?
 A) Reject the null hypothesis because |-2.35| > 2.064, indicating statistical significance
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Since n = 25, the sample size is large enough to assume a normal distribution for the test statistic. The critical value should be the t-distribution with a degrees of freedom equal to 24.
+C) The researcher chose a two-tailed test but failed to specify that the alternative hypothesis assumes the mean is greater than the population mean, which could lead to Type I errors.
 
 
 **Correct Answer:** A
@@ -1680,7 +1703,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-QNT-10 (Two-Tailed Hypothesis t-Test Decision). Reject the null hypothesis because |-2.35| > 2.064, indicating statistical significance.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because the sample size is actually small (n = 25), not large. The critical t-value should be used directly for a two-tailed test regardless of n.
+- C: This distractor is correct in stating that the researcher chose a two-tailed test, but it incorrectly states the assumption of the alternative hypothesis, which should assume a less-than or greater-than population mean to avoid Type I errors.
 
 **LO Reference:** LO-QNT-10 (Two-Tailed Hypothesis t-Test Decision)
 **Related Concepts:** Two-Tailed Hypothesis t-Test Decision, CFA curriculum core concept
@@ -1693,8 +1717,8 @@ C) Alternative incorrect option
 **Question:**
 A portfolio has a 60% probability of earning a 15% return and a 40% probability of earning a 5% return. The expected return and standard deviation of the portfolio are:?
 A) Expected Return = 11.0%, Standard Deviation = 4.90%
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The probability of earning a 20% return has been overlooked.
+C) The high value marginal error has caused an overestimation of the expected return.
 
 
 **Correct Answer:** A
@@ -1702,7 +1726,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-QNT-07 (Probability Distributions & Expected Value). Expected Return = 11.0%, Standard Deviation = 4.90%.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The distractor incorrectly assumes that the missing information would significantly alter the expected return, whereas the correct calculation simply ignores it. The actual expected return remains unchanged due to linearity of expectation.
+- C: This distractor incorrectly attributes the high value marginal error to an overestimation of the standard deviation, when in fact the error affects the expected return. A more accurate approach would recalculate the expected return using a different method that accounts for the ignored probability.
 
 **LO Reference:** LO-QNT-07 (Probability Distributions & Expected Value)
 **Related Concepts:** Probability Distributions & Expected Value, CFA curriculum core concept
@@ -1714,8 +1739,8 @@ C) Alternative incorrect option
 **Question:**
 For a normally distributed population with unknown variance and sample size n = 36, the 95% confidence interval for the population mean uses:?
 A) The Student's t-distribution with 35 degrees of freedom
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The confidence interval uses the chi-square distribution with n-1 degrees of freedom for sample size n = 36.
+C) The confidence interval uses the F-distribution with (n-1, n-1) degrees of freedom for sample size n = 36.
 
 
 **Correct Answer:** A
@@ -1723,7 +1748,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-QNT-09 (Confidence Intervals for Population Mean). The Student's t-distribution with 35 degrees of freedom.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the sample size is known, not unknown. The chi-square distribution is used when variance is unknown, but it's not applicable in this case. 
+- C: Incorrect because the degrees of freedom are incorrectly specified. The F-distribution is typically used for ratio variables or variances/covariances, not means.
 
 **LO Reference:** LO-QNT-09 (Confidence Intervals for Population Mean)
 **Related Concepts:** Confidence Intervals for Population Mean, CFA curriculum core concept
@@ -1735,8 +1761,8 @@ C) Alternative incorrect option
 **Question:**
 If a researcher decreases the significance level (alpha) of a test from 5% to 1%, the probability of a Type I error and Type II error will:?
 A) Type I error probability decreases; Type II error probability increases
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Decreasing alpha reduces the power of the test, making it more likely to incorrectly reject a true null hypothesis (Type II error), but it decreases the risk of Type I errors due to the increased scrutiny required for significance.
+C) The researcher would still be able to control the probability of Type I errors with stricter criteria, while increasing the likelihood of missing a true effect (Type II error) because the test becomes less powerful.
 
 
 **Correct Answer:** A
@@ -1744,7 +1770,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-QNT-11 (Hypothesis Testing Type I vs Type II Errors). Type I error probability decreases; Type II error probability increases.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect; decreasing alpha decreases Type I error probability not increases. It actually increases Type II error probability.
+- C: Correct
 
 **LO Reference:** LO-QNT-11 (Hypothesis Testing Type I vs Type II Errors)
 **Related Concepts:** Hypothesis Testing Type I vs Type II Errors, CFA curriculum core concept
@@ -1757,8 +1784,8 @@ C) Alternative incorrect option
 **Question:**
 When testing whether the variance of a single normal population equals a specified value, the appropriate test statistic is the:?
 A) Chi-square (x^2) test statistic
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The sample variance of a normally distributed population will always be greater than its theoretical value because it represents an unbiased estimator.
+C) The F-test is used to compare the variances of two populations, not a single population's variance to a specified value.
 
 
 **Correct Answer:** A
@@ -1766,7 +1793,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-QNT-12 (Hypothesis Testing Chi-Square & F-Tests). Chi-square (x^2) test statistic.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the sample variance of a normal population can be less than its theoretical value due to sampling variability. The chi-square test compares observed and expected variances, but it requires at least two groups or observations for comparison.
+- C: Incorrect because the F-test is indeed used for comparing variances between populations, but in hypothesis testing, we want to compare a sample's variance to a specified population parameter (like a given variance). The chi-square test statistic directly addresses this comparison.
 
 **LO Reference:** LO-QNT-12 (Hypothesis Testing Chi-Square & F-Tests)
 **Related Concepts:** Hypothesis Testing Chi-Square & F-Tests, CFA curriculum core concept
@@ -1779,8 +1807,8 @@ C) Alternative incorrect option
 **Question:**
 When population data violates normality assumptions and sample size is small, the appropriate test statistic for comparing two medians is:?
 A) A non-parametric test such as the Wilcoxon signed-rank test
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The Kruskal-Wallis H-test, which compares medians across multiple groups, can also be used to compare two medians when the sample size is small.
+C) The t-test for paired data, which assumes normality of the population distribution and equal variances, is suitable for comparing two medians even when the population data violates normality assumptions and the sample size is small.
 
 
 **Correct Answer:** A
@@ -1788,7 +1816,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-QNT-15 (Parametric vs Non-Parametric Hypothesis Tests). A non-parametric test such as the Wilcoxon signed-rank test.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The Kruskal-Wallis H-test is typically used to compare multiple groups at a time, not just two. It's also more computationally intensive and less powerful than the Wilcoxon signed-rank test when comparing only two samples.
+- C: Assuming normality of the population distribution and equal variances are not valid assumptions, especially when sample size is small. The t-test for paired data may produce incorrect results if these assumptions are violated.
 
 **LO Reference:** LO-QNT-15 (Parametric vs Non-Parametric Hypothesis Tests)
 **Related Concepts:** Parametric vs Non-Parametric Hypothesis Tests, CFA curriculum core concept
@@ -1801,8 +1830,8 @@ C) Alternative incorrect option
 **Question:**
 An annuity due pays $1,000 at the beginning of each year for 5 years at a discount rate of 6%. Its present value is closest to:?
 A) $4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The present value of an annuity due can be calculated by using the formula Annuity Due PV = Ordinary Annuity PV * (1 + r)^n / (1 + r) or simply multiplying the ordinary annuity PV by (1+r). Here, if we use r=0.06 and n=5 we have $(1+0.06)^5  \approx 1.338225$ so $4,212.36 * 1.338225 \approx 5,661.39$ which is incorrect because the annuity due is paid at the beginning of each year.
+C) If we assume that an annuity due is equivalent to an ordinary annuity with a lump sum payment at the end of the first period and interest accrual over the remaining periods (i.e., PV = PV0 * (1+r)^n) we can calculate its present value as $4,212.36 * 1.06 = 4,465.11$ but only if all payments are made at the beginning of each year which is not true in this problem.
 
 
 **Correct Answer:** A
@@ -1810,7 +1839,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-QNT-04 (Present Value of Ordinary Annuity vs Annuity Due). $4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-QNT-04 (Present Value of Ordinary Annuity vs Annuity Due)
 **Related Concepts:** Present Value of Ordinary Annuity vs Annuity Due, CFA curriculum core concept
@@ -1823,8 +1853,8 @@ C) Alternative incorrect option
 **Question:**
 A major advantage of Monte Carlo simulation over historical simulation in risk management is that Monte Carlo simulation can:?
 A) Model hypothetical extreme risk scenarios that have never occurred in historical price series
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) can provide a lower cost of capital for portfolio managers by reducing the weight given to extreme historical events that are unlikely to occur again.
+C) can be run on existing financial planning software with minimal additional programming required, making it easier to implement across an entire firm.
 
 
 **Correct Answer:** A
@@ -1832,7 +1862,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation). Model hypothetical extreme risk scenarios that have never occurred in historical price series.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because Monte Carlo simulation can actually increase the cost of capital by requiring more assumptions and input variables. Furthermore, it is often used to incorporate extreme scenarios into a portfolio's risk management framework rather than reduce their weight. Additionally, historical simulations do not require additional programming or special software. 
+- C: Incorrect because Monte Carlo simulations typically require significant additional programming and specialized software to run efficiently.
 
 **LO Reference:** LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation)
 **Related Concepts:** Monte Carlo Simulation vs Historical Simulation, CFA curriculum core concept
@@ -1844,8 +1875,8 @@ C) Alternative incorrect option
 **Question:**
 For any population distribution with mean mu and variance sigma^2, the distribution of sample means approaches normality as sample size n increases, with variance equal to:?
 A) sigma^2 / n
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The distribution of sample means approaches a normality with variance equal to sigma^2 / (n + 1).
+C) The distribution of sample means approaches a normality with variance equal to 2 * sigma^2 / n.
 
 
 **Correct Answer:** A
@@ -1853,7 +1884,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-QNT-17 (Central Limit Theorem Sample Variance). sigma^2 / n.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it incorrectly adds or multiplies the variance by a constant factor, violating the Central Limit Theorem's assumptions. The actual formula for the population variance of the sampling distribution of sample means is indeed sigma^2 / n.
+- C: This distractor is wrong because it assumes that the variance of the sampling distribution increases with the sample size, rather than decreasing. In reality, the variance decreases as the sample size increases.
 
 **LO Reference:** LO-QNT-17 (Central Limit Theorem Sample Variance)
 **Related Concepts:** Central Limit Theorem Sample Variance, CFA curriculum core concept
@@ -1866,8 +1898,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst wants to test whether the variance of Portfolio A equals the variance of Portfolio B. The appropriate test statistic is:?
 A) F-test statistic (ratio of sample variances)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) t-test statistic (difference between means) with unequal variances
+C) chi-square test statistic (for testing homogeneity of variance)
 
 
 **Correct Answer:** A
@@ -1875,7 +1907,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-12 (Hypothesis Testing Chi-Square vs F-Test Selection). F-test statistic (ratio of sample variances).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B is wrong because the F-test specifically tests for equal variances, not unequal variances.
+- C is wrong because while chi-square can be used to test for homogeneity of variance, it's not directly applicable to comparing the variances of two portfolios without making specific assumptions about their distributions.
 
 **LO Reference:** LO-QNT-12 (Hypothesis Testing Chi-Square vs F-Test Selection)
 **Related Concepts:** Hypothesis Testing Chi-Square vs F-Test Selection, CFA curriculum core concept
@@ -1887,8 +1920,8 @@ C) Alternative incorrect option
 **Question:**
 When analyzing paired (matched-pair) financial data that violates normality, the most appropriate non-parametric test for median differences is:?
 A) Wilcoxon signed-rank test
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Spearman rank correlation coefficient test can be used to compare the median differences between two matched samples.
+C) Mann Whitney U test can provide a more accurate result for comparing the median differences between two independent groups.
 
 
 **Correct Answer:** A
@@ -1896,7 +1929,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-15 (Non-Parametric Tests Wilcoxon Signed-Rank Test Selection). Wilcoxon signed-rank test.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B is wrong because Spearman rank correlation coefficient test is not designed to directly compare median differences, and the assumptions required for this test are different from those of the Wilcoxon signed-rank test. Furthermore, the Mann Whitney U test requires paired data, which makes it less suitable than the Wilcoxon signed-rank test in this scenario.
+- C is wrong because the Mann Whitney U test assumes independence between observations, whereas paired (matched-pair) financial data typically violates normality and does not meet this assumption.
 
 **LO Reference:** LO-QNT-15 (Non-Parametric Tests Wilcoxon Signed-Rank Test Selection)
 **Related Concepts:** Non-Parametric Tests Wilcoxon Signed-Rank Test Selection, CFA curriculum core concept
@@ -1908,8 +1942,8 @@ C) Alternative incorrect option
 **Question:**
 When testing whether two independent non-normal sample distributions have equal medians, the appropriate non-parametric test is:?
 A) Mann-Whitney U test (Wilcoxon rank-sum test)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Kolmogorov-Smirnov test with the median as a statistic of interest.
+C) Mann-Whitney U test is used for paired data, not unpaired data. The Kruskal-Wallis H test would be more appropriate.
 
 
 **Correct Answer:** A
@@ -1917,7 +1951,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-15 (Non-Parametric Tests Mann-Whitney U Test Selection). Mann-Whitney U test (Wilcoxon rank-sum test).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: The Kolmogorov-Smirnov test evaluates the difference between two cumulative distribution functions and is not specifically tailored to compare medians. The Mann-Whitney U test (Wilcoxon rank-sum test) is designed for this purpose.
+- C: While it's true that the Mann-Whitney U test is used for paired data, the unpaired data in this scenario makes A the correct answer. The Kruskal-Wallis H test is an alternative non-parametric test for comparing multiple groups, not just two.
 
 **LO Reference:** LO-QNT-15 (Non-Parametric Tests Mann-Whitney U Test Selection)
 **Related Concepts:** Non-Parametric Tests Mann-Whitney U Test Selection, CFA curriculum core concept
@@ -1929,8 +1964,8 @@ C) Alternative incorrect option
 **Question:**
 A primary limitation of historical simulation compared to Monte Carlo simulation is that historical simulation:?
 A) Cannot model scenarios or price paths that did not occur in the historical data sample
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Is heavily influenced by the sampling method used, which may not accurately represent future market conditions.
+C) Does not account for time-varying risk parameters that change over time, leading to inaccurate results in certain scenarios.
 
 
 **Correct Answer:** A
@@ -1938,7 +1973,7 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation Limitations). Cannot model scenarios or price paths that did not occur in the historical data sample.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor is wrong because historical simulation can be robustly validated against actual outcomes if the sample period is long enough. While sampling methods are crucial, they are a characteristic of both Monte Carlo and historical simulations, not a unique limitation of historical simulation. The main challenge lies in identifying representative samples rather than influencing future market conditions.
 
 **LO Reference:** LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation Limitations)
 **Related Concepts:** Monte Carlo Simulation vs Historical Simulation Limitations, CFA curriculum core concept
@@ -1950,8 +1985,8 @@ C) Alternative incorrect option
 **Question:**
 If population standard deviation is 12.0 and sample size n = 36, the standard error of the sample mean is:?
 A) 2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Sample size n = 100, population standard deviation sigma = 12.0, the sample standard deviation s = 24.0.
+C) Standard error of sample mean is calculated using the Fisher-Pearson method which states SE = (sigma^2 / n) * log(1 + (n-1) / 2).
 
 
 **Correct Answer:** A
@@ -1959,7 +1994,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-17 (Central Limit Theorem Sample Mean Standard Error). 2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor contains incorrect information about the relationship between n and sigma. The correct formula for SE does not include a factor of n = 100.
+- C: The Fisher-Pearson method is actually used to calculate the standard error of the difference between two sample means, not the standard error of the sample mean. The correct formula for SE uses the population standard deviation (sigma) directly.
 
 **LO Reference:** LO-QNT-17 (Central Limit Theorem Sample Mean Standard Error)
 **Related Concepts:** Central Limit Theorem Sample Mean Standard Error, CFA curriculum core concept
@@ -1971,8 +2007,8 @@ C) Alternative incorrect option
 **Question:**
 Decreasing the significance level alpha of a hypothesis test from 5% to 1% causes the probability of a Type I error to decrease and:?
 A) Probability of Type II error (beta) to increase, decreasing statistical power (1 - beta)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Decreasing alpha results in a smaller family of rejection regions, thus decreasing the probability of Type I errors, but not directly affecting Type II error rates.
+C) Changing alpha does not influence the shape of the distribution under the null hypothesis, therefore, it doesn't impact Type II error rates or statistical power.
 
 
 **Correct Answer:** A
@@ -1980,7 +2016,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-14 (Type I vs Type II Errors Power of Test Calibration). Probability of Type II error (beta) to increase, decreasing statistical power (1 - beta).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: Incorrect because changing alpha does affect Type II error rates, as a more stringent test becomes less likely to reject true null hypotheses.
+- C: Incorrect because adjusting alpha changes the distribution of the test statistic under the null hypothesis, affecting its shape and thus impacting Type II error rates.
 
 **LO Reference:** LO-QNT-14 (Type I vs Type II Errors Power of Test Calibration)
 **Related Concepts:** Type I vs Type II Errors Power of Test Calibration, CFA curriculum core concept

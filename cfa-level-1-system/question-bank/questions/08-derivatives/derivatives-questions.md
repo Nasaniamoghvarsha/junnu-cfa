@@ -728,8 +728,8 @@ $$\text{Settlement Payment} = \frac{\$25,000}{1 + \left(0.05 \times \frac{90}{36
 **Question:**
 When a futures trader's margin balance falls below the maintenance margin level, the trader receives a:?
 A) Margin call requiring funds to restore the balance back to the INITIAL margin level
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Margin call requiring funds to restore the balance back to the MARKET TO MARKET margin level
+C) Trader is allowed a 24-hour grace period before receiving a margin call, during which time they can deposit additional funds or liquidate positions.
 
 
 **Correct Answer:** A
@@ -737,7 +737,9 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-DER-08 (Futures Margin Mark-to-Market). Margin call requiring funds to restore the balance back to the INITIAL margin level.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it incorrectly applies the concept of market-to-market margining. When the trader's margin balance falls below the maintenance margin level, the trader must restore the balance back to the INITIAL margin level to avoid a margin call. Market-to-market margining is relevant in different contexts, such as interest rate derivatives or swap agreements, but not for futures contracts. 
+
+- C: This distractor is wrong because it misrepresents the rules governing margin calls for futures traders. While there may be some variation depending on the exchange or market, most exchanges require a margin call when a trader's account balance falls below the maintenance margin level without allowing a grace period. The purpose of maintaining adequate margins is to protect the exchange against potential losses in case the trader defaults on their obligations.
 
 **LO Reference:** LO-DER-08 (Futures Margin Mark-to-Market)
 **Related Concepts:** Futures Margin Mark-to-Market, CFA curriculum core concept
@@ -749,8 +751,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Put-call parity for European options on non-dividend paying stock states:?
 A) Fiduciary Call ($C + PV(X)$) equals Protective Put ($P + S_0$)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Call premium equals Protective Put price plus Stock Price
+C) Fiduciary Call equals Protective Put minus PV(X) Stock Price
 
 
 **Correct Answer:** A
@@ -758,7 +760,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-DER-09 (Put-Call Parity Equity Options). Fiduciary Call ($C + PV(X)$) equals Protective Put ($P + S_0$).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it incorrectly equates the call premium with the sum of the protective put and stock price, violating the fundamental principles of put-call parity. Additionally, it fails to account for the present value (PV) of the strike price, which should be subtracted from the Protective Put price.
+- C: This distractor is wrong because it incorrectly adds PV(X) Stock Price instead of subtracting it, again failing to accurately represent the principles of put-call parity.
 
 **LO Reference:** LO-DER-09 (Put-Call Parity Equity Options)
 **Related Concepts:** Put-Call Parity Equity Options, CFA curriculum core concept
@@ -770,8 +773,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In a single-period binomial option model, the risk-neutral probability ($\pi$) depends on:?
 A) Risk-free rate, up-move factor ($u$), and down-move factor ($d$)
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Risk-free rate and expected return of the underlying asset
+C) Risk-neutral interest rate only
 
 
 **Correct Answer:** A
@@ -779,7 +782,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-DER-10 (Binomial Option Pricing Model). Risk-free rate, up-move factor ($u$), and down-move factor ($d$).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because the risk-neutral probability ($\pi$) depends on the risk-free rate, up-move factor ($u$), and down-move factor ($d$). The expected return of the underlying asset does not directly affect $\pi$.- C is wrong because the risk-neutral interest rate only affects the risk-free rate component of the risk-neutral probability. Without the factors $u$ and $d$, it would be impossible to determine a valid risk-neutral probability.
 
 **LO Reference:** LO-DER-10 (Binomial Option Pricing Model)
 **Related Concepts:** Binomial Option Pricing Model, CFA curriculum core concept
@@ -791,8 +794,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Delta of a European call option measures the change in option price per 1.00 change in:?
 A) Underlying asset spot price
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Delta of a European call option measures the change in option price per 1.00 change in implied volatility
+C) Delta of a European call option measures the change in option price per 1.00 change in strike price
 
 
 **Correct Answer:** A
@@ -800,7 +803,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-DER-11 (Option Delta Definition). Underlying asset spot price.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong The Delta measures change in option price due to change in underlying spot price, not volatility.
+- C: Explanation why C is wrong Delta only relates to changes in underlying spot prices, and not the strikes or volatility.
 
 **LO Reference:** LO-DER-11 (Option Delta Definition)
 **Related Concepts:** Option Delta Definition, CFA curriculum core concept
@@ -812,8 +816,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In a plain vanilla fixed-for-floating interest rate swap, net settlement cash flows equal:?
 A) Notional amount × (Swap Fixed Rate - Floating Benchmark Rate) × Day Count Fraction
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Notional amount × (Floating Benchmark Rate - Swap Fixed Rate) × Day Count Fraction
+C) Notional amount × Floating Benchmark Rate × (Swap Fixed Rate - Day Count Fraction)
 
 
 **Correct Answer:** A
@@ -821,7 +825,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-DER-12 (Interest Rate Swaps Settlement). Notional amount × (Swap Fixed Rate - Floating Benchmark Rate) × Day Count Fraction.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it inverts the subtraction order, incorrectly subtracting floating rate from fixed rate. 
+- C: Incorrect because it incorrectly incorporates a day count fraction as part of the calculation for the net settlement cash flows.
 
 **LO Reference:** LO-DER-12 (Interest Rate Swaps Settlement)
 **Related Concepts:** Interest Rate Swaps Settlement, CFA curriculum core concept
@@ -833,8 +838,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A 3x9 FRA represents a forward rate agreement that settles in:?
 A) 3 months on a 6-month underlying benchmark rate
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Settles in 6 months on a 3-month underlying benchmark rate
+C) Settles in 12 months on a 9-month underlying benchmark rate
 
 
 **Correct Answer:** A
@@ -842,7 +847,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-DER-13 (Forward Rate Agreements (FRA)). 3 months on a 6-month underlying benchmark rate.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The FRA has equal time periods (6/3) but does not specify the underlying benchmark rate, so B is incorrect. According to LO-DER-13, the forward rate agreement settles in 3 months on a 6-month underlying benchmark rate.
+- C: Although it appears that 12 months equals 9 months + 3 months, this answer incorrectly assumes that the FRA must settle over the entire duration of both parties' commitments. The correct interpretation is that the agreement sets a forward rate for the duration of both parties' commitment periods, which are 6 and 9 months respectively. Thus, C is also incorrect.
 
 **LO Reference:** LO-DER-13 (Forward Rate Agreements (FRA))
 **Related Concepts:** Forward Rate Agreements (FRA), CFA curriculum core concept
@@ -855,8 +861,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 At expiration (t=T), the value of a long forward contract on a stock with spot price S_T and delivery price F_0 is:?
 A) S_T - F_0
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The forward price at expiration would be the average of the spot and delivery prices, so (S_T + F_0) / 2 = S_T - F_0 / 2
+C) Since the forward contract allows for price adjustment until expiration, the value at T is actually calculated using the futures price at T, which reflects current market expectations, resulting in a value of F_T - F_0
 
 
 **Correct Answer:** A
@@ -864,7 +870,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-DER-02 (Forward Contract Value at Expiration). S_T - F_0.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it misunderstands the concept of spot and forward prices. The correct formula simply states that the value of a long forward contract at expiration is the difference between the spot price and delivery price.
+- C: Wrong because, although futures contracts do adjust to market expectations, this does not affect the value of the forward contract itself, which remains the difference between the delivery price and spot price.
 
 **LO Reference:** LO-DER-02 (Forward Contract Value at Expiration)
 **Related Concepts:** Forward Contract Value at Expiration, CFA curriculum core concept
@@ -876,8 +883,8 @@ C) Alternative incorrect option
 **Question:**
 A covered call position consists of being:?
 A) Long the underlying stock and short a call option
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Long the underlying stock and short a put option
+C) Hold a position in cash with no exposure to the underlying stock
 
 
 **Correct Answer:** A
@@ -885,7 +892,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-DER-05 (Covered Call Strategy Payoff). Long the underlying stock and short a call option.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This answer is incorrect because it incorrectly changes the type of option from call to put. In a covered call position, the investor sells a call option to gain income, which implies that they are shorting a call option, not long-ing a put option.
+- C: This answer is incorrect because holding cash does not create a net long exposure in the underlying stock, whereas in a covered call position, the investor has sold a call option and therefore has a long exposure to the underlying stock.
 
 **LO Reference:** LO-DER-05 (Covered Call Strategy Payoff)
 **Related Concepts:** Covered Call Strategy Payoff, CFA curriculum core concept
@@ -897,8 +905,8 @@ C) Alternative incorrect option
 **Question:**
 An interest rate cap pays the buyer when the underlying benchmark floating rate:?
 A) Exceeds the agreed strike rate on settlement dates
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Pays when the underlying benchmark floating rate is below the agreed strike rate on settlement dates
+C) Pays when the buyer's actual cost of borrowing exceeds the total interest payments made under a swap agreement
 
 
 **Correct Answer:** A
@@ -906,7 +914,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-DER-07 (Interest Rate Cap vs Floor). Exceeds the agreed strike rate on settlement dates.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor describes an interest rate floor, not a cap. A cap pays out when the benchmark rate exceeds the strike rate.
+- C: Although this explanation is complex and might seem plausible at first glance, it misrepresents how an interest rate cap actually works. The key feature of an interest rate cap is that it limits the buyer's exposure to increases in the underlying benchmark floating rate, not that it compares the buyer's actual cost of borrowing to total interest payments made under a swap agreement.
 
 **LO Reference:** LO-DER-07 (Interest Rate Cap vs Floor)
 **Related Concepts:** Interest Rate Cap vs Floor, CFA curriculum core concept
@@ -919,8 +928,8 @@ C) Alternative incorrect option
 **Question:**
 According to put-call parity ($C + PV(X) = P + S$), a synthetic long stock position is created by:?
 A) Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Buying a call option and selling a put option with the same strike, and investing the present value of the strike in risk-free bonds
+C) Investing the present value of the strike in risk-free bonds and buying a long stock position, then shorting the call option
 
 
 **Correct Answer:** A
@@ -928,7 +937,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-DER-03 (Put-Call Parity Option Synthetic Positions). Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it does not include selling the put option. The correct positions are buying a call and selling a put with the same strike.
+- C: Incorrect because it is creating a synthetic long stock position by buying the stock instead of investing in risk-free bonds.
 
 **LO Reference:** LO-DER-03 (Put-Call Parity Option Synthetic Positions)
 **Related Concepts:** Put-Call Parity Option Synthetic Positions, CFA curriculum core concept
@@ -940,8 +950,8 @@ C) Alternative incorrect option
 **Question:**
 6 months after inception of a 2-year fixed-for-floating swap, short-term benchmark rates drop significantly. The value of the swap to the fixed-rate receiver:?
 A) Increases, because receiving the higher fixed rate becomes more valuable in a low-rate environment
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The value of the swap to the fixed-rate receiver decreases because the floating leg becomes less valuable in a low-interest rate environment.
+C) The value of the swap to the fixed-rate receiver increases because the floating leg's notional amount is more diluted due to a lower short-term benchmark rate, making the fixed leg relatively more valuable.
 
 
 **Correct Answer:** A
@@ -949,7 +959,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-DER-06 (Interest Rate Swap Valuation Post-Inception). Increases, because receiving the higher fixed rate becomes more valuable in a low-rate environment.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong - The actual reason for the decrease in value is that the fixed leg becomes less valuable compared to the floating leg. The drop in short-term benchmark rates benefits the floating leg, not the fixed leg.
+- C: Explanation why C is wrong - The correct explanation is related to the relative values of the fixed and floating legs in a low-rate environment. As rates drop, the fixed leg's value becomes relatively more valuable compared to the dilution effect on the floating leg's notional amount.
 
 **LO Reference:** LO-DER-06 (Interest Rate Swap Valuation Post-Inception)
 **Related Concepts:** Interest Rate Swap Valuation Post-Inception, CFA curriculum core concept
@@ -962,8 +973,8 @@ C) Alternative incorrect option
 **Question:**
 Gamma measures the rate of change of call option Delta relative to:?
 A) Underlying asset spot price
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Variance of the underlying asset's returns
+C) Volatility of the underlying asset
 
 
 **Correct Answer:** A
@@ -971,7 +982,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-DER-04 (Option Greeks Gamma and Theta). Underlying asset spot price.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because Gamma measures the rate of change of call option Delta relative to a specific point (the underlying asset spot price) rather than over a range of possible prices. This is not a property of variance itself.
+- C is wrong because, while volatility does affect an option's Delta, it does so in a way that's more related to the entire distribution of returns, rather than just the rate of change at a single point (the underlying asset spot price).
 
 **LO Reference:** LO-DER-04 (Option Greeks Gamma and Theta)
 **Related Concepts:** Option Greeks Gamma and Theta, CFA curriculum core concept
@@ -983,8 +995,8 @@ C) Alternative incorrect option
 **Question:**
 In a single-name Credit Default Swap, the protection seller agrees to pay the protection buyer if:?
 A) A credit event (such as bankruptcy or failure to pay) occurs on the reference entity
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) the protection seller agrees to pay the protection buyer if a downgrade occurs on the reference entity
+C) the protection seller agrees to pay the protection buyer in case of an economic downturn on the reference entity
 
 
 **Correct Answer:** A
@@ -992,7 +1004,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-DER-07 (Credit Default Swaps (CDS) Protection Seller Duties). A credit event (such as bankruptcy or failure to pay) occurs on the reference entity.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This answer is incorrect because, under the CDS protection seller agreement, they only make payments in response to credit events (such as bankruptcy or failure to pay) on the reference entity, not downgrades. Downgrades are a different type of credit event that typically result in a higher payout for the buyer, but do not trigger an immediate payment.
+- C: This answer is also incorrect because the protection seller only makes payments due to events specifically defined in the agreement, such as bankruptcy or failure to pay, and does not make payments based on general economic downturns.
 
 **LO Reference:** LO-DER-07 (Credit Default Swaps (CDS) Protection Seller Duties)
 **Related Concepts:** Credit Default Swaps (CDS) Protection Seller Duties, CFA curriculum core concept
@@ -1005,8 +1018,8 @@ C) Alternative incorrect option
 **Question:**
 Which assumption is required under the standard Black-Scholes-Merton option pricing model??
 A) The risk-free rate and volatility of the underlying asset are constant over the option life
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The risk-free rate is assumed to be constant over the option life, but it can change with volatility.
+C) Volatility of the underlying asset is assumed to be constant over time, but it can change in response to changes in interest rates or other macroeconomic factors.
 
 
 **Correct Answer:** A
@@ -1014,7 +1027,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-DER-08 (Option Pricing Black-Scholes-Merton Model Assumptions). The risk-free rate and volatility of the underlying asset are constant over the option life.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-DER-08 (Option Pricing Black-Scholes-Merton Model Assumptions)
 **Related Concepts:** Option Pricing Black-Scholes-Merton Model Assumptions, CFA curriculum core concept
@@ -1027,8 +1040,8 @@ C) Alternative incorrect option
 **Question:**
 A protective put strategy provides downside risk protection below the strike price while preserving:?
 A) Unlimited upside potential above the breakeven price (Stock Purchase Price + Put Premium)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Preserves the risk premium from buying a put option
+C) Provides liquidity at expiration by allowing for easy conversion to a call option
 
 
 **Correct Answer:** A
@@ -1036,7 +1049,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-DER-05 (Option Payoff Protective Put Strategy). Unlimited upside potential above the breakeven price (Stock Purchase Price + Put Premium).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it incorrectly focuses on the premium rather than upside potential, and the strategy actually limits upside. 
+- C: Incorrect because while it's true that selling puts can provide liquidity, this is not how protective puts work and doesn't preserve any upside potential.
 
 **LO Reference:** LO-DER-05 (Option Payoff Protective Put Strategy)
 **Related Concepts:** Option Payoff Protective Put Strategy, CFA curriculum core concept
@@ -1049,8 +1063,8 @@ C) Alternative incorrect option
 **Question:**
 In a 2x5 FRA at a fixed rate of 4.0%, if the 3-month floating rate at settlement is 5.0%, the long position receives:?
 A) Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The long position pays a coupon payment based on the floating rate, and then receives an additional settlement payment that is 1.0% above the fixed rate, discounted to the settlement date.
+C) The settlement value is simply the difference between the floating rate and the fixed rate times the notional principal amount.
 
 
 **Correct Answer:** A
@@ -1058,7 +1072,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-DER-06 (Forward Rate Agreements (FRA) Settlement Value). Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it assumes a premium or discount for the FRA, but instead the long position only receives interest on their initial investment. The additional settlement payment reflects the interest differential discounted back to the settlement date.
+- C: Incorrect because the settlement value is based on the fixed rate and the difference between the floating rate and the fixed rate times the notional principal amount.
 
 **LO Reference:** LO-DER-06 (Forward Rate Agreements (FRA) Settlement Value)
 **Related Concepts:** Forward Rate Agreements (FRA) Settlement Value, CFA curriculum core concept
@@ -1070,8 +1085,8 @@ C) Alternative incorrect option
 **Question:**
 According to put-call parity, a synthetic protective put position is created by:?
 A) Buying a call option, buying a zero-coupon risk-free bond, and shorting nothing (Long Call + Long Bond)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Buying a call option, selling a zero-coupon risk-free bond, and buying nothing (Short Call - Short Bond)
+C) Buying a put option, buying a zero-coupon risk-free bond, and shorting nothing (Long Put + Long Bond)
 
 
 **Correct Answer:** A
@@ -1079,7 +1094,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-DER-09 (Options Put Call Parity Protective Put Synthetic). Buying a call option, buying a zero-coupon risk-free bond, and shorting nothing (Long Call + Long Bond).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because selling a bond is not part of creating a protective put position. It's the opposite; you're paying to be long the asset.
+- C: Incorrect because putting on a synthetic put requires buying options, not buying put options directly.
 
 **LO Reference:** LO-DER-09 (Options Put Call Parity Protective Put Synthetic)
 **Related Concepts:** Options Put Call Parity Protective Put Synthetic, CFA curriculum core concept
@@ -1092,8 +1108,8 @@ C) Alternative incorrect option
 **Question:**
 A call option's Gamma measures the rate of change of Delta with respect to underlying asset price. As an option becomes deep in-the-money or deep out-of-the-money, Gamma approaches:?
 A) Zero (Gamma is highest for at-the-money options)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Gamma approaches a constant rate as the option becomes deep in-the-money, allowing traders to more accurately predict future price movements.
+C) As an option becomes deep out-of-the-money, Gamma increases, reflecting the option's increasing sensitivity to changes in underlying asset price.
 
 
 **Correct Answer:** A
@@ -1101,7 +1117,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-04 (Option Greeks Gamma and Theta). Zero (Gamma is highest for at-the-money options).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor is incorrect because Gamma does not approach a constant rate as the option becomes deeper in-the-money; it actually decreases. This decrease makes sense from a hedging perspective, where reducing Gamma reduces the risk associated with Delta.
+- C: This distractor is incorrect because Gamma approaches zero, not increases, as an option becomes deep out-of-the-money. This decrease reflects the decreasing sensitivity of the option to changes in underlying asset price.
 
 **LO Reference:** LO-DER-04 (Option Greeks Gamma and Theta)
 **Related Concepts:** Option Greeks Gamma and Theta, CFA curriculum core concept
@@ -1113,8 +1130,8 @@ C) Alternative incorrect option
 **Question:**
 A investor holds a long stock position and writes an out-of-the-money call option. This covered call strategy:?
 A) Caps maximum upside gain at the strike price plus premium while leaving downside risk unhedged
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Limits downside risk to the strike price minus premium
+C) Protects against a potential stock market crash by limiting upside and downside losses equally
 
 
 **Correct Answer:** A
@@ -1122,7 +1139,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-05 (Option Payoff Protective Put vs Covered Call Traps). Caps maximum upside gain at the strike price plus premium while leaving downside risk unhedged.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor implies that the strategy limits downside risk, which is incorrect because it actually leaves downside risk unhedged. The purpose of the covered call is to generate additional income from writing options, not to limit downside risk.
+- C: This distractor incorrectly suggests that the strategy protects against a potential stock market crash by limiting both upside and downside losses equally. In reality, the covered call strategy caps maximum upside gain at the strike price plus premium while leaving downside risk unhedged.
 
 **LO Reference:** LO-DER-05 (Option Payoff Protective Put vs Covered Call Traps)
 **Related Concepts:** Option Payoff Protective Put vs Covered Call Traps, CFA curriculum core concept
@@ -1134,8 +1152,8 @@ C) Alternative incorrect option
 **Question:**
 In a 3-year plain vanilla interest rate swap, the fixed rate payer receives 4.5% floating and pays 4.0% fixed on $10,000,000 notional. At annual settlement, the fixed rate payer receives:?
 A) $50,000 net payment ($10,000,000 * [4.5% - 4.0%])
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The floating leg pays an average of 4.2%, making the net payment $42,000 ($10,000,000 * [4.5% - 4.2%])
+C) The fixed rate payer pays a total of $400,000 (4.0% of $10,000,000) every year, regardless of interest rates
 
 
 **Correct Answer:** A
@@ -1143,7 +1161,7 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-06 (Interest Rate Swaps Settlement Calculation Sign Errors). $50,000 net payment ($10,000,000 * [4.5% - 4.0%]).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor is wrong because it incorrectly assumes the floating leg's average rate is lower than the stated fixed rate, when in fact it's paying a higher rate and the net payment would be positive. - C: This distractor is wrong because it only considers the fixed leg's payment without accounting for the interest rate differential between the two legs
 
 **LO Reference:** LO-DER-06 (Interest Rate Swaps Settlement Calculation Sign Errors)
 **Related Concepts:** Interest Rate Swaps Settlement Calculation Sign Errors, CFA curriculum core concept
@@ -1155,8 +1173,8 @@ C) Alternative incorrect option
 **Question:**
 Under the Black-Scholes-Merton model, an increase in the volatility of the underlying asset spot price causes the value of:?
 A) Both European call and put options to increase
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) An increase in the volatility of the underlying asset spot price causes the value of European call options to decrease, while put options to remain stable.
+C) An increase in the volatility of the underlying asset spot price causes the value of European call options to increase more than put options
 
 
 **Correct Answer:** A
@@ -1164,7 +1182,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-08 (Black-Scholes Model Inputs Sensitivity Analysis). Both European call and put options to increase.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: B is wrong because an increase in volatility typically increases the value of both calls and puts due to increased uncertainty, not decreases. Additionally, the impact on stability is not a direct result of volatility.
+- C: C is wrong because while it's true that call options tend to increase more with higher volatility than put options, the statement does not account for the fact that both options will generally increase in value with increased volatility.
 
 **LO Reference:** LO-DER-08 (Black-Scholes Model Inputs Sensitivity Analysis)
 **Related Concepts:** Black-Scholes Model Inputs Sensitivity Analysis, CFA curriculum core concept
@@ -1176,8 +1195,8 @@ C) Alternative incorrect option
 **Question:**
 According to put-call parity P0 + S0 = C0 + X/(1+r)^T, shorting a synthetic asset S0 is equivalent to:?
 A) Buying a put option, shorting a call option, and shorting a risk-free bond
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Shorting a synthetic asset S0 equates to shorting a call option, shorting a risk-free bond, and buying a put option with strike K = S0.
+C) Shorting a synthetic asset S0 equates to shorting a cash position worth (S0 / (1+r)^T) * r.
 
 
 **Correct Answer:** A
@@ -1185,7 +1204,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-09 (Put-Call Parity Synthetic Position Sign Verification). Buying a put option, shorting a call option, and shorting a risk-free bond.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor is incorrect because it incorrectly inverts the relationship between call and put options; buying a put option, shorting a call option, and shorting a risk-free bond replicates S0 accurately. Furthermore, this choice misrepresents the cash component of the put-call parity formula.
+- C: This distractor is incorrect as it represents an arbitrage opportunity rather than a synthetic position; shorting a cash component that equates to r * (S0 / (1+r)^T) does not replicate S0. The correct answer B correctly replicates S0 through options and bond positions, accounting for the put-call parity relationship.
 
 **LO Reference:** LO-DER-09 (Put-Call Parity Synthetic Position Sign Verification)
 **Related Concepts:** Put-Call Parity Synthetic Position Sign Verification, CFA curriculum core concept
@@ -1197,8 +1217,8 @@ C) Alternative incorrect option
 **Question:**
 In a CDS cash settlement after a credit event, the protection seller pays the protection buyer:?
 A) Par value minus recovery value of the reference obligation
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Par value plus 5% of the reference obligation's notional amount
+C) Recovery value minus 2.5% of the reference obligation's notional amount
 
 
 **Correct Answer:** A
@@ -1206,7 +1226,8 @@ C) Alternative incorrect option
 **Explanation:** Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-DER-07 (Credit Default Swap Settlement Physical vs Cash Delivery). Par value minus recovery value of the reference obligation.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions identified in Blind A.
+- B: This distractor suggests paying more than par, which is unrealistic in a CDS cash settlement. The protection seller should only pay the difference between the par value and recovery value, not an additional amount.
+- C: This distractor incorrectly subtracts a percentage of the reference obligation's notional amount from the recovery value, rather than simply using the recovery value as stated in the correct answer.
 
 **LO Reference:** LO-DER-07 (Credit Default Swap Settlement Physical vs Cash Delivery)
 **Related Concepts:** Credit Default Swap Settlement Physical vs Cash Delivery, CFA curriculum core concept

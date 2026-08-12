@@ -661,8 +661,8 @@ C) Pure equity ownership with zero contractual interest payments
 **Question:**
 A high-water mark provision in a hedge fund incentive fee structure prevents managers from:?
 A) Collecting incentive fees on performance that merely recovers past cumulative losses
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Collecting incentive fees on performance that exceeds current market returns but does not account for historical losses.
+C) Receiving additional incentive fee payments after a hedge fund's assets have returned to their initial investment value.
 
 
 **Correct Answer:** A
@@ -670,7 +670,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ALT-07 (Hedge Fund Fee Structures High Water Mark). Collecting incentive fees on performance that merely recovers past cumulative losses.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because it doesn't specify past cumulative losses, which are exactly what the high-water mark provision prevents managers from collecting on. 
+- C: This distractor is also incorrect as it describes receiving additional payments after return of assets to initial value, not preventing collection of fees on performance recovering past losses.
 
 **LO Reference:** LO-ALT-07 (Hedge Fund Fee Structures High Water Mark)
 **Related Concepts:** Hedge Fund Fee Structures High Water Mark, CFA curriculum core concept
@@ -682,8 +683,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Leveraged Buyout (LBO) transactions rely heavily on debt capital to:?
 A) Amplify equity investor returns upon exit via debt paydown using portfolio cash flow
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Allow for more flexible financing options and reduce the initial outlay of cash required to complete an LBO, enabling investors to focus on acquiring undervalued assets.
+C) Enable leveraged investors to take advantage of favorable market conditions by using borrowed funds to fuel aggressive expansion and consolidation strategies.
 
 
 **Correct Answer:** A
@@ -691,7 +692,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ALT-08 (Private Equity LBO Capital Structure). Amplify equity investor returns upon exit via debt paydown using portfolio cash flow.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because LBOs rely on debt capital to amplify equity investor returns upon exit via debt paydown using portfolio cash flow, not to provide flexible financing options or reduce the initial outlay of cash. A more realistic explanation for why an LBO relies on debt capital would be to provide a higher return on investment to equity investors through increased leverage and then to use that returned funds to pay down the debt and allow investors to reap the returns. - C: This distractor is wrong because, while borrowing can facilitate expansion and consolidation strategies, this is not the primary reason LBOs rely on debt capital.
 
 **LO Reference:** LO-ALT-08 (Private Equity LBO Capital Structure)
 **Related Concepts:** Private Equity LBO Capital Structure, CFA curriculum core concept
@@ -703,8 +704,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The Capitalization Rate (Cap Rate) for a commercial real estate property equals:?
 A) Net Operating Income (NOI) divided by Property Purchase Price
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Capitalization Rate equals NOI minus Vacancy and Depreciation divided by Property Purchase Price.
+C) Capitalization Rate equals NOI divided by Debt Service plus Property Taxes divided by Property Purchase Price.
 
 
 **Correct Answer:** A
@@ -712,7 +713,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ALT-09 (Real Estate Capitalization Rate). Net Operating Income (NOI) divided by Property Purchase Price.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it incorrectly includes vacancy and depreciation, which are not part of the standard capitalization rate calculation. The correct formula only uses net operating income.
+- C: This distractor is wrong because it introduces a debt service component that is not relevant to the calculation of the capitalization rate.
 
 **LO Reference:** LO-ALT-09 (Real Estate Capitalization Rate)
 **Related Concepts:** Real Estate Capitalization Rate, CFA curriculum core concept
@@ -724,8 +726,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A commodity market in **backwardation** (futures price < spot price) generates a:?
 A) Positive roll yield when rolling expiring long futures contracts into cheaper forward contracts
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Rolls long futures contracts into more expensive forward contracts to take advantage of the backwardation.
+C) Futures prices are less volatile than forward prices in a commodity market with backwardation, allowing for greater hedging flexibility.
 
 
 **Correct Answer:** A
@@ -733,7 +735,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ALT-10 (Commodity Backwardation and Roll Yield). Positive roll yield when rolling expiring long futures contracts into cheaper forward contracts.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because rolling long futures into forward contracts actually makes you worse off due to the backwardation, not better. The correct strategy would be to roll expiring long futures into cheaper forward contracts to benefit from the spread.
+- C: This distractor is incorrect because it describes a characteristic of a commodity market with contango (futures price > spot price), not backwardation.
 
 **LO Reference:** LO-ALT-10 (Commodity Backwardation and Roll Yield)
 **Related Concepts:** Commodity Backwardation and Roll Yield, CFA curriculum core concept
@@ -745,8 +748,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Greenfield infrastructure projects carry higher risk than Brownfield projects because:?
 A) Greenfield projects involve construction, permitting, and unproven initial demand
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) B involves more uncertainty surrounding existing facility upgrades and the potential for unexpected costs due to legacy system obsolescence.
+C) C carries higher risk due to environmental liabilities associated with contaminated sites requiring costly remediation before development can proceed.
 
 
 **Correct Answer:** A
@@ -754,7 +757,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ALT-11 (Infrastructure Investment Risk Profile). Greenfield projects involve construction, permitting, and unproven initial demand.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because while legacy system obsolescence does add a layer of complexity, it is not the primary reason greenfield projects carry more risk. The explanation provided aligns better with the original answer and LO-ALT-11. 
+- C is wrong because environmental liabilities are a consideration in Brownfield projects as well, although they may be less predictable and require more costly remediation, it does not inherently make Brownfield projects riskier than Greenfield ones according to the given explanation.
 
 **LO Reference:** LO-ALT-11 (Infrastructure Investment Risk Profile)
 **Related Concepts:** Infrastructure Investment Risk Profile, CFA curriculum core concept
@@ -767,8 +771,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Carried interest in a private equity fund represents:?
 A) The general partner's share of profits (typically 20%) above the hurdle rate
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The general partner's share of profits (typically 10%) above the hurdle rate
+C) The carried interest expense paid to investors, typically a percentage of their initial investment
 
 
 **Correct Answer:** A
@@ -776,7 +780,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ALT-02 (Private Equity Hurdle Rate & Carried Interest). The general partner's share of profits (typically 20%) above the hurdle rate.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor suggests a lower carried interest rate than the correct answer, which is implausible given typical fund structures. The correct answer reflects the general partner's share of profits above the hurdle rate.
+- C: This distractor implies that carried interest is an expense, rather than a profit-sharing arrangement common in private equity funds. Additionally, the language regarding initial investment does not accurately describe carried interest.
 
 **LO Reference:** LO-ALT-02 (Private Equity Hurdle Rate & Carried Interest)
 **Related Concepts:** Private Equity Hurdle Rate & Carried Interest, CFA curriculum core concept
@@ -788,8 +793,8 @@ C) Alternative incorrect option
 **Question:**
 In a commodity market in **contango** (futures price > spot price), a long futures position incurs a:?
 A) Negative roll yield when expiring contracts are rolled into higher-priced forward contracts
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Negative roll yield when expiring contracts are rolled into lower-priced forward contracts
+C) Positive roll yield when expiring contracts are rolled into lower-priced forward contracts
 
 
 **Correct Answer:** A
@@ -797,7 +802,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ALT-04 (Commodity Futures Contango Roll Yield). Negative roll yield when expiring contracts are rolled into higher-priced forward contracts.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because rolling into a higher-priced contract increases the cost, leading to a negative roll yield. A long position incurs a negative roll yield when rolling into a higher-priced forward contract.
+- C: Incorrect because rolling into a lower-priced forward contract reduces the cost, leading to a positive roll yield. A long position incurs a positive roll yield when rolling into a lower-priced forward contract.
 
 **LO Reference:** LO-ALT-04 (Commodity Futures Contango Roll Yield)
 **Related Concepts:** Commodity Futures Contango Roll Yield, CFA curriculum core concept
@@ -810,8 +816,8 @@ C) Alternative incorrect option
 **Question:**
 A commercial property generates Potential Gross Income of $1,000,000, vacancy loss of 5%, and operating expenses of $350,000. At a cap rate of 8%, property value is:?
 A) $7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The property's operating expenses can be reduced by negotiating a more favorable lease, bringing the vacancy loss to 3% and reducing the cap rate to 7.5%.
+C) If the property owner were to invest $200,000 in capital improvements, the Property Value would increase due to increased rental income from enhanced amenities.
 
 
 **Correct Answer:** A
@@ -819,7 +825,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation). $7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation)
 **Related Concepts:** Real Estate Net Operating Income (NOI) Valuation, CFA curriculum core concept
@@ -832,8 +839,8 @@ C) Alternative incorrect option
 **Question:**
 In private equity LBO modeling, the primary drivers of investment return (IRR) are:?
 A) EBITDA growth, multiple expansion, and debt paydown using free cash flows
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Interest rate risk management and capital market conditions
+C) Firm's financial leverage and cost of equity
 
 
 **Correct Answer:** A
@@ -841,7 +848,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-ALT-12 (Private Equity Valuation Methods Valuation at Exit). EBITDA growth, multiple expansion, and debt paydown using free cash flows.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because while interest rate risk management can affect IRR, it is not a primary driver. Capital market conditions are not directly linked to LBO returns. Distractor B is incorrect.
+- C: Incorrect because capital market conditions influence the valuation multiple used in LBO modeling, but they do not impact IRR directly. Firm's financial leverage affects cost of debt, which can affect after-tax cash flows and thus IRR, but it is not a primary driver of investment return
 
 **LO Reference:** LO-ALT-12 (Private Equity Valuation Methods Valuation at Exit)
 **Related Concepts:** Private Equity Valuation Methods Valuation at Exit, CFA curriculum core concept
@@ -853,8 +861,8 @@ C) Alternative incorrect option
 **Question:**
 An equity long/short hedge fund seeks to generate alpha by:?
 A) Going long undervalued stocks while shorting overvalued stocks to minimize market beta exposure
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Utilizing an active risk management strategy to increase the hedge fund's overall beta to generate alpha
+C) Selectively going long growth stocks that are expected to outperform the market, while selling call options on these positions
 
 
 **Correct Answer:** A
@@ -862,7 +870,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-ALT-13 (Hedge Fund Strategies Equity Long/Short). Going long undervalued stocks while shorting overvalued stocks to minimize market beta exposure.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because a high-beta strategy would lead to increased market exposure and decreased diversification benefits, contradicting the goal of minimizing market beta exposure. - C is wrong because generating alpha through beta enhancement does not align with the strategy described in A, which seeks to minimize market beta exposure.
 
 **LO Reference:** LO-ALT-13 (Hedge Fund Strategies Equity Long/Short)
 **Related Concepts:** Hedge Fund Strategies Equity Long/Short, CFA curriculum core concept
@@ -875,8 +883,8 @@ C) Alternative incorrect option
 **Question:**
 The primary cause of hedge fund failures historically has been attributed to:?
 A) Operational failure, fraud, or misrepresentation of asset valuations
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Over-reliance on leverage and high-interest debt leading to liquidity crises.
+C) Poor risk management strategies, including over-exposure to single asset classes or sectors.
 
 
 **Correct Answer:** A
@@ -884,7 +892,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-ALT-14 (Hedge Fund Due Diligence Operational Risk). Operational failure, fraud, or misrepresentation of asset valuations.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because operational failure often involves internal issues such as human error, technical glitches, or mismanagement of processes. In contrast, hedge fund failures due to over-reliance on leverage and high-interest debt can lead to catastrophic results, but are not the primary cause. Leverage is more likely to be a symptom than a root cause. 
+- C: Incorrect because poor risk management strategies are also related to operational issues and do not address the underlying root causes such as asset misvaluation or fraud.
 
 **LO Reference:** LO-ALT-14 (Hedge Fund Due Diligence Operational Risk)
 **Related Concepts:** Hedge Fund Due Diligence Operational Risk, CFA curriculum core concept
@@ -897,8 +906,8 @@ C) Alternative incorrect option
 **Question:**
 As a commodity futures contract approaches its expiration date, the basis (Spot Price minus Futures Price):?
 A) Converges to zero at contract expiration
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The basis does not converge to zero at contract expiration, but rather decreases as the futures contract approaches its expiration date due to the effects of roll yields.
+C) The basis actually diverges from zero at contract expiration due to arbitrage opportunities arising from the differences in prices between forward and spot markets.
 
 
 **Correct Answer:** A
@@ -906,7 +915,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-ALT-05 (Commodity Futures Basis and Convergence). Converges to zero at contract expiration.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The explanation provided for why B is incorrect does not account for the role of roll yields in influencing basis, which can lead to a decrease in basis as futures contracts approach expiration. However, this effect is generally more significant than the converging component described in the correct answer. 
+- C: While arbitrage opportunities do occur at contract expiration, they tend to be balanced by other market forces that counteract their effects, resulting in the basis not diverging from zero. The correct answer emphasizes the basis converging to zero as a general rule for commodity futures contracts approaching expiration.
 
 **LO Reference:** LO-ALT-05 (Commodity Futures Basis and Convergence)
 **Related Concepts:** Commodity Futures Basis and Convergence, CFA curriculum core concept
@@ -919,8 +929,8 @@ C) Alternative incorrect option
 **Question:**
 In commercial real estate DCF valuation, the terminal capitalization rate is applied to projected Net Operating Income in year:?
 A) N + 1 (the year immediately following the holding period end)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) N + 5 years after the holding period end date, assuming a typical capitalization rate hold period of 4-6 years.
+C) N - 2 years before the holding period end date, which is not supported by conventional DCF valuation practices.
 
 
 **Correct Answer:** A
@@ -928,7 +938,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model). N + 1 (the year immediately following the holding period end).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The terminal capitalization rate is applied immediately following the holding period end to accommodate the assumption that the asset is fully depreciated and the cash flows are from existing net operating income. Applying it N + 5 years after does not align with standard DCF methodologies.
+- C: Applying the terminal capitalization rate two years before the end of the holding period would result in unrealistically high valuation multiples, as the holding period benefits from favorable tax and depreciation schedules.
 
 **LO Reference:** LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model)
 **Related Concepts:** Real Estate Valuation Discounted Cash Flow Model, CFA curriculum core concept
@@ -940,8 +951,8 @@ C) Alternative incorrect option
 **Question:**
 A clawback provision in a private equity partnership agreement requires the General Partner (GP) to:?
 A) Return excess carried interest received if subsequent portfolio investments result in total GP earnings above agreed split
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Return excess carried interest received if subsequent portfolio investments result in total GP earnings below agreed split
+C) Repay any clawback amount to the Limited Partners (LPs) if the GP's net returns fall short of the targeted internal rate of return (IRR)
 
 
 **Correct Answer:** A
@@ -949,7 +960,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ALT-08 (Private Equity Clawback Provision). Return excess carried interest received if subsequent portfolio investments result in total GP earnings above agreed split.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because it reverses the correct outcome. The GP should return excess carried interest, not repay LPs.
+- C is wrong because it incorrectly specifies repaying clawback amounts to LPs and misinterprets the IRR's role in determining the clawback provision.
 
 **LO Reference:** LO-ALT-08 (Private Equity Clawback Provision)
 **Related Concepts:** Private Equity Clawback Provision, CFA curriculum core concept

@@ -463,12 +463,12 @@
       "stem": "The Net Present Value (NPV) profile of a project plots NPV against discount rates. The slope of the profile is:?",
       "options": {
         "A": "Negative, indicating NPV declines as the discount rate increases",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A decreasing NPV profile indicates that the project's expected cash inflows are increasing, leading to higher present values at lower discount rates.",
+        "C": "The slope of an NPV profile reflects a project's sensitivity to changes in the discount rate, with negative slopes typically indicating projects that are less valuable when discounted at higher rates."
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-07 (Capital Budgeting NPV Profile). Negative, indicating NPV declines as the discount rate increases.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because increasing cash inflows do not necessarily lead to higher present values at lower discount rates. The relationship between NPV and discount rate requires careful consideration of both timing and magnitude of cash flows.\n- C: While a negative slope does indicate that the project becomes less valuable when discounted at higher rates, this answer is more nuanced as it acknowledges that the slope reflects the trade-off between expected future cash flows and the time value of money."
     },
     {
       "id": "Q-COR-0027",
@@ -481,12 +481,12 @@
       "stem": "The cost of non-callable, non-convertible preferred stock ($r_ps$) equals:?",
       "options": {
         "A": "Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$)",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Cost of Preferred Stock = (Preferred Dividend * Risk-Free Rate) / (Risk-Free Rate + Cost of Equity)",
+        "C": "Cost of Preferred Stock = (Dividend Yield - Cost of Equity) * Market Value of Preferred Stock"
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-08 (WACC Cost of Preferred Stock). Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because it incorrectly uses the dividend yield instead of the preferred dividend, and assumes a direct relationship with risk-free rate which is incorrect for non-callable, non-convertible stocks.\n- C is wrong because it incorrectly assumes the market value of preferred stock can be used to calculate cost of preferred stock, and also incorrectly calculates the cost of preferred stock as a function of dividend yield and cost of equity"
     },
     {
       "id": "Q-COR-0028",
@@ -499,12 +499,12 @@
       "stem": "The after-tax cost of debt capital ($r_d(1-t)$) incorporates the marginal tax rate because:?",
       "options": {
         "A": "Interest expense is tax-deductible in corporate tax returns",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Depreciation on a debt instrument is tax-deductible in corporate tax returns, thus increasing the after-tax cost of debt capital.",
+        "C": "The marginal tax rate affects the after-tax cost of debt capital because higher tax rates result in lower interest deductions, thereby increasing the cost of borrowing."
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-09 (Cost of Debt Capital). Interest expense is tax-deductible in corporate tax returns.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because depreciation on a debt instrument does not increase the after-tax cost of debt capital. Depreciation is typically related to tangible assets and does not affect the tax treatment of interest expenses. The correct answer relies solely on the tax deductibility of interest expenses.\n- C: This distractor misinterprets the relationship between the marginal tax rate and the after-tax cost of debt capital. While higher tax rates do result in lower interest deductions, they also reduce the after-tax cost of debt capital by increasing the effective tax rate applied to interest income. The correct answer highlights that the marginal tax rate is incorporated into the after-tax cost of debt capital because interest expenses are tax-deductible."
     },
     {
       "id": "Q-COR-0029",
@@ -517,12 +517,12 @@
       "stem": "Financial risk refers specifically to risk resulting from a company's use of:?",
       "options": {
         "A": "Fixed-cost debt capital in its capital structure",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Higher fixed-cost debt capital increases a company's interest rate risk, making it more vulnerable to changes in market interest rates.",
+        "C": "Companies with higher fixed-cost debt capital have less financial flexibility to respond to changes in the economy."
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-10 (Business Risk vs Financial Risk). Fixed-cost debt capital in its capital structure.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "Q-COR-0030",
@@ -535,12 +535,12 @@
       "stem": "The Degree of Operating Leverage (DOL) measures the sensitivity of EBIT to changes in:?",
       "options": {
         "A": "Sales revenue",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The DOL measures the sensitivity of EBIT to changes in operating efficiency.",
+        "C": "The DOL measures the sensitivity of EBIT to changes in labor costs."
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-11 (Degree of Operating Leverage (DOL)). Sales revenue.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it refers to changes in 'operating efficiency', which is not a direct measure of sales revenue sensitivity. The correct focus should be on sales revenue, as higher sales volumes directly impact production levels and capacity utilization.\n- C: Incorrect because labor costs are not the primary driver of EBIT sensitivity. While labor costs can affect profitability, the DOL specifically measures the impact of changes in sales revenue on EBIT."
     },
     {
       "id": "Q-COR-0031",
@@ -553,12 +553,12 @@
       "stem": "The Cash Conversion Cycle equals Days Sales Outstanding plus Days of Inventory ON Hand minus:?",
       "options": {
         "A": "Number of Days of Payables Outstanding",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Days of Inventory Outstanding - Days of Receivables Outstanding",
+        "C": "Days of Inventory Outstanding + Days of Payables Outstanding"
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-12 (Working Capital Cash Conversion Cycle). Number of Days of Payables Outstanding.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it incorrectly adds Days of Inventory Outstanding instead of subtracting. The correct formula requires the subtraction of Days of Receivables Outstanding to calculate Days Sales Outstanding.\n- C: Incorrect because it incorrectly adds Days of Inventory Outstanding and Days of Payables Outstanding, resulting in an incorrect calculation of the Cash Conversion Cycle."
     },
     {
       "id": "Q-COR-0032",
@@ -571,12 +571,12 @@
       "stem": "Under modern corporate governance frameworks, the primary duty of the Board of Directors is to:?",
       "options": {
         "A": "Protect shareholder interests while monitoring management execution",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Ensure compliance with corporate social responsibility policies and environmental regulations.",
+        "C": "Maximize stakeholder value through strategic partnerships and community development initiatives."
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-13 (Corporate Governance ESG Stakeholders). Protect shareholder interests while monitoring management execution.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because it implies that the Board's primary duty is to comply with CSR policies, rather than protecting shareholder interests. While important, CSR considerations are secondary to the fiduciary duties of shareholders. Modern corporate governance frameworks prioritize shareholder interests above all else.\n- C is wrong because it assumes the Board has a broader mandate to promote stakeholder value beyond what is explicitly outlined in modern corporate governance frameworks."
     },
     {
       "id": "Q-COR-0033",
@@ -589,12 +589,12 @@
       "stem": "A company's Beta is 1.2, risk-free rate is 3%, and market risk premium is 6%. Its CAPM cost of equity is:?",
       "options": {
         "A": "10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The company's cost of equity can be calculated using the Weighted Average Cost of Capital (WACC) approach, which takes into account the debt and equity components.",
+        "C": "The market risk premium should be multiplied by the risk-free rate to obtain the cost of equity."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-COR-02 (WACC Cost of Equity CAPM Approach). 10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The WACC approach is incorrect because it assumes a specific capital structure, whereas the CAPM approach assumes all invested capital is at risk. This distractor misrepresents the CAPM approach.\n- C: Multiplying the market risk premium by the risk-free rate would result in an incorrect cost of equity due to the omission of the company's Beta and its impact on the expected return."
     },
     {
       "id": "Q-COR-0034",
@@ -607,12 +607,12 @@
       "stem": "The Marginal Cost of Capital (MCC) schedule slopes upward because:?",
       "options": {
         "A": "Costs of debt and equity capital increase as the firm raises larger amounts of capital",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "As firms take on more debt, the cost of interest payments increases, which offsets the lower costs associated with equity financing, leading to an upward-sloping MCC schedule.",
+        "C": "The MCC schedule slopes upward because larger firms have better negotiating power with suppliers and labor unions, allowing them to secure better deals for raw materials and wages, thereby increasing their overall cost of capital."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-COR-04 (Capital Structure Marginal Cost of Capital). Costs of debt and equity capital increase as the firm raises larger amounts of capital.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it incorrectly attributes the increase in costs of debt to interest payments, rather than the higher level of debt itself. While interest payments do increase with debt, this is a secondary effect of taking on more debt, not the primary reason for the MCC schedule's upward slope.\n- C: This distractor is wrong because it misrepresents how firms negotiate with suppliers and labor unions. Firms do have some negotiating power, but this does not result in better deals for raw materials and wages, which would actually decrease costs, not increase them."
     },
     {
       "id": "Q-COR-0035",
@@ -625,12 +625,12 @@
       "stem": "If a firm's DOL is 2.0 and DFL is 1.5, its Degree of Combined Leverage (DCL) is:?",
       "options": {
         "A": "3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The firm's DCL is 1.8, calculated by taking the weighted average of its DOL and DFL values.",
+        "C": "The firm's DCL is 2.25, calculated using a more complex formula that takes into account both the DOL and DFL as separate components."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-COR-06 (Degree of Combined Leverage (DCL)). 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong. The calculation for DCL assumes equal weight for both DOL and DFL, so multiplying them together results in an incorrect answer of 3.0. The correct approach would be to take the geometric mean or apply a more complex formula that takes into account the combined effect of both DOL and DFL.\n\n- C: Explanation why C is wrong. While it's true that there are more complex formulas for calculating DCL, this distractor implies a completely different calculation method (taking separate components) that is not supported by any standard financial ratio or formula. The correct answer remains 3.0 as calculated directly from the given DOL and DFL values."
     },
     {
       "id": "Q-COR-0036",
@@ -643,12 +643,12 @@
       "stem": "A firm has 40% debt (cost of debt = 6%, tax rate = 25%) and 60% equity (cost of equity = 10%). Its WACC is:?",
       "options": {
         "A": "7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The debt component contributes to the overall cost, but its tax benefit should be calculated as a weighted average of the interest rate and the tax rate.",
+        "C": "The cost of equity is assumed to remain constant regardless of the firm's capital structure, which does not accurately reflect the impact of high debt levels on cost of equity."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-COR-03 (Weighted Average Cost of Capital (WACC)). 7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor misinterprets the concept of weighted average cost of debt and incorrectly applies it to the overall WACC calculation. The correct approach involves calculating the tax benefit of debt using a weighted average of the interest rate and tax rate, as shown in the correct answer. \n- C: This distractor misunderstands the relationship between cost of equity and capital structure. In reality, high levels of debt can lead to a lower cost of equity due to the presence of senior secured bonds, which have priority over common stock in case of liquidation. The correct calculation should consider the impact of high debt levels on the cost of equity."
     },
     {
       "id": "Q-COR-0037",
@@ -661,12 +661,12 @@
       "stem": "When evaluating mutually exclusive projects with different scales, NPV and IRR methods can conflict. The analyst should prioritize:?",
       "options": {
         "A": "NPV, because it directly measures expected shareholder wealth maximization in dollar terms",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Prioritizing IRR ensures that all projects contribute equally to the firm's overall growth, regardless of their size or scale.",
+        "C": "IRR takes into account the time value of money and the opportunity cost of capital, making it a more comprehensive metric for investment decisions."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-COR-05 (NPV vs IRR Conflicts Capital Rationing). NPV, because it directly measures expected shareholder wealth maximization in dollar terms.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Wrong because NPV measures wealth creation in dollar terms, which is essential when comparing projects with different scales. IRR does not directly measure expected shareholder wealth maximization. \n- C: Wrong because while IRR is an important consideration, prioritizing it over NPV would lead to capital rationing problems, where smaller projects are unfairly denied funding due to their lower IRR values. NPV provides a more objective measure of project value."
     },
     {
       "id": "Q-COR-0038",
@@ -679,12 +679,12 @@
       "stem": "A company's cash ratio measures cash and marketable securities relative to:?",
       "options": {
         "A": "Current liabilities",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The company's inventory levels are an important component of its working capital structure, and therefore the cash ratio should include inventory in addition to cash and marketable securities.",
+        "C": "The company has entered into a long-term contract with a supplier, which requires it to pay for goods received up to 30 days after delivery. In this case, the cash ratio should be based on current liabilities plus the amount of time remaining on these contracts."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-COR-06 (Working Capital Liquidity Management Metrics). Current liabilities.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because inventory levels do not directly relate to a company's ability to meet its short-term debt obligations. A cash and marketable securities-focused ratio would still prioritize liquidity over inventory considerations.\n- C: While this distractor acknowledges the potential impact of long-term contracts on working capital, it incorrectly implies that these contracts should be included in the cash ratio. In reality, current liabilities are the primary focus of working capital ratios, as they represent a company's near-term debt obligations."
     },
     {
       "id": "Q-COR-0039",
@@ -697,12 +697,12 @@
       "stem": "Operating risk is primarily driven by a firm's:?",
       "options": {
         "A": "Fixed operating costs relative to variable costs",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Operating risk is primarily driven by a firm's ability to manage its working capital requirements.",
+        "C": "Operating risk is primarily driven by a firm's focus on maximizing shareholder returns through dividend payments."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-COR-07 (Capital Structure Business vs Financial Risk). Fixed operating costs relative to variable costs.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because operating risk is not directly related to managing working capital. While working capital management can contribute to operational risk, it is not the primary driver. Fixed costs relative to variable costs are more relevant to financial risk management.\n- C: This distractor is incorrect because a firm's focus on maximizing shareholder returns through dividend payments does not necessarily drive operating risk. Operating risk is more closely related to the firm's ability to manage its business operations and mitigate potential losses, rather than solely focusing on dividend payments."
     },
     {
       "id": "Q-COR-0040",
@@ -715,12 +715,12 @@
       "stem": "The audit committee of a publicly traded company's Board of Directors must consist of:?",
       "options": {
         "A": "Independent board members, with at least one financial expert",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The audit committee must consist of board members who are not required to have any financial expertise, but must include at least two independent directors.",
+        "C": "The audit committee must be comprised of all board members with the exception of the CEO or CFO, and must also include a board member with significant experience in finance, accounting, or law."
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-COR-08 (Corporate Governance Board Committees). Independent board members, with at least one financial expert.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because it contradicts the CFA Institute's definition, which states that at least one member of the audit committee should be independent, non-management director who is financially literate."
     },
     {
       "id": "Q-COR-0041",
@@ -733,12 +733,12 @@
       "stem": "A firm's non-callable 10-year bond yields 5.5%. The corporate marginal tax rate is 20%. The after-tax cost of debt ($r_d(1-t)$) is:?",
       "options": {
         "A": "4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The corporate marginal tax rate is only applicable to the firm's operating income, not its interest expenses.",
+        "C": "The after-tax cost of debt should be calculated as $r_d(1-t) = (5.5% + 2%) * 0.80$"
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-COR-04 (Cost of Debt Capital Bond Yield Plus Risk Premium). 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The corporate marginal tax rate is applied to the firm's interest income, not its operating income, so it affects the after-tax cost of debt directly.\n- C: The correct formula for after-tax cost of debt should be $r_d(1-t) = r_d * (1 - t)$ where $r_d$ is the before-tax cost of debt and $t$ is the tax rate."
     },
     {
       "id": "Q-COR-0042",
@@ -751,12 +751,12 @@
       "stem": "The primary structural limitation of the traditional payback period method is that it:?",
       "options": {
         "A": "Ignores the time value of money and all cash flows occurring after the payback cutoff date",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Fails to account for the risk-free rate, which affects the present value of cash flows.",
+        "C": "Is sensitive to changes in the payback period cutoff date due to its simple and linear nature."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-COR-05 (Capital Budgeting Payback Period Limitation). Ignores the time value of money and all cash flows occurring after the payback cutoff date.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it does not address the fundamental limitation related to the time value of money. The traditional payback period method ignores the time value of money, regardless of the risk-free rate. \n- C: This distractor is also incorrect as the payback period cutoff date affects the calculation but not the underlying structural limitation of ignoring cash flows after that date."
     },
     {
       "id": "Q-COR-0043",
@@ -769,12 +769,12 @@
       "stem": "In corporate governance, shareholder general meetings provide shareholders the right to vote on:?",
       "options": {
         "A": "Board member election, executive compensation policy, and major corporate restructuring decisions",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Distractor B: Shareholders have the right to vote on board member election, executive compensation policy, but not major corporate restructuring decisions due to the CEO's fiduciary duty.",
+        "C": "Distractor C: Shareholders have the right to vote on board member election and executive compensation policy, but only up to a certain threshold of shareholder ownership, as specified in the company's bylaws."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-COR-09 (Corporate Governance Stakeholder Management Mechanisms). Board member election, executive compensation policy, and major corporate restructuring decisions.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because although shareholders do have some say in major corporate restructuring decisions through proxy votes, their primary role is not to directly participate in such decisions. The board, with its fiduciary duty, makes these critical choices.\n- C is wrong because the concept of a threshold of shareholder ownership for voting on certain matters does not exist in standard corporate governance practices. Shareholders generally have an equal right to vote regardless of their ownership stake."
     }
   ]
 }

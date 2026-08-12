@@ -763,8 +763,8 @@ C) Zero deadweight loss to the domestic economy
 **Question:**
 Which of the following is included in a nation's GDP measured by the expenditure approach??
 A) Gross private domestic investment and net exports of goods and services
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Gross government consumption expenditure and changes in inventories of goods and services
+C) Business sector's operating surplus (net income) from operating activities
 
 
 **Correct Answer:** A
@@ -772,7 +772,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-10 (Gross Domestic Product (GDP)). Gross private domestic investment and net exports of goods and services.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This option is correct because it correctly includes gross government consumption expenditure and changes in inventories, both of which are components of GDP measured by the expenditure approach. Therefore, option A is incorrect.
+- C: This option is incorrect because it refers to business sector's net income, not a component of GDP measured by the expenditure approach. Net income is a different way to calculate business profits and is not a part of GDP.
 
 **LO Reference:** LO-ECO-10 (Gross Domestic Product (GDP))
 **Related Concepts:** Gross Domestic Product (GDP), CFA curriculum core concept
@@ -784,8 +785,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An increase in real interest rates typically causes Aggregate Demand (AD) to:?
 A) Decrease, because higher borrowing costs reduce consumer spending and capital investment
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) An increase in real interest rates typically causes Aggregate Demand (AD) to decrease because higher borrowing costs lead to increased savings and decreased consumer spending on durable goods.
+C) An increase in real interest rates typically causes Aggregate Demand (AD) to increase because lower short-term interest rates lead to increased consumption and investment in technology.
 
 
 **Correct Answer:** A
@@ -793,7 +794,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-11 (Aggregate Demand Components). Decrease, because higher borrowing costs reduce consumer spending and capital investment.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because, while higher borrowing costs do reduce consumer spending, they also increase savings. The effect on aggregate demand depends on the elasticity of both consumption and saving with respect to interest rates.
+- C: This distractor is wrong because lower short-term interest rates lead to decreased capital investment, not increased consumption and investment in technology.
 
 **LO Reference:** LO-ECO-11 (Aggregate Demand Components)
 **Related Concepts:** Aggregate Demand Components, CFA curriculum core concept
@@ -805,8 +807,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In the long run, the aggregate supply curve (LRAS) is vertical at potential GDP because:?
 A) Wages and input prices fully adjust to price level changes
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Increased capital investment and technological advancements enable firms to produce more goods at the same level of prices.
+C) The LRAS curve shifts right due to government subsidies provided to businesses, allowing them to lower production costs.
 
 
 **Correct Answer:** A
@@ -814,7 +816,10 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-12 (Short-Run vs Long-Run Aggregate Supply). Wages and input prices fully adjust to price level changes.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+B is incorrect because it implies that firms can produce more goods without a change in prices, which would shift the LRAS curve and lead to inflation. In reality, wages and input prices fully adjust to price level changes.
+C is incorrect because government subsidies do not directly affect the long-run aggregate supply curve; they could shift the LRAS curve but only if they were related to factors that influence the cost of production, such as labor or capital costs.
 
 **LO Reference:** LO-ECO-12 (Short-Run vs Long-Run Aggregate Supply)
 **Related Concepts:** Short-Run vs Long-Run Aggregate Supply, CFA curriculum core concept
@@ -826,8 +831,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which economic indicator is considered a leading indicator of business cycle turns??
 A) Average weekly initial claims for unemployment insurance
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The G7 GDP growth rate has historically been a reliable predictor of business cycle turns, as it tends to lead changes in economic activity by several quarters.
+C) The yield curve inversion is widely recognized as a leading indicator of business cycle turns, as it signals a potential shift from expansion to contraction.
 
 
 **Correct Answer:** A
@@ -835,7 +840,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-13 (Business Cycle Indicators). Average weekly initial claims for unemployment insurance.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The G7 GDP growth rate is more related to lagging economic activity rather than leading indicators. It tends to follow changes in the economy rather than precede them.
+- C: While the yield curve inversion can signal a potential recession, it's not as reliable as other leading indicators like average weekly initial claims for unemployment insurance.
 
 **LO Reference:** LO-ECO-13 (Business Cycle Indicators)
 **Related Concepts:** Business Cycle Indicators, CFA curriculum core concept
@@ -847,8 +853,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Cost-push inflation is caused by:?
 A) A decrease in Aggregate Supply due to rising wage or commodity input costs
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) An increase in the global supply of gold, leading to a decrease in the money supply and subsequent deflationary pressures.
+C) A decrease in government spending on public goods and services, reducing Aggregate Demand and triggering cost-push inflation through reduced Aggregate Supply.
 
 
 **Correct Answer:** A
@@ -856,7 +862,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-14 (Cost-Push vs Demand-Pull Inflation). A decrease in Aggregate Supply due to rising wage or commodity input costs.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it does not directly relate to a decrease in Aggregate Supply. An increase in global gold supply would actually lead to deflationary pressures, not cost-push inflation.
+- C: This distractor is wrong because while a decrease in government spending could reduce Aggregate Demand, the described effect on Aggregate Supply is incorrect. A reduction in government spending does not necessarily lead to cost-push inflation; it may instead lead to demand-pull inflation or reduced economic activity.
 
 **LO Reference:** LO-ECO-14 (Cost-Push vs Demand-Pull Inflation)
 **Related Concepts:** Cost-Push vs Demand-Pull Inflation, CFA curriculum core concept
@@ -868,8 +875,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The fiscal spending multiplier is larger than the tax cut multiplier because:?
 A) Government spending enters directly into GDP, whereas tax cuts are partially saved
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Government spending does not create new money, whereas tax cuts reduce disposable income
+C) Lower marginal propensity to consume for tax cuts results in a smaller multiplier
 
 
 **Correct Answer:** A
@@ -877,7 +884,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-15 (Fiscal Policy Multipliers). Government spending enters directly into GDP, whereas tax cuts are partially saved.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor implies that government spending creates new money, which is not the case. The fiscal spending multiplier is larger because government spending enters directly into GDP. Furthermore, if people save some of their income from tax cuts, it doesn't necessarily mean they consume less.
+- C: While lower marginal propensity to consume for tax cuts does result in a smaller multiplier, this statement alone fails to explain why the fiscal spending multiplier is larger than the tax cut multiplier.
 
 **LO Reference:** LO-ECO-15 (Fiscal Policy Multipliers)
 **Related Concepts:** Fiscal Policy Multipliers, CFA curriculum core concept
@@ -889,8 +897,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Central banks with high operational and target independence generally achieve:?
 A) Lower and more stable inflation rates compared to politized central banks
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Higher and more volatile inflation rates due to increased political interference in monetary policy decisions
+C) Reduced economic growth due to decreased investor confidence in the central bank's ability to set interest rates independently
 
 
 **Correct Answer:** A
@@ -898,7 +906,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-16 (Central Bank Independence). Lower and more stable inflation rates compared to politized central banks.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because high operational and target independence should lead to lower, not higher, inflation rates. Politicized central banks may be more prone to inflationary pressures due to their lack of independence and potential political agendas.
+- C: This distractor is also incorrect as there is no clear link between central bank independence and reduced economic growth. In fact, independent central banks are often seen as a stabilizing force in the economy.
 
 **LO Reference:** LO-ECO-16 (Central Bank Independence)
 **Related Concepts:** Central Bank Independence, CFA curriculum core concept
@@ -910,8 +919,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??
 A) Financial Account
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Foreign direct investment (FDI) inflows are recorded in the Capital Account.
+C) Foreign direct investment (FDI) inflows are recorded in the Non-Residual Balance of Payments account.
 
 
 **Correct Answer:** A
@@ -919,7 +928,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-17 (Balance of Payments Accounts). Financial Account.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: The Capital Account includes investments by non-residents in the domestic economy, but it also shows outflows. FDI inflows should be reflected in the Financial Account as part of current transfers and income on foreign assets.
+- C: Explanation why C is wrong: The Non-Residual Balance of Payments account is not a standard BOP account. It was used historically to record transactions that were neither imports nor exports, but it has largely been replaced by more specific accounts like the Current Account and Capital Account.
 
 **LO Reference:** LO-ECO-17 (Balance of Payments Accounts)
 **Related Concepts:** Balance of Payments Accounts, CFA curriculum core concept
@@ -931,8 +941,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A country has a comparative advantage in producing a good if it:?
 A) Can produce the good at a lower opportunity cost than trading partners
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A country has a comparative advantage in producing a good if it can produce the same good at a higher output level than its trading partners.
+C) A country has a comparative advantage in producing a good if it can produce the good for a shorter period of time than its trading partners.
 
 
 **Correct Answer:** A
@@ -940,7 +950,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-18 (Comparative Advantage & Opportunity Cost). Can produce the good at a lower opportunity cost than trading partners.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because having a comparative advantage means being able to produce more of a good at an equal or lower opportunity cost, not necessarily higher. This distractor confuses output levels with absolute productivity.
+- C: Incorrect because a country's comparative advantage is determined by the absolute productivity difference between countries, not just the duration for which they can produce the good. This distractor incorrectly applies time as a factor in determining comparative advantage.
 
 **LO Reference:** LO-ECO-18 (Comparative Advantage & Opportunity Cost)
 **Related Concepts:** Comparative Advantage & Opportunity Cost, CFA curriculum core concept
@@ -952,8 +963,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The foreign exchange market is best characterized as a:?
 A) Global over-the-counter (OTC) 24-hour interbank network
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A decentralized, margin-based market where prices are set by supply and demand imbalances.
+C) An intraday, stop-order driven market for a limited number of major currencies only.
 
 
 **Correct Answer:** A
@@ -961,7 +972,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-19 (Foreign Exchange Market Structure). Global over-the-counter (OTC) 24-hour interbank network.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the foreign exchange market does allow for some level of price discovery through market makers and other liquidity providers. However, it is not characterized as being decentralized or margin-based.
+- C: Incorrect because while it is true that the foreign exchange market operates on a 24-hour basis, with prices influenced by supply and demand imbalances, and stops are used in many markets, it does not limit to major currencies only, and stop orders are not unique to this market.
 
 **LO Reference:** LO-ECO-19 (Foreign Exchange Market Structure)
 **Related Concepts:** Foreign Exchange Market Structure, CFA curriculum core concept
@@ -973,8 +985,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 If covered interest rate parity holds, any interest rate differential between two currencies equals:?
 A) The forward premium or discount on the foreign currency
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The interest rate differential between the two currencies directly represents the expected change in purchasing power of each currency.
+C) A difference in interest rates equals a permanent change in the value of one currency relative to another.
 
 
 **Correct Answer:** A
@@ -982,7 +994,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-20 (Covered Interest Rate Parity). The forward premium or discount on the foreign currency.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor implies that any interest rate differential must result from an expected change in purchasing power, which is incorrect. Covered Interest Rate Parity assumes that any interest rate differential can be explained by a forward premium or discount on the foreign currency, not necessarily due to changes in purchasing power.
+- C: This distractor misinterprets the relationship between interest rates and exchange rates, suggesting a permanent change in value rather than the temporary deviation implied by Covered Interest Rate Parity.
 
 **LO Reference:** LO-ECO-20 (Covered Interest Rate Parity)
 **Related Concepts:** Covered Interest Rate Parity, CFA curriculum core concept
@@ -994,8 +1007,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A persistent current account deficit must be offset by a net capital inflow in the:?
 A) Capital and Financial Accounts
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The current account deficit is financed by the sale of government securities to foreign central banks.
+C) The current account deficit is partially offset by a depreciation in the value of the domestic currency, which reduces the price of exports and increases the competitiveness of domestic goods.
 
 
 **Correct Answer:** A
@@ -1003,7 +1016,9 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-21 (Current Account Balance Effects). Capital and Financial Accounts.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor implies that the current account deficit can be financed through purchases of government securities from foreign investors, which does not align with the correct analysis. A persistent current account deficit must always be offset by a net capital outflow (not inflow) to finance the deficit. The sale of government securities would actually increase the capital account surplus and worsen the current account deficit.
+
+- C: This distractor suggests that depreciation reduces the competitiveness of domestic goods, which is incorrect. A depreciation in the value of the domestic currency increases the price of imports and makes exports cheaper, thereby increasing competitiveness. While this can help to offset a persistent current account deficit, it does not fully offset it.
 
 **LO Reference:** LO-ECO-21 (Current Account Balance Effects)
 **Related Concepts:** Current Account Balance Effects, CFA curriculum core concept
@@ -1015,8 +1030,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A fixed peg exchange rate regime requires a central bank to maintain foreign reserves to:?
 A) Intervene in foreign exchange markets to maintain the target peg parity
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Maintain high levels of foreign reserves to smooth out fluctuations in the exchange rate.
+C) Ensure that interest rates are aligned with economic indicators such as GDP and inflation rates.
 
 
 **Correct Answer:** A
@@ -1024,7 +1039,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-22 (Exchange Rate Regime Types). Intervene in foreign exchange markets to maintain the target peg parity.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a fixed peg regime focuses on maintaining the parity rather than smoothing out fluctuations. The central bank's main goal is to defend the peg, not stabilize the currency through reserves. 
+- C: Incorrect because the primary focus of a fixed peg exchange rate regime is the fixed parity itself, not aligning interest rates with economic indicators.
 
 **LO Reference:** LO-ECO-22 (Exchange Rate Regime Types)
 **Related Concepts:** Exchange Rate Regime Types, CFA curriculum core concept
@@ -1037,8 +1053,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which of the following is included in a nation's GDP measured by the expenditure approach??
 A) Gross private domestic investment and net exports of goods and services
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Government consumption expenditure on infrastructure projects, such as construction of roads and bridges.
+C) Household disposable income spent on travel abroad.
 
 
 **Correct Answer:** A
@@ -1046,7 +1062,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-10 (Gross Domestic Product (GDP)). Gross private domestic investment and net exports of goods and services.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because government consumption expenditure on infrastructure projects are not included in GDP measured by the expenditure approach. This type of expenditure is part of GDP measured by the production approach.
+- C is wrong because household disposable income spent on travel abroad, although it may influence net exports, does not directly impact GDP calculated using the expenditure approach.
 
 **LO Reference:** LO-ECO-10 (Gross Domestic Product (GDP))
 **Related Concepts:** Gross Domestic Product (GDP), CFA curriculum core concept
@@ -1058,8 +1075,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An increase in real interest rates typically causes Aggregate Demand (AD) to:?
 A) Decrease, because higher borrowing costs reduce consumer spending and capital investment
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) An increase in real interest rates typically causes Aggregate Demand (AD) to increase, because higher borrowing costs reduce consumer saving and lead to increased consumption.
+C) An increase in real interest rates typically causes Aggregate Demand (AD) to decrease, but only among households that save more than they consume, as the remaining demand is driven by businesses seeking to take advantage of lower borrowing costs
 
 
 **Correct Answer:** A
@@ -1067,7 +1084,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-11 (Aggregate Demand Components). Decrease, because higher borrowing costs reduce consumer spending and capital investment.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong. Increasing borrowing costs do not lead to increased consumption, but rather reduce consumer spending and capital investment. This would decrease aggregate demand, not increase it.
+- C: Explanation why C is wrong. An increase in real interest rates will have a more uniform effect on all households and businesses, reducing the net demand for goods and services. The statement that some households save more than they consume does not change this outcome.
 
 **LO Reference:** LO-ECO-11 (Aggregate Demand Components)
 **Related Concepts:** Aggregate Demand Components, CFA curriculum core concept
@@ -1079,8 +1097,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 In the long run, the aggregate supply curve (LRAS) is vertical at potential GDP because:?
 A) Wages and input prices fully adjust to price level changes
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) In the long run, firms can adjust their technology and capital stock to increase productivity.
+C) The LRAS curve is vertical because of government subsidies that keep prices low for all inputs.
 
 
 **Correct Answer:** A
@@ -1088,7 +1106,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-12 (Short-Run vs Long-Run Aggregate Supply). Wages and input prices fully adjust to price level changes.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it assumes that technological advancements and investment in capital are instantaneous, which is not the case. The correct answer focuses on the adjustment of wages and input prices to changes in the price level. - C: This distractor is also incorrect as government subsidies would likely create distortions in the market rather than being a long-run equilibrium condition.
 
 **LO Reference:** LO-ECO-12 (Short-Run vs Long-Run Aggregate Supply)
 **Related Concepts:** Short-Run vs Long-Run Aggregate Supply, CFA curriculum core concept
@@ -1100,8 +1118,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Which economic indicator is considered a leading indicator of business cycle turns??
 A) Average weekly initial claims for unemployment insurance
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The stock price of copper futures contracts, which are known to be highly correlated with business cycles.
+C) The current balance of international trade in oil over the past five years, as measured by the OECD's balance of payments data.
 
 
 **Correct Answer:** A
@@ -1109,7 +1127,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-13 (Business Cycle Indicators). Average weekly initial claims for unemployment insurance.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong The incorrectness of option B lies in the fact that copper futures prices are often seen as an indicator of inflation and commodity prices rather than a direct leading indicator of business cycles. Leading indicators typically have shorter lag times and are more closely tied to changes in consumer behavior or investment decisions.
+- C: Explanation why C is wrong The OECD's balance of payments data on oil trade does not serve as a reliable leading indicator for business cycle turns, primarily because the relationship between oil prices and economic activity can be complex and influenced by various factors such as technological advancements and shifts in global demand.
 
 **LO Reference:** LO-ECO-13 (Business Cycle Indicators)
 **Related Concepts:** Business Cycle Indicators, CFA curriculum core concept
@@ -1121,8 +1140,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Cost-push inflation is caused by:?
 A) A decrease in Aggregate Supply due to rising wage or commodity input costs
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A shift in consumer preferences leading to an increase in demand for non-essential goods
+C) An increase in the money supply due to a central bank's expansionary monetary policy
 
 
 **Correct Answer:** A
@@ -1130,7 +1149,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-14 (Cost-Push vs Demand-Pull Inflation). A decrease in Aggregate Supply due to rising wage or commodity input costs.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: This distractor mistakenly equates cost-push inflation with demand-pull inflation, which would lead to an increase in prices due to an excess of demand. However, cost-push inflation is caused by a decrease in Aggregate Supply. - C: Explanation why C is wrong: An increase in the money supply typically leads to demand-pull inflation, not cost-push inflation.
 
 **LO Reference:** LO-ECO-14 (Cost-Push vs Demand-Pull Inflation)
 **Related Concepts:** Cost-Push vs Demand-Pull Inflation, CFA curriculum core concept
@@ -1142,8 +1161,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The fiscal spending multiplier is larger than the tax cut multiplier because:?
 A) Government spending enters directly into GDP, whereas tax cuts are partially saved
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Increased taxes reduce disposable income, thereby reducing consumer spending and decreasing the multiplier.
+C) A tax cut increases disposable income, leading to increased consumption of durables and non-durables, resulting in a greater multiplier.
 
 
 **Correct Answer:** A
@@ -1151,7 +1170,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-15 (Fiscal Policy Multipliers). Government spending enters directly into GDP, whereas tax cuts are partially saved.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-ECO-15 (Fiscal Policy Multipliers)
 **Related Concepts:** Fiscal Policy Multipliers, CFA curriculum core concept
@@ -1163,8 +1182,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Central banks with high operational and target independence generally achieve:?
 A) Lower and more stable inflation rates compared to politized central banks
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Achieving lower inflation rates due to increased price stability from maintaining low interest rates for extended periods.
+C) Reduced risk of money supply manipulations by politically appointed governors seeking electoral advantages.
 
 
 **Correct Answer:** A
@@ -1172,7 +1191,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-16 (Central Bank Independence). Lower and more stable inflation rates compared to politized central banks.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because high operational and target independence actually lead to higher inflation rates, as central banks are less pressured to implement tight monetary policies. The correct answer focuses on the stability and predictability that increased independence brings, which can sometimes result in higher inflation if not managed properly.
+- C: This distractor is wrong because high operational and target independence reduce the risk of money supply manipulations by governors seeking electoral advantages; instead, they increase the risk of central banks acting independently without political influence.
 
 **LO Reference:** LO-ECO-16 (Central Bank Independence)
 **Related Concepts:** Central Bank Independence, CFA curriculum core concept
@@ -1184,8 +1204,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??
 A) Financial Account
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Outflows of goods, services, and income from a country are recorded in the Balance of Payments Financial Account.
+C) Foreign direct investment inflows are typically classified as part of the Capital Account within the Balance of Payments, but the correct classification is actually within the Current Account to reflect the 'inflows' and 'outflows' of FDI.
 
 
 **Correct Answer:** A
@@ -1193,7 +1213,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-17 (Balance of Payments Accounts). Financial Account.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor misrepresents how FDI is recorded in the Financial Account. According to LO-ECO-17, net outflows of capital, including foreign direct investment (FDI), are recorded in the Capital Account, not the Financial Account. FDI inflows are actually part of the Current Account.
+- C: This distractor incorrectly classifies FDI as part of the Capital Account and misrepresents how FDI is recorded in the Balance of Payments. FDI inflows should be classified as 'inflows' within the Current Account, not the Capital Account.
 
 **LO Reference:** LO-ECO-17 (Balance of Payments Accounts)
 **Related Concepts:** Balance of Payments Accounts, CFA curriculum core concept
@@ -1205,8 +1226,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A country has a comparative advantage in producing a good if it:?
 A) Can produce the good at a lower opportunity cost than trading partners
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) It has a comparative advantage in producing the good if it specializes in the production of that good with more skilled labor.
+C) It has a comparative advantage in producing the good if it produces the good that can be readily sold to its trading partners in exchange for other goods they require.
 
 
 **Correct Answer:** A
@@ -1214,7 +1235,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-18 (Comparative Advantage & Opportunity Cost). Can produce the good at a lower opportunity cost than trading partners.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because specializing in a particular good just because it requires skilled labor doesn't necessarily mean it's more cost-effective than trading partners. Opportunity costs must also be considered.
+- C is wrong because having a comparative advantage means producing a good at a lower opportunity cost, not necessarily producing the good that can be easily traded for other goods.
 
 **LO Reference:** LO-ECO-18 (Comparative Advantage & Opportunity Cost)
 **Related Concepts:** Comparative Advantage & Opportunity Cost, CFA curriculum core concept
@@ -1226,8 +1248,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 The foreign exchange market is best characterized as a:?
 A) Global over-the-counter (OTC) 24-hour interbank network
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A large number of institutional investors participate in the foreign exchange market, often through bilateral agreements.
+C) The foreign exchange market is primarily driven by the needs of individual investors and traders acting on their own behalf.
 
 
 **Correct Answer:** A
@@ -1235,7 +1257,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-19 (Foreign Exchange Market Structure). Global over-the-counter (OTC) 24-hour interbank network.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because while institutional investors do play a role in FX markets, the term 'large number' implies an overly broad scope. The OTC network involves numerous interbank transactions but not necessarily a large number of participants compared to other financial markets.
+- C: Incorrect because this description is too narrow and does not accurately capture the 24-hour nature and global participation of the foreign exchange market.
 
 **LO Reference:** LO-ECO-19 (Foreign Exchange Market Structure)
 **Related Concepts:** Foreign Exchange Market Structure, CFA curriculum core concept
@@ -1247,8 +1270,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 If covered interest rate parity holds, any interest rate differential between two currencies equals:?
 A) The forward premium or discount on the foreign currency
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Any interest rate differential between two currencies equals the absolute value of the interest rate differential
+C) Any interest rate differential between two currencies equals the forward premium or discount on its own currency
 
 
 **Correct Answer:** A
@@ -1256,7 +1279,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-20 (Covered Interest Rate Parity). The forward premium or discount on the foreign currency.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because covered interest parity holds, not the absolute value of the interest rate differential. The correct answer would still be related to the foreign currency's forward premium or discount. In reality, if covered interest parity does not hold, the interest rate differential may indeed equal the absolute value of the difference, but this is a different scenario.
+- C: This distractor is wrong because the question asks about the equality of any interest rate differential between two currencies, not just the forward premium or discount on its own currency. The correct answer is the forward premium or discount on the foreign currency.
 
 **LO Reference:** LO-ECO-20 (Covered Interest Rate Parity)
 **Related Concepts:** Covered Interest Rate Parity, CFA curriculum core concept
@@ -1268,8 +1292,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A persistent current account deficit must be offset by a net capital inflow in the:?
 A) Capital and Financial Accounts
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) A country's capital account includes transfers from or to foreign countries, such as foreign aid, remittances, and loans.
+C) Foreign exchange markets determine the exchange rate of a currency relative to other currencies, which in turn affects the value of a nation's currency.
 
 
 **Correct Answer:** A
@@ -1277,7 +1301,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-21 (Current Account Balance Effects). Capital and Financial Accounts.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because a persistent current account deficit does not necessarily require a net capital inflow; it only requires the balance of trade to be covered by capital outflows from investment or savings. The correct answer is that the current and capital accounts are part of the same macroeconomic framework, but they don't guarantee a net capital inflow.
 
 **LO Reference:** LO-ECO-21 (Current Account Balance Effects)
 **Related Concepts:** Current Account Balance Effects, CFA curriculum core concept
@@ -1289,8 +1313,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A fixed peg exchange rate regime requires a central bank to maintain foreign reserves to:?
 A) Intervene in foreign exchange markets to maintain the target peg parity
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Maintain foreign reserves to facilitate capital account management and ensure policy credibility.
+C) Ensure stability of the domestic financial system through foreign exchange intervention.
 
 
 **Correct Answer:** A
@@ -1298,7 +1322,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ECO-22 (Exchange Rate Regime Types). Intervene in foreign exchange markets to maintain the target peg parity.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a fixed peg exchange rate regime primarily relies on maintaining foreign reserves to anchor expectations around the target peg parity, rather than facilitating capital account management. 
+- C: Incorrect because while ensuring stability of the domestic financial system is an important consideration for central banks, it is not the primary purpose of maintaining foreign reserves under a fixed peg exchange rate regime.
 
 **LO Reference:** LO-ECO-22 (Exchange Rate Regime Types)
 **Related Concepts:** Exchange Rate Regime Types, CFA curriculum core concept
@@ -1311,8 +1336,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 If the cross-price elasticity of demand between Good X and Good Y is +1.5, Good X and Good Y are best classified as:?
 A) Substitute goods, because an increase in the price of Y causes demand for X to increase
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) If Good X and Good Y are close substitutes, an increase in the price of Y would lead to a decrease in demand for X due to consumer substitution.
+C) Since the cross-price elasticity of demand between Good X and Good Y indicates that demand for X increases when the price of Y rises, this implies perfect complementarity rather than substitutability.
 
 
 **Correct Answer:** A
@@ -1320,7 +1345,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ECO-02 (Cross-Price Elasticity of Demand). Substitute goods, because an increase in the price of Y causes demand for X to increase.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because a cross-price elasticity of +1.5 actually supports substitutability, not consumer substitution.
+- C: The correct analysis is that an increase in the price of Y would lead to an increase in demand for X due to positive cross-price elasticity, which indicates that Good X and Good Y are substitutes.
 
 **LO Reference:** LO-ECO-02 (Cross-Price Elasticity of Demand)
 **Related Concepts:** Cross-Price Elasticity of Demand, CFA curriculum core concept
@@ -1332,8 +1358,8 @@ C) Alternative incorrect option
 **Question:**
 A profit-maximizing monopolist sets production output at the level where:?
 A) Marginal Revenue equals Marginal Cost (MR = MC), pricing along the demand curve
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Pricing along the demand curve does not necessarily mean MR = MC, as a profit-maximizing monopolist can adjust output based on elasticities and consumer behavior.
+C) A profit-maximizing monopolist should produce where P = ATC (average total cost) is not necessary but more accurate than the MC=MR for monopoly.
 
 
 **Correct Answer:** A
@@ -1341,7 +1367,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ECO-04 (Monopoly Profit Maximization Output). Marginal Revenue equals Marginal Cost (MR = MC), pricing along the demand curve.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-ECO-04 (Monopoly Profit Maximization Output)
 **Related Concepts:** Monopoly Profit Maximization Output, CFA curriculum core concept
@@ -1353,8 +1380,8 @@ C) Alternative incorrect option
 **Question:**
 According to the Fisher Effect, an increase in expected inflation of 2% will cause nominal interest rates to:?
 A) Increase by 2% in the long run to preserve real interest rates
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Nominal interest rates will increase by 4% in the short run, followed by a 2% decrease in nominal interest rates to compensate for the expected inflation
+C) Real interest rates will remain unchanged as the expected inflation does not directly affect real interest rates
 
 
 **Correct Answer:** A
@@ -1362,7 +1389,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ECO-06 (Fisher Effect Nominal Interest Rates). Increase by 2% in the long run to preserve real interest rates.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-ECO-06 (Fisher Effect Nominal Interest Rates)
 **Related Concepts:** Fisher Effect Nominal Interest Rates, CFA curriculum core concept
@@ -1374,8 +1402,8 @@ C) Alternative incorrect option
 **Question:**
 When a central bank purchases government bonds through open market operations, short-term interest rates:?
 A) Decrease, boosting commercial bank excess reserves and money supply growth
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Increase due to decrease in government bond yields, reducing interest expense and increasing borrowing capacity for commercial banks.
+C) Increase due to the sterilization effect of open market operations, where central bank's purchase of government bonds reduces reserve base growth and subsequently increases short-term interest rates.
 
 
 **Correct Answer:** A
@@ -1383,7 +1411,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ECO-07 (Expansionary Monetary Policy Transmission). Decrease, boosting commercial bank excess reserves and money supply growth.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a decrease in government bond yields would actually decrease interest expense and increase borrowing capacity for commercial banks, not increasing short-term interest rates. This would lead to an expansionary monetary policy effect.
+- C: Incorrect because the sterilization effect is not directly related to central bank's purchase of government bonds through open market operations. The correct answer relies on the overall impact of central bank's actions on money supply growth.
 
 **LO Reference:** LO-ECO-07 (Expansionary Monetary Policy Transmission)
 **Related Concepts:** Expansionary Monetary Policy Transmission, CFA curriculum core concept
@@ -1396,8 +1425,8 @@ C) Alternative incorrect option
 **Question:**
 For a **Giffen good**, an increase in price leads to an increase in quantity demanded because:?
 A) The negative income effect outweighs the positive substitution effect for an inferior good
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) An increase in price leads to an increase in quantity demanded because consumers have a high disposable income, allowing them to afford more of the good.
+C) An increase in price leads to an increase in quantity demanded because higher prices encourage consumer substitution into more expensive alternatives.
 
 
 **Correct Answer:** A
@@ -1405,7 +1434,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ECO-03 (Income and Substitution Effects). The negative income effect outweighs the positive substitution effect for an inferior good.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a Giffen good's demand curve is downward sloping, meaning that as price increases, quantity demanded decreases. This contradicts the claim that consumers can afford more due to increased disposable income.
+- C: Incorrect because the positive substitution effect would lead to an increase in quantity demanded if there were alternative goods available that are cheaper or closer substitutes for the Giffen good. However, this is not the case as the question does not mention any such alternatives.
 
 **LO Reference:** LO-ECO-03 (Income and Substitution Effects)
 **Related Concepts:** Income and Substitution Effects, CFA curriculum core concept
@@ -1417,8 +1447,8 @@ C) Alternative incorrect option
 **Question:**
 Nominal GDP grew by 8% while Real GDP grew by 5%. The implicit GDP deflator inflation rate is closest to:?
 A) 2.86% (GDP Deflator = Nominal GDP / Real GDP = 1.08 / 1.05 = 1.0286)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The GDP deflator rate of change increased due to the appreciation of the nominal exchange rate, which was influenced by a decrease in import prices.
+C) The GDP deflator rate of change decreased because the increase in real GDP was solely due to higher productivity and not any change in the price level.
 
 
 **Correct Answer:** A
@@ -1426,7 +1456,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ECO-05 (Gross Domestic Product Deflator). 2.86% (GDP Deflator = Nominal GDP / Real GDP = 1.08 / 1.05 = 1.0286).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a decrease in import prices would actually lead to an appreciation of the nominal exchange rate, increasing inflation. The actual explanation should relate the increased exchange rate to a decrease in import prices, which is implausible.
+- C: Correct because if real GDP grew only due to higher productivity and not any change in the price level, it implies no inflation, making the implied deflator rate of change 0%, not the reported 8%.
 
 **LO Reference:** LO-ECO-05 (Gross Domestic Product Deflator)
 **Related Concepts:** Gross Domestic Product Deflator, CFA curriculum core concept
@@ -1438,8 +1469,8 @@ C) Alternative incorrect option
 **Question:**
 If a central bank lowers the required reserve ratio for commercial banks, the money multiplier and money supply will:?
 A) Increase, boosting credit expansion capability across the banking sector
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Decreases the demand for bank reserves, causing a reduction in the money multiplier and subsequently decreasing money supply.
+C) Reduces the risk of bank runs by limiting the amount of depositable funds, which can lead to a decrease in lending and a reduction in credit expansion.
 
 
 **Correct Answer:** A
@@ -1447,7 +1478,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ECO-08 (Central Bank Reserve Requirements). Increase, boosting credit expansion capability across the banking sector.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because lowering the reserve ratio increases the money multiplier, not decreases it. With more reserves available for lending, banks can create more new money.
+- C is wrong because reducing the reserve ratio would increase lending and credit expansion, not decrease it.
 
 **LO Reference:** LO-ECO-08 (Central Bank Reserve Requirements)
 **Related Concepts:** Central Bank Reserve Requirements, CFA curriculum core concept
@@ -1460,8 +1492,8 @@ C) Alternative incorrect option
 **Question:**
 If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 4 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for:?
 A) 3 units of Cloth (between the opportunity costs of 2 and 4)
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 6 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for: 3 units of Cloth.
+C) If Country A can produce 1 unit of Wheat for 2 units of Cloth, and Country B can produce 1 unit of Wheat for 5 units of Cloth, mutually beneficial trade occurs at a term of trade of 1 Wheat for: 4 units of Cloth.
 
 
 **Correct Answer:** A
@@ -1469,7 +1501,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-ECO-09 (International Trade Comparative Advantage Terms of Trade). 3 units of Cloth (between the opportunity costs of 2 and 4).
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong: The correct answer does not take into account the opportunity costs of producing cloth in Country A. With an opportunity cost of 2 for cloth and 1 for wheat, trading 1 wheat for 3 units of cloth doesn't maximize efficiency.
+- C: Explanation why C is wrong: This option assumes a constant price ratio between wheat and cloth across both countries, which isn't necessarily true. Country B's relative advantage in producing cloth compared to wheat would indicate a higher opportunity cost of production.
 
 **LO Reference:** LO-ECO-09 (International Trade Comparative Advantage Terms of Trade)
 **Related Concepts:** International Trade Comparative Advantage Terms of Trade, CFA curriculum core concept
@@ -1482,8 +1515,8 @@ C) Alternative incorrect option
 **Question:**
 Which economic indicator is classified as a lagging indicator of business cycle turns??
 A) Average duration of unemployment and commercial bank prime lending rate
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The average duration of unemployment has historically been a leading indicator, with shorter durations preceding economic expansions.
+C) The commercial bank prime lending rate is also considered a leading indicator, as it tends to rise before the economy slows down and interest rates increase.
 
 
 **Correct Answer:** A
@@ -1491,7 +1524,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-ECO-12 (Business Cycle Turning Points Leading Indicators). Average duration of unemployment and commercial bank prime lending rate.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the average duration of unemployment has indeed been a leading indicator, particularly during the Great Depression. The correct answer is A because shorter durations of unemployment precede economic expansions, not longer ones.
+- C: Incorrect because a rising commercial bank prime lending rate actually indicates a slowing economy and rising interest rates, making it a lagging indicator rather than a leading one.
 
 **LO Reference:** LO-ECO-12 (Business Cycle Turning Points Leading Indicators)
 **Related Concepts:** Business Cycle Turning Points Leading Indicators, CFA curriculum core concept
@@ -1504,8 +1538,8 @@ C) Alternative incorrect option
 **Question:**
 An oligopolistic market structure characterized by a dominant firm pricing under the dominant firm model leads to market price equal to:?
 A) The price set by the dominant firm where its marginal revenue equals marginal cost
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The price set by the dominant firm where its marginal revenue equals average total cost
+C) The market price where firms are indifferent between producing at quantity one below the competitive level and quantity one above it
 
 
 **Correct Answer:** A
@@ -1513,7 +1547,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-ECO-06 (Monopoly vs Oligopoly Market Power). The price set by the dominant firm where its marginal revenue equals marginal cost.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This is incorrect because it implies a decrease in price due to an increase in average total costs, whereas in the dominant firm model, the firm sets its price where marginal revenue equals marginal cost. The change in price occurs when market demand changes or another firm enters the market.
+- C: This explanation suggests that oligopoly firms produce at the quantity where they are indifferent between producing above and below competitive levels, which implies a lack of market power. In reality, dominant firms do have significant market power and set prices based on their marginal revenue.
 
 **LO Reference:** LO-ECO-06 (Monopoly vs Oligopoly Market Power)
 **Related Concepts:** Monopoly vs Oligopoly Market Power, CFA curriculum core concept
@@ -1526,8 +1561,8 @@ C) Alternative incorrect option
 **Question:**
 When a central bank increases its target policy rate, commercial bank lending rates increase, leading to:?
 A) Lower credit expansion, reduced business investment, and slower aggregate demand growth
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Increased commercial bank lending rates lead to higher borrowing costs for households and businesses, reducing consumption and investment.
+C) An increase in the central bank's target policy rate can lead to lower inflation expectations, prompting households and businesses to invest more now rather than later, thereby increasing aggregate demand growth.
 
 
 **Correct Answer:** A
@@ -1535,7 +1570,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ECO-07 (Monetary Policy Interest Rate Target Transmission). Lower credit expansion, reduced business investment, and slower aggregate demand growth.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because an increase in commercial bank lending rates does not directly reduce consumption. Instead, it may cause borrowing costs to rise, which could lead to reduced spending power for households and reduced investment for businesses. However, this would likely be a short-term effect and the overall impact of higher interest rates on credit expansion would still be to decrease it due to tighter monetary policy conditions.
+- C: This distractor is wrong because an increase in the central bank's target policy rate should lead to increased lending costs for households and businesses, making them less likely to borrow now rather than later. A tightening of monetary policy conditions typically leads to a reduction in aggregate demand growth, not an increase.
 
 **LO Reference:** LO-ECO-07 (Monetary Policy Interest Rate Target Transmission)
 **Related Concepts:** Monetary Policy Interest Rate Target Transmission, CFA curriculum core concept
@@ -1547,8 +1583,8 @@ C) Alternative incorrect option
 **Question:**
 An import tariff imposed by a small country causes domestic price to rise to the world price plus tariff. The net national welfare loss equals:?
 A) The combined area of domestic production distortion and consumption distortion deadweight loss triangles
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The tariff imposes a tax on imported goods, which increases the domestic price. The net national welfare loss includes the deadweight loss from production distortion (the area between the supply curve and the price-induced new equilibrium) plus the deadweight loss from consumption distortion (the area between the demand curve and the price-induced new equilibrium).
+C) The tariff reduces imports, allowing for domestic producers to capture a monopoly profit. The net national welfare loss is zero because consumers are better off due to higher prices protecting domestic industries.
 
 
 **Correct Answer:** A
@@ -1556,7 +1592,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ECO-13 (International Trade Protectionism Deadweight Loss). The combined area of domestic production distortion and consumption distortion deadweight loss triangles.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because it fails to account for the fact that the deadweight losses from consumption distortion and production distortion occur separately; they should not be combined into one area. - C: Incorrect because a tariff protects domestic producers, but also leads to an increase in domestic price relative to world price, causing consumers to pay more for domestically produced goods.
 
 **LO Reference:** LO-ECO-13 (International Trade Protectionism Deadweight Loss)
 **Related Concepts:** International Trade Protectionism Deadweight Loss, CFA curriculum core concept

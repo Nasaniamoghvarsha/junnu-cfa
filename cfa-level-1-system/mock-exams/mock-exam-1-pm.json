@@ -13,12 +13,12 @@
       "stem": "An asset-based equity valuation model calculates net asset value by taking:?",
       "options": {
         "A": "Market value of assets minus Market value of liabilities",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Net income minus outstanding debt",
+        "C": "Total assets minus cash and marketable securities"
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-EQT-16 (Equity Valuation Asset-Based Model Liquidation Value). Market value of assets minus Market value of liabilities.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because it incorrectly uses net income (which represents earnings, not assets) and debt, which may not be directly applicable to asset-based valuation.\n- C is wrong because using total assets and excluding cash and marketable securities would understate the value of more illiquid or hard-to-value assets."
     },
     {
       "id": "MOCK-EQU-002",
@@ -157,12 +157,12 @@
       "stem": "EV/EBITDA is particularly useful for comparing companies with different:?",
       "options": {
         "A": "Capital structures (debt leverage) and capital intensity/depreciation policies",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "valuation multiples for companies with different accounting standards and revenue recognition policies",
+        "C": "comparisons of companies in the same industry with varying tax strategies and foreign earnings"
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-EQT-07 (Enterprise Value Multiple EV/EBITDA). Capital structures (debt leverage) and capital intensity/depreciation policies.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because EV/EBITDA ignores differences in capital structures, which can be a key factor in evaluating company performance. While accounting standards may also affect financial statements, they are not as directly relevant to the EV/EBITDA metric.\n- C: This distractor is incorrect because tax strategies and foreign earnings are more relevant to valuing companies in specific industries or markets rather than comparing their overall financial health."
     },
     {
       "id": "MOCK-EQU-010",
@@ -193,12 +193,12 @@
       "stem": "The size effect anomaly refers to the empirical observation that small-cap stocks tend to:?",
       "options": {
         "A": "Outperform large-cap stocks on a risk-adjusted basis over long horizons",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Underperform large-cap stocks on a risk-adjusted basis over long horizons",
+        "C": "Exhibit equal returns to large-cap stocks on a risk-adjusted basis over long horizons"
       },
       "correct": "A",
       "explanation": "Correct application for LO-EQT-11 (Market Anomalies Size Effect). Outperform large-cap stocks on a risk-adjusted basis over long horizons.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because the size effect anomaly indicates that small-cap stocks tend to outperform, not underperform, their larger counterparts. The observation is consistent with the idea that smaller companies face higher agency costs and have lower growth prospects, leading to a risk premium that results in superior returns.\n- C: This distractor is wrong because it suggests that small-cap stocks do not exhibit a size effect at all. In reality, the anomaly has been consistently documented across various studies, with small-cap stocks outperforming large-cap stocks on a risk-adjusted basis over long horizons."
     },
     {
       "id": "MOCK-EQU-012",
@@ -229,12 +229,12 @@
       "stem": "A firm pays D0 = $1.00. Growth is 20% for 2 years, then settles to a permanent 5%. Required return is 10%. Value per share P0 is:?",
       "options": {
         "A": "$22.91 (PV of D1, D2 plus PV of terminal value at t=2)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The firm will pay dividends of $1.20 at t=1 and $1.40 at t=2, which can be discounted back to the present using a 10% discount rate.",
+        "C": "The terminal growth period begins immediately after year 2, allowing the firm to generate perpetually increasing dividend payments that will compound on themselves indefinitely."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-EQT-05 (Dividend Discount Model Multistage Growth Valuation). $22.91 (PV of D1, D2 plus PV of terminal value at t=2).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it assumes the dividends paid out by the firm grow at a rate independent of the overall growth rate, which may not accurately reflect the firm's dividend policy. The correct approach should consider the impact of the permanent 5% growth rate on future dividends.\n- C: This distractor is wrong because it incorrectly assumes that the terminal growth period starts immediately after year 2, ignoring the fact that a two-year growth period has already occurred. Additionally, assuming perpetual and self-reinforcing dividend growth at year 3 onward does not accurately capture the firm's long-term growth prospects."
     },
     {
       "id": "MOCK-EQU-014",
@@ -247,12 +247,12 @@
       "stem": "A company's Return on Equity (ROE) is 12%, required return is 10%, and dividend growth rate is 4%. Its justified price-to-book ratio is:?",
       "options": {
         "A": "1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The company's market risk premium is higher than its cost of equity, indicating a justified P/B ratio below 1.",
+        "C": "The company's dividend yield is high due to a large dividend payout, which decreases the justified P/B ratio."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-EQT-06 (Price-to-Book (P/B) Ratio Valuation). 1.33 (Justified P/B = [ROE - g] / [r - g] = [0.12 - 0.04] / [0.10 - 0.04] = 0.08 / 0.06 = 1.33).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong: The calculation in C uses g (dividend growth rate) and r (required return), but ROE (12%) already assumes an expected earnings increase. Assuming market risk premium does not directly relate to dividend yield. Therefore, B's explanation is incorrect and misleading.\n- C: Explanation why C is wrong: Dividend yield does not affect the justified P/B ratio calculation directly. A high dividend yield indicates a company pays out more dividends than it earns, which would actually lead to a lower justified P/B ratio. Thus, C's claim that a high dividend yield decreases the justified P/B ratio is incorrect."
     },
     {
       "id": "MOCK-EQU-015",
@@ -283,12 +283,12 @@
       "stem": "A primary advantage of using the Price-to-Sales (P/S) multiple over the P/E multiple is that P/S can be used to value firms with:?",
       "options": {
         "A": "Negative net income (net losses) or volatile corporate profit margins",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Companies with highly seasonal revenue streams that have stable profit margins throughout the year.",
+        "C": "Firms with strong brand recognition and loyal customer bases that maintain profitability despite low sales growth."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-EQT-11 (Price Multiples Price-to-Sales (P/S) Valuation). Negative net income (net losses) or volatile corporate profit margins.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because it doesn't accurately reflect a disadvantage of P/E over P/S. Seasonal revenue does not necessarily imply stability or profitability.\n- C is wrong because strong brand recognition alone does not guarantee high profit margins, especially for companies with low sales growth."
     },
     {
       "id": "MOCK-EQU-017",
@@ -355,12 +355,12 @@
       "stem": "A stock trades at $50.00, expected next-year dividend D1 = $2.50, and required return r = 10%. The implied constant growth rate g is:?",
       "options": {
         "A": "5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The expected constant growth rate g should equal the required return r to reflect a dividend yield of 5% at time zero, since D1 / P0 = $2.50 / $50.00 represents the present value of future dividends.",
+        "C": "Dividend yield equals the discount rate times a non-growing dividend, so we can set g equal to the required return r plus the non-growing dividend yield (D1/P0) to correctly calculate the constant growth rate."
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-EQT-04 (Constant Growth DDM Implied Growth Rate). 5.0% (g = r - (D1 / P0) = 0.10 - ($2.50 / $50.00) = 0.10 - 0.05 = 5.0%).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "MOCK-EQU-021",
@@ -373,12 +373,12 @@
       "stem": "FCFF is defined as cash flow available to:?",
       "options": {
         "A": "All suppliers of capital, including debt holders, preferred shareholders, and common equity holders",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "All suppliers of capital, including all shareholders and lenders with claims to residual income and cash flow.",
+        "C": "All providers of financing that have a financial claim on the residual cash flows of a firm, but excludes those with only non-financial claims such as dividends from preferred stock or interest from debt."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-EQT-09 (Equity Valuation Free Cash Flow to Firm (FCFF)). All suppliers of capital, including debt holders, preferred shareholders, and common equity holders.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong\nB is wrong because FCFF does not include all shareholders. Only common equity holders and retained earnings are included. Preferred shareholders have a claim to dividend payments, but these are paid out of net income rather than residual cash flows. Debt holders have a financial claim on the firm's assets only if they convert their debt into equity.\nC is wrong because it excludes those with non-financial claims from residual cash flows. While C correctly identifies that FCFF excludes those with only non-financial claims, it incorrectly implies that these are not included at all. In fact, some analysts do include preferred stock and other non-financial claims in their calculation of FCFF."
     },
     {
       "id": "MOCK-EQU-022",
@@ -409,12 +409,12 @@
       "stem": "Single Monthly Mortality (SMM) measures the percentage of remaining mortgage principal prepaid in:?",
       "options": {
         "A": "A single month relative to expected scheduled principal payments",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "SMM measures the percentage of remaining mortgage principal prepaid in relation to outstanding principal balance at the time of prepayment.",
+        "C": "SMM measures the percentage of remaining mortgage principal prepaid based on historical average monthly payment growth rates."
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-FIX-17 (Structured Finance Mortgage Prepayment Rate Measures SMM). A single month relative to expected scheduled principal payments.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because SMM is based on scheduled payments, not outstanding balances. The correct answer focuses on a single month relative to expected scheduled principal payments.\n- C: This distractor is wrong because it incorrectly implies that the percentage of prepaid principal is calculated based on historical average monthly payment growth rates, whereas SMM measures prepayment as a proportion of scheduled payments."
     },
     {
       "id": "MOCK-FI-002",
@@ -553,12 +553,12 @@
       "stem": "Extension risk in Mortgage-Backed Securities (MBS) occurs when interest rates rise, causing:?",
       "options": {
         "A": "Prepayments to slow down, extending the average life of the MBS portfolio",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Prepayments to accelerate, reducing the average life of the MBS portfolio.",
+        "C": "Extension risk is actually caused by an increase in servicing costs due to longer loan terms and higher interest rates."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-FIX-07 (Mortgage Prepayment Risk Extension Risk). Prepayments to slow down, extending the average life of the MBS portfolio.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor incorrectly suggests that prepayment acceleration would extend the life of the MBS portfolio, which is opposite of what is intended. The correct answer (A) states that prepayments slow down, extending the life of the portfolio.\n- C: While higher servicing costs can be a risk associated with longer loan terms and interest rate increases, this is not the primary cause of extension risk in MBS. The correct explanation is that rising interest rates lead to prepayment slowdowns, increasing the average life of the portfolio."
     },
     {
       "id": "MOCK-FI-010",
@@ -589,12 +589,12 @@
       "stem": "Modified duration measures the percentage price change of a bond per 100 bps change in:?",
       "options": {
         "A": "Yield to maturity (YTM)",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Holding period yield (HPY) is the average return of a portfolio or individual security over a specific time horizon.",
+        "C": "Weighted average cost of capital (WACC) is the weighted average of all costs associated with owning a firm's debt and equity."
       },
       "correct": "A",
       "explanation": "Correct application for LO-FIX-12 (Macaulay vs Modified Duration). Yield to maturity (YTM).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "MOCK-FI-012",
@@ -625,12 +625,12 @@
       "stem": "For a bond with positive convexity, when market yields change by +/- 200 bps, the duration-predicted price change:?",
       "options": {
         "A": "Underestimates price increases when yields fall, and overestimates price declines when yields rise",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Price movements are equally predictable, regardless of the direction of yield changes.",
+        "C": "Duration is unaffected by yield changes, so no price change occurs."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-FIX-05 (Bond Price Yield Curve Convexity Effect). Underestimates price increases when yields fall, and overestimates price declines when yields rise.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a positive convexity bond's duration changes in response to yield movements, affecting its price. When yields fall, a longer-duration bond tends to increase in value (overestimating price increases), while when yields rise, a shorter-duration bond tends to increase in value (underestimating price declines).\n- C: Incorrect because the bond's duration is inversely related to yield changes, not unaffected."
     },
     {
       "id": "MOCK-FI-014",
@@ -643,12 +643,12 @@
       "stem": "In a sequential-pay CMO structure, principal prepayments are directed first to:?",
       "options": {
         "A": "Tranche A (the shortest-maturity tranche) until fully retired before paying Tranche",
-        "B": "B) Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Pay off the EEC with the highest monthly payment first, regardless of tranche maturity.",
+        "C": "Pay off Tranche A and EEC simultaneously until both are fully retired before paying Tranche B."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-FIX-06 (Collateralized Mortgage Obligations (CMO) Sequential Pay). Tranche A (the shortest-maturity tranche) until fully retired before paying Tranche B.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because in a sequential-pay CMO structure, principal prepayments should prioritize the shortest-maturity tranche (Tranche A) to minimize future cash shortfalls. Paying off the EEC with the highest monthly payment first would not achieve this goal and could result in higher costs for investors.\n- C: This distractor is wrong because paying off Tranche A and EEC simultaneously may not be the most efficient approach, as it could delay prepayment of the shorter-maturity tranche (Tranche B). In a sequential-pay structure, principal prepayments should prioritize the shortest-maturity tranche until fully retired before moving on to the next one."
     },
     {
       "id": "MOCK-FI-015",
@@ -679,12 +679,12 @@
       "stem": "To immunize a single-liability fixed income portfolio against interest rate risk, the portfolio manager must ensure:?",
       "options": {
         "A": "Portfolio Macaulay duration equals the liability investment horizon, and PV of assets equals PV of liabilities",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Macaulay duration should match the liability yield curve, not investment horizon.",
+        "C": "The portfolio manager must ensure PV of assets equals the weighted average of liabilities' cash flows."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-FIX-11 (Bond Portfolio Duration Immunization). Portfolio Macaulay duration equals the liability investment horizon, and PV of assets equals PV of liabilities.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because Macaulay duration should be matched to the relevant yield curve (e.g. liability or risk-free), not necessarily the investment horizon. This approach does not account for potential changes in the yield curve over time.\n- C: Incorrect because it confuses the concept of PV of assets with the weighted average of liabilities' cash flows, which is actually the correct approach to ensure a portfolio can meet its future cash obligations."
     },
     {
       "id": "MOCK-FI-017",
@@ -751,12 +751,12 @@
       "stem": "A 90-day bank bill with par value $1,000,000 trades at a discount rate of 4.0%. Its purchase price is:?",
       "options": {
         "A": "$990,000 (Price = Par * [1 - (Days/360) * Discount Rate] = $1,000,000 * [1 - (90/360)*0.04] = $990,000)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Discount rate calculation error, Days/360 should be 0.25 not 0.04 for a 90-day trade, and the actual discount price is $995,000.",
+        "C": "Incorrect application of formula, instead of multiplying Discount Rate by (Days/360), it should be Dividend Rate by (Days/360) or simply as a percentage of Par Value, resulting in a purchase price of $999,600."
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-FIX-04 (Bond Money Market Discount Rate vs Add-On Rate). $990,000 (Price = Par * [1 - (Days/360) * Discount Rate] = $1,000,000 * [1 - (90/360)*0.04] = $990,000).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "MOCK-FI-021",
@@ -769,12 +769,12 @@
       "stem": "A credit rating transition matrix displays:?",
       "options": {
         "A": "The probability that a bond of a given rating will be upgraded, downgraded, or default over a specified timeframe",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The credit rating transition matrix displays the likelihood of a bond being retained at its current rating.",
+        "C": "The credit rating transition matrix displays the average yield to maturity for bonds across all rating levels."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-FIX-09 (Credit Risk Rating Agencies & Transition Matrix). The probability that a bond of a given rating will be upgraded, downgraded, or default over a specified timeframe.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it refers to the retention probability, not the upgrading/downgrading or defaulting probabilities. The transition matrix shows the probabilities of changes in rating (upgrades, downgrades, defaults) over time. \n- C: Incorrect because it refers to yield to maturity, which is a different concept altogether. Yield to maturity is a characteristic of individual bonds, whereas the credit rating transition matrix provides information on rating changes over time."
     },
     {
       "id": "MOCK-FI-022",
@@ -805,12 +805,12 @@
       "stem": "In a 2x5 FRA at a fixed rate of 4.0%, if the 3-month floating rate at settlement is 5.0%, the long position receives:?",
       "options": {
         "A": "Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The long position pays a coupon payment based on the floating rate, and then receives an additional settlement payment that is 1.0% above the fixed rate, discounted to the settlement date.",
+        "C": "The settlement value is simply the difference between the floating rate and the fixed rate times the notional principal amount."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-DER-06 (Forward Rate Agreements (FRA) Settlement Value). Settlement payment reflecting the 1.0% interest differential discounted back to the settlement date.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it assumes a premium or discount for the FRA, but instead the long position only receives interest on their initial investment. The additional settlement payment reflects the interest differential discounted back to the settlement date.\n- C: Incorrect because the settlement value is based on the fixed rate and the difference between the floating rate and the fixed rate times the notional principal amount."
     },
     {
       "id": "MOCK-DER-002",
@@ -949,12 +949,12 @@
       "stem": "According to put-call parity ($C + PV(X) = P + S$), a synthetic long stock position is created by:?",
       "options": {
         "A": "Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Buying a call option and selling a put option with the same strike, and investing the present value of the strike in risk-free bonds",
+        "C": "Investing the present value of the strike in risk-free bonds and buying a long stock position, then shorting the call option"
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-DER-03 (Put-Call Parity Option Synthetic Positions). Buying a call option, selling a put option with the same strike, and investing the present value of the strike in risk-free bonds.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it does not include selling the put option. The correct positions are buying a call and selling a put with the same strike.\n- C: Incorrect because it is creating a synthetic long stock position by buying the stock instead of investing in risk-free bonds."
     },
     {
       "id": "MOCK-DER-010",
@@ -985,12 +985,12 @@
       "stem": "In a single-name Credit Default Swap, the protection seller agrees to pay the protection buyer if:?",
       "options": {
         "A": "A credit event (such as bankruptcy or failure to pay) occurs on the reference entity",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "the protection seller agrees to pay the protection buyer if a downgrade occurs on the reference entity",
+        "C": "the protection seller agrees to pay the protection buyer in case of an economic downturn on the reference entity"
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-DER-07 (Credit Default Swaps (CDS) Protection Seller Duties). A credit event (such as bankruptcy or failure to pay) occurs on the reference entity.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This answer is incorrect because, under the CDS protection seller agreement, they only make payments in response to credit events (such as bankruptcy or failure to pay) on the reference entity, not downgrades. Downgrades are a different type of credit event that typically result in a higher payout for the buyer, but do not trigger an immediate payment.\n- C: This answer is also incorrect because the protection seller only makes payments due to events specifically defined in the agreement, such as bankruptcy or failure to pay, and does not make payments based on general economic downturns."
     },
     {
       "id": "MOCK-ALT-001",
@@ -1183,12 +1183,12 @@
       "stem": "In commercial real estate DCF valuation, the terminal capitalization rate is applied to projected Net Operating Income in year:?",
       "options": {
         "A": "N + 1 (the year immediately following the holding period end)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "N + 5 years after the holding period end date, assuming a typical capitalization rate hold period of 4-6 years.",
+        "C": "N - 2 years before the holding period end date, which is not supported by conventional DCF valuation practices."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ALT-06 (Real Estate Valuation Discounted Cash Flow Model). N + 1 (the year immediately following the holding period end).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The terminal capitalization rate is applied immediately following the holding period end to accommodate the assumption that the asset is fully depreciated and the cash flows are from existing net operating income. Applying it N + 5 years after does not align with standard DCF methodologies.\n- C: Applying the terminal capitalization rate two years before the end of the holding period would result in unrealistically high valuation multiples, as the holding period benefits from favorable tax and depreciation schedules."
     },
     {
       "id": "MOCK-ALT-012",
@@ -1237,12 +1237,12 @@
       "stem": "A commercial property generates Potential Gross Income of $1,000,000, vacancy loss of 5%, and operating expenses of $350,000. At a cap rate of 8%, property value is:?",
       "options": {
         "A": "$7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The property's operating expenses can be reduced by negotiating a more favorable lease, bringing the vacancy loss to 3% and reducing the cap rate to 7.5%.",
+        "C": "If the property owner were to invest $200,000 in capital improvements, the Property Value would increase due to increased rental income from enhanced amenities."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-ALT-03 (Real Estate Net Operating Income (NOI) Valuation). $7,500,000 (NOI = $1M - $50k - $350k = $600,000; Value = $600,000 / 0.08 = $7,500,000).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong"
     },
     {
       "id": "MOCK-PM-001",
@@ -1255,12 +1255,12 @@
       "stem": "The primary objective of Strategic Asset Allocation (SAA) in an IPS is to establish a long-term asset mix that:?",
       "options": {
         "A": "Maximizes expected return for the client's specified risk tolerance and constraint profile",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Maximizes expected return for the client's specified risk tolerance and within the investment universe available to meet the investor's objectives, given prevailing market conditions.",
+        "C": "Ensures an asset mix that tracks a benchmark index closely, with minimal deviation from the track record of the chosen index."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-PRT-07 (Investment Policy Statement Strategic Asset Allocation). Maximizes expected return for the client's specified risk tolerance and constraint profile.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B is wrong because it implies SAA seeks to maximize return in isolation of other constraints and objectives, rather than aligning with the client's overall investment policy statement. The correct answer considers both risk tolerance and constraint profile alongside expected return.\n- C is wrong because tracking a benchmark index does not necessarily align with the client's specific goals or preferences, which SAA aims to address."
     },
     {
       "id": "MOCK-PM-002",
@@ -1417,12 +1417,12 @@
       "stem": "A 5% 1-day Value at Risk (VaR) of $1.0 million means there is a:?",
       "options": {
         "A": "5% probability that the portfolio will lose MORE than $1.0 million in a single day",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A 5% 1-day VaR of $1.0 million means there is a 5% probability that the portfolio will gain MORE than $1.0 million in a single day.",
+        "C": "A 5% 1-day VaR of $1.0 million means there is a 5% probability that the portfolio's return will be within -1.0% to 1.0% of $1.0 million in a single day."
       },
       "correct": "A",
       "explanation": "Correct application for LO-PRT-09 (Value at Risk (VaR) Interpretation). 5% probability that the portfolio will lose MORE than $1.0 million in a single day.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because VaR measures loss, not gain. The correct interpretation should consider losses exceeding the VaR value.\n- C: Incorrect because it implies that there is some level of probability for the portfolio's return to be within a specific range from the VaR value, which does not accurately represent how VaR is calculated and interpreted."
     },
     {
       "id": "MOCK-PM-011",
@@ -1471,12 +1471,12 @@
       "stem": "Loss aversion bias causes investors to demonstrate asymmetric behavior by:?",
       "options": {
         "A": "Feeling the pain of losses more intensely than the pleasure of equivalent gains",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Loss aversion bias causes investors to prioritize long-term cost savings over short-term gains.",
+        "C": "Loss aversion bias causes investors to invest more heavily in assets with higher potential for large losses."
       },
       "correct": "A",
       "explanation": "Correct application for LO-PRT-13 (Behavioral Loss Aversion). Feeling the pain of losses more intensely than the pleasure of equivalent gains.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because loss aversion refers to the tendency to prefer avoiding losses over acquiring equivalent gains, not prioritizing cost savings. Loss aversion does not necessarily imply a preference for long-term cost savings.\n- C: This distractor is wrong because while investors may be more risk-averse due to loss aversion, it's not accurate to say that investors invest more heavily in assets with higher potential for large losses. Loss aversion can lead to risk aversion, but this does not necessarily translate to increased investment in high-risk assets."
     },
     {
       "id": "MOCK-PM-014",
@@ -1489,12 +1489,12 @@
       "stem": "Which limitation is inherent in standard Value at Risk (VaR) models??",
       "options": {
         "A": "VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "VaR accounts for all types of potential losses, not just the expected loss, which includes both realized and unrealized losses.",
+        "C": "VaR models do not account for the impact of correlations between assets on overall portfolio risk."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-PRT-06 (Risk Management Value at Risk (VaR)). VaR specifies maximum expected loss at a confidence level, but not the magnitude of tail losses beyond VaR.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "MOCK-PM-015",
@@ -1507,12 +1507,12 @@
       "stem": "Conditional Value at Risk (CVaR / Expected Shortfall) measures:?",
       "options": {
         "A": "The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The expected loss given that the loss exceeds a certain percentage of VaR threshold with equal probability",
+        "C": "The unconditional average loss for all possible outcomes, regardless of VaR threshold"
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-PRT-08 (Risk Management Value at Risk Conditional VaR). The expected loss given that the loss exceeds the specified Value at Risk (VaR) threshold.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because CVaR measures the expected loss above the VaR threshold, not just exceeding a certain percentage. The 'equal probability' aspect is also incorrect as it's more related to Expected Shortfall.\n- C: Incorrect because CVaR is conditional on the loss exceeding the specified VaR threshold and does not consider all possible outcomes."
     },
     {
       "id": "MOCK-PM-016",
@@ -1561,12 +1561,12 @@
       "stem": "The Treynor ratio measures excess return per unit of:?",
       "options": {
         "A": "Systematic risk measured by Beta ($\beta$)",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The Treynor ratio is calculated as the excess return on stocks minus the risk-free rate, so it's related to expected returns rather than systematic risk.",
+        "C": "The Treynor ratio is actually a measure of the sensitivity of portfolio returns to changes in market risk, which is more closely related to the market risk premium than Beta."
       },
       "correct": "A",
       "explanation": "Correct application for LO-PRT-12 (Treynor Ratio Performance Metric). Systematic risk measured by Beta ($\beta$).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The Treynor ratio does not directly measure excess return per unit of systematic risk. Instead, it measures the excess return relative to the risk-free rate and the market risk premium. While it does involve systematic risk, its primary purpose is to compare managers' risk-adjusted returns.\n- C: Beta ($\beta$) actually measures the sensitivity of a security's returns to changes in market risk, which is closely related to the Treynor ratio's definition. The Treynor ratio is not directly calculated using Beta or market risk premium."
     },
     {
       "id": "MOCK-PM-019",
@@ -1579,12 +1579,12 @@
       "stem": "Solvency risk differs from liquidity risk in that solvency risk refers to the risk that:?",
       "options": {
         "A": "Total liabilities exceed total assets, making the enterprise fundamentally insolvent",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Total liabilities exceed total assets, making the enterprise fundamentally insolvent but not necessarily unable to meet short-term obligations.",
+        "C": "Insufficient capital or inadequate cash reserves due to unfavorable changes in interest rates and exchange rates"
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-PRT-06 (Risk Management Framework Liquidity Risk vs Solvency Risk). Total liabilities exceed total assets, making the enterprise fundamentally insolvent.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because solvency risk does not solely refer to being insolvent. While a total liability exceed of total assets indicates insolvency, the enterprise may still have sufficient liquidity to meet short-term obligations. Solvency risk focuses on an entity's ability to pay long-term debts and meet financial commitments over time.\n- C: This distractor is incorrect because solvency risk is not solely due to unfavorable changes in interest rates and exchange rates. While these factors can impact a company's solvency, they are not the primary characteristic of solvency risk."
     },
     {
       "id": "MOCK-PM-020",
@@ -1597,12 +1597,12 @@
       "stem": "The standard IPS constraints (RRTTLLU) include Time Horizon, Taxes, Liquidity, Legal/Regulatory, and:?",
       "options": {
         "A": "Unique Circumstances",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Industry Concentration",
+        "C": "Fiduciary Duty"
       },
       "correct": "A",
       "explanation": "Correct application for LO-PRT-10 (Investment Policy Statement Constraints). Unique Circumstances.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Industry Concentration is a relevant factor in investment policy but does not directly correspond to one of the IPS constraints. It's closely related to the Legal/Regulatory aspect, however.\n- C: Fiduciary Duty is an important consideration for investment managers, but it's not explicitly included as an IPS constraint. The correct answer should be Unique Circumstances which addresses LO-PRT-10 constraints directly."
     },
     {
       "id": "MOCK-PM-021",

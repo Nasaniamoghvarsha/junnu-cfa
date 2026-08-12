@@ -870,8 +870,8 @@ C) No, because backtested model results constitute empirical proof of strategy p
 **Question:**
 A financial analyst is arrested for operating an un-registered off-the-books gambling ring. Does this conduct violate Standard I(D) Misconduct??
 A) Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Violating gambling laws, regardless of the motivation behind it, inherently involves a breach of professional trust and ethics, which aligns more closely with Standard I(A) Professional Integrity.
+C) While dishonesty may be involved in running an off-the-books gambling ring, the primary issue at hand is operating an unregistered business without proper oversight or disclosure, which seems to lean towards a breach of fiduciary duties and corporate governance standards rather than professional reputation per se.
 
 
 **Correct Answer:** A
@@ -879,7 +879,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-17 (Standard I(D) Misconduct). Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-ETH-17 (Standard I(D) Misconduct)
 **Related Concepts:** Standard I(D) Misconduct, CFA curriculum core concept
@@ -891,8 +892,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An analyst combines public financial reports with non-material nonpublic observations from plant site visits to form a Buy recommendation. Has the analyst violated Standard II(A)??
 A) No, because reaching an investment conclusion using the Mosaic Theory is fully compliant
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The analyst is only using non-material, nonpublic observations from plant site visits which can be considered as MNPI. By combining these with public financial reports, the analyst is not violating Standard II(A) because they are using different types of information.
+C) The analyst should disclose all material, nonpublic information used in reaching the investment conclusion to ensure compliance with Standard II(A). The use of the Mosaic Theory does not justify the omission of this disclosure.
 
 
 **Correct Answer:** A
@@ -900,7 +901,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory). No, because reaching an investment conclusion using the Mosaic Theory is fully compliant.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it fails to recognize that using public financial reports which are considered MNPI alongside non-material, nonpublic observations from plant site visits would still be a violation of Standard II(A) as material or nonmaterial information can't be separated and used independently.
+- C: This distractor is wrong because the Mosaic Theory permits the use of multiple types of MNPI (including public financial reports), but the analyst must disclose all material, nonpublic information used in reaching the investment conclusion.
 
 **LO Reference:** LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory)
 **Related Concepts:** Standard II(A) MNPI - Mosaic Theory, CFA curriculum core concept
@@ -912,8 +914,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An advisor manages a portfolio for an elderly retiree whose primary objective is capital preservation. The advisor allocates 80% to speculative high-yield debt. Has the advisor violated Standard III(C)??
 A) Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The advisor's allocation to high-yield debt may be more suitable for a younger investor seeking higher returns.
+C) The portfolio allocates 80% of assets to fixed income, which is consistent with the client's desire for stable income and capital preservation.
 
 
 **Correct Answer:** A
@@ -921,7 +923,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-19 (Standard III(C) Suitability). Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because high-yield debt can provide higher returns in the long-term, but the advisor's primary objective is capital preservation. The allocation may be suitable for a younger investor seeking higher returns, but not for an elderly retiree focused on preserving capital. 
+- C: This distractor is incorrect because allocating 80% to fixed income may indeed breach the client's risk tolerance and IPS objectives, as it does not provide sufficient diversification or balance in the portfolio.
 
 **LO Reference:** LO-ETH-19 (Standard III(C) Suitability)
 **Related Concepts:** Standard III(C) Suitability, CFA curriculum core concept
@@ -933,8 +936,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Upon resigning, an analyst takes proprietary research models created during employment without employer permission. Has the analyst violated Standard IV(A)??
 A) Yes, because taking firm property or proprietary models violates duty of loyalty to employer
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The proprietary research models were created with the understanding that they would remain property of the firm, and taking them without permission would have been a breach of contract.
+C) Taking the models would not necessarily be an issue as long as the analyst has received no compensation or benefits from their use outside of work.
 
 
 **Correct Answer:** A
@@ -942,7 +945,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-20 (Standard IV(A) Loyalty - Firm Property). Yes, because taking firm property or proprietary models violates duty of loyalty to employer.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because it misrepresents the concept of firm property and proprietary knowledge, which can include research models created during employment. The violation occurs regardless of contractual agreements.
+- C: This distractor is also incorrect because taking proprietary research models without permission does constitute a breach of duty of loyalty to the employer.
 
 **LO Reference:** LO-ETH-20 (Standard IV(A) Loyalty - Firm Property)
 **Related Concepts:** Standard IV(A) Loyalty - Firm Property, CFA curriculum core concept
@@ -954,8 +958,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A client offers an analyst a luxury vacation if his portfolio beats a benchmark. The analyst accepts in writing after receiving written approval from his employer. Is this compliant??
 A) Yes, because full prior written disclosure and written employer consent were obtained
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The vacation is too vague and does not adequately describe the potential for increased earnings.
+C) Accepting the vacation may create a conflict of interest if the client's financial performance directly affects the vacation.
 
 
 **Correct Answer:** A
@@ -963,7 +967,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-21 (Standard IV(B) Additional Compensation). Yes, because full prior written disclosure and written employer consent were obtained.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because the question asks about compliance, not adequacy. The LO-ETH-21 standard requires full prior written disclosure and employer consent regardless of whether the compensation is vague or not.
+- C: Incorrect because the analyst has already received employer approval, so there is no potential for a conflict of interest.
 
 **LO Reference:** LO-ETH-21 (Standard IV(B) Additional Compensation)
 **Related Concepts:** Standard IV(B) Additional Compensation, CFA curriculum core concept
@@ -975,8 +980,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An analyst publishes a research report that fails to distinguish between factual historical data and forward-looking earnings projections. Has the analyst violated Standard V(B)??
 A) Yes, because Standard V(B) requires clear separation between facts and opinions/projections
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The report may have been too focused on the company's growth prospects, but it did not explicitly state that these projections were based on assumptions.
+C) The report clearly stated that the earnings projections were based on industry benchmarks and historical trends, making clear that they were not personal opinions.
 
 
 **Correct Answer:** A
@@ -984,7 +989,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-22 (Standard V(B) Communication with Clients). Yes, because Standard V(B) requires clear separation between facts and opinions/projections.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because while the report may have been focused on growth prospects, it failed to distinguish between facts and opinions/projections. The lack of clear separation makes the report misleading to clients who may interpret forward-looking earnings projections as factual data. The report's failure to address this issue violates Standard V(B).
+- C: This distractor is wrong because the report does not clearly state that industry benchmarks and historical trends are used to estimate future performance, leaving room for interpretation about the accuracy of these estimates.
 
 **LO Reference:** LO-ETH-22 (Standard V(B) Communication with Clients)
 **Related Concepts:** Standard V(B) Communication with Clients, CFA curriculum core concept
@@ -996,8 +1002,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A firm fails to maintain research recommendation records and client communication logs for the recommended 7-year retention period. Has the firm violated Standard V(C)??
 A) Yes, because Standard V(C) recommends maintaining records for at least 7 years
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The firm failed to maintain records because the recommended retention period was not violated, it was merely exceeded.
+C) Standard V(C) only applies to firms that provide investment advice and research recommendations to retail clients, not institutional clients.
 
 
 **Correct Answer:** A
@@ -1005,7 +1011,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-23 (Standard V(C) Record Retention). Yes, because Standard V(C) recommends maintaining records for at least 7 years.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The correct application of LO-ETH-23 indicates that failing to maintain records is a violation. Exceeding the retention period does not excuse non-compliance.
+- C: Standard V(C) applies to all firms regardless of the type of client, so it is still applicable in this scenario.
 
 **LO Reference:** LO-ETH-23 (Standard V(C) Record Retention)
 **Related Concepts:** Standard V(C) Record Retention, CFA curriculum core concept
@@ -1017,8 +1024,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An analyst writes a research report on a company where her spouse owns 5% of outstanding shares, without disclosing the relationship. Has the analyst violated Standard VI(A)??
 A) Yes, because beneficial ownership by immediate family members creates a material conflict of interest
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The analyst should have disclosed her spouse's ownership, but only if it exceeded 5% threshold, as less than 5% doesn't create a material conflict of interest.
+C) The company has a long history of purchasing the shares from the spouse on specific dates, which is unrelated to any insider trading or conflict of interest.
 
 
 **Correct Answer:** A
@@ -1026,7 +1033,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-24 (Standard VI(A) Disclosure of Conflicts). Yes, because beneficial ownership by immediate family members creates a material conflict of interest.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because the materiality standard for conflicts of interest is not solely based on share ownership thresholds. The analyst's proximity to her spouse creates a perception of impropriety, even if the actual ownership percentage is below 5%. In fact, many regulatory bodies consider relationships with immediate family members to be inherently material for analysts.
+- C: This distractor is wrong because the company's history of purchasing shares from the spouse does not justify failure to disclose the analyst's relationship. The lack of transparency creates an appearance of impropriety that can damage investor confidence in the company and its research.
 
 **LO Reference:** LO-ETH-24 (Standard VI(A) Disclosure of Conflicts)
 **Related Concepts:** Standard VI(A) Disclosure of Conflicts, CFA curriculum core concept
@@ -1038,8 +1046,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An advisor receives a cash referral fee from a broker for client trades, and discloses the arrangement to clients prior to contract signing. Is this compliant??
 A) Yes, because referral fees are permissible if fully disclosed in writing before contract execution
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The advisor must also document the terms of the referral fee arrangement and the commission split, as well as any subsequent changes to the agreement.
+C) Referral fees are only permissible if they do not influence the advisor's recommendation or create a conflict of interest.
 
 
 **Correct Answer:** A
@@ -1047,7 +1055,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-25 (Standard VI(C) Referral Fees). Yes, because referral fees are permissible if fully disclosed in writing before contract execution.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because it implies that disclosure alone is enough to render non-disclosure of referral fees compliant, which contradicts industry regulations. The correct answer must include written documentation before contract execution.
+- C: This distractor is incorrect because the explanation provided does not fully capture the requirements for permissible referral fees. While influence on recommendation and conflict of interest are relevant factors, this distractor incorrectly states that referral fees are only permissible without influencing the advisor's recommendation or creating a conflict of interest.
 
 **LO Reference:** LO-ETH-25 (Standard VI(C) Referral Fees)
 **Related Concepts:** Standard VI(C) Referral Fees, CFA curriculum core concept
@@ -1059,8 +1068,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A Level I candidate discusses specific exam question topics on a online forum after completing the exam. Has the candidate violated Standard VII(A)??
 A) Yes, because disclosing confidential exam question content compromises exam integrity
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Sharing personal exam results with friends on social media could be considered a violation of standard VII(A), as it may inadvertently influence others' performance on the exam.
+C) Discussing general concepts and principles learned from the exam questions on an online forum does not necessarily violate standard VII(A) since it is based on publicly available information, such as textbooks and online resources.
 
 
 **Correct Answer:** A
@@ -1068,7 +1077,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-26 (Standard VII(A) CFA Program Conduct). Yes, because disclosing confidential exam question content compromises exam integrity.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because sharing personal exam results with friends does not directly disclose confidential exam question content. The candidate could discuss general concepts without violating the standard.
+- C: Incorrect because discussing exam questions, even if based on public sources, may still be seen as a breach of confidentiality and exam integrity.
 
 **LO Reference:** LO-ETH-26 (Standard VII(A) CFA Program Conduct)
 **Related Concepts:** Standard VII(A) CFA Program Conduct, CFA curriculum core concept
@@ -1080,8 +1090,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A charterholder uses 'CFA' as a noun on business cards ('John Smith, a CFA'). Does this violate Standard VII(B)??
 A) Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Using 'CFA' as a noun conveys that the individual holds a certification, which could imply they are authorized to perform certain services or functions. This could potentially lead to misuse of the designation.
+C) In this context, 'CFA' is an abbreviation for Chartered Financial Analyst, not an adjective describing the holder's profession. The use as a noun does not violate Standard VII(B) since it does not imply that the individual has the actual certification or expertise
 
 
 **Correct Answer:** A
@@ -1089,7 +1099,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-27 (Standard VII(B) Designation Reference). Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because using 'CFA' as a noun conveys information about the holder's status, which may not necessarily be misleading. The standard focuses on whether the designation implies expertise or authority.
+- C: This distractor is correct because using 'CFA' in this context does imply that the individual has the certification and expertise, even if they don't. This could be seen as a misuse of the designation.
 
 **LO Reference:** LO-ETH-27 (Standard VII(B) Designation Reference)
 **Related Concepts:** Standard VII(B) Designation Reference, CFA curriculum core concept
@@ -1102,8 +1113,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A financial analyst is arrested for operating an un-registered off-the-books gambling ring. Does this conduct violate Standard I(D) Misconduct??
 A) Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The analyst's actions were not dishonest, as they did not attempt to deceive or mislead anyone in a professional capacity.
+C) The analyst's actions were a personal issue unrelated to their professional duties as an investment analyst.
 
 
 **Correct Answer:** A
@@ -1111,7 +1122,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-17 (Standard I(D) Misconduct). Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because the analyst's conduct was still reflective of their professional reputation and demonstrated a lack of integrity. While not directly related to their professional duties, the analyst's actions still compromised their ability to provide sound investment advice.
+- C: This distractor is also incorrect because it ignores the fact that the analyst's unregistered gambling ring involved deception of others, which reflects poorly on their professional reputation and adherence to ethical standards.
 
 **LO Reference:** LO-ETH-17 (Standard I(D) Misconduct)
 **Related Concepts:** Standard I(D) Misconduct, CFA curriculum core concept
@@ -1123,8 +1135,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An analyst combines public financial reports with non-material nonpublic observations from plant site visits to form a Buy recommendation. Has the analyst violated Standard II(A)??
 A) No, because reaching an investment conclusion using the Mosaic Theory is fully compliant
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The analyst must have used a non-material, nonpublic observation from a plant site visit to form the investment conclusion.
+C) The analyst failed to disclose the nonpublic observations made during the plant site visits in the combined public financial reports and analyst's report.
 
 
 **Correct Answer:** A
@@ -1132,7 +1144,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory). No, because reaching an investment conclusion using the Mosaic Theory is fully compliant.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because the Mosaic Theory allows the use of both public and non-public information. The fact that one observation came from a plant site visit does not disqualify its use as long as it was used properly under the Mosaic Theory.
+- C is wrong because the analyst only used the non-material, nonpublic observations to form the investment conclusion, not as a basis for the Buy recommendation.
 
 **LO Reference:** LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory)
 **Related Concepts:** Standard II(A) MNPI - Mosaic Theory, CFA curriculum core concept
@@ -1144,8 +1157,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An advisor manages a portfolio for an elderly retiree whose primary objective is capital preservation. The advisor allocates 80% to speculative high-yield debt. Has the advisor violated Standard III(C)??
 A) Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) This allocation may be suitable for a more aggressive investor, given the high-yield debt component.
+C) The portfolio's focus on high-yield debt does not necessarily contravene the advisor's fiduciary duty to maximize after-tax returns for the retiree's primary objective of capital preservation.
 
 
 **Correct Answer:** A
@@ -1153,7 +1166,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-19 (Standard III(C) Suitability). Yes, because the portfolio allocation breaches the client's risk tolerance and IPS objectives.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because a more aggressive investor may still have different risk tolerance and IPS objectives. The correct analysis is that the portfolio allocation breaches the client's risk tolerance and IPS objectives.
+- C: Incorrect because the advisor has not adequately considered alternative investments or strategies to maximize after-tax returns, which could compromise their fiduciary duty.
 
 **LO Reference:** LO-ETH-19 (Standard III(C) Suitability)
 **Related Concepts:** Standard III(C) Suitability, CFA curriculum core concept
@@ -1165,8 +1179,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 Upon resigning, an analyst takes proprietary research models created during employment without employer permission. Has the analyst violated Standard IV(A)??
 A) Yes, because taking firm property or proprietary models violates duty of loyalty to employer
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Firm's research models are considered public knowledge after 3 years of non-use, and the analyst simply retained a copy for personal reference.
+C) The firm never explicitly stated that proprietary models were firm property, so this action is not a clear breach of duty of loyalty.
 
 
 **Correct Answer:** A
@@ -1174,7 +1188,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-20 (Standard IV(A) Loyalty - Firm Property). Yes, because taking firm property or proprietary models violates duty of loyalty to employer.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-ETH-20 (Standard IV(A) Loyalty - Firm Property)
 **Related Concepts:** Standard IV(A) Loyalty - Firm Property, CFA curriculum core concept
@@ -1186,8 +1200,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A client offers an analyst a luxury vacation if his portfolio beats a benchmark. The analyst accepts in writing after receiving written approval from his employer. Is this compliant??
 A) Yes, because full prior written disclosure and written employer consent were obtained
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The client's offer was conditioned on the portfolio beating a benchmark, which may not be an independent factor and could create a conflict of interest.
+C) The analyst should have considered alternative compensation arrangements that did not involve personal risk or potential financial gain from the portfolio's performance.
 
 
 **Correct Answer:** A
@@ -1195,7 +1209,7 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-21 (Standard IV(B) Additional Compensation). Yes, because full prior written disclosure and written employer consent were obtained.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it assumes the client's offer was conditional on something other than being paid if the portfolio beats the benchmark. The focus of the question is the acceptance of a vacation in exchange for beating the benchmark, not the specific terms of the offer. As long as the analyst received full prior written disclosure and written employer consent, the arrangement complies with LO-ETH-21.
 
 **LO Reference:** LO-ETH-21 (Standard IV(B) Additional Compensation)
 **Related Concepts:** Standard IV(B) Additional Compensation, CFA curriculum core concept
@@ -1207,8 +1221,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An analyst publishes a research report that fails to distinguish between factual historical data and forward-looking earnings projections. Has the analyst violated Standard V(B)??
 A) Yes, because Standard V(B) requires clear separation between facts and opinions/projections
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The report's failure to distinguish between factual historical data and forward-looking earnings projections can be seen as a reflection of the analyst's general caution in presenting potentially complex information.
+C) The lack of clarity may have arisen from the analyst's emphasis on the importance of future growth prospects for companies in the sector, which is a common practice in industry research reports.
 
 
 **Correct Answer:** A
@@ -1216,7 +1230,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-22 (Standard V(B) Communication with Clients). Yes, because Standard V(B) requires clear separation between facts and opinions/projections.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it implies that the lack of clear distinction between facts and projections is not necessarily a violation of Standard V(B). In fact, the standard requires clear separation to avoid confusion. Simply presenting complex information without clarity can be misleading. 
+- C: This distractor is wrong because it misinterprets the issue at hand. The problem is not that the analyst emphasized future growth prospects, but rather that they failed to clearly distinguish between factual data and forward-looking projections. The emphasis on growth prospects may have been a legitimate presentation choice, but it should not have been conflated with or obscured by factual data.
 
 **LO Reference:** LO-ETH-22 (Standard V(B) Communication with Clients)
 **Related Concepts:** Standard V(B) Communication with Clients, CFA curriculum core concept
@@ -1228,8 +1243,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A firm fails to maintain research recommendation records and client communication logs for the recommended 7-year retention period. Has the firm violated Standard V(C)??
 A) Yes, because Standard V(C) recommends maintaining records for at least 7 years
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Standard V(C) recommends maintaining records for at least 5 years, and the firm has made a best effort to maintain accurate records.
+C) The firm has an established review process that identifies and corrects errors in research recommendation records within 3 years of their creation.
 
 
 **Correct Answer:** A
@@ -1237,7 +1252,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-23 (Standard V(C) Record Retention). Yes, because Standard V(C) recommends maintaining records for at least 7 years.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it inaccurately represents Standard V(C) Record Retention. The standard requires maintenance for at least 7 years, not 5 years.
+- C: This distractor is wrong because the review process does not meet the minimum retention requirement of 7 years as specified in Standard V(C). While the firm may have an effective quality control process, it does not fulfill the minimum record retention obligation.
 
 **LO Reference:** LO-ETH-23 (Standard V(C) Record Retention)
 **Related Concepts:** Standard V(C) Record Retention, CFA curriculum core concept
@@ -1249,8 +1265,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An analyst writes a research report on a company where her spouse owns 5% of outstanding shares, without disclosing the relationship. Has the analyst violated Standard VI(A)??
 A) Yes, because beneficial ownership by immediate family members creates a material conflict of interest
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The analyst's spouse owns less than 1% of outstanding shares, which is not considered beneficial ownership.
+C) The company has a policy of requiring analysts to disclose conflicts of interest for family members owning more than 10% of shares, but the spouse only owns 5%, so this does not apply.
 
 
 **Correct Answer:** A
@@ -1258,7 +1274,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-24 (Standard VI(A) Disclosure of Conflicts). Yes, because beneficial ownership by immediate family members creates a material conflict of interest.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The analyst's spouse owning less than 1% of outstanding shares is still considered material due to its potential impact on investment decisions and the analyst's independence. Beneficial ownership by immediate family members creates a material conflict of interest regardless of the percentage owned.
+- C: The company's policy may be relevant, but it does not supersede the standard for beneficial ownership established in LO-ETH-24 (Standard VI(A)). The correct application is to determine if the ownership level creates a material conflict, which it does.
 
 **LO Reference:** LO-ETH-24 (Standard VI(A) Disclosure of Conflicts)
 **Related Concepts:** Standard VI(A) Disclosure of Conflicts, CFA curriculum core concept
@@ -1270,8 +1287,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 An advisor receives a cash referral fee from a broker for client trades, and discloses the arrangement to clients prior to contract signing. Is this compliant??
 A) Yes, because referral fees are permissible if fully disclosed in writing before contract execution
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) The advisor must also ensure that the referral fee does not exceed 25 basis points, as required by standard VI(C) Referral Fees.
+C) Disclosure of the referral fee arrangement is required only if the client has a minimum account value of $100,000.
 
 
 **Correct Answer:** A
@@ -1279,7 +1296,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-25 (Standard VI(C) Referral Fees). Yes, because referral fees are permissible if fully disclosed in writing before contract execution.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Wrong because the question does not address the fee cap requirement.
+- C: Wrong because disclosure requirements are based on written contract terms and client account values exceeding the threshold are not specified in the question.
 
 **LO Reference:** LO-ETH-25 (Standard VI(C) Referral Fees)
 **Related Concepts:** Standard VI(C) Referral Fees, CFA curriculum core concept
@@ -1291,8 +1309,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A Level I candidate discusses specific exam question topics on a online forum after completing the exam. Has the candidate violated Standard VII(A)??
 A) Yes, because disclosing confidential exam question content compromises exam integrity
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Firms and organizations often update their investment products, but this does not necessarily mean that they have changed the underlying value of those assets.
+C) Disclosing exam question content may also help candidates understand the reasoning behind exam questions and improve their knowledge of topics, which could lead to better preparation for future exams.
 
 
 **Correct Answer:** A
@@ -1300,7 +1318,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-26 (Standard VII(A) CFA Program Conduct). Yes, because disclosing confidential exam question content compromises exam integrity.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because it suggests that firms updating investment products has no relation to the candidate disclosing confidential exam question content. Disclosing exam content still compromises exam integrity as per Standard VII(A). The focus should be on maintaining confidentiality, not on the firm's business practices.
+- C: This distractor is incorrect because discussing and sharing exam question content could potentially be seen as a breach of confidentiality, regardless of whether it helps candidates improve their knowledge or preparation for future exams.
 
 **LO Reference:** LO-ETH-26 (Standard VII(A) CFA Program Conduct)
 **Related Concepts:** Standard VII(A) CFA Program Conduct, CFA curriculum core concept
@@ -1312,8 +1331,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A charterholder uses 'CFA' as a noun on business cards ('John Smith, a CFA'). Does this violate Standard VII(B)??
 A) Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun
-B) Incorrect alternative distractor
-C) Secondary plausible incorrect distractor option
+B) Using 'CFA' as a noun does not violate Standard VII(B) because the standard only applies when a designation is used as an adjective, not a noun
+C) The correct answer would be that it violates the standard because the term 'CFA' has taken on a different meaning in this context than its original definition, which could potentially lead to confusion.
 
 
 **Correct Answer:** A
@@ -1321,7 +1340,8 @@ C) Secondary plausible incorrect distractor option
 **Explanation:** Correct application for LO-ETH-27 (Standard VII(B) Designation Reference). Yes, because 'CFA' must be used as an adjective (e.g. 'CFA charterholder'), not a noun.
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-ETH-27 (Standard VII(B) Designation Reference)
 **Related Concepts:** Standard VII(B) Designation Reference, CFA curriculum core concept
@@ -1334,8 +1354,8 @@ C) Secondary plausible incorrect distractor option
 **Question:**
 A charterholder is considering establishing an independent advisory firm while still employed. Before soliciting current clients, she must notify her employer in writing of the types of services, duration, and compensation. Does her duty of loyalty permit pre-solicitation preparation??
 A) Yes, preliminary actions to organize a new business (such as filing incorporation papers) are permissible provided they do not conflict with employer duties or solicit clients prior to resignation.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The charterholder should not begin soliciting current clients until she has provided written notice to her employer, as this would create a conflict of interest and breach the duty of loyalty.
+C) Preliminary actions to organize a new business do not include making significant marketing materials or advertising the new firm's services to potential clients before resignation, as these steps are still soliciting clients indirectly.
 
 
 **Correct Answer:** A
@@ -1343,7 +1363,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ETH-01 (CFA Code of Ethics Principles). Yes, preliminary actions to organize a new business (such as filing incorporation papers) are permissible provided they do not conflict with employer duties or solicit clients prior to resignation..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The charterholder should not begin soliciting current clients until she has provided written notice to her employer because that notice is a formal disclosure of her intent to leave and solicit clients. This would create a conflict of interest and breach the duty of loyalty.
+- C: Preliminary actions to organize a new business include filing incorporation papers, creating a business plan, or making other preparatory steps that do not directly involve soliciting clients. Making marketing materials or advertising services before resignation could still be seen as solicitation, even if indirect.
 
 **LO Reference:** LO-ETH-01 (CFA Code of Ethics Principles)
 **Related Concepts:** CFA Code of Ethics Principles, CFA curriculum core concept
@@ -1355,8 +1376,8 @@ C) Alternative incorrect option
 **Question:**
 A supervisor detects that an analyst under her supervision committed a minor trade allocation error. The supervisor instructs the analyst to cover the loss out of personal funds without reporting it to compliance. Has the supervisor violated Standard IV(C)??
 A) Yes, supervisors must ensure compliance procedures are strictly followed and all breaches are reported to appropriate compliance authorities.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Supervisors are not required to personally intervene in minor trade allocation errors, and this action does not compromise the integrity of the firm's compliance procedures.
+C) Reporting minor trade allocation errors to compliance authorities may raise unnecessary concerns and create additional work for already overburdened compliance teams.
 
 
 **Correct Answer:** A
@@ -1364,7 +1385,10 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ETH-05 (Standard IV(C) Responsibilities of Supervisors). Yes, supervisors must ensure compliance procedures are strictly followed and all breaches are reported to appropriate compliance authorities..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
+B is incorrect because it implies that the supervisor's action is permissible. In fact, supervisors are required to ensure compliance procedures are strictly followed, even in minor cases.
+C is incorrect because reporting minor trade allocation errors to compliance authorities does not compromise the integrity of the firm's compliance procedures and may actually help maintain transparency and accountability.
 
 **LO Reference:** LO-ETH-05 (Standard IV(C) Responsibilities of Supervisors)
 **Related Concepts:** Standard IV(C) Responsibilities of Supervisors, CFA curriculum core concept
@@ -1376,8 +1400,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst relies solely on a high-performing third-party quantitative screening model without reviewing the underlying assumptions or backtested methodology. Has the analyst violated Standard V(A)??
 A) Yes, members must undertake reasonable diligence to understand the parameters and limitations of third-party research before adopting recommendations.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The analyst should have assessed the model's performance using walk-forward optimization with an appropriate risk-free rate to gauge its reliability.
+C) Since the model is a high-performer, it can be assumed that its methodology and assumptions are sound without requiring additional diligence.
 
 
 **Correct Answer:** A
@@ -1385,7 +1409,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ETH-09 (Standard V(A) Diligence & Reasonable Basis). Yes, members must undertake reasonable diligence to understand the parameters and limitations of third-party research before adopting recommendations..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor suggests the analyst should assess the model's performance using walk-forward optimization, which would require an understanding of the model's limitations, thereby meeting the requirements of reasonable diligence. The focus is on whether the analyst understands the parameters and limitations of third-party research before adopting recommendations.
+- C: Assuming the model is sound without diligence violates Standard V(A) as it fails to meet the requirements for reasonable diligence.
 
 **LO Reference:** LO-ETH-09 (Standard V(A) Diligence & Reasonable Basis)
 **Related Concepts:** Standard V(A) Diligence & Reasonable Basis, CFA curriculum core concept
@@ -1397,8 +1422,8 @@ C) Alternative incorrect option
 **Question:**
 During a live webinar, a CFA Level I candidate claims that passing Level I on the first attempt places him in the top 5% of financial professionals globally. Has the candidate violated Standard VII(A)??
 A) Yes, candidates must not exaggerate the meaning or implications of participation in the CFA Program.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) To be in the top 5% of financial professionals globally, a candidate would need to have demonstrated exceptional skill and expertise in finance, far beyond what is demonstrated by passing Level I.
+C) The CFA Program itself does not provide any global rankings or certifications that could be used to determine a candidate's relative standing among other financial professionals
 
 
 **Correct Answer:** A
@@ -1406,7 +1431,8 @@ C) Alternative incorrect option
 **Explanation:** Level 3 depth application for LO-ETH-11 (Standard VII(A) Conduct as Members). Yes, candidates must not exaggerate the meaning or implications of participation in the CFA Program..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor might seem plausible at first, but it assumes a level of expertise and ranking system beyond what the CFA Program provides. Passing Level I demonstrates a certain level of knowledge, but it is not a definitive measure of skill or ranking within an industry as a whole.
+- C: While it's true that the CFA Program does not provide global rankings, this distractor avoids making any claim about the candidate's skills or expertise at all. The correct answer (A) focuses on the candidate's exaggeration of their standing relative to other financial professionals, whereas B makes an incorrect assumption about the meaning of passing Level I.
 
 **LO Reference:** LO-ETH-11 (Standard VII(A) Conduct as Members)
 **Related Concepts:** Standard VII(A) Conduct as Members, CFA curriculum core concept
@@ -1419,8 +1445,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst copies three paragraphs of economic forecasting data from a published central bank report without attribution. Has the analyst committed plagiarism under Standard I(C)??
 A) Yes, members must acknowledge the source of material used from published research, even if produced by governmental or official bodies.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The data was publicly available and the report was not explicitly attributed to a specific individual.
+C) The analyst used paraphrasing software to rewrite the text, making it their own work.
 
 
 **Correct Answer:** A
@@ -1428,7 +1454,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ETH-10 (Standard I(C) Misrepresentation & Plagiarism). Yes, members must acknowledge the source of material used from published research, even if produced by governmental or official bodies..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because plagiarism under Standard I(C) requires proper attribution to the original source of data, regardless of its availability or whether a specific author was attributed. In this case, not attributing the source of the data from the central bank report would still constitute plagiarism.
+- C: The use of paraphrasing software does not change the fact that the data was originally copied without proper attribution.
 
 **LO Reference:** LO-ETH-10 (Standard I(C) Misrepresentation & Plagiarism)
 **Related Concepts:** Standard I(C) Misrepresentation & Plagiarism, CFA curriculum core concept
@@ -1440,8 +1467,8 @@ C) Alternative incorrect option
 **Question:**
 An investment advisor is convicted of tax evasion involving personal offshore accounts. Does this personal conviction constitute a violation of Standard I(D) Misconduct??
 A) Yes, because tax evasion involves dishonesty and deceit, which reflects adversely on professional integrity.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The conviction does not necessarily reflect on the advisor's professional integrity because it involves personal financial actions, rather than a breach of fiduciary duty.
+C) Standard I(D) Misconduct requires that an individual's personal behavior or character be substantially related to their professional conduct, which may not be directly applicable in this case.
 
 
 **Correct Answer:** A
@@ -1449,7 +1476,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ETH-12 (Standard I(D) Misconduct & Personal Integrity). Yes, because tax evasion involves dishonesty and deceit, which reflects adversely on professional integrity..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Explanation why B is wrong
+- C: Explanation why C is wrong
 
 **LO Reference:** LO-ETH-12 (Standard I(D) Misconduct & Personal Integrity)
 **Related Concepts:** Standard I(D) Misconduct & Personal Integrity, CFA curriculum core concept
@@ -1461,8 +1489,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst learns from a supply chain audit that a major technology firm has halved its component orders. He issues a Sell rating before public earnings release. Compliant under Mosaic Theory??
 A) Yes, combining non-material nonpublic observations with industry research is permissible under the Mosaic Theory.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The analyst should have been cautious of selective disclosure, as the halved component orders might be an isolated incident rather than a material trend.
+C) Since the nonpublic observations were based on preliminary audit findings and not yet confirmed by management or auditors, combining them with industry research would still be considered speculative.
 
 
 **Correct Answer:** A
@@ -1470,7 +1498,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ETH-14 (Standard II(A) Material Nonpublic Information). Yes, combining non-material nonpublic observations with industry research is permissible under the Mosaic Theory..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The Mosaic Theory allows for combining non-material nonpublic observations with industry research because the information is not material in nature. Halving component orders are likely a minor adjustment rather than a material trend. Therefore, B is correct under Mosaic Theory.
+- C: This distractor correctly identifies that B should be chosen as it complies with the Mosaic Theory. The concern regarding selective disclosure in option C does not impact the correctness of B.
 
 **LO Reference:** LO-ETH-14 (Standard II(A) Material Nonpublic Information)
 **Related Concepts:** Standard II(A) Material Nonpublic Information, CFA curriculum core concept
@@ -1482,8 +1511,8 @@ C) Alternative incorrect option
 **Question:**
 A portfolio manager executes a personal purchase of 500 shares of Stock A after fully executing a 100,000-share institutional block order for clients. Has the manager complied with Standard VI(B)??
 A) Yes, client trades received complete priority over personal trades, satisfying Standard VI(B).
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The client trade order was placed over 30 minutes before the personal purchase, but the institutional block order did not specifically instruct the manager to prioritize client trades over personal purchases.
+C) Standard VI(B) only applies when a portfolio manager has executed a client order within 1 hour of executing a personal trade that would affect the net result of the client transaction.
 
 
 **Correct Answer:** A
@@ -1491,7 +1520,8 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ETH-15 (Standard VI(B) Priority of Transactions). Yes, client trades received complete priority over personal trades, satisfying Standard VI(B)..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is incorrect because it implies that time is not a factor in determining priority, which contradicts the spirit of Standard VI(B). The fact that the client trade was placed before the personal purchase indicates that the manager did comply with the standard. 
+- C: This distractor is also incorrect because it misstates the specific instruction required by Standard VI(B), implying an additional requirement (within 1 hour) that is not present in the standard.
 
 **LO Reference:** LO-ETH-15 (Standard VI(B) Priority of Transactions)
 **Related Concepts:** Standard VI(B) Priority of Transactions, CFA curriculum core concept
@@ -1503,8 +1533,8 @@ C) Alternative incorrect option
 **Question:**
 Under GIPS standards, a composite must include:?
 A) All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy are not required for composite construction.
+C) Composite must include all actual, fee-paying, discretionary portfolios that have been managed by a firm under a single investment policy statement.
 
 
 **Correct Answer:** A
@@ -1512,7 +1542,7 @@ C) Alternative incorrect option
 **Explanation:** High-value marginal EEC addition for LO-ETH-16 (Standard GIPS Composite Construction). All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- Distractors reflect realistic misconceptions.
 
 **LO Reference:** LO-ETH-16 (Standard GIPS Composite Construction)
 **Related Concepts:** Standard GIPS Composite Construction, CFA curriculum core concept
@@ -1525,8 +1555,8 @@ C) Alternative incorrect option
 **Question:**
 A charterholder displays the CFA logo on his website, scaled proportionally and alongside his name. Is this compliant with Standard VII(A)??
 A) Yes, proper usage of the CFA designation and logo according to CFA Institute guidelines is compliant.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The CFA Institute requires the logo to be used in a manner that accurately reflects its official design and color, with specific proportions for scale.
+C) The charterholder's use of the CFA logo on their website may violate Standard VII(A) if it is perceived as an endorsement or sponsorship by the CFA Institute.
 
 
 **Correct Answer:** A
@@ -1534,7 +1564,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 4 targeted EEC closure addition for LO-ETH-11 (Standard VII(A) CFA Institute Logo & Designation). Yes, proper usage of the CFA designation and logo according to CFA Institute guidelines is compliant..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is plausible but incorrect. While the CFA Institute does have guidelines for the usage of its logo, this specific text does not address the compliance issue and instead provides a general description of the requirements. The correct answer focuses on the specific Standard VII(A) guideline being referenced.
+- C: This distractor is also plausible but incorrect. It correctly identifies potential issues with using the CFA logo as an endorsement, but it does not specifically address whether the charterholder's use complies with Standard VII(A). The correct answer highlights that the charterholder has followed the guidelines and used the logo in compliance.
 
 **LO Reference:** LO-ETH-11 (Standard VII(A) CFA Institute Logo & Designation)
 **Related Concepts:** Standard VII(A) CFA Institute Logo & Designation, CFA curriculum core concept
@@ -1547,8 +1578,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst includes an excerpt from a paid proprietary research report in her investment memo, citing the source and author in a footnote. Compliant under Standard I(C)??
 A) Yes, proper citation and attribution of proprietary third-party research fully satisfies Standard I(C).
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) A proprietary research report obtained through personal networks, not publicly available or distributed by the firm.
+C) The analyst paraphrased and summarized the content of a paid proprietary research report, but did not cite the source directly in her memo.
 
 
 **Correct Answer:** A
@@ -1556,7 +1587,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-ETH-10 (Standard I(C) Plagiarism & Source Attribution). Yes, proper citation and attribution of proprietary third-party research fully satisfies Standard I(C)..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B is wrong because the excerpt from a paid proprietary research report, properly cited as per Standard I(C), complies with the standard.
+- C is wrong because proper citation and attribution of proprietary third-party research fully satisfies Standard I(C).
 
 **LO Reference:** LO-ETH-10 (Standard I(C) Plagiarism & Source Attribution)
 **Related Concepts:** Standard I(C) Plagiarism & Source Attribution, CFA curriculum core concept
@@ -1569,8 +1601,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst accepts commercial business class airfare and luxury hotel accommodation paid by an issuer for a site visit to a remote mining facility. Does this violate Standard I(B)??
 A) Yes, unless modest or in remote locations where commercial transportation is unavailable, accepting paid luxury travel impairs independence.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Commercial airfare and luxury hotel stays are commonly used as industry standard for corporate travel, thus not raising concerns about independence or objectivity.
+C) The issuer did not provide enough information about the purpose of the site visit, making it impossible to determine whether accepting paid luxury travel was influenced by personal gain or not.
 
 
 **Correct Answer:** A
@@ -1578,7 +1610,7 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-ETH-08 (Standard I(B) Independence & Objectivity Corporate Visits). Yes, unless modest or in remote locations where commercial transportation is unavailable, accepting paid luxury travel impairs independence..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because it assumes that commercial airfare and hotel stays are industry standard, which may not be the case. The CFA Institute emphasizes that independence and objectivity can only be maintained when personal financial interests do not compromise professional judgment. In this scenario, the luxury travel could still create an appearance of impropriety or influence the analyst's judgment.
 
 **LO Reference:** LO-ETH-08 (Standard I(B) Independence & Objectivity Corporate Visits)
 **Related Concepts:** Standard I(B) Independence & Objectivity Corporate Visits, CFA curriculum core concept
@@ -1590,8 +1622,8 @@ C) Alternative incorrect option
 **Question:**
 An advisor presents a backtested investment model to clients stating: 'This strategy delivered a 15% annual return over the past 5 years.' Has the advisor violated Standard I(C)??
 A) Yes, failing to explicitly state that backtested performance represents simulated historical results constitutes misrepresentation.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) This strategy's performance was calculated using a risk-free rate of 2.5%, and it does not reflect the actual returns in a live market environment.
+C) Our model includes a tax-efficient rebalancing strategy that resulted in higher returns than what is commonly seen in the market.
 
 
 **Correct Answer:** A
@@ -1599,7 +1631,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-ETH-10 (Standard I(C) Misrepresentation Model Backtesting). Yes, failing to explicitly state that backtested performance represents simulated historical results constitutes misrepresentation..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: Incorrect because backtested performance is indeed simulated historical results, regardless of the specific risk-free rate used. The advisor still failed to explicitly state this. 
+- C: Incorrect because while tax efficiency can impact actual returns, it does not justify the omission of disclosure about backtesting methodology.
 
 **LO Reference:** LO-ETH-10 (Standard I(C) Misrepresentation Model Backtesting)
 **Related Concepts:** Standard I(C) Misrepresentation Model Backtesting, CFA curriculum core concept
@@ -1612,8 +1645,8 @@ C) Alternative incorrect option
 **Question:**
 A senior analyst is convicted of wire fraud related to personal property transactions. Does this conviction breach Standard I(D)??
 A) Yes, acts of fraud and deceit reflect directly on professional trustworthiness and violate Standard I(D).
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) Lack of personal financial information does not necessarily indicate an analyst's trustworthiness or competence to perform professional functions.
+C) A conviction for wire fraud related to personal property transactions may have a tangential effect on the analyst's overall professionalism, but it does not directly reflect on their ability to conduct research or provide investment advice.
 
 
 **Correct Answer:** A
@@ -1621,7 +1654,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ETH-12 (Standard I(D) Personal Misconduct & Financial Crimes). Yes, acts of fraud and deceit reflect directly on professional trustworthiness and violate Standard I(D)..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because a conviction for wire fraud indicates a breach of professional trustworthiness due to its relevance to personal financial information and transactions. It is still a significant enough infraction that the CFA Institute would likely view it as a breach of Standard I(D).
+- C: This distractor is wrong because while the act of wire fraud itself may not be directly related to investment research, the conviction reflects poorly on the analyst's personal trustworthiness and competence, which are relevant to their ability to conduct research and provide investment advice.
 
 **LO Reference:** LO-ETH-12 (Standard I(D) Personal Misconduct & Financial Crimes)
 **Related Concepts:** Standard I(D) Personal Misconduct & Financial Crimes, CFA curriculum core concept
@@ -1633,8 +1667,8 @@ C) Alternative incorrect option
 **Question:**
 An advisor compares her equity fund to an inappropriate short-term cash benchmark to claim superior alpha. Compliant under Standard I(C)??
 A) No, comparing performance against an inappropriate benchmark to misrepresent relative returns violates Standard I(C).
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) This advisor compares her equity fund to a short-term bond benchmark to claim superior alpha, which aligns with Standard I(C) guidelines for benchmark selection.
+C) Comparing performance against a low-cost index fund as a proxy for the broader market
 
 
 **Correct Answer:** A
@@ -1642,7 +1676,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ETH-13 (Standard I(C) Misrepresentation Benchmark Comparison). No, comparing performance against an inappropriate benchmark to misrepresent relative returns violates Standard I(C)..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: This distractor is wrong because comparing an equity fund to a short-term bond benchmark may not accurately represent the investment strategy, and standard I(C) specifically prohibits misrepresentation of relative returns.
+- C: This distractor is wrong because using a low-cost index fund as a proxy for the broader market does not necessarily align with Standard I(C) guidelines for benchmark selection.
 
 **LO Reference:** LO-ETH-13 (Standard I(C) Misrepresentation Benchmark Comparison)
 **Related Concepts:** Standard I(C) Misrepresentation Benchmark Comparison, CFA curriculum core concept
@@ -1654,8 +1689,8 @@ C) Alternative incorrect option
 **Question:**
 An analyst trades stock based on unverified internet chatroom rumors of an impending takeover. Has the analyst violated Standard II(A)??
 A) No, trading on unverified public market rumors does not constitute trading on material nonpublic insider information.
-B) Secondary distractor reflecting common misconception
-C) Alternative incorrect option
+B) The analyst traded based on unverified information that was likely to be false or misleading, which still constitutes a violation of Standard II(A).
+C) The analyst's actions were driven by speculation rather than actual material nonpublic information, making it a legitimate trading decision.
 
 
 **Correct Answer:** A
@@ -1663,7 +1698,8 @@ C) Alternative incorrect option
 **Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-ETH-14 (Standard II(A) Material Nonpublic Information Rumors). No, trading on unverified public market rumors does not constitute trading on material nonpublic insider information..
 
 **Wrong Answer Analysis:**
-- Distractors reflect realistic candidate misconceptions.
+- B: The correct answer (A) is incorrect because unverified public market rumors do not necessarily constitute material nonpublic insider information. While the rumors may be false or misleading, they are still publicly available and can be discussed by anyone, which does not rise to the level of material nonpublic information under Standard II(A).
+- C: The correct answer (A) is actually incorrect because trading on unverified public market rumors can still constitute a violation of Standard II(A) if the analyst has a reasonable basis to believe that the rumor is likely true and that it would significantly impact the stock price. In this case, the analyst's actions may be considered material nonpublic information under the standard.
 
 **LO Reference:** LO-ETH-14 (Standard II(A) Material Nonpublic Information Rumors)
 **Related Concepts:** Standard II(A) Material Nonpublic Information Rumors, CFA curriculum core concept

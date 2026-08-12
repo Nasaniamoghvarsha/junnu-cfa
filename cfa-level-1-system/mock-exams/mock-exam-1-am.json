@@ -157,12 +157,12 @@
       "stem": "A firm fails to maintain research recommendation records and client communication logs for the recommended 7-year retention period. Has the firm violated Standard V(C)??",
       "options": {
         "A": "Yes, because Standard V(C) recommends maintaining records for at least 7 years",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Standard V(C) recommends maintaining records for at least 5 years, and the firm has made a best effort to maintain accurate records.",
+        "C": "The firm has an established review process that identifies and corrects errors in research recommendation records within 3 years of their creation."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ETH-23 (Standard V(C) Record Retention). Yes, because Standard V(C) recommends maintaining records for at least 7 years.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it inaccurately represents Standard V(C) Record Retention. The standard requires maintenance for at least 7 years, not 5 years.\n- C: This distractor is wrong because the review process does not meet the minimum retention requirement of 7 years as specified in Standard V(C). While the firm may have an effective quality control process, it does not fulfill the minimum record retention obligation."
     },
     {
       "id": "MOCK-ETH-010",
@@ -193,12 +193,12 @@
       "stem": "An advisor compares her equity fund to an inappropriate short-term cash benchmark to claim superior alpha. Compliant under Standard I(C)??",
       "options": {
         "A": "No, comparing performance against an inappropriate benchmark to misrepresent relative returns violates Standard I(C).",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "This advisor compares her equity fund to a short-term bond benchmark to claim superior alpha, which aligns with Standard I(C) guidelines for benchmark selection.",
+        "C": "Comparing performance against a low-cost index fund as a proxy for the broader market"
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ETH-13 (Standard I(C) Misrepresentation Benchmark Comparison). No, comparing performance against an inappropriate benchmark to misrepresent relative returns violates Standard I(C)..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because comparing an equity fund to a short-term bond benchmark may not accurately represent the investment strategy, and standard I(C) specifically prohibits misrepresentation of relative returns.\n- C: This distractor is wrong because using a low-cost index fund as a proxy for the broader market does not necessarily align with Standard I(C) guidelines for benchmark selection."
     },
     {
       "id": "MOCK-ETH-012",
@@ -211,12 +211,12 @@
       "stem": "Under GIPS standards, a composite must include:?",
       "options": {
         "A": "All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy.",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy are not required for composite construction.",
+        "C": "Composite must include all actual, fee-paying, discretionary portfolios that have been managed by a firm under a single investment policy statement."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-ETH-16 (Standard GIPS Composite Construction). All actual, fee-paying, discretionary portfolios managed in accordance with the same investment strategy..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "MOCK-ETH-013",
@@ -229,12 +229,12 @@
       "stem": "A charterholder displays the CFA logo on his website, scaled proportionally and alongside his name. Is this compliant with Standard VII(A)??",
       "options": {
         "A": "Yes, proper usage of the CFA designation and logo according to CFA Institute guidelines is compliant.",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The CFA Institute requires the logo to be used in a manner that accurately reflects its official design and color, with specific proportions for scale.",
+        "C": "The charterholder's use of the CFA logo on their website may violate Standard VII(A) if it is perceived as an endorsement or sponsorship by the CFA Institute."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-ETH-11 (Standard VII(A) CFA Institute Logo & Designation). Yes, proper usage of the CFA designation and logo according to CFA Institute guidelines is compliant..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is plausible but incorrect. While the CFA Institute does have guidelines for the usage of its logo, this specific text does not address the compliance issue and instead provides a general description of the requirements. The correct answer focuses on the specific Standard VII(A) guideline being referenced.\n- C: This distractor is also plausible but incorrect. It correctly identifies potential issues with using the CFA logo as an endorsement, but it does not specifically address whether the charterholder's use complies with Standard VII(A). The correct answer highlights that the charterholder has followed the guidelines and used the logo in compliance."
     },
     {
       "id": "MOCK-ETH-014",
@@ -247,12 +247,12 @@
       "stem": "An analyst trades stock based on unverified internet chatroom rumors of an impending takeover. Has the analyst violated Standard II(A)??",
       "options": {
         "A": "No, trading on unverified public market rumors does not constitute trading on material nonpublic insider information.",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The analyst traded based on unverified information that was likely to be false or misleading, which still constitutes a violation of Standard II(A).",
+        "C": "The analyst's actions were driven by speculation rather than actual material nonpublic information, making it a legitimate trading decision."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ETH-14 (Standard II(A) Material Nonpublic Information Rumors). No, trading on unverified public market rumors does not constitute trading on material nonpublic insider information..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The correct answer (A) is incorrect because unverified public market rumors do not necessarily constitute material nonpublic insider information. While the rumors may be false or misleading, they are still publicly available and can be discussed by anyone, which does not rise to the level of material nonpublic information under Standard II(A).\n- C: The correct answer (A) is actually incorrect because trading on unverified public market rumors can still constitute a violation of Standard II(A) if the analyst has a reasonable basis to believe that the rumor is likely true and that it would significantly impact the stock price. In this case, the analyst's actions may be considered material nonpublic information under the standard."
     },
     {
       "id": "MOCK-ETH-015",
@@ -283,12 +283,12 @@
       "stem": "An analyst combines public financial reports with non-material nonpublic observations from plant site visits to form a Buy recommendation. Has the analyst violated Standard II(A)??",
       "options": {
         "A": "No, because reaching an investment conclusion using the Mosaic Theory is fully compliant",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The analyst is only using non-material, nonpublic observations from plant site visits which can be considered as MNPI. By combining these with public financial reports, the analyst is not violating Standard II(A) because they are using different types of information.",
+        "C": "The analyst should disclose all material, nonpublic information used in reaching the investment conclusion to ensure compliance with Standard II(A). The use of the Mosaic Theory does not justify the omission of this disclosure."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ETH-18 (Standard II(A) MNPI - Mosaic Theory). No, because reaching an investment conclusion using the Mosaic Theory is fully compliant.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it fails to recognize that using public financial reports which are considered MNPI alongside non-material, nonpublic observations from plant site visits would still be a violation of Standard II(A) as material or nonmaterial information can't be separated and used independently.\n- C: This distractor is wrong because the Mosaic Theory permits the use of multiple types of MNPI (including public financial reports), but the analyst must disclose all material, nonpublic information used in reaching the investment conclusion."
     },
     {
       "id": "MOCK-ETH-017",
@@ -319,12 +319,12 @@
       "stem": "A senior analyst is convicted of wire fraud related to personal property transactions. Does this conviction breach Standard I(D)??",
       "options": {
         "A": "Yes, acts of fraud and deceit reflect directly on professional trustworthiness and violate Standard I(D).",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Lack of personal financial information does not necessarily indicate an analyst's trustworthiness or competence to perform professional functions.",
+        "C": "A conviction for wire fraud related to personal property transactions may have a tangential effect on the analyst's overall professionalism, but it does not directly reflect on their ability to conduct research or provide investment advice."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ETH-12 (Standard I(D) Personal Misconduct & Financial Crimes). Yes, acts of fraud and deceit reflect directly on professional trustworthiness and violate Standard I(D)..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because a conviction for wire fraud indicates a breach of professional trustworthiness due to its relevance to personal financial information and transactions. It is still a significant enough infraction that the CFA Institute would likely view it as a breach of Standard I(D).\n- C: This distractor is wrong because while the act of wire fraud itself may not be directly related to investment research, the conviction reflects poorly on the analyst's personal trustworthiness and competence, which are relevant to their ability to conduct research and provide investment advice."
     },
     {
       "id": "MOCK-ETH-019",
@@ -355,12 +355,12 @@
       "stem": "An advisor receives a cash referral fee from a broker for client trades, and discloses the arrangement to clients prior to contract signing. Is this compliant??",
       "options": {
         "A": "Yes, because referral fees are permissible if fully disclosed in writing before contract execution",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The advisor must also document the terms of the referral fee arrangement and the commission split, as well as any subsequent changes to the agreement.",
+        "C": "Referral fees are only permissible if they do not influence the advisor's recommendation or create a conflict of interest."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ETH-25 (Standard VI(C) Referral Fees). Yes, because referral fees are permissible if fully disclosed in writing before contract execution.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because it implies that disclosure alone is enough to render non-disclosure of referral fees compliant, which contradicts industry regulations. The correct answer must include written documentation before contract execution.\n- C: This distractor is incorrect because the explanation provided does not fully capture the requirements for permissible referral fees. While influence on recommendation and conflict of interest are relevant factors, this distractor incorrectly states that referral fees are only permissible without influencing the advisor's recommendation or creating a conflict of interest."
     },
     {
       "id": "MOCK-ETH-021",
@@ -373,12 +373,12 @@
       "stem": "A client offers an analyst a luxury vacation if his portfolio beats a benchmark. The analyst accepts in writing after receiving written approval from his employer. Is this compliant??",
       "options": {
         "A": "Yes, because full prior written disclosure and written employer consent were obtained",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The vacation is too vague and does not adequately describe the potential for increased earnings.",
+        "C": "Accepting the vacation may create a conflict of interest if the client's financial performance directly affects the vacation."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ETH-21 (Standard IV(B) Additional Compensation). Yes, because full prior written disclosure and written employer consent were obtained.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because the question asks about compliance, not adequacy. The LO-ETH-21 standard requires full prior written disclosure and employer consent regardless of whether the compensation is vague or not.\n- C: Incorrect because the analyst has already received employer approval, so there is no potential for a conflict of interest."
     },
     {
       "id": "MOCK-ETH-022",
@@ -391,12 +391,12 @@
       "stem": "An analyst writes a research report on a company where her spouse owns 5% of outstanding shares, without disclosing the relationship. Has the analyst violated Standard VI(A)??",
       "options": {
         "A": "Yes, because beneficial ownership by immediate family members creates a material conflict of interest",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The analyst should have disclosed her spouse's ownership, but only if it exceeded 5% threshold, as less than 5% doesn't create a material conflict of interest.",
+        "C": "The company has a long history of purchasing the shares from the spouse on specific dates, which is unrelated to any insider trading or conflict of interest."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ETH-24 (Standard VI(A) Disclosure of Conflicts). Yes, because beneficial ownership by immediate family members creates a material conflict of interest.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because the materiality standard for conflicts of interest is not solely based on share ownership thresholds. The analyst's proximity to her spouse creates a perception of impropriety, even if the actual ownership percentage is below 5%. In fact, many regulatory bodies consider relationships with immediate family members to be inherently material for analysts.\n- C: This distractor is wrong because the company's history of purchasing shares from the spouse does not justify failure to disclose the analyst's relationship. The lack of transparency creates an appearance of impropriety that can damage investor confidence in the company and its research."
     },
     {
       "id": "MOCK-ETH-023",
@@ -445,12 +445,12 @@
       "stem": "An analyst relies solely on a high-performing third-party quantitative screening model without reviewing the underlying assumptions or backtested methodology. Has the analyst violated Standard V(A)??",
       "options": {
         "A": "Yes, members must undertake reasonable diligence to understand the parameters and limitations of third-party research before adopting recommendations.",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The analyst should have assessed the model's performance using walk-forward optimization with an appropriate risk-free rate to gauge its reliability.",
+        "C": "Since the model is a high-performer, it can be assumed that its methodology and assumptions are sound without requiring additional diligence."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-ETH-09 (Standard V(A) Diligence & Reasonable Basis). Yes, members must undertake reasonable diligence to understand the parameters and limitations of third-party research before adopting recommendations..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor suggests the analyst should assess the model's performance using walk-forward optimization, which would require an understanding of the model's limitations, thereby meeting the requirements of reasonable diligence. The focus is on whether the analyst understands the parameters and limitations of third-party research before adopting recommendations.\n- C: Assuming the model is sound without diligence violates Standard V(A) as it fails to meet the requirements for reasonable diligence."
     },
     {
       "id": "MOCK-ETH-026",
@@ -463,12 +463,12 @@
       "stem": "An analyst accepts commercial business class airfare and luxury hotel accommodation paid by an issuer for a site visit to a remote mining facility. Does this violate Standard I(B)??",
       "options": {
         "A": "Yes, unless modest or in remote locations where commercial transportation is unavailable, accepting paid luxury travel impairs independence.",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Commercial airfare and luxury hotel stays are commonly used as industry standard for corporate travel, thus not raising concerns about independence or objectivity.",
+        "C": "The issuer did not provide enough information about the purpose of the site visit, making it impossible to determine whether accepting paid luxury travel was influenced by personal gain or not."
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-ETH-08 (Standard I(B) Independence & Objectivity Corporate Visits). Yes, unless modest or in remote locations where commercial transportation is unavailable, accepting paid luxury travel impairs independence..",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because it assumes that commercial airfare and hotel stays are industry standard, which may not be the case. The CFA Institute emphasizes that independence and objectivity can only be maintained when personal financial interests do not compromise professional judgment. In this scenario, the luxury travel could still create an appearance of impropriety or influence the analyst's judgment."
     },
     {
       "id": "MOCK-ETH-027",
@@ -481,12 +481,12 @@
       "stem": "A financial analyst is arrested for operating an un-registered off-the-books gambling ring. Does this conduct violate Standard I(D) Misconduct??",
       "options": {
         "A": "Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Violating gambling laws, regardless of the motivation behind it, inherently involves a breach of professional trust and ethics, which aligns more closely with Standard I(A) Professional Integrity.",
+        "C": "While dishonesty may be involved in running an off-the-books gambling ring, the primary issue at hand is operating an unregistered business without proper oversight or disclosure, which seems to lean towards a breach of fiduciary duties and corporate governance standards rather than professional reputation per se."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ETH-17 (Standard I(D) Misconduct). Yes, because acts involving dishonesty or deceit reflect adversely on professional reputation.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong"
     },
     {
       "id": "MOCK-QUA-001",
@@ -625,12 +625,12 @@
       "stem": "An annuity due pays $1,000 at the beginning of each year for 5 years at a discount rate of 6%. Its present value is closest to:?",
       "options": {
         "A": "$4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The present value of an annuity due can be calculated by using the formula Annuity Due PV = Ordinary Annuity PV * (1 + r)^n / (1 + r) or simply multiplying the ordinary annuity PV by (1+r). Here, if we use r=0.06 and n=5 we have $(1+0.06)^5  \\approx 1.338225$ so $4,212.36 * 1.338225 \\approx 5,661.39$ which is incorrect because the annuity due is paid at the beginning of each year.",
+        "C": "If we assume that an annuity due is equivalent to an ordinary annuity with a lump sum payment at the end of the first period and interest accrual over the remaining periods (i.e., PV = PV0 * (1+r)^n) we can calculate its present value as $4,212.36 * 1.06 = 4,465.11$ but only if all payments are made at the beginning of each year which is not true in this problem."
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-QNT-04 (Present Value of Ordinary Annuity vs Annuity Due). $4,465.11 (Annuity Due PV = Ordinary Annuity PV * (1 + r) = $4,212.36 * 1.06 = $4,465.11).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong\n- C: Explanation why C is wrong"
     },
     {
       "id": "MOCK-QUA-009",
@@ -661,12 +661,12 @@
       "stem": "In hypothesis testing, the null hypothesis (H0) is always formulated as:?",
       "options": {
         "A": "The hypothesis of no effect, no change, or equality to a specified benchmark value",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "A statement that describes the condition under which no effect or change occurs, but does not account for alternative scenarios.",
+        "C": "The hypothesis that states there is a significant difference between two populations, groups, or samples."
       },
       "correct": "A",
       "explanation": "Correct application for LO-QNT-19 (Null vs Alternative Hypothesis). The hypothesis of no effect, no change, or equality to a specified benchmark value.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- Distractors reflect realistic misconceptions."
     },
     {
       "id": "MOCK-QUA-011",
@@ -697,12 +697,12 @@
       "stem": "If population standard deviation is 12.0 and sample size n = 36, the standard error of the sample mean is:?",
       "options": {
         "A": "2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Sample size n = 100, population standard deviation sigma = 12.0, the sample standard deviation s = 24.0.",
+        "C": "Standard error of sample mean is calculated using the Fisher-Pearson method which states SE = (sigma^2 / n) * log(1 + (n-1) / 2)."
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-QNT-17 (Central Limit Theorem Sample Mean Standard Error). 2.0 (SE = sigma / sqrt(n) = 12.0 / sqrt(36) = 2.0).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This distractor contains incorrect information about the relationship between n and sigma. The correct formula for SE does not include a factor of n = 100.\n- C: The Fisher-Pearson method is actually used to calculate the standard error of the difference between two sample means, not the standard error of the sample mean. The correct formula for SE uses the population standard deviation (sigma) directly."
     },
     {
       "id": "MOCK-QUA-013",
@@ -715,12 +715,12 @@
       "stem": "A major advantage of Monte Carlo simulation over historical simulation in risk management is that Monte Carlo simulation can:?",
       "options": {
         "A": "Model hypothetical extreme risk scenarios that have never occurred in historical price series",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "can provide a lower cost of capital for portfolio managers by reducing the weight given to extreme historical events that are unlikely to occur again.",
+        "C": "can be run on existing financial planning software with minimal additional programming required, making it easier to implement across an entire firm."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-QNT-16 (Monte Carlo Simulation vs Historical Simulation). Model hypothetical extreme risk scenarios that have never occurred in historical price series.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because Monte Carlo simulation can actually increase the cost of capital by requiring more assumptions and input variables. Furthermore, it is often used to incorporate extreme scenarios into a portfolio's risk management framework rather than reduce their weight. Additionally, historical simulations do not require additional programming or special software. \n- C: Incorrect because Monte Carlo simulations typically require significant additional programming and specialized software to run efficiently."
     },
     {
       "id": "MOCK-QUA-014",
@@ -787,12 +787,12 @@
       "stem": "Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??",
       "options": {
         "A": "Financial Account",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Outflows of goods, services, and income from a country are recorded in the Balance of Payments Financial Account.",
+        "C": "Foreign direct investment inflows are typically classified as part of the Capital Account within the Balance of Payments, but the correct classification is actually within the Current Account to reflect the 'inflows' and 'outflows' of FDI."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-17 (Balance of Payments Accounts). Financial Account.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor misrepresents how FDI is recorded in the Financial Account. According to LO-ECO-17, net outflows of capital, including foreign direct investment (FDI), are recorded in the Capital Account, not the Financial Account. FDI inflows are actually part of the Current Account.\n- C: This distractor incorrectly classifies FDI as part of the Capital Account and misrepresents how FDI is recorded in the Balance of Payments. FDI inflows should be classified as 'inflows' within the Current Account, not the Capital Account."
     },
     {
       "id": "MOCK-ECO-004",
@@ -841,12 +841,12 @@
       "stem": "An import tariff imposed by a small country causes domestic price to rise to the world price plus tariff. The net national welfare loss equals:?",
       "options": {
         "A": "The combined area of domestic production distortion and consumption distortion deadweight loss triangles",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The tariff imposes a tax on imported goods, which increases the domestic price. The net national welfare loss includes the deadweight loss from production distortion (the area between the supply curve and the price-induced new equilibrium) plus the deadweight loss from consumption distortion (the area between the demand curve and the price-induced new equilibrium).",
+        "C": "The tariff reduces imports, allowing for domestic producers to capture a monopoly profit. The net national welfare loss is zero because consumers are better off due to higher prices protecting domestic industries."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-ECO-13 (International Trade Protectionism Deadweight Loss). The combined area of domestic production distortion and consumption distortion deadweight loss triangles.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because it fails to account for the fact that the deadweight losses from consumption distortion and production distortion occur separately; they should not be combined into one area. - C: Incorrect because a tariff protects domestic producers, but also leads to an increase in domestic price relative to world price, causing consumers to pay more for domestically produced goods."
     },
     {
       "id": "MOCK-ECO-007",
@@ -877,12 +877,12 @@
       "stem": "An oligopolistic market structure characterized by a dominant firm pricing under the dominant firm model leads to market price equal to:?",
       "options": {
         "A": "The price set by the dominant firm where its marginal revenue equals marginal cost",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The price set by the dominant firm where its marginal revenue equals average total cost",
+        "C": "The market price where firms are indifferent between producing at quantity one below the competitive level and quantity one above it"
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-ECO-06 (Monopoly vs Oligopoly Market Power). The price set by the dominant firm where its marginal revenue equals marginal cost.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This is incorrect because it implies a decrease in price due to an increase in average total costs, whereas in the dominant firm model, the firm sets its price where marginal revenue equals marginal cost. The change in price occurs when market demand changes or another firm enters the market.\n- C: This explanation suggests that oligopoly firms produce at the quantity where they are indifferent between producing above and below competitive levels, which implies a lack of market power. In reality, dominant firms do have significant market power and set prices based on their marginal revenue."
     },
     {
       "id": "MOCK-ECO-009",
@@ -913,12 +913,12 @@
       "stem": "Which economic indicator is considered a leading indicator of business cycle turns??",
       "options": {
         "A": "Average weekly initial claims for unemployment insurance",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The stock price of copper futures contracts, which are known to be highly correlated with business cycles.",
+        "C": "The current balance of international trade in oil over the past five years, as measured by the OECD's balance of payments data."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-13 (Business Cycle Indicators). Average weekly initial claims for unemployment insurance.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong The incorrectness of option B lies in the fact that copper futures prices are often seen as an indicator of inflation and commodity prices rather than a direct leading indicator of business cycles. Leading indicators typically have shorter lag times and are more closely tied to changes in consumer behavior or investment decisions.\n- C: Explanation why C is wrong The OECD's balance of payments data on oil trade does not serve as a reliable leading indicator for business cycle turns, primarily because the relationship between oil prices and economic activity can be complex and influenced by various factors such as technological advancements and shifts in global demand."
     },
     {
       "id": "MOCK-ECO-011",
@@ -931,12 +931,12 @@
       "stem": "For a **Giffen good**, an increase in price leads to an increase in quantity demanded because:?",
       "options": {
         "A": "The negative income effect outweighs the positive substitution effect for an inferior good",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "An increase in price leads to an increase in quantity demanded because consumers have a high disposable income, allowing them to afford more of the good.",
+        "C": "An increase in price leads to an increase in quantity demanded because higher prices encourage consumer substitution into more expensive alternatives."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-ECO-03 (Income and Substitution Effects). The negative income effect outweighs the positive substitution effect for an inferior good.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrect because a Giffen good's demand curve is downward sloping, meaning that as price increases, quantity demanded decreases. This contradicts the claim that consumers can afford more due to increased disposable income.\n- C: Incorrect because the positive substitution effect would lead to an increase in quantity demanded if there were alternative goods available that are cheaper or closer substitutes for the Giffen good. However, this is not the case as the question does not mention any such alternatives."
     },
     {
       "id": "MOCK-ECO-012",
@@ -949,12 +949,12 @@
       "stem": "Foreign direct investment (FDI) inflows are recorded in which Balance of Payments account??",
       "options": {
         "A": "Financial Account",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Foreign direct investment (FDI) inflows are recorded in the Capital Account.",
+        "C": "Foreign direct investment (FDI) inflows are recorded in the Non-Residual Balance of Payments account."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-17 (Balance of Payments Accounts). Financial Account.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong: The Capital Account includes investments by non-residents in the domestic economy, but it also shows outflows. FDI inflows should be reflected in the Financial Account as part of current transfers and income on foreign assets.\n- C: Explanation why C is wrong: The Non-Residual Balance of Payments account is not a standard BOP account. It was used historically to record transactions that were neither imports nor exports, but it has largely been replaced by more specific accounts like the Current Account and Capital Account."
     },
     {
       "id": "MOCK-ECO-013",
@@ -985,12 +985,12 @@
       "stem": "If covered interest rate parity holds, any interest rate differential between two currencies equals:?",
       "options": {
         "A": "The forward premium or discount on the foreign currency",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "The interest rate differential between the two currencies directly represents the expected change in purchasing power of each currency.",
+        "C": "A difference in interest rates equals a permanent change in the value of one currency relative to another."
       },
       "correct": "A",
       "explanation": "Correct application for LO-ECO-20 (Covered Interest Rate Parity). The forward premium or discount on the foreign currency.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor implies that any interest rate differential must result from an expected change in purchasing power, which is incorrect. Covered Interest Rate Parity assumes that any interest rate differential can be explained by a forward premium or discount on the foreign currency, not necessarily due to changes in purchasing power.\n- C: This distractor misinterprets the relationship between interest rates and exchange rates, suggesting a permanent change in value rather than the temporary deviation implied by Covered Interest Rate Parity."
     },
     {
       "id": "MOCK-FSA-001",
@@ -1003,12 +1003,12 @@
       "stem": "A firm reports a Deferred Tax Liability (DTL) that is expected to reverse in future periods. In financial ratio analysis, DTL should be treated as:?",
       "options": {
         "A": "Liability if reversal is expected, or Equity if reversal is unlikely to occur in the foreseeable future",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Deferred Tax Liability should be treated as a Non-Cash Item since its reversal in future periods is not guaranteed.",
+        "C": "The Deferred Tax Liability should be reported on the Balance Sheet under Equity as it represents a potential future credit that may offset future tax liabilities."
       },
       "correct": "A",
       "explanation": "High-value marginal EEC addition for LO-FSA-11 (Deferred Tax Liability Balance Sheet Analysis). Liability if reversal is expected, or Equity if reversal is unlikely to occur in the foreseeable future.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong DTL should be treated as a liability if reversal is expected, as it represents an amount that must be paid in future periods. Treating it as a non-cash item ignores the obligation and does not accurately reflect the company's financial position. - C: Explanation why C is wrong The treatment of DTL under equity assumes that its reversal is highly uncertain or unlikely to occur in the foreseeable future, which may not always be the case. If reversal is expected, it should still be treated as a liability rather than equity, as it represents an amount that must be paid."
     },
     {
       "id": "MOCK-FSA-002",
@@ -1057,12 +1057,12 @@
       "stem": "Under IFRS, interest paid and dividends received may be classified as operating cash flows OR:?",
       "options": {
         "A": "Financing cash flows (for interest paid) or Investing cash flows (for dividends received)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "are classified as operating cash flows due to the classification rules for interest expenses and dividends, where both are considered cash outflows from financing activities.",
+        "C": "are classified as operating cash flows because dividends are distributions of profits to owners, and do not reflect any inflow or outflow of funds."
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-FSA-11 (Operating vs Financing Cash Flow Classification IFRS). Financing cash flows (for interest paid) or Investing cash flows (for dividends received).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because the classification rules for interest expenses and dividends under IFRS do not support the premise that both can be classified as operating cash flows. Interest paid is a financing cash flow, while dividends received are an investing cash flow.\n- C: This distractor is wrong because dividends are distributions of profits to owners, but they reflect an outflow of funds from the company, rather than an inflow of cash. As such, they should be classified as financing cash flows."
     },
     {
       "id": "MOCK-FSA-005",
@@ -1147,12 +1147,12 @@
       "stem": "Establishing or increasing a deferred tax asset valuation allowance under US GAAP results in:?",
       "options": {
         "A": "Decreased net income and decreased carrying value of total assets",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Increases net income, as the valuation allowance reduces taxable income, thereby decreasing tax expense and increasing net income.",
+        "C": "Increases carrying value of total assets by recognizing a valuation allowance as an asset, despite it being deductible in the future."
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-15 (Deferred Tax Asset Valuation Allowance Earnings Impact). Decreased net income and decreased carrying value of total assets.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: Incorrect because increasing taxable income due to reduced valuation allowance would decrease net income. \n- C: Correct explanation, but B was given as the correct answer. This distractor is plausible but incorrect."
     },
     {
       "id": "MOCK-FSA-010",
@@ -1183,12 +1183,12 @@
       "stem": "Under IFRS 16, a lessor classifies a lease as a finance lease if:?",
       "options": {
         "A": "Substantially all risks and rewards of ownership are transferred to the lessee",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The lessee bears the economic benefits and liabilities of ownership, such as the depreciation expense and interest on the capital lease.",
+        "C": "A finance lease is one where a lease term greater than 25% of the total useful life is granted to the lessee."
       },
       "correct": "A",
       "explanation": "Batch 4 targeted EEC closure addition for LO-FSA-23 (Lease Accounting Finance vs Operating Lease Lessor). Substantially all risks and rewards of ownership are transferred to the lessee.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor addresses an incorrect aspect of IFRS 16. The correct definition focuses on risks and rewards transferred, not economic benefits and liabilities of ownership.\n- C: A lease term greater than 25% of the total useful life does not determine if a finance lease is required under IFRS 16. Instead, it is about which party bears the risks and rewards of ownership."
     },
     {
       "id": "MOCK-FSA-012",
@@ -1201,12 +1201,12 @@
       "stem": "Under the indirect method for operating cash flows, an increase in Accounts Payable during the period is:?",
       "options": {
         "A": "Added back to net income, because it represents expenses incurred but not yet paid in cash",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Accounts Payable is a component of Accounts Receivable and would be added to net income, because it represents revenue earned but not yet collected in cash",
+        "C": "The increase in Accounts Payable does not directly impact the payment of expenses; therefore, it should remain on the income statement."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-FSA-03 (Cash Flow Operating Indirect Method Adjustment). Added back to net income, because it represents expenses incurred but not yet paid in cash.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because Accounts Payable is a liability account and increasing its balance would actually reduce net income. Adding it back to net income would overstate net income.\n- C: This distractor is wrong because an increase in Accounts Payable does represent expenses incurred but not yet paid in cash, which should be subtracted from net income."
     },
     {
       "id": "MOCK-FSA-013",
@@ -1237,12 +1237,12 @@
       "stem": "A corporation reports pretax financial income of $1,000,000. Statutory tax rate is 25%. Non-deductible executive compensation is $40,000. Effective tax expense is:?",
       "options": {
         "A": "$260,000 (Tax Expense = 25% * ($1,000,000 + $40,000) = $260,000)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Corporate tax rate drops to 22% due to recent regulatory changes.",
+        "C": "Net operating loss carryforwards reduce taxable income by $80,000."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-FSA-09 (Income Tax Expense Effective Rate Reconciliation). $260,000 (Tax Expense = 25% * ($1,000,000 + $40,000) = $260,000).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The effective tax expense calculation does not take into account the reduction in corporate tax rate. Adding a 3% decrease in corporate tax rate would result in an additional $20,000 (25% * $40,000) to the tax expense, making it $260,000 instead of $240,000. \n- C: The calculation incorrectly assumes that net operating losses directly reduce taxable income, whereas they are only allowed against future taxable income. Therefore, this distractor is irrelevant to calculating effective tax expense."
     },
     {
       "id": "MOCK-FSA-015",
@@ -1255,12 +1255,12 @@
       "stem": "A temporary difference where financial accounting income is less than taxable income creates a:?",
       "options": {
         "A": "Deferred Tax Liability (DTL) because future tax payments will be higher",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Creates a deferred tax asset (DTA) because future tax payments will be lower",
+        "C": "Does not impact the recognition of deferred taxes, as it is a non-recurring item"
       },
       "correct": "A",
       "explanation": "Correct application for LO-FSA-14 (Deferred Tax Assets and Liabilities). Deferred Tax Liability (DTL) because future tax payments will be higher.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Incorrectly assumes that lower taxable income leads to lower future tax payments. A temporary difference can create a DTL if future taxable income increases.\n- C: Correct analysis for option C, but does not apply to the creation of a DTL as described in the question."
     },
     {
       "id": "MOCK-FSA-016",
@@ -1291,12 +1291,12 @@
       "stem": "When a firm using LIFO experiences inventory price inflation, an increase in the LIFO Reserve during the period:?",
       "options": {
         "A": "Increases LIFO COGS, reducing net income and reducing tax payments, which increases operating cash flow",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Increases LIFO COGS, reducing net income and reducing tax payments, which decreases operating cash flow.",
+        "C": "Results in no change to the LIFO Reserve or LIFO COGS"
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-21 (LIFO Reserve Change Cash Flow Statement Effect). Increases LIFO COGS, reducing net income and reducing tax payments, which increases operating cash flow.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This answer is incorrect because an increase in LIFO COGS would actually decrease net income and increase tax payments (since the cost of goods sold is overstated), thus increasing operating cash flow. The statement incorrectly states that it decreases operating cash flow.\n- C: This answer is incorrect because an increase in the LIFO Reserve during the period should result in a decrease in LIFO COGS, which in turn would reduce net income and tax payments, thereby increasing operating cash flow."
     },
     {
       "id": "MOCK-FSA-018",
@@ -1309,12 +1309,12 @@
       "stem": "Special Purpose Entities (SPEs) created for off-balance sheet financing must be consolidated under IFRS 10 if:?",
       "options": {
         "A": "The sponsor entity controls the SPE by having exposure to variable returns and power over relevant activities",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The SPE must be a variable interest entity (VIE) and the sponsor entity is identified as the primary beneficiary under IFRS 10.",
+        "C": "The SPE meets one of the conditions for consolidation under IFRS 10, such as being a joint arrangement or an investment entity"
       },
       "correct": "A",
       "explanation": "Batch 5 surgical closure addition targeting 95% concept milestone for LO-FSA-24 (Financial Statement Analysis Off-Balance Sheet Entities). The sponsor entity controls the SPE by having exposure to variable returns and power over relevant activities.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is wrong because the correct answer focuses on variable returns and power over relevant activities, not being a VIE. A VIE would be consolidated if it meets the primary beneficiary test, but that's not the case here. The correct focus is on control, not just identifying a VIE.\n- C: This distractor is wrong because while joint arrangements and investment entities do require consolidation under IFRS 10, the question specifically mentions SPEs created for off-balance sheet financing. The conditions for those types of entities are different from those that would require consolidation due to being a joint arrangement or investment entity."
     },
     {
       "id": "MOCK-FSA-019",
@@ -1345,12 +1345,12 @@
       "stem": "Under US GAAP, a deferred tax asset valuation allowance is recognized when it is:?",
       "options": {
         "A": "More likely than not (>50% probability) that some or all of the DTA will not be realized",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Recognized when the tax benefit associated with a long-lived asset is expected to be realized within one year of its anticipated disposal.",
+        "C": "Recognized when an entity expects to realize more than half of the future taxable amounts from operations that have already occurred, such as dividends or interest income."
       },
       "correct": "A",
       "explanation": "Batch 7 micro-batch high-yield rescue addition for LO-FSA-15 (Deferred Tax Asset Valuation Allowance US GAAP). More likely than not (>50% probability) that some or all of the DTA will not be realized.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor describes the realization of tax benefits associated with disposals and is incorrect because DTA valuation allowance does not require expected realization within one year. \n- C: This distractor refers to future taxable amounts from operations that have already occurred, which relates to revenue recognition, not DTA valuation allowance."
     },
     {
       "id": "MOCK-FSA-021",
@@ -1363,12 +1363,12 @@
       "stem": "The Quick Ratio (Acid-Test) excludes which current asset from the numerator??",
       "options": {
         "A": "Inventory, because it is less liquid than cash and receivables",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Returns receivables, because it may take time for the client to pay their outstanding balance.",
+        "C": "Prepaid expenses, because they represent future payments made for goods and services that have not been received yet."
       },
       "correct": "A",
       "explanation": "Correct application for LO-FSA-19 (Working Capital Liquidity Ratios). Inventory, because it is less liquid than cash and receivables.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Returns receivables is wrong. Although it's true returns receivables can be less liquid than cash and accounts receivable, the Quick Ratio specifically excludes inventory, but not necessarily returns receivables. The correct answer should address why returns receivables aren't an exclusion for the Quick Ratio, which is because it doesn't fit into the numerator as a current asset to be used in calculating liquidity.\n- C: Prepaid expenses are wrong. Prepaid expenses don't belong in the numerator of the Quick Ratio. They're non-current assets that represent payments made for goods and services received in previous periods, not current assets expected to be converted into cash within a short period."
     },
     {
       "id": "MOCK-FSA-022",
@@ -1381,12 +1381,12 @@
       "stem": "Under US GAAP, a enterprise must consolidate a Variable Interest Entity (VIE) if the enterprise:?",
       "options": {
         "A": "Is the primary beneficiary that absorbs a majority of expected VIE losses or receives a majority of residual returns",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "Is the primary beneficiary that absorbs less than a majority of expected VIE losses or receives less than a majority of residual returns",
+        "C": "Must have a controlling interest in the VIE's ownership structure"
       },
       "correct": "A",
       "explanation": "Surgical Repair Pass 1 addition targeting empirical weaknesses for LO-FSA-24 (Variable Interest Entity (VIE) Consolidation Threshold). Is the primary beneficiary that absorbs a majority of expected VIE losses or receives a majority of residual returns.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions identified in Blind A."
+      "wrongAnalysis": "- B: This answer is incorrect because it states the opposite of what US GAAP requires; the primary beneficiary must absorb more than a majority of expected losses. Instead, if the enterprise absorbs less or receives less residual returns, the VIE should not be consolidated.\n- C: This answer is incorrect because having controlling interest over the entity's ownership structure alone does not automatically trigger consolidation under US GAAP for a Variable Interest Entity."
     },
     {
       "id": "MOCK-COR-001",
@@ -1399,12 +1399,12 @@
       "stem": "A firm's non-callable 10-year bond yields 5.5%. The corporate marginal tax rate is 20%. The after-tax cost of debt ($r_d(1-t)$) is:?",
       "options": {
         "A": "4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The corporate marginal tax rate is only applicable to the firm's operating income, not its interest expenses.",
+        "C": "The after-tax cost of debt should be calculated as $r_d(1-t) = (5.5% + 2%) * 0.80$"
       },
       "correct": "A",
       "explanation": "Batch 6 cost-efficient ORANGE depth addition for LO-COR-04 (Cost of Debt Capital Bond Yield Plus Risk Premium). 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: The corporate marginal tax rate is applied to the firm's interest income, not its operating income, so it affects the after-tax cost of debt directly.\n- C: The correct formula for after-tax cost of debt should be $r_d(1-t) = r_d * (1 - t)$ where $r_d$ is the before-tax cost of debt and $t$ is the tax rate."
     },
     {
       "id": "MOCK-COR-002",
@@ -1543,12 +1543,12 @@
       "stem": "If a firm's DOL is 2.0 and DFL is 1.5, its Degree of Combined Leverage (DCL) is:?",
       "options": {
         "A": "3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0)",
-        "B": "Secondary distractor reflecting common misconception",
-        "C": "Alternative incorrect option"
+        "B": "The firm's DCL is 1.8, calculated by taking the weighted average of its DOL and DFL values.",
+        "C": "The firm's DCL is 2.25, calculated using a more complex formula that takes into account both the DOL and DFL as separate components."
       },
       "correct": "A",
       "explanation": "Level 3 depth application for LO-COR-06 (Degree of Combined Leverage (DCL)). 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0).",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: Explanation why B is wrong. The calculation for DCL assumes equal weight for both DOL and DFL, so multiplying them together results in an incorrect answer of 3.0. The correct approach would be to take the geometric mean or apply a more complex formula that takes into account the combined effect of both DOL and DFL.\n\n- C: Explanation why C is wrong. While it's true that there are more complex formulas for calculating DCL, this distractor implies a completely different calculation method (taking separate components) that is not supported by any standard financial ratio or formula. The correct answer remains 3.0 as calculated directly from the given DOL and DFL values."
     },
     {
       "id": "MOCK-COR-010",
@@ -1579,12 +1579,12 @@
       "stem": "The after-tax cost of debt capital ($r_d(1-t)$) incorporates the marginal tax rate because:?",
       "options": {
         "A": "Interest expense is tax-deductible in corporate tax returns",
-        "B": "Incorrect alternative distractor",
-        "C": "Secondary plausible incorrect distractor option"
+        "B": "Depreciation on a debt instrument is tax-deductible in corporate tax returns, thus increasing the after-tax cost of debt capital.",
+        "C": "The marginal tax rate affects the after-tax cost of debt capital because higher tax rates result in lower interest deductions, thereby increasing the cost of borrowing."
       },
       "correct": "A",
       "explanation": "Correct application for LO-COR-09 (Cost of Debt Capital). Interest expense is tax-deductible in corporate tax returns.",
-      "wrongAnalysis": "- Distractors reflect realistic candidate misconceptions."
+      "wrongAnalysis": "- B: This distractor is incorrect because depreciation on a debt instrument does not increase the after-tax cost of debt capital. Depreciation is typically related to tangible assets and does not affect the tax treatment of interest expenses. The correct answer relies solely on the tax deductibility of interest expenses.\n- C: This distractor misinterprets the relationship between the marginal tax rate and the after-tax cost of debt capital. While higher tax rates do result in lower interest deductions, they also reduce the after-tax cost of debt capital by increasing the effective tax rate applied to interest income. The correct answer highlights that the marginal tax rate is incorporated into the after-tax cost of debt capital because interest expenses are tax-deductible."
     },
     {
       "id": "MOCK-COR-012",
