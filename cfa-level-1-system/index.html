@@ -188,7 +188,8 @@ async function loadContent(file,linkElement,event){
 
 function makeQuizInteractive() {
   const headers = Array.from(contentBody.querySelectorAll('h3, h4')).filter(h => {
-    return h.textContent.includes('Q-') || h.textContent.includes('Difficulty:');
+    const txt = h.textContent || '';
+    return txt.includes('Q-') || txt.includes('Difficulty:');
   });
 
   if (headers.length === 0) return;
@@ -210,125 +211,132 @@ function makeQuizInteractive() {
 
   let qIndex = 0;
   headers.forEach(header => {
-    qIndex++;
-    const metaText = header.textContent.trim();
-    
-    let sibling = header.nextElementSibling;
-    let elements = [];
+    try {
+      qIndex++;
+      const metaText = header.textContent.trim();
 
-    while (sibling && !['H2', 'H3', 'HR'].includes(sibling.tagName)) {
-      elements.push(sibling);
-      sibling = sibling.nextElementSibling;
-    }
+      let sibling = header.nextElementSibling;
+      const nodesToRemove = [];
+      let blockText = '';
 
-    const idMatch = metaText.match(/Q-[A-Z0-9-]+/i);
-    const qId = idMatch ? idMatch[0] : `Q-${qIndex}`;
-
-    const diffMatch = metaText.match(/Difficulty:\s*(\d+)/i);
-    const diff = diffMatch ? diffMatch[1] : '3';
-
-    const timeMatch = metaText.match(/Time:\s*(\d+s?)/i);
-    const time = timeMatch ? timeMatch[1] : '90s';
-
-    const patternMatch = metaText.match(/Pattern:\s*([^|]+)/i);
-    const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
-
-    let stemHtml = '';
-    const options = [];
-    let correctLetter = 'A';
-    let expHtml = '';
-    let wrongHtml = '';
-    let loRef = 'CFA Curriculum';
-
-    elements.forEach(el => {
-      const text = el.innerText || el.textContent;
-      const html = el.innerHTML;
-
-      if (text.includes('Question:')) {
-        stemHtml = html.replace(/<strong>Question:<\/strong>/i, '').trim();
-      } else if (text.match(/^[A-C]\)/m)) {
-        const lines = text.split('\n');
-        lines.forEach(line => {
-          const m = line.trim().match(/^([A-C])\)\s*(.*)/);
-          if (m) {
-            options.push({ letter: m[1], text: m[2] });
-          }
-        });
-      } else if (text.includes('Correct Answer:')) {
-        const m = text.match(/Correct Answer:\s*([A-C])/i);
-        if (m) correctLetter = m[1].toUpperCase();
-      } else if (text.includes('Explanation:')) {
-        expHtml = html.replace(/<strong>Explanation:<\/strong>/i, '').trim();
-      } else if (text.includes('Wrong Answer Analysis:')) {
-        wrongHtml = html.replace(/<strong>Wrong Answer Analysis:<\/strong>/i, '').trim();
-      } else if (text.includes('LO Reference:')) {
-        const m = text.match(/LO Reference:\s*([^\n]+)/i);
-        if (m) loRef = m[1].trim();
+      while (sibling && !['H2', 'H3'].includes(sibling.tagName)) {
+        if (sibling.tagName === 'HR' && sibling.nextElementSibling && ['H2', 'H3'].includes(sibling.nextElementSibling.tagName)) {
+          nodesToRemove.push(sibling);
+          break;
+        }
+        nodesToRemove.push(sibling);
+        blockText += (sibling.innerText || sibling.textContent || '') + '\n';
+        sibling = sibling.nextElementSibling;
       }
-    });
 
-    if (options.length < 3) {
-      elements.forEach(el => {
-        const text = el.innerText || el.textContent;
+      const idMatch = metaText.match(/Q-[A-Z0-9-]+/i);
+      const qId = idMatch ? idMatch[0] : `Q-${qIndex}`;
+
+      const diffMatch = metaText.match(/Difficulty:\s*(\d+)/i);
+      const diff = diffMatch ? diffMatch[1] : '3';
+
+      const timeMatch = metaText.match(/Time:\s*(\d+s?)/i);
+      const time = timeMatch ? timeMatch[1] : '90s';
+
+      const patternMatch = metaText.match(/Pattern:\s*([^|]+)/i);
+      const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
+
+      let stemText = '';
+      const stemMatch = blockText.match(/Question:\s*([\s\S]*?)(?=A\)|B\)|C\)|Correct Answer:|$)/i);
+      if (stemMatch) {
+        stemText = stemMatch[1].trim();
+      }
+
+      const options = [];
+      const lines = blockText.split('\n');
+      lines.forEach(line => {
+        const m = line.trim().match(/^([A-C])\)\s*(.*)/);
+        if (m && !options.some(o => o.letter === m[1])) {
+          options.push({ letter: m[1], text: m[2].trim() });
+        }
+      });
+
+      if (options.length < 3) {
         ['A', 'B', 'C'].forEach(let => {
           if (!options.some(o => o.letter === let)) {
-            const reg = new RegExp('^' + let + '\\)\\s*(.*)', 'm');
-            const m = text.match(reg);
+            const reg = new RegExp(let + '\\)\\s*([^\\n]+)');
+            const m = blockText.match(reg);
             if (m) options.push({ letter: let, text: m[1].trim() });
           }
         });
+      }
+
+      options.sort((a, b) => a.letter.localeCompare(b.letter));
+
+      const correctMatch = blockText.match(/Correct Answer:\s*([A-C])/i);
+      const correctLetter = correctMatch ? correctMatch[1].toUpperCase() : 'A';
+
+      let expText = '';
+      const expMatch = blockText.match(/Explanation:\s*([\s\S]*?)(?=Wrong Answer Analysis:|LO Reference:|$)/i);
+      if (expMatch) expText = expMatch[1].trim();
+
+      let wrongText = '';
+      const wrongMatch = blockText.match(/Wrong Answer Analysis:\s*([\s\S]*?)(?=LO Reference:|Related Concepts:|$)/i);
+      if (wrongMatch) wrongText = wrongMatch[1].trim();
+
+      const loMatch = blockText.match(/LO Reference:\s*([^\n]+)/i);
+      const loRef = loMatch ? loMatch[1].trim() : 'CFA Curriculum';
+
+      const card = document.createElement('div');
+      card.className = 'interactive-question-card';
+      card.dataset.correct = correctLetter;
+      card.id = `q-card-${qIndex}`;
+
+      card.innerHTML = `
+        <div class="q-card-header">
+          <span class="q-id-badge">${qId}</span>
+          <span class="q-meta-badge difficulty">Difficulty: ${diff}/5</span>
+          <span class="q-meta-badge">⏱️ ${time}</span>
+          <span class="q-meta-badge">${pattern}</span>
+          <span class="q-status-badge status-unanswered">UNANSWERED</span>
+        </div>
+        <div class="q-stem">${stemText || 'Question stem loading...'}</div>
+        <div class="q-options-container">
+          ${options.map(opt => `
+            <button class="q-option-btn" onclick="selectQuestionOption(this, '${opt.letter}')">
+              <span class="opt-letter">${opt.letter}</span>
+              <span class="opt-text">${opt.text}</span>
+            </button>
+          `).join('')}
+        </div>
+        <div class="q-explanation-box" style="display: none;">
+          <div class="exp-header correct-title">
+            <span class="exp-icon">✔</span> Correct Answer: Option ${correctLetter}
+          </div>
+          ${expText ? `
+            <div class="exp-section">
+              <h4>Detailed Explanation:</h4>
+              <p>${expText.replace(/\n/g, '<br>')}</p>
+            </div>
+          ` : ''}
+          ${wrongText ? `
+            <div class="exp-section">
+              <h4>Wrong Answer Analysis:</h4>
+              <p>${wrongText.replace(/\n/g, '<br>')}</p>
+            </div>
+          ` : ''}
+          <div class="exp-footer">
+            <span class="lo-tag">📌 ${loRef}</span>
+            <button class="q-reset-btn" onclick="resetQuestionCard(this)">🔄 Retry Question</button>
+          </div>
+        </div>
+      `;
+
+      nodesToRemove.forEach(node => {
+        if (node && node.parentNode) node.parentNode.removeChild(node);
       });
+
+      if (header && header.parentNode) {
+        header.parentNode.replaceChild(card, header);
+      }
+    } catch (err) {
+      console.error(`Error parsing question header #${qIndex}:`, err);
     }
-
-    options.sort((a, b) => a.letter.localeCompare(b.letter));
-
-    const card = document.createElement('div');
-    card.className = 'interactive-question-card';
-    card.dataset.correct = correctLetter;
-    card.id = `q-card-${qIndex}`;
-
-    card.innerHTML = `
-      <div class="q-card-header">
-        <span class="q-id-badge">${qId}</span>
-        <span class="q-meta-badge difficulty">Difficulty: ${diff}/5</span>
-        <span class="q-meta-badge">⏱️ ${time}</span>
-        <span class="q-meta-badge">${pattern}</span>
-        <span class="q-status-badge status-unanswered">UNANSWERED</span>
-      </div>
-      <div class="q-stem">${stemHtml || 'Question stem loading...'}</div>
-      <div class="q-options-container">
-        ${options.map(opt => `
-          <button class="q-option-btn" onclick="selectQuestionOption(this, '${opt.letter}')">
-            <span class="opt-letter">${opt.letter}</span>
-            <span class="opt-text">${opt.text}</span>
-          </button>
-        `).join('')}
-      </div>
-      <div class="q-explanation-box" style="display: none;">
-        <div class="exp-header correct-title">
-          <span class="exp-icon">✔</span> Correct Answer: Option ${correctLetter}
-        </div>
-        ${expHtml ? `
-          <div class="exp-section">
-            <h4>Detailed Explanation:</h4>
-            <div>${expHtml}</div>
-          </div>
-        ` : ''}
-        ${wrongHtml ? `
-          <div class="exp-section">
-            <h4>Wrong Answer Analysis:</h4>
-            <div>${wrongHtml}</div>
-          </div>
-        ` : ''}
-        <div class="exp-footer">
-          <span class="lo-tag">📌 ${loRef}</span>
-          <button class="q-reset-btn" onclick="resetQuestionCard(this)">🔄 Retry Question</button>
-        </div>
-      </div>
-    `;
-
-    elements.forEach(el => el.remove());
-    header.replaceWith(card);
   });
 }
 
