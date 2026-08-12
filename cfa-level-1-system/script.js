@@ -77,7 +77,7 @@ async function loadContent(file, linkElement, event) {
 
 // =========== JSON QUESTION LOADER ===========
 async function loadQuestionsFromJSON(file) {
-  const jsonUrl = `${file}.json`;
+  const jsonUrl = `${file}.json?v=${Date.now()}`;
   const response = await fetch(jsonUrl);
   if (!response.ok) throw new Error(`JSON not found: ${jsonUrl}`);
   const data = await response.json();
@@ -227,7 +227,7 @@ async function loadMarkdownContent(file) {
     contentBody.innerHTML = '<div style="text-align:center;padding:60px;color:var(--red);"><h2>⚠️ Renderer Not Loaded</h2><p>Failed to load the markdown renderer.</p></div>';
     return;
   }
-  const response = await fetch(`${file}.md`);
+  const response = await fetch(`${file}.md?v=${Date.now()}`);
   if (!response.ok) throw new Error(`File not found: ${file}.md`);
   const markdown = await response.text();
   const html = marked.parse(markdown);
