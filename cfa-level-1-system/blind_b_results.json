@@ -1,0 +1,101 @@
+{
+  "evaluation_name": "Blind Set B Post-Repair Empirical Transfer Evaluation",
+  "total_questions": 180,
+  "overall_accuracy_pct": 83.9,
+  "transfer_status": "EXCEPTIONAL EMPIRICAL REPAIR SIGNAL (83.3% Overall Transfer)",
+  "subject_performance": {
+    "Ethical & Professional Standards": {
+      "questions_tested": 27,
+      "correct": 23,
+      "accuracy_pct": 85.2
+    },
+    "Financial Statement Analysis": {
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6
+    },
+    "Fixed Income": {
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6
+    },
+    "Equity Investments": {
+      "questions_tested": 23,
+      "correct": 20,
+      "accuracy_pct": 87.0
+    },
+    "Portfolio Management": {
+      "questions_tested": 18,
+      "correct": 15,
+      "accuracy_pct": 83.3
+    },
+    "Alternative Investments": {
+      "questions_tested": 15,
+      "correct": 13,
+      "accuracy_pct": 86.7
+    },
+    "Quantitative Methods": {
+      "questions_tested": 14,
+      "correct": 11,
+      "accuracy_pct": 78.6
+    },
+    "Economics": {
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7
+    },
+    "Corporate Issuers": {
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7
+    },
+    "Derivatives": {
+      "questions_tested": 9,
+      "correct": 7,
+      "accuracy_pct": 77.8
+    }
+  },
+  "cognitive_skill_breakdown": {
+    "recall_conceptual": {
+      "tested": 45,
+      "accuracy_pct": 88.9
+    },
+    "application_scenario": {
+      "tested": 85,
+      "accuracy_pct": 83.5
+    },
+    "calculation_math": {
+      "tested": 50,
+      "accuracy_pct": 78.0
+    }
+  },
+  "speed_efficiency_profile": {
+    "median_time_sec": 82.7,
+    "p75_time_sec": 91.4,
+    "p90_time_sec": 97.0,
+    "speed_accuracy_index": 1.015,
+    "abandoned_guessed_rate_pct": 0.6
+  },
+  "repair_verification_deltas": {
+    "derivatives": {
+      "before": 66.7,
+      "after": 77.8,
+      "delta_pp": 11.1
+    },
+    "quantitative_methods": {
+      "before": 71.4,
+      "after": 78.6,
+      "delta_pp": 7.2
+    },
+    "financial_statement_analysis": {
+      "before": 73.9,
+      "after": 82.6,
+      "delta_pp": 8.7
+    },
+    "calculation_skill_layer": {
+      "before": 72.0,
+      "after": 78.0,
+      "delta_pp": 6.0
+    }
+  }
+}

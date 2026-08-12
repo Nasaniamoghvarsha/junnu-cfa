@@ -10,10 +10,10 @@ const navTree = document.getElementById('navTree');
 const searchInput = document.getElementById('searchInput');
 
 // =========== INITIALIZATION ===========
-document.addEventListener('DOMContentLoaded', () => {
+(function init() {
   loadContent('home', document.querySelector('[data-file="home"]'));
   loadDarkModePreference();
-});
+})();
 
 // =========== CONTENT LOADING ===========
 async function loadContent(file, linkElement, event) {
@@ -41,6 +41,17 @@ async function loadContent(file, linkElement, event) {
       const markdown = await response.text();
       const html = marked.parse(markdown);
       contentBody.innerHTML = html;
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(contentBody, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError: false
+        });
+      }
       breadcrumb.textContent = file.replace(/\//g, ' › ').replace(/-/g, ' ');
     }
 
@@ -54,13 +65,16 @@ async function loadContent(file, linkElement, event) {
 
   } catch (err) {
     contentBody.innerHTML = `
-      <div style="text-align:center;padding:60px 20px;color:var(--red);">
-        <h2>⚠️ File Not Found</h2>
-        <p>Could not load: ${file}.md</p>
-        <p style="color:var(--text-muted);font-size:0.85rem;">${err.message}</p>
+      <div style="text-align:center;padding:60px 20px;">
+        <h2 style="color:var(--orange);">📡 File Not Available Locally</h2>
+        <p style="color:var(--text-muted);margin:12px 0;">Could not load: <code>${file}.md</code></p>
+        <p style="color:var(--text-muted);font-size:0.85rem;">This file works on GitHub Pages. The local preview only shows the Dashboard.</p>
+        <div style="margin-top:20px;">
+          <a class="quick-link" onclick="loadContent('home', this)" style="display:inline-block;">← Back to Dashboard</a>
+        </div>
       </div>
     `;
-    breadcrumb.textContent = 'Error';
+    breadcrumb.textContent = 'Preview Unavailable';
   }
 }
 

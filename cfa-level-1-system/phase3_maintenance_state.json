@@ -1,0 +1,74 @@
+{
+  "operating_phase": "Phase 3 \u2014 Exam Readiness Maintenance",
+  "status": "LOCKED BASELINE & OPERATING LOOP ACTIVE",
+  "system_health_status": "GREEN_MAINTAIN (All System Health Checks Passed)",
+  "frozen_baseline": {
+    "version": "2.1-FROZEN-BASELINE",
+    "baseline_freeze_date": "2026-08-12",
+    "core_questions": 539,
+    "total_question_inventory": 1061,
+    "important_concept_coverage_pct": 97.9,
+    "eec_system_metric_pct": 45.6,
+    "qa_rating_score": 96.0,
+    "pattern_coverage_pct": 90.0,
+    "demonstrated_mastery_eem_pct": 84.0,
+    "blind_transfer_suite_avg_pct": 82.6,
+    "mock_exam_suite_avg_pct": 84.0,
+    "spaced_retention_suite_avg_pct": 86.7,
+    "subject_floors": {
+      "Derivatives": 77.8,
+      "Quantitative Methods": 82.1,
+      "Financial Statement Analysis": 82.6,
+      "Fixed Income": 84.8,
+      "Ethical & Professional Standards": 84.3,
+      "Corporate Issuers": 83.3,
+      "Portfolio Management": 83.3,
+      "Economics": 85.7,
+      "Equity Investments": 87.0,
+      "Alternative Investments": 88.2
+    }
+  },
+  "error_taxonomy": [
+    "Knowledge Gap",
+    "Formula / Calculation Error",
+    "Misread / Question Interpretation",
+    "Distractor Trap",
+    "Time-Pressure Error",
+    "Careless Error"
+  ],
+  "maintenance_cadence": {
+    "weekly": "30-40 Mixed Practice Questions across 10 subjects",
+    "bi_weekly": "Targeted Weak-Area Retest (Focus: Derivatives & FSA)",
+    "tri_weekly": "Full 180-Question Timed Mock Simulation (Threshold >= 80.0%)",
+    "monthly": "Cumulative Spaced Retention Audit (7/14/30-Day Retest)"
+  },
+  "decision_protocol": {
+    "GREEN_MAINTAIN": {
+      "condition": "Overall Acc >= 80%, Domains >= 80% (Derivatives >= 75%), Retention healthy, Repeat errors < 2%",
+      "action": "Continue normal weekly maintenance cadence (No new question generation)"
+    },
+    "YELLOW_TARGETED_REPAIR": {
+      "condition": "Derivatives < 75%, OR any domain < 80%, OR same error category repeats >= 3 times",
+      "action": "Generate 2-5 adaptive repair questions in isolated pool, retest, return to maintenance"
+    },
+    "ORANGE_ESCALATE": {
+      "condition": "Overall timed performance < 80%, OR retention drops materially, OR multiple domains deteriorate",
+      "action": "Run targeted diagnostic audit before generating additional material"
+    },
+    "RED_REASSESSMENT": {
+      "condition": "Overall performance approaches ~70% MPS benchmark, OR major domain collapse",
+      "action": "Reopen specific curriculum LO gaps rather than blindly adding questions"
+    }
+  },
+  "kpi_architecture": {
+    "primary_kpi": "Rolling 30-Day Readiness Score: 84.0%",
+    "sub_kpis": {
+      "overall_timed_accuracy": "84.0%",
+      "derivatives_floor": "77.8% (Target: >= 75.0%)",
+      "lowest_non_derivatives_domain": "82.1% (Quantitative Methods)",
+      "retention_accuracy": "86.7% (7/14/30-Day Retest)",
+      "repeat_error_rate": "1.2% (Target: < 2.0%)",
+      "median_time_per_question": "85.1 seconds (Target: <= 90s)"
+    }
+  }
+}

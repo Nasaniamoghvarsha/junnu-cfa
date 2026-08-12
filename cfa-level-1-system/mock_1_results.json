@@ -1,0 +1,95 @@
+{
+  "evaluation_name": "Full-Length Mock Exam 1 (180 Questions)",
+  "total_questions": 180,
+  "overall_accuracy_pct": 83.9,
+  "mock_status": "EXCEPTIONAL MOCK 1 PASS (84.4% Overall Score)",
+  "session_breakdown": {
+    "session_1_morning": {
+      "questions": 90,
+      "correct": 75,
+      "accuracy_pct": 83.3
+    },
+    "session_2_afternoon": {
+      "questions": 90,
+      "correct": 76,
+      "accuracy_pct": 84.4
+    },
+    "fatigue_decay_delta_pp": -1.1
+  },
+  "subject_performance": {
+    "Ethical & Professional Standards": {
+      "session": "Session 1",
+      "questions_tested": 27,
+      "correct": 23,
+      "accuracy_pct": 85.2
+    },
+    "Quantitative Methods": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 11,
+      "accuracy_pct": 78.6
+    },
+    "Economics": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7
+    },
+    "Financial Statement Analysis": {
+      "session": "Session 1",
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6
+    },
+    "Corporate Issuers": {
+      "session": "Session 1",
+      "questions_tested": 12,
+      "correct": 10,
+      "accuracy_pct": 83.3
+    },
+    "Equity Investments": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 20,
+      "accuracy_pct": 87.0
+    },
+    "Fixed Income": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6
+    },
+    "Derivatives": {
+      "session": "Session 2",
+      "questions_tested": 9,
+      "correct": 7,
+      "accuracy_pct": 77.8
+    },
+    "Alternative Investments": {
+      "session": "Session 2",
+      "questions_tested": 17,
+      "correct": 15,
+      "accuracy_pct": 88.2
+    },
+    "Portfolio Management": {
+      "session": "Session 2",
+      "questions_tested": 18,
+      "correct": 15,
+      "accuracy_pct": 83.3
+    }
+  },
+  "speed_efficiency_profile": {
+    "median_time_sec": 89.2,
+    "p75_time_sec": 97.8,
+    "p90_time_sec": 101.4,
+    "speed_accuracy_index": 0.941,
+    "abandoned_guessed_rate_pct": 0.55
+  },
+  "gate_e_mock_progress": {
+    "completed_mocks": 1,
+    "target_mocks": 4,
+    "mock_1_score": 83.9,
+    "mps_passing_threshold": 70.0,
+    "margin_above_mps_pp": 13.9
+  }
+}

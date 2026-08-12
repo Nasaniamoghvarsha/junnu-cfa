@@ -10,7 +10,6 @@ A project requires an initial investment of $500,000 and generates cash flows of
 A) $68,618
 B) $75,000
 C) $118,618
-D) $250,000
 
 **Correct Answer:** A
 
@@ -19,7 +18,6 @@ D) $250,000
 **Wrong Answer Analysis:**
 - B: Simple total CFs minus investment: $750K - $500K = $250K (ignores TVM)
 - C: Added instead of subtracted: $568,618 - $500,000 is $68,618, not $118,618
-- D: Total undiscounted CFs minus investment: $750K - $500K = $250K
 
 **LO Reference:** COR-03-01-LO01
 **Formula:** NPV = Σ CF_t/(1+r)^t - Initial Investment
@@ -39,7 +37,6 @@ The crossover rate is 12%. At the company's cost of capital of 10%, which projec
 A) Project A because it has the higher IRR
 B) Project B because it has the higher NPV
 C) Either project because both have positive NPV
-D) Project A because its IRR exceeds the crossover rate
 
 **Correct Answer:** B
 
@@ -48,7 +45,6 @@ D) Project A because its IRR exceeds the crossover rate
 **Wrong Answer Analysis:**
 - A: IRR can be misleading for mutually exclusive projects; NPV rules
 - C: For mutually exclusive projects, you must choose the BEST one, not either
-- D: The crossover rate doesn't determine selection; it's where NPVs are equal
 
 **LO Reference:** COR-03-01-LO02
 **Common Trap:** Choosing IRR over NPV for mutually exclusive projects
@@ -63,7 +59,6 @@ A company has the following capital structure at market values: Debt = $4 millio
 A) 8.4%
 B) 9.0%
 C) 9.6%
-D) 10.8%
 
 **Correct Answer:** B
 
@@ -72,7 +67,6 @@ D) 10.8%
 **Wrong Answer Analysis:**
 - A: Used before-tax cost of debt: 0.4 × 6% + 0.6 × 12% = 9.6% × some error
 - C: Forgot tax shield: 0.4 × 6% + 0.6 × 12% = 9.6%
-- D: Used book values or wrong weights
 
 **LO Reference:** COR-04-01-LO01
 **Formula:** WACC = w_d × r_d(1-t) + w_e × r_e
@@ -88,7 +82,6 @@ A company has: Days of Inventory on Hand (DOH) = 45, Days Sales Outstanding (DSO
 A) 20 days
 B) 40 days
 C) 50 days
-D) 100 days
 
 **Correct Answer:** C
 
@@ -97,7 +90,6 @@ D) 100 days
 **Wrong Answer Analysis:**
 - A: Subtracted all: 45 - 30 + 25 or similar wrong formula
 - B: Used only DSO + DPO or wrong combination
-- D: 45 + 30 + 25 = 100 (added DPO instead of subtracting)
 
 **LO Reference:** COR-02-01-LO02
 **Formula:** CCC = DOH + DSO - DPO
@@ -113,7 +105,6 @@ According to Modigliani-Miller Proposition I with corporate taxes, as a firm inc
 A) Firm value decreases due to increased financial risk
 B) Firm value remains unchanged
 C) Firm value increases due to the interest tax shield
-D) Firm value increases only if the debt is used for positive NPV projects
 
 **Correct Answer:** C
 
@@ -122,7 +113,6 @@ D) Firm value increases only if the debt is used for positive NPV projects
 **Wrong Answer Analysis:**
 - A: Firm value INCREASES with debt (tax shield), not decreases
 - B: This is MM I WITHOUT taxes (capital structure irrelevance)
-- D: The tax shield creates value regardless of how debt proceeds are used
 
 **LO Reference:** COR-04-01-LO04
 **Formula:** V_L = V_U + tD
@@ -138,7 +128,6 @@ A company has: Sales = $1,000,000, Variable costs = $400,000, Fixed operating co
 A) 1.50
 B) 1.71
 C) 2.00
-D) 2.67
 
 **Correct Answer:** B
 
@@ -154,7 +143,6 @@ Alternatively: DTL = Contribution Margin / (EBIT - Interest) = $600,000 / $350,0
 **Wrong Answer Analysis:**
 - A: This is DOL only (1.50)
 - C: Close but wrong calculation
-- D: Used wrong formula or denominator
 
 **LO Reference:** COR-04-01-LO05
 **Formula:** DTL = DOL × DFL = Contribution Margin / (EBIT - Interest)
@@ -170,7 +158,6 @@ A supplier offers credit terms of 2/10, net 60. The effective annual rate of for
 A) 12.2%
 B) 14.9%
 C) 15.9%
-D) 18.6%
 
 **Correct Answer:** C
 
@@ -181,7 +168,6 @@ ln(1.020408) × 7.3 = 0.02020 × 7.3 = 0.1475. e^0.1475 = 1.159. So EAR ≈ 15.9
 **Wrong Answer Analysis:**
 - A: Used 60 days as denominator instead of 50
 - B: Simple interest calculation: (2/98) × (365/50) = 14.9% (not compounded)
-- D: Arithmetic error
 
 **LO Reference:** COR-02-01-LO04
 **Formula:** EAR = [1 + d/(1-d)]^(365/(N-D)) - 1
@@ -197,7 +183,6 @@ A company spent $200,000 last year on a feasibility study for a new product. In 
 A) Included as part of the initial investment
 B) Excluded because it is a sunk cost
 C) Amortized over the project's life
-D) Included only if the project has a positive NPV
 
 **Correct Answer:** B
 
@@ -206,7 +191,6 @@ D) Included only if the project has a positive NPV
 **Wrong Answer Analysis:**
 - A: Sunk costs should never be included in capital budgeting analysis
 - C: Sunk costs don't affect future cash flows and should be ignored entirely
-- D: The inclusion/exclusion of sunk costs doesn't depend on NPV outcome
 
 **LO Reference:** COR-03-01-LO03
 **Common Trap:** Including sunk costs in project evaluation (the "sunk cost fallacy")
@@ -221,7 +205,6 @@ The risk-free rate is 3%, the expected market return is 10%, and a stock's beta 
 A) 9.8%
 B) 11.0%
 C) 12.8%
-D) 14.0%
 
 **Correct Answer:** C
 
@@ -232,7 +215,6 @@ Note: The DDM information (D₀ = $2, g = 5%, P₀ = $35) gives: r_e = D₁/P₀
 **Wrong Answer Analysis:**
 - A: This is the equity risk premium contribution: 1.4 × 7% = 9.8% (forgot to add R_f)
 - B: This is the DDM-implied return (11.0%)
-- D: Arithmetic error
 
 **LO Reference:** COR-04-01-LO02
 **Formula:** r_e = R_f + β(R_m - R_f)
@@ -248,7 +230,6 @@ Which of the following is most likely an example of an agency problem between sh
 A) A company increases its dividend payout ratio
 B) Management rejects a risky positive-NPV project to protect their jobs
 C) Bondholders impose restrictive covenants on new debt issuance
-D) A company diversifies to reduce unsystematic risk
 
 **Correct Answer:** B
 
@@ -257,7 +238,6 @@ D) A company diversifies to reduce unsystematic risk
 **Wrong Answer Analysis:**
 - A: Increasing dividends could align with shareholder interests
 - C: This is a creditor-shareholder agency problem, not shareholder-management
-- D: Diversification at the corporate level doesn't benefit diversified shareholders
 
 **LO Reference:** COR-01-01-LO03
 **Common Trap:** Confusing shareholder-management agency problems with shareholder-creditor conflicts
@@ -272,7 +252,6 @@ A company's bonds have a YTM of 8% and trade at par. The company's marginal tax 
 A) 2.4%
 B) 5.6%
 C) 8.0%
-D) Cannot be determined without knowing the coupon rate
 
 **Correct Answer:** B
 
@@ -281,7 +260,6 @@ D) Cannot be determined without knowing the coupon rate
 **Wrong Answer Analysis:**
 - A: Multiplied 8% by 30%: 8% × 0.30 = 2.4% (tax rate, not (1-t))
 - C: Forgot to adjust for taxes
-- D: YTM is sufficient; coupon rate is not needed
 
 **LO Reference:** COR-04-01-LO03
 **Formula:** After-tax r_d = r_d × (1 - t)
@@ -297,7 +275,6 @@ A mining company has the option to temporarily shut down operations when commodi
 A) Timing option
 B) Sizing option
 C) Flexibility option
-D) Fundamental option
 
 **Correct Answer:** C
 
@@ -306,7 +283,6 @@ D) Fundamental option
 **Wrong Answer Analysis:**
 - A: Timing = delaying the initial investment decision
 - B: Sizing = expanding or contracting scale
-- D: Fundamental = the project IS the option (like an oil exploration right)
 
 **LO Reference:** COR-03-01-LO04
 **Common Trap:** Confusing flexibility options (operating adjustments) with timing options (investment delay)
@@ -321,7 +297,6 @@ Which of the following is most likely a characteristic of a one-tier (unitary) b
 A) Separate management and supervisory boards
 B) Executive and non-executive directors serve on the same board
 C) Employee representatives must serve on the supervisory board
-D) The board has no oversight over management
 
 **Correct Answer:** B
 
@@ -330,7 +305,6 @@ D) The board has no oversight over management
 **Wrong Answer Analysis:**
 - A: This describes a TWO-tier board structure
 - C: This is characteristic of some two-tier systems (e.g., German co-determination)
-- D: Boards always have oversight responsibility regardless of structure
 
 **LO Reference:** COR-01-01-LO02
 **Common Trap:** Confusing one-tier (single board, Anglo-American) with two-tier (dual board, Continental European)
@@ -345,7 +319,6 @@ A project requires an initial investment of $1,000,000 in equipment and $100,000
 A) $137,236
 B) $223,470
 C) $261,420
-D) $323,470
 
 **Correct Answer:** B
 
@@ -415,20 +388,32 @@ That's approximately $223,470! So the intended answer is B and perhaps assumes n
 
 **Correct Answer:** B
 
-**Explanation:** NPV calculation including initial investment, annual OCFs, working capital recovery, and after-tax (or no-tax) salvage value gives approximately $223,470.
+**Explanation:** Calculation of Net Present Value (NPV) with terminal cash flow recovery:
+* **Initial Outlay ($CF_0$):** $-\$1,000,000 - \$100,000 = -\$1,100,000$ (includes working capital investment).
+* **Operating Cash Flows ($CF_{1\text{ to }4}$):** $+\$300,000$ per year.
+* **Terminal Cash Flow ($CF_5$):** $\$300,000 \text{ (OCF)} + \$100,000 \text{ (WC recovery)} + \$200,000 \text{ (salvage)} = +\$600,000$.
+
+$$\text{NPV} = -1,100,000 + \frac{300,000}{1.10^1} + \frac{300,000}{1.10^2} + \frac{300,000}{1.10^3} + \frac{300,000}{1.10^4} + \frac{600,000}{1.10^5}$$
+$$\text{NPV} = -1,100,000 + 272,727 + 247,934 + 225,394 + 204,904 + 372,552 = \$223,511 \approx \$223,470$$
+
+**TI BA II Plus Keystrokes:**
+- `CF0 = -1,100,000`
+- `CF1 = 300,000`, `F1 = 4`
+- `CF2 = 600,000`, `F2 = 1`
+- `I = 10`
+- Compute `NPV` $\to \$223,511$
 
 **Wrong Answer Analysis:**
-- A: Forgot working capital recovery or salvage value
-- C: Included some but not all terminal cash flows
-- D: Overstated salvage value or double-counted
+- A: Incorrect — omitted terminal working capital recovery or salvage value.
+- C: Incorrect — miscalculated discount factors.
 
-**LO Reference:** COR-03-01-LO01
-**Formula:** NPV with terminal non-operating cash flows
-**Common Trap:** Forgetting to include working capital recovery and salvage value
+**LO Reference:** COR-03-01-LO01 (Capital Budgeting Cash Flows)
+**Related Concepts:** Capital budgeting, terminal cash flows, working capital recovery, NPV
+**Common Misconception:** Omitting the recovery of net working capital at the end of project life.
 
 ---
 
-### Q-COR-0015 | Difficulty: 3 | Time: 90s | Pattern: Concept Comparison | Trap: Liquidity Management
+### Q-COR-0015 | Difficulty: 2 | Time: 60s | Pattern: Concept Comparison | Trap: Liquidity Management
 
 **Question:**
 Which of the following is most likely considered a secondary source of liquidity for a company?
@@ -436,20 +421,678 @@ Which of the following is most likely considered a secondary source of liquidity
 A) Cash balances on hand
 B) Operating cash flow from sales
 C) Negotiating relaxed debt covenants with lenders
-D) Short-term bank credit lines
 
 **Correct Answer:** C
 
-**Explanation:** Primary sources of liquidity are readily available: cash balances, operating cash flows, and committed credit lines. Secondary sources include actions that are less certain or have negative consequences: negotiating with lenders, selling assets, or filing for bankruptcy protection. Renegotiating covenants is a secondary (and potentially costly) source.
+**Explanation:** Primary sources of liquidity are readily available without altering business operations: cash balances, operating cash flows, and committed bank credit lines. Secondary sources involve actions that may disrupt operations or carry financial costs: negotiating relaxed covenants, selling operating assets, or filing for debt restructuring.
 
 **Wrong Answer Analysis:**
-- A: Primary source — readily available cash
-- B: Primary source — normal operating activity
-- D: Primary source — committed/available credit
+- A: Primary source — readily available cash on balance sheet.
+- B: Primary source — ongoing operational cash generation.
 
-**LO Reference:** COR-02-01-LO03
-**Common Trap:** Confusing primary (readily available) with secondary (negotiated/contingent) liquidity sources
+**LO Reference:** COR-02-01-LO03 (Primary vs. Secondary Liquidity Sources)
+**Common Trap:** Confusing primary (readily available) with secondary (negotiated/contingent) liquidity sources.
 
 ---
 
-*End of Corporate Issuers Question Bank*
+### Q-COR-0016 | Difficulty: 3 | Time: 90s | Pattern: Direct Calculation | Trap: WACC Weight Calculation
+
+**Question:**
+A firm has a target capital structure of 40% debt, 10% preferred stock, and 50% common equity. The firm's pre-tax cost of debt is 6.0%, cost of preferred stock is 7.5%, and cost of common equity is 12.0%. If the corporate tax rate is 25%, the firm's Weighted Average Cost of Capital (WACC) is closest to:
+
+A) 7.95%
+B) 8.55%
+C) 9.15%
+
+**Correct Answer:** B
+
+**Explanation:** Calculation of WACC:
+$$\text{WACC} = [w_d \times r_d \times (1 - t)] + (w_p \times r_p) + (w_e \times r_e)$$
+$$\text{After-tax cost of debt} = 6.0\% \times (1 - 0.25) = 4.50\%$$
+$$\text{WACC} = (0.40 \times 4.50\%) + (0.10 \times 7.50\%) + (0.50 \times 12.0\%)$$
+$$\text{WACC} = 1.80\% + 0.75\% + 6.00\% = 8.55\%$$
+
+**TI BA II Plus Keystrokes:**
+$(0.40 \times 6 \times 0.75) + (0.10 \times 7.5) + (0.50 \times 12) = 1.80 + 0.75 + 6.00 = 8.55\%$
+
+**Wrong Answer Analysis:**
+- A: Incorrect — applied tax deduction to preferred stock or equity as well.
+- C: Incorrect — forgot the tax deduction on interest expense ($0.40 \times 6.0\% = 2.40\% \implies \text{WACC} = 9.15\%$).
+
+**LO Reference:** COR-01-01-LO01 (WACC Calculation)
+**Related Concepts:** WACC, after-tax cost of debt, target capital structure
+**Common Misconception:** Forgetting that ONLY debt interest receives an income tax deduction in WACC.
+
+---
+
+### Q-COR-0017 | Difficulty: 3 | Time: 90s | Pattern: Direct Calculation | Trap: Profitability Index Formula
+
+**Question:**
+A capital project requires an initial outlay of $500,000 and generates a present value of future cash inflows of $625,000 (yielding a Net Present Value of $125,000). The Profitability Index (PI) for this project is:
+
+A) 0.25
+B) 1.25
+C) 1.50
+
+**Correct Answer:** B
+
+**Explanation:** Calculation of Profitability Index (PI):
+$$\text{PI} = \frac{\text{Present Value of Future Cash Flows}}{\text{Initial Investment}} = \frac{\$625,000}{\$500,000} = 1.25$$
+$$\text{Alternatively: } \text{PI} = 1 + \frac{\text{NPV}}{\text{Initial Outlay}} = 1 + \frac{\$125,000}{\$500,000} = 1 + 0.25 = 1.25$$
+A project is acceptable under capital budgeting rules if $\text{PI} > 1.0$ (which corresponds to $\text{NPV} > 0$).
+
+**TI BA II Plus Keystrokes:**
+$625,000 / 500,000 = 1.25$
+
+**Wrong Answer Analysis:**
+- A: Incorrect — calculated $\frac{\text{NPV}}{\text{Initial Outlay}} = 0.25$ without adding 1.0.
+- C: Incorrect — miscalculated PV of cash inflows.
+
+**LO Reference:** COR-03-01-LO02 (Profitability Index Method)
+**Related Concepts:** Profitability Index, NPV, capital rationing, project ranking
+**Common Misconception:** Confusing $\frac{\text{NPV}}{\text{Outlay}}$ (0.25) with Profitability Index (1.25).
+
+---
+
+### Q-COR-0018 | Difficulty: 3 | Time: 90s | Pattern: Concept Comparison | Trap: MM Proposition II with Taxes
+
+**Question:**
+According to Modigliani-Miller Proposition II WITH corporate taxes, as a firm increases its proportion of debt financing, the firm's cost of equity ($r_e$) increases because of higher financial risk, but the firm's overall WACC:
+
+A) Increases steadily due to the threat of bankruptcy
+B) Decreases continuously because of the tax shield on interest
+C) Remains constant regardless of debt level
+
+**Correct Answer:** B
+
+**Explanation:** Under MM Proposition II WITH corporate taxes, interest expense is tax-deductible, creating an interest tax shield ($t \times \text{Debt}$). Because the tax shield reduces the effective cost of debt below the cost of equity, increasing financial leverage continuously DECREASES the firm's WACC and INCREASES total firm value (reaching maximum value at 100% debt, prior to considering financial distress costs).
+
+**Wrong Answer Analysis:**
+- A: Incorrect — financial distress costs are introduced in Trade-off Theory, not MM II with taxes.
+- C: Incorrect — WACC remains constant under MM I/II WITHOUT taxes, but decreases when taxes are included.
+
+**LO Reference:** COR-04-01-LO01 (Capital Structure Theories)
+**Related Concepts:** Modigliani-Miller, interest tax shield, WACC, financial leverage
+**Common Misconception:** Confusing MM with taxes (WACC decreases) with MM without taxes (WACC constant).
+
+---
+
+### Q-COR-0019 | Difficulty: 2 | Time: 60s | Pattern: Concept Comparison | Trap: Pecking Order Theory Sequence
+
+**Question:**
+According to the Pecking Order Theory of capital structure, when a company needs to raise capital to finance new investment projects, management will choose financing sources in which order of priority?
+
+A) Internal equity (retained earnings) $\to$ Debt $\to$ External equity
+B) External equity $\to$ Debt $\to$ Internal equity
+C) Debt $\to$ Internal equity $\to$ External equity
+
+**Correct Answer:** A
+
+**Explanation:** **Pecking Order Theory** posits that asymmetric information makes external equity issuing costly (perceived by market as a negative signal). Therefore, firms prefer financing investments in the following order: (1) **Internally generated cash flow** (retained earnings), (2) **Debt financing**, and (3) **External equity issuance** as a last resort.
+
+**Wrong Answer Analysis:**
+- B: Incorrect — external equity is the LEAST preferred source due to asymmetric information signaling.
+- C: Incorrect — internal retained earnings precede debt financing.
+
+**LO Reference:** COR-04-01-LO02 (Pecking Order Theory)
+**Related Concepts:** Pecking order, asymmetric information, capital structure, internal financing
+**Common Misconception:** Believing firms prefer issuing new stock over using retained earnings.
+
+---
+
+### Q-COR-0020 | Difficulty: 4 | Time: 120s | Pattern: Multi-Step Calculation | Trap: Cash Conversion Cycle Formula
+
+**Question:**
+A manufacturing company reports the following working capital metrics:
+* Days of Inventory Outstanding (DOH) = 45 days
+* Days Sales Outstanding (DSO) = 35 days
+* Number of Days of Payables (NDP) = 30 days
+
+The company's Operating Cycle and Cash Conversion Cycle (CCC) are:
+
+A) Operating Cycle = 80 days; Cash Conversion Cycle = 50 days
+B) Operating Cycle = 80 days; Cash Conversion Cycle = 110 days
+C) Operating Cycle = 50 days; Cash Conversion Cycle = 80 days
+
+**Correct Answer:** A
+
+**Explanation:** Calculation of Operating Cycle and Cash Conversion Cycle:
+$$\text{Operating Cycle} = \text{DOH} + \text{DSO} = 45\text{ days} + 35\text{ days} = 80\text{ days}$$
+$$\text{Cash Conversion Cycle (CCC)} = \text{Operating Cycle} - \text{NDP} = 80\text{ days} - 30\text{ days} = 50\text{ days}$$
+
+The Cash Conversion Cycle measures the net time between paying suppliers for raw inventory and receiving cash from customers.
+
+**TI BA II Plus Keystrokes:**
+- Operating Cycle = $45 + 35 = 80$
+- CCC = $80 - 30 = 50$
+
+**Wrong Answer Analysis:**
+- B: Incorrect — added days of payables instead of subtracting them ($80 + 30 = 110$).
+- C: Incorrect — inverted Operating Cycle and CCC definitions.
+
+**LO Reference:** COR-02-01-LO01 (Cash Conversion Cycle)
+**Related Concepts:** Cash conversion cycle, Operating cycle, DOH, DSO, Days of Payables
+**Common Misconception:** Adding Days of Payables to Operating Cycle instead of subtracting it.
+
+---
+
+### Q-COR-0021 | Difficulty: 3 | Time: 90s | Pattern: Direct Calculation | Trap: CAPM Cost of Equity
+
+**Question:**
+A firm's stock has a Beta ($\beta$) of 1.20. The risk-free rate is 3.5% and the expected return on the market portfolio is 9.5%. Using the Capital Asset Pricing Model (CAPM), the firm's cost of common equity ($r_e$) is:
+
+A) 10.70%
+B) 11.40%
+C) 14.90%
+
+**Correct Answer:** A
+
+**Explanation:** Calculation of Cost of Equity using CAPM:
+$$r_e = R_f + \beta \times [E(R_m) - R_f]$$
+$$\text{Market Risk Premium} = E(R_m) - R_f = 9.5\% - 3.5\% = 6.0\%$$
+$$r_e = 3.5\% + (1.20 \times 6.0\%) = 3.5\% + 7.20\% = 10.70\%$$
+
+**TI BA II Plus Keystrokes:**
+$3.5 + 1.20 \times (9.5 - 3.5) = 3.5 + 7.20 = 10.70\%$
+
+**Wrong Answer Analysis:**
+- B: Incorrect — multiplied Beta by market return directly without subtracting risk-free rate ($3.5 + 1.20 \times 9.5 = 14.9\% \implies$ miscalculated).
+- C: Incorrect — applied formula $1.20 \times 9.5\% + 3.5\% = 14.90\%$.
+
+**LO Reference:** COR-01-01-LO02 (CAPM Cost of Equity)
+**Related Concepts:** CAPM, market risk premium, Beta, cost of equity
+**Common Misconception:** Confusing Market Return $E(R_m)$ with Market Risk Premium $[E(R_m) - R_f]$.
+
+---
+
+### Q-COR-0022 | Difficulty: 3 | Time: 90s | Pattern: Concept Comparison | Trap: ESG Factor Integration
+
+**Question:**
+In corporate governance and ESG analysis, an analyst evaluating "Governance" risk factors would focus LEAST on:
+
+A) Executive compensation structure and alignment with long-term shareholders
+B) Board of directors independence and dual CEO-Chairman roles
+C) Workplace safety compliance and employee turnover metrics
+
+**Correct Answer:** C
+
+**Explanation:** In ESG (Environmental, Social, Governance) framework:
+* **Environmental (E):** Climate impact, carbon emissions, waste management.
+* **Social (S):** Workplace safety, labor standards, employee turnover, diversity, human rights.
+* **Governance (G):** Board composition/independence, executive compensation, shareholder rights, dual CEO/Chair structure.
+Workplace safety and employee turnover fall under the **Social (S)** pillar, not Governance.
+
+**Wrong Answer Analysis:**
+- A: Executive compensation is a core Governance (G) issue.
+- B: Board independence and dual roles are core Governance (G) issues.
+
+**LO Reference:** COR-05-01-LO01 (ESG Integration & Corporate Governance)
+**Related Concepts:** ESG factors, Environmental, Social, Governance pillars
+**Common Misconception:** Categorizing employee labor practices under Governance rather than Social.
+
+---
+
+### Q-COR-0023 | Difficulty: 3 | Time: 90s | Pattern: Direct Calculation | Trap: Bond Yield Plus Risk Premium
+
+**Question:**
+A firm's 10-year outstanding bonds yield 7.0%. Based on historical risk premium studies, equity analysts assign an equity risk premium of 4.5% over the firm's own cost of debt. Using the Bond Yield Plus Risk Premium approach, the firm's estimated cost of equity is:
+
+A) 4.50%
+B) 11.50%
+C) 13.00%
+
+**Correct Answer:** B
+
+**Explanation:** The **Bond Yield Plus Risk Premium** ad-hoc method estimates cost of equity by adding a risk premium (typically 3%–5%) to the firm's own pre-tax cost of long-term debt:
+$$r_e = \text{Pre-tax Cost of Debt } (r_d) + \text{Risk Premium}$$
+$$r_e = 7.0\% + 4.5\% = 11.50\%$$
+
+**TI BA II Plus Keystrokes:**
+$7.0 + 4.5 = 11.50\%$
+
+**Wrong Answer Analysis:**
+- A: Incorrect — represents risk premium alone.
+- C: Incorrect — added after-tax debt cost incorrectly.
+
+**LO Reference:** COR-01-01-LO03 (Cost of Equity Estimation Methods)
+**Related Concepts:** Bond yield plus risk premium, cost of equity, debt yield
+**Common Misconception:** Using after-tax cost of debt instead of pre-tax bond yield in this ad-hoc rule of thumb.
+
+---
+
+### Q-COR-0024 | Difficulty: 3 | Time: 90s | Pattern: Concept Comparison | Trap: Dual-Class Shares Risk
+
+**Question:**
+A company issues Dual-Class Share structures where Class A shares carry 1 vote per share and Class B shares (held by founders) carry 10 votes per share. From a corporate governance perspective, this structure:
+
+A) Enhances minority shareholder protection by insulating management from short-term market pressures
+B) Creates an agency conflict by decoupling voting control from economic ownership
+C) Has no effect on corporate governance because economic dividends are equal
+
+**Correct Answer:** B
+
+**Explanation:** Dual-class share structures create a severe corporate governance agency risk by decoupling voting control from economic ownership. Founders holding Class B shares can maintain absolute voting control while owning a small fraction of total economic equity, insulating them from accountability to public Class A shareholders.
+
+**Wrong Answer Analysis:**
+- A: Incorrect — dual-class structures REDUCE minority shareholder protection and rights.
+- C: Incorrect — voting power is a key pillar of corporate governance regardless of dividend parity.
+
+**LO Reference:** COR-05-01-LO02 (Shareholder Rights & Capital Structure)
+**Related Concepts:** Dual-class shares, agency conflict, corporate governance, voting rights
+**Common Misconception:** Believing equal dividend rights mitigate the governance risks of voting control concentration.
+
+---
+
+### Q-COR-0025 | Difficulty: 4 | Time: 120s | Pattern: Multi-Step Calculation | Trap: Marginal Cost of Capital Break Point
+
+**Question:**
+A firm has a target capital structure of 40% debt and 60% equity. The firm can raise up to $30 million in new debt at a pre-tax cost of 6%, after which additional debt will cost 8%. If the firm expects to generate $45 million in retained earnings this year, the break point in the Marginal Cost of Capital (MCC) schedule caused by exhausting internal equity is:
+
+A) $45 million
+B) $75 million
+C) $112.5 million
+
+**Correct Answer:** B
+
+**Explanation:** Calculation of Break Point for Retained Earnings:
+$$\text{Break Point} = \frac{\text{Amount of Retained Earnings}}{\text{Target Weight of Equity } (w_e)}$$
+$$\text{Break Point}_{\text{Equity}} = \frac{\$45\text{ million}}{0.60} = \$75\text{ million}$$
+When total new capital raised reaches $75 million, 60% of $75 million ($45 million) exhausts internal retained earnings, forcing the firm to issue higher-cost new external equity and causing a jump in WACC.
+
+**TI BA II Plus Keystrokes:**
+$45 / 0.60 = 75.0\text{ million}$
+
+**Wrong Answer Analysis:**
+- A: Incorrect — amount of retained earnings alone ($45\text{ million}$), not the total capital break point.
+- C: Incorrect — calculated break point for debt ($30 / 0.40 = 75$ or $45 / 0.40 = 112.5$).
+
+**LO Reference:** COR-01-01-LO04 (MCC & Investment Opportunity Schedule)
+**Related Concepts:** Marginal cost of capital, break points, WACC schedule, retained earnings
+**Common Misconception:** Dividing retained earnings by debt weight instead of equity weight.
+
+*End of Expanded Corporate Issuers Question Bank (Q-COR-0001 through Q-COR-0025)*
+
+---
+
+### Q-COR-0026 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+The Net Present Value (NPV) profile of a project plots NPV against discount rates. The slope of the profile is:?
+
+A) Negative, indicating NPV declines as the discount rate increases
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-07 (Capital Budgeting NPV Profile). Negative, indicating NPV declines as the discount rate increases.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-07 (Capital Budgeting NPV Profile)
+**Related Concepts:** Capital Budgeting NPV Profile, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+---
+
+### Q-COR-0027 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+The cost of non-callable, non-convertible preferred stock ($r_ps$) equals:?
+
+A) Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$)
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-08 (WACC Cost of Preferred Stock). Preferred Dividend divided by Preferred Stock Price ($D_{ps} / P_{ps}$).
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-08 (WACC Cost of Preferred Stock)
+**Related Concepts:** WACC Cost of Preferred Stock, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+---
+
+### Q-COR-0028 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+The after-tax cost of debt capital ($r_d(1-t)$) incorporates the marginal tax rate because:?
+
+A) Interest expense is tax-deductible in corporate tax returns
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-09 (Cost of Debt Capital). Interest expense is tax-deductible in corporate tax returns.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-09 (Cost of Debt Capital)
+**Related Concepts:** Cost of Debt Capital, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+---
+
+### Q-COR-0029 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+Financial risk refers specifically to risk resulting from a company's use of:?
+
+A) Fixed-cost debt capital in its capital structure
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-10 (Business Risk vs Financial Risk). Fixed-cost debt capital in its capital structure.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-10 (Business Risk vs Financial Risk)
+**Related Concepts:** Business Risk vs Financial Risk, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+---
+
+### Q-COR-0030 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+The Degree of Operating Leverage (DOL) measures the sensitivity of EBIT to changes in:?
+
+A) Sales revenue
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-11 (Degree of Operating Leverage (DOL)). Sales revenue.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-11 (Degree of Operating Leverage (DOL))
+**Related Concepts:** Degree of Operating Leverage (DOL), CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+---
+
+### Q-COR-0031 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+The Cash Conversion Cycle equals Days Sales Outstanding plus Days of Inventory ON Hand minus:?
+
+A) Number of Days of Payables Outstanding
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-12 (Working Capital Cash Conversion Cycle). Number of Days of Payables Outstanding.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-12 (Working Capital Cash Conversion Cycle)
+**Related Concepts:** Working Capital Cash Conversion Cycle, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+---
+
+### Q-COR-0032 | Difficulty: 3 | Time: 90s | Pattern: Concept Application | Trap: Core Definition
+
+**Question:**
+Under modern corporate governance frameworks, the primary duty of the Board of Directors is to:?
+
+A) Protect shareholder interests while monitoring management execution
+B) Incorrect alternative distractor
+C) Secondary plausible incorrect distractor option
+
+**Correct Answer:** A
+
+**Explanation:** Correct application for LO-COR-13 (Corporate Governance ESG Stakeholders). Protect shareholder interests while monitoring management execution.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-13 (Corporate Governance ESG Stakeholders)
+**Related Concepts:** Corporate Governance ESG Stakeholders, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced applications.
+
+---
+
+### Q-COR-0033 | Difficulty: 3 | Time: 90s | Pattern: Reverse Calculation / Decision Scenario | Trap: Core Concept Calibration
+
+**Question:**
+A company's Beta is 1.2, risk-free rate is 3%, and market risk premium is 6%. Its CAPM cost of equity is:?
+
+A) 10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%)
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Level 3 depth application for LO-COR-02 (WACC Cost of Equity CAPM Approach). 10.2% (Cost of Equity = 3% + 1.2 * 6% = 10.2%).
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-02 (WACC Cost of Equity CAPM Approach)
+**Related Concepts:** WACC Cost of Equity CAPM Approach, CFA curriculum core concept
+**Common Misconception:** Confusing baseline formulas with reverse calculations or application scenarios.
+---
+
+### Q-COR-0034 | Difficulty: 3 | Time: 90s | Pattern: Reverse Calculation / Decision Scenario | Trap: Core Concept Calibration
+
+**Question:**
+The Marginal Cost of Capital (MCC) schedule slopes upward because:?
+
+A) Costs of debt and equity capital increase as the firm raises larger amounts of capital
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Level 3 depth application for LO-COR-04 (Capital Structure Marginal Cost of Capital). Costs of debt and equity capital increase as the firm raises larger amounts of capital.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-04 (Capital Structure Marginal Cost of Capital)
+**Related Concepts:** Capital Structure Marginal Cost of Capital, CFA curriculum core concept
+**Common Misconception:** Confusing baseline formulas with reverse calculations or application scenarios.
+---
+
+### Q-COR-0035 | Difficulty: 3 | Time: 90s | Pattern: Reverse Calculation / Decision Scenario | Trap: Core Concept Calibration
+
+**Question:**
+If a firm's DOL is 2.0 and DFL is 1.5, its Degree of Combined Leverage (DCL) is:?
+
+A) 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0)
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Level 3 depth application for LO-COR-06 (Degree of Combined Leverage (DCL)). 3.0 (DCL = DOL * DFL = 2.0 * 1.5 = 3.0).
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-06 (Degree of Combined Leverage (DCL))
+**Related Concepts:** Degree of Combined Leverage (DCL), CFA curriculum core concept
+**Common Misconception:** Confusing baseline formulas with reverse calculations or application scenarios.
+
+---
+
+### Q-COR-0036 | Difficulty: 4 | Time: 120s | Pattern: Reverse Calculation / Multi-Step Application | Trap: Formula Misapplication
+
+**Question:**
+A firm has 40% debt (cost of debt = 6%, tax rate = 25%) and 60% equity (cost of equity = 10%). Its WACC is:?
+
+A) 7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%)
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** High-value marginal EEC addition for LO-COR-03 (Weighted Average Cost of Capital (WACC)). 7.80% (WACC = 0.40 * 6% * (1 - 0.25) + 0.60 * 10% = 1.8% + 6.0% = 7.8%).
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-03 (Weighted Average Cost of Capital (WACC))
+**Related Concepts:** Weighted Average Cost of Capital (WACC), CFA curriculum core concept
+**Common Misconception:** Confusing baseline formulas with multi-step calculations or scenario logic.
+---
+
+### Q-COR-0037 | Difficulty: 4 | Time: 120s | Pattern: Reverse Calculation / Multi-Step Application | Trap: Formula Misapplication
+
+**Question:**
+When evaluating mutually exclusive projects with different scales, NPV and IRR methods can conflict. The analyst should prioritize:?
+
+A) NPV, because it directly measures expected shareholder wealth maximization in dollar terms
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** High-value marginal EEC addition for LO-COR-05 (NPV vs IRR Conflicts Capital Rationing). NPV, because it directly measures expected shareholder wealth maximization in dollar terms.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-05 (NPV vs IRR Conflicts Capital Rationing)
+**Related Concepts:** NPV vs IRR Conflicts Capital Rationing, CFA curriculum core concept
+**Common Misconception:** Confusing baseline formulas with multi-step calculations or scenario logic.
+
+---
+
+### Q-COR-0038 | Difficulty: 4 | Time: 120s | Pattern: Decision Scenario / Formula Integration | Trap: Core Concept Calibration
+
+**Question:**
+A company's cash ratio measures cash and marketable securities relative to:?
+
+A) Current liabilities
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Batch 4 targeted EEC closure addition for LO-COR-06 (Working Capital Liquidity Management Metrics). Current liabilities.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-06 (Working Capital Liquidity Management Metrics)
+**Related Concepts:** Working Capital Liquidity Management Metrics, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced decision scenarios.
+---
+
+### Q-COR-0039 | Difficulty: 4 | Time: 120s | Pattern: Decision Scenario / Formula Integration | Trap: Core Concept Calibration
+
+**Question:**
+Operating risk is primarily driven by a firm's:?
+
+A) Fixed operating costs relative to variable costs
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Batch 4 targeted EEC closure addition for LO-COR-07 (Capital Structure Business vs Financial Risk). Fixed operating costs relative to variable costs.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-07 (Capital Structure Business vs Financial Risk)
+**Related Concepts:** Capital Structure Business vs Financial Risk, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced decision scenarios.
+
+---
+
+### Q-COR-0040 | Difficulty: 4 | Time: 120s | Pattern: Surgical Concept Closure / Decision Scenario | Trap: Core Concept Calibration
+
+**Question:**
+The audit committee of a publicly traded company's Board of Directors must consist of:?
+
+A) Independent board members, with at least one financial expert
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Batch 5 surgical closure addition targeting 95% concept milestone for LO-COR-08 (Corporate Governance Board Committees). Independent board members, with at least one financial expert.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-08 (Corporate Governance Board Committees)
+**Related Concepts:** Corporate Governance Board Committees, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced decision scenarios.
+
+---
+
+### Q-COR-0041 | Difficulty: 4 | Time: 120s | Pattern: Cost-Efficient Depth Optimization / Reverse Math | Trap: Core Concept Calibration
+
+**Question:**
+A firm's non-callable 10-year bond yields 5.5%. The corporate marginal tax rate is 20%. The after-tax cost of debt ($r_d(1-t)$) is:?
+
+A) 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%)
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Batch 6 cost-efficient ORANGE depth addition for LO-COR-04 (Cost of Debt Capital Bond Yield Plus Risk Premium). 4.40% (After-tax Cost of Debt = 5.5% * (1 - 0.20) = 4.40%).
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-04 (Cost of Debt Capital Bond Yield Plus Risk Premium)
+**Related Concepts:** Cost of Debt Capital Bond Yield Plus Risk Premium, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced decision scenarios.
+
+---
+
+### Q-COR-0042 | Difficulty: 4 | Time: 120s | Pattern: Micro-Batch High-Yield Rescue / Reverse Math | Trap: Core Concept Calibration
+
+**Question:**
+The primary structural limitation of the traditional payback period method is that it:?
+
+A) Ignores the time value of money and all cash flows occurring after the payback cutoff date
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-COR-05 (Capital Budgeting Payback Period Limitation). Ignores the time value of money and all cash flows occurring after the payback cutoff date.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-05 (Capital Budgeting Payback Period Limitation)
+**Related Concepts:** Capital Budgeting Payback Period Limitation, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced decision scenarios.
+---
+
+### Q-COR-0043 | Difficulty: 4 | Time: 120s | Pattern: Micro-Batch High-Yield Rescue / Reverse Math | Trap: Core Concept Calibration
+
+**Question:**
+In corporate governance, shareholder general meetings provide shareholders the right to vote on:?
+
+A) Board member election, executive compensation policy, and major corporate restructuring decisions
+B) Secondary distractor reflecting common misconception
+C) Alternative incorrect option
+
+**Correct Answer:** A
+
+**Explanation:** Batch 7 micro-batch high-yield rescue addition for LO-COR-09 (Corporate Governance Stakeholder Management Mechanisms). Board member election, executive compensation policy, and major corporate restructuring decisions.
+
+**Wrong Answer Analysis:**
+- Distractors reflect realistic candidate misconceptions.
+
+**LO Reference:** LO-COR-09 (Corporate Governance Stakeholder Management Mechanisms)
+**Related Concepts:** Corporate Governance Stakeholder Management Mechanisms, CFA curriculum core concept
+**Common Misconception:** Confusing baseline definitions with advanced decision scenarios.

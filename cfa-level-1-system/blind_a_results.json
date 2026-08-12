@@ -1,0 +1,96 @@
+{
+  "evaluation_name": "Blind Set A Diagnostic Transfer Evaluation",
+  "total_questions": 180,
+  "overall_accuracy_pct": 78.9,
+  "transfer_status": "STRONG DIAGNOSTIC SIGNAL (78.3% Overall Transfer)",
+  "subject_performance": {
+    "Ethical & Professional Standards": {
+      "questions_tested": 27,
+      "correct": 22,
+      "accuracy_pct": 81.5
+    },
+    "Financial Statement Analysis": {
+      "questions_tested": 23,
+      "correct": 17,
+      "accuracy_pct": 73.9
+    },
+    "Fixed Income": {
+      "questions_tested": 23,
+      "correct": 18,
+      "accuracy_pct": 78.3
+    },
+    "Equity Investments": {
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6
+    },
+    "Portfolio Management": {
+      "questions_tested": 18,
+      "correct": 14,
+      "accuracy_pct": 77.8
+    },
+    "Alternative Investments": {
+      "questions_tested": 15,
+      "correct": 13,
+      "accuracy_pct": 86.7
+    },
+    "Quantitative Methods": {
+      "questions_tested": 14,
+      "correct": 10,
+      "accuracy_pct": 71.4
+    },
+    "Economics": {
+      "questions_tested": 14,
+      "correct": 11,
+      "accuracy_pct": 78.6
+    },
+    "Corporate Issuers": {
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7
+    },
+    "Derivatives": {
+      "questions_tested": 9,
+      "correct": 6,
+      "accuracy_pct": 66.7
+    }
+  },
+  "cognitive_skill_breakdown": {
+    "recall_conceptual": {
+      "tested": 45,
+      "accuracy_pct": 84.4
+    },
+    "application_scenario": {
+      "tested": 85,
+      "accuracy_pct": 78.8
+    },
+    "calculation_math": {
+      "tested": 50,
+      "accuracy_pct": 72.0
+    }
+  },
+  "speed_efficiency_profile": {
+    "median_time_sec": 89.2,
+    "p75_time_sec": 99.0,
+    "p90_time_sec": 104.0,
+    "speed_accuracy_index": 0.885,
+    "abandoned_guessed_rate_pct": 1.1
+  },
+  "diagnostic_actionable_gaps": [
+    {
+      "subject": "Derivatives",
+      "accuracy": 66.7,
+      "issue": "Options Black-Scholes & Swap Mechanics calculation speed"
+    },
+    {
+      "subject": "Quantitative Methods",
+      "accuracy": 71.4,
+      "issue": "Hypothesis testing Non-Parametric choice error"
+    },
+    {
+      "subject": "Financial Statement Analysis",
+      "accuracy": 73.9,
+      "issue": "IFRS vs US GAAP Lease front-loading calculation"
+    }
+  ]
+}

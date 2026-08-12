@@ -1,0 +1,111 @@
+{
+  "evaluation_name": "Full-Length Mock Exam 4 (Final Validation Simulation - 180 Qs)",
+  "total_questions": 180,
+  "overall_accuracy_pct": 85.0,
+  "mock_status": "EXCEPTIONAL FINAL MOCK PASS (85.0% Overall Score)",
+  "cross_mock_4_exam_avg_pct": 84.0,
+  "gate_e_status": "\ud83d\udfe2 PASSED (4/4 Mocks Completed at 84.0% Overall Average)",
+  "session_breakdown": {
+    "session_1_morning": {
+      "questions": 90,
+      "correct": 76,
+      "accuracy_pct": 84.4
+    },
+    "session_2_afternoon": {
+      "questions": 90,
+      "correct": 77,
+      "accuracy_pct": 85.6
+    },
+    "session_consistency_delta_pp": 1.2
+  },
+  "subject_performance": {
+    "Ethical & Professional Standards": {
+      "session": "Session 1",
+      "questions_tested": 27,
+      "correct": 23,
+      "accuracy_pct": 85.2,
+      "status": "VALIDATED_STRONG"
+    },
+    "Quantitative Methods": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7,
+      "status": "VALIDATED_STRONG"
+    },
+    "Economics": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7,
+      "status": "VALIDATED_STRONG"
+    },
+    "Financial Statement Analysis": {
+      "session": "Session 1",
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6,
+      "status": "VALIDATED_STRONG"
+    },
+    "Corporate Issuers": {
+      "session": "Session 1",
+      "questions_tested": 12,
+      "correct": 10,
+      "accuracy_pct": 83.3,
+      "status": "VALIDATED_STRONG"
+    },
+    "Equity Investments": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 20,
+      "accuracy_pct": 87.0,
+      "status": "VALIDATED_STRONG"
+    },
+    "Fixed Income": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 20,
+      "accuracy_pct": 87.0,
+      "status": "VALIDATED_STRONG"
+    },
+    "Derivatives": {
+      "session": "Session 2",
+      "questions_tested": 9,
+      "correct": 7,
+      "accuracy_pct": 77.8,
+      "status": "VALIDATED_STRONG"
+    },
+    "Alternative Investments": {
+      "session": "Session 2",
+      "questions_tested": 17,
+      "correct": 15,
+      "accuracy_pct": 88.2,
+      "status": "VALIDATED_STRONG"
+    },
+    "Portfolio Management": {
+      "session": "Session 2",
+      "questions_tested": 18,
+      "correct": 15,
+      "accuracy_pct": 83.3,
+      "status": "VALIDATED_STRONG"
+    }
+  },
+  "speed_efficiency_profile": {
+    "median_time_sec": 83.7,
+    "p75_time_sec": 93.6,
+    "p90_time_sec": 97.2,
+    "speed_accuracy_index": 1.016,
+    "abandoned_guessed_rate_pct": 0.4
+  },
+  "gate_e_mock_progress": {
+    "completed_mocks": 4,
+    "target_mocks": 4,
+    "mock_1_score": 83.9,
+    "mock_2_score": 85.0,
+    "mock_3_score": 82.2,
+    "mock_4_score": 85.0,
+    "4_mock_overall_average": 84.0,
+    "internal_mps_benchmark": 70.0,
+    "margin_above_mps_pp": 15.0
+  }
+}

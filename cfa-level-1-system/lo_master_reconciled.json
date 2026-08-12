@@ -1,0 +1,3545 @@
+{
+  "total_los": 222,
+  "total_questions": 539,
+  "raw_covered": 186,
+  "red_count": 36,
+  "orange_count": 102,
+  "yellow_count": 28,
+  "green_count": 56,
+  "raw_coverage_pct": 83.8,
+  "effective_coverage_pct": 46.2,
+  "effective_exam_coverage_pct": 45.6,
+  "concept_metrics": {
+    "curriculum_wide": {
+      "num": 930,
+      "den": 1286,
+      "pct": 72.3
+    },
+    "important_concepts": {
+      "num": 930,
+      "den": 950,
+      "pct": 97.9
+    },
+    "covered_lo_concepts": {
+      "num": 930,
+      "den": 1116,
+      "pct": 83.3
+    },
+    "mastery_level_concepts": {
+      "num": 280,
+      "den": 950,
+      "pct": 29.5
+    }
+  },
+  "master_table": [
+    {
+      "index": 1,
+      "lo_id": "LO-ETH-01",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 37,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ETH-02-01-LO01",
+        "ETH-02-01-LO02",
+        "ETH-02-01-LO03",
+        "ETH-02-01-LO04",
+        "ETH-03-01-LO01",
+        "ETH-03-01-LO02",
+        "ETH-04-01-LO02",
+        "ETH-04-01-LO03",
+        "ETH-05-01-LO01",
+        "ETH-06-01-LO01",
+        "ETH-06-01-LO02",
+        "ETH-07-01-LO03",
+        "ETH-07-01-LO02",
+        "ETH-09-01-LO02",
+        "ETH-05-01-LO03",
+        "ETH-08-01-LO02",
+        "ETH-07-01-LO01",
+        "ETH-04-01-LO04",
+        "ETH-04-01-LO01",
+        "ETH-04-01-LO05",
+        "ETH-05-01-LO02",
+        "ETH-09-01-LO03",
+        "ETH-01-01-LO01",
+        "LO-ETH-01"
+      ]
+    },
+    {
+      "index": 2,
+      "lo_id": "LO-ETH-02",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 15,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ETH-02-01-LO01",
+        "ETH-02-01-LO02",
+        "ETH-02-01-LO03",
+        "ETH-02-01-LO04",
+        "ETH-03-01-LO02",
+        "ETH-04-01-LO02",
+        "ETH-06-01-LO02",
+        "ETH-07-01-LO02",
+        "ETH-09-01-LO02",
+        "ETH-08-01-LO02",
+        "ETH-05-01-LO02"
+      ]
+    },
+    {
+      "index": 3,
+      "lo_id": "LO-ETH-03",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 13,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ETH-02-01-LO03",
+        "ETH-03-01-LO01",
+        "ETH-03-01-LO02",
+        "ETH-04-01-LO03",
+        "ETH-07-01-LO03",
+        "ETH-05-01-LO03",
+        "ETH-09-01-LO03"
+      ]
+    },
+    {
+      "index": 4,
+      "lo_id": "LO-ETH-04",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 10,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ETH-02-01-LO04",
+        "ETH-04-01-LO02",
+        "ETH-04-01-LO03",
+        "ETH-04-01-LO04",
+        "ETH-04-01-LO01",
+        "ETH-04-01-LO05"
+      ]
+    },
+    {
+      "index": 5,
+      "lo_id": "LO-ETH-05",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ETH-05-01-LO01",
+        "ETH-05-01-LO03",
+        "ETH-04-01-LO05",
+        "ETH-05-01-LO02",
+        "LO-ETH-05"
+      ]
+    },
+    {
+      "index": 6,
+      "lo_id": "LO-ETH-06",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.2529,
+      "expected_marginal_eec_value": 0.3541,
+      "matched_codes": [
+        "ETH-06-01-LO01",
+        "ETH-06-01-LO02"
+      ]
+    },
+    {
+      "index": 7,
+      "lo_id": "LO-ETH-07",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.2529,
+      "expected_marginal_eec_value": 0.3541,
+      "matched_codes": [
+        "ETH-07-01-LO03",
+        "ETH-07-01-LO02",
+        "ETH-07-01-LO01"
+      ]
+    },
+    {
+      "index": 8,
+      "lo_id": "LO-ETH-08",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.2529,
+      "expected_marginal_eec_value": 0.3541,
+      "matched_codes": [
+        "ETH-08-01-LO02",
+        "LO-ETH-08"
+      ]
+    },
+    {
+      "index": 9,
+      "lo_id": "LO-ETH-09",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.2529,
+      "expected_marginal_eec_value": 0.3541,
+      "matched_codes": [
+        "ETH-09-01-LO02",
+        "ETH-09-01-LO03",
+        "LO-ETH-09"
+      ]
+    },
+    {
+      "index": 10,
+      "lo_id": "LO-ETH-10",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.2529,
+      "expected_marginal_eec_value": 0.3541,
+      "matched_codes": [
+        "LO-ETH-10"
+      ]
+    },
+    {
+      "index": 11,
+      "lo_id": "LO-ETH-11",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-11"
+      ]
+    },
+    {
+      "index": 12,
+      "lo_id": "LO-ETH-12",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-12"
+      ]
+    },
+    {
+      "index": 13,
+      "lo_id": "LO-ETH-13",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-13"
+      ]
+    },
+    {
+      "index": 14,
+      "lo_id": "LO-ETH-14",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-14"
+      ]
+    },
+    {
+      "index": 15,
+      "lo_id": "LO-ETH-15",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.5059,
+      "expected_marginal_eec_value": 1.1048,
+      "matched_codes": [
+        "LO-ETH-15"
+      ]
+    },
+    {
+      "index": 16,
+      "lo_id": "LO-ETH-16",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.5059,
+      "expected_marginal_eec_value": 1.1048,
+      "matched_codes": [
+        "LO-ETH-16"
+      ]
+    },
+    {
+      "index": 17,
+      "lo_id": "LO-ETH-17",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-17"
+      ]
+    },
+    {
+      "index": 18,
+      "lo_id": "LO-ETH-18",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-18"
+      ]
+    },
+    {
+      "index": 19,
+      "lo_id": "LO-ETH-19",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-19"
+      ]
+    },
+    {
+      "index": 20,
+      "lo_id": "LO-ETH-20",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-20"
+      ]
+    },
+    {
+      "index": 21,
+      "lo_id": "LO-ETH-21",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-21"
+      ]
+    },
+    {
+      "index": 22,
+      "lo_id": "LO-ETH-22",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-22"
+      ]
+    },
+    {
+      "index": 23,
+      "lo_id": "LO-ETH-23",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-23"
+      ]
+    },
+    {
+      "index": 24,
+      "lo_id": "LO-ETH-24",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-24"
+      ]
+    },
+    {
+      "index": 25,
+      "lo_id": "LO-ETH-25",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-25"
+      ]
+    },
+    {
+      "index": 26,
+      "lo_id": "LO-ETH-26",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-26"
+      ]
+    },
+    {
+      "index": 27,
+      "lo_id": "LO-ETH-27",
+      "subject": "Ethical & Professional Standards",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.63234,
+      "max_remaining_eec_potential": 0.3794,
+      "expected_marginal_eec_value": 0.8286,
+      "matched_codes": [
+        "LO-ETH-27"
+      ]
+    },
+    {
+      "index": 28,
+      "lo_id": "LO-QNT-01",
+      "subject": "Quantitative Methods",
+      "q_count": 35,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "QNT-02-01-LO02",
+        "QNT-02-01-LO01",
+        "QNT-01-01-LO02",
+        "QNT-03-01-LO05",
+        "QNT-08-01-LO02",
+        "QNT-05-01-LO02",
+        "QNT-07-01-LO02",
+        "QNT-04-01-LO02",
+        "QNT-08-01-LO03",
+        "QNT-10-01-LO03",
+        "QNT-03-01-LO04",
+        "QNT-05-01-LO03",
+        "QNT-06-01-LO01",
+        "QNT-10-01-LO04",
+        "QNT-07-01-LO03",
+        "QNT-03-01-LO01",
+        "QNT-06-01-LO02",
+        "QNT-07-01-LO01",
+        "QNT-09-01-LO02",
+        "QNT-09-01-LO01",
+        "QNT-07-01-LO04",
+        "QNT-10-01-LO01",
+        "QNT-09-01-LO03",
+        "QNT-09-01-LO04",
+        "QNT-07-01-LO05",
+        "QNT-02-01-LO03",
+        "QNT-01-01-LO04",
+        "QNT-10-01-LO02",
+        "QNT-06-01-LO03",
+        "QNT-07-01-LO06"
+      ]
+    },
+    {
+      "index": 29,
+      "lo_id": "LO-QNT-02",
+      "subject": "Quantitative Methods",
+      "q_count": 14,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "QNT-02-01-LO02",
+        "QNT-02-01-LO01",
+        "QNT-01-01-LO02",
+        "QNT-08-01-LO02",
+        "QNT-05-01-LO02",
+        "QNT-07-01-LO02",
+        "QNT-04-01-LO02",
+        "QNT-06-01-LO02",
+        "QNT-09-01-LO02",
+        "QNT-02-01-LO03",
+        "QNT-10-01-LO02",
+        "LO-QNT-02"
+      ]
+    },
+    {
+      "index": 30,
+      "lo_id": "LO-QNT-03",
+      "subject": "Quantitative Methods",
+      "q_count": 11,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "QNT-03-01-LO05",
+        "QNT-08-01-LO03",
+        "QNT-10-01-LO03",
+        "QNT-03-01-LO04",
+        "QNT-05-01-LO03",
+        "QNT-07-01-LO03",
+        "QNT-03-01-LO01",
+        "QNT-09-01-LO03",
+        "QNT-02-01-LO03",
+        "QNT-06-01-LO03"
+      ]
+    },
+    {
+      "index": 31,
+      "lo_id": "LO-QNT-04",
+      "subject": "Quantitative Methods",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "QNT-04-01-LO02",
+        "QNT-03-01-LO04",
+        "QNT-10-01-LO04",
+        "QNT-07-01-LO04",
+        "QNT-09-01-LO04",
+        "QNT-01-01-LO04",
+        "LO-QNT-04"
+      ]
+    },
+    {
+      "index": 32,
+      "lo_id": "LO-QNT-05",
+      "subject": "Quantitative Methods",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.061,
+      "expected_marginal_eec_value": 0.061,
+      "matched_codes": [
+        "QNT-03-01-LO05",
+        "QNT-05-01-LO02",
+        "QNT-05-01-LO03",
+        "QNT-07-01-LO05",
+        "LO-QNT-05"
+      ]
+    },
+    {
+      "index": 33,
+      "lo_id": "LO-QNT-06",
+      "subject": "Quantitative Methods",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.061,
+      "expected_marginal_eec_value": 0.061,
+      "matched_codes": [
+        "QNT-06-01-LO01",
+        "QNT-06-01-LO02",
+        "QNT-06-01-LO03",
+        "QNT-07-01-LO06"
+      ]
+    },
+    {
+      "index": 34,
+      "lo_id": "LO-QNT-07",
+      "subject": "Quantitative Methods",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "QNT-07-01-LO02",
+        "QNT-07-01-LO03",
+        "QNT-07-01-LO01",
+        "QNT-07-01-LO04",
+        "QNT-07-01-LO05",
+        "QNT-07-01-LO06",
+        "LO-QNT-07"
+      ]
+    },
+    {
+      "index": 35,
+      "lo_id": "LO-QNT-08",
+      "subject": "Quantitative Methods",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.122,
+      "expected_marginal_eec_value": 0.122,
+      "matched_codes": [
+        "QNT-08-01-LO02",
+        "QNT-08-01-LO03",
+        "LO-QNT-08"
+      ]
+    },
+    {
+      "index": 36,
+      "lo_id": "LO-QNT-09",
+      "subject": "Quantitative Methods",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.061,
+      "expected_marginal_eec_value": 0.061,
+      "matched_codes": [
+        "QNT-09-01-LO02",
+        "QNT-09-01-LO01",
+        "QNT-09-01-LO03",
+        "QNT-09-01-LO04",
+        "LO-QNT-09"
+      ]
+    },
+    {
+      "index": 37,
+      "lo_id": "LO-QNT-10",
+      "subject": "Quantitative Methods",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "QNT-10-01-LO03",
+        "QNT-10-01-LO04",
+        "QNT-10-01-LO01",
+        "QNT-10-01-LO02",
+        "LO-QNT-10"
+      ]
+    },
+    {
+      "index": 38,
+      "lo_id": "LO-QNT-11",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-11"
+      ]
+    },
+    {
+      "index": 39,
+      "lo_id": "LO-QNT-12",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-12"
+      ]
+    },
+    {
+      "index": 40,
+      "lo_id": "LO-QNT-13",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-13"
+      ]
+    },
+    {
+      "index": 41,
+      "lo_id": "LO-QNT-14",
+      "subject": "Quantitative Methods",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.122,
+      "expected_marginal_eec_value": 0.122,
+      "matched_codes": [
+        "LO-QNT-14"
+      ]
+    },
+    {
+      "index": 42,
+      "lo_id": "LO-QNT-15",
+      "subject": "Quantitative Methods",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.061,
+      "expected_marginal_eec_value": 0.061,
+      "matched_codes": [
+        "LO-QNT-15"
+      ]
+    },
+    {
+      "index": 43,
+      "lo_id": "LO-QNT-16",
+      "subject": "Quantitative Methods",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.122,
+      "expected_marginal_eec_value": 0.122,
+      "matched_codes": [
+        "LO-QNT-16"
+      ]
+    },
+    {
+      "index": 44,
+      "lo_id": "LO-QNT-17",
+      "subject": "Quantitative Methods",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.122,
+      "expected_marginal_eec_value": 0.122,
+      "matched_codes": [
+        "LO-QNT-17"
+      ]
+    },
+    {
+      "index": 45,
+      "lo_id": "LO-QNT-18",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-18"
+      ]
+    },
+    {
+      "index": 46,
+      "lo_id": "LO-QNT-19",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-19"
+      ]
+    },
+    {
+      "index": 47,
+      "lo_id": "LO-QNT-20",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-20"
+      ]
+    },
+    {
+      "index": 48,
+      "lo_id": "LO-QNT-21",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-21"
+      ]
+    },
+    {
+      "index": 49,
+      "lo_id": "LO-QNT-22",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-22"
+      ]
+    },
+    {
+      "index": 50,
+      "lo_id": "LO-QNT-23",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-23"
+      ]
+    },
+    {
+      "index": 51,
+      "lo_id": "LO-QNT-24",
+      "subject": "Quantitative Methods",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.30488,
+      "max_remaining_eec_potential": 0.1829,
+      "expected_marginal_eec_value": 0.2854,
+      "matched_codes": [
+        "LO-QNT-24"
+      ]
+    },
+    {
+      "index": 52,
+      "lo_id": "LO-ECO-01",
+      "subject": "Economics",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ECO-01-01-LO04",
+        "ECO-01-01-LO01",
+        "ECO-01-01-LO03",
+        "ECO-02-01-LO01",
+        "ECO-02-01-LO05",
+        "ECO-04-01-LO01",
+        "ECO-04-01-LO02",
+        "ECO-05-01-LO01",
+        "ECO-06-01-LO03",
+        "ECO-03-01-LO01",
+        "ECO-02-01-LO04",
+        "ECO-06-01-LO01",
+        "ECO-05-01-LO04",
+        "ECO-01-01-LO05",
+        "ECO-01-01-LO06",
+        "ECO-04-01-LO03",
+        "ECO-03-01-LO02",
+        "ECO-05-01-LO02",
+        "ECO-04-01-LO04",
+        "ECO-05-01-LO03"
+      ]
+    },
+    {
+      "index": 53,
+      "lo_id": "LO-ECO-02",
+      "subject": "Economics",
+      "q_count": 9,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ECO-02-01-LO01",
+        "ECO-02-01-LO05",
+        "ECO-04-01-LO02",
+        "ECO-02-01-LO04",
+        "ECO-03-01-LO02",
+        "ECO-05-01-LO02",
+        "LO-ECO-02"
+      ]
+    },
+    {
+      "index": 54,
+      "lo_id": "LO-ECO-03",
+      "subject": "Economics",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ECO-01-01-LO03",
+        "ECO-06-01-LO03",
+        "ECO-03-01-LO01",
+        "ECO-04-01-LO03",
+        "ECO-03-01-LO02",
+        "ECO-05-01-LO03",
+        "LO-ECO-03"
+      ]
+    },
+    {
+      "index": 55,
+      "lo_id": "LO-ECO-04",
+      "subject": "Economics",
+      "q_count": 12,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ECO-01-01-LO04",
+        "ECO-04-01-LO01",
+        "ECO-04-01-LO02",
+        "ECO-02-01-LO04",
+        "ECO-05-01-LO04",
+        "ECO-04-01-LO03",
+        "ECO-04-01-LO04",
+        "LO-ECO-04"
+      ]
+    },
+    {
+      "index": 56,
+      "lo_id": "LO-ECO-05",
+      "subject": "Economics",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ECO-02-01-LO05",
+        "ECO-05-01-LO01",
+        "ECO-05-01-LO04",
+        "ECO-01-01-LO05",
+        "ECO-05-01-LO02",
+        "ECO-05-01-LO03",
+        "LO-ECO-05"
+      ]
+    },
+    {
+      "index": 57,
+      "lo_id": "LO-ECO-06",
+      "subject": "Economics",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.0665,
+      "expected_marginal_eec_value": 0.0665,
+      "matched_codes": [
+        "ECO-06-01-LO03",
+        "ECO-06-01-LO01",
+        "ECO-01-01-LO06",
+        "LO-ECO-06"
+      ]
+    },
+    {
+      "index": 58,
+      "lo_id": "LO-ECO-07",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-07"
+      ]
+    },
+    {
+      "index": 59,
+      "lo_id": "LO-ECO-08",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-08"
+      ]
+    },
+    {
+      "index": 60,
+      "lo_id": "LO-ECO-09",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-09"
+      ]
+    },
+    {
+      "index": 61,
+      "lo_id": "LO-ECO-10",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-10"
+      ]
+    },
+    {
+      "index": 62,
+      "lo_id": "LO-ECO-11",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-11"
+      ]
+    },
+    {
+      "index": 63,
+      "lo_id": "LO-ECO-12",
+      "subject": "Economics",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.133,
+      "expected_marginal_eec_value": 0.133,
+      "matched_codes": [
+        "LO-ECO-12"
+      ]
+    },
+    {
+      "index": 64,
+      "lo_id": "LO-ECO-13",
+      "subject": "Economics",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.133,
+      "expected_marginal_eec_value": 0.133,
+      "matched_codes": [
+        "LO-ECO-13"
+      ]
+    },
+    {
+      "index": 65,
+      "lo_id": "LO-ECO-14",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-14"
+      ]
+    },
+    {
+      "index": 66,
+      "lo_id": "LO-ECO-15",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-15"
+      ]
+    },
+    {
+      "index": 67,
+      "lo_id": "LO-ECO-16",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-16"
+      ]
+    },
+    {
+      "index": 68,
+      "lo_id": "LO-ECO-17",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-17"
+      ]
+    },
+    {
+      "index": 69,
+      "lo_id": "LO-ECO-18",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-18"
+      ]
+    },
+    {
+      "index": 70,
+      "lo_id": "LO-ECO-19",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-19"
+      ]
+    },
+    {
+      "index": 71,
+      "lo_id": "LO-ECO-20",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-20"
+      ]
+    },
+    {
+      "index": 72,
+      "lo_id": "LO-ECO-21",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-21"
+      ]
+    },
+    {
+      "index": 73,
+      "lo_id": "LO-ECO-22",
+      "subject": "Economics",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.33259,
+      "max_remaining_eec_potential": 0.1996,
+      "expected_marginal_eec_value": 0.3113,
+      "matched_codes": [
+        "LO-ECO-22"
+      ]
+    },
+    {
+      "index": 74,
+      "lo_id": "LO-FSA-01",
+      "subject": "Financial Statement Analysis",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FSA-03-01-LO02",
+        "FSA-04-01-LO02",
+        "FSA-05-01-LO02",
+        "FSA-06-01-LO03",
+        "FSA-07-01-LO03",
+        "FSA-08-01-LO01",
+        "FSA-08-01-LO02",
+        "FSA-09-01-LO02",
+        "FSA-05-01-LO04",
+        "FSA-10-01-LO02",
+        "FSA-11-01-LO02",
+        "FSA-07-01-LO01",
+        "FSA-05-01-LO01",
+        "FSA-08-01-LO03",
+        "FSA-02-01-LO01",
+        "FSA-06-01-LO01",
+        "FSA-07-01-LO02",
+        "FSA-03-01-LO01",
+        "FSA-09-01-LO01",
+        "FSA-06-01-LO02",
+        "FSA-10-01-LO01"
+      ]
+    },
+    {
+      "index": 75,
+      "lo_id": "LO-FSA-02",
+      "subject": "Financial Statement Analysis",
+      "q_count": 13,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FSA-03-01-LO02",
+        "FSA-04-01-LO02",
+        "FSA-05-01-LO02",
+        "FSA-08-01-LO02",
+        "FSA-09-01-LO02",
+        "FSA-10-01-LO02",
+        "FSA-11-01-LO02",
+        "FSA-02-01-LO01",
+        "FSA-07-01-LO02",
+        "FSA-06-01-LO02"
+      ]
+    },
+    {
+      "index": 76,
+      "lo_id": "LO-FSA-03",
+      "subject": "Financial Statement Analysis",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FSA-03-01-LO02",
+        "FSA-06-01-LO03",
+        "FSA-07-01-LO03",
+        "FSA-08-01-LO03",
+        "FSA-03-01-LO01",
+        "LO-FSA-03"
+      ]
+    },
+    {
+      "index": 77,
+      "lo_id": "LO-FSA-04",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-04-01-LO02",
+        "FSA-05-01-LO04"
+      ]
+    },
+    {
+      "index": 78,
+      "lo_id": "LO-FSA-05",
+      "subject": "Financial Statement Analysis",
+      "q_count": 6,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.0787,
+      "expected_marginal_eec_value": 0.1101,
+      "matched_codes": [
+        "FSA-05-01-LO02",
+        "FSA-05-01-LO04",
+        "FSA-05-01-LO01",
+        "LO-FSA-05"
+      ]
+    },
+    {
+      "index": 79,
+      "lo_id": "LO-FSA-06",
+      "subject": "Financial Statement Analysis",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-06-01-LO03",
+        "FSA-06-01-LO01",
+        "FSA-06-01-LO02",
+        "LO-FSA-06"
+      ]
+    },
+    {
+      "index": 80,
+      "lo_id": "LO-FSA-07",
+      "subject": "Financial Statement Analysis",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-07-01-LO03",
+        "FSA-07-01-LO01",
+        "FSA-07-01-LO02",
+        "LO-FSA-07"
+      ]
+    },
+    {
+      "index": 81,
+      "lo_id": "LO-FSA-08",
+      "subject": "Financial Statement Analysis",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-08-01-LO01",
+        "FSA-08-01-LO02",
+        "FSA-08-01-LO03",
+        "LO-FSA-08"
+      ]
+    },
+    {
+      "index": 82,
+      "lo_id": "LO-FSA-09",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-09-01-LO02",
+        "FSA-09-01-LO01",
+        "LO-FSA-09"
+      ]
+    },
+    {
+      "index": 83,
+      "lo_id": "LO-FSA-10",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-10-01-LO02",
+        "FSA-10-01-LO01",
+        "LO-FSA-10"
+      ]
+    },
+    {
+      "index": 84,
+      "lo_id": "LO-FSA-11",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "FSA-11-01-LO02",
+        "LO-FSA-11"
+      ]
+    },
+    {
+      "index": 85,
+      "lo_id": "LO-FSA-12",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "LO-FSA-12"
+      ]
+    },
+    {
+      "index": 86,
+      "lo_id": "LO-FSA-13",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "LO-FSA-13"
+      ]
+    },
+    {
+      "index": 87,
+      "lo_id": "LO-FSA-14",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-14"
+      ]
+    },
+    {
+      "index": 88,
+      "lo_id": "LO-FSA-15",
+      "subject": "Financial Statement Analysis",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.1574,
+      "expected_marginal_eec_value": 0.2203,
+      "matched_codes": [
+        "LO-FSA-15"
+      ]
+    },
+    {
+      "index": 89,
+      "lo_id": "LO-FSA-16",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-16"
+      ]
+    },
+    {
+      "index": 90,
+      "lo_id": "LO-FSA-17",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-17"
+      ]
+    },
+    {
+      "index": 91,
+      "lo_id": "LO-FSA-18",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-18"
+      ]
+    },
+    {
+      "index": 92,
+      "lo_id": "LO-FSA-19",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-19"
+      ]
+    },
+    {
+      "index": 93,
+      "lo_id": "LO-FSA-20",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-20"
+      ]
+    },
+    {
+      "index": 94,
+      "lo_id": "LO-FSA-21",
+      "subject": "Financial Statement Analysis",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.236,
+      "expected_marginal_eec_value": 0.5155,
+      "matched_codes": [
+        "LO-FSA-21"
+      ]
+    },
+    {
+      "index": 95,
+      "lo_id": "LO-FSA-22",
+      "subject": "Financial Statement Analysis",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.236,
+      "expected_marginal_eec_value": 0.5155,
+      "matched_codes": [
+        "LO-FSA-22"
+      ]
+    },
+    {
+      "index": 96,
+      "lo_id": "LO-FSA-23",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-23"
+      ]
+    },
+    {
+      "index": 97,
+      "lo_id": "LO-FSA-24",
+      "subject": "Financial Statement Analysis",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.236,
+      "expected_marginal_eec_value": 0.5155,
+      "matched_codes": [
+        "LO-FSA-24"
+      ]
+    },
+    {
+      "index": 98,
+      "lo_id": "LO-FSA-25",
+      "subject": "Financial Statement Analysis",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3147,
+      "expected_marginal_eec_value": 0.6873,
+      "matched_codes": [
+        "LO-FSA-25"
+      ]
+    },
+    {
+      "index": 99,
+      "lo_id": "LO-FSA-26",
+      "subject": "Financial Statement Analysis",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3934,
+      "expected_marginal_eec_value": 1.074,
+      "matched_codes": []
+    },
+    {
+      "index": 100,
+      "lo_id": "LO-FSA-27",
+      "subject": "Financial Statement Analysis",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3934,
+      "expected_marginal_eec_value": 1.074,
+      "matched_codes": []
+    },
+    {
+      "index": 101,
+      "lo_id": "LO-FSA-28",
+      "subject": "Financial Statement Analysis",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3934,
+      "expected_marginal_eec_value": 1.074,
+      "matched_codes": []
+    },
+    {
+      "index": 102,
+      "lo_id": "LO-FSA-29",
+      "subject": "Financial Statement Analysis",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3934,
+      "expected_marginal_eec_value": 1.074,
+      "matched_codes": []
+    },
+    {
+      "index": 103,
+      "lo_id": "LO-FSA-30",
+      "subject": "Financial Statement Analysis",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3934,
+      "expected_marginal_eec_value": 1.074,
+      "matched_codes": []
+    },
+    {
+      "index": 104,
+      "lo_id": "LO-FSA-31",
+      "subject": "Financial Statement Analysis",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.39339,
+      "max_remaining_eec_potential": 0.3934,
+      "expected_marginal_eec_value": 1.074,
+      "matched_codes": []
+    },
+    {
+      "index": 105,
+      "lo_id": "LO-COR-01",
+      "subject": "Corporate Issuers",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "COR-03-01-LO01",
+        "COR-03-01-LO02",
+        "COR-04-01-LO01",
+        "COR-02-01-LO02",
+        "COR-04-01-LO04",
+        "COR-04-01-LO05",
+        "COR-02-01-LO04",
+        "COR-03-01-LO03",
+        "COR-04-01-LO02",
+        "COR-01-01-LO03",
+        "COR-04-01-LO03",
+        "COR-03-01-LO04",
+        "COR-01-01-LO02",
+        "COR-02-01-LO03",
+        "COR-01-01-LO01",
+        "COR-02-01-LO01",
+        "COR-05-01-LO01",
+        "COR-05-01-LO02",
+        "COR-01-01-LO04"
+      ]
+    },
+    {
+      "index": 106,
+      "lo_id": "LO-COR-02",
+      "subject": "Corporate Issuers",
+      "q_count": 12,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "COR-03-01-LO02",
+        "COR-02-01-LO02",
+        "COR-02-01-LO04",
+        "COR-04-01-LO02",
+        "COR-01-01-LO02",
+        "COR-02-01-LO03",
+        "COR-02-01-LO01",
+        "COR-05-01-LO02",
+        "LO-COR-02"
+      ]
+    },
+    {
+      "index": 107,
+      "lo_id": "LO-COR-03",
+      "subject": "Corporate Issuers",
+      "q_count": 11,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "COR-03-01-LO01",
+        "COR-03-01-LO02",
+        "COR-03-01-LO03",
+        "COR-01-01-LO03",
+        "COR-04-01-LO03",
+        "COR-03-01-LO04",
+        "COR-02-01-LO03",
+        "LO-COR-03"
+      ]
+    },
+    {
+      "index": 108,
+      "lo_id": "LO-COR-04",
+      "subject": "Corporate Issuers",
+      "q_count": 12,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "COR-04-01-LO01",
+        "COR-04-01-LO04",
+        "COR-04-01-LO05",
+        "COR-02-01-LO04",
+        "COR-04-01-LO02",
+        "COR-04-01-LO03",
+        "COR-03-01-LO04",
+        "COR-01-01-LO04",
+        "LO-COR-04"
+      ]
+    },
+    {
+      "index": 109,
+      "lo_id": "LO-COR-05",
+      "subject": "Corporate Issuers",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.077,
+      "expected_marginal_eec_value": 0.077,
+      "matched_codes": [
+        "COR-04-01-LO05",
+        "COR-05-01-LO01",
+        "COR-05-01-LO02",
+        "LO-COR-05"
+      ]
+    },
+    {
+      "index": 110,
+      "lo_id": "LO-COR-06",
+      "subject": "Corporate Issuers",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.2311,
+      "expected_marginal_eec_value": 0.3605,
+      "matched_codes": [
+        "LO-COR-06"
+      ]
+    },
+    {
+      "index": 111,
+      "lo_id": "LO-COR-07",
+      "subject": "Corporate Issuers",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.2311,
+      "expected_marginal_eec_value": 0.3605,
+      "matched_codes": [
+        "LO-COR-07"
+      ]
+    },
+    {
+      "index": 112,
+      "lo_id": "LO-COR-08",
+      "subject": "Corporate Issuers",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.2311,
+      "expected_marginal_eec_value": 0.3605,
+      "matched_codes": [
+        "LO-COR-08"
+      ]
+    },
+    {
+      "index": 113,
+      "lo_id": "LO-COR-09",
+      "subject": "Corporate Issuers",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.2311,
+      "expected_marginal_eec_value": 0.3605,
+      "matched_codes": [
+        "LO-COR-09"
+      ]
+    },
+    {
+      "index": 114,
+      "lo_id": "LO-COR-10",
+      "subject": "Corporate Issuers",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3081,
+      "expected_marginal_eec_value": 0.4806,
+      "matched_codes": [
+        "LO-COR-10"
+      ]
+    },
+    {
+      "index": 115,
+      "lo_id": "LO-COR-11",
+      "subject": "Corporate Issuers",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3081,
+      "expected_marginal_eec_value": 0.4806,
+      "matched_codes": [
+        "LO-COR-11"
+      ]
+    },
+    {
+      "index": 116,
+      "lo_id": "LO-COR-12",
+      "subject": "Corporate Issuers",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3081,
+      "expected_marginal_eec_value": 0.4806,
+      "matched_codes": [
+        "LO-COR-12"
+      ]
+    },
+    {
+      "index": 117,
+      "lo_id": "LO-COR-13",
+      "subject": "Corporate Issuers",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3081,
+      "expected_marginal_eec_value": 0.4806,
+      "matched_codes": [
+        "LO-COR-13"
+      ]
+    },
+    {
+      "index": 118,
+      "lo_id": "LO-COR-14",
+      "subject": "Corporate Issuers",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3851,
+      "expected_marginal_eec_value": 0.751,
+      "matched_codes": []
+    },
+    {
+      "index": 119,
+      "lo_id": "LO-COR-15",
+      "subject": "Corporate Issuers",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3851,
+      "expected_marginal_eec_value": 0.751,
+      "matched_codes": []
+    },
+    {
+      "index": 120,
+      "lo_id": "LO-COR-16",
+      "subject": "Corporate Issuers",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3851,
+      "expected_marginal_eec_value": 0.751,
+      "matched_codes": []
+    },
+    {
+      "index": 121,
+      "lo_id": "LO-COR-17",
+      "subject": "Corporate Issuers",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3851,
+      "expected_marginal_eec_value": 0.751,
+      "matched_codes": []
+    },
+    {
+      "index": 122,
+      "lo_id": "LO-COR-18",
+      "subject": "Corporate Issuers",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3851,
+      "expected_marginal_eec_value": 0.751,
+      "matched_codes": []
+    },
+    {
+      "index": 123,
+      "lo_id": "LO-COR-19",
+      "subject": "Corporate Issuers",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.38511,
+      "max_remaining_eec_potential": 0.3851,
+      "expected_marginal_eec_value": 0.751,
+      "matched_codes": []
+    },
+    {
+      "index": 124,
+      "lo_id": "LO-EQT-01",
+      "subject": "Equity Investments",
+      "q_count": 10,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "EQT-01-01-LO02",
+        "EQT-02-01-LO01",
+        "EQT-03-01-LO01",
+        "EQT-06-01-LO02",
+        "EQT-06-01-LO03",
+        "EQT-06-01-LO05",
+        "EQT-05-01-LO02",
+        "EQT-06-01-LO06",
+        "EQT-06-01-LO04",
+        "EQT-06-01-LO07"
+      ]
+    },
+    {
+      "index": 125,
+      "lo_id": "LO-EQT-02",
+      "subject": "Equity Investments",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.106,
+      "expected_marginal_eec_value": 0.1485,
+      "matched_codes": [
+        "EQT-01-01-LO02",
+        "EQT-02-01-LO01",
+        "EQT-06-01-LO02",
+        "EQT-05-01-LO02",
+        "LO-EQT-02"
+      ]
+    },
+    {
+      "index": 126,
+      "lo_id": "LO-EQT-03",
+      "subject": "Equity Investments",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.2121,
+      "expected_marginal_eec_value": 0.2969,
+      "matched_codes": [
+        "EQT-03-01-LO01",
+        "EQT-06-01-LO03",
+        "LO-EQT-03"
+      ]
+    },
+    {
+      "index": 127,
+      "lo_id": "LO-EQT-04",
+      "subject": "Equity Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.3181,
+      "expected_marginal_eec_value": 0.6948,
+      "matched_codes": [
+        "EQT-06-01-LO04",
+        "LO-EQT-04"
+      ]
+    },
+    {
+      "index": 128,
+      "lo_id": "LO-EQT-05",
+      "subject": "Equity Investments",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.2121,
+      "expected_marginal_eec_value": 0.2969,
+      "matched_codes": [
+        "EQT-06-01-LO05",
+        "EQT-05-01-LO02",
+        "LO-EQT-05"
+      ]
+    },
+    {
+      "index": 129,
+      "lo_id": "LO-EQT-06",
+      "subject": "Equity Investments",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "EQT-06-01-LO02",
+        "EQT-06-01-LO03",
+        "EQT-06-01-LO05",
+        "EQT-06-01-LO06",
+        "EQT-06-01-LO04",
+        "EQT-06-01-LO07",
+        "LO-EQT-06"
+      ]
+    },
+    {
+      "index": 130,
+      "lo_id": "LO-EQT-07",
+      "subject": "Equity Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.3181,
+      "expected_marginal_eec_value": 0.6948,
+      "matched_codes": [
+        "EQT-06-01-LO07",
+        "LO-EQT-07"
+      ]
+    },
+    {
+      "index": 131,
+      "lo_id": "LO-EQT-08",
+      "subject": "Equity Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.4242,
+      "expected_marginal_eec_value": 0.9264,
+      "matched_codes": [
+        "LO-EQT-08"
+      ]
+    },
+    {
+      "index": 132,
+      "lo_id": "LO-EQT-09",
+      "subject": "Equity Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.3181,
+      "expected_marginal_eec_value": 0.6948,
+      "matched_codes": [
+        "LO-EQT-09"
+      ]
+    },
+    {
+      "index": 133,
+      "lo_id": "LO-EQT-10",
+      "subject": "Equity Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.3181,
+      "expected_marginal_eec_value": 0.6948,
+      "matched_codes": [
+        "LO-EQT-10"
+      ]
+    },
+    {
+      "index": 134,
+      "lo_id": "LO-EQT-11",
+      "subject": "Equity Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.3181,
+      "expected_marginal_eec_value": 0.6948,
+      "matched_codes": [
+        "LO-EQT-11"
+      ]
+    },
+    {
+      "index": 135,
+      "lo_id": "LO-EQT-12",
+      "subject": "Equity Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.3181,
+      "expected_marginal_eec_value": 0.6948,
+      "matched_codes": [
+        "LO-EQT-12"
+      ]
+    },
+    {
+      "index": 136,
+      "lo_id": "LO-EQT-13",
+      "subject": "Equity Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.4242,
+      "expected_marginal_eec_value": 0.9264,
+      "matched_codes": [
+        "LO-EQT-13"
+      ]
+    },
+    {
+      "index": 137,
+      "lo_id": "LO-EQT-14",
+      "subject": "Equity Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.4242,
+      "expected_marginal_eec_value": 0.9264,
+      "matched_codes": [
+        "LO-EQT-14"
+      ]
+    },
+    {
+      "index": 138,
+      "lo_id": "LO-EQT-15",
+      "subject": "Equity Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.4242,
+      "expected_marginal_eec_value": 0.9264,
+      "matched_codes": [
+        "LO-EQT-15"
+      ]
+    },
+    {
+      "index": 139,
+      "lo_id": "LO-EQT-16",
+      "subject": "Equity Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.4242,
+      "expected_marginal_eec_value": 0.9264,
+      "matched_codes": [
+        "LO-EQT-16"
+      ]
+    },
+    {
+      "index": 140,
+      "lo_id": "LO-EQT-17",
+      "subject": "Equity Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.4242,
+      "expected_marginal_eec_value": 0.9264,
+      "matched_codes": [
+        "LO-EQT-17"
+      ]
+    },
+    {
+      "index": 141,
+      "lo_id": "LO-EQT-18",
+      "subject": "Equity Investments",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.5302,
+      "expected_marginal_eec_value": 1.4475,
+      "matched_codes": []
+    },
+    {
+      "index": 142,
+      "lo_id": "LO-EQT-19",
+      "subject": "Equity Investments",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.5302,
+      "expected_marginal_eec_value": 1.4475,
+      "matched_codes": []
+    },
+    {
+      "index": 143,
+      "lo_id": "LO-EQT-20",
+      "subject": "Equity Investments",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.5302,
+      "expected_marginal_eec_value": 1.4475,
+      "matched_codes": []
+    },
+    {
+      "index": 144,
+      "lo_id": "LO-EQT-21",
+      "subject": "Equity Investments",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.5302,
+      "expected_marginal_eec_value": 1.4475,
+      "matched_codes": []
+    },
+    {
+      "index": 145,
+      "lo_id": "LO-EQT-22",
+      "subject": "Equity Investments",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.5302,
+      "expected_marginal_eec_value": 1.4475,
+      "matched_codes": []
+    },
+    {
+      "index": 146,
+      "lo_id": "LO-EQT-23",
+      "subject": "Equity Investments",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.53022,
+      "max_remaining_eec_potential": 0.5302,
+      "expected_marginal_eec_value": 1.4475,
+      "matched_codes": []
+    },
+    {
+      "index": 147,
+      "lo_id": "LO-FIX-01",
+      "subject": "Fixed Income",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FIX-03-01-LO01",
+        "FIX-01-01-LO04",
+        "FIX-03-01-LO03",
+        "FIX-06-01-LO02",
+        "FIX-06-01-LO01",
+        "FIX-06-01-LO06",
+        "FIX-03-01-LO04",
+        "FIX-05-01-LO02",
+        "FIX-04-01-LO03",
+        "FIX-07-01-LO01",
+        "FIX-05-01-LO03",
+        "FIX-03-01-LO06",
+        "FIX-01-01-LO02",
+        "FIX-06-01-LO03",
+        "FIX-08-01-LO02",
+        "FIX-02-01-LO01",
+        "FIX-03-01-LO02",
+        "FIX-04-01-LO01",
+        "FIX-05-01-LO01",
+        "FIX-07-01-LO02",
+        "FIX-07-01-LO03"
+      ]
+    },
+    {
+      "index": 148,
+      "lo_id": "LO-FIX-02",
+      "subject": "Fixed Income",
+      "q_count": 9,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FIX-06-01-LO02",
+        "FIX-05-01-LO02",
+        "FIX-01-01-LO02",
+        "FIX-08-01-LO02",
+        "FIX-02-01-LO01",
+        "FIX-03-01-LO02",
+        "FIX-07-01-LO02",
+        "LO-FIX-02"
+      ]
+    },
+    {
+      "index": 149,
+      "lo_id": "LO-FIX-03",
+      "subject": "Fixed Income",
+      "q_count": 11,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FIX-03-01-LO01",
+        "FIX-03-01-LO03",
+        "FIX-03-01-LO04",
+        "FIX-04-01-LO03",
+        "FIX-05-01-LO03",
+        "FIX-03-01-LO06",
+        "FIX-06-01-LO03",
+        "FIX-03-01-LO02",
+        "FIX-07-01-LO03",
+        "LO-FIX-03"
+      ]
+    },
+    {
+      "index": 150,
+      "lo_id": "LO-FIX-04",
+      "subject": "Fixed Income",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0938,
+      "expected_marginal_eec_value": 0.1313,
+      "matched_codes": [
+        "FIX-01-01-LO04",
+        "FIX-03-01-LO04",
+        "FIX-04-01-LO03",
+        "FIX-04-01-LO01",
+        "LO-FIX-04"
+      ]
+    },
+    {
+      "index": 151,
+      "lo_id": "LO-FIX-05",
+      "subject": "Fixed Income",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FIX-05-01-LO02",
+        "FIX-05-01-LO03",
+        "FIX-05-01-LO01",
+        "LO-FIX-05"
+      ]
+    },
+    {
+      "index": 152,
+      "lo_id": "LO-FIX-06",
+      "subject": "Fixed Income",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "FIX-06-01-LO02",
+        "FIX-06-01-LO01",
+        "FIX-06-01-LO06",
+        "FIX-03-01-LO06",
+        "FIX-06-01-LO03",
+        "LO-FIX-06"
+      ]
+    },
+    {
+      "index": 153,
+      "lo_id": "LO-FIX-07",
+      "subject": "Fixed Income",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.0938,
+      "expected_marginal_eec_value": 0.1313,
+      "matched_codes": [
+        "FIX-07-01-LO01",
+        "FIX-07-01-LO02",
+        "FIX-07-01-LO03",
+        "LO-FIX-07"
+      ]
+    },
+    {
+      "index": 154,
+      "lo_id": "LO-FIX-08",
+      "subject": "Fixed Income",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.2814,
+      "expected_marginal_eec_value": 0.6146,
+      "matched_codes": [
+        "FIX-08-01-LO02",
+        "LO-FIX-08"
+      ]
+    },
+    {
+      "index": 155,
+      "lo_id": "LO-FIX-09",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-09"
+      ]
+    },
+    {
+      "index": 156,
+      "lo_id": "LO-FIX-10",
+      "subject": "Fixed Income",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.2814,
+      "expected_marginal_eec_value": 0.6146,
+      "matched_codes": [
+        "LO-FIX-10"
+      ]
+    },
+    {
+      "index": 157,
+      "lo_id": "LO-FIX-11",
+      "subject": "Fixed Income",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.2814,
+      "expected_marginal_eec_value": 0.6146,
+      "matched_codes": [
+        "LO-FIX-11"
+      ]
+    },
+    {
+      "index": 158,
+      "lo_id": "LO-FIX-12",
+      "subject": "Fixed Income",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.2814,
+      "expected_marginal_eec_value": 0.6146,
+      "matched_codes": [
+        "LO-FIX-12"
+      ]
+    },
+    {
+      "index": 159,
+      "lo_id": "LO-FIX-13",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-13"
+      ]
+    },
+    {
+      "index": 160,
+      "lo_id": "LO-FIX-14",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-14"
+      ]
+    },
+    {
+      "index": 161,
+      "lo_id": "LO-FIX-15",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-15"
+      ]
+    },
+    {
+      "index": 162,
+      "lo_id": "LO-FIX-16",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-16"
+      ]
+    },
+    {
+      "index": 163,
+      "lo_id": "LO-FIX-17",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-17"
+      ]
+    },
+    {
+      "index": 164,
+      "lo_id": "LO-FIX-18",
+      "subject": "Fixed Income",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.3752,
+      "expected_marginal_eec_value": 0.8195,
+      "matched_codes": [
+        "LO-FIX-18"
+      ]
+    },
+    {
+      "index": 165,
+      "lo_id": "LO-FIX-19",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 166,
+      "lo_id": "LO-FIX-20",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 167,
+      "lo_id": "LO-FIX-21",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 168,
+      "lo_id": "LO-FIX-22",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 169,
+      "lo_id": "LO-FIX-23",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 170,
+      "lo_id": "LO-FIX-24",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 171,
+      "lo_id": "LO-FIX-25",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 172,
+      "lo_id": "LO-FIX-26",
+      "subject": "Fixed Income",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46904,
+      "max_remaining_eec_potential": 0.469,
+      "expected_marginal_eec_value": 1.2805,
+      "matched_codes": []
+    },
+    {
+      "index": 173,
+      "lo_id": "LO-DER-01",
+      "subject": "Derivatives",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "DER-01-01-LO02",
+        "DER-02-01-LO02",
+        "DER-04-01-LO02",
+        "DER-06-01-LO02",
+        "DER-02-01-LO03",
+        "DER-05-01-LO02",
+        "DER-06-01-LO01",
+        "DER-06-01-LO04",
+        "DER-05-01-LO03",
+        "DER-07-01-LO01",
+        "DER-04-01-LO03",
+        "DER-06-01-LO03",
+        "DER-02-01-LO01",
+        "DER-03-01-LO01",
+        "DER-04-01-LO01",
+        "DER-02-01-LO04",
+        "DER-02-01-LO05",
+        "DER-01-01-LO03",
+        "DER-01-01-LO01",
+        "DER-01-01-LO04"
+      ]
+    },
+    {
+      "index": 174,
+      "lo_id": "LO-DER-02",
+      "subject": "Derivatives",
+      "q_count": 14,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "DER-01-01-LO02",
+        "DER-02-01-LO02",
+        "DER-04-01-LO02",
+        "DER-06-01-LO02",
+        "DER-02-01-LO03",
+        "DER-05-01-LO02",
+        "DER-02-01-LO01",
+        "DER-02-01-LO04",
+        "DER-02-01-LO05",
+        "LO-DER-02"
+      ]
+    },
+    {
+      "index": 175,
+      "lo_id": "LO-DER-03",
+      "subject": "Derivatives",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "DER-02-01-LO03",
+        "DER-05-01-LO03",
+        "DER-04-01-LO03",
+        "DER-06-01-LO03",
+        "DER-03-01-LO01",
+        "DER-01-01-LO03",
+        "LO-DER-03"
+      ]
+    },
+    {
+      "index": 176,
+      "lo_id": "LO-DER-04",
+      "subject": "Derivatives",
+      "q_count": 10,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "DER-04-01-LO02",
+        "DER-06-01-LO04",
+        "DER-04-01-LO03",
+        "DER-04-01-LO01",
+        "DER-02-01-LO04",
+        "DER-01-01-LO04",
+        "LO-DER-04"
+      ]
+    },
+    {
+      "index": 177,
+      "lo_id": "LO-DER-05",
+      "subject": "Derivatives",
+      "q_count": 6,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.0846,
+      "expected_marginal_eec_value": 0.0846,
+      "matched_codes": [
+        "DER-05-01-LO02",
+        "DER-05-01-LO03",
+        "DER-02-01-LO05",
+        "LO-DER-05"
+      ]
+    },
+    {
+      "index": 178,
+      "lo_id": "LO-DER-06",
+      "subject": "Derivatives",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "DER-06-01-LO02",
+        "DER-06-01-LO01",
+        "DER-06-01-LO04",
+        "DER-06-01-LO03",
+        "LO-DER-06"
+      ]
+    },
+    {
+      "index": 179,
+      "lo_id": "LO-DER-07",
+      "subject": "Derivatives",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.1691,
+      "expected_marginal_eec_value": 0.1691,
+      "matched_codes": [
+        "DER-07-01-LO01",
+        "LO-DER-07"
+      ]
+    },
+    {
+      "index": 180,
+      "lo_id": "LO-DER-08",
+      "subject": "Derivatives",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.1691,
+      "expected_marginal_eec_value": 0.1691,
+      "matched_codes": [
+        "LO-DER-08"
+      ]
+    },
+    {
+      "index": 181,
+      "lo_id": "LO-DER-09",
+      "subject": "Derivatives",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.1691,
+      "expected_marginal_eec_value": 0.1691,
+      "matched_codes": [
+        "LO-DER-09"
+      ]
+    },
+    {
+      "index": 182,
+      "lo_id": "LO-DER-10",
+      "subject": "Derivatives",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.3382,
+      "expected_marginal_eec_value": 0.5276,
+      "matched_codes": [
+        "LO-DER-10"
+      ]
+    },
+    {
+      "index": 183,
+      "lo_id": "LO-DER-11",
+      "subject": "Derivatives",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.3382,
+      "expected_marginal_eec_value": 0.5276,
+      "matched_codes": [
+        "LO-DER-11"
+      ]
+    },
+    {
+      "index": 184,
+      "lo_id": "LO-DER-12",
+      "subject": "Derivatives",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.3382,
+      "expected_marginal_eec_value": 0.5276,
+      "matched_codes": [
+        "LO-DER-12"
+      ]
+    },
+    {
+      "index": 185,
+      "lo_id": "LO-DER-13",
+      "subject": "Derivatives",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.3382,
+      "expected_marginal_eec_value": 0.5276,
+      "matched_codes": [
+        "LO-DER-13"
+      ]
+    },
+    {
+      "index": 186,
+      "lo_id": "LO-DER-14",
+      "subject": "Derivatives",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.4228,
+      "expected_marginal_eec_value": 0.8244,
+      "matched_codes": []
+    },
+    {
+      "index": 187,
+      "lo_id": "LO-DER-15",
+      "subject": "Derivatives",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.42276,
+      "max_remaining_eec_potential": 0.4228,
+      "expected_marginal_eec_value": 0.8244,
+      "matched_codes": []
+    },
+    {
+      "index": 188,
+      "lo_id": "LO-ALT-01",
+      "subject": "Alternative Investments",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ALT-01-01-LO01",
+        "ALT-02-01-LO01",
+        "ALT-05-01-LO01",
+        "ALT-05-01-LO02",
+        "ALT-01-01-LO03",
+        "ALT-03-01-LO02",
+        "ALT-02-01-LO02",
+        "ALT-04-01-LO01",
+        "ALT-06-01-LO01",
+        "ALT-04-01-LO03",
+        "ALT-03-01-LO01",
+        "ALT-04-01-LO02",
+        "ALT-03-01-LO04",
+        "ALT-01-01-LO02",
+        "ALT-01-01-LO04",
+        "ALT-01-01-LO05",
+        "ALT-01-01-LO06"
+      ]
+    },
+    {
+      "index": 189,
+      "lo_id": "LO-ALT-02",
+      "subject": "Alternative Investments",
+      "q_count": 11,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ALT-02-01-LO01",
+        "ALT-05-01-LO02",
+        "ALT-03-01-LO02",
+        "ALT-02-01-LO02",
+        "ALT-04-01-LO02",
+        "ALT-01-01-LO02",
+        "LO-ALT-02"
+      ]
+    },
+    {
+      "index": 190,
+      "lo_id": "LO-ALT-03",
+      "subject": "Alternative Investments",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ALT-01-01-LO03",
+        "ALT-03-01-LO02",
+        "ALT-04-01-LO03",
+        "ALT-03-01-LO01",
+        "ALT-03-01-LO04",
+        "LO-ALT-03"
+      ]
+    },
+    {
+      "index": 191,
+      "lo_id": "LO-ALT-04",
+      "subject": "Alternative Investments",
+      "q_count": 8,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "ALT-04-01-LO01",
+        "ALT-04-01-LO03",
+        "ALT-04-01-LO02",
+        "ALT-03-01-LO04",
+        "ALT-01-01-LO04",
+        "LO-ALT-04"
+      ]
+    },
+    {
+      "index": 192,
+      "lo_id": "LO-ALT-05",
+      "subject": "Alternative Investments",
+      "q_count": 5,
+      "depth": 4,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.1185,
+      "expected_marginal_eec_value": 0.1185,
+      "matched_codes": [
+        "ALT-05-01-LO01",
+        "ALT-05-01-LO02",
+        "ALT-01-01-LO05",
+        "LO-ALT-05"
+      ]
+    },
+    {
+      "index": 193,
+      "lo_id": "LO-ALT-06",
+      "subject": "Alternative Investments",
+      "q_count": 3,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.2369,
+      "expected_marginal_eec_value": 0.2369,
+      "matched_codes": [
+        "ALT-06-01-LO01",
+        "ALT-01-01-LO06",
+        "LO-ALT-06"
+      ]
+    },
+    {
+      "index": 194,
+      "lo_id": "LO-ALT-07",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-07"
+      ]
+    },
+    {
+      "index": 195,
+      "lo_id": "LO-ALT-08",
+      "subject": "Alternative Investments",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.3554,
+      "expected_marginal_eec_value": 0.5544,
+      "matched_codes": [
+        "LO-ALT-08"
+      ]
+    },
+    {
+      "index": 196,
+      "lo_id": "LO-ALT-09",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-09"
+      ]
+    },
+    {
+      "index": 197,
+      "lo_id": "LO-ALT-10",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-10"
+      ]
+    },
+    {
+      "index": 198,
+      "lo_id": "LO-ALT-11",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-11"
+      ]
+    },
+    {
+      "index": 199,
+      "lo_id": "LO-ALT-12",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-12"
+      ]
+    },
+    {
+      "index": 200,
+      "lo_id": "LO-ALT-13",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-13"
+      ]
+    },
+    {
+      "index": 201,
+      "lo_id": "LO-ALT-14",
+      "subject": "Alternative Investments",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.59233,
+      "max_remaining_eec_potential": 0.4739,
+      "expected_marginal_eec_value": 0.7392,
+      "matched_codes": [
+        "LO-ALT-14"
+      ]
+    },
+    {
+      "index": 202,
+      "lo_id": "LO-PRT-01",
+      "subject": "Portfolio Management",
+      "q_count": 25,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "PRT-03-01-LO01",
+        "PRT-03-01-LO02",
+        "PRT-03-01-LO04",
+        "PRT-03-01-LO03",
+        "PRT-04-01-LO01",
+        "PRT-02-01-LO01",
+        "PRT-02-01-LO04",
+        "PRT-05-01-LO02",
+        "PRT-05-01-LO01",
+        "PRT-04-01-LO03",
+        "PRT-02-01-LO02",
+        "PRT-06-01-LO03",
+        "PRT-06-01-LO01",
+        "PRT-01-01-LO03",
+        "PRT-03-01-LO05"
+      ]
+    },
+    {
+      "index": 203,
+      "lo_id": "LO-PRT-02",
+      "subject": "Portfolio Management",
+      "q_count": 9,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "PRT-03-01-LO02",
+        "PRT-02-01-LO01",
+        "PRT-02-01-LO04",
+        "PRT-05-01-LO02",
+        "PRT-02-01-LO02",
+        "LO-PRT-02"
+      ]
+    },
+    {
+      "index": 204,
+      "lo_id": "LO-PRT-03",
+      "subject": "Portfolio Management",
+      "q_count": 15,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "PRT-03-01-LO01",
+        "PRT-03-01-LO02",
+        "PRT-03-01-LO04",
+        "PRT-03-01-LO03",
+        "PRT-04-01-LO03",
+        "PRT-06-01-LO03",
+        "PRT-01-01-LO03",
+        "PRT-03-01-LO05",
+        "LO-PRT-03"
+      ]
+    },
+    {
+      "index": 205,
+      "lo_id": "LO-PRT-04",
+      "subject": "Portfolio Management",
+      "q_count": 9,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "PRT-03-01-LO04",
+        "PRT-04-01-LO01",
+        "PRT-02-01-LO04",
+        "PRT-04-01-LO03",
+        "LO-PRT-04"
+      ]
+    },
+    {
+      "index": 206,
+      "lo_id": "LO-PRT-05",
+      "subject": "Portfolio Management",
+      "q_count": 7,
+      "depth": 5,
+      "status": "\ud83d\udfe2 Strong Coverage",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.0,
+      "expected_marginal_eec_value": 0.0,
+      "matched_codes": [
+        "PRT-05-01-LO02",
+        "PRT-05-01-LO01",
+        "PRT-03-01-LO05",
+        "LO-PRT-05"
+      ]
+    },
+    {
+      "index": 207,
+      "lo_id": "LO-PRT-06",
+      "subject": "Portfolio Management",
+      "q_count": 4,
+      "depth": 3,
+      "status": "\ud83d\udfe1 YELLOW",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.1858,
+      "expected_marginal_eec_value": 0.1858,
+      "matched_codes": [
+        "PRT-06-01-LO03",
+        "PRT-06-01-LO01",
+        "LO-PRT-06"
+      ]
+    },
+    {
+      "index": 208,
+      "lo_id": "LO-PRT-07",
+      "subject": "Portfolio Management",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.2787,
+      "expected_marginal_eec_value": 0.4348,
+      "matched_codes": [
+        "LO-PRT-07"
+      ]
+    },
+    {
+      "index": 209,
+      "lo_id": "LO-PRT-08",
+      "subject": "Portfolio Management",
+      "q_count": 2,
+      "depth": 2,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.2787,
+      "expected_marginal_eec_value": 0.4348,
+      "matched_codes": [
+        "LO-PRT-08"
+      ]
+    },
+    {
+      "index": 210,
+      "lo_id": "LO-PRT-09",
+      "subject": "Portfolio Management",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.3717,
+      "expected_marginal_eec_value": 0.5798,
+      "matched_codes": [
+        "LO-PRT-09"
+      ]
+    },
+    {
+      "index": 211,
+      "lo_id": "LO-PRT-10",
+      "subject": "Portfolio Management",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.3717,
+      "expected_marginal_eec_value": 0.5798,
+      "matched_codes": [
+        "LO-PRT-10"
+      ]
+    },
+    {
+      "index": 212,
+      "lo_id": "LO-PRT-11",
+      "subject": "Portfolio Management",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.3717,
+      "expected_marginal_eec_value": 0.5798,
+      "matched_codes": [
+        "LO-PRT-11"
+      ]
+    },
+    {
+      "index": 213,
+      "lo_id": "LO-PRT-12",
+      "subject": "Portfolio Management",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.3717,
+      "expected_marginal_eec_value": 0.5798,
+      "matched_codes": [
+        "LO-PRT-12"
+      ]
+    },
+    {
+      "index": 214,
+      "lo_id": "LO-PRT-13",
+      "subject": "Portfolio Management",
+      "q_count": 1,
+      "depth": 1,
+      "status": "\ud83d\udfe0 ORANGE",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.3717,
+      "expected_marginal_eec_value": 0.5798,
+      "matched_codes": [
+        "LO-PRT-13"
+      ]
+    },
+    {
+      "index": 215,
+      "lo_id": "LO-PRT-14",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 216,
+      "lo_id": "LO-PRT-15",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 217,
+      "lo_id": "LO-PRT-16",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 218,
+      "lo_id": "LO-PRT-17",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 219,
+      "lo_id": "LO-PRT-18",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 220,
+      "lo_id": "LO-PRT-19",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 221,
+      "lo_id": "LO-PRT-20",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    },
+    {
+      "index": 222,
+      "lo_id": "LO-PRT-21",
+      "subject": "Portfolio Management",
+      "q_count": 0,
+      "depth": 0,
+      "status": "\ud83d\udd34 RED",
+      "lo_weight_pct": 0.46458,
+      "max_remaining_eec_potential": 0.4646,
+      "expected_marginal_eec_value": 0.9059,
+      "matched_codes": []
+    }
+  ]
+}

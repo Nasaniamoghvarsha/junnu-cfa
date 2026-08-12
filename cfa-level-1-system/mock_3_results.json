@@ -1,0 +1,108 @@
+{
+  "evaluation_name": "Full-Length Mock Exam 3 (Stress & Distortion Testing - 180 Qs)",
+  "total_questions": 180,
+  "overall_accuracy_pct": 82.2,
+  "mock_status": "EXCELLENT STRESS RESILIENCE (81.7% Overall Score)",
+  "resilience_interpretation": ">= 80.0%: EXCELLENT STRESS RESILIENCE (Maintained 81.7% under complex traps & time pressure)",
+  "session_breakdown": {
+    "session_1_morning": {
+      "questions": 90,
+      "correct": 73,
+      "accuracy_pct": 81.1
+    },
+    "session_2_afternoon": {
+      "questions": 90,
+      "correct": 75,
+      "accuracy_pct": 83.3
+    },
+    "session_consistency_delta_pp": 2.2
+  },
+  "subject_performance": {
+    "Ethical & Professional Standards": {
+      "session": "Session 1",
+      "questions_tested": 27,
+      "correct": 22,
+      "accuracy_pct": 81.5,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Quantitative Methods": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 11,
+      "accuracy_pct": 78.6,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Economics": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Financial Statement Analysis": {
+      "session": "Session 1",
+      "questions_tested": 23,
+      "correct": 18,
+      "accuracy_pct": 78.3,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Corporate Issuers": {
+      "session": "Session 1",
+      "questions_tested": 12,
+      "correct": 10,
+      "accuracy_pct": 83.3,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Equity Investments": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Fixed Income": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Derivatives": {
+      "session": "Session 2",
+      "questions_tested": 9,
+      "correct": 7,
+      "accuracy_pct": 77.8,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Alternative Investments": {
+      "session": "Session 2",
+      "questions_tested": 17,
+      "correct": 15,
+      "accuracy_pct": 88.2,
+      "resilience_status": "STABLE_RESILIENT"
+    },
+    "Portfolio Management": {
+      "session": "Session 2",
+      "questions_tested": 18,
+      "correct": 15,
+      "accuracy_pct": 83.3,
+      "resilience_status": "STABLE_RESILIENT"
+    }
+  },
+  "speed_efficiency_profile": {
+    "median_time_sec": 89.2,
+    "p75_time_sec": 101.1,
+    "p90_time_sec": 105.5,
+    "speed_accuracy_index": 0.922,
+    "abandoned_guessed_rate_pct": 0.85
+  },
+  "gate_e_mock_progress": {
+    "completed_mocks": 3,
+    "target_mocks": 4,
+    "mock_1_score": 83.9,
+    "mock_2_score": 85.0,
+    "mock_3_score": 82.2,
+    "internal_mps_benchmark": 70.0,
+    "margin_above_mps_pp": 12.2
+  }
+}

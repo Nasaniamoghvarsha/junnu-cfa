@@ -1,0 +1,117 @@
+{
+  "evaluation_name": "Full-Length Mock Exam 2 (180 Questions)",
+  "total_questions": 180,
+  "overall_accuracy_pct": 85.0,
+  "mock_status": "EXCEPTIONAL MOCK 2 REPEATABILITY (85.0% Overall Score)",
+  "repeatability_interpretation": ">= 80.0%: EXCELLENT CONSISTENCY (Passed Mock 1 at 83.9%, Mock 2 at 85.0%)",
+  "session_breakdown": {
+    "session_1_morning": {
+      "questions": 90,
+      "correct": 76,
+      "accuracy_pct": 84.4
+    },
+    "session_2_afternoon": {
+      "questions": 90,
+      "correct": 77,
+      "accuracy_pct": 85.6
+    },
+    "session_consistency_delta_pp": 1.2
+  },
+  "subject_performance": {
+    "Ethical & Professional Standards": {
+      "session": "Session 1",
+      "questions_tested": 27,
+      "correct": 23,
+      "accuracy_pct": 85.2,
+      "mock1_accuracy_pct": 85.2,
+      "volatility_status": "STABLE"
+    },
+    "Quantitative Methods": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7,
+      "mock1_accuracy_pct": 78.6,
+      "volatility_status": "STABLE"
+    },
+    "Economics": {
+      "session": "Session 1",
+      "questions_tested": 14,
+      "correct": 12,
+      "accuracy_pct": 85.7,
+      "mock1_accuracy_pct": 85.7,
+      "volatility_status": "STABLE"
+    },
+    "Financial Statement Analysis": {
+      "session": "Session 1",
+      "questions_tested": 23,
+      "correct": 19,
+      "accuracy_pct": 82.6,
+      "mock1_accuracy_pct": 82.6,
+      "volatility_status": "STABLE"
+    },
+    "Corporate Issuers": {
+      "session": "Session 1",
+      "questions_tested": 12,
+      "correct": 10,
+      "accuracy_pct": 83.3,
+      "mock1_accuracy_pct": 83.3,
+      "volatility_status": "STABLE"
+    },
+    "Equity Investments": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 20,
+      "accuracy_pct": 87.0,
+      "mock1_accuracy_pct": 87.0,
+      "volatility_status": "STABLE"
+    },
+    "Fixed Income": {
+      "session": "Session 2",
+      "questions_tested": 23,
+      "correct": 20,
+      "accuracy_pct": 87.0,
+      "mock1_accuracy_pct": 82.6,
+      "volatility_status": "STABLE"
+    },
+    "Derivatives": {
+      "session": "Session 2",
+      "questions_tested": 9,
+      "correct": 7,
+      "accuracy_pct": 77.8,
+      "mock1_accuracy_pct": 77.8,
+      "volatility_status": "STABLE"
+    },
+    "Alternative Investments": {
+      "session": "Session 2",
+      "questions_tested": 17,
+      "correct": 15,
+      "accuracy_pct": 88.2,
+      "mock1_accuracy_pct": 88.2,
+      "volatility_status": "STABLE"
+    },
+    "Portfolio Management": {
+      "session": "Session 2",
+      "questions_tested": 18,
+      "correct": 15,
+      "accuracy_pct": 83.3,
+      "mock1_accuracy_pct": 83.3,
+      "volatility_status": "STABLE"
+    }
+  },
+  "speed_efficiency_profile": {
+    "median_time_sec": 85.1,
+    "p75_time_sec": 94.8,
+    "p90_time_sec": 98.3,
+    "speed_accuracy_index": 0.999,
+    "abandoned_guessed_rate_pct": 0.45
+  },
+  "gate_e_mock_progress": {
+    "completed_mocks": 2,
+    "target_mocks": 4,
+    "mock_1_score": 83.9,
+    "mock_2_score": 85.0,
+    "internal_mps_benchmark": 70.0,
+    "margin_above_mps_pp": 15.0
+  }
+}
