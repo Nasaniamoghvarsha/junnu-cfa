@@ -1,6 +1,9 @@
-# CFA Level I — Mock Exam System
+## MOCK EXAM SYSTEM — FULL SIMULATION PAPERS
 
-## Purpose: Full-length exam simulations using original CFA-style questions.
+Select a full 90-question paper below to launch the **Interactive Mock Examination Practice Engine**:
+
+- 📝 **[Launch Mock Exam 1 (Session 1: AM Morning Paper - 90 Questions)](#)** — *Ethics, Quant, Econ, FSA, Corporate Issuers*
+- 📝 **[Launch Mock Exam 1 (Session 2: PM Afternoon Paper - 90 Questions)](#)** — *Equity, Fixed Income, Derivatives, Alt Inv, Portfolio Management*
 
 ---
 
