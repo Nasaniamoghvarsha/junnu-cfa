@@ -1,4 +1,5 @@
 import os
+import re
 
 AM_PATH = os.path.abspath(r"c:\Users\nasan\OneDrive\Desktop\junnu cfa\cfa-level-1-system\mock-exams\mock-exam-1-am.md")
 PM_PATH = os.path.abspath(r"c:\Users\nasan\OneDrive\Desktop\junnu cfa\cfa-level-1-system\mock-exams\mock-exam-1-pm.md")
@@ -36,7 +37,7 @@ def generate_paper(filepath, title, subjects_data):
 
         for i in range(count):
             concept = concepts[i % len(concepts)]
-            diff = (i % 4) + 2 # Difficulty 2 to 5
+            diff = (i % 4) + 2
             time_sec = 60 if diff == 2 else (90 if diff == 3 else 120)
             pattern = "Calculation" if i % 2 == 0 else "Conceptual Rationale"
             

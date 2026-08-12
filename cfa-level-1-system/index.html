@@ -174,7 +174,7 @@ async function loadContent(file,linkElement,event){
       contentBody.innerHTML=marked.parse(await r.text());
       makeQuizInteractive();
       if(typeof renderMathInElement==='function'){
-        renderMathInElement(contentBody,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false},{left:'\\[',right:'\\]',display:true}],throwOnError:false});
+        renderMathInElement(contentBody,{delimiters:[{left:'$$',right:'$$',display:true},{left:'\\(',right:'\\)',display:false},{left:'\\[',right:'\\]',display:true}],throwOnError:false});
       }
       breadcrumb.textContent=file.replace(/\//g,' › ').replace(/-/g,' ');
     }
