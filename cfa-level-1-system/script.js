@@ -299,6 +299,7 @@ function setupInteractiveQuestions(container) {
 
       let sibling = header.nextElementSibling;
       const nodesToRemove = [];
+      const siblingEls = [];
       let blockText = '';
 
       while (sibling && !['H2', 'H3'].includes(sibling.tagName)) {
@@ -307,6 +308,7 @@ function setupInteractiveQuestions(container) {
           break;
         }
         nodesToRemove.push(sibling);
+        siblingEls.push(sibling);
         blockText += (sibling.innerText || sibling.textContent || '') + '\n';
         sibling = sibling.nextElementSibling;
       }
@@ -324,69 +326,66 @@ function setupInteractiveQuestions(container) {
       const pattern = patternMatch ? patternMatch[1].trim() : 'Standard';
 
       let stemText = '';
-      const stemMatch = blockText.match(/Question:\s*([\s\S]*?)(?=A[\)\.]|B[\)\.]|C[\)\.]|Correct Answer:|$)/i);
-      if (stemMatch) {
-        stemText = stemMatch[1].trim();
-      }
-
-      // Smart Multi-Option Extractor (handles separate lines AND single-line options)
       const options = [];
+      let correctLetter = 'A';
+      let expText = '';
+      let wrongText = '';
+      let loRef = 'CFA Curriculum';
 
-      function cleanOptionString(s) {
-        if (!s) return '';
-        return s.trim()
-          .replace(/^A[\)\.]?\s*/i, '')
-          .replace(/^B[\)\.]?\s*/i, '')
-          .replace(/^C[\)\.]?\s*/i, '')
-          .replace(/\s*(?:Correct Answer:|Explanation:|Wrong Answer Analysis:).*$/i, '')
-          .replace(/\n/g, ' ')
-          .trim();
-      }
+      // 1. First attempt node-by-node extraction
+      siblingEls.forEach(el => {
+        const text = (el.innerText || el.textContent || '').trim();
+        const html = el.innerHTML;
 
-      const optAReg = /(?:^|\s|\n)A[\)\.]?\s*([\s\S]*?)(?=(?:^|\s|\n)B[\)\.]?|Correct Answer:|$)/i;
-      const optBReg = /(?:^|\s|\n)B[\)\.]?\s*([\s\S]*?)(?=(?:^|\s|\n)C[\)\.]?|Correct Answer:|$)/i;
-      const optCReg = /(?:^|\s|\n)C[\)\.]?\s*([\s\S]*?)(?=(?:^|\s|\n)Correct Answer:|Explanation:|$)/i;
+        if (text.includes('Question:')) {
+          stemText = html.replace(/<strong>Question:<\/strong>/i, '').trim();
+        } else if (text.match(/^A\)\s+/i)) {
+          options.push({ letter: 'A', text: text.replace(/^A\)\s+/i, '').trim() });
+        } else if (text.match(/^B\)\s+/i)) {
+          options.push({ letter: 'B', text: text.replace(/^B\)\s+/i, '').trim() });
+        } else if (text.match(/^C\)\s+/i)) {
+          options.push({ letter: 'C', text: text.replace(/^C\)\s+/i, '').trim() });
+        } else if (text.includes('Correct Answer:')) {
+          const m = text.match(/Correct Answer:\s*([A-C])/i);
+          if (m) correctLetter = m[1].toUpperCase();
+        } else if (text.includes('Explanation:')) {
+          expText = html.replace(/<strong>Explanation:<\/strong>/i, '').trim();
+        } else if (text.includes('Wrong Answer Analysis:')) {
+          wrongText = html.replace(/<strong>Wrong Answer Analysis:<\/strong>/i, '').trim();
+        } else if (text.includes('LO Reference:')) {
+          const m = text.match(/LO Reference:\s*([^\n]+)/i);
+          if (m) loRef = m[1].trim();
+        }
+      });
 
-      const matchA = blockText.match(optAReg);
-      const matchB = blockText.match(optBReg);
-      const matchC = blockText.match(optCReg);
-
-      if (matchA && cleanOptionString(matchA[1])) {
-        options.push({ letter: 'A', text: cleanOptionString(matchA[1]) });
-      }
-      if (matchB && cleanOptionString(matchB[1])) {
-        options.push({ letter: 'B', text: cleanOptionString(matchB[1]) });
-      }
-      if (matchC && cleanOptionString(matchC[1])) {
-        options.push({ letter: 'C', text: cleanOptionString(matchC[1]) });
-      }
-
-      // Fallback line parsing
+      // 2. Fallback text parsing if options were not on separate nodes
       if (options.length < 3) {
-        const lineList = blockText.split('\n');
-        lineList.forEach(line => {
-          const m = line.trim().match(/^([A-C])[\)\.]?\s*(.*)/);
-          if (m && !options.some(o => o.letter === m[1].toUpperCase())) {
-            options.push({ letter: m[1].toUpperCase(), text: cleanOptionString(m[2]) });
-          }
-        });
+        function cleanOptStr(s) {
+          if (!s) return '';
+          return s.trim()
+            .replace(/^A[\)\.]?\s*/i, '')
+            .replace(/^B[\)\.]?\s*/i, '')
+            .replace(/^C[\)\.]?\s*/i, '')
+            .replace(/\s*(?:Correct Answer:|Explanation:|Wrong Answer Analysis:).*$/i, '')
+            .replace(/\n/g, ' ')
+            .trim();
+        }
+
+        const matchA = blockText.match(/(?:\n|\r|^)\s*A\)\s+([\s\S]*?)(?=(?:\n|\r|^)\s*B\)\s+)/i);
+        const matchB = blockText.match(/(?:\n|\r|^)\s*B\)\s+([\s\S]*?)(?=(?:\n|\r|^)\s*C\)\s+)/i);
+        const matchC = blockText.match(/(?:\n|\r|^)\s*C\)\s+([\s\S]*?)(?=(?:\n|\r|^)\s*Correct Answer:|Explanation:|$)/i);
+
+        if (matchA && cleanOptStr(matchA[1])) options.push({ letter: 'A', text: cleanOptStr(matchA[1]) });
+        if (matchB && cleanOptStr(matchB[1])) options.push({ letter: 'B', text: cleanOptStr(matchB[1]) });
+        if (matchC && cleanOptStr(matchC[1])) options.push({ letter: 'C', text: cleanOptStr(matchC[1]) });
+
+        const stemMatch = blockText.match(/Question:\s*([\s\S]*?)(?=(?:\n|\r|^)\s*A\)\s+)/i);
+        if (stemMatch && !stemText) {
+          stemText = stemMatch[1].trim();
+        }
       }
 
       options.sort((a, b) => a.letter.localeCompare(b.letter));
-
-      const correctMatch = blockText.match(/Correct Answer:\s*([A-C])/i);
-      const correctLetter = correctMatch ? correctMatch[1].toUpperCase() : 'A';
-
-      let expText = '';
-      const expMatch = blockText.match(/Explanation:\s*([\s\S]*?)(?=Wrong Answer Analysis:|LO Reference:|$)/i);
-      if (expMatch) expText = expMatch[1].trim();
-
-      let wrongText = '';
-      const wrongMatch = blockText.match(/Wrong Answer Analysis:\s*([\s\S]*?)(?=LO Reference:|Related Concepts:|$)/i);
-      if (wrongMatch) wrongText = wrongMatch[1].trim();
-
-      const loMatch = blockText.match(/LO Reference:\s*([^\n]+)/i);
-      const loRef = loMatch ? loMatch[1].trim() : 'CFA Curriculum';
 
       const card = document.createElement('div');
       card.className = 'interactive-question-card';
